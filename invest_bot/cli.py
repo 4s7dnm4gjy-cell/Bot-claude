@@ -206,7 +206,7 @@ def main(argv: list[str] | None = None) -> None:
         from .conseil import publier
 
         numero = publier(cfg)
-        print(f"Ticket #{numero} créé" if numero else "Rien à publier.")
+        print(f"Ticket #{numero} créé" if numero else "Pas de nouvelle proposition (bulletin publié s'il est activé).")
     elif args.cmd == "commentaire":
         from .conseil import traiter_commentaire
 
