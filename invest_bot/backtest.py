@@ -161,6 +161,16 @@ def compare(cfg: Config, prices: pd.DataFrame, initial_cash: float, start: str |
     scores = moment_score(prices[cfg.benchmark])["score"]
     never_sell = 10.0
     simple = replace(cfg, reserve_pct=0.0, reserve_tiers=[], trend_filter=False, rebalance_band=never_sell)
+    if cfg.mode == "plan":
+        # Le plan achète des fractions sans frais ; le rééquilibrage, lui, coûte ~1 € par ordre.
+        plan = replace(simple, fee_fixed=0.0, fractional=True)
+        variants = [
+            ("Plan d'épargne seul (gratuit)", plan, "debut_mois"),
+            (f"Plan + rééquilibrage ({cfg.rebalance_band:.0%} de bande)",
+             replace(plan, rebalance_band=cfg.rebalance_band), "debut_mois"),
+            ("Pour comparaison : achat au meilleur moment", simple, "meilleur_moment"),
+        ]
+        return [run_backtest(c, prices, initial_cash, start, n, timing, scores) for n, c, timing in variants]
     variants = [
         ("Plan d'épargne le 1er (gratuit)", replace(simple, fee_fixed=0.0), "debut_mois"),
         ("Achat au meilleur moment du mois", simple, "meilleur_moment"),
