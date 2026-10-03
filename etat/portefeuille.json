@@ -9,7 +9,7 @@
   "proposition": null,
   "dernier_mois_plan": null,
   "palier_alerte": 0,
-  "bulletin_ticket": null,
+  "bulletin_ticket": 1,
   "achats": [],
   "historique": []
 }
