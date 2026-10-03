@@ -19,10 +19,31 @@ def test_mots_entiers_et_accents():
     assert "avertissement sur resultats" in signaux("Avertissement sur résultats pour X")[1]
 
 
+def test_faux_positifs_de_la_vraie_presse():
+    # Titres réels relevés le 03/10/2026 qui déclenchaient à tort une alerte.
+    titres = [
+        "ENQUÊTE : Les résultats de Costco mettront à l'épreuve la dynamique des ventes - Boursorama",
+        "Un initié de Costco Wholesale a vendu des actions pour 733 328 dollars, selon un récent dépôt auprès de la SEC",
+        "3 Unpopular Stocks Walking a Fine Line - StockStory",
+    ]
+    assert all(signaux(t)[0] == 0 for t in titres)
+    autre = analyser([art("Spirit Airlines' final Airbus aircraft sold in $668 million bankruptcy deal")], -0.11, "Airbus")
+    assert autre.verdict == "vert"  # la faillite est celle de Spirit, pas d'Airbus
+    dementi = analyser([art("Procter & Gamble Hygiene Denies Rumours Of Delisting")], -0.06, "Procter & Gamble")
+    assert dementi.verdict == "vert"
+    vrai = analyser([art("Airbus : soupçons de fraude, perquisition au siège"), art("Airbus scandal widens")], -0.2, "Airbus")
+    assert vrai.verdict == "rouge"
+
+
+def test_beaucoup_d_articles_mineurs_sur_une_grande_entreprise():
+    articles = [art("Walmart opens store")] * 40 + [art("FTC probe into Walmart"), art("Walmart recall")]
+    assert analyser(articles, -0.09, "Walmart").verdict == "vert"
+
+
 def test_verdicts():
     calme = analyser([art("Walmart beats estimates"), art("Walmart opens new stores")], -0.02)
     assert calme.verdict == "vert"
-    a_voir = analyser([art("SEC probe into X"), art("X faces lawsuit"), art("X recall")], -0.05)
+    a_voir = analyser([art("FTC probe into X"), art("X faces lawsuit"), art("X recall")], -0.05)
     assert a_voir.verdict == "orange" and a_voir.alertes
     grave = analyser([art("X : fraude comptable"), art("X bankruptcy fears")], -0.30)
     assert grave.verdict == "rouge"
@@ -50,5 +71,5 @@ def test_lecture_flux_et_reseau_indisponible(monkeypatch):
 
 
 def test_aller_retour_dict():
-    act = analyser([art("SEC probe into X")], -0.2)
+    act = analyser([art("FTC probe into X")], -0.2)
     assert news.Actualites.from_dict(act.to_dict()) == act

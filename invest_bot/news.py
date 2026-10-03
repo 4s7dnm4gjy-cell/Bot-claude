@@ -34,26 +34,29 @@ GOOGLE_NEWS = "https://news.google.com/rss/search?q={q}&hl={hl}&gl={gl}&ceid={gl
 LANGUES = [("fr", "FR", "fr"), ("en-US", "US", "en")]
 
 # Mot-clé (sans accents, minuscules) -> gravité (2 = grave, 1 = à surveiller).
+# Volontairement restreint : les mots qui décrivent la baisse elle-même (« plonge »)
+# ou des faits de routine (dépôt auprès de la SEC, « enquête » au sens de sondage)
+# créaient trop de fausses alertes sur les vrais titres de presse.
 SIGNAUX = {
     # Graves
     "fraude": 2, "fraud": 2, "scandale": 2, "scandal": 2, "faillite": 2, "bankruptcy": 2,
     "chapter 11": 2, "insolvabilite": 2, "insolvency": 2, "detournement": 2, "embezzlement": 2,
-    "manipulation comptable": 2, "accounting irregularities": 2, "irregularites comptables": 2, "restatement": 2,
-    "mise en examen": 2, "perquisition": 2, "raid": 2, "criminal": 2, "penal": 2,
-    "delisting": 2, "radiation de la cote": 2, "short seller": 2, "vente a decouvert": 2,
-    "suspension de cotation": 2, "trading halt": 2, "default": 2, "defaut de paiement": 2,
+    "manipulation comptable": 2, "accounting irregularities": 2, "irregularites comptables": 2,
+    "mise en examen": 2, "perquisition": 2, "criminal charges": 2, "poursuites penales": 2,
+    "delisting": 2, "radiation de la cote": 2, "short seller": 2, "vendeur a decouvert": 2,
+    "suspension de cotation": 2, "trading halt": 2, "defaut de paiement": 2, "misses payment": 2,
     # À surveiller
-    "enquete": 1, "investigation": 1, "probe": 1, "sec": 1, "doj": 1, "amf": 1,
-    "proces": 1, "lawsuit": 1, "class action": 1, "plainte": 1, "poursuite": 1, "sued": 1,
-    "amende": 1, "fine": 1, "penalty": 1, "antitrust": 1, "rappel de produit": 1, "recall": 1,
+    "enquete judiciaire": 1, "enquete penale": 1, "ouvre une enquete": 1, "enquete de la sec": 1,
+    "enquete de l'amf": 1, "investigation": 1, "probe": 1, "doj": 1, "ftc": 1,
+    "proces": 1, "lawsuit": 1, "class action": 1, "action collective": 1, "plainte": 1, "sued": 1,
+    "amende": 1, "fined": 1, "penalty": 1, "antitrust": 1, "rappel de produits": 1, "recall": 1,
     "avertissement sur resultats": 1, "profit warning": 1, "abaisse ses previsions": 1,
-    "revoit a la baisse": 1, "cuts guidance": 1, "lowers guidance": 1, "guidance cut": 1,
-    "slashes": 1, "plunge": 1, "plonge": 1, "s'effondre": 1, "chute de": 1, "tumble": 1,
-    "downgrade": 1, "degrade": 1, "demission": 1, "resigns": 1, "steps down": 1, "ceo exit": 1,
-    "licenciements": 1, "layoffs": 1, "piratage": 1, "cyberattaque": 1, "data breach": 1,
-    "boycott": 1, "sanction": 1, "sanctions": 1, "interdiction": 1, "ban": 1,
+    "revoit a la baisse": 1, "cuts guidance": 1, "lowers guidance": 1, "cuts outlook": 1,
+    "lowers outlook": 1, "guidance cut": 1, "downgrade": 1, "downgraded": 1,
+    "demission": 1, "resigns": 1, "steps down": 1, "licenciements": 1, "layoffs": 1,
+    "cyberattaque": 1, "data breach": 1, "boycott": 1,
 }
-
+DEMENTIS = ("denies", "dement", "rumour", "rumor", "rumeur")
 
 @dataclass
 class Article:
@@ -128,28 +131,49 @@ def lire_flux(nom: str, jours: int = 30) -> list[Article]:
     return sorted(articles, key=lambda a: a.date, reverse=True)
 
 
-def analyser(articles: list[Article], vs_marche_3m: float | None) -> Actualites:
+def _alias(nom: str | None) -> list[str]:
+    """« Alphabet (Google) » -> ["alphabet", "google"] ; « McDonald's » -> ["mcdonald's"]."""
+    if not nom:
+        return []
+    morceaux = re.split(r"[()]", _normaliser(nom))
+    return [m.split()[0] for m in morceaux if m.strip()]
+
+
+def _sujet(titre: str, alias: list[str]) -> bool:
+    """L'entreprise est-elle le sujet du titre (dans ses 3 premiers mots) ?"""
+    if not alias:
+        return True
+    debut = " ".join(_normaliser(titre).split()[:3])
+    return any(a in debut for a in alias)
+
+
+def analyser(articles: list[Article], vs_marche_3m: float | None, nom: str | None = None) -> Actualites:
+    alias = _alias(nom)
     for a in articles:
         a.gravite, a.mots = signaux(a.titre)
+        t = _normaliser(a.titre)
+        if a.gravite >= 2 and (not _sujet(a.titre, alias) or any(d in t for d in DEMENTIS)):
+            a.gravite = 1  # grave pour quelqu'un d'autre, ou simple rumeur démentie
     alertes = sorted([a for a in articles if a.gravite], key=lambda a: (-a.gravite, a.date))
     graves = sum(1 for a in alertes if a.gravite >= 2)
+    mineurs = len(alertes) - graves
+    beaucoup = mineurs >= 3 and mineurs / max(len(articles), 1) >= 0.15  # inhabituel pour ce titre
     propre = vs_marche_3m is not None and vs_marche_3m < -0.15  # baisse bien pire que le marché
 
     if graves >= 2 or (graves >= 1 and propre):
         verdict = "rouge"
-        resume = f"problème sérieux : {graves} article(s) graves ({', '.join(alertes[0].mots)})"
-    elif alertes and (len(alertes) >= 3 or graves or propre):
+        resume = f"problème sérieux : {graves} article(s) grave(s) ({', '.join(alertes[0].mots)})"
+    elif graves or beaucoup:
         verdict = "orange"
         resume = f"à vérifier : {len(alertes)} article(s) inquiétant(s) ({', '.join(alertes[0].mots)})"
     elif propre:
         verdict = "orange"
-        resume = "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé"
+        resume = "à vérifier : baisse bien plus forte que le marché" + (
+            f", {mineurs} article(s) à regarder" if mineurs else ", sans article inquiétant trouvé")
     else:
         verdict = "vert"
-        resume = (
-            "rien d'alarmant dans l'actualité" + (" ; baisse proche de celle du marché" if vs_marche_3m is not None
-                                                 and vs_marche_3m > -0.05 else "")
-        )
+        resume = "rien d'alarmant dans l'actualité" + (
+            f" ({mineurs} article(s) mineur(s), courant pour une grande entreprise)" if mineurs else "")
     if vs_marche_3m is not None:
         resume += f" (3 mois : {vs_marche_3m:+.0%} vs marché)"
     return Actualites(verdict, resume, vs_marche_3m, alertes[:5], articles[:5])
@@ -157,7 +181,7 @@ def analyser(articles: list[Article], vs_marche_3m: float | None) -> Actualites:
 
 def verifier(nom: str, vs_marche_3m: float | None) -> Actualites:
     try:
-        return analyser(lire_flux(nom), vs_marche_3m)
+        return analyser(lire_flux(nom), vs_marche_3m, nom)
     except Exception as e:  # réseau, format inattendu… : on le dit, sans bloquer le bot
         return Actualites("inconnu", f"actualités indisponibles ({type(e).__name__})", vs_marche_3m, [], [])
 
