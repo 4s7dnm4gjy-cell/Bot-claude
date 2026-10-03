@@ -1,6 +1,6 @@
 # Bot d'investissement long terme pour Trade Republic
 
-Le bot surveille le marché **chaque soir de bourse** et vous propose le
+Le bot surveille le marché **tous les jours** et vous propose le
 **meilleur moment** pour investir ou vendre, chiffres à l'appui. Vous passez
 l'ordre dans l'application Trade Republic, puis vous répondez `oui` ou `non`.
 Tout tourne seul sur GitHub : rien à installer, rien à coller.
@@ -11,9 +11,10 @@ Tout tourne seul sur GitHub : rien à installer, rien à coller.
 
 ## Comment ça marche pour vous
 
-1. Le bot ouvre un **ticket** (onglet *Issues*). Vous recevez une notification GitHub (application mobile ou e-mail).
-2. Le ticket indique quoi acheter ou vendre, en quelle **quantité**, l'**ISIN** à chercher dans Trade Republic, **pourquoi maintenant**, et ce qui s'est passé historiquement dans une situation similaire.
-3. Vous passez l'ordre dans l'application et répondez en commentaire :
+1. **Chaque jour**, le bot poste un point marché sur le ticket « 📅 Bulletin quotidien » : score du moment, ce qu'il y a à faire (ou non), valeur du portefeuille. Vous recevez une notification GitHub (application mobile ou e-mail).
+2. Quand c'est le moment d'agir, le bot ouvre un **ticket de proposition** (onglet *Issues*).
+3. Le ticket indique quoi acheter ou vendre, en quelle **quantité**, l'**ISIN** à chercher dans Trade Republic, **pourquoi maintenant**, et ce qui s'est passé historiquement dans une situation similaire.
+4. Vous passez l'ordre dans l'application et répondez en commentaire :
    - `oui` : c'est fait, le bot l'enregistre dans votre portefeuille ;
    - `non` : le bot ignore la proposition et en refait une 7 jours plus tard.
 
@@ -27,6 +28,8 @@ Autres commandes, à taper en commentaire de n'importe quel ticket :
 | `aide` | affiche l'aide |
 
 Le bot n'obéit qu'au propriétaire du dépôt.
+
+Vous préférez le plan d'épargne gratuit avec seulement des alertes krach et rééquilibrage ? C'est l'autre dépôt : **bot-epargne-trade-republic**.
 
 ## Les règles du bot
 
@@ -64,7 +67,7 @@ Une validation manuelle d'un clic est plus sûre. Elle sert aussi de garde-fou :
 
 | Workflow | Quand | Rôle |
 |---|---|---|
-| `conseil.yml` | du lundi au vendredi à 18h45, heure de Paris | analyse, tableau de bord, proposition éventuelle |
+| `conseil.yml` | tous les jours à 18h45, heure de Paris | analyse, bulletin quotidien, proposition éventuelle (jamais le week-end, bourse fermée) |
 | `validation.yml` | à chacun de vos commentaires | enregistre `oui`, `non` et les réglages |
 | `backtest.yml` | le 1er de chaque mois, et à la demande | teste la stratégie sur les vrais cours |
 | `tests.yml` | à chaque modification du code | tests automatiques |

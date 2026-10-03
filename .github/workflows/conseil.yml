@@ -1,9 +1,9 @@
 name: Conseil quotidien
 
-# Chaque soir de bourse, après la clôture de Xetra (17h30, heure de Paris).
+# Tous les jours à 18h45 (heure de Paris), après la clôture de Xetra.
 on:
   schedule:
-    - cron: "45 16 * * 1-5"
+    - cron: "45 16 * * *"
   workflow_dispatch:
 
 permissions:

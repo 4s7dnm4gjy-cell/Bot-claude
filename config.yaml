@@ -17,7 +17,9 @@ benchmark: EUNL.DE      # le « marché » dont on mesure les baisses et le scor
 stats_ticker: ^GSPC     # S&P 500 depuis 1950 : long historique pour les statistiques
 defensive_asset: null   # null = rester en cash (compte rémunéré Trade Republic)
 
+mode: timing                # le bot propose l'apport du mois au meilleur moment
 monthly_contribution: 200   # modifiable par commentaire : `apport 300`
+bulletin_quotidien: true    # un point marché chaque jour (notification)
 
 # --- Acheter au meilleur moment du mois ------------------------------------
 # L'apport est proposé dès que le score atteint 60/100 (marché en repli),

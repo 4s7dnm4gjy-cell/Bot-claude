@@ -106,3 +106,59 @@ def test_reponse_sur_mauvais_ticket(cfg):
     etat["proposition"]["ticket"] = 7
     assert "Aucune" in conseil.executer_commande(cfg, etat, "oui", 8, date(2025, 6, 4))
     assert etat["proposition"] is not None
+
+
+@pytest.fixture
+def cfg_plan(cfg):
+    from dataclasses import replace
+
+    c = replace(
+        cfg, mode="plan", reserve_pct=0.0, reserve_tiers=[], jour_plan=2,
+        alertes_krach=[{"drawdown": 0.15, "mois": 2}, {"drawdown": 0.25, "mois": 4}],
+    )
+    c.validate()
+    return c
+
+
+def test_plan_inscrit_le_plan_sans_proposition(cfg_plan):
+    px = marche()
+    assert conseil.lancer_conseil(cfg_plan, px, px["WORLD"], date(2025, 6, 2)) is None
+    etat = conseil.charger_etat(cfg_plan)
+    valeur = sum(q * px.iloc[-1][t] for t, q in etat["positions"].items())
+    assert valeur == pytest.approx(200, rel=1e-3)  # parts fractionnées du plan
+    assert etat["proposition"] is None
+    conseil.lancer_conseil(cfg_plan, px, px["WORLD"], date(2025, 6, 3))
+    assert conseil.charger_etat(cfg_plan)["positions"] == etat["positions"]  # une fois par mois
+    bulletin = json.loads(conseil.A_PUBLIER.read_text())["bulletin"]
+    assert "Rien à faire" in bulletin
+
+
+def test_plan_alerte_krach_une_seule_fois_par_palier(cfg_plan):
+    px = marche()
+    conseil.lancer_conseil(cfg_plan, px, px["WORLD"], date(2025, 6, 2))
+    crash = marche(final_drop=0.30)
+    prop = conseil.lancer_conseil(cfg_plan, crash, crash["WORLD"], date(2025, 6, 4))
+    assert prop["type"] == "krach_plan" and prop["liberation"] == 800  # palier -25 % : 4 mois
+    assert "ne vendez rien" in json.loads(conseil.A_PUBLIER.read_text())["corps"]
+    etat = conseil.charger_etat(cfg_plan)
+    conseil.executer_commande(cfg_plan, etat, "non", None, date(2025, 6, 4))
+    etat["pause_jusqua"] = None
+    conseil.sauver_etat(etat)
+    assert conseil.lancer_conseil(cfg_plan, crash, crash["WORLD"], date(2025, 6, 5)) is None
+
+
+def test_plan_reequilibrage(cfg_plan):
+    px = marche()
+    etat = conseil.etat_vide(cfg_plan)
+    etat["positions"] = {"WORLD": 100.0}  # 100 % actions monde pour une cible de 85 %
+    etat["dernier_mois_plan"] = "2025-06"
+    conseil.sauver_etat(etat)
+    prop = conseil.lancer_conseil(cfg_plan, px, px["WORLD"], date(2025, 6, 4))
+    assert prop["type"] == "vente"
+    assert {o["side"] for o in prop["ordres"]} == {"sell", "buy"}
+
+
+def test_pas_de_proposition_le_week_end(cfg):
+    px = marche(final_drop=0.25)
+    assert conseil.lancer_conseil(cfg, px, px["WORLD"], date(2025, 6, 7)) is None  # samedi
+    assert "Bourse fermée" in json.loads(conseil.A_PUBLIER.read_text())["bulletin"]

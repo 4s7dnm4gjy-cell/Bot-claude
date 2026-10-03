@@ -25,7 +25,7 @@ import requests
 from . import rapport
 from .config import Config
 from .score import BUCKET_LABELS, BUCKETS, label, moment_score, score_stats
-from .strategy import Order, decide, reserve_target_pct
+from .strategy import Order, decide, drawdown, reserve_target_pct
 
 ETAT = Path("etat/portefeuille.json")
 A_PUBLIER = Path("etat/a_publier.json")
@@ -54,6 +54,9 @@ def etat_vide(cfg: Config) -> dict:
         "reserve_pct_appliquee": None,
         "pause_jusqua": None,
         "proposition": None,
+        "dernier_mois_plan": None,
+        "palier_alerte": 0,
+        "bulletin_ticket": None,
         "achats": [],
         "historique": [],
     }
@@ -92,10 +95,10 @@ class GitHub:
         r.raise_for_status()
         return r.json() if r.text else {}
 
-    def creer_ticket(self, titre: str, corps: str) -> int:
+    def creer_ticket(self, titre: str, corps: str, label: str = "proposition") -> int:
         owner = self.repo.split("/")[0]
         try:
-            return self._req("POST", "/issues", json={"title": titre, "body": corps, "labels": ["proposition"], "assignees": [owner]})["number"]
+            return self._req("POST", "/issues", json={"title": titre, "body": corps, "labels": [label], "assignees": [owner]})["number"]
         except requests.HTTPError:  # libellé ou assignation refusés : on crée le ticket simple
             return self._req("POST", "/issues", json={"title": titre, "body": corps})["number"]
 
@@ -163,7 +166,9 @@ def resume_stats(cfg: Config, a: dict) -> str:
 def evaluer(cfg: Config, etat: dict, prix: pd.DataFrame, a: dict, aujourdhui: date) -> dict | None:
     """Retourne une proposition (dict) ou None s'il n'y a rien à faire aujourd'hui."""
     mois = aujourdhui.strftime("%Y-%m")
-    if etat["dernier_mois_apport"] != mois:
+    if cfg.mode == "plan":
+        enregistrer_plan(cfg, etat, prix, aujourdhui)
+    elif etat["dernier_mois_apport"] != mois:
         etat["apport_en_attente"] += float(etat["apport_mensuel"])
         etat["dernier_mois_apport"] = mois
 
@@ -171,6 +176,10 @@ def evaluer(cfg: Config, etat: dict, prix: pd.DataFrame, a: dict, aujourdhui: da
         return None
     if etat["pause_jusqua"] and aujourdhui.isoformat() < etat["pause_jusqua"]:
         return None
+    if aujourdhui.weekday() >= 5:
+        return None  # week-end : bourse fermée, on ne propose pas d'ordre sur des prix figés
+    if cfg.mode == "plan":
+        return evaluer_plan(cfg, etat, prix, a, aujourdhui)
 
     attente = etat["apport_en_attente"]
     liberer = attente > 0 and (a["score"] >= cfg.score_seuil or aujourdhui.day >= cfg.jour_limite)
@@ -205,11 +214,53 @@ def evaluer(cfg: Config, etat: dict, prix: pd.DataFrame, a: dict, aujourdhui: da
     }
 
 
+def enregistrer_plan(cfg: Config, etat: dict, prix: pd.DataFrame, aujourdhui: date) -> None:
+    """Le plan d'épargne Trade Republic achète tout seul : le bot l'inscrit au portefeuille."""
+    mois = aujourdhui.strftime("%Y-%m")
+    if etat["dernier_mois_plan"] == mois or aujourdhui.day < cfg.jour_plan:
+        return
+    dernier = prix.ffill().iloc[-1]
+    montant = float(etat["apport_mensuel"])
+    for t, w in cfg.targets.items():
+        px = float(dernier[t])
+        qty = round(montant * w / px, 6)  # le plan achète des fractions de parts
+        etat["positions"][t] = round(etat["positions"].get(t, 0.0) + qty, 6)
+        etat["achats"].append({"date": aujourdhui.isoformat(), "ticker": t, "prix": px, "quantite": qty, "plan": True})
+    etat["historique"].append({"type": "plan", "date": aujourdhui.isoformat(), "montant": montant})
+    etat["dernier_mois_plan"] = mois
+
+
+def evaluer_plan(cfg: Config, etat: dict, prix: pd.DataFrame, a: dict, aujourdhui: date) -> dict | None:
+    dd = drawdown(prix[cfg.benchmark], cfg.drawdown_window_days)
+    if dd < 0.05:
+        etat["palier_alerte"] = 0  # marché revenu près de ses plus hauts : alertes réarmées
+    palier = sum(1 for al in cfg.alertes_krach if dd >= al["drawdown"])
+    base = {"date": aujourdhui.isoformat(), "reserve_pct": 0.0, "score": a["score"]}
+
+    if palier > etat["palier_alerte"]:
+        etat["palier_alerte"] = palier
+        alerte = cfg.alertes_krach[palier - 1]
+        montant = alerte["mois"] * float(etat["apport_mensuel"])
+        d = decide(cfg, prix, etat["positions"], montant)
+        if d.orders:
+            return {**base, "type": "krach_plan", "liberation": montant, "ordres": [asdict(o) for o in d.orders],
+                    "notes": d.notes + [f"Baisse de {dd:.0%} : palier -{alerte['drawdown']:.0%} franchi"],
+                    "total": d.total_value, "baisse": dd}
+
+    if etat["positions"]:
+        d = decide(cfg, prix, etat["positions"], 0.0)
+        if any(o.side == "sell" for o in d.orders):
+            return {**base, "type": "vente", "liberation": 0.0, "ordres": [asdict(o) for o in d.orders],
+                    "notes": d.notes, "total": d.total_value}
+    return None
+
+
 TITRES = {
     "bon_moment": "🟢 Bon moment pour investir {montant} (score {score:.0f}/100)",
     "date_limite": "🟡 Investissement du mois : {montant} (score {score:.0f}/100, meilleur moment du mois)",
     "krach": "🔵 Le marché a chuté : déployer la réserve, {montant} (score {score:.0f}/100)",
     "vente": "🟠 Prendre des bénéfices : rééquilibrage (score {score:.0f}/100)",
+    "krach_plan": "🔵 Krach : versement exceptionnel conseillé de {montant} (score {score:.0f}/100)",
 }
 
 EXPLICATIONS = {
@@ -221,6 +272,9 @@ EXPLICATIONS = {
              "et achète pendant que les prix sont bas.",
     "vente": "Un actif a tellement monté qu'il dépasse sa part cible. Le bot vend l'excédent "
              "pour sécuriser une partie du gain et revenir à l'équilibre.",
+    "krach_plan": "Le marché a nettement chuté. Surtout, ne vendez rien et ne coupez pas votre plan d'épargne. "
+                  "Si vous avez de l'épargne disponible, c'est le moment d'un versement exceptionnel : "
+                  "historiquement, acheter pendant les krachs a été très payant.",
 }
 
 
@@ -299,14 +353,14 @@ def executer_commande(cfg: Config, etat: dict, texte: str, numero: int | None, a
     prop = etat["proposition"]
 
     if cmd in ("oui", "ok", "fait", "valide", "validé"):
-        if not prop or (numero and prop.get("ticket") != numero):
+        if not prop or (numero and numero not in (prop.get("ticket"), etat.get("bulletin_ticket"))):
             return "Aucune proposition en attente sur ce ticket."
         appliquer(cfg, etat, prop)
         etat["historique"].append({**prop, "decision": "oui", "decide_le": aujourdhui.isoformat()})
         etat["proposition"] = None
         return "✅ Enregistré. " + resume_portefeuille(cfg, etat)
     if cmd in ("non", "refus", "annule", "annuler"):
-        if not prop or (numero and prop.get("ticket") != numero):
+        if not prop or (numero and numero not in (prop.get("ticket"), etat.get("bulletin_ticket"))):
             return "Aucune proposition en attente sur ce ticket."
         etat["historique"].append({**prop, "decision": "non", "decide_le": aujourdhui.isoformat()})
         etat["proposition"] = None
@@ -365,8 +419,10 @@ def tableau_de_bord(cfg: Config, etat: dict, prix: pd.DataFrame, a: dict) -> str
         "![Marché](marche.png)",
         "## Portefeuille suivi",
         resume_portefeuille(cfg, etat) + f" Valeur des positions : {valeur:,.0f} €.".replace(",", " "),
-        f"Apport mensuel : {etat['apport_mensuel']:,.0f} € — proposé dès que le score atteint "
-        f"{cfg.score_seuil:.0f}, au plus tard le {cfg.jour_limite} du mois.",
+        (f"Apport mensuel : {etat['apport_mensuel']:,.0f} € — proposé dès que le score atteint "
+         f"{cfg.score_seuil:.0f}, au plus tard le {cfg.jour_limite} du mois." if cfg.mode == "timing" else
+         f"Plan d'épargne : {etat['apport_mensuel']:,.0f} € par mois, exécuté par Trade Republic vers le "
+         f"{cfg.jour_plan} du mois (gratuit). Le bot alerte en cas de krach ou de déséquilibre."),
         "## Statistiques du score",
         f"**{cfg.stats_ticker}** :\n\n" + rapport.stats_table(a["stats_long"], tranche(a["score"])),
         AIDE,
@@ -391,17 +447,20 @@ def lancer_conseil(cfg: Config, prix: pd.DataFrame, prix_stats: pd.Series, aujou
             etat["historique"].append({**prop, "decision": "expirée"})
             etat["proposition"] = None
 
+    nb_achats = len(etat["achats"])
     nouvelle = evaluer(cfg, etat, prix, a, aujourdhui)
+    a_publier = {}
     if nouvelle:
         etat["proposition"] = nouvelle
         image = RAPPORTS / "propositions" / f"{nouvelle['date']}.png"
         rapport.chart_market(a["feats"], nom(cfg, cfg.benchmark), cfg.score_seuil, etat["achats"], image)
         nouvelle["image"] = str(image)
+        a_publier.update(titre=titre_ticket(nouvelle), corps=corps_ticket(cfg, nouvelle, a, "{IMAGE_URL}"))
+    if cfg.bulletin_quotidien:
+        a_publier["bulletin"] = bulletin(cfg, etat, prix, a, aujourdhui, plan_du_jour=len(etat["achats"]) > nb_achats)
+    if a_publier:
         A_PUBLIER.parent.mkdir(parents=True, exist_ok=True)
-        A_PUBLIER.write_text(json.dumps({
-            "titre": titre_ticket(nouvelle),
-            "corps": corps_ticket(cfg, nouvelle, a, "{IMAGE_URL}"),
-        }, ensure_ascii=False, indent=2), encoding="utf-8")
+        A_PUBLIER.write_text(json.dumps(a_publier, ensure_ascii=False, indent=2), encoding="utf-8")
 
     rapport.chart_market(a["feats"], nom(cfg, cfg.benchmark), cfg.score_seuil, etat["achats"], RAPPORTS / "marche.png")
     sauver_etat(etat)
@@ -409,24 +468,71 @@ def lancer_conseil(cfg: Config, prix: pd.DataFrame, prix_stats: pd.Series, aujou
     return nouvelle
 
 
+def valeur_portefeuille(etat: dict, prix: pd.DataFrame) -> float:
+    dernier = prix.ffill().iloc[-1]
+    return sum(q * float(dernier[t]) for t, q in etat["positions"].items())
+
+
+def bulletin(cfg: Config, etat: dict, prix: pd.DataFrame, a: dict, aujourdhui: date, plan_du_jour: bool) -> str:
+    f = a["feats"].iloc[-1]
+    lignes = [f"### 📅 {aujourdhui:%d/%m/%Y} — score {a['score']:.0f}/100 · {label(a['score'])}"]
+    lignes.append(
+        f"{nom(cfg, cfg.benchmark)} : {-f['baisse']:+.1%} depuis son plus haut sur 1 an, "
+        f"{f['ecart_sma']:+.1%} vs moyenne 200 jours (clôture du {a['jour']:%d/%m})."
+    )
+    if aujourdhui.weekday() >= 5:
+        lignes.append("Bourse fermée aujourd'hui.")
+    if plan_du_jour:
+        lignes.append(f"🧾 Plan d'épargne de {float(etat['apport_mensuel']):,.0f} € inscrit au portefeuille.".replace(",", " "))
+    prop = etat["proposition"]
+    if prop:
+        lignes.append(f"👉 **Action à faire** : {titre_ticket(prop)} — voir le ticket {{TICKET}} et répondre `oui` ou `non`.")
+    elif cfg.mode == "timing" and etat["apport_en_attente"] > 0:
+        lignes.append(
+            f"⏳ Rien à faire : {etat['apport_en_attente']:,.0f} € attendent le meilleur moment "
+            f"(score ≥ {cfg.score_seuil:.0f} ou le {cfg.jour_limite} du mois au plus tard).".replace(",", " ")
+        )
+    else:
+        lignes.append("✅ Rien à faire aujourd'hui. Ne touchez à rien : le temps travaille pour vous.")
+    if etat["positions"]:
+        lignes.append(f"Portefeuille suivi : ~{valeur_portefeuille(etat, prix):,.0f} €.".replace(",", " "))
+    return "\n\n".join(lignes)
+
+
 def publier(cfg: Config) -> int | None:
-    """Crée le ticket préparé par `lancer_conseil` (après que l'image a été poussée)."""
+    """Crée le ticket préparé par `lancer_conseil` (une fois l'image poussée) et poste le bulletin."""
     if not A_PUBLIER.exists():
         return None
     etat = charger_etat(cfg)
     data = json.loads(A_PUBLIER.read_text(encoding="utf-8"))
+    A_PUBLIER.unlink()
     gh = GitHub()
     prop = etat["proposition"]
-    if not gh.actif or not prop:
-        print(f"\n=== {data['titre']} ===\n{data['corps']}")
-        A_PUBLIER.unlink()
+    numero = None
+    if not gh.actif:
+        if "titre" in data:
+            print(f"\n=== {data['titre']} ===\n{data['corps']}")
+        if "bulletin" in data:
+            print(f"\n--- Bulletin ---\n{data['bulletin']}")
         return None
-    branche = os.environ.get("GITHUB_REF_NAME", "main")
-    url = f"https://raw.githubusercontent.com/{gh.repo}/{branche}/{prop['image']}"
-    numero = gh.creer_ticket(data["titre"], data["corps"].replace("{IMAGE_URL}", url))
-    prop["ticket"] = numero
+    if "titre" in data and prop:
+        branche = os.environ.get("GITHUB_REF_NAME", "main")
+        url = f"https://github.com/{gh.repo}/blob/{branche}/{prop['image']}?raw=true"
+        numero = gh.creer_ticket(data["titre"], data["corps"].replace("{IMAGE_URL}", url))
+        prop["ticket"] = numero
+    if "bulletin" in data:
+        b = etat.get("bulletin_ticket")
+        if not b or not gh.est_ouvert(b):
+            b = gh.creer_ticket(
+                "📅 Bulletin quotidien du bot",
+                "Chaque jour, le bot poste ici un point sur le marché. Vous recevez une notification "
+                "à chaque message.\n\nVous pouvez répondre `oui` / `non` ici aussi quand une action est proposée.\n\n" + AIDE,
+                label="bulletin",
+            )
+            etat["bulletin_ticket"] = b
+        ticket = f"#{prop['ticket']}" if prop and prop.get("ticket") else "ouvert"
+        gh.commenter(b, data["bulletin"].replace("{TICKET}", ticket))
     sauver_etat(etat)
-    A_PUBLIER.unlink()
     return numero
 
 

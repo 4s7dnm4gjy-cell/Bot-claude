@@ -44,6 +44,14 @@ class Config:
     jour_limite: int = 20
     stats_ticker: str = "^GSPC"  # long historique pour les statistiques du score
 
+    # "timing" : le bot propose l'apport du mois au meilleur moment.
+    # "plan"   : l'apport passe par le plan d'épargne gratuit ; le bot surveille
+    #            et alerte seulement (krach, rééquilibrage).
+    mode: str = "timing"
+    jour_plan: int = 2  # jour d'exécution du plan d'épargne Trade Republic
+    alertes_krach: list[dict] = field(default_factory=list)  # [{drawdown: 0.15, mois: 2}, ...]
+    bulletin_quotidien: bool = True  # un message par jour sur le ticket « Bulletin quotidien »
+
     # Pour retrouver les actifs dans l'application du courtier.
     noms: dict[str, str] = field(default_factory=dict)
     isin: dict[str, str] = field(default_factory=dict)
@@ -68,6 +76,9 @@ class Config:
             if not 0 < t.drawdown < 1 or not 0 <= t.reserve_pct <= self.reserve_pct:
                 raise ValueError(f"Palier de réserve invalide : {t}")
         self.reserve_tiers.sort(key=lambda t: t.drawdown)
+        if self.mode not in ("timing", "plan"):
+            raise ValueError("`mode` doit valoir 'timing' ou 'plan'")
+        self.alertes_krach.sort(key=lambda a: a["drawdown"])
 
     @property
     def tickers(self) -> list[str]:
