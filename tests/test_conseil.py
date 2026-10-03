@@ -162,3 +162,59 @@ def test_pas_de_proposition_le_week_end(cfg):
     px = marche(final_drop=0.25)
     assert conseil.lancer_conseil(cfg, px, px["WORLD"], date(2025, 6, 7)) is None  # samedi
     assert "Bourse fermée" in json.loads(conseil.A_PUBLIER.read_text())["bulletin"]
+
+
+def radar_prix(n: int = 2000) -> pd.DataFrame:
+    rng = np.random.default_rng(5)
+    idx = pd.bdate_range("2017-01-02", periods=n)
+    up = 20 * np.exp(np.cumsum(rng.normal(0.0006, 0.012, n)))
+    soldee = up.copy()
+    soldee[-40:] *= np.linspace(1, 0.72, 40)  # chute récente de 28 %
+    declin = 50 * np.exp(np.cumsum(rng.normal(-0.0008, 0.012, n)))
+    declin[-40:] *= np.linspace(1, 0.7, 40)
+    return pd.DataFrame({"HAUT": up, "SOLDE": soldee, "DECLIN": declin}, index=idx)
+
+
+@pytest.fixture
+def cfg_radar(cfg):
+    from dataclasses import replace
+
+    c = replace(cfg, radar={"liste": {
+        "HAUT": {"nom": "Haut SA", "isin": "FR0000000001"},
+        "SOLDE": {"nom": "Soldée SA", "isin": "FR0000000002"},
+        "DECLIN": {"nom": "Déclin SA", "isin": "FR0000000003"},
+    }, "score_min": 70, "score_alerte": 80, "montant": 150})
+    c.validate()
+    return c
+
+
+def test_radar_scanner_filtre_et_classe():
+    from invest_bot.radar import scanner
+
+    px = radar_prix()
+    ops = scanner({t: {} for t in px}, px, 70)
+    tickers = [o.ticker for o in ops]
+    assert "SOLDE" in tickers
+    assert "HAUT" not in tickers  # pas soldée
+    assert "DECLIN" not in tickers  # tendance 5 ans négative : écartée
+
+
+def test_radar_alerte_opportunite_puis_oui(cfg_radar, monkeypatch):
+    from invest_bot import radar
+
+    monkeypatch.setattr(radar.Opportunite, "favorable", property(lambda self: True))
+    px = marche()  # marché calme : pas de proposition sur les ETF
+    px.iloc[-60:] *= np.linspace(1, 1.3, 60)[:, None]
+    rp = radar_prix()
+    prop = conseil.lancer_conseil(cfg_radar, px, px["WORLD"], date(2025, 6, 3), prix_radar=rp)
+    assert prop["type"] == "opportunite" and prop["ordres"][0]["ticker"] == "SOLDE"
+    pub = json.loads(conseil.A_PUBLIER.read_text())
+    assert "Soldée SA" in pub["titre"] and "biais du survivant" in pub["corps"]
+    assert "Radar" in pub["bulletin"]
+    etat = conseil.charger_etat(cfg_radar)
+    conseil.executer_commande(cfg_radar, etat, "oui", None, date(2025, 6, 4))
+    assert "SOLDE" in etat["satellites"] and "SOLDE" not in etat["positions"]
+    assert etat["apport_en_attente"] == 200  # l'apport du mois n'a pas été consommé
+    conseil.sauver_etat(etat)
+    # Pas de nouvelle alerte sur le même titre pendant le délai.
+    assert conseil.lancer_conseil(cfg_radar, px, px["WORLD"], date(2025, 6, 5), prix_radar=rp) is None

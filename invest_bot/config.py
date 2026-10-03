@@ -16,6 +16,16 @@ class ReserveTier:
     reserve_pct: float
 
 
+RADAR_DEFAUTS = {
+    "liste": {},          # ticker Yahoo -> {nom, isin, type}
+    "score_min": 70,      # affiché dans le bulletin à partir de ce score
+    "score_alerte": 85,   # ticket « opportunité » à partir de ce score
+    "montant": 150,       # montant suggéré par opportunité (€)
+    "part_max": 0.20,     # part maximale du portefeuille en titres « radar »
+    "delai_jours": 30,    # pas deux alertes sur le même titre avant ce délai
+}
+
+
 @dataclass
 class Config:
     targets: dict[str, float]
@@ -52,6 +62,9 @@ class Config:
     alertes_krach: list[dict] = field(default_factory=list)  # [{drawdown: 0.15, mois: 2}, ...]
     bulletin_quotidien: bool = True  # un message par jour sur le ticket « Bulletin quotidien »
 
+    # Radar d'opportunités (actions/ETF de Trade Republic) : voir radar.py.
+    radar: dict = field(default_factory=dict)
+
     # Pour retrouver les actifs dans l'application du courtier.
     noms: dict[str, str] = field(default_factory=dict)
     isin: dict[str, str] = field(default_factory=dict)
@@ -79,6 +92,8 @@ class Config:
         if self.mode not in ("timing", "plan"):
             raise ValueError("`mode` doit valoir 'timing' ou 'plan'")
         self.alertes_krach.sort(key=lambda a: a["drawdown"])
+        if self.radar:
+            self.radar = {**RADAR_DEFAUTS, **self.radar}
 
     @property
     def tickers(self) -> list[str]:

@@ -11,7 +11,7 @@ import pandas as pd
 CACHE_DIR = Path("data_cache")
 
 
-def fetch_prices(tickers: list[str], start: str = "2000-01-01", use_cache: bool = True) -> pd.DataFrame:
+def fetch_prices(tickers: list[str], start: str = "2000-01-01", use_cache: bool = True, strict: bool = True) -> pd.DataFrame:
     """Clôtures ajustées (dividendes réinvestis), une colonne par ticker."""
     CACHE_DIR.mkdir(exist_ok=True)
     cache = CACHE_DIR / f"{'_'.join(sorted(tickers))}_{start}.csv"
@@ -30,6 +30,9 @@ def fetch_prices(tickers: list[str], start: str = "2000-01-01", use_cache: bool 
                 break
             time.sleep(2 ** essai)
         if raw.empty:
+            if not strict:
+                print(f"Avertissement : pas de données pour {t}, ignoré")
+                continue
             raise RuntimeError(f"Aucune donnée reçue pour {t}")
         close = raw["Close"]
         series[t] = close.iloc[:, 0] if isinstance(close, pd.DataFrame) else close

@@ -106,7 +106,10 @@ def cmd_conseil(args, cfg: Config) -> None:
 
     prices = fetch_prices(cfg.tickers, start=args.data_start, use_cache=False)
     stats = fetch_prices([cfg.stats_ticker], start="1950-01-01", use_cache=False)[cfg.stats_ticker]
-    prop = lancer_conseil(cfg, prices, stats)
+    radar = None
+    if cfg.radar and cfg.radar["liste"]:
+        radar = fetch_prices(list(cfg.radar["liste"]), start=args.data_start, use_cache=False, strict=False)
+    prop = lancer_conseil(cfg, prices, stats, prix_radar=radar)
     print(f"Proposition : {prop['type']} ({len(prop['ordres'])} ordres)" if prop else "Rien à proposer aujourd'hui.")
 
 

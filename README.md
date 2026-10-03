@@ -54,6 +54,21 @@ Vous préférez le plan d'épargne gratuit avec seulement des alertes krach et r
 
 Les ordres portent sur des parts entières, avec 1 € de frais par ordre (tarif Trade Republic).
 
+## 🔎 Radar d'opportunités
+
+Chaque jour, le bot scanne **35 actions et ETF disponibles sur Trade Republic** : Apple, Microsoft, Nvidia, LVMH, Air Liquide, ASML, S&P 500, Nasdaq 100, or… La liste complète se trouve dans `config.yaml`.
+
+- **Dans le bulletin quotidien :** les 3 titres les plus « soldés » par rapport à leur propre historique, avec ce qui a suivi par le passé à ce niveau de prix. Exemple : « +18 % à 12 mois en moyenne, positif 85 % des cas ».
+- **Ticket 🔎 Opportunité :** quand un titre devient très soldé (score ≥ 85) et que l'historique est favorable, le bot ouvre un ticket avec l'achat suggéré (~150 €, ISIN, quantité). Vous répondez `oui` ou `non`, comme pour les autres propositions.
+
+**Garde-fous :**
+- les titres en déclin sur 5 ans sont écartés ;
+- les titres individuels sont limités à 20 % du portefeuille ;
+- un même titre ne fait l'objet que d'une alerte par mois ;
+- le bot ne revend jamais ces titres à votre place.
+
+⚠️ Une action seule est bien plus risquée qu'un ETF. Les statistiques sont flatteuses, car la liste ne contient que des entreprises qui ont réussi jusqu'ici. Une forte baisse peut avoir une bonne raison.
+
 ## Pourquoi pas d'exécution automatique sur Trade Republic ?
 
 Trade Republic n'a **pas d'API officielle**. Il existe une bibliothèque non officielle (`pytr`), mais elle exige :
