@@ -29,9 +29,10 @@ class Broker(ABC):
 class PaperBroker(Broker):
     """Portefeuille simulé persistant dans un fichier JSON local."""
 
-    def __init__(self, state_file: str | Path = "state/paper.json", initial_cash: float = 0.0, fee_bps: float = 5.0):
+    def __init__(self, state_file: str | Path = "state/paper.json", initial_cash: float = 0.0, fee_bps: float = 0.0, fee_fixed: float = 0.0):
         self.path = Path(state_file)
         self.fee_bps = fee_bps
+        self.fee_fixed = fee_fixed
         if self.path.exists():
             self.state = json.loads(self.path.read_text())
         else:
@@ -53,7 +54,7 @@ class PaperBroker(Broker):
         return {t: float(q) for t, q in self.state["positions"].items() if q}
 
     def submit(self, order: Order) -> str:
-        fee = order.value * self.fee_bps / 1e4
+        fee = order.value * self.fee_bps / 1e4 + self.fee_fixed
         pos = self.state["positions"]
         if order.side == "buy":
             cost = order.value + fee

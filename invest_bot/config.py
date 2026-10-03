@@ -35,11 +35,22 @@ class Config:
     drawdown_window_days: int = 252
     min_order_value: float = 50.0
     fractional: bool = True
-    fee_bps: float = 5.0
+    fee_bps: float = 0.0
+    fee_fixed: float = 1.0  # Trade Republic : 1 € par ordre
+
+    # "Meilleur moment du mois" : l'apport mensuel est proposé dès que le score
+    # atteint `score_seuil`, au plus tard le `jour_limite` du mois.
+    score_seuil: float = 60.0
+    jour_limite: int = 20
+    stats_ticker: str = "^GSPC"  # long historique pour les statistiques du score
+
+    # Pour retrouver les actifs dans l'application du courtier.
+    noms: dict[str, str] = field(default_factory=dict)
+    isin: dict[str, str] = field(default_factory=dict)
 
     # Garde-fous d'exécution
     max_orders_per_run: int = 20
-    max_turnover_pct: float = 0.50  # part max du portefeuille échangée par exécution
+    max_turnover_pct: float = 0.50  # part max du portefeuille vendue en une fois
 
     def validate(self) -> None:
         if not self.targets:

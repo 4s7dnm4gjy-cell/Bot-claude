@@ -1,0 +1,50 @@
+# Configuration du bot. Les réglages courants se changent sans toucher à ce
+# fichier, par commentaire sur un ticket : `apport 300`, `capital 2000`, etc.
+
+# Allocation cible (doit sommer à 1.0) — ETF disponibles sur Trade Republic.
+targets:
+  EUNL.DE: 0.85   # iShares Core MSCI World (1 500 grandes entreprises, 23 pays développés)
+  IS3N.DE: 0.15   # iShares Core MSCI Emerging Markets IMI (pays émergents)
+
+noms:
+  EUNL.DE: iShares Core MSCI World
+  IS3N.DE: iShares Core MSCI EM IMI
+isin:
+  EUNL.DE: IE00B4L5Y983
+  IS3N.DE: IE00BKM4GZ66
+
+benchmark: EUNL.DE      # le « marché » dont on mesure les baisses et le score
+stats_ticker: ^GSPC     # S&P 500 depuis 1950 : long historique pour les statistiques
+defensive_asset: null   # null = rester en cash (compte rémunéré Trade Republic)
+
+monthly_contribution: 200   # modifiable par commentaire : `apport 300`
+
+# --- Acheter au meilleur moment du mois ------------------------------------
+# L'apport est proposé dès que le score atteint 60/100 (marché en repli),
+# sinon au plus tard le 20 du mois.
+score_seuil: 60
+jour_limite: 20
+
+# --- Réserve pour les krachs -----------------------------------------------
+# 10 % gardés en cash quand tout va bien, déployés quand le marché chute.
+reserve_pct: 0.10
+reserve_tiers:
+  - {drawdown: 0.15, reserve_pct: 0.05}
+  - {drawdown: 0.25, reserve_pct: 0.02}
+  - {drawdown: 0.35, reserve_pct: 0.0}
+
+# --- Revendre au bon moment ------------------------------------------------
+# Vendre l'excédent d'un actif qui dépasse sa cible de plus de 5 points.
+rebalance_band: 0.05
+trend_filter: false
+trend_window_days: 200
+drawdown_window_days: 252
+
+# --- Trade Republic --------------------------------------------------------
+fractional: false     # parts entières : toujours exécutable dans l'application
+min_order_value: 25
+fee_fixed: 1.0        # 1 € par ordre
+fee_bps: 0
+
+max_orders_per_run: 10
+max_turnover_pct: 0.50

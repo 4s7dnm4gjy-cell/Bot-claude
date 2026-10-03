@@ -5,4 +5,3 @@ __pycache__/
 state/
 data_cache/
 journal/
-config.yaml

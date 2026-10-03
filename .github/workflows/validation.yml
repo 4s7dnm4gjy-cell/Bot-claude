@@ -1,0 +1,38 @@
+name: Réponse aux propositions
+
+# Vos commentaires sur les tickets : oui / non / apport 300 / capital 2000 / possede EUNL.DE 12
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: bot-etat
+  cancel-in-progress: false
+
+jobs:
+  commande:
+    # Seul le propriétaire du dépôt peut piloter le bot.
+    if: github.event.issue.pull_request == null && github.event.comment.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      COMMENTAIRE: ${{ github.event.comment.body }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Traiter la réponse
+        run: python -m invest_bot commentaire --ticket ${{ github.event.issue.number }}
+      - name: Enregistrer
+        run: |
+          git config user.name "bot-investissement"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add etat
+          git diff --cached --quiet || (git commit -m "Décision enregistrée (ticket #${{ github.event.issue.number }})" && git pull --rebase && git push)

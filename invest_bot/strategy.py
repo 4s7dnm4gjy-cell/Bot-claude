@@ -75,6 +75,32 @@ def _round_qty(qty: float, fractional: bool) -> float:
     return float(math.floor(qty))
 
 
+def _allocate(spend: float, gaps: dict[str, float], prices: pd.Series, fractional: bool) -> dict[str, float]:
+    """Répartit `spend` entre les actifs sous-pondérés, au prorata de leur écart.
+
+    En parts entières, achète une part à la fois de l'actif le plus en retard
+    tant que le budget le permet (évite de laisser du cash inutilisé).
+    """
+    if spend <= 0:
+        return {}
+    total_gap = sum(gaps.values())
+    if fractional:
+        return {t: _round_qty(spend * g / total_gap / float(prices[t]), True) for t, g in gaps.items()}
+    qtys = {t: 0.0 for t in gaps}
+    left = dict(gaps)
+    while True:
+        affordable = [t for t in gaps if float(prices[t]) <= spend]
+        if not affordable:
+            return qtys
+        t = max(affordable, key=lambda k: left[k])
+        if left[t] <= 0 and all(left[k] <= 0 for k in affordable):
+            return qtys
+        px = float(prices[t])
+        qtys[t] += 1
+        left[t] -= px
+        spend -= px
+
+
 def decide(
     cfg: Config,
     history: pd.DataFrame,
@@ -148,7 +174,7 @@ def decide(
                     else f"surpondéré de {drift:.1%} (> bande {cfg.rebalance_band:.0%})"
                 )
                 orders.append(Order(t, "sell", qty, px, reason))
-                proceeds += qty * px * (1 - cfg.fee_bps / 1e4)
+                proceeds += qty * px * (1 - cfg.fee_bps / 1e4) - cfg.fee_fixed
                 current[t] -= qty * px
 
     # 2) Achats : cash disponible au-delà de la réserve, vers les actifs sous-pondérés.
@@ -156,23 +182,23 @@ def decide(
     gaps = {t: desired[t] - current.get(t, 0.0) for t in desired if desired[t] > current.get(t, 0.0)}
     gap_total = sum(gaps.values())
     if budget > 0 and gap_total > 0:
-        spend = min(budget, gap_total)
-        for t, gap in sorted(gaps.items(), key=lambda kv: -kv[1]):
+        spend = min(budget, gap_total) - cfg.fee_fixed * len(gaps)
+        rate = 1 + cfg.fee_bps / 1e4
+        qtys = _allocate(spend / rate, gaps, prices, cfg.fractional)
+        for t, qty in sorted(qtys.items(), key=lambda kv: -gaps[kv[0]]):
             px = float(prices[t])
-            alloc = spend * gap / gap_total / (1 + cfg.fee_bps / 1e4)
-            qty = _round_qty(alloc / px, cfg.fractional)
-            if qty * px >= cfg.min_order_value:
-                orders.append(Order(t, "buy", qty, px, f"sous-pondéré de {gap / total:.1%}"))
+            if qty > 0 and qty * px >= cfg.min_order_value:
+                orders.append(Order(t, "buy", qty, px, f"sous-pondéré de {gaps[t] / total:.1%}"))
     elif budget <= 0:
         notes.append("Pas d'achat : cash entièrement affecté à la réserve")
 
     # 3) Garde-fous.
-    turnover = sum(o.value for o in orders)
+    sold = sum(o.value for o in orders if o.side == "sell")
     if not enforce_limits:
         return Decision(orders, total, dd, reserve_target, targets, downtrend, notes)
-    if total > 0 and turnover > cfg.max_turnover_pct * total and holdings:
+    if total > 0 and sold > cfg.max_turnover_pct * total:
         raise RuntimeError(
-            f"Garde-fou : volume {turnover:,.0f} > {cfg.max_turnover_pct:.0%} du portefeuille. "
+            f"Garde-fou : ventes de {sold:,.0f} > {cfg.max_turnover_pct:.0%} du portefeuille. "
             "Vérifiez les données/la config avant de relancer."
         )
     if len(orders) > cfg.max_orders_per_run:
