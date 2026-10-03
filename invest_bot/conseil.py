@@ -326,6 +326,8 @@ def resume_radar(cfg: Config, opportunites: list[Opportunite], limite: int | Non
         lignes.append(f"- {o.ligne()}")
         if o.ticker in actus:
             lignes.append(f"  - {actus[o.ticker].court()}")
+            if limite is None:  # tableau de bord : les articles détectés, pour juger soi-même
+                lignes += [f"    - ⚠️ [{a.titre}]({a.lien}) ({', '.join(a.mots)})" for a in actus[o.ticker].alertes[:3]]
     for o in ecartes:
         lignes.append(f"- ⛔ **{o.nom}** écarté : {actus[o.ticker].resume}")
     if limite is not None and len(retenues) > limite:
