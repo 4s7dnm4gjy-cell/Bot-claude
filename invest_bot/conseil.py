@@ -409,7 +409,8 @@ def tableau_de_bord(cfg: Config, etat: dict, prix: pd.DataFrame, a: dict) -> str
     statut = (
         f"⏳ Proposition en attente de votre réponse : ticket #{prop['ticket']}" if prop and prop.get("ticket")
         else "⏳ Proposition prête, publication en cours" if prop
-        else "✅ Rien à faire aujourd'hui : le bot attend le meilleur moment."
+        else "✅ Rien à faire aujourd'hui : le bot attend le meilleur moment." if cfg.mode == "timing"
+        else "✅ Rien à faire aujourd'hui : le plan d'épargne travaille pour vous."
     )
     return "\n\n".join([
         f"# Tableau de bord — {a['jour']:%d/%m/%Y}",
