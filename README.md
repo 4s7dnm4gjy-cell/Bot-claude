@@ -1,96 +1,97 @@
-# Bot d'investissement long terme
+# Bot d'investissement long terme pour Trade Republic
 
-Un bot **basé sur des règles fixes** : il achète et revend selon des seuils
-définis à l'avance, sans émotion ni prédiction. Ce n'est pas du trading : il
-agit au plus une fois par mois et, la plupart du temps, il ne fait rien.
+Le bot surveille le marché **chaque soir de bourse** et vous propose le
+**meilleur moment** pour investir ou vendre, chiffres à l'appui. Vous passez
+l'ordre dans l'application Trade Republic, puis vous répondez `oui` ou `non`.
+Tout tourne seul sur GitHub : rien à installer, rien à coller.
 
-> ⚠️ Aucun algorithme ne connaît « le bon moment ». Ce bot applique des règles
-> éprouvées (investissement programmé, réserve déployée dans les krachs,
-> rééquilibrage) qui retirent l'émotion de la décision. Elles ne garantissent
-> aucun gain. Commencez en mode papier, et faites un backtest sur de vraies
-> données avant d'engager de l'argent réel. Ceci n'est pas un conseil financier.
+📊 **[Tableau de bord du jour](rapports/tableau-de-bord.md)** ·
+🧪 **[Backtest sur données réelles](rapports/backtest.md)** ·
+📬 **[Propositions](../../issues?q=label%3Aproposition)**
 
-## Les règles
+## Comment ça marche pour vous
 
-| Situation | Action du bot |
+1. Le bot ouvre un **ticket** (onglet *Issues*). Vous recevez une notification GitHub (application mobile ou e-mail).
+2. Le ticket indique quoi acheter ou vendre, en quelle **quantité**, l'**ISIN** à chercher dans Trade Republic, **pourquoi maintenant**, et ce qui s'est passé historiquement dans une situation similaire.
+3. Vous passez l'ordre dans l'application et répondez en commentaire :
+   - `oui` : c'est fait, le bot l'enregistre dans votre portefeuille ;
+   - `non` : le bot ignore la proposition et en refait une 7 jours plus tard.
+
+Autres commandes, à taper en commentaire de n'importe quel ticket :
+
+| Commande | Effet |
 |---|---|
-| Chaque mois | L'apport va aux actifs **sous-pondérés**, donc à ce qui a baissé. |
-| Marché au plus haut | 10 % du portefeuille restent en **réserve de cash**. |
-| Marché −15 % / −25 % / −35 % | La réserve est **déployée par paliers**, ce qui revient à acheter pendant la peur. |
-| Un actif dépasse sa cible de plus de 5 points | Le bot **vend l'excédent**, donc il vend ce qui a monté. |
-| Krach, panique | **Aucune vente panique.** Le bot ne vend jamais parce que « ça baisse ». |
-| (optionnel) Actif sous sa moyenne 200 jours | Le bot **sort** vers un actif défensif (filtre de tendance). |
+| `apport 300` | change l'apport mensuel (200 € par défaut) |
+| `capital 2000` | ajoute une somme ponctuelle, investie au meilleur moment |
+| `possede EUNL.DE 12` | déclare des parts que vous avez déjà |
+| `aide` | affiche l'aide |
 
-Toutes les décisions sont enregistrées avec leur justification dans
-`journal/decisions.jsonl`.
+Le bot n'obéit qu'au propriétaire du dépôt.
 
-## Installation
+## Les règles du bot
+
+| Situation | Proposition |
+|---|---|
+| Score du moment ≥ 60/100 (marché en repli) | 🟢 Investir l'apport du mois maintenant |
+| Pas de repli avant le 20 du mois | 🟡 Investir quand même : c'est le meilleur moment *disponible*, car attendre plus coûte en moyenne |
+| Marché −15 % / −25 % / −35 % | 🔵 Déployer la réserve de cash gardée pour les krachs |
+| Un ETF dépasse sa part cible de plus de 5 points | 🟠 Vendre l'excédent (prise de bénéfices) |
+| Krach, panique | Jamais de vente panique |
+
+**Score du moment (0-100).** Il compare la situation du jour à tout l'historique *passé* :
+- la baisse depuis le plus haut sur un an ;
+- l'écart à la moyenne des 200 derniers jours ;
+- le RSI, un indicateur de survente sur 14 jours.
+
+À 100, le marché est parmi les plus « soldés » de son histoire. À 0, il est au plus haut. Chaque proposition affiche les rendements observés ensuite, dans le passé, pour ce niveau de score (sur le S&P 500 depuis 1950 et sur l'ETF lui-même). Ce n'est pas une prédiction.
+
+**Allocation par défaut** (modifiable dans `config.yaml`) :
+- 85 % iShares Core MSCI World (`IE00B4L5Y983`) ;
+- 15 % iShares Core MSCI Emerging Markets IMI (`IE00BKM4GZ66`).
+
+Les ordres portent sur des parts entières, avec 1 € de frais par ordre (tarif Trade Republic).
+
+## Pourquoi pas d'exécution automatique sur Trade Republic ?
+
+Trade Republic n'a **pas d'API officielle**. Il existe une bibliothèque non officielle (`pytr`), mais elle exige :
+- votre numéro de téléphone et votre PIN, stockés sur un serveur ;
+- une double authentification qui expire régulièrement ;
+- un accès dans une zone grise des conditions d'utilisation.
+
+Une validation manuelle d'un clic est plus sûre. Elle sert aussi de garde-fou : aucun ordre ne part sans vous.
+
+## Automatisations (GitHub Actions)
+
+| Workflow | Quand | Rôle |
+|---|---|---|
+| `conseil.yml` | du lundi au vendredi à 18h45, heure de Paris | analyse, tableau de bord, proposition éventuelle |
+| `validation.yml` | à chacun de vos commentaires | enregistre `oui`, `non` et les réglages |
+| `backtest.yml` | le 1er de chaque mois, et à la demande | teste la stratégie sur les vrais cours |
+| `tests.yml` | à chaque modification du code | tests automatiques |
+
+Pour lancer une analyse ou un backtest tout de suite : onglet **Actions**, choisir le workflow, puis **Run workflow**.
+
+## Avertissement
+
+Aucun algorithme ne connaît l'avenir. Ce bot applique des règles fixes qui
+retirent l'émotion de la décision ; il ne garantit aucun gain. Ceci n'est pas
+un conseil financier.
+
+## Pour les développeurs
 
 ```bash
 pip install -r requirements.txt
-cp config.example.yaml config.yaml   # puis adaptez l'allocation et l'apport mensuel
-```
-
-## Utilisation
-
-```bash
-# 1. Tester la stratégie sur l'historique (données Yahoo Finance)
-python -m invest_bot backtest --start 2007-01-01 --initial 10000
-
-# 2. Simuler en local (argent fictif)
-python -m invest_bot deposit 10000
-python -m invest_bot plan          # affiche les ordres sans rien exécuter
-python -m invest_bot run           # exécute sur le portefeuille papier
-
-# 3. Compte papier Alpaca (vrais cours, argent fictif)
-export ALPACA_API_KEY=... ALPACA_SECRET_KEY=...
-python -m invest_bot run --broker alpaca
-
-# 4. Argent réel : trois verrous successifs
-export INVEST_BOT_ALLOW_LIVE=1
-python -m invest_bot run --broker alpaca --live   # demande de taper "OUI"
-```
-
-Le backtest compare la configuration à un investissement programmé simple
-(achat-conservation), à un rééquilibrage seul et à la variante avec ou sans
-filtre de tendance. Gardez ce qui fonctionne sur **vos** actifs.
-
-### Exécution automatique (1er jour ouvré du mois, 16h heure de New York)
-
-```cron
-30 15 1-3 * 1-5  cd /chemin/Bot-claude && INVEST_BOT_ALLOW_LIVE=1 python -m invest_bot run --broker alpaca --live --yes
-```
-
-Le bot n'exécute **qu'une fois par mois** (verrou dans `state/last_run.json`),
-donc relancer la commande plusieurs jours de suite ne pose pas de problème.
-
-## Garde-fous
-
-- Le mode papier est utilisé par défaut. Le mode réel exige `--live`, la variable `INVEST_BOT_ALLOW_LIVE=1` et une confirmation.
-- Le bot s'arrête si une exécution échangerait plus de 50 % du portefeuille (`max_turnover_pct`) ou passerait trop d'ordres. Ce cas signale presque toujours des données ou une configuration erronées.
-- Aucun ordre n'est envoyé quand le marché est fermé, et les ordres inférieurs à `min_order_value` sont ignorés.
-- Les ventes passent avant les achats. Pour éviter un biais d'anticipation, le backtest exécute chaque décision le jour de bourse suivant.
-
-## Courtier et fiscalité (France)
-
-- Alpaca donne accès aux ETF américains (VTI, VXUS, BND…). Ces ETF ne sont pas éligibles au PEA, et un particulier européen peut souvent ne pas pouvoir acheter d'ETF américains (réglementation PRIIPs/KID). Vérifiez votre accès.
-- Pour les ETF UCITS (ex. `CW8.PA`), le backtest fonctionne avec les tickers Yahoo. L'exécution demande un connecteur courtier dédié : il suffit d'implémenter la classe `Broker` dans `invest_bot/brokers.py` (par exemple pour Interactive Brokers).
-- Chaque vente peut déclencher de l'impôt sur un CTO. Le filtre de tendance vend plus souvent : intégrez ce coût avant de l'activer.
-
-## Tests
-
-```bash
 python -m pytest -q
+python -m invest_bot backtest --rapport rapports/backtest.md --stats-ticker
+python -m invest_bot conseil      # analyse du jour (affiche la proposition hors GitHub)
 ```
-
-## Structure
 
 ```
 invest_bot/
-  config.py     configuration et validation
+  score.py      score du moment d'achat + statistiques
   strategy.py   règles de décision (pures, testables)
-  backtest.py   simulation historique + comparaison
-  brokers.py    PaperBroker (local) et AlpacaBroker
-  data.py       cours Yahoo Finance + cache
-  cli.py        commandes backtest / plan / run / deposit
+  conseil.py    propositions, tickets GitHub, commandes oui/non
+  backtest.py   simulation quotidienne sans biais d'anticipation
+  rapport.py    graphiques et tableaux
+  brokers.py    portefeuille papier local, Alpaca (non utilisé pour Trade Republic)
 ```
