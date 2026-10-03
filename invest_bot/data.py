@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import time
 from datetime import date, timedelta
 from pathlib import Path
 
@@ -21,15 +22,17 @@ def fetch_prices(tickers: list[str], start: str = "2000-01-01", use_cache: bool 
 
     import yfinance as yf  # import tardif : inutile pour les tests
 
-    raw = yf.download(tickers, start=start, auto_adjust=True, progress=False)
-    if raw.empty:
-        raise RuntimeError(f"Aucune donnée reçue pour {tickers}")
-    closes = raw["Close"] if isinstance(raw.columns, pd.MultiIndex) else raw[["Close"]]
-    if not isinstance(raw.columns, pd.MultiIndex):
-        closes.columns = tickers
-    missing = [t for t in tickers if t not in closes or closes[t].dropna().empty]
-    if missing:
-        raise RuntimeError(f"Tickers sans données : {missing}")
-    closes = closes[tickers].dropna(how="all")
+    series = {}
+    for t in tickers:  # un par un : le téléchargement parallèle de yfinance verrouille son cache
+        for essai in range(4):
+            raw = yf.download(t, start=start, auto_adjust=True, progress=False, threads=False)
+            if not raw.empty:
+                break
+            time.sleep(2 ** essai)
+        if raw.empty:
+            raise RuntimeError(f"Aucune donnée reçue pour {t}")
+        close = raw["Close"]
+        series[t] = close.iloc[:, 0] if isinstance(close, pd.DataFrame) else close
+    closes = pd.DataFrame(series).dropna(how="all")
     closes.to_csv(cache)
     return closes
