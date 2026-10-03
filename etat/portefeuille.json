@@ -7,6 +7,9 @@
   "reserve_pct_appliquee": null,
   "pause_jusqua": null,
   "proposition": null,
+  "dernier_mois_plan": null,
+  "palier_alerte": 0,
+  "bulletin_ticket": null,
   "achats": [],
   "historique": []
 }
