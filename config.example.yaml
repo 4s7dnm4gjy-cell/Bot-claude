@@ -1,0 +1,43 @@
+# Copiez ce fichier en config.yaml et adaptez-le.
+
+# Allocation cible (doit sommer à 1.0). ETF diversifiés et peu chers.
+targets:
+  VTI: 0.60   # actions US (tout le marché)
+  VXUS: 0.25  # actions monde hors US
+  BND: 0.15   # obligations
+# Version européenne (PEA/CTO, données Yahoo) — non exécutable via Alpaca :
+#   CW8.PA: 0.80  # Amundi MSCI World
+#   AGGH.AS: 0.20 # obligations mondiales couvertes
+
+benchmark: VTI          # indice qui mesure "le marché a baissé de X %"
+defensive_asset: null   # ex. SHV (obligations court terme) ; null = rester en cash
+
+monthly_contribution: 500
+
+# --- Acheter au bon moment -------------------------------------------------
+# En marché haut, on garde 10 % de cash en réserve. Quand le marché chute,
+# la réserve est déployée par paliers (achats massifs pendant la peur).
+reserve_pct: 0.10
+reserve_tiers:
+  - {drawdown: 0.15, reserve_pct: 0.05}
+  - {drawdown: 0.25, reserve_pct: 0.02}
+  - {drawdown: 0.35, reserve_pct: 0.0}
+
+# --- Revendre au bon moment ------------------------------------------------
+# On vend seulement ce qui a trop monté : si un actif dépasse sa cible de plus
+# de 5 points de pourcentage, on revient à la cible.
+rebalance_band: 0.05
+# Filtre de tendance : sortir d'un actif sous sa moyenne mobile 200 jours.
+# Réduit les grosses baisses mais peut coûter en marché haussier et génère
+# des impôts/frais. Comparez avec `backtest` avant de l'activer.
+trend_filter: false
+trend_window_days: 200
+
+drawdown_window_days: 252
+min_order_value: 50
+fractional: true
+fee_bps: 5
+
+# --- Garde-fous ------------------------------------------------------------
+max_orders_per_run: 20
+max_turnover_pct: 0.50
