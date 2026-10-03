@@ -10,6 +10,8 @@
   "dernier_mois_plan": null,
   "palier_alerte": 0,
   "bulletin_ticket": 1,
+  "satellites": {},
+  "radar_alertes": {},
   "achats": [],
   "historique": []
 }
