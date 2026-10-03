@@ -42,6 +42,10 @@ def marche(final_drop: float = 0.0, n: int = 900) -> pd.DataFrame:
 def isole(tmp_path, monkeypatch):
     monkeypatch.chdir(tmp_path)
     monkeypatch.delenv("GITHUB_TOKEN", raising=False)
+    # Pas de réseau en test : actualités calmes par défaut.
+    from invest_bot import news
+
+    monkeypatch.setattr(news, "lire_flux", lambda nom, jours=30: [news.Article(f"{nom} ouvre un magasin", "https://ex.com", "2026-10-01", "Test")])
 
 
 def test_crash_propose_achat_puis_oui(cfg):
@@ -218,3 +222,33 @@ def test_radar_alerte_opportunite_puis_oui(cfg_radar, monkeypatch):
     conseil.sauver_etat(etat)
     # Pas de nouvelle alerte sur le même titre pendant le délai.
     assert conseil.lancer_conseil(cfg_radar, px, px["WORLD"], date(2025, 6, 5), prix_radar=rp) is None
+
+
+def test_radar_scandale_bloque_l_alerte(cfg_radar, monkeypatch):
+    from invest_bot import news, radar
+
+    monkeypatch.setattr(radar.Opportunite, "favorable", property(lambda self: True))
+    monkeypatch.setattr(news, "lire_flux", lambda nom, jours=30: [
+        news.Article(f"{nom} : fraude comptable, perquisition au siège", "https://ex.com/a", "2026-10-01", "AFP"),
+        news.Article(f"{nom} bankruptcy fears grow", "https://ex.com/b", "2026-09-30", "Reuters"),
+    ])
+    px = marche()
+    px.iloc[-60:] *= np.linspace(1, 1.3, 60)[:, None]
+    assert conseil.lancer_conseil(cfg_radar, px, px["WORLD"], date(2025, 6, 3), prix_radar=radar_prix()) is None
+    bulletin = json.loads(conseil.A_PUBLIER.read_text())["bulletin"]
+    assert "⛔" in bulletin and "Soldée SA" in bulletin
+
+
+def test_radar_ticket_montre_les_actualites(cfg_radar, monkeypatch):
+    from invest_bot import news, radar
+
+    monkeypatch.setattr(radar.Opportunite, "favorable", property(lambda self: True))
+    monkeypatch.setattr(news, "lire_flux", lambda nom, jours=30: [
+        news.Article(f"{nom} faces lawsuit over pricing", "https://ex.com/a", "2026-10-01", "Reuters"),
+    ])
+    px = marche()
+    px.iloc[-60:] *= np.linspace(1, 1.3, 60)[:, None]
+    prop = conseil.lancer_conseil(cfg_radar, px, px["WORLD"], date(2025, 6, 3), prix_radar=radar_prix())
+    assert prop["type"] == "opportunite"
+    corps = json.loads(conseil.A_PUBLIER.read_text())["corps"]
+    assert "Pourquoi Soldée SA baisse" in corps and "https://ex.com/a" in corps

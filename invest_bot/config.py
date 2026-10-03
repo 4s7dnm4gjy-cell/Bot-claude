@@ -23,6 +23,8 @@ RADAR_DEFAUTS = {
     "montant": 150,       # montant suggéré par opportunité (€)
     "part_max": 0.20,     # part maximale du portefeuille en titres « radar »
     "delai_jours": 30,    # pas deux alertes sur le même titre avant ce délai
+    "actualites": True,   # lire l'actualité avant d'alerter (scandale, fraude…)
+    "actualites_nb": 5,   # nombre de titres du radar dont on lit l'actualité chaque jour
 }
 
 

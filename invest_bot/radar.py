@@ -42,6 +42,7 @@ class Opportunite:
     n_12m: int
     base_moy_12m: float  # tous jours confondus
     pire_12m: float
+    vs_marche_3m: float | None = None  # performance 3 mois du titre moins celle du marché
 
     @property
     def favorable(self) -> bool:
@@ -58,7 +59,16 @@ class Opportunite:
         )
 
 
-def analyser_titre(ticker: str, info: dict, prix: pd.Series) -> Opportunite | None:
+def ecart_marche(prix: pd.Series, marche: pd.Series | None, jours: int = 63) -> float | None:
+    if marche is None:
+        return None
+    s, m = prix.dropna(), marche.dropna()
+    if len(s) <= jours or len(m) <= jours:
+        return None
+    return float((s.iloc[-1] / s.iloc[-jours - 1] - 1) - (m.iloc[-1] / m.iloc[-jours - 1] - 1))
+
+
+def analyser_titre(ticker: str, info: dict, prix: pd.Series, marche: pd.Series | None = None) -> Opportunite | None:
     s = prix.dropna()
     if len(s) < JOURS_5_ANS + 252:
         return None  # historique trop court pour des statistiques fiables
@@ -87,16 +97,18 @@ def analyser_titre(ticker: str, info: dict, prix: pd.Series) -> Opportunite | No
         n_12m=int(ligne["n_12m"]) if ligne is not None else 0,
         base_moy_12m=float(base["moy_12m"]),
         pire_12m=float(ligne["pire_12m"]) if ligne is not None else np.nan,
+        vs_marche_3m=ecart_marche(s, marche),
     )
 
 
-def scanner(liste: dict[str, dict], prix: pd.DataFrame, score_min: float) -> list[Opportunite]:
+def scanner(liste: dict[str, dict], prix: pd.DataFrame, score_min: float,
+            marche: pd.Series | None = None) -> list[Opportunite]:
     """Titres au score >= score_min et en tendance longue positive, du plus soldé au moins soldé."""
     out = []
     for ticker, info in liste.items():
         if ticker not in prix:
             continue
-        o = analyser_titre(ticker, info, prix[ticker])
+        o = analyser_titre(ticker, info, prix[ticker], marche)
         if o and o.score >= score_min and o.perf_5ans > 0:
             out.append(o)
     return sorted(out, key=lambda o: (o.favorable, o.score), reverse=True)

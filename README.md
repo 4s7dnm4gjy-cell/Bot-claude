@@ -67,6 +67,14 @@ Chaque jour, le bot scanne **35 actions et ETF disponibles sur Trade Republic** 
 - un même titre ne fait l'objet que d'une alerte par mois ;
 - le bot ne revend jamais ces titres à votre place.
 
+**📰 Lecture des actualités : opportunité ou vraie mauvaise nouvelle ?**
+Avant chaque alerte, le bot lit les articles des 30 derniers jours sur le titre (Google Actualités, en français et en anglais). Il y cherche des signaux d'alarme : scandale, fraude, enquête, procès, faillite, avertissement sur résultats… Il compare aussi la baisse du titre à celle du marché.
+- 🟢 **Rien d'alarmant** : la baisse ressemble à un mouvement de marché, l'alerte part.
+- 🟠 **À vérifier** : l'alerte part, avec les articles inquiétants en lien, à lire avant de répondre `oui`.
+- 🔴 **Problème sérieux** : pas d'alerte. Le titre apparaît « ⛔ écarté » dans le bulletin, avec la raison.
+
+C'est une lecture par mots-clés, pas une analyse : elle peut se tromper. Les liens sont là pour que vous jugiez vous-même.
+
 ⚠️ Une action seule est bien plus risquée qu'un ETF. Les statistiques sont flatteuses, car la liste ne contient que des entreprises qui ont réussi jusqu'ici. Une forte baisse peut avoir une bonne raison.
 
 ## Pourquoi pas d'exécution automatique sur Trade Republic ?

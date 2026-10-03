@@ -22,7 +22,7 @@ from pathlib import Path
 import pandas as pd
 import requests
 
-from . import rapport
+from . import news, rapport
 from .config import Config
 from .radar import Opportunite, scanner
 from .score import BUCKET_LABELS, BUCKETS, label, moment_score, score_stats
@@ -260,8 +260,23 @@ def evaluer_plan(cfg: Config, etat: dict, prix: pd.DataFrame, a: dict, aujourdhu
 
 # --------------------------------------------------------------------------- radar
 
+def lire_actualites(cfg: Config, opportunites: list[Opportunite]) -> dict[str, news.Actualites]:
+    """Lit l'actualité des titres affichés et de tous les candidats à une alerte."""
+    if not cfg.radar.get("actualites"):
+        return {}
+    choix = opportunites[: cfg.radar["actualites_nb"]] + [
+        o for o in opportunites if o.score >= cfg.radar["score_alerte"]
+    ]
+    actus = {}
+    for o in choix:
+        if o.ticker not in actus:
+            actus[o.ticker] = news.verifier(o.nom, o.vs_marche_3m)
+    return actus
+
+
 def evaluer_radar(cfg: Config, etat: dict, prix: pd.DataFrame, prix_radar: pd.DataFrame,
-                  opportunites: list[Opportunite], aujourdhui: date) -> dict | None:
+                  opportunites: list[Opportunite], aujourdhui: date,
+                  actus: dict[str, news.Actualites] | None = None) -> dict | None:
     """Ouvre au plus une alerte « opportunité » par jour, avec garde-fous."""
     r = cfg.radar
     if etat["proposition"] is not None or aujourdhui.weekday() >= 5:
@@ -275,6 +290,9 @@ def evaluer_radar(cfg: Config, etat: dict, prix: pd.DataFrame, prix_radar: pd.Da
     for o in opportunites:
         if o.score < r["score_alerte"] or not o.favorable:
             continue
+        act = (actus or {}).get(o.ticker)
+        if act is not None and act.verdict == "rouge":
+            continue  # vraie mauvaise nouvelle : ce n'est pas une opportunité
         derniere = etat["radar_alertes"].get(o.ticker)
         if derniere and (aujourdhui - date.fromisoformat(derniere)).days < r["delai_jours"]:
             continue
@@ -289,18 +307,29 @@ def evaluer_radar(cfg: Config, etat: dict, prix: pd.DataFrame, prix_radar: pd.Da
             "type": "opportunite", "date": aujourdhui.isoformat(), "liberation": qty * o.prix + cfg.fee_fixed,
             "reserve_pct": etat["reserve_pct_appliquee"], "score": o.score, "ordres": [asdict(ordre)],
             "notes": [], "total": coeur + sat, "radar": asdict(o),
+            "actualites": act.to_dict() if act is not None else None,
         }
     return None
 
 
-def resume_radar(cfg: Config, opportunites: list[Opportunite], limite: int | None = 3) -> str:
+def resume_radar(cfg: Config, opportunites: list[Opportunite], limite: int | None = 3,
+                 actus: dict[str, news.Actualites] | None = None) -> str:
     titre = f"#### 🔎 Radar ({len(cfg.radar['liste'])} actions et ETF de Trade Republic)"
     if not opportunites:
         return titre + "\n\nAucun titre nettement soldé aujourd'hui."
-    choix = opportunites if limite is None else opportunites[:limite]
-    lignes = [titre, *[f"- {o.ligne()}" for o in choix]]
-    if limite is not None and len(opportunites) > limite:
-        lignes.append(f"- … et {len(opportunites) - limite} autres sur le tableau de bord.")
+    actus = actus or {}
+    ecartes = [o for o in opportunites if o.ticker in actus and actus[o.ticker].verdict == "rouge"]
+    retenues = [o for o in opportunites if o not in ecartes]
+    choix = retenues if limite is None else retenues[:limite]
+    lignes = [titre]
+    for o in choix:
+        lignes.append(f"- {o.ligne()}")
+        if o.ticker in actus:
+            lignes.append(f"  - {actus[o.ticker].court()}")
+    for o in ecartes:
+        lignes.append(f"- ⛔ **{o.nom}** écarté : {actus[o.ticker].resume}")
+    if limite is not None and len(retenues) > limite:
+        lignes.append(f"- … et {len(retenues) - limite} autres sur le tableau de bord.")
     lignes.append("⭐ = historiquement, acheter ce titre à ce niveau de score a fait mieux que sa moyenne.")
     return "\n".join(lignes)
 
@@ -308,7 +337,7 @@ def resume_radar(cfg: Config, opportunites: list[Opportunite], limite: int | Non
 def corps_opportunite(cfg: Config, prop: dict, image_url: str) -> str:
     o = Opportunite(**prop["radar"])
     ordre = prop["ordres"][0]
-    return "\n\n".join([
+    return "\n\n".join(p for p in [
         f"### {o.nom} est à un prix historiquement bas pour ce titre",
         "#### Ce que je vous propose dans Trade Republic",
         "| Action | Titre | ISIN | Quantité | Prix indicatif | Montant ~ |\n|---|---|---|---:|---:|---:|\n"
@@ -317,12 +346,13 @@ def corps_opportunite(cfg: Config, prop: dict, image_url: str) -> str:
         f"Frais : {cfg.fee_fixed:.0f} €. Vérifiez le nom du titre dans l'application avant de valider "
         "(le prix est indiqué dans la devise de cotation).",
         "#### Pourquoi ce titre, maintenant",
-        f"- Score du moment : **{o.score:.0f}/100** ({o.tranche}) : il est à {-o.baisse:+.0%} de son plus haut sur un an.",
+        f"- Score du moment : **{o.score:.0f}/100**, tranche {o.tranche} : il est à {-o.baisse:+.0%} de son plus haut sur un an.",
         f"- Tendance de fond positive : {o.perf_5ans:+.0%} sur 5 ans.",
         f"- Historiquement, quand ce titre était à ce niveau de score : **{o.moy_12m:+.0%} en moyenne 12 mois "
         f"plus tard**, positif dans {o.pos_12m:.0%} des cas, pire cas {o.pire_12m:+.0%} "
-        f"(moyenne de tous les jours : {o.base_moy_12m:+.0%} ; {o.n_12m:,} jours observés).".replace(",", " "),
+        f"(moyenne de tous les jours : {o.base_moy_12m:+.0%} ; {o.n_12m:_} jours observés).".replace("_", " "),
         f"![Graphique]({image_url})",
+        news.section_markdown(o.nom, news.Actualites.from_dict(prop["actualites"])) if prop.get("actualites") else "",
         "#### ⚠️ À savoir",
         f"- Une action seule est bien plus risquée qu'un ETF. Le bot limite ces titres à "
         f"{cfg.radar['part_max']:.0%} de votre portefeuille.",
@@ -332,7 +362,7 @@ def corps_opportunite(cfg: Config, prop: dict, image_url: str) -> str:
         "#### Votre décision",
         "Répondez **en commentaire** :\n- `oui` → acheté, j'enregistre\n- `non` → je passe "
         f"(pas de nouvelle alerte sur ce titre avant {cfg.radar['delai_jours']} jours)",
-    ])
+    ] if p)
 
 
 TITRES = {
@@ -544,11 +574,12 @@ def lancer_conseil(
 
     nb_achats = len(etat["achats"])
     nouvelle = evaluer(cfg, etat, prix, a, aujourdhui)
-    opportunites = []
+    opportunites, actus = [], {}
     if cfg.radar and prix_radar is not None and not prix_radar.empty:
-        opportunites = scanner(cfg.radar["liste"], prix_radar, cfg.radar["score_min"])
+        opportunites = scanner(cfg.radar["liste"], prix_radar, cfg.radar["score_min"], prix[cfg.benchmark])
+        actus = lire_actualites(cfg, opportunites)
         if nouvelle is None:
-            nouvelle = evaluer_radar(cfg, etat, prix, prix_radar, opportunites, aujourdhui)
+            nouvelle = evaluer_radar(cfg, etat, prix, prix_radar, opportunites, aujourdhui, actus)
     a_publier = {}
     if nouvelle:
         etat["proposition"] = nouvelle
@@ -566,7 +597,7 @@ def lancer_conseil(
     if cfg.bulletin_quotidien:
         a_publier["bulletin"] = bulletin(cfg, etat, prix, a, aujourdhui, plan_du_jour=len(etat["achats"]) > nb_achats)
         if cfg.radar:
-            a_publier["bulletin"] += "\n\n" + resume_radar(cfg, opportunites)
+            a_publier["bulletin"] += "\n\n" + resume_radar(cfg, opportunites, actus=actus)
     if a_publier:
         A_PUBLIER.parent.mkdir(parents=True, exist_ok=True)
         A_PUBLIER.write_text(json.dumps(a_publier, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -575,7 +606,7 @@ def lancer_conseil(
     sauver_etat(etat)
     tdb = tableau_de_bord(cfg, etat, prix, a)
     if cfg.radar:
-        tdb += "\n\n" + resume_radar(cfg, opportunites, limite=None)
+        tdb += "\n\n" + resume_radar(cfg, opportunites, limite=None, actus=actus)
     (RAPPORTS / "tableau-de-bord.md").write_text(tdb + "\n", encoding="utf-8")
     return nouvelle
 
