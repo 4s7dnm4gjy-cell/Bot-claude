@@ -163,3 +163,19 @@ def test_cache_incremental(tmp_path, monkeypatch):
     assert appels[-2][0] == ("A", "B") and appels[-2][1] != "2000-01-01"  # seulement les derniers jours
     assert appels[-1] == (("C",), "2000-01-01")  # nouveau titre : historique complet
     assert len(second) == 32 and list(second.columns) == ["A", "B", "C"]
+
+
+def test_rang_causal_identique_au_calcul_direct():
+    from invest_bot.score import causal_rank
+
+    x = pd.Series([3.0, np.nan, 1.0, 2.0, 2.0, 5.0, np.nan, 0.5])
+    attendu = []
+    vus = []
+    for v in x:
+        if np.isnan(v):
+            attendu.append(np.nan)
+            continue
+        vus.append(v)
+        inf, egal = sum(u < v for u in vus), sum(u == v for u in vus)
+        attendu.append((inf + egal / 2) / len(vus) if len(vus) >= 3 else np.nan)
+    pd.testing.assert_series_equal(causal_rank(x, 3), pd.Series(attendu), check_names=False)
