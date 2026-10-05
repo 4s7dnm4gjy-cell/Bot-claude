@@ -12,6 +12,7 @@ import argparse
 import json
 import os
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -120,7 +121,9 @@ def cmd_conseil(args, cfg: Config) -> None:
         series_fx = {("GBP" if d == "GBp" else d): cours_fx[t].dropna() for d, t in fx.items() if t in cours_fx}
         taux = {d: float(serie.iloc[-1]) for d, serie in series_fx.items()}
         print(f"Radar : {radar.shape[1]} titres analysés ; taux de change : {taux}")
+    debut = time.time()
     prop = lancer_conseil(cfg, prices, stats, prix_radar=radar, taux=taux, fx=series_fx)
+    print(f"Analyse et propositions : {time.time() - debut:.0f} s")
     print(f"Proposition : {prop['type']} ({len(prop['ordres'])} ordres)" if prop else "Rien à proposer aujourd'hui.")
 
 

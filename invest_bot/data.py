@@ -52,12 +52,14 @@ def _telecharger(tickers: list[str], start: str, strict: bool) -> pd.DataFrame:
 
     import yfinance as yf  # import tardif : inutile pour les tests
 
+    t0 = time.time()
     series = {}
     paquet = 100  # téléchargement par lots : ~10 fois plus rapide qu'un par un
     for i in range(0, len(tickers), paquet):
         lot = tickers[i:i + paquet]
         try:
-            raw = yf.download(lot, start=start, auto_adjust=True, progress=False, threads=False)
+            # Parallèle au sein du lot (rapide) ; les titres en échec sont repris un par un plus bas.
+            raw = yf.download(lot, start=start, auto_adjust=True, progress=False, threads=8)
         except Exception as e:
             print(f"Lot {i // paquet + 1} en échec ({type(e).__name__}), reprise titre par titre")
             raw = pd.DataFrame()
@@ -68,6 +70,7 @@ def _telecharger(tickers: list[str], start: str, strict: bool) -> pd.DataFrame:
             for t in lot:
                 if t in close and close[t].notna().any():
                     series[t] = close[t]
+    print(f"  {len(series)}/{len(tickers)} titres téléchargés en {time.time() - t0:.0f} s", flush=True)
     for t in [t for t in tickers if t not in series]:  # rattrapage un par un
         for essai in range(4 if strict else 2):
             raw = yf.download(t, start=start, auto_adjust=True, progress=False, threads=False)
