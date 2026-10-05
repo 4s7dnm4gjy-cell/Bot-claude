@@ -142,3 +142,24 @@ def test_backtest_has_no_lookahead():
     b = run_backtest(cfg, px2, 10_000)
     cut = px.index[-102]
     pd.testing.assert_series_equal(a.equity.loc[:cut], b.equity.loc[:cut])
+
+
+def test_cache_incremental(tmp_path, monkeypatch):
+    from invest_bot import data
+
+    monkeypatch.setattr(data, "CACHE_DIR", tmp_path)
+    idx = pd.bdate_range("2026-01-01", periods=30)
+    appels = []
+
+    def faux(tickers, start, strict):
+        appels.append((tuple(tickers), start))
+        jours = idx if start == "2000-01-01" else idx[-12:].append(pd.bdate_range(idx[-1], periods=3)[1:])
+        return pd.DataFrame({t: np.arange(len(jours), dtype=float) + 1 for t in tickers}, index=jours)
+
+    monkeypatch.setattr(data, "_telecharger", faux)
+    premier = data.fetch_prices(["A", "B"], use_cache=False, incremental=True)
+    assert len(premier) == 30 and appels[-1] == (("A", "B"), "2000-01-01")
+    second = data.fetch_prices(["A", "B", "C"], use_cache=False, incremental=True)
+    assert appels[-2][0] == ("A", "B") and appels[-2][1] != "2000-01-01"  # seulement les derniers jours
+    assert appels[-1] == (("C",), "2000-01-01")  # nouveau titre : historique complet
+    assert len(second) == 32 and list(second.columns) == ["A", "B", "C"]

@@ -21,13 +21,14 @@ WIKI = "https://en.wikipedia.org/wiki/"
 # nom de l'indice -> (page, suffixe Yahoo, transformation éventuelle du code)
 INDICES = {
     "S&P 500": ("List_of_S%26P_500_companies", "", "us"),
-    "Nasdaq-100": ("Nasdaq-100", "", "us"),
-    "Dow Jones": ("Dow_Jones_Industrial_Average", "", "us"),
+    "S&P MidCap 400": ("List_of_S%26P_400_companies", "", "us"),
+    "S&P SmallCap 600": ("List_of_S%26P_600_companies", "", "us"),
     "CAC 40": ("CAC_40", ".PA", None),
-    "SBF 120": ("SBF_120", ".PA", None),
+    "SBF 120": ("https://fr.wikipedia.org/wiki/SBF_120", ".PA", None),
     "DAX": ("DAX", ".DE", None),
     "MDAX": ("MDAX", ".DE", None),
-    "TecDAX": ("TecDAX", ".DE", None),
+    "SDAX": ("https://de.wikipedia.org/wiki/SDAX", ".DE", None),
+    "TecDAX": ("https://de.wikipedia.org/wiki/TecDAX", ".DE", None),
     "Euro Stoxx 50": ("EURO_STOXX_50", None, None),
     "FTSE 100": ("FTSE_100_Index", ".L", "uk"),
     "FTSE 250": ("FTSE_250_Index", ".L", "uk"),
@@ -40,7 +41,7 @@ INDICES = {
     "OMX Copenhagen 25": ("OMX_Copenhagen_25", ".CO", "nordique"),
     "OMX Helsinki 25": ("OMX_Helsinki_25", ".HE", "nordique"),
     "OBX": ("OBX_Index", ".OL", "nordique"),
-    "ATX": ("Austrian_Traded_Index", ".VI", None),
+    "ATX": ("https://de.wikipedia.org/wiki/Austrian_Traded_Index", ".VI", None),
     "PSI": ("PSI-20", ".LS", None),
     "ISEQ 20": ("ISEQ_20", ".IR", None),
     "Nikkei 225": ("Nikkei_225", ".T", "japon"),
@@ -50,8 +51,10 @@ INDICES = {
 }
 
 COLS_CODE = ("symbol", "ticker", "ticker symbol", "code", "epic", "stock symbol", "ticker code", "sehk",
-             "trading symbol", "stock code", "securities code")
-COLS_NOM = ("security", "company", "name", "constituent", "company name", "corporation", "issuer", "firm")
+             "trading symbol", "stock code", "securities code", "mnem", "mnémonique", "symbole", "kürzel",
+             "börsenkürzel", "ticker-symbol")
+COLS_NOM = ("security", "company", "name", "constituent", "company name", "corporation", "issuer", "firm",
+            "société", "entreprise", "unternehmen", "nom")
 
 # Dans le texte de la page : « Toyota Motor (TYO: 7203) », « Apple Inc. (Nasdaq: AAPL) ».
 MOTIF_TEXTE = re.compile(r"([A-Z][^()\n]{1,60}?)\s*\((?:TYO|TSE|NASDAQ|Nasdaq|NYSE)\s*:\s*([A-Z0-9.]{1,6})\)")
@@ -100,7 +103,8 @@ def convertir(code: str, suffixe: str, regle: str | None) -> str | None:
 
 
 def lire_indice(nom: str, page: str, suffixe: str | None, regle: str | None) -> dict[str, dict]:
-    html = requests.get(WIKI + page, timeout=30, headers={"User-Agent": "Mozilla/5.0 (bot-investissement)"}).text
+    url = page if page.startswith("http") else WIKI + page
+    html = requests.get(url, timeout=30, headers={"User-Agent": "Mozilla/5.0 (bot-investissement)"}).text
     meilleur: dict[str, dict] = {}
     for df in pd.read_html(StringIO(html)):
         if isinstance(df.columns, pd.MultiIndex):

@@ -108,7 +108,8 @@ def cmd_conseil(args, cfg: Config) -> None:
     stats = fetch_prices([cfg.stats_ticker], start="1950-01-01", use_cache=False)[cfg.stats_ticker]
     radar, taux, series_fx = None, {}, {}
     if cfg.radar and cfg.radar["liste"]:
-        radar = fetch_prices(list(cfg.radar["liste"]), start=args.data_start, use_cache=False, strict=False)
+        radar = fetch_prices(list(cfg.radar["liste"]), start=args.data_start, use_cache=False, strict=False,
+                             incremental=True)
         manquants = [t for t in cfg.radar["liste"] if t not in radar]
         if manquants:
             print(f"Radar : {len(manquants)} titre(s) sans données ignorés : {', '.join(manquants)}")

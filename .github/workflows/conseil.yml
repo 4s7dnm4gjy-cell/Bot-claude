@@ -17,6 +17,7 @@ concurrency:
 jobs:
   conseil:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
@@ -26,6 +27,17 @@ jobs:
           python-version: "3.11"
           cache: pip
       - run: pip install -r requirements.txt
+
+      # Cours gardés d'un jour à l'autre (seuls les derniers jours sont téléchargés) ;
+      # cache neuf chaque mois pour réintégrer les ajustements de dividendes.
+      - name: Mois en cours
+        id: mois
+        run: echo "m=$(date +%Y-%m)" >> "$GITHUB_OUTPUT"
+      - uses: actions/cache@v4
+        with:
+          path: data_cache
+          key: cours-${{ steps.mois.outputs.m }}-${{ github.run_id }}
+          restore-keys: cours-${{ steps.mois.outputs.m }}-
 
       - name: Analyser le marché
         run: python -m invest_bot conseil
