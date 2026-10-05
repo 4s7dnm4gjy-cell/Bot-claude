@@ -106,7 +106,7 @@ def cmd_conseil(args, cfg: Config) -> None:
 
     prices = fetch_prices(cfg.tickers, start=args.data_start, use_cache=False)
     stats = fetch_prices([cfg.stats_ticker], start="1950-01-01", use_cache=False)[cfg.stats_ticker]
-    radar, taux = None, {}
+    radar, taux, series_fx = None, {}, {}
     if cfg.radar and cfg.radar["liste"]:
         radar = fetch_prices(list(cfg.radar["liste"]), start=args.data_start, use_cache=False, strict=False)
         manquants = [t for t in cfg.radar["liste"] if t not in radar]
@@ -116,10 +116,10 @@ def cmd_conseil(args, cfg: Config) -> None:
 
         fx = tickers_change({devise(t, i) for t, i in cfg.radar["liste"].items()})
         cours_fx = fetch_prices(list(fx.values()), start="2024-01-01", use_cache=False, strict=False)
-        taux = {d: float(cours_fx[t].dropna().iloc[-1]) for d, t in fx.items() if t in cours_fx}
-        taux = {("GBP" if d == "GBp" else d): v for d, v in taux.items()}
+        series_fx = {("GBP" if d == "GBp" else d): cours_fx[t].dropna() for d, t in fx.items() if t in cours_fx}
+        taux = {d: float(serie.iloc[-1]) for d, serie in series_fx.items()}
         print(f"Radar : {radar.shape[1]} titres analysés ; taux de change : {taux}")
-    prop = lancer_conseil(cfg, prices, stats, prix_radar=radar, taux=taux)
+    prop = lancer_conseil(cfg, prices, stats, prix_radar=radar, taux=taux, fx=series_fx)
     print(f"Proposition : {prop['type']} ({len(prop['ordres'])} ordres)" if prop else "Rien à proposer aujourd'hui.")
 
 

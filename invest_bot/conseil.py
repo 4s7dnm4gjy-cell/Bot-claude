@@ -565,6 +565,7 @@ def tableau_de_bord(cfg: Config, etat: dict, prix: pd.DataFrame, a: dict) -> str
 def lancer_conseil(
     cfg: Config, prix: pd.DataFrame, prix_stats: pd.Series, aujourdhui: date | None = None,
     prix_radar: pd.DataFrame | None = None, taux: dict[str, float] | None = None,
+    fx: dict[str, pd.Series] | None = None,
 ) -> dict | None:
     aujourdhui = aujourdhui or date.today()
     etat = charger_etat(cfg)
@@ -587,7 +588,7 @@ def lancer_conseil(
     nouvelle = evaluer(cfg, etat, prix, a, aujourdhui)
     opportunites, actus = [], {}
     if cfg.radar and prix_radar is not None and not prix_radar.empty:
-        opportunites = scanner(cfg.radar["liste"], prix_radar, cfg.radar["score_min"], prix[cfg.benchmark], taux)
+        opportunites = scanner(cfg.radar["liste"], prix_radar, cfg.radar["score_min"], prix[cfg.benchmark], taux, fx)
         actus = lire_actualites(cfg, opportunites)
         if nouvelle is None:
             nouvelle = evaluer_radar(cfg, etat, prix, prix_radar, opportunites, aujourdhui, actus, taux)

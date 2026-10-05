@@ -282,3 +282,16 @@ def test_radar_titre_etranger_quantite_en_euros(cfg_radar, monkeypatch):
     assert o["price"] == pytest.approx(rp["SOLDE.T"].iloc[-1] / 160)  # prix en euros
     assert o["quantity"] * o["price"] <= 2 * 150
     assert "JPY" in json.loads(conseil.A_PUBLIER.read_text())["corps"]
+
+
+def test_comparaison_au_marche_sans_effet_de_change():
+    from invest_bot.radar import ecart_marche, en_euros_serie
+
+    idx = pd.bdate_range("2025-01-01", periods=100)
+    marche_eur = pd.Series(100.0, index=idx)
+    action_usd = pd.Series(110.0, index=idx)  # stable en dollars…
+    eurusd = pd.Series(np.linspace(1.10, 1.21, 100), index=idx)  # …mais le dollar baisse de 10 %
+    en_eur = en_euros_serie(action_usd, "USD", {"USD": eurusd})
+    assert ecart_marche(en_eur, marche_eur) == pytest.approx(-0.06, abs=0.02)  # effet de change visible
+    assert ecart_marche(action_usd, marche_eur) == pytest.approx(0.0)
+    assert en_euros_serie(action_usd, "SEK", {}) is None
