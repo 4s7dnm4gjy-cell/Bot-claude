@@ -90,7 +90,8 @@
         }
       ]
     },
-    "image": "rapports/propositions/2026-10-05.png"
+    "image": "rapports/propositions/2026-10-05.png",
+    "ticket": 2
   },
   "dernier_mois_plan": null,
   "palier_alerte": 0,
