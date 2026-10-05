@@ -6,12 +6,99 @@
   "dernier_mois_apport": "2026-10",
   "reserve_pct_appliquee": null,
   "pause_jusqua": null,
-  "proposition": null,
+  "proposition": {
+    "type": "opportunite",
+    "date": "2026-10-05",
+    "liberation": 207.9491363812226,
+    "reserve_pct": null,
+    "score": 97.73560852031777,
+    "ordres": [
+      {
+        "ticker": "MCD",
+        "side": "buy",
+        "quantity": 1.0,
+        "price": 206.9491363812226,
+        "reason": "opportunité radar (score 98)"
+      }
+    ],
+    "notes": [],
+    "total": 0.0,
+    "radar": {
+      "ticker": "MCD",
+      "nom": "McDonald's",
+      "isin": "US5801351017",
+      "type": "action",
+      "prix": 231.72000122070312,
+      "score": 97.73560852031777,
+      "baisse": 0.30727070074764207,
+      "perf_5ans": 0.06799579356275576,
+      "tranche": "80-100 (soldé)",
+      "moy_12m": 0.3395427609431276,
+      "pos_12m": 0.9817708333333334,
+      "n_12m": 384,
+      "base_moy_12m": 0.17030997448647292,
+      "pire_12m": -0.07037186564001408,
+      "vs_marche_3m": -0.20551417960468588,
+      "devise": "USD",
+      "prix_eur": 206.9491363812226
+    },
+    "actualites": {
+      "verdict": "orange",
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -21% vs marché)",
+      "vs_marche_3m": -0.20551417960468588,
+      "alertes": [],
+      "recents": [
+        {
+          "titre": "Saint-Prix-lès-Arnay. Produire plus sans émettre plus : McDonald’s, Lidl et Pilgrim’s s’allient à la coopérative Sicarev - Le Bien Public",
+          "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQanAyUm16Y1p4TnZKRy1MbFdfdkVnNWRwcVZSLTQ1OC1UUUsxZlB6aXI0T3lfdTRpbXdoSFE2NEk5bHpyWmNjRGlHWE81cEQ0azhVSXgzTjh0bVJ4OFM0cllEQ3pMUE4wUEtYQUlOeFg5VnktRVdEZGdXWWxoR1ZDNFMzcURNbG90bnVNT25Fc2hsM1ZlODFuYjlQeUN0bzh1amZtTWZ2QXRrYVNYYV9PTFEway1vejhEYlFUYUx6cFV3QW1qWDNmR0F5QXpUczZodnliTWEwWm9RUQ?oc=5",
+          "date": "2026-10-04",
+          "source": "Le Bien Public",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "McDonald's Has A Very Firm Response To Claims AI Is Pricing Your Big Mac - Delish",
+          "lien": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQU5XTThDM25QTzdNT21Wb0RvRF9mXzRSRmRoLVhrejJ1SXdKRGNaaFZVQ3NkWmgxdUlCTzhzcTdGTE1QMkhtY283YjdHdTdvYlAxSUltcGh4SHFJYkZYZElsdVFSNzNUYV9YUUp1bnowczBlaDZjV2hWTmRtYnFCTzk2SlJGblhFc1dUeGhn?oc=5",
+          "date": "2026-10-04",
+          "source": "Delish",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "7 McDonald's Breakfast Sandwiches, Ranked - Tasting Table",
+          "lien": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVURtWWh4U2QyNkN3a0FMaEtNeTBqTEllUnhKTFdVNDBGZDNnTmZESW56dHU3RjhhNzNrM2RrMWRPR2poMk5sMEU5WDd3RVNaWmM5bnlmZGgtendEcF9fV1lpTFQxbnZHZGFrNEo5RzdSU1IyWDl0Y1FWUU4wVGNQSQ?oc=5",
+          "date": "2026-10-04",
+          "source": "Tasting Table",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "For A Spicier McDonald's Egg McMuffin, Make This Easy Sauce Request - foodrepublic.com",
+          "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaEx6RnRnYmszRVNRdkt6Tm1ZN3VVYzZOam1mcTI3ZE9EWUlBVG5WTE9ReWVrNTQ2OGxHbGlPZGZUNDlFZWh0NEtsVzhueThLbzRZVmg1TGVzZmcySzhyY0pFcnAxYl9HblhDNmJidVZmdWx6cWZDc0h3dEI5MFhfZDM1LVpyNUtLaGxyQXE0T0dRaHU1?oc=5",
+          "date": "2026-10-04",
+          "source": "foodrepublic.com",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Who Makes The Better-Value Fish Sandwich: McDonald's Or Culver's? - mashed.com",
+          "lien": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM1ZxUTBGdWhILTBsT1BUQ2puVmNqcTVLVjNaYmdwRkdoOXZyRTFLQ1p2VnlJSm5lSnF1RFg0ZUI3SDhvTVBvZG14SGlDZWF2TEszdFJDQS1ueTRWNXpWb3phMkpfQnFNYmp3TWM4ZGkwd1c3S0xwa25HSFBTMnQzTzYwZU44QQ?oc=5",
+          "date": "2026-10-04",
+          "source": "mashed.com",
+          "gravite": 0,
+          "mots": []
+        }
+      ]
+    },
+    "image": "rapports/propositions/2026-10-05.png"
+  },
   "dernier_mois_plan": null,
   "palier_alerte": 0,
   "bulletin_ticket": 1,
   "satellites": {},
-  "radar_alertes": {},
+  "radar_alertes": {
+    "MCD": "2026-10-05"
+  },
   "achats": [],
   "historique": []
 }
