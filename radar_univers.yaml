@@ -1,0 +1,3674 @@
+# Fichier généré automatiquement (python -m invest_bot univers) à partir des
+# compositions d'indices : ne pas modifier à la main, utilisez radar_liste.yaml.
+0001.HK:
+  indice: Hang Seng
+  nom: CK Hutchison Holdings Limited
+0002.HK:
+  indice: Hang Seng
+  nom: CLP Holdings Limited
+0003.HK:
+  indice: Hang Seng
+  nom: Hong Kong and China Gas Company Limited
+0005.HK:
+  indice: Hang Seng
+  nom: HSBC Holdings plc
+0006.HK:
+  indice: Hang Seng
+  nom: Power Assets Holdings Limited
+0012.HK:
+  indice: Hang Seng
+  nom: Henderson Land Development Company Limited
+0016.HK:
+  indice: Hang Seng
+  nom: Sun Hung Kai Properties Limited
+0027.HK:
+  indice: Hang Seng
+  nom: Galaxy Entertainment Group Ltd.
+0066.HK:
+  indice: Hang Seng
+  nom: MTR Corporation Ltd
+0101.HK:
+  indice: Hang Seng
+  nom: Hang Lung Properties Limited
+0175.HK:
+  indice: Hang Seng
+  nom: Geely Auto
+0241.HK:
+  indice: Hang Seng
+  nom: Alibaba Health
+0267.HK:
+  indice: Hang Seng
+  nom: CITIC Limited
+0285.HK:
+  indice: Hang Seng
+  nom: BYD Electronics
+0288.HK:
+  indice: Hang Seng
+  nom: WH Group
+0291.HK:
+  indice: Hang Seng
+  nom: China Resources Beer
+0300.HK:
+  indice: Hang Seng
+  nom: Midea Group
+0316.HK:
+  indice: Hang Seng
+  nom: Orient Overseas (International) Limited
+0322.HK:
+  indice: Hang Seng
+  nom: Tingyi
+0386.HK:
+  indice: Hang Seng
+  nom: Sinopec Corp
+0388.HK:
+  indice: Hang Seng
+  nom: HKEx Limited
+0669.HK:
+  indice: Hang Seng
+  nom: Techtronic Industries
+0688.HK:
+  indice: Hang Seng
+  nom: China Overseas Land & Investment Limited
+0762.HK:
+  indice: Hang Seng
+  nom: China Unicom
+0823.HK:
+  indice: Hang Seng
+  nom: Link REIT
+0836.HK:
+  indice: Hang Seng
+  nom: China Resources Power
+0857.HK:
+  indice: Hang Seng
+  nom: PetroChina Company Limited
+0868.HK:
+  indice: Hang Seng
+  nom: Xinyi Glass
+0881.HK:
+  indice: Hang Seng
+  nom: Zhongsheng Group
+0883.HK:
+  indice: Hang Seng
+  nom: CNOOC Limited
+0939.HK:
+  indice: Hang Seng
+  nom: China Construction Bank
+0960.HK:
+  indice: Hang Seng
+  nom: Longfor Properties
+0968.HK:
+  indice: Hang Seng
+  nom: Xinyi Solar
+0981.HK:
+  indice: Hang Seng
+  nom: Semiconductor Manufacturing International Corporation
+0992.HK:
+  indice: Hang Seng
+  nom: Lenovo
+1024.HK:
+  indice: Hang Seng
+  nom: Kuaishou
+1038.HK:
+  indice: Hang Seng
+  nom: Cheung Kong Infrastructure Holdings Limited
+1044.HK:
+  indice: Hang Seng
+  nom: Hengan International Group Co. Ltd
+1088.HK:
+  indice: Hang Seng
+  nom: China Shenhua Energy
+1093.HK:
+  indice: Hang Seng
+  nom: CSPC Pharmaceutical Group
+1099.HK:
+  indice: Hang Seng
+  nom: Sinopharm Group
+1109.HK:
+  indice: Hang Seng
+  nom: China Resources Land Limited
+1113.HK:
+  indice: Hang Seng
+  nom: CK Asset Holdings
+1177.HK:
+  indice: Hang Seng
+  nom: Sino Biopharm
+1209.HK:
+  indice: Hang Seng
+  nom: China Resources Mixc Lifestyle
+1378.HK:
+  indice: Hang Seng
+  nom: China Hongqiao Group
+1398.HK:
+  indice: Hang Seng
+  nom: Industrial and Commercial Bank of China
+1876.HK:
+  indice: Hang Seng
+  nom: Budweiser Brewing Company APAC
+1928.HK:
+  indice: Hang Seng
+  nom: Sands China
+1929.HK:
+  indice: Hang Seng
+  nom: Chow Tai Fook
+1997.HK:
+  indice: Hang Seng
+  nom: Wharf Real Estate Investment Company Limited
+2015.HK:
+  indice: Hang Seng
+  nom: Li Auto
+2020.HK:
+  indice: Hang Seng
+  nom: Anta Sports
+2057.HK:
+  indice: Hang Seng
+  nom: ZTO Express
+2269.HK:
+  indice: Hang Seng
+  nom: WuXi Biologics
+2313.HK:
+  indice: Hang Seng
+  nom: Shenzhou International
+2319.HK:
+  indice: Hang Seng
+  nom: Mengniu Dairy
+2331.HK:
+  indice: Hang Seng
+  nom: Li-Ning
+2359.HK:
+  indice: Hang Seng
+  nom: WuXi AppTec
+2382.HK:
+  indice: Hang Seng
+  nom: Sunny Optical
+2388.HK:
+  indice: Hang Seng
+  nom: BOC Hong Kong (Holdings) Ltd
+2618.HK:
+  indice: Hang Seng
+  nom: JD Logistics
+2628.HK:
+  indice: Hang Seng
+  nom: China Life
+2688.HK:
+  indice: Hang Seng
+  nom: ENN Energy
+2899.HK:
+  indice: Hang Seng
+  nom: Zijin Mining
+3692.HK:
+  indice: Hang Seng
+  nom: Hansoh Pharmaceutical Group
+3968.HK:
+  indice: Hang Seng
+  nom: China Merchants Bank
+3988.HK:
+  indice: Hang Seng
+  nom: Bank of China Ltd
+3IN.L:
+  indice: FTSE 250
+  nom: 3i Infrastructure
+6618.HK:
+  indice: Hang Seng
+  nom: JD Health
+6690.HK:
+  indice: Hang Seng
+  nom: Haier
+6862.HK:
+  indice: Hang Seng
+  nom: Haidilao
+8TRA.DE:
+  indice: MDAX
+  nom: Traton
+9618.HK:
+  indice: Hang Seng
+  nom: JD.com
+9633.HK:
+  indice: Hang Seng
+  nom: Nongfu Spring
+9888.HK:
+  indice: Hang Seng
+  nom: Baidu
+9961.HK:
+  indice: Hang Seng
+  nom: Trip.com Group
+9992.HK:
+  indice: Hang Seng
+  nom: Pop Mart
+9999.HK:
+  indice: Hang Seng
+  nom: NetEase
+A:
+  indice: S&P 500
+  nom: Agilent Technologies
+A2A.MI:
+  indice: FTSE MIB
+  nom: A2A
+AAF.L:
+  indice: FTSE 100
+  nom: Airtel Africa
+AAS.L:
+  indice: FTSE 250
+  nom: Aberdeen Asia Focus
+ABB.ST:
+  indice: OMX Stockholm 30
+  nom: ABB Ltd
+ABBV:
+  indice: S&P 500
+  nom: AbbVie
+ABDN.L:
+  indice: FTSE 100
+  nom: Aberdeen Group
+ABF.L:
+  indice: FTSE 100
+  nom: Associated British Foods
+ABN.AS:
+  indice: AEX
+  nom: ABN AMRO
+ABNB:
+  indice: S&P 500
+  nom: Airbnb
+ABT:
+  indice: S&P 500
+  nom: Abbott Laboratories
+ABX.TO:
+  indice: S&P/TSX 60
+  nom: Barrick Mining Corporation
+AC.PA:
+  indice: CAC 40
+  nom: Accor
+ACGL:
+  indice: S&P 500
+  nom: Arch Capital Group
+ACN:
+  indice: S&P 500
+  nom: Accenture
+ACS.MC:
+  indice: IBEX 35
+  nom: ACS
+ACX.MC:
+  indice: IBEX 35
+  nom: Acerinox
+ADBE:
+  indice: S&P 500
+  nom: Adobe Inc.
+ADDT-B.ST:
+  indice: OMX Stockholm 30
+  nom: Addtech B
+ADI:
+  indice: S&P 500
+  nom: Analog Devices
+ADM:
+  indice: S&P 500
+  nom: Archer Daniels Midland
+ADM.L:
+  indice: FTSE 100
+  nom: Admiral Group
+ADP:
+  indice: S&P 500
+  nom: Automatic Data Processing
+ADSK:
+  indice: S&P 500
+  nom: Autodesk
+AEE:
+  indice: S&P 500
+  nom: Ameren
+AEM.TO:
+  indice: S&P/TSX 60
+  nom: Agnico Eagle Mines Limited
+AENA.MC:
+  indice: IBEX 35
+  nom: AENA
+AEP:
+  indice: S&P 500
+  nom: American Electric Power
+AEP.L:
+  indice: FTSE 250
+  nom: AEP Plantations
+AES:
+  indice: S&P 500
+  nom: AES Corporation
+AFL:
+  indice: S&P 500
+  nom: Aflac
+AFX.DE:
+  indice: MDAX
+  nom: Carl Zeiss Meditec
+AGFB.BR:
+  indice: BEL 20
+  nom: Agfa-Gevaert
+AGN.AS:
+  indice: AEX
+  nom: Aegon
+AGT.L:
+  indice: FTSE 250
+  nom: AVI Global Trust
+AIE.L:
+  indice: FTSE 250
+  nom: Ashoka India Equity Investment Trust
+AIG:
+  indice: S&P 500
+  nom: American International Group
+AIR.DE:
+  indice: DAX
+  nom: Airbus
+AIXA.DE:
+  indice: MDAX
+  nom: Aixtron
+AIZ:
+  indice: S&P 500
+  nom: Assurant
+AJB.L:
+  indice: FTSE 250
+  nom: AJ Bell
+AJG:
+  indice: S&P 500
+  nom: Arthur J. Gallagher & Co.
+AKAM:
+  indice: S&P 500
+  nom: Akamai Technologies
+AKZA.AS:
+  indice: AEX
+  nom: AkzoNobel
+ALB:
+  indice: S&P 500
+  nom: Albemarle Corporation
+ALC.SW:
+  indice: SMI
+  nom: Alcon Inc
+ALFA.L:
+  indice: FTSE 250
+  nom: Alfa Financial Software
+ALFA.ST:
+  indice: OMX Stockholm 30
+  nom: Alfa Laval
+ALGN:
+  indice: S&P 500
+  nom: Align Technology
+ALL:
+  indice: S&P 500
+  nom: Allstate
+ALL.AX:
+  indice: S&P/ASX 50
+  nom: Aristocrat Leisure
+ALLE:
+  indice: S&P 500
+  nom: Allegion
+ALSYDB.CO:
+  indice: OMX Copenhagen 25
+  nom: AL Sydbank
+ALTR.LS:
+  indice: PSI
+  nom: Altri
+ALW.L:
+  indice: FTSE 100
+  nom: Alliance Witan
+AMAT:
+  indice: S&P 500
+  nom: Applied Materials
+AMBU-B.CO:
+  indice: OMX Copenhagen 25
+  nom: Ambu
+AMC.AX:
+  indice: S&P/ASX 50
+  nom: Amcor
+AMCR:
+  indice: S&P 500
+  nom: Amcor
+AMD:
+  indice: S&P 500
+  nom: Advanced Micro Devices
+AME:
+  indice: S&P 500
+  nom: Ametek
+AMGN:
+  indice: S&P 500
+  nom: Amgen
+AMP:
+  indice: S&P 500
+  nom: Ameriprise Financial
+AMP.MI:
+  indice: FTSE MIB
+  nom: Amplifon
+AMRZ.SW:
+  indice: SMI
+  nom: Amrize AG
+AMT:
+  indice: S&P 500
+  nom: American Tower
+ANA.MC:
+  indice: IBEX 35
+  nom: Acciona
+ANE.MC:
+  indice: IBEX 35
+  nom: Acciona Energía
+ANET:
+  indice: S&P 500
+  nom: Arista Networks
+ANTO.L:
+  indice: FTSE 100
+  nom: Antofagasta plc
+ANZ.AX:
+  indice: S&P/ASX 50
+  nom: ANZ Bank
+AO.L:
+  indice: FTSE 250
+  nom: AO World
+AON:
+  indice: S&P 500
+  nom: Aon plc
+AOS:
+  indice: S&P 500
+  nom: A. O. Smith
+APA:
+  indice: S&P 500
+  nom: APA Corporation
+APD:
+  indice: S&P 500
+  nom: Air Products
+APH:
+  indice: S&P 500
+  nom: Amphenol
+APN.L:
+  indice: FTSE 250
+  nom: Applied Nutrition
+APO:
+  indice: S&P 500
+  nom: Apollo Global Management
+APP:
+  indice: S&P 500
+  nom: AppLovin
+APTV:
+  indice: S&P 500
+  nom: Aptiv
+ARE:
+  indice: S&P 500
+  nom: Alexandria Real Estate Equities
+ARES:
+  indice: S&P 500
+  nom: Ares Management
+ASC.L:
+  indice: FTSE 250
+  nom: ASOS
+ASHM.L:
+  indice: FTSE 250
+  nom: Ashmore Group
+ASL.L:
+  indice: FTSE 250
+  nom: Aberforth Smaller Companies Trust
+ASRNL.AS:
+  indice: AEX
+  nom: ASR Nederland
+AT1.DE:
+  indice: MDAX
+  nom: Aroundtown
+ATD.TO:
+  indice: S&P/TSX 60
+  nom: Alimentation Couche-Tard Inc.
+ATG.L:
+  indice: FTSE 250
+  nom: Auction Technology Group
+ATO:
+  indice: S&P 500
+  nom: Atmos Energy
+ATR.L:
+  indice: FTSE 250
+  nom: Schroder Asian Total Return Investment Company
+ATT.L:
+  indice: FTSE 250
+  nom: Allianz Technology Trust
+ATYM.L:
+  indice: FTSE 250
+  nom: Atalaya Mining
+AUTO.L:
+  indice: FTSE 100
+  nom: Autotrader Group
+AV.L:
+  indice: FTSE 100
+  nom: Aviva
+AVGO:
+  indice: S&P 500
+  nom: Broadcom
+AVIO.MI:
+  indice: FTSE MIB
+  nom: Avio
+AVON.L:
+  indice: FTSE 250
+  nom: Avon Technologies
+AVY:
+  indice: S&P 500
+  nom: Avery Dennison
+AWK:
+  indice: S&P 500
+  nom: American Water Works
+AXON:
+  indice: S&P 500
+  nom: Axon Enterprise
+AXP:
+  indice: S&P 500
+  nom: American Express
+AZM.MI:
+  indice: FTSE MIB
+  nom: Azimut
+AZN.ST:
+  indice: OMX Stockholm 30
+  nom: AstraZeneca
+AZO:
+  indice: S&P 500
+  nom: AutoZone
+BA:
+  indice: S&P 500
+  nom: Boeing
+BAB.L:
+  indice: FTSE 100
+  nom: Babcock International
+BAC:
+  indice: S&P 500
+  nom: Bank of America
+BAG.L:
+  indice: FTSE 250
+  nom: A.G. Barr
+BALL:
+  indice: S&P 500
+  nom: Ball Corporation
+BAM.TO:
+  indice: S&P/TSX 60
+  nom: Brookfield Asset Management Ltd.
+BAMI.MI:
+  indice: FTSE MIB
+  nom: Banco BPM
+BAR.BR:
+  indice: BEL 20
+  nom: Barco
+BAX:
+  indice: S&P 500
+  nom: Baxter International
+BBOX.L:
+  indice: FTSE 100
+  nom: Tritax Big Box REIT
+BBY:
+  indice: S&P 500
+  nom: Best Buy
+BBY.L:
+  indice: FTSE 100
+  nom: Balfour Beatty
+BC.MI:
+  indice: FTSE MIB
+  nom: Brunello Cucinelli
+BC8.DE:
+  indice: MDAX
+  nom: Bechtle
+BCE.TO:
+  indice: S&P/TSX 60
+  nom: BCE Inc.
+BCG.L:
+  indice: FTSE 250
+  nom: Baltic Classifieds
+BCP.LS:
+  indice: PSI
+  nom: Banco Comercial Português
+BDX:
+  indice: S&P 500
+  nom: Becton Dickinson
+BE:
+  indice: S&P 500
+  nom: Bloom Energy
+BEKB.BR:
+  indice: BEL 20
+  nom: Bekaert
+BEN:
+  indice: S&P 500
+  nom: Franklin Resources
+BF-B:
+  indice: S&P 500
+  nom: Brown–Forman
+BFSA.DE:
+  indice: MDAX
+  nom: Befesa
+BG:
+  indice: S&P 500
+  nom: Bunge Global
+BGEO.L:
+  indice: FTSE 100
+  nom: Lion Finance Group
+BGFD.L:
+  indice: FTSE 250
+  nom: Baillie Gifford Japan Trust
+BHMG.L:
+  indice: FTSE 250
+  nom: BH Macro
+BIIB:
+  indice: S&P 500
+  nom: Biogen
+BIP-UN.TO:
+  indice: S&P/TSX 60
+  nom: Brookfield Infrastructure Partners L.P.
+BKG.L:
+  indice: FTSE 250
+  nom: Berkeley Group Holdings
+BKNG:
+  indice: S&P 500
+  nom: Booking Holdings
+BKR:
+  indice: S&P 500
+  nom: Baker Hughes
+BKT.MC:
+  indice: IBEX 35
+  nom: Bankinter
+BLK:
+  indice: S&P 500
+  nom: BlackRock
+BLND.L:
+  indice: FTSE 100
+  nom: British Land
+BME.L:
+  indice: FTSE 250
+  nom: B&M
+BMED.MI:
+  indice: FTSE MIB
+  nom: Banca Mediolanum
+BMO.TO:
+  indice: S&P/TSX 60
+  nom: Bank of Montreal
+BMPS.MI:
+  indice: FTSE MIB
+  nom: Banca Monte dei Paschi di Siena
+BMY:
+  indice: S&P 500
+  nom: Bristol Myers Squibb
+BMY.L:
+  indice: FTSE 250
+  nom: Bloomsbury Publishing
+BN.TO:
+  indice: S&P/TSX 60
+  nom: Brookfield Corporation
+BNKR.L:
+  indice: FTSE 250
+  nom: Bankers Investment Trust
+BNR.DE:
+  indice: DAX
+  nom: Brenntag
+BNS.TO:
+  indice: S&P/TSX 60
+  nom: Bank of Nova Scotia
+BNY:
+  indice: S&P 500
+  nom: BNY Mellon
+BNZL.L:
+  indice: FTSE 100
+  nom: Bunzl
+BOL.ST:
+  indice: OMX Stockholm 30
+  nom: Boliden
+BOSS.DE:
+  indice: MDAX
+  nom: Hugo Boss
+BOWL.L:
+  indice: FTSE 250
+  nom: Hollywood Bowl Group
+BOY.L:
+  indice: FTSE 250
+  nom: Bodycote
+BPCR.L:
+  indice: FTSE 250
+  nom: Biopharma Credit
+BPE.MI:
+  indice: FTSE MIB
+  nom: BPER Banca
+BPOST.BR:
+  indice: BEL 20
+  nom: Bpost
+BPT.L:
+  indice: FTSE 250
+  nom: Bridgepoint Group
+BR:
+  indice: S&P 500
+  nom: Broadridge Financial Solutions
+BRBY.L:
+  indice: FTSE 100
+  nom: Burberry Group
+BREE.L:
+  indice: FTSE 250
+  nom: Breedon Group
+BRGE.L:
+  indice: FTSE 250
+  nom: BlackRock Greater Europe Investment Trust
+BRO:
+  indice: S&P 500
+  nom: Brown & Brown
+BRSC.L:
+  indice: FTSE 250
+  nom: BlackRock Smaller Companies Trust
+BRWM.L:
+  indice: FTSE 250
+  nom: BlackRock World Mining Trust
+BSX:
+  indice: S&P 500
+  nom: Boston Scientific
+BT-A.L:
+  indice: FTSE 100
+  nom: BT Group
+BTRW.L:
+  indice: FTSE 100
+  nom: Barratt Redrow
+BUT.L:
+  indice: FTSE 250
+  nom: Brunner Investment Trust
+BWY.L:
+  indice: FTSE 250
+  nom: Bellway
+BX:
+  indice: S&P 500
+  nom: Blackstone Inc.
+BXB.AX:
+  indice: S&P/ASX 50
+  nom: Brambles
+BXP:
+  indice: S&P 500
+  nom: BXP, Inc.
+BYG.L:
+  indice: FTSE 250
+  nom: Big Yellow Group
+BYIT.L:
+  indice: FTSE 250
+  nom: Bytes Technology Group
+BZU.MI:
+  indice: FTSE MIB
+  nom: Buzzi
+C:
+  indice: S&P 500
+  nom: Citigroup
+CA.PA:
+  indice: CAC 40
+  nom: Carrefour
+CABK.MC:
+  indice: IBEX 35
+  nom: CaixaBank
+CAE.TO:
+  indice: S&P/TSX 60
+  nom: CAE Inc.
+CAH:
+  indice: S&P 500
+  nom: Cardinal Health
+CAR.AX:
+  indice: S&P/ASX 50
+  nom: CAR Group
+CARR:
+  indice: S&P 500
+  nom: Carrier Global
+CASY:
+  indice: S&P 500
+  nom: Casey's
+CAT:
+  indice: S&P 500
+  nom: Caterpillar Inc.
+CB:
+  indice: S&P 500
+  nom: Chubb Limited
+CBG.L:
+  indice: FTSE 250
+  nom: Close Brothers Group
+CBK.DE:
+  indice: DAX
+  nom: Commerzbank
+CBOE:
+  indice: S&P 500
+  nom: Cboe Global Markets
+CBRE:
+  indice: S&P 500
+  nom: CBRE Group
+CCC.L:
+  indice: FTSE 100
+  nom: Computacenter
+CCEP.L:
+  indice: FTSE 100
+  nom: Coca-Cola Europacific Partners
+CCH.L:
+  indice: FTSE 100
+  nom: Coca-Cola HBC
+CCI:
+  indice: S&P 500
+  nom: Crown Castle
+CCL:
+  indice: S&P 500
+  nom: Carnival Corporation
+CCL-B.TO:
+  indice: S&P/TSX 60
+  nom: CCL Industries Inc.
+CCO.TO:
+  indice: S&P/TSX 60
+  nom: Cameco Corporation
+CDNS:
+  indice: S&P 500
+  nom: Cadence Design Systems
+CDW:
+  indice: S&P 500
+  nom: CDW Corporation
+CEG:
+  indice: S&P 500
+  nom: Constellation Energy
+CF:
+  indice: S&P 500
+  nom: CF Industries
+CFG:
+  indice: S&P 500
+  nom: Citizens Financial Group
+CGT.L:
+  indice: FTSE 250
+  nom: Capital Gearing Trust
+CHD:
+  indice: S&P 500
+  nom: Church & Dwight
+CHG.L:
+  indice: FTSE 250
+  nom: Chemring Group
+CHRW:
+  indice: S&P 500
+  nom: C.H. Robinson
+CHTR:
+  indice: S&P 500
+  nom: Charter Communications
+CI:
+  indice: S&P 500
+  nom: Cigna
+CIEN:
+  indice: S&P 500
+  nom: Ciena
+CINF:
+  indice: S&P 500
+  nom: Cincinnati Financial
+CKN.L:
+  indice: FTSE 250
+  nom: Clarkson
+CL:
+  indice: S&P 500
+  nom: Colgate-Palmolive
+CLDN.L:
+  indice: FTSE 250
+  nom: Caledonia Investments
+CLNX.MC:
+  indice: IBEX 35
+  nom: Cellnex Telecom
+CLS.TO:
+  indice: S&P/TSX 60
+  nom: Celestica Inc.
+CLX:
+  indice: S&P 500
+  nom: Clorox
+CM.TO:
+  indice: S&P/TSX 60
+  nom: Canadian Imperial Bank of Commerce
+CMCSA:
+  indice: S&P 500
+  nom: Comcast
+CMCX.L:
+  indice: FTSE 250
+  nom: CMC Markets
+CME:
+  indice: S&P 500
+  nom: CME Group
+CMG:
+  indice: S&P 500
+  nom: Chipotle Mexican Grill
+CMI:
+  indice: S&P 500
+  nom: Cummins
+CMS:
+  indice: S&P 500
+  nom: CMS Energy
+CNA.L:
+  indice: FTSE 100
+  nom: Centrica
+CNC:
+  indice: S&P 500
+  nom: Centene Corporation
+CNP:
+  indice: S&P 500
+  nom: CenterPoint Energy
+CNQ.TO:
+  indice: S&P/TSX 60
+  nom: Canadian Natural Resources Limited
+COA.L:
+  indice: FTSE 250
+  nom: Coats Group
+COF:
+  indice: S&P 500
+  nom: Capital One
+COH.AX:
+  indice: S&P/ASX 50
+  nom: Cochlear
+COHR:
+  indice: S&P 500
+  nom: Coherent Corp.
+COIN:
+  indice: S&P 500
+  nom: Coinbase
+COL.AX:
+  indice: S&P/ASX 50
+  nom: Coles Group
+COL.MC:
+  indice: IBEX 35
+  nom: Inmobiliaria Colonial
+CON.DE:
+  indice: DAX
+  nom: Continental
+COO:
+  indice: S&P 500
+  nom: Cooper Companies (The)
+COP:
+  indice: S&P 500
+  nom: ConocoPhillips
+COR:
+  indice: S&P 500
+  nom: Cencora
+COR.LS:
+  indice: PSI
+  nom: Corticeira Amorim
+CORD.L:
+  indice: FTSE 250
+  nom: Cordiant Digital Infrastructure
+COST.L:
+  indice: FTSE 250
+  nom: Costain Group
+CPAY:
+  indice: S&P 500
+  nom: Corpay
+CPR.MI:
+  indice: FTSE MIB
+  nom: Campari
+CPRT:
+  indice: S&P 500
+  nom: Copart
+CPT:
+  indice: S&P 500
+  nom: Camden Property Trust
+CPU.AX:
+  indice: S&P/ASX 50
+  nom: Computershare
+CRDA.L:
+  indice: FTSE 100
+  nom: Croda International
+CRH:
+  indice: S&P 500
+  nom: CRH plc
+CRL:
+  indice: S&P 500
+  nom: Charles River Laboratories
+CRM:
+  indice: S&P 500
+  nom: Salesforce
+CRWD:
+  indice: S&P 500
+  nom: CrowdStrike
+CSCO:
+  indice: S&P 500
+  nom: Cisco
+CSGP:
+  indice: S&P 500
+  nom: CoStar Group
+CSN.L:
+  indice: FTSE 250
+  nom: Chesnara
+CSX:
+  indice: S&P 500
+  nom: CSX Corporation
+CTAS:
+  indice: S&P 500
+  nom: Cintas
+CTC-A.TO:
+  indice: S&P/TSX 60
+  nom: Canadian Tire Corporation Limited
+CTEC.L:
+  indice: FTSE 100
+  nom: Convatec
+CTSH:
+  indice: S&P 500
+  nom: Cognizant
+CTT.LS:
+  indice: PSI
+  nom: CTT Correios de Portugal
+CTVA:
+  indice: S&P 500
+  nom: Corteva
+CTY.L:
+  indice: FTSE 250
+  nom: City of London Investment Trust
+CURY.L:
+  indice: FTSE 250
+  nom: Currys
+CVE.TO:
+  indice: S&P/TSX 60
+  nom: Cenovus Energy Inc.
+CVNA:
+  indice: S&P 500
+  nom: Carvana
+CVS:
+  indice: S&P 500
+  nom: CVS Health
+CVSG.L:
+  indice: FTSE 250
+  nom: CVS Group
+CVX:
+  indice: S&P 500
+  nom: Chevron Corporation
+CWK.L:
+  indice: FTSE 250
+  nom: Cranswick
+CWR.L:
+  indice: FTSE 250
+  nom: Ceres Power
+D:
+  indice: S&P 500
+  nom: Dominion Energy
+DAL:
+  indice: S&P 500
+  nom: Delta Air Lines
+DANSKE.CO:
+  indice: OMX Copenhagen 25
+  nom: Danske Bank
+DASH:
+  indice: S&P 500
+  nom: DoorDash
+DATA.L:
+  indice: FTSE 250
+  nom: GlobalData
+DCC.L:
+  indice: FTSE 100
+  nom: DCC Energy
+DD:
+  indice: S&P 500
+  nom: DuPont
+DDOG:
+  indice: S&P 500
+  nom: Datadog
+DE:
+  indice: S&P 500
+  nom: Deere & Company
+DECK:
+  indice: S&P 500
+  nom: Deckers Brands
+DELL:
+  indice: S&P 500
+  nom: Dell Technologies
+DEMANT.CO:
+  indice: OMX Copenhagen 25
+  nom: Demant
+DG:
+  indice: S&P 500
+  nom: Dollar General
+DGX:
+  indice: S&P 500
+  nom: Quest Diagnostics
+DHER.DE:
+  indice: MDAX
+  nom: Delivery Hero
+DHI:
+  indice: S&P 500
+  nom: D. R. Horton
+DHR:
+  indice: S&P 500
+  nom: Danaher Corporation
+DIA.MI:
+  indice: FTSE MIB
+  nom: Diasorin
+DIE.BR:
+  indice: BEL 20
+  nom: D'Ieteren
+DIS:
+  indice: S&P 500
+  nom: Walt Disney Company (The)
+DLN.L:
+  indice: FTSE 250
+  nom: Derwent London
+DLR:
+  indice: S&P 500
+  nom: Digital Realty
+DLTR:
+  indice: S&P 500
+  nom: Dollar Tree
+DNLM.L:
+  indice: FTSE 250
+  nom: Dunelm Group
+DOC:
+  indice: S&P 500
+  nom: Healthpeak Properties
+DOCS.L:
+  indice: FTSE 250
+  nom: Dr. Martens
+DOL.TO:
+  indice: S&P/TSX 60
+  nom: Dollarama Inc.
+DOM.L:
+  indice: FTSE 250
+  nom: Domino's Pizza
+DOV:
+  indice: S&P 500
+  nom: Dover Corporation
+DOW:
+  indice: S&P 500
+  nom: Dow Inc.
+DPLM.L:
+  indice: FTSE 100
+  nom: Diploma
+DPZ:
+  indice: S&P 500
+  nom: Domino's
+DRI:
+  indice: S&P 500
+  nom: Darden Restaurants
+DRX.L:
+  indice: FTSE 250
+  nom: Drax Group
+DSCV.L:
+  indice: FTSE 250
+  nom: discoverIE
+DSFIR.AS:
+  indice: AEX
+  nom: DSM Firmenich AG
+DTE:
+  indice: S&P 500
+  nom: DTE Energy
+DTG.DE:
+  indice: DAX
+  nom: Daimler Truck
+DUK:
+  indice: S&P 500
+  nom: Duke Energy
+DVA:
+  indice: S&P 500
+  nom: DaVita
+DVN:
+  indice: S&P 500
+  nom: Devon Energy
+DXCM:
+  indice: S&P 500
+  nom: Dexcom
+EBAY:
+  indice: S&P 500
+  nom: eBay Inc.
+ECHO:
+  indice: S&P 500
+  nom: EchoStar
+ECL:
+  indice: S&P 500
+  nom: Ecolab
+ED:
+  indice: S&P 500
+  nom: Consolidated Edison
+EDEN.PA:
+  indice: CAC 40
+  nom: Edenred
+EDIN.L:
+  indice: FTSE 250
+  nom: Edinburgh Investment Trust
+EDPR.LS:
+  indice: PSI
+  nom: EDP Renováveis
+EDV.L:
+  indice: FTSE 100
+  nom: Endeavour Mining
+EFX:
+  indice: S&P 500
+  nom: Equifax
+EG:
+  indice: S&P 500
+  nom: Everest Group
+EGL.LS:
+  indice: PSI
+  nom: Mota-Engil
+EIX:
+  indice: S&P 500
+  nom: Edison International
+EL:
+  indice: S&P 500
+  nom: Estée Lauder Companies (The)
+ELE.MC:
+  indice: IBEX 35
+  nom: Endesa
+ELISA.HE:
+  indice: OMX Helsinki 25
+  nom: Elisa
+ELM.L:
+  indice: FTSE 250
+  nom: Elementis
+ELV:
+  indice: S&P 500
+  nom: Elevance Health
+EMA.TO:
+  indice: S&P/TSX 60
+  nom: Emera Incorporated
+EME:
+  indice: S&P 500
+  nom: Emcor
+EMG.L:
+  indice: FTSE 250
+  nom: Man Group
+EMR:
+  indice: S&P 500
+  nom: Emerson Electric
+EN.PA:
+  indice: CAC 40
+  nom: Bouygues
+ENG.MC:
+  indice: IBEX 35
+  nom: Enagás
+ENOG.L:
+  indice: FTSE 250
+  nom: Energean
+ENR.DE:
+  indice: DAX
+  nom: Siemens Energy
+ENT.L:
+  indice: FTSE 250
+  nom: Entain
+EOG:
+  indice: S&P 500
+  nom: EOG Resources
+EPI-A.ST:
+  indice: OMX Stockholm 30
+  nom: Epiroc A
+EQIX:
+  indice: S&P 500
+  nom: Equinix
+EQT:
+  indice: S&P 500
+  nom: EQT Corporation
+EQT.ST:
+  indice: OMX Stockholm 30
+  nom: EQT
+ERIE:
+  indice: S&P 500
+  nom: Erie Indemnity
+ES:
+  indice: S&P 500
+  nom: Eversource Energy
+ESCT.L:
+  indice: FTSE 250
+  nom: European Smaller Companies Trust
+ESS:
+  indice: S&P 500
+  nom: Essex Property Trust
+ESSITY-B.ST:
+  indice: OMX Stockholm 30
+  nom: Essity B
+ETN:
+  indice: S&P 500
+  nom: Eaton Corporation
+ETR:
+  indice: S&P 500
+  nom: Entergy
+EVD.DE:
+  indice: MDAX
+  nom: CTS Eventim
+EVK.DE:
+  indice: MDAX
+  nom: Evonik
+EVN.AX:
+  indice: S&P/ASX 50
+  nom: Evolution Mining
+EVRG:
+  indice: S&P 500
+  nom: Evergy
+EVT.DE:
+  indice: MDAX
+  nom: Evotec
+EW:
+  indice: S&P 500
+  nom: Edwards Lifesciences
+EWG.L:
+  indice: FTSE 250
+  nom: Eurowag
+EWI.L:
+  indice: FTSE 250
+  nom: Edinburgh Worldwide Investment Trust
+EXC:
+  indice: S&P 500
+  nom: Exelon
+EXE:
+  indice: S&P 500
+  nom: Expand Energy
+EXO.AS:
+  indice: AEX
+  nom: Exor
+EXPD:
+  indice: S&P 500
+  nom: Expeditors International
+EXPE:
+  indice: S&P 500
+  nom: Expedia Group
+EXPN.L:
+  indice: FTSE 100
+  nom: Experian
+EXR:
+  indice: S&P 500
+  nom: Extra Space Storage
+EZJ.L:
+  indice: FTSE 100
+  nom: EasyJet
+F:
+  indice: S&P 500
+  nom: Ford Motor Company
+FAN.L:
+  indice: FTSE 250
+  nom: Volution Group
+FANG:
+  indice: S&P 500
+  nom: Diamondback Energy
+FAST:
+  indice: S&P 500
+  nom: Fastenal
+FBK.MI:
+  indice: FTSE MIB
+  nom: FinecoBank
+FCH.L:
+  indice: FTSE 250
+  nom: Funding Circle
+FCIT.L:
+  indice: FTSE 100
+  nom: F & C Investment Trust
+FCSS.L:
+  indice: FTSE 250
+  nom: Fidelity China Special Situations
+FCT.MI:
+  indice: FTSE MIB
+  nom: Fincantieri
+FCX:
+  indice: S&P 500
+  nom: Freeport-McMoRan
+FDR.MC:
+  indice: IBEX 35
+  nom: Fluidra
+FDS:
+  indice: S&P 500
+  nom: FactSet
+FDX:
+  indice: S&P 500
+  nom: FedEx
+FDXF:
+  indice: S&P 500
+  nom: FedEx Freight
+FE:
+  indice: S&P 500
+  nom: FirstEnergy
+FEML.L:
+  indice: FTSE 250
+  nom: Fidelity Emerging Markets
+FER.MC:
+  indice: IBEX 35
+  nom: Ferrovial
+FERG:
+  indice: S&P 500
+  nom: Ferguson Enterprises
+FEV.L:
+  indice: FTSE 250
+  nom: Fidelity European Trust
+FFH.TO:
+  indice: S&P/TSX 60
+  nom: Fairfax Financial Holdings Limited
+FFIV:
+  indice: S&P 500
+  nom: F5, Inc.
+FGEN.L:
+  indice: FTSE 250
+  nom: Foresight Environmental Infrastructure
+FGP.L:
+  indice: FTSE 250
+  nom: FirstGroup
+FGT.L:
+  indice: FTSE 250
+  nom: Finsbury Growth & Income Trust
+FICO:
+  indice: S&P 500
+  nom: Fair Isaac
+FIS:
+  indice: S&P 500
+  nom: Fidelity National Information Services
+FISV:
+  indice: S&P 500
+  nom: Fiserv
+FITB:
+  indice: S&P 500
+  nom: Fifth Third Bancorp
+FIX:
+  indice: S&P 500
+  nom: Comfort Systems USA
+FLEX:
+  indice: S&P 500
+  nom: Flex Ltd.
+FLS.CO:
+  indice: OMX Copenhagen 25
+  nom: FLSmidth & Co.
+FM.TO:
+  indice: S&P/TSX 60
+  nom: First Quantum Minerals Ltd.
+FME.DE:
+  indice: DAX
+  nom: Fresenius Medical Care
+FNTN.DE:
+  indice: MDAX
+  nom: Freenet
+FNV.TO:
+  indice: S&P/TSX 60
+  nom: Franco-Nevada Corporation
+FORTUM.HE:
+  indice: OMX Helsinki 25
+  nom: Fortum
+FOUR.L:
+  indice: FTSE 250
+  nom: 4imprint
+FOX:
+  indice: S&P 500
+  nom: Fox Corporation (Class B)
+FOXA:
+  indice: S&P 500
+  nom: Fox Corporation (Class A)
+FPE3.DE:
+  indice: MDAX
+  nom: Fuchs Petrolub
+FPH.AX:
+  indice: S&P/ASX 50
+  nom: Fisher & Paykel Healthcare
+FRA.DE:
+  indice: MDAX
+  nom: Fraport
+FRAS.L:
+  indice: FTSE 250
+  nom: Frasers Group
+FRE.DE:
+  indice: DAX
+  nom: Fresenius
+FRES.L:
+  indice: FTSE 100
+  nom: Fresnillo plc
+FRT:
+  indice: S&P 500
+  nom: Federal Realty Investment Trust
+FSG.L:
+  indice: FTSE 250
+  nom: Foresight Group
+FSLR:
+  indice: S&P 500
+  nom: First Solar
+FSV.L:
+  indice: FTSE 250
+  nom: Fidelity Special Values
+FSV.TO:
+  indice: S&P/TSX 60
+  nom: FirstService Corporation
+FTNT:
+  indice: S&P 500
+  nom: Fortinet
+FTS.TO:
+  indice: S&P/TSX 60
+  nom: Fortis Inc.
+FTV:
+  indice: S&P 500
+  nom: Fortive
+G1A.DE:
+  indice: DAX
+  nom: GEA Group
+G24.DE:
+  indice: DAX
+  nom: Scout24
+GALD.SW:
+  indice: SMI
+  nom: Galderma
+GAMA.L:
+  indice: FTSE 250
+  nom: Gamma Communications
+GAW.L:
+  indice: FTSE 100
+  nom: Games Workshop
+GBF.DE:
+  indice: MDAX
+  nom: Bilfinger
+GCP.L:
+  indice: FTSE 250
+  nom: GCP Infrastructure Investments
+GD:
+  indice: S&P 500
+  nom: General Dynamics
+GDDY:
+  indice: S&P 500
+  nom: GoDaddy
+GDWN.L:
+  indice: FTSE 250
+  nom: Goodwin
+GE:
+  indice: S&P 500
+  nom: GE Aerospace
+GEBN.SW:
+  indice: SMI
+  nom: Geberit AG
+GEHC:
+  indice: S&P 500
+  nom: GE HealthCare
+GEN:
+  indice: S&P 500
+  nom: Gen Digital
+GEN.L:
+  indice: FTSE 250
+  nom: Genuit Group
+GEV:
+  indice: S&P 500
+  nom: GE Vernova
+GFRD.L:
+  indice: FTSE 250
+  nom: Galliford Try
+GFTU.L:
+  indice: FTSE 250
+  nom: Grafton Group
+GIB-A.TO:
+  indice: S&P/TSX 60
+  nom: CGI Inc.
+GIL.TO:
+  indice: S&P/TSX 60
+  nom: Gildan Activewear Inc.
+GILD:
+  indice: S&P 500
+  nom: Gilead Sciences
+GIS:
+  indice: S&P 500
+  nom: General Mills
+GL:
+  indice: S&P 500
+  nom: Globe Life
+GLW:
+  indice: S&P 500
+  nom: Corning Inc.
+GM:
+  indice: S&P 500
+  nom: General Motors
+GMG.AX:
+  indice: S&P/ASX 50
+  nom: Goodman Group
+GN.CO:
+  indice: OMX Copenhagen 25
+  nom: GN Store Nord
+GNC.L:
+  indice: FTSE 250
+  nom: Greencore
+GNRC:
+  indice: S&P 500
+  nom: Generac
+GNS.L:
+  indice: FTSE 250
+  nom: Genus
+GOOG:
+  indice: S&P 500
+  nom: Alphabet Inc. (Class C)
+GPC:
+  indice: S&P 500
+  nom: Genuine Parts Company
+GPE.L:
+  indice: FTSE 250
+  nom: Great Portland Estates
+GPN:
+  indice: S&P 500
+  nom: Global Payments
+GRF.MC:
+  indice: IBEX 35
+  nom: Grifols
+GRG.L:
+  indice: FTSE 250
+  nom: Greggs
+GRI.L:
+  indice: FTSE 250
+  nom: Grainger
+GRMN:
+  indice: S&P 500
+  nom: Garmin
+GROW.L:
+  indice: FTSE 250
+  nom: Molten Ventures
+GS:
+  indice: S&P 500
+  nom: Goldman Sachs
+GSCT.L:
+  indice: FTSE 250
+  nom: Global Smaller Companies Trust
+GSK.L:
+  indice: FTSE 100
+  nom: GSK plc
+GWW:
+  indice: S&P 500
+  nom: W. W. Grainger
+GXI.DE:
+  indice: MDAX
+  nom: Gerresheimer
+H.TO:
+  indice: S&P/TSX 60
+  nom: Hydro One Limited
+HAG.DE:
+  indice: MDAX
+  nom: Hensoldt
+HAL:
+  indice: S&P 500
+  nom: Halliburton
+HANA.L:
+  indice: FTSE 250
+  nom: Hansa Investment Company
+HAS:
+  indice: S&P 500
+  nom: Hasbro
+HAS.L:
+  indice: FTSE 250
+  nom: Hays
+HBAN:
+  indice: S&P 500
+  nom: Huntington Bancshares
+HBR.L:
+  indice: FTSE 250
+  nom: Harbour Energy
+HCA:
+  indice: S&P 500
+  nom: HCA Healthcare
+HD:
+  indice: S&P 500
+  nom: Home Depot (The)
+HEN3.DE:
+  indice: DAX
+  nom: Henkel
+HER.MI:
+  indice: FTSE MIB
+  nom: Hera
+HEXA-B.ST:
+  indice: OMX Stockholm 30
+  nom: Hexagon B
+HFD.L:
+  indice: FTSE 250
+  nom: Halfords
+HFEL.L:
+  indice: FTSE 250
+  nom: Henderson Far East Income
+HFG.DE:
+  indice: MDAX
+  nom: HelloFresh
+HFG.L:
+  indice: FTSE 250
+  nom: Hilton Food Group
+HGT.L:
+  indice: FTSE 250
+  nom: Hg Capital Trust
+HIAB.HE:
+  indice: OMX Helsinki 25
+  nom: Hiab
+HICL.L:
+  indice: FTSE 250
+  nom: HICL Infrastructure Company
+HIG:
+  indice: S&P 500
+  nom: Hartford (The)
+HII:
+  indice: S&P 500
+  nom: Huntington Ingalls Industries
+HIK.L:
+  indice: FTSE 250
+  nom: Hikma Pharmaceuticals
+HILS.L:
+  indice: FTSE 250
+  nom: Hill & Smith
+HLE.DE:
+  indice: MDAX
+  nom: Hella
+HLMA.L:
+  indice: FTSE 100
+  nom: Halma plc
+HLN.L:
+  indice: FTSE 100
+  nom: Haleon
+HLT:
+  indice: S&P 500
+  nom: Hilton Worldwide
+HMSO.L:
+  indice: FTSE 250
+  nom: Hammerson
+HOC.L:
+  indice: FTSE 250
+  nom: Hochschild Mining
+HOLN.SW:
+  indice: SMI
+  nom: Holcim Limited
+HON:
+  indice: S&P 500
+  nom: Honeywell Technologies
+HONA:
+  indice: S&P 500
+  nom: Honeywell Aerospace
+HOOD:
+  indice: S&P 500
+  nom: Robinhood Markets
+HOT.DE:
+  indice: MDAX
+  nom: Hochtief
+HPE:
+  indice: S&P 500
+  nom: Hewlett Packard Enterprise
+HPQ:
+  indice: S&P 500
+  nom: HP Inc.
+HRI.L:
+  indice: FTSE 250
+  nom: Herald Investment Trust
+HRL:
+  indice: S&P 500
+  nom: Hormel Foods
+HSIC:
+  indice: S&P 500
+  nom: Henry Schein
+HSL.L:
+  indice: FTSE 250
+  nom: Henderson Smaller Companies Investment Trust
+HST:
+  indice: S&P 500
+  nom: Host Hotels & Resorts
+HSX.L:
+  indice: FTSE 100
+  nom: Hiscox
+HSY:
+  indice: S&P 500
+  nom: Hershey Company (The)
+HTG.L:
+  indice: FTSE 250
+  nom: Hunting
+HTWS.L:
+  indice: FTSE 250
+  nom: Helios Towers
+HUBB:
+  indice: S&P 500
+  nom: Hubbell Incorporated
+HUH1V.HE:
+  indice: OMX Helsinki 25
+  nom: Huhtamäki
+HUM:
+  indice: S&P 500
+  nom: Humana
+HVPE.L:
+  indice: FTSE 250
+  nom: HarbourVest Global Private Equity
+HWDN.L:
+  indice: FTSE 100
+  nom: Howdens Joinery
+HWG.L:
+  indice: FTSE 250
+  nom: Harworth Group
+HWM:
+  indice: S&P 500
+  nom: Howmet Aerospace
+IAD.L:
+  indice: FTSE 250
+  nom: Invesco Asia Dragon Trust
+IAG.AX:
+  indice: S&P/ASX 50
+  nom: Insurance Australia Group
+IAG.L:
+  indice: FTSE 100
+  nom: International Airlines Group
+IAG.MC:
+  indice: IBEX 35
+  nom: International Airlines Group
+IBKR:
+  indice: S&P 500
+  nom: Interactive Brokers
+IBM:
+  indice: S&P 500
+  nom: IBM
+IBS.LS:
+  indice: PSI
+  nom: Ibersol
+ICE:
+  indice: S&P 500
+  nom: Intercontinental Exchange
+ICG.L:
+  indice: FTSE 100
+  nom: ICG
+ICGT.L:
+  indice: FTSE 250
+  nom: ICG Enterprise Trust
+IDR.MC:
+  indice: IBEX 35
+  nom: Indra
+IDXX:
+  indice: S&P 500
+  nom: Idexx Laboratories
+IEX:
+  indice: S&P 500
+  nom: IDEX Corporation
+IFC.TO:
+  indice: S&P/TSX 60
+  nom: Intact Financial Corporation
+IFF:
+  indice: S&P 500
+  nom: International Flavors & Fragrances
+IG.MI:
+  indice: FTSE MIB
+  nom: Italgas
+IGG.L:
+  indice: FTSE 100
+  nom: IG Group
+IHG.L:
+  indice: FTSE 100
+  nom: IHG Hotels & Resorts
+IHP.L:
+  indice: FTSE 250
+  nom: IntegraFin Holdings
+III.L:
+  indice: FTSE 100
+  nom: 3i
+ILMN:
+  indice: S&P 500
+  nom: Illumina, Inc.
+IMB.L:
+  indice: FTSE 100
+  nom: Imperial Brands
+IMCD.AS:
+  indice: AEX
+  nom: IMCD
+IMI.L:
+  indice: FTSE 100
+  nom: IMI
+IMO.TO:
+  indice: S&P/TSX 60
+  nom: Imperial Oil Limited
+INCH.L:
+  indice: FTSE 250
+  nom: Inchcape
+INCY:
+  indice: S&P 500
+  nom: Incyte
+INDU-C.ST:
+  indice: OMX Stockholm 30
+  nom: Industrivärden C
+INF.L:
+  indice: FTSE 100
+  nom: Informa
+INGA.BR:
+  indice: BEL 20
+  nom: ING Group
+INPP.L:
+  indice: FTSE 250
+  nom: International Public Partnerships
+INTC:
+  indice: S&P 500
+  nom: Intel
+INTU:
+  indice: S&P 500
+  nom: Intuit
+INVH:
+  indice: S&P 500
+  nom: Invitation Homes
+INVP.L:
+  indice: FTSE 100
+  nom: Investec
+INW.MI:
+  indice: FTSE MIB
+  nom: INWIT
+IP:
+  indice: S&P 500
+  nom: International Paper
+IPO.L:
+  indice: FTSE 250
+  nom: IP Group
+IQV:
+  indice: S&P 500
+  nom: IQVIA
+IR:
+  indice: S&P 500
+  nom: Ingersoll Rand
+IRM:
+  indice: S&P 500
+  nom: Iron Mountain
+ISRG:
+  indice: S&P 500
+  nom: Intuitive Surgical
+ISS.CO:
+  indice: OMX Copenhagen 25
+  nom: ISS
+IT:
+  indice: S&P 500
+  nom: Gartner
+ITH.L:
+  indice: FTSE 100
+  nom: Ithaca Energy
+ITRK.L:
+  indice: FTSE 100
+  nom: Intertek
+ITV.L:
+  indice: FTSE 250
+  nom: ITV
+ITW:
+  indice: S&P 500
+  nom: Illinois Tool Works
+IVG.MI:
+  indice: FTSE MIB
+  nom: Iveco
+IVZ:
+  indice: S&P 500
+  nom: Invesco
+IWG.L:
+  indice: FTSE 250
+  nom: International Workplace Group
+J:
+  indice: S&P 500
+  nom: Jacobs Solutions
+JAM.L:
+  indice: FTSE 250
+  nom: JPMorgan American Investment Trust
+JBH.AX:
+  indice: S&P/ASX 50
+  nom: JB Hi-Fi
+JBHT:
+  indice: S&P 500
+  nom: J.B. Hunt
+JBL:
+  indice: S&P 500
+  nom: Jabil
+JCH.L:
+  indice: FTSE 250
+  nom: JPMorgan Claverhouse Investment Trust
+JCI:
+  indice: S&P 500
+  nom: Johnson Controls
+JD.L:
+  indice: FTSE 100
+  nom: JD Sports
+JDW.L:
+  indice: FTSE 250
+  nom: Wetherspoons
+JEDT.L:
+  indice: FTSE 250
+  nom: JPMorgan European Discovery
+JEGI.L:
+  indice: FTSE 250
+  nom: JPMorgan European Growth & Income
+JEMI.L:
+  indice: FTSE 250
+  nom: JPMorgan Emerging Markets Dividend Income
+JEN.DE:
+  indice: MDAX
+  nom: Jenoptik
+JFJ.L:
+  indice: FTSE 250
+  nom: JPMorgan Japanese Investment Trust
+JGGI.L:
+  indice: FTSE 250
+  nom: JPMorgan Global Growth & Income
+JHX.AX:
+  indice: S&P/ASX 50
+  nom: James Hardie
+JKHY:
+  indice: S&P 500
+  nom: Jack Henry & Associates
+JMAT.L:
+  indice: FTSE 250
+  nom: Johnson Matthey
+JMGI.L:
+  indice: FTSE 250
+  nom: JPMorgan Emerging Markets Growth & Income
+JMT.LS:
+  indice: PSI
+  nom: Jerónimo Martins
+JSG.L:
+  indice: FTSE 250
+  nom: Johnson Service Group
+JUN3.DE:
+  indice: MDAX
+  nom: Jungheinrich
+JUP.L:
+  indice: FTSE 250
+  nom: Jupiter Fund Management
+JYSK.CO:
+  indice: OMX Copenhagen 25
+  nom: Jyske Bank
+K.TO:
+  indice: S&P/TSX 60
+  nom: Kinross Gold Corporation
+KALMAR.HE:
+  indice: OMX Helsinki 25
+  nom: Kalmar  B
+KBX.DE:
+  indice: MDAX
+  nom: Knorr-Bremse
+KCR.HE:
+  indice: OMX Helsinki 25
+  nom: Konecranes
+KDP:
+  indice: S&P 500
+  nom: Keurig Dr Pepper
+KEMIRA.HE:
+  indice: OMX Helsinki 25
+  nom: Kemira
+KESKOB.HE:
+  indice: OMX Helsinki 25
+  nom: Kesko B
+KEY:
+  indice: S&P 500
+  nom: KeyCorp
+KEYS:
+  indice: S&P 500
+  nom: Keysight Technologies
+KGF.L:
+  indice: FTSE 100
+  nom: Kingfisher plc
+KGX.DE:
+  indice: MDAX
+  nom: KION Group
+KHC:
+  indice: S&P 500
+  nom: Kraft Heinz
+KIE.L:
+  indice: FTSE 250
+  nom: Kier Group
+KIM:
+  indice: S&P 500
+  nom: Kimco Realty
+KKR:
+  indice: S&P 500
+  nom: KKR & Co.
+KLAC:
+  indice: S&P 500
+  nom: KLA Corporation
+KLR.L:
+  indice: FTSE 250
+  nom: Keller Group
+KMB:
+  indice: S&P 500
+  nom: Kimberly-Clark
+KMI:
+  indice: S&P 500
+  nom: Kinder Morgan
+KNOS.L:
+  indice: FTSE 250
+  nom: Kainos
+KPN.AS:
+  indice: AEX
+  nom: KPN
+KR:
+  indice: S&P 500
+  nom: Kroger
+KRN.DE:
+  indice: MDAX
+  nom: Krones
+KVUE:
+  indice: S&P 500
+  nom: Kenvue
+L:
+  indice: S&P 500
+  nom: Loews Corporation
+L.TO:
+  indice: S&P/TSX 60
+  nom: Loblaw Companies Limited
+LAND.L:
+  indice: FTSE 100
+  nom: Land Securities
+LDO.MI:
+  indice: FTSE MIB
+  nom: Leonardo
+LDOS:
+  indice: S&P 500
+  nom: Leidos
+LEG.DE:
+  indice: MDAX
+  nom: LEG Immobilien
+LEN:
+  indice: S&P 500
+  nom: Lennar
+LGEN.L:
+  indice: FTSE 100
+  nom: Legal & General
+LH:
+  indice: S&P 500
+  nom: Labcorp
+LHA.DE:
+  indice: MDAX
+  nom: Lufthansa
+LHX:
+  indice: S&P 500
+  nom: L3Harris
+LIFCO-B.ST:
+  indice: OMX Stockholm 30
+  nom: Lifco B
+LII:
+  indice: S&P 500
+  nom: Lennox International
+LIN:
+  indice: S&P 500
+  nom: Linde plc
+LITE:
+  indice: S&P 500
+  nom: Lumentum
+LMP.L:
+  indice: FTSE 100
+  nom: LondonMetric Property
+LMT:
+  indice: S&P 500
+  nom: Lockheed Martin
+LNT:
+  indice: S&P 500
+  nom: Alliant Energy
+LOG.MC:
+  indice: IBEX 35
+  nom: Logista
+LOW:
+  indice: S&P 500
+  nom: Lowe's
+LRCX:
+  indice: S&P 500
+  nom: Lam Research
+LRE.L:
+  indice: FTSE 250
+  nom: Lancashire Holdings
+LTMC.MI:
+  indice: FTSE MIB
+  nom: Lottomatica Group
+LULU:
+  indice: S&P 500
+  nom: Lululemon Athletica
+LUV:
+  indice: S&P 500
+  nom: Southwest Airlines
+LVS:
+  indice: S&P 500
+  nom: Las Vegas Sands
+LWDB.L:
+  indice: FTSE 250
+  nom: Law Debenture
+LXS.DE:
+  indice: MDAX
+  nom: Lanxess
+LYB:
+  indice: S&P 500
+  nom: LyondellBasell
+LYC.AX:
+  indice: S&P/ASX 50
+  nom: Lynas
+LYV:
+  indice: S&P 500
+  nom: Live Nation Entertainment
+MAA:
+  indice: S&P 500
+  nom: Mid-America Apartment Communities
+MAB.L:
+  indice: FTSE 250
+  nom: Mitchells & Butlers
+MAERSK-A.CO:
+  indice: OMX Copenhagen 25
+  nom: A.P. Møller-Mærsk (class A)
+MANTA.HE:
+  indice: OMX Helsinki 25
+  nom: Mandatum
+MAP.MC:
+  indice: IBEX 35
+  nom: Mapfre
+MAR:
+  indice: S&P 500
+  nom: Marriott International
+MAS:
+  indice: S&P 500
+  nom: Masco
+MB.MI:
+  indice: FTSE MIB
+  nom: Mediobanca
+MCHP:
+  indice: S&P 500
+  nom: Microchip Technology
+MCK:
+  indice: S&P 500
+  nom: McKesson Corporation
+MCO:
+  indice: S&P 500
+  nom: Moody's Corporation
+MDLZ:
+  indice: S&P 500
+  nom: Mondelez International
+MDT:
+  indice: S&P 500
+  nom: Medtronic
+MEGP.L:
+  indice: FTSE 250
+  nom: ME Group International
+MET:
+  indice: S&P 500
+  nom: MetLife
+METSO.HE:
+  indice: OMX Helsinki 25
+  nom: Metso
+MFC.TO:
+  indice: S&P/TSX 60
+  nom: Manulife Financial Corporation
+MG.TO:
+  indice: S&P/TSX 60
+  nom: Magna International Inc.
+MGAM.L:
+  indice: FTSE 250
+  nom: Morgan Advanced Materials
+MGM:
+  indice: S&P 500
+  nom: MGM Resorts
+MGNS.L:
+  indice: FTSE 250
+  nom: Morgan Sindall Group
+MKC:
+  indice: S&P 500
+  nom: McCormick & Company
+MKS.L:
+  indice: FTSE 100
+  nom: Marks & Spencer
+MLM:
+  indice: S&P 500
+  nom: Martin Marietta Materials
+MMM:
+  indice: S&P 500
+  nom: 3M
+MNDI.L:
+  indice: FTSE 250
+  nom: Mondi
+MNG.L:
+  indice: FTSE 100
+  nom: M&G
+MNKS.L:
+  indice: FTSE 250
+  nom: Monks Investment Trust
+MNO.L:
+  indice: FTSE 250
+  nom: Meridian Mining
+MNST:
+  indice: S&P 500
+  nom: Monster Beverage
+MNTN.L:
+  indice: FTSE 250
+  nom: Schiehallion Fund
+MO:
+  indice: S&P 500
+  nom: Altria
+MONY.L:
+  indice: FTSE 250
+  nom: MONY Group
+MOON.L:
+  indice: FTSE 250
+  nom: Moonpig
+MOS:
+  indice: S&P 500
+  nom: Mosaic Company (The)
+MPC:
+  indice: S&P 500
+  nom: Marathon Petroleum
+MPL.AX:
+  indice: S&P/ASX 50
+  nom: Medibank
+MPWR:
+  indice: S&P 500
+  nom: Monolithic Power Systems
+MRC.L:
+  indice: FTSE 250
+  nom: Mercantile Investment Trust
+MRCH.L:
+  indice: FTSE 250
+  nom: Merchants Trust
+MRK:
+  indice: S&P 500
+  nom: Merck & Co.
+MRL.MC:
+  indice: IBEX 35
+  nom: Merlin Properties
+MRNA:
+  indice: S&P 500
+  nom: Moderna
+MRO.L:
+  indice: FTSE 100
+  nom: Melrose Industries
+MRSH:
+  indice: S&P 500
+  nom: Marsh McLennan
+MRU.TO:
+  indice: S&P/TSX 60
+  nom: Metro Inc.
+MRVL:
+  indice: S&P 500
+  nom: Marvell Technology
+MS:
+  indice: S&P 500
+  nom: Morgan Stanley
+MSCI:
+  indice: S&P 500
+  nom: MSCI
+MSI:
+  indice: S&P 500
+  nom: Motorola Solutions
+MT.AS:
+  indice: AEX
+  nom: ArcelorMittal
+MTB:
+  indice: S&P 500
+  nom: M&T Bank
+MTD:
+  indice: S&P 500
+  nom: Mettler Toledo
+MTLN.L:
+  indice: FTSE 100
+  nom: Metlen Energy & Metals
+MTO.L:
+  indice: FTSE 250
+  nom: Mitie
+MTRO.L:
+  indice: FTSE 250
+  nom: Metro Bank
+MTS.MC:
+  indice: IBEX 35
+  nom: ArcelorMittal
+MU:
+  indice: S&P 500
+  nom: Micron Technology
+MUT.L:
+  indice: FTSE 250
+  nom: Murray Income Trust
+MYI.L:
+  indice: FTSE 250
+  nom: Murray International Trust
+N91.L:
+  indice: FTSE 250
+  nom: Ninety One
+NAB.AX:
+  indice: S&P/ASX 50
+  nom: National Australia Bank
+NAIT.L:
+  indice: FTSE 250
+  nom: North American Income Trust
+NAS.L:
+  indice: FTSE 250
+  nom: North Atlantic Smaller Companies Investment Trust
+NBA.LS:
+  indice: PSI
+  nom: Novabase
+NBPE.L:
+  indice: FTSE 250
+  nom: Neuberger Private Equity Partners
+NCC.L:
+  indice: FTSE 250
+  nom: NCC Group
+NCLH:
+  indice: S&P 500
+  nom: Norwegian Cruise Line Holdings
+NDA-FI.HE:
+  indice: Euro Stoxx 50
+  nom: Nordea
+NDA-SE.ST:
+  indice: OMX Stockholm 30
+  nom: Nordea Bank Abp
+NDA.DE:
+  indice: MDAX
+  nom: Aurubis
+NDAQ:
+  indice: S&P 500
+  nom: Nasdaq, Inc.
+NDSN:
+  indice: S&P 500
+  nom: Nordson Corporation
+NDX1.DE:
+  indice: MDAX
+  nom: Nordex
+NEE:
+  indice: S&P 500
+  nom: NextEra Energy
+NEM:
+  indice: S&P 500
+  nom: Newmont
+NEM.AX:
+  indice: S&P/ASX 50
+  nom: Newmont
+NEM.DE:
+  indice: MDAX
+  nom: Nemetschek
+NEXI.MI:
+  indice: FTSE MIB
+  nom: Nexi
+NFLX:
+  indice: S&P 500
+  nom: Netflix
+NI:
+  indice: S&P 500
+  nom: NiSource
+NIBE-B.ST:
+  indice: OMX Stockholm 30
+  nom: Nibe Industrier B
+NKE:
+  indice: S&P 500
+  nom: Nike, Inc.
+NKT.CO:
+  indice: OMX Copenhagen 25
+  nom: NKT
+NN.AS:
+  indice: AEX
+  nom: NN Group
+NOC:
+  indice: S&P 500
+  nom: Northrop Grumman
+NOS.LS:
+  indice: PSI
+  nom: NOS
+NOW:
+  indice: S&P 500
+  nom: ServiceNow
+NRG:
+  indice: S&P 500
+  nom: NRG Energy
+NSC:
+  indice: S&P 500
+  nom: Norfolk Southern
+NSIS-B.CO:
+  indice: OMX Copenhagen 25
+  nom: Novonesis
+NST.AX:
+  indice: S&P/ASX 50
+  nom: Northern Star Resources
+NTAP:
+  indice: S&P 500
+  nom: NetApp
+NTGY.MC:
+  indice: IBEX 35
+  nom: Naturgy
+NTR.TO:
+  indice: S&P/TSX 60
+  nom: Nutrien Ltd.
+NTRS:
+  indice: S&P 500
+  nom: Northern Trust
+NUE:
+  indice: S&P 500
+  nom: Nucor
+NVG.LS:
+  indice: PSI
+  nom: The Navigator Company
+NVR:
+  indice: S&P 500
+  nom: NVR, Inc.
+NWG.L:
+  indice: FTSE 100
+  nom: NatWest Group
+NWS:
+  indice: S&P 500
+  nom: News Corp (Class B)
+NWS.AX:
+  indice: S&P/ASX 50
+  nom: News Corp
+NWSA:
+  indice: S&P 500
+  nom: News Corp (Class A)
+NXPI:
+  indice: S&P 500
+  nom: NXP Semiconductors
+NXT.L:
+  indice: FTSE 100
+  nom: Next plc
+NYR.BR:
+  indice: BEL 20
+  nom: Nyrstar
+O:
+  indice: S&P 500
+  nom: Realty Income
+OBEL.BR:
+  indice: BEL 20
+  nom: Mobistar
+OCDO.L:
+  indice: FTSE 250
+  nom: Ocado Group
+OCI.L:
+  indice: FTSE 250
+  nom: Oakley Capital Investments
+ODFL:
+  indice: S&P 500
+  nom: Old Dominion
+OKE:
+  indice: S&P 500
+  nom: Oneok
+OMC:
+  indice: S&P 500
+  nom: Omnicom Group
+'ON':
+  indice: S&P 500
+  nom: ON Semiconductor
+ONT.L:
+  indice: FTSE 250
+  nom: Oxford Nanopore Technologies
+ONTEX.BR:
+  indice: BEL 20
+  nom: Ontex Group
+ORCL:
+  indice: S&P 500
+  nom: Oracle Corporation
+ORG.AX:
+  indice: S&P/ASX 50
+  nom: Origin Energy
+ORLY:
+  indice: S&P 500
+  nom: O'Reilly Automotive
+ORNBV.HE:
+  indice: OMX Helsinki 25
+  nom: Orion
+OSB.L:
+  indice: FTSE 250
+  nom: OSB Group
+OTEX.TO:
+  indice: S&P/TSX 60
+  nom: Open Text Corporation
+OTIS:
+  indice: S&P 500
+  nom: Otis Worldwide
+OUT1V.HE:
+  indice: OMX Helsinki 25
+  nom: Outokumpu
+OXB.L:
+  indice: FTSE 250
+  nom: Oxford Biomedica
+OXIG.L:
+  indice: FTSE 250
+  nom: Oxford Instruments
+OXY:
+  indice: S&P 500
+  nom: Occidental Petroleum
+P:
+  indice: S&P 500
+  nom: Everpure
+PAF.L:
+  indice: FTSE 250
+  nom: Pan African Resources
+PAG.L:
+  indice: FTSE 250
+  nom: Paragon Banking Group
+PAGE.L:
+  indice: FTSE 250
+  nom: Michael Page
+PAH3.DE:
+  indice: DAX
+  nom: Porsche SE
+PANW:
+  indice: S&P 500
+  nom: Palo Alto Networks
+PAYX:
+  indice: S&P 500
+  nom: Paychex
+PCAR:
+  indice: S&P 500
+  nom: Paccar
+PCG:
+  indice: S&P 500
+  nom: PG&E Corporation
+PCGH.L:
+  indice: FTSE 250
+  nom: Polar Capital Global Healthcare Trust
+PCT.L:
+  indice: FTSE 100
+  nom: Polar Capital Technology Trust
+PEG:
+  indice: S&P 500
+  nom: Public Service Enterprise Group
+PETS.L:
+  indice: FTSE 250
+  nom: Pets at Home
+PEY.L:
+  indice: FTSE 250
+  nom: Partners Group Private Equity
+PFD.L:
+  indice: FTSE 250
+  nom: Premier Foods
+PFE:
+  indice: S&P 500
+  nom: Pfizer
+PFG:
+  indice: S&P 500
+  nom: Principal Financial Group
+PGR:
+  indice: S&P 500
+  nom: Progressive Corporation
+PH:
+  indice: S&P 500
+  nom: Parker Hannifin
+PHI.L:
+  indice: FTSE 250
+  nom: Pacific Horizon Investment Trust
+PHM:
+  indice: S&P 500
+  nom: PulteGroup
+PHP.L:
+  indice: FTSE 250
+  nom: Primary Health Properties
+PHR.LS:
+  indice: PSI
+  nom: Pharol
+PIN.L:
+  indice: FTSE 250
+  nom: Pantheon International
+PINE.L:
+  indice: FTSE 250
+  nom: Pinewood Technologies
+PINT.L:
+  indice: FTSE 250
+  nom: Pantheon Infrastructure
+PKG:
+  indice: S&P 500
+  nom: Packaging Corporation of America
+PLD:
+  indice: S&P 500
+  nom: Prologis
+PLTR:
+  indice: S&P 500
+  nom: Palantir Technologies
+PLUS.L:
+  indice: FTSE 250
+  nom: Plus500
+PM:
+  indice: S&P 500
+  nom: Philip Morris International
+PME.AX:
+  indice: S&P/ASX 50
+  nom: Pro Medicus
+PNC:
+  indice: S&P 500
+  nom: PNC Financial Services
+PNDORA.CO:
+  indice: OMX Copenhagen 25
+  nom: Pandora
+PNL.L:
+  indice: FTSE 250
+  nom: Personal Assets Trust
+PNN.L:
+  indice: FTSE 250
+  nom: Pennon Group
+PNR:
+  indice: S&P 500
+  nom: Pentair
+PNW:
+  indice: S&P 500
+  nom: Pinnacle West Capital
+PODD:
+  indice: S&P 500
+  nom: Insulet Corporation
+POLN.L:
+  indice: FTSE 250
+  nom: Pollen Street Group
+POW.TO:
+  indice: S&P/TSX 60
+  nom: Power Corporation of Canada
+PPET.L:
+  indice: FTSE 250
+  nom: Patria Private Equity Trust
+PPG:
+  indice: S&P 500
+  nom: PPG Industries
+PPH.L:
+  indice: FTSE 250
+  nom: PPHE Hotel Group
+PPL:
+  indice: S&P 500
+  nom: PPL Corporation
+PPL.TO:
+  indice: S&P/TSX 60
+  nom: Pembina Pipeline Corporation
+PRN.L:
+  indice: FTSE 250
+  nom: Princes Group
+PRU:
+  indice: S&P 500
+  nom: Prudential Financial
+PRU.L:
+  indice: FTSE 100
+  nom: Prudential plc
+PSA:
+  indice: S&P 500
+  nom: Public Storage
+PSH.L:
+  indice: FTSE 100
+  nom: Pershing Square Holdings
+PSKY:
+  indice: S&P 500
+  nom: Paramount Skydance Corporation
+PSN.L:
+  indice: FTSE 250
+  nom: Persimmon
+PSON.L:
+  indice: FTSE 100
+  nom: Pearson plc
+PST.MI:
+  indice: FTSE MIB
+  nom: Poste italiane
+PSX:
+  indice: S&P 500
+  nom: Phillips 66
+PTC:
+  indice: S&P 500
+  nom: PTC Inc.
+PTEC.L:
+  indice: FTSE 250
+  nom: Playtech
+PUIG.MC:
+  indice: IBEX 35
+  nom: Puig
+PUM.DE:
+  indice: MDAX
+  nom: Puma
+PWR:
+  indice: S&P 500
+  nom: Quanta Services
+PYPL:
+  indice: S&P 500
+  nom: PayPal
+Q:
+  indice: S&P 500
+  nom: Qnity Electronics
+QAN.AX:
+  indice: S&P/ASX 50
+  nom: Qantas
+QBE.AX:
+  indice: S&P/ASX 50
+  nom: QBE Insurance
+QCOM:
+  indice: S&P 500
+  nom: Qualcomm
+QIA.DE:
+  indice: DAX
+  nom: Qiagen
+QLT.L:
+  indice: FTSE 250
+  nom: Quilter
+QQ.L:
+  indice: FTSE 250
+  nom: Qinetiq
+QSR.TO:
+  indice: S&P/TSX 60
+  nom: Restaurant Brands International Inc.
+QTCOM.HE:
+  indice: OMX Helsinki 25
+  nom: Qt Group
+RAA.DE:
+  indice: MDAX
+  nom: Rational
+RAND.AS:
+  indice: AEX
+  nom: Randstad
+RAT.L:
+  indice: FTSE 250
+  nom: Rathbones
+RBREW.CO:
+  indice: OMX Copenhagen 25
+  nom: Royal Unibrew
+RCI-B.TO:
+  indice: S&P/TSX 60
+  nom: Rogers Communications Inc.
+RCL:
+  indice: S&P 500
+  nom: Royal Caribbean Group
+RCP.L:
+  indice: FTSE 250
+  nom: RIT Capital Partners
+RDC.DE:
+  indice: MDAX
+  nom: Redcare Pharmacy
+RDDT:
+  indice: S&P 500
+  nom: Reddit
+REA.AX:
+  indice: S&P/ASX 50
+  nom: REA Group
+REC.MI:
+  indice: FTSE MIB
+  nom: Recordati
+RED.MC:
+  indice: IBEX 35
+  nom: Redeia Corporación
+REG:
+  indice: S&P 500
+  nom: Regency Centers
+REGN:
+  indice: S&P 500
+  nom: Regeneron Pharmaceuticals
+REN.AS:
+  indice: AEX
+  nom: RELX
+RENE.LS:
+  indice: PSI
+  nom: Redes Energéticas Nacionais
+REP.MC:
+  indice: IBEX 35
+  nom: Repsol
+RF:
+  indice: S&P 500
+  nom: Regions Financial Corporation
+RHIM.L:
+  indice: FTSE 250
+  nom: RHI Magnesita
+RICA.L:
+  indice: FTSE 250
+  nom: Ruffer Investment Company
+RIO.AX:
+  indice: S&P/ASX 50
+  nom: Rio Tinto
+RJF:
+  indice: S&P 500
+  nom: Raymond James Financial
+RKT.L:
+  indice: FTSE 100
+  nom: Reckitt
+RL:
+  indice: S&P 500
+  nom: Ralph Lauren Corporation
+RMD:
+  indice: S&P 500
+  nom: ResMed|
+RMD.AX:
+  indice: S&P/ASX 50
+  nom: ResMed
+RMV.L:
+  indice: FTSE 250
+  nom: Rightmove
+RNK.L:
+  indice: FTSE 250
+  nom: Rank Group
+ROCK-B.CO:
+  indice: OMX Copenhagen 25
+  nom: Rockwool International
+ROK:
+  indice: S&P 500
+  nom: Rockwell Automation
+ROL:
+  indice: S&P 500
+  nom: Rollins, Inc.
+ROP:
+  indice: S&P 500
+  nom: Roper Technologies
+ROP.SW:
+  indice: SMI
+  nom: Roche Holding AG
+ROR.L:
+  indice: FTSE 250
+  nom: Rotork
+ROSE.L:
+  indice: FTSE 250
+  nom: Rosebank Industries
+ROST:
+  indice: S&P 500
+  nom: Ross Stores
+ROVI.MC:
+  indice: IBEX 35
+  nom: Laboratorios Rovi
+RPI.L:
+  indice: FTSE 250
+  nom: Raspberry Pi Holdings
+RRTL.DE:
+  indice: MDAX
+  nom: RTL Group
+RS1.L:
+  indice: FTSE 250
+  nom: RS Group
+RSG:
+  indice: S&P 500
+  nom: Republic Services
+RSW.L:
+  indice: FTSE 250
+  nom: Renishaw
+RTO.L:
+  indice: FTSE 100
+  nom: Rentokil Initial
+RTW.L:
+  indice: FTSE 250
+  nom: RTW Biotech Opportunities
+RTX:
+  indice: S&P 500
+  nom: RTX Corporation
+RVTY:
+  indice: S&P 500
+  nom: Revvity
+S32.AX:
+  indice: S&P/ASX 50
+  nom: South32
+SAAB-B.ST:
+  indice: OMX Stockholm 30
+  nom: Saab B
+SAB.MC:
+  indice: IBEX 35
+  nom: Banco Sabadell
+SAFE.L:
+  indice: FTSE 250
+  nom: Safestore
+SAGA.L:
+  indice: FTSE 250
+  nom: Saga
+SAIN.L:
+  indice: FTSE 250
+  nom: Scottish American Investment Company
+SAMPO.HE:
+  indice: OMX Helsinki 25
+  nom: Sampo A
+SAP.TO:
+  indice: S&P/TSX 60
+  nom: Saputo Inc.
+SAX.DE:
+  indice: MDAX
+  nom: Ströer
+SBAC:
+  indice: S&P 500
+  nom: SBA Communications
+SBRY.L:
+  indice: FTSE 100
+  nom: Sainsbury's
+SBUX:
+  indice: S&P 500
+  nom: Starbucks
+SCA-B.ST:
+  indice: OMX Stockholm 30
+  nom: SCA B
+SCG.AX:
+  indice: S&P/ASX 50
+  nom: Scentre Group
+SCHW:
+  indice: S&P 500
+  nom: Charles Schwab Corporation
+SCT.L:
+  indice: FTSE 250
+  nom: Softcat
+SCYR.MC:
+  indice: IBEX 35
+  nom: Sacyr
+SDF.DE:
+  indice: MDAX
+  nom: K+S
+SDLF.L:
+  indice: FTSE 100
+  nom: Standard Life
+SDP.L:
+  indice: FTSE 250
+  nom: Schroder AsiaPacific Fund
+SDZ.SW:
+  indice: SMI
+  nom: Sandoz
+SEB-A.ST:
+  indice: OMX Stockholm 30
+  nom: SEB A
+SEIT.L:
+  indice: FTSE 250
+  nom: SDCL Efficiency Income Trust
+SEM.LS:
+  indice: PSI
+  nom: Semapa
+SEQI.L:
+  indice: FTSE 250
+  nom: Sequoia Economic Infrastructure Income Fund
+SGE.L:
+  indice: FTSE 100
+  nom: Sage Group
+SGH.AX:
+  indice: S&P/ASX 50
+  nom: Seven Group Holdings
+SGP.AX:
+  indice: S&P/ASX 50
+  nom: Stockland
+SGRO.L:
+  indice: FTSE 100
+  nom: Segro
+SHAW.L:
+  indice: FTSE 250
+  nom: Shawbrook Bank
+SHB-A.ST:
+  indice: OMX Stockholm 30
+  nom: Handelsbanken A
+SHC.L:
+  indice: FTSE 250
+  nom: Shaftesbury Capital
+SHELL.AS:
+  indice: AEX
+  nom: Shell plc
+SHL.DE:
+  indice: DAX
+  nom: Siemens Healthineers
+SHW:
+  indice: S&P 500
+  nom: Sherwin-Williams
+SIG.AX:
+  indice: S&P/ASX 50
+  nom: Sigma Healthcare
+SJM:
+  indice: S&P 500
+  nom: J.M. Smucker Company (The)
+SKA-B.ST:
+  indice: OMX Stockholm 30
+  nom: Skanska B
+SKF-B.ST:
+  indice: OMX Stockholm 30
+  nom: SKF B
+SLB:
+  indice: S&P 500
+  nom: Schlumberger
+SLF.TO:
+  indice: S&P/TSX 60
+  nom: Sun Life Financial Inc.
+SLHN.SW:
+  indice: SMI
+  nom: Swiss Life Holding AG
+SLR.MC:
+  indice: IBEX 35
+  nom: Solaria
+SMCI:
+  indice: S&P 500
+  nom: Supermicro
+SMIN.L:
+  indice: FTSE 100
+  nom: Smiths Group
+SMT.L:
+  indice: FTSE 100
+  nom: Scottish Mortgage Investment Trust
+SMWH.L:
+  indice: FTSE 250
+  nom: WHSmith
+SN.L:
+  indice: FTSE 100
+  nom: Smith & Nephew
+SNA:
+  indice: S&P 500
+  nom: Snap-on
+SNDK:
+  indice: S&P 500
+  nom: Sandisk
+SNPS:
+  indice: S&P 500
+  nom: Synopsys
+SNR.L:
+  indice: FTSE 250
+  nom: Senior
+SO:
+  indice: S&P 500
+  nom: Southern Company
+SOI.L:
+  indice: FTSE 250
+  nom: Schroder Oriental Income Fund
+SOL.AX:
+  indice: S&P/ASX 50
+  nom: Soul Patts
+SOLV:
+  indice: S&P 500
+  nom: Solventum
+SON.LS:
+  indice: PSI
+  nom: Sonae
+SPG:
+  indice: S&P 500
+  nom: Simon Property Group
+SPGI:
+  indice: S&P 500
+  nom: S&P Global
+SPI.L:
+  indice: FTSE 250
+  nom: Spire Healthcare
+SPM.MI:
+  indice: FTSE MIB
+  nom: Saipem
+SPX.L:
+  indice: FTSE 100
+  nom: Spirax Group
+SRE:
+  indice: S&P 500
+  nom: Sempra
+SRE.L:
+  indice: FTSE 250
+  nom: Sirius Real Estate
+SREN.SW:
+  indice: SMI
+  nom: Swiss Reinsurance Company Ltd
+SRG.MI:
+  indice: FTSE MIB
+  nom: Snam
+SRP.L:
+  indice: FTSE 250
+  nom: Serco
+SSE.L:
+  indice: FTSE 100
+  nom: SSE plc
+SSIT.L:
+  indice: FTSE 250
+  nom: Seraphim Space Investment Trust
+SSPG.L:
+  indice: FTSE 250
+  nom: SSP Group
+STAN.L:
+  indice: FTSE 100
+  nom: Standard Chartered
+STE:
+  indice: S&P 500
+  nom: Steris
+STERV.HE:
+  indice: OMX Helsinki 25
+  nom: Stora Enso R
+STJ.L:
+  indice: FTSE 100
+  nom: St. James's Place
+STLAM.MI:
+  indice: FTSE MIB
+  nom: Stellantis
+STLAP.PA:
+  indice: CAC 40
+  nom: Stellantis
+STLD:
+  indice: S&P 500
+  nom: Steel Dynamics
+STM.DE:
+  indice: MDAX
+  nom: Stabilus
+STMPA.PA:
+  indice: CAC 40
+  nom: STMicroelectronics
+STO.AX:
+  indice: S&P/ASX 50
+  nom: Santos
+STT:
+  indice: S&P 500
+  nom: State Street Corporation
+STX:
+  indice: S&P 500
+  nom: Seagate Technology
+STZ:
+  indice: S&P 500
+  nom: Constellation Brands
+SU.TO:
+  indice: S&P/TSX 60
+  nom: Suncor Energy Inc.
+SUN.AX:
+  indice: S&P/ASX 50
+  nom: Suncorp
+SUPR.L:
+  indice: FTSE 250
+  nom: Supermarket Income REIT
+SVS.L:
+  indice: FTSE 250
+  nom: Savills
+SVT.L:
+  indice: FTSE 100
+  nom: Severn Trent
+SW:
+  indice: S&P 500
+  nom: Smurfit Westrock
+SWED-A.ST:
+  indice: OMX Stockholm 30
+  nom: Swedbank A
+SWK:
+  indice: S&P 500
+  nom: Stanley Black & Decker
+SWKS:
+  indice: S&P 500
+  nom: Skyworks Solutions
+SYF:
+  indice: S&P 500
+  nom: Synchrony Financial
+SYK:
+  indice: S&P 500
+  nom: Stryker Corporation
+SYNC.L:
+  indice: FTSE 250
+  nom: Syncona
+SYY:
+  indice: S&P 500
+  nom: Sysco
+T:
+  indice: S&P 500
+  nom: AT&T
+T.TO:
+  indice: S&P/TSX 60
+  nom: Telus Corporation
+TATE.L:
+  indice: FTSE 250
+  nom: Tate & Lyle
+TBCG.L:
+  indice: FTSE 250
+  nom: TBC Bank
+TCAP.L:
+  indice: FTSE 250
+  nom: TP ICAP
+TCL.AX:
+  indice: S&P/ASX 50
+  nom: Transurban
+TDG:
+  indice: S&P 500
+  nom: TransDigm Group
+TDY:
+  indice: S&P 500
+  nom: Teledyne Technologies
+TECH:
+  indice: S&P 500
+  nom: Bio-Techne
+TECK-B.TO:
+  indice: S&P/TSX 60
+  nom: Teck Resources Limited
+TEF.MC:
+  indice: IBEX 35
+  nom: Telefónica
+TEG.DE:
+  indice: MDAX
+  nom: TAG Tegernsee Immobilien und Beteiligung
+TEL:
+  indice: S&P 500
+  nom: TE Connectivity
+TEL2-B.ST:
+  indice: OMX Stockholm 30
+  nom: Tele2 B
+TELIA.ST:
+  indice: OMX Stockholm 30
+  nom: Telia Company
+TEM.L:
+  indice: FTSE 250
+  nom: Templeton Emerging Markets Investment Trust
+TEN.MI:
+  indice: FTSE MIB
+  nom: Tenaris
+TEP.L:
+  indice: FTSE 250
+  nom: Telecom Plus
+TER:
+  indice: S&P 500
+  nom: Teradyne
+TESB.BR:
+  indice: BEL 20
+  nom: Tessenderlo
+TFC:
+  indice: S&P 500
+  nom: Truist Financial
+TFIF.L:
+  indice: FTSE 250
+  nom: Twentyfour Income Fund
+TGT:
+  indice: S&P 500
+  nom: Target Corporation
+THG.L:
+  indice: FTSE 250
+  nom: THG
+THRL.L:
+  indice: FTSE 250
+  nom: Target Healthcare REIT
+TIETO.HE:
+  indice: OMX Helsinki 25
+  nom: TietoEVRY
+TIT.MI:
+  indice: FTSE MIB
+  nom: Telecom Italia
+TJX:
+  indice: S&P 500
+  nom: TJX Companies
+TKA.DE:
+  indice: MDAX
+  nom: ThyssenKrupp
+TKO:
+  indice: S&P 500
+  nom: TKO Group Holdings
+TLS.AX:
+  indice: S&P/ASX 50
+  nom: Telstra
+TLX.DE:
+  indice: MDAX
+  nom: Talanx
+TMO:
+  indice: S&P 500
+  nom: Thermo Fisher Scientific
+TMPL.L:
+  indice: FTSE 250
+  nom: Temple Bar Investment Trust
+TMUS:
+  indice: S&P 500
+  nom: T-Mobile US
+TMV.DE:
+  indice: MDAX
+  nom: TeamViewer
+TOU.TO:
+  indice: S&P/TSX 60
+  nom: Tourmaline Oil Corp.
+TPK.L:
+  indice: FTSE 250
+  nom: Travis Perkins
+TPL:
+  indice: S&P 500
+  nom: Texas Pacific Land Corporation
+TPR:
+  indice: S&P 500
+  nom: Tapestry, Inc.
+TRGP:
+  indice: S&P 500
+  nom: Targa Resources
+TRI.TO:
+  indice: S&P/TSX 60
+  nom: Thomson Reuters Corporation
+TRIG.L:
+  indice: FTSE 250
+  nom: The Renewables Infrastructure Group
+TRMB:
+  indice: S&P 500
+  nom: Trimble Inc.
+TRN.L:
+  indice: FTSE 250
+  nom: Trainline
+TRN.MI:
+  indice: FTSE MIB
+  nom: Terna
+TROW:
+  indice: S&P 500
+  nom: T. Rowe Price
+TRP.TO:
+  indice: S&P/TSX 60
+  nom: TC Energy Corporation
+TRST.L:
+  indice: FTSE 250
+  nom: Trustpilot
+TRV:
+  indice: S&P 500
+  nom: Travelers Companies (The)
+TRY.L:
+  indice: FTSE 250
+  nom: TR Property Investment Trust
+TRYG.CO:
+  indice: OMX Copenhagen 25
+  nom: Tryg
+TSCO:
+  indice: S&P 500
+  nom: Tractor Supply
+TSLA:
+  indice: S&P 500
+  nom: Tesla, Inc.
+TSN:
+  indice: S&P 500
+  nom: Tyson Foods
+TT:
+  indice: S&P 500
+  nom: Trane Technologies
+TTWO:
+  indice: S&P 500
+  nom: Take-Two Interactive
+TUI1.DE:
+  indice: MDAX
+  nom: TUI
+TW.L:
+  indice: FTSE 250
+  nom: Taylor Wimpey
+TXN:
+  indice: S&P 500
+  nom: Texas Instruments
+TXT:
+  indice: S&P 500
+  nom: Textron
+TYL:
+  indice: S&P 500
+  nom: Tyler Technologies
+TYRES.HE:
+  indice: OMX Helsinki 25
+  nom: Nokian Tyres
+UAL:
+  indice: S&P 500
+  nom: United Airlines Holdings
+UBER:
+  indice: S&P 500
+  nom: Uber
+UDR:
+  indice: S&P 500
+  nom: UDR, Inc.
+UEM.L:
+  indice: FTSE 250
+  nom: Utilico Emerging Markets
+UHS:
+  indice: S&P 500
+  nom: Universal Health Services
+UKW.L:
+  indice: FTSE 250
+  nom: Greencoat UK Wind
+ULTA:
+  indice: S&P 500
+  nom: Ulta Beauty
+UMG.AS:
+  indice: AEX
+  nom: Universal Music Group
+UNA.AS:
+  indice: AEX
+  nom: Unilever
+UNI.MC:
+  indice: IBEX 35
+  nom: Unicaja
+UNI.MI:
+  indice: FTSE MIB
+  nom: Unipol
+UNP:
+  indice: S&P 500
+  nom: Union Pacific Corporation
+UPM.HE:
+  indice: OMX Helsinki 25
+  nom: UPM-Kymmene
+UPS:
+  indice: S&P 500
+  nom: United Parcel Service
+URI:
+  indice: S&P 500
+  nom: United Rentals
+URW.PA:
+  indice: CAC 40
+  nom: Unibail-Rodamco-Westfield
+USA.L:
+  indice: FTSE 250
+  nom: Baillie Gifford US Growth Trust
+USB:
+  indice: S&P 500
+  nom: U.S. Bancorp
+UTDI.DE:
+  indice: MDAX
+  nom: United Internet
+UTG.L:
+  indice: FTSE 250
+  nom: Unite Group
+UU.L:
+  indice: FTSE 100
+  nom: United Utilities
+VALMT.HE:
+  indice: OMX Helsinki 25
+  nom: Valmet
+VAS.AX:
+  indice: S&P/ASX 50
+  nom: Vanguard Australian Shares
+VCT.L:
+  indice: FTSE 250
+  nom: Victrex
+VEEV:
+  indice: S&P 500
+  nom: Veeva Systems
+VEIL.L:
+  indice: FTSE 250
+  nom: Vietnam Enterprise Investments
+VICI:
+  indice: S&P 500
+  nom: Vici Properties
+VLO:
+  indice: S&P 500
+  nom: Valero Energy
+VLTO:
+  indice: S&P 500
+  nom: Veralto
+VLX.L:
+  indice: FTSE 250
+  nom: Volex
+VMC:
+  indice: S&P 500
+  nom: Vulcan Materials Company
+VMRK:
+  indice: S&P 500
+  nom: Vivmark Residential
+VNA.DE:
+  indice: DAX
+  nom: Vonovia
+VOD.L:
+  indice: FTSE 100
+  nom: Vodafone Group
+VOF.L:
+  indice: FTSE 250
+  nom: VinaCapital Vietnam Opportunity Fund
+VRSK:
+  indice: S&P 500
+  nom: Verisk Analytics
+VRSN:
+  indice: S&P 500
+  nom: Verisign
+VRT:
+  indice: S&P 500
+  nom: Vertiv
+VRTX:
+  indice: S&P 500
+  nom: Vertex Pharmaceuticals
+VST:
+  indice: S&P 500
+  nom: Vistra Corp.
+VSVS.L:
+  indice: FTSE 250
+  nom: Vesuvius
+VTR:
+  indice: S&P 500
+  nom: Ventas
+VTRS:
+  indice: S&P 500
+  nom: Viatris
+VTY.L:
+  indice: FTSE 250
+  nom: Vistry Group
+VZ:
+  indice: S&P 500
+  nom: Verizon
+WAB:
+  indice: S&P 500
+  nom: Wabtec
+WAF.DE:
+  indice: MDAX
+  nom: Siltronic
+WAT:
+  indice: S&P 500
+  nom: Waters Corporation
+WBC.AX:
+  indice: S&P/ASX 50
+  nom: Westpac
+WBD:
+  indice: S&P 500
+  nom: Warner Bros. Discovery
+WCH.DE:
+  indice: MDAX
+  nom: Wacker Chemie
+WCN.TO:
+  indice: S&P/TSX 60
+  nom: Waste Connections Inc.
+WDAY:
+  indice: S&P 500
+  nom: Workday, Inc.
+WDC:
+  indice: S&P 500
+  nom: Western Digital
+WDS.AX:
+  indice: S&P/ASX 50
+  nom: Woodside Energy
+WEC:
+  indice: S&P 500
+  nom: WEC Energy Group
+WEIR.L:
+  indice: FTSE 100
+  nom: Weir
+WELL:
+  indice: S&P 500
+  nom: Welltower
+WFC:
+  indice: S&P 500
+  nom: Wells Fargo
+WIX.L:
+  indice: FTSE 250
+  nom: Wickes
+WIZZ.L:
+  indice: FTSE 250
+  nom: Wizz Air
+WKP.L:
+  indice: FTSE 250
+  nom: Workspace Group
+WM:
+  indice: S&P 500
+  nom: Waste Management
+WMB:
+  indice: S&P 500
+  nom: Williams Companies
+WN.TO:
+  indice: S&P/TSX 60
+  nom: George Weston Limited
+WOSG.L:
+  indice: FTSE 250
+  nom: Watches of Switzerland
+WOW.AX:
+  indice: S&P/ASX 50
+  nom: Woolworths
+WPM.TO:
+  indice: S&P/TSX 60
+  nom: Wheaton Precious Metals Corp.
+WPP.L:
+  indice: FTSE 100
+  nom: WPP
+WRB:
+  indice: S&P 500
+  nom: W. R. Berkley Corporation
+WRT1V.HE:
+  indice: OMX Helsinki 25
+  nom: Wärtsilä
+WSM:
+  indice: S&P 500
+  nom: Williams-Sonoma, Inc.
+WSP.TO:
+  indice: S&P/TSX 60
+  nom: WSP Global Inc.
+WST:
+  indice: S&P 500
+  nom: West Pharmaceutical Services
+WTB.L:
+  indice: FTSE 100
+  nom: Whitbread
+WTW:
+  indice: S&P 500
+  nom: Willis Towers Watson
+WWH.L:
+  indice: FTSE 250
+  nom: Worldwide Healthcare Trust
+WY:
+  indice: S&P 500
+  nom: Weyerhaeuser
+WYNN:
+  indice: S&P 500
+  nom: Wynn Resorts
+XEL:
+  indice: S&P 500
+  nom: Xcel Energy
+XOM:
+  indice: S&P 500
+  nom: ExxonMobil
+XPP.L:
+  indice: FTSE 250
+  nom: XP Power
+XPS.L:
+  indice: FTSE 250
+  nom: XPS Pensions
+XRO.AX:
+  indice: S&P/ASX 50
+  nom: Xero
+XYL:
+  indice: S&P 500
+  nom: Xylem Inc.
+XYZ:
+  indice: S&P 500
+  nom: Block, Inc.
+XYZ.AX:
+  indice: S&P/ASX 50
+  nom: Block
+YUM:
+  indice: S&P 500
+  nom: Yum! Brands
+ZBH:
+  indice: S&P 500
+  nom: Zimmer Biomet
+ZBRA:
+  indice: S&P 500
+  nom: Zebra Technologies
+ZEAL.CO:
+  indice: OMX Copenhagen 25
+  nom: Zealand Pharma
+ZIG.L:
+  indice: FTSE 250
+  nom: Zigup
+ZTS:
+  indice: S&P 500
+  nom: Zoetis
