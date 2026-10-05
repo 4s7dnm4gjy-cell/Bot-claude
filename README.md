@@ -56,7 +56,15 @@ Les ordres portent sur des parts entières, avec 1 € de frais par ordre (tarif
 
 ## 🔎 Radar d'opportunités
 
-Chaque jour, le bot scanne **35 actions et ETF disponibles sur Trade Republic** : Apple, Microsoft, Nvidia, LVMH, Air Liquide, ASML, S&P 500, Nasdaq 100, or… La liste complète se trouve dans `config.yaml`.
+Chaque jour, le bot scanne **environ 220 actions et ETF du monde entier disponibles sur Trade Republic** :
+- États-Unis ;
+- Europe : France, Allemagne, Pays-Bas, Italie, Espagne, Belgique, Finlande, Portugal ;
+- Royaume-Uni, Suisse et pays nordiques ;
+- Japon, Hong Kong et Chine ;
+- Inde, Brésil et Taïwan ;
+- Canada et Australie.
+
+La liste se trouve dans `radar_liste.yaml` : une ligne par titre, facile à compléter. Les prix étrangers sont convertis en euros pour chiffrer les achats.
 
 - **Dans le bulletin quotidien :** les 3 titres les plus « soldés » par rapport à leur propre historique, avec ce qui a suivi par le passé à ce niveau de prix. Exemple : « +18 % à 12 mois en moyenne, positif 85 % des cas ».
 - **Ticket 🔎 Opportunité :** quand un titre devient très soldé (score ≥ 85) et que l'historique est favorable, le bot ouvre un ticket avec l'achat suggéré (~150 €, ISIN, quantité). Vous répondez `oui` ou `non`, comme pour les autres propositions.

@@ -184,9 +184,9 @@ def cfg_radar(cfg):
     from dataclasses import replace
 
     c = replace(cfg, radar={"liste": {
-        "HAUT": {"nom": "Haut SA", "isin": "FR0000000001"},
-        "SOLDE": {"nom": "Soldée SA", "isin": "FR0000000002"},
-        "DECLIN": {"nom": "Déclin SA", "isin": "FR0000000003"},
+        "HAUT": {"nom": "Haut SA", "isin": "FR0000000001", "devise": "EUR"},
+        "SOLDE": {"nom": "Soldée SA", "isin": "FR0000000002", "devise": "EUR"},
+        "DECLIN": {"nom": "Déclin SA", "isin": "FR0000000003", "devise": "EUR"},
     }, "score_min": 70, "score_alerte": 80, "montant": 150})
     c.validate()
     return c
@@ -252,3 +252,33 @@ def test_radar_ticket_montre_les_actualites(cfg_radar, monkeypatch):
     assert prop["type"] == "opportunite"
     corps = json.loads(conseil.A_PUBLIER.read_text())["corps"]
     assert "Pourquoi Soldée SA baisse" in corps and "https://ex.com/a" in corps
+
+
+def test_devises_et_conversion_en_euros():
+    from invest_bot.radar import devise, en_euros, tickers_change
+
+    assert devise("AAPL") == "USD" and devise("MC.PA") == "EUR" and devise("AZN.L") == "GBp"
+    assert devise("7203.T") == "JPY" and devise("NOVO-B.CO") == "DKK"
+    assert tickers_change({"USD", "GBp", "EUR"}) == {"USD": "EURUSD=X", "GBp": "EURGBP=X"}
+    taux = {"USD": 1.10, "GBP": 0.85, "JPY": 160.0}
+    assert en_euros(110, "USD", taux) == pytest.approx(100)
+    assert en_euros(8500, "GBp", taux) == pytest.approx(100)  # 8 500 pence = 85 £
+    assert en_euros(16000, "JPY", taux) == pytest.approx(100)
+    assert en_euros(100, "SEK", taux) is None  # taux manquant : pas de proposition chiffrée
+
+
+def test_radar_titre_etranger_quantite_en_euros(cfg_radar, monkeypatch):
+    from dataclasses import replace
+    from invest_bot import radar
+
+    monkeypatch.setattr(radar.Opportunite, "favorable", property(lambda self: True))
+    liste = {"SOLDE.T": {"nom": "Soldée KK", "isin": "JP0000000001"}}
+    c = replace(cfg_radar, radar={**cfg_radar.radar, "liste": liste, "montant": 150})
+    rp = radar_prix().rename(columns={"SOLDE": "SOLDE.T"})[["SOLDE.T"]] * 100  # cours en yens
+    px = marche()
+    px.iloc[-60:] *= np.linspace(1, 1.3, 60)[:, None]
+    prop = conseil.lancer_conseil(c, px, px["WORLD"], date(2025, 6, 3), prix_radar=rp, taux={"JPY": 160.0})
+    o = prop["ordres"][0]
+    assert o["price"] == pytest.approx(rp["SOLDE.T"].iloc[-1] / 160)  # prix en euros
+    assert o["quantity"] * o["price"] <= 2 * 150
+    assert "JPY" in json.loads(conseil.A_PUBLIER.read_text())["corps"]

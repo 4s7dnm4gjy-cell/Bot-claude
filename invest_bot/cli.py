@@ -106,10 +106,20 @@ def cmd_conseil(args, cfg: Config) -> None:
 
     prices = fetch_prices(cfg.tickers, start=args.data_start, use_cache=False)
     stats = fetch_prices([cfg.stats_ticker], start="1950-01-01", use_cache=False)[cfg.stats_ticker]
-    radar = None
+    radar, taux = None, {}
     if cfg.radar and cfg.radar["liste"]:
         radar = fetch_prices(list(cfg.radar["liste"]), start=args.data_start, use_cache=False, strict=False)
-    prop = lancer_conseil(cfg, prices, stats, prix_radar=radar)
+        manquants = [t for t in cfg.radar["liste"] if t not in radar]
+        if manquants:
+            print(f"Radar : {len(manquants)} titre(s) sans données ignorés : {', '.join(manquants)}")
+        from .radar import devise, tickers_change
+
+        fx = tickers_change({devise(t, i) for t, i in cfg.radar["liste"].items()})
+        cours_fx = fetch_prices(list(fx.values()), start="2024-01-01", use_cache=False, strict=False)
+        taux = {d: float(cours_fx[t].dropna().iloc[-1]) for d, t in fx.items() if t in cours_fx}
+        taux = {("GBP" if d == "GBp" else d): v for d, v in taux.items()}
+        print(f"Radar : {radar.shape[1]} titres analysés ; taux de change : {taux}")
+    prop = lancer_conseil(cfg, prices, stats, prix_radar=radar, taux=taux)
     print(f"Proposition : {prop['type']} ({len(prop['ordres'])} ordres)" if prop else "Rien à proposer aujourd'hui.")
 
 

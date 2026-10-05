@@ -24,7 +24,7 @@ import requests
 
 from . import news, rapport
 from .config import Config
-from .radar import Opportunite, scanner
+from .radar import Opportunite, devise, en_euros, scanner
 from .score import BUCKET_LABELS, BUCKETS, label, moment_score, score_stats
 from .strategy import Order, decide, drawdown, reserve_target_pct
 
@@ -276,7 +276,8 @@ def lire_actualites(cfg: Config, opportunites: list[Opportunite]) -> dict[str, n
 
 def evaluer_radar(cfg: Config, etat: dict, prix: pd.DataFrame, prix_radar: pd.DataFrame,
                   opportunites: list[Opportunite], aujourdhui: date,
-                  actus: dict[str, news.Actualites] | None = None) -> dict | None:
+                  actus: dict[str, news.Actualites] | None = None,
+                  taux: dict[str, float] | None = None) -> dict | None:
     """Ouvre au plus une alerte « opportunité » par jour, avec garde-fous."""
     r = cfg.radar
     if etat["proposition"] is not None or aujourdhui.weekday() >= 5:
@@ -284,7 +285,11 @@ def evaluer_radar(cfg: Config, etat: dict, prix: pd.DataFrame, prix_radar: pd.Da
     if etat["pause_jusqua"] and aujourdhui.isoformat() < etat["pause_jusqua"]:
         return None
     coeur = valeur_portefeuille(etat, prix)
-    sat = sum(q * float(prix_radar[t].dropna().iloc[-1]) for t, q in etat["satellites"].items() if t in prix_radar)
+    sat = 0.0
+    for t, q in etat["satellites"].items():
+        if t in prix_radar:
+            px = en_euros(float(prix_radar[t].dropna().iloc[-1]), devise(t, r["liste"].get(t)), taux)
+            sat += q * (px or 0.0)
     if coeur + sat > 0 and sat / (coeur + sat) >= r["part_max"]:
         return None  # assez de titres individuels : le cœur du portefeuille reste les ETF
     for o in opportunites:
@@ -296,15 +301,18 @@ def evaluer_radar(cfg: Config, etat: dict, prix: pd.DataFrame, prix_radar: pd.Da
         derniere = etat["radar_alertes"].get(o.ticker)
         if derniere and (aujourdhui - date.fromisoformat(derniere)).days < r["delai_jours"]:
             continue
-        qty = float(int(r["montant"] // o.prix))
-        if qty == 0 and o.prix <= 2 * r["montant"]:
+        px = o.prix_eur
+        if not px:
+            continue  # taux de change indisponible : impossible de chiffrer l'achat en euros
+        qty = float(int(r["montant"] // px))
+        if qty == 0 and px <= 2 * r["montant"]:
             qty = 1.0  # une seule part, un peu au-dessus du montant prévu
         if qty == 0:
             continue
         etat["radar_alertes"][o.ticker] = aujourdhui.isoformat()
-        ordre = Order(o.ticker, "buy", qty, o.prix, f"opportunité radar (score {o.score:.0f})")
+        ordre = Order(o.ticker, "buy", qty, px, f"opportunité radar (score {o.score:.0f})")
         return {
-            "type": "opportunite", "date": aujourdhui.isoformat(), "liberation": qty * o.prix + cfg.fee_fixed,
+            "type": "opportunite", "date": aujourdhui.isoformat(), "liberation": qty * px + cfg.fee_fixed,
             "reserve_pct": etat["reserve_pct_appliquee"], "score": o.score, "ordres": [asdict(ordre)],
             "notes": [], "total": coeur + sat, "radar": asdict(o),
             "actualites": act.to_dict() if act is not None else None,
@@ -343,10 +351,11 @@ def corps_opportunite(cfg: Config, prop: dict, image_url: str) -> str:
         f"### {o.nom} est à un prix historiquement bas pour ce titre",
         "#### Ce que je vous propose dans Trade Republic",
         "| Action | Titre | ISIN | Quantité | Prix indicatif | Montant ~ |\n|---|---|---|---:|---:|---:|\n"
-        f"| **ACHETER** | {o.nom} ({o.type}) | `{o.isin}` | {ordre['quantity']:g} | {o.prix:,.2f} | "
-        f"{ordre['quantity'] * o.prix:,.2f} |".replace(",", " "),
-        f"Frais : {cfg.fee_fixed:.0f} €. Vérifiez le nom du titre dans l'application avant de valider "
-        "(le prix est indiqué dans la devise de cotation).",
+        f"| **ACHETER** | {o.nom} ({o.type}) | {o.isin_affiche} | {ordre['quantity']:g} | {o.prix_affiche} | "
+        f"≈ {ordre['quantity'] * ordre['price']:,.0f} € |".replace(",", " "),
+        f"Frais : {cfg.fee_fixed:.0f} €. Vérifiez le nom du titre dans l'application avant de valider"
+        + (" ; Trade Republic affiche le prix en euros, il peut différer légèrement selon le taux de change."
+           if o.devise != "EUR" else "."),
         "#### Pourquoi ce titre, maintenant",
         f"- Score du moment : **{o.score:.0f}/100**, tranche {o.tranche} : il est à {-o.baisse:+.0%} de son plus haut sur un an.",
         f"- Tendance de fond positive : {o.perf_5ans:+.0%} sur 5 ans.",
@@ -555,7 +564,7 @@ def tableau_de_bord(cfg: Config, etat: dict, prix: pd.DataFrame, a: dict) -> str
 
 def lancer_conseil(
     cfg: Config, prix: pd.DataFrame, prix_stats: pd.Series, aujourdhui: date | None = None,
-    prix_radar: pd.DataFrame | None = None,
+    prix_radar: pd.DataFrame | None = None, taux: dict[str, float] | None = None,
 ) -> dict | None:
     aujourdhui = aujourdhui or date.today()
     etat = charger_etat(cfg)
@@ -578,10 +587,10 @@ def lancer_conseil(
     nouvelle = evaluer(cfg, etat, prix, a, aujourdhui)
     opportunites, actus = [], {}
     if cfg.radar and prix_radar is not None and not prix_radar.empty:
-        opportunites = scanner(cfg.radar["liste"], prix_radar, cfg.radar["score_min"], prix[cfg.benchmark])
+        opportunites = scanner(cfg.radar["liste"], prix_radar, cfg.radar["score_min"], prix[cfg.benchmark], taux)
         actus = lire_actualites(cfg, opportunites)
         if nouvelle is None:
-            nouvelle = evaluer_radar(cfg, etat, prix, prix_radar, opportunites, aujourdhui, actus)
+            nouvelle = evaluer_radar(cfg, etat, prix, prix_radar, opportunites, aujourdhui, actus, taux)
     a_publier = {}
     if nouvelle:
         etat["proposition"] = nouvelle

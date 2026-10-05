@@ -25,6 +25,42 @@ from .score import moment_score, score_stats
 
 JOURS_5_ANS = 252 * 5
 
+# Suffixe Yahoo -> devise de cotation. Sans suffixe : bourse américaine (USD).
+DEVISES = {
+    ".PA": "EUR", ".DE": "EUR", ".AS": "EUR", ".MI": "EUR", ".MC": "EUR", ".BR": "EUR", ".HE": "EUR",
+    ".LS": "EUR", ".VI": "EUR", ".IR": "EUR", ".L": "GBp", ".SW": "CHF", ".CO": "DKK", ".ST": "SEK",
+    ".OL": "NOK", ".T": "JPY", ".HK": "HKD", ".TO": "CAD", ".AX": "AUD",
+}
+
+
+def devise(ticker: str, info: dict | None = None) -> str:
+    if info and info.get("devise"):
+        return info["devise"]
+    for suffixe, dev in DEVISES.items():
+        if ticker.upper().endswith(suffixe.upper()):
+            return dev
+    return "USD"
+
+
+def tickers_change(devises: set[str]) -> dict[str, str]:
+    """Devise -> ticker Yahoo du taux (unités de la devise pour 1 euro)."""
+    out = {}
+    for d in devises:
+        base = "GBP" if d == "GBp" else d
+        if base != "EUR":
+            out[d] = f"EUR{base}=X"
+    return out
+
+
+def en_euros(prix: float, dev: str, taux: dict[str, float] | None) -> float | None:
+    """Convertit un prix en euros ; None si le taux manque."""
+    if dev == "EUR":
+        return prix
+    if dev == "GBp":
+        prix, dev = prix / 100, "GBP"
+    t = (taux or {}).get(dev)
+    return prix / t if t else None
+
 
 @dataclass
 class Opportunite:
@@ -43,6 +79,20 @@ class Opportunite:
     base_moy_12m: float  # tous jours confondus
     pire_12m: float
     vs_marche_3m: float | None = None  # performance 3 mois du titre moins celle du marché
+    devise: str = "EUR"
+    prix_eur: float | None = None
+
+    @property
+    def prix_affiche(self) -> str:
+        if self.devise == "EUR":
+            return f"{self.prix:,.2f} €".replace(",", " ")
+        unite = "pence" if self.devise == "GBp" else self.devise
+        txt = f"{self.prix:,.2f} {unite}".replace(",", " ")
+        return txt + (f" (≈ {self.prix_eur:,.2f} €)".replace(",", " ") if self.prix_eur else "")
+
+    @property
+    def isin_affiche(self) -> str:
+        return f"ISIN `{self.isin}`" if self.isin != self.ticker else f"chercher « {self.nom} »"
 
     @property
     def favorable(self) -> bool:
@@ -52,7 +102,7 @@ class Opportunite:
     def ligne(self) -> str:
         etoile = "⭐ " if self.favorable else ""
         return (
-            f"{etoile}**{self.nom}** ({self.type}, ISIN `{self.isin}`) — score **{self.score:.0f}/100**, "
+            f"{etoile}**{self.nom}** ({self.type}, {self.isin_affiche}) — score **{self.score:.0f}/100**, "
             f"{-self.baisse:+.0%} depuis son plus haut ; historiquement à ce niveau : "
             f"{self.moy_12m:+.0%} à 12 mois en moyenne, positif {self.pos_12m:.0%} des cas "
             f"(moyenne du titre : {self.base_moy_12m:+.0%})"
@@ -68,7 +118,8 @@ def ecart_marche(prix: pd.Series, marche: pd.Series | None, jours: int = 63) -> 
     return float((s.iloc[-1] / s.iloc[-jours - 1] - 1) - (m.iloc[-1] / m.iloc[-jours - 1] - 1))
 
 
-def analyser_titre(ticker: str, info: dict, prix: pd.Series, marche: pd.Series | None = None) -> Opportunite | None:
+def analyser_titre(ticker: str, info: dict, prix: pd.Series, marche: pd.Series | None = None,
+                   taux: dict[str, float] | None = None) -> Opportunite | None:
     s = prix.dropna()
     if len(s) < JOURS_5_ANS + 252:
         return None  # historique trop court pour des statistiques fiables
@@ -98,17 +149,19 @@ def analyser_titre(ticker: str, info: dict, prix: pd.Series, marche: pd.Series |
         base_moy_12m=float(base["moy_12m"]),
         pire_12m=float(ligne["pire_12m"]) if ligne is not None else np.nan,
         vs_marche_3m=ecart_marche(s, marche),
+        devise=devise(ticker, info),
+        prix_eur=en_euros(float(s.iloc[-1]), devise(ticker, info), taux),
     )
 
 
 def scanner(liste: dict[str, dict], prix: pd.DataFrame, score_min: float,
-            marche: pd.Series | None = None) -> list[Opportunite]:
+            marche: pd.Series | None = None, taux: dict[str, float] | None = None) -> list[Opportunite]:
     """Titres au score >= score_min et en tendance longue positive, du plus soldé au moins soldé."""
     out = []
     for ticker, info in liste.items():
         if ticker not in prix:
             continue
-        o = analyser_titre(ticker, info, prix[ticker], marche)
+        o = analyser_titre(ticker, info, prix[ticker], marche, taux)
         if o and o.score >= score_min and o.perf_5ans > 0:
             out.append(o)
     return sorted(out, key=lambda o: (o.favorable, o.score), reverse=True)

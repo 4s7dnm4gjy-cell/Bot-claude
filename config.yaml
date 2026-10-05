@@ -62,42 +62,5 @@ radar:
   montant: 150         # montant suggéré par opportunité (€)
   part_max: 0.20       # au plus 20 % du portefeuille en titres individuels
   delai_jours: 30      # pas deux alertes sur le même titre en 30 jours
-  liste:
-    # Actions américaines (prix en dollars)
-    AAPL:  {nom: Apple, isin: US0378331005}
-    MSFT:  {nom: Microsoft, isin: US5949181045}
-    NVDA:  {nom: Nvidia, isin: US67066G1040}
-    AMZN:  {nom: Amazon, isin: US0231351067}
-    GOOGL: {nom: Alphabet (Google), isin: US02079K3059}
-    META:  {nom: Meta Platforms, isin: US30303M1027}
-    BRK-B: {nom: Berkshire Hathaway B, isin: US0846707026}
-    JPM:   {nom: JPMorgan Chase, isin: US46625H1005}
-    V:     {nom: Visa, isin: US92826C8394}
-    MA:    {nom: Mastercard, isin: US57636Q1040}
-    JNJ:   {nom: Johnson & Johnson, isin: US4781601046}
-    PG:    {nom: Procter & Gamble, isin: US7427181091}
-    KO:    {nom: Coca-Cola, isin: US1912161007}
-    PEP:   {nom: PepsiCo, isin: US7134481081}
-    MCD:   {nom: McDonald's, isin: US5801351017}
-    COST:  {nom: Costco, isin: US22160K1051}
-    WMT:   {nom: Walmart, isin: US9311421039}
-    UNH:   {nom: UnitedHealth, isin: US91324P1021}
-    LLY:   {nom: Eli Lilly, isin: US5324571083}
-    # Actions européennes (prix en euros)
-    ASML.AS: {nom: ASML, isin: NL0010273215}
-    MC.PA:   {nom: LVMH, isin: FR0000121014}
-    OR.PA:   {nom: L'Oréal, isin: FR0000120321}
-    AI.PA:   {nom: Air Liquide, isin: FR0000120073}
-    SU.PA:   {nom: Schneider Electric, isin: FR0000121972}
-    TTE.PA:  {nom: TotalEnergies, isin: FR0000120271}
-    SAN.PA:  {nom: Sanofi, isin: FR0000120578}
-    AIR.PA:  {nom: Airbus, isin: NL0000235190}
-    RMS.PA:  {nom: Hermès, isin: FR0000052292}
-    SAP.DE:  {nom: SAP, isin: DE0007164600}
-    SIE.DE:  {nom: Siemens, isin: DE0007236101}
-    ALV.DE:  {nom: Allianz, isin: DE0008404005}
-    # ETF
-    SXR8.DE: {nom: iShares Core S&P 500, isin: IE00B5BMR087, type: ETF}
-    SXRV.DE: {nom: iShares Nasdaq 100, isin: IE00B53SZB19, type: ETF}
-    EXSA.DE: {nom: iShares STOXX Europe 600, isin: DE0002635307, type: ETF}
-    4GLD.DE: {nom: Xetra-Gold (or physique), isin: DE000A0S9GB0, type: ETC}
+  # Liste des ~220 titres surveillés (monde entier) : voir radar_liste.yaml.
+  fichier: radar_liste.yaml
