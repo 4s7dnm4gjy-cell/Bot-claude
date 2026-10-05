@@ -56,15 +56,19 @@ Les ordres portent sur des parts entières, avec 1 € de frais par ordre (tarif
 
 ## 🔎 Radar d'opportunités
 
-Chaque jour, le bot scanne **environ 220 actions et ETF du monde entier disponibles sur Trade Republic** :
-- États-Unis ;
-- Europe : France, Allemagne, Pays-Bas, Italie, Espagne, Belgique, Finlande, Portugal ;
-- Royaume-Uni, Suisse et pays nordiques ;
-- Japon, Hong Kong et Chine ;
-- Inde, Brésil et Taïwan ;
-- Canada et Australie.
+Chaque jour, le bot scanne **environ 2 700 actions et ETF du monde entier** :
+- **~220 titres choisis à la main**, avec leur ISIN (`radar_liste.yaml`) ;
+- **la composition complète des grands indices**, relue chaque mois automatiquement (`radar_univers.yaml`) :
+  - États-Unis : S&P 500, MidCap 400, SmallCap 600 ;
+  - Royaume-Uni : FTSE 100 et 250 ;
+  - Japon : Nikkei 225 ;
+  - Hong Kong : Hang Seng ;
+  - Allemagne : DAX, MDAX, TecDAX ;
+  - Espagne, Italie, Pays-Bas, Belgique, Portugal, Irlande : IBEX, FTSE MIB, AEX, BEL 20, PSI, ISEQ ;
+  - Suède, Danemark, Finlande, Norvège : OMX, OBX ;
+  - Canada et Australie : TSX 60, ASX 50.
 
-La liste se trouve dans `radar_liste.yaml` : une ligne par titre, facile à compléter. Les prix étrangers sont convertis en euros pour chiffrer les achats.
+Les prix étrangers sont convertis en euros pour chiffrer les achats. Pour les titres de l'univers automatique, le ticket indique le nom à chercher dans l'application, pas l'ISIN. Trade Republic ne propose peut-être pas toutes les petites valeurs.
 
 - **Dans le bulletin quotidien :** les 3 titres les plus « soldés » par rapport à leur propre historique, avec ce qui a suivi par le passé à ce niveau de prix. Exemple : « +18 % à 12 mois en moyenne, positif 85 % des cas ».
 - **Ticket 🔎 Opportunité :** quand un titre devient très soldé (score ≥ 85) et que l'historique est favorable, le bot ouvre un ticket avec l'achat suggéré (~150 €, ISIN, quantité). Vous répondez `oui` ou `non`, comme pour les autres propositions.
