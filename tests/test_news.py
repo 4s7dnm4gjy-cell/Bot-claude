@@ -87,6 +87,8 @@ def test_conversion_des_codes_d_indices():
     assert convertir("MC.PA", ".PA", None) == "MC.PA"
     assert convertir("ADS", ".DE", None) == "ADS.DE"
     assert convertir("nan", ".DE", None) is None
+    assert convertir("OSE: DNB", ".OL", "nordique") == "DNB.OL"
+    assert convertir("Euronext: ABN", ".AS", None) == "ABN.AS"
 
 
 def test_plusieurs_fichiers_de_liste(tmp_path):

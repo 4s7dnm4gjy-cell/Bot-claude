@@ -49,8 +49,12 @@ INDICES = {
     "S&P/ASX 50": ("S%26P/ASX_50", ".AX", None),
 }
 
-COLS_CODE = ("symbol", "ticker", "ticker symbol", "code", "epic", "stock symbol", "ticker code", "sehk")
-COLS_NOM = ("security", "company", "name", "constituent", "company name", "corporation")
+COLS_CODE = ("symbol", "ticker", "ticker symbol", "code", "epic", "stock symbol", "ticker code", "sehk",
+             "trading symbol", "stock code", "securities code")
+COLS_NOM = ("security", "company", "name", "constituent", "company name", "corporation", "issuer", "firm")
+
+# Dans le texte de la page : « Toyota Motor (TYO: 7203) », « Apple Inc. (Nasdaq: AAPL) ».
+MOTIF_TEXTE = re.compile(r"([A-Z][^()\n]{1,60}?)\s*\((?:TYO|TSE|NASDAQ|Nasdaq|NYSE)\s*:\s*([A-Z0-9.]{1,6})\)")
 
 # Bourse indiquée dans les tableaux multi-pays (Euro Stoxx 50) -> suffixe Yahoo.
 BOURSES = {
@@ -72,7 +76,7 @@ def _colonne(df: pd.DataFrame, noms: tuple[str, ...]) -> str | None:
 def convertir(code: str, suffixe: str, regle: str | None) -> str | None:
     """Code d'un tableau Wikipédia -> ticker Yahoo."""
     code = re.sub(r"\[.*?\]", "", str(code)).strip()
-    code = re.sub(r"^(NYSE|NASDAQ|Nasdaq|SEHK|TYO|TSE|LSE|ASX|TSX|SIX|BME)\s*:\s*", "", code).strip()
+    code = re.sub(r"^[A-Za-z][A-Za-z .]{0,15}:\s*", "", code).strip()  # « NYSE: KO », « OSE: DNB »…
     if not code or code.lower() == "nan" or len(code) > 15:
         return None
     if regle == "us":
@@ -87,7 +91,7 @@ def convertir(code: str, suffixe: str, regle: str | None) -> str | None:
         chiffres = re.sub(r"\D", "", code)
         return f"{int(chiffres):04d}{suffixe}" if chiffres else None
     if regle == "nordique":
-        code = code.replace(" ", "-")
+        code = code.strip().replace(" ", "-")
     if suffixe and code.upper().endswith(suffixe.upper()):
         return code.upper()
     if "." in code and suffixe:
@@ -118,6 +122,15 @@ def lire_indice(nom: str, page: str, suffixe: str | None, regle: str | None) -> 
                 titres[t] = {"nom": re.sub(r"\[.*?\]", "", str(ligne[c_nom])).strip(), "indice": nom}
         if len(titres) > len(meilleur):
             meilleur = titres
+    if len(meilleur) < 10:  # pas de tableau exploitable : on cherche les codes dans le texte
+        texte = re.sub(r"<[^>]+>", "", html)
+        for nom_societe, code in MOTIF_TEXTE.findall(texte):
+            t = convertir(code, suffixe or "", regle)
+            if t:
+                meilleur.setdefault(t, {"nom": nom_societe.strip(" ,;"), "indice": nom})
+    if not meilleur:  # aide au diagnostic dans le journal
+        tables = [list(map(str, df.columns))[:6] for df in pd.read_html(StringIO(html)) if len(df) >= 10]
+        print(f"  {nom} : colonnes des tableaux trouvés : {tables[:4]}")
     return meilleur
 
 
