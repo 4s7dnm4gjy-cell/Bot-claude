@@ -867,30 +867,63 @@ A:
 A2A.MI:
   indice: FTSE MIB
   nom: A2A
+A5G.IR:
+  indice: ISEQ 20
+  nom: AIB Group
+AA:
+  indice: S&P MidCap 400
+  nom: Alcoa
 AAF.L:
   indice: FTSE 100
   nom: Airtel Africa
+AAL:
+  indice: S&P MidCap 400
+  nom: American Airlines Group
+AAMI:
+  indice: S&P SmallCap 600
+  nom: Acadian Asset Management Inc.
+AAON:
+  indice: S&P MidCap 400
+  nom: AAON
+AAP:
+  indice: S&P SmallCap 600
+  nom: Advance Auto Parts, Inc.
 AAS.L:
   indice: FTSE 250
   nom: Aberdeen Asia Focus
+AAT:
+  indice: S&P SmallCap 600
+  nom: American Assets Trust
 ABB.ST:
   indice: OMX Stockholm 30
   nom: ABB Ltd
 ABBV:
   indice: S&P 500
   nom: AbbVie
+ABCB:
+  indice: S&P SmallCap 600
+  nom: Ameris Bancorp
 ABDN.L:
   indice: FTSE 100
   nom: Aberdeen Group
 ABF.L:
   indice: FTSE 100
   nom: Associated British Foods
+ABG:
+  indice: S&P SmallCap 600
+  nom: Asbury Automotive Group
+ABM:
+  indice: S&P SmallCap 600
+  nom: ABM Industries, Inc.
 ABN.AS:
   indice: AEX
   nom: ABN AMRO
 ABNB:
   indice: S&P 500
   nom: Airbnb
+ABR:
+  indice: S&P SmallCap 600
+  nom: Arbor Realty Trust
 ABT:
   indice: S&P 500
   nom: Abbott Laboratories
@@ -900,48 +933,105 @@ ABX.TO:
 AC.PA:
   indice: CAC 40
   nom: Accor
+ACA:
+  indice: S&P SmallCap 600
+  nom: Arcosa, Inc.
+ACAD:
+  indice: S&P SmallCap 600
+  nom: Acadia Pharmaceuticals
 ACGL:
   indice: S&P 500
   nom: Arch Capital Group
+ACHC:
+  indice: S&P SmallCap 600
+  nom: Acadia Healthcare
+ACI:
+  indice: S&P MidCap 400
+  nom: Albertsons
+ACIW:
+  indice: S&P SmallCap 600
+  nom: ACI Worldwide
+ACLS:
+  indice: S&P SmallCap 600
+  nom: Axcelis Technologies, Inc.
+ACM:
+  indice: S&P MidCap 400
+  nom: AECOM
+ACMR:
+  indice: S&P SmallCap 600
+  nom: ACM Research, Inc.
 ACN:
   indice: S&P 500
   nom: Accenture
 ACS.MC:
   indice: IBEX 35
   nom: ACS
+ACT:
+  indice: S&P SmallCap 600
+  nom: Enact Holdings, Inc.
 ACX.MC:
   indice: IBEX 35
   nom: Acerinox
+ADAM:
+  indice: S&P SmallCap 600
+  nom: Adamas Trust, Inc.
 ADBE:
   indice: S&P 500
   nom: Adobe Inc.
+ADC:
+  indice: S&P MidCap 400
+  nom: Agree Realty
 ADDT-B.ST:
   indice: OMX Stockholm 30
   nom: Addtech B
+ADEA:
+  indice: S&P SmallCap 600
+  nom: Adeia, Inc.
 ADI:
   indice: S&P 500
   nom: Analog Devices
+ADIG:
+  indice: S&P SmallCap 600
+  nom: ADI Global Distribution
 ADM:
   indice: S&P 500
   nom: Archer Daniels Midland
 ADM.L:
   indice: FTSE 100
   nom: Admiral Group
+ADMA:
+  indice: S&P SmallCap 600
+  nom: ADMA Biologics, Inc.
+ADNT:
+  indice: S&P SmallCap 600
+  nom: Adient
 ADP:
   indice: S&P 500
   nom: Automatic Data Processing
 ADSK:
   indice: S&P 500
   nom: Autodesk
+ADT:
+  indice: S&P SmallCap 600
+  nom: ADT Inc.
+ADUS:
+  indice: S&P SmallCap 600
+  nom: Addus HomeCare Corp.
 AEE:
   indice: S&P 500
   nom: Ameren
+AEIS:
+  indice: S&P MidCap 400
+  nom: Advanced Energy
 AEM.TO:
   indice: S&P/TSX 60
   nom: Agnico Eagle Mines Limited
 AENA.MC:
   indice: IBEX 35
   nom: AENA
+AEO:
+  indice: S&P SmallCap 600
+  nom: American Eagle Outfitters
 AEP:
   indice: S&P 500
   nom: American Electric Power
@@ -951,30 +1041,69 @@ AEP.L:
 AES:
   indice: S&P 500
   nom: AES Corporation
+AESI:
+  indice: S&P SmallCap 600
+  nom: Atlas Energy Solutions, Inc.
+AFG:
+  indice: S&P MidCap 400
+  nom: American Financial Group
 AFL:
   indice: S&P 500
   nom: Aflac
 AFX.DE:
   indice: MDAX
   nom: Carl Zeiss Meditec
+AGCO:
+  indice: S&P MidCap 400
+  nom: AGCO
 AGFB.BR:
   indice: BEL 20
   nom: Agfa-Gevaert
 AGN.AS:
   indice: AEX
   nom: Aegon
+AGNC:
+  indice: S&P MidCap 400
+  nom: AGNC Investment
+AGNT:
+  indice: S&P SmallCap 600
+  nom: eXp World Holdings, Inc.
+AGO:
+  indice: S&P SmallCap 600
+  nom: Assured Guaranty Ltd.
 AGT.L:
   indice: FTSE 250
   nom: AVI Global Trust
+AGX:
+  indice: S&P SmallCap 600
+  nom: Argan, Inc.
+AGYS:
+  indice: S&P SmallCap 600
+  nom: Agilysys, Inc.
+AHCO:
+  indice: S&P SmallCap 600
+  nom: AdaptHealth Corp.
+AHR:
+  indice: S&P MidCap 400
+  nom: American Healthcare REIT
 AIE.L:
   indice: FTSE 250
   nom: Ashoka India Equity Investment Trust
 AIG:
   indice: S&P 500
   nom: American International Group
+AIN:
+  indice: S&P SmallCap 600
+  nom: Albany International Corp.
+AIR:
+  indice: S&P SmallCap 600
+  nom: AAR Corp.
 AIR.DE:
   indice: DAX
   nom: Airbus
+AIT:
+  indice: S&P MidCap 400
+  nom: Applied Industrial Technologies
 AIXA.DE:
   indice: MDAX
   nom: Aixtron
@@ -990,6 +1119,9 @@ AJG:
 AKAM:
   indice: S&P 500
   nom: Akamai Technologies
+AKR:
+  indice: S&P SmallCap 600
+  nom: Acadia Realty Trust
 AKRBP.OL:
   indice: OBX
   nom: Aker BP
@@ -1008,9 +1140,27 @@ ALFA.L:
 ALFA.ST:
   indice: OMX Stockholm 30
   nom: Alfa Laval
+ALG:
+  indice: S&P SmallCap 600
+  nom: Alamo Group
+ALGM:
+  indice: S&P MidCap 400
+  nom: Allegro MicroSystems
 ALGN:
   indice: S&P 500
   nom: Align Technology
+ALGT:
+  indice: S&P SmallCap 600
+  nom: Allegiant Travel Company
+ALHC:
+  indice: S&P SmallCap 600
+  nom: Alignment Healthcare, Inc.
+ALK:
+  indice: S&P MidCap 400
+  nom: Alaska Air Group
+ALKS:
+  indice: S&P SmallCap 600
+  nom: Alkermes plc
 ALL:
   indice: S&P 500
   nom: Allstate
@@ -1020,15 +1170,30 @@ ALL.AX:
 ALLE:
   indice: S&P 500
   nom: Allegion
+ALLY:
+  indice: S&P MidCap 400
+  nom: Ally Financial
+ALRM:
+  indice: S&P SmallCap 600
+  nom: Alarm.Com, Inc.
+ALSN:
+  indice: S&P MidCap 400
+  nom: Allison Transmission
 ALSYDB.CO:
   indice: OMX Copenhagen 25
   nom: AL Sydbank
 ALTR.LS:
   indice: PSI
   nom: Altri
+ALV:
+  indice: S&P MidCap 400
+  nom: Autoliv
 ALW.L:
   indice: FTSE 100
   nom: Alliance Witan
+AM:
+  indice: S&P MidCap 400
+  nom: Antero Midstream
 AMAT:
   indice: S&P 500
   nom: Applied Materials
@@ -1047,30 +1212,69 @@ AMD:
 AME:
   indice: S&P 500
   nom: Ametek
+AMG:
+  indice: S&P MidCap 400
+  nom: Affiliated Managers Group
 AMGN:
   indice: S&P 500
   nom: Amgen
+AMH:
+  indice: S&P MidCap 400
+  nom: American Homes 4 Rent
+AMKR:
+  indice: S&P MidCap 400
+  nom: Amkor Technology
+AMN:
+  indice: S&P SmallCap 600
+  nom: Amn Healthcare Services, Inc.
 AMP:
   indice: S&P 500
   nom: Ameriprise Financial
 AMP.MI:
   indice: FTSE MIB
   nom: Amplifon
+AMPH:
+  indice: S&P SmallCap 600
+  nom: Amphstar Pharmaceuticals, Inc.
+AMR:
+  indice: S&P SmallCap 600
+  nom: Alpha Metallurgical Resources, Inc.
+AMRX:
+  indice: S&P SmallCap 600
+  nom: Amneal Pharmaceuticals
 AMRZ.SW:
   indice: SMI
   nom: Amrize AG
+AMSF:
+  indice: S&P SmallCap 600
+  nom: Amerisafe, Inc.
 AMT:
   indice: S&P 500
   nom: American Tower
+AMTM:
+  indice: S&P SmallCap 600
+  nom: Amentum
+AN:
+  indice: S&P MidCap 400
+  nom: AutoNation
 ANA.MC:
   indice: IBEX 35
   nom: Acciona
+ANDE:
+  indice: S&P SmallCap 600
+  nom: The Andersons, Inc.
 ANE.MC:
   indice: IBEX 35
   nom: Acciona Energía
 ANET:
   indice: S&P 500
   nom: Arista Networks
+ANF:
+  indice: S&P MidCap 400
+  nom: Abercrombie & Fitch
+ANIP:
+  indice: S&P SmallCap 600
+  nom: ANI Pharmaceuticals, Inc.
 ANTO.L:
   indice: FTSE 100
   nom: Antofagasta plc
@@ -1080,63 +1284,138 @@ ANZ.AX:
 AO.L:
   indice: FTSE 250
   nom: AO World
+AOF.DE:
+  indice: TecDAX
+  nom: Atoss Software AG
 AON:
   indice: S&P 500
   nom: Aon plc
+AORT:
+  indice: S&P SmallCap 600
+  nom: Artivion
 AOS:
   indice: S&P 500
   nom: A. O. Smith
+AOSL:
+  indice: S&P SmallCap 600
+  nom: Alpha and Omega Semiconductor, Ltd.
 APA:
   indice: S&P 500
   nom: APA Corporation
+APAM:
+  indice: S&P SmallCap 600
+  nom: Artisan Partners Asset Management, Inc.
 APD:
   indice: S&P 500
   nom: Air Products
+APG:
+  indice: S&P MidCap 400
+  nom: APi Group
 APH:
   indice: S&P 500
   nom: Amphenol
+APLE:
+  indice: S&P SmallCap 600
+  nom: Apple Hospitality REIT, Inc.
 APN.L:
   indice: FTSE 250
   nom: Applied Nutrition
 APO:
   indice: S&P 500
   nom: Apollo Global Management
+APOG:
+  indice: S&P SmallCap 600
+  nom: Apogee Enterprises, Inc.
 APP:
   indice: S&P 500
   nom: AppLovin
+APPF:
+  indice: S&P MidCap 400
+  nom: AppFolio
 APTV:
   indice: S&P 500
   nom: Aptiv
+AR:
+  indice: S&P MidCap 400
+  nom: Antero Resources
+ARCB:
+  indice: S&P SmallCap 600
+  nom: ArcBest Corp.
 ARE:
   indice: S&P 500
   nom: Alexandria Real Estate Equities
 ARES:
   indice: S&P 500
   nom: Ares Management
+ARLO:
+  indice: S&P SmallCap 600
+  nom: Arlo Technologies
+ARMK:
+  indice: S&P MidCap 400
+  nom: Aramark
+AROC:
+  indice: S&P SmallCap 600
+  nom: Archrock, Inc.
+ARR:
+  indice: S&P SmallCap 600
+  nom: Armour Residential REIT
+ARW:
+  indice: S&P MidCap 400
+  nom: Arrow Electronics
+ARWR:
+  indice: S&P MidCap 400
+  nom: Arrowhead Pharmaceuticals
+ASB:
+  indice: S&P MidCap 400
+  nom: Associated Bank
 ASC.L:
   indice: FTSE 250
   nom: ASOS
+ASH:
+  indice: S&P MidCap 400
+  nom: Ashland Global
 ASHM.L:
   indice: FTSE 250
   nom: Ashmore Group
 ASL.L:
   indice: FTSE 250
   nom: Aberforth Smaller Companies Trust
+ASO:
+  indice: S&P SmallCap 600
+  nom: Academy Sports + Outdoors
 ASRNL.AS:
   indice: AEX
   nom: ASR Nederland
+ASTE:
+  indice: S&P SmallCap 600
+  nom: Astec Industries, Inc.
+ASTH:
+  indice: S&P SmallCap 600
+  nom: Astrana Health, Inc.
 AT1.DE:
   indice: MDAX
   nom: Aroundtown
 ATD.TO:
   indice: S&P/TSX 60
   nom: Alimentation Couche-Tard Inc.
+ATEN:
+  indice: S&P SmallCap 600
+  nom: A10 Networks, Inc.
 ATG.L:
   indice: FTSE 250
   nom: Auction Technology Group
+ATI:
+  indice: S&P MidCap 400
+  nom: ATI Inc.
+ATMU:
+  indice: S&P SmallCap 600
+  nom: Atmus Filtration Technologies Inc.
 ATO:
   indice: S&P 500
   nom: Atmos Energy
+ATR:
+  indice: S&P MidCap 400
+  nom: AptarGroup
 ATR.L:
   indice: FTSE 250
   nom: Schroder Asian Total Return Investment Company
@@ -1146,33 +1425,66 @@ ATT.L:
 ATYM.L:
   indice: FTSE 250
   nom: Atalaya Mining
+AUB:
+  indice: S&P SmallCap 600
+  nom: Atlantic Union Bankshares, Corp.
 AUTO.L:
   indice: FTSE 100
   nom: Autotrader Group
 AV.L:
   indice: FTSE 100
   nom: Aviva
+AVA:
+  indice: S&P SmallCap 600
+  nom: Avista Corporation
+AVAV:
+  indice: S&P MidCap 400
+  nom: AeroVironment
 AVGO:
   indice: S&P 500
   nom: Broadcom
 AVIO.MI:
   indice: FTSE MIB
   nom: Avio
+AVNT:
+  indice: S&P MidCap 400
+  nom: Avient
 AVON.L:
   indice: FTSE 250
   nom: Avon Technologies
+AVT:
+  indice: S&P MidCap 400
+  nom: Avnet
+AVTR:
+  indice: S&P MidCap 400
+  nom: Avantor
 AVY:
   indice: S&P 500
   nom: Avery Dennison
+AWI:
+  indice: S&P SmallCap 600
+  nom: Armstrong World Industries, Inc.
 AWK:
   indice: S&P 500
   nom: American Water Works
+AWR:
+  indice: S&P SmallCap 600
+  nom: American States Water Company
+AX:
+  indice: S&P SmallCap 600
+  nom: Axos Financial, Inc.
 AXON:
   indice: S&P 500
   nom: Axon Enterprise
 AXP:
   indice: S&P 500
   nom: American Express
+AXTA:
+  indice: S&P MidCap 400
+  nom: Axalta
+AYI:
+  indice: S&P MidCap 400
+  nom: Acuity Brands
 AZM.MI:
   indice: FTSE MIB
   nom: Azimut
@@ -1182,6 +1494,12 @@ AZN.ST:
 AZO:
   indice: S&P 500
   nom: AutoZone
+AZTA:
+  indice: S&P SmallCap 600
+  nom: Azenta, Inc.
+AZZ:
+  indice: S&P SmallCap 600
+  nom: AZZ, Inc.
 BA:
   indice: S&P 500
   nom: Boeing
@@ -1194,6 +1512,9 @@ BAC:
 BAG.L:
   indice: FTSE 250
   nom: A.G. Barr
+BAH:
+  indice: S&P MidCap 400
+  nom: Booz Allen Hamilton
 BALL:
   indice: S&P 500
   nom: Ball Corporation
@@ -1203,6 +1524,15 @@ BAM.TO:
 BAMI.MI:
   indice: FTSE MIB
   nom: Banco BPM
+BANC:
+  indice: S&P SmallCap 600
+  nom: Banc Of California, Inc.
+BANF:
+  indice: S&P SmallCap 600
+  nom: Bancfirst Corp
+BANR:
+  indice: S&P SmallCap 600
+  nom: Banner Corporation
 BAR.BR:
   indice: BEL 20
   nom: Barco
@@ -1212,27 +1542,48 @@ BAX:
 BBOX.L:
   indice: FTSE 100
   nom: Tritax Big Box REIT
+BBT:
+  indice: S&P SmallCap 600
+  nom: Beacon Financial Corp.
+BBWI:
+  indice: S&P MidCap 400
+  nom: Bath & Body Works, Inc.
 BBY:
   indice: S&P 500
   nom: Best Buy
 BBY.L:
   indice: FTSE 100
   nom: Balfour Beatty
+BC:
+  indice: S&P MidCap 400
+  nom: Brunswick
 BC.MI:
   indice: FTSE MIB
   nom: Brunello Cucinelli
 BC8.DE:
   indice: MDAX
   nom: Bechtle
+BCC:
+  indice: S&P SmallCap 600
+  nom: Boise Cascade
 BCE.TO:
   indice: S&P/TSX 60
   nom: BCE Inc.
 BCG.L:
   indice: FTSE 250
   nom: Baltic Classifieds
+BCO:
+  indice: S&P MidCap 400
+  nom: Brink's
 BCP.LS:
   indice: PSI
   nom: Banco Comercial Português
+BCPC:
+  indice: S&P SmallCap 600
+  nom: Balchem Corporation
+BDC:
+  indice: S&P MidCap 400
+  nom: Belden Inc.
 BDX:
   indice: S&P 500
   nom: Becton Dickinson
@@ -1248,30 +1599,69 @@ BEN:
 BF-B:
   indice: S&P 500
   nom: Brown–Forman
+BFAM:
+  indice: S&P SmallCap 600
+  nom: Bright Horizons Family Solutions Inc.
+BFH:
+  indice: S&P SmallCap 600
+  nom: Bread Financial Holdings, Inc.
+BFS:
+  indice: S&P SmallCap 600
+  nom: Saul Centers, Inc.
 BFSA.DE:
   indice: MDAX
   nom: Befesa
 BG:
   indice: S&P 500
   nom: Bunge Global
+BGC:
+  indice: S&P SmallCap 600
+  nom: BGC Group, Inc.
 BGEO.L:
   indice: FTSE 100
   nom: Lion Finance Group
 BGFD.L:
   indice: FTSE 250
   nom: Baillie Gifford Japan Trust
+BHE:
+  indice: S&P SmallCap 600
+  nom: Benchmark Electronics, Inc.
+BHF:
+  indice: S&P MidCap 400
+  nom: Brighthouse Financial
 BHMG.L:
   indice: FTSE 250
   nom: BH Macro
 BIIB:
   indice: S&P 500
   nom: Biogen
+BILL:
+  indice: S&P MidCap 400
+  nom: Bill Holdings
+BIO:
+  indice: S&P MidCap 400
+  nom: Bio-Rad Laboratories
 BIP-UN.TO:
   indice: S&P/TSX 60
   nom: Brookfield Infrastructure Partners L.P.
+BIRG.IR:
+  indice: ISEQ 20
+  nom: Bank of Ireland
+BJ:
+  indice: S&P MidCap 400
+  nom: BJ's Wholesale Club
+BJRI:
+  indice: S&P SmallCap 600
+  nom: BJ's Restaurants, Inc.
+BKE:
+  indice: S&P SmallCap 600
+  nom: The Buckle, Inc.
 BKG.L:
   indice: FTSE 250
   nom: Berkeley Group Holdings
+BKH:
+  indice: S&P MidCap 400
+  nom: Black Hills Corporation
 BKNG:
   indice: S&P 500
   nom: Booking Holdings
@@ -1281,9 +1671,21 @@ BKR:
 BKT.MC:
   indice: IBEX 35
   nom: Bankinter
+BKU:
+  indice: S&P SmallCap 600
+  nom: BankUnited, Inc.
+BL:
+  indice: S&P SmallCap 600
+  nom: BlackLine Systems, Inc.
+BLFS:
+  indice: S&P SmallCap 600
+  nom: BioLife Solutions, Inc.
 BLK:
   indice: S&P 500
   nom: BlackRock
+BLKB:
+  indice: S&P SmallCap 600
+  nom: Blackbaud
 BLND.L:
   indice: FTSE 100
   nom: British Land
@@ -1293,12 +1695,18 @@ BME.L:
 BMED.MI:
   indice: FTSE MIB
   nom: Banca Mediolanum
+BMI:
+  indice: S&P SmallCap 600
+  nom: Badger Meter, Inc.
 BMO.TO:
   indice: S&P/TSX 60
   nom: Bank of Montreal
 BMPS.MI:
   indice: FTSE MIB
   nom: Banca Monte dei Paschi di Siena
+BMRN:
+  indice: S&P MidCap 400
+  nom: BioMarin Pharmaceutical
 BMY:
   indice: S&P 500
   nom: Bristol Myers Squibb
@@ -1311,6 +1719,9 @@ BN.TO:
 BNKR.L:
   indice: FTSE 250
   nom: Bankers Investment Trust
+BNL:
+  indice: S&P SmallCap 600
+  nom: Broadstone Net Lease, Inc.
 BNR.DE:
   indice: DAX
   nom: Brenntag
@@ -1323,15 +1734,24 @@ BNY:
 BNZL.L:
   indice: FTSE 100
   nom: Bunzl
+BOH:
+  indice: S&P SmallCap 600
+  nom: Bank of Hawaii
 BOL.ST:
   indice: OMX Stockholm 30
   nom: Boliden
+BOOT:
+  indice: S&P SmallCap 600
+  nom: Boot Barn Holdings, Inc.
 BOSS.DE:
   indice: MDAX
   nom: Hugo Boss
 BOWL.L:
   indice: FTSE 250
   nom: Hollywood Bowl Group
+BOX:
+  indice: S&P SmallCap 600
+  nom: Box, Inc.
 BOY.L:
   indice: FTSE 250
   nom: Bodycote
@@ -1353,36 +1773,66 @@ BR:
 BRBY.L:
   indice: FTSE 100
   nom: Burberry Group
+BRC:
+  indice: S&P SmallCap 600
+  nom: Brady Corporation
 BREE.L:
   indice: FTSE 250
   nom: Breedon Group
 BRGE.L:
   indice: FTSE 250
   nom: BlackRock Greater Europe Investment Trust
+BRKR:
+  indice: S&P MidCap 400
+  nom: Bruker
 BRO:
   indice: S&P 500
   nom: Brown & Brown
+BROS:
+  indice: S&P MidCap 400
+  nom: Dutch Bros Inc.
 BRSC.L:
   indice: FTSE 250
   nom: BlackRock Smaller Companies Trust
 BRWM.L:
   indice: FTSE 250
   nom: BlackRock World Mining Trust
+BRX:
+  indice: S&P MidCap 400
+  nom: Brixmor Property Group
 BSX:
   indice: S&P 500
   nom: Boston Scientific
+BSY:
+  indice: S&P MidCap 400
+  nom: Bentley Systems
 BT-A.L:
   indice: FTSE 100
   nom: BT Group
 BTRW.L:
   indice: FTSE 100
   nom: Barratt Redrow
+BTSG:
+  indice: S&P MidCap 400
+  nom: BrightSpring Health Services
+BTU:
+  indice: S&P SmallCap 600
+  nom: Peabody Energy, Inc.
+BURL:
+  indice: S&P MidCap 400
+  nom: Burlington Stores
 BUT.L:
   indice: FTSE 250
   nom: Brunner Investment Trust
+BWA:
+  indice: S&P MidCap 400
+  nom: BorgWarner
 BWLPG.OL:
   indice: OBX
   nom: BW LPG
+BWXT:
+  indice: S&P MidCap 400
+  nom: BWX Technologies
 BWY.L:
   indice: FTSE 250
   nom: Bellway
@@ -1392,9 +1842,15 @@ BX:
 BXB.AX:
   indice: S&P/ASX 50
   nom: Brambles
+BXMT:
+  indice: S&P SmallCap 600
+  nom: Blackstone Mortgage Trust, Inc.
 BXP:
   indice: S&P 500
   nom: BXP, Inc.
+BYD:
+  indice: S&P MidCap 400
+  nom: Boyd Gaming
 BYG.L:
   indice: FTSE 250
   nom: Big Yellow Group
@@ -1407,30 +1863,72 @@ BZU.MI:
 C:
   indice: S&P 500
   nom: Citigroup
+C5H.IR:
+  indice: ISEQ 20
+  nom: Cairn Homes
 CA.PA:
   indice: CAC 40
   nom: Carrefour
 CABK.MC:
   indice: IBEX 35
   nom: CaixaBank
+CACC:
+  indice: S&P SmallCap 600
+  nom: Credit Acceptance
+CACI:
+  indice: S&P MidCap 400
+  nom: CACI International
 CAE.TO:
   indice: S&P/TSX 60
   nom: CAE Inc.
+CAG:
+  indice: S&P SmallCap 600
+  nom: Conagra Brands
 CAH:
   indice: S&P 500
   nom: Cardinal Health
+CAKE:
+  indice: S&P SmallCap 600
+  nom: The Cheesecake Factory, Inc.
+CALM:
+  indice: S&P SmallCap 600
+  nom: Cal-Maine Foods, Inc.
+CALX:
+  indice: S&P SmallCap 600
+  nom: Calix
+CALY:
+  indice: S&P SmallCap 600
+  nom: Callaway Golf Company
+CAR:
+  indice: S&P MidCap 400
+  nom: Avis Budget Group
 CAR.AX:
   indice: S&P/ASX 50
   nom: CAR Group
+CARG:
+  indice: S&P SmallCap 600
+  nom: CarGurus
 CARR:
   indice: S&P 500
   nom: Carrier Global
+CART:
+  indice: S&P MidCap 400
+  nom: Maplebear Inc.
+CASH:
+  indice: S&P SmallCap 600
+  nom: Pathward Financial, Inc.
 CASY:
   indice: S&P 500
   nom: Casey's
 CAT:
   indice: S&P 500
   nom: Caterpillar Inc.
+CATY:
+  indice: S&P SmallCap 600
+  nom: Cathay General Bancorp
+CAVA:
+  indice: S&P MidCap 400
+  nom: Cava Group
 CB:
   indice: S&P 500
   nom: Chubb Limited
@@ -1446,6 +1944,21 @@ CBOE:
 CBRE:
   indice: S&P 500
   nom: CBRE Group
+CBRL:
+  indice: S&P SmallCap 600
+  nom: Cracker Barrel
+CBSH:
+  indice: S&P MidCap 400
+  nom: Commerce Bancshares
+CBT:
+  indice: S&P MidCap 400
+  nom: Cabot Corp
+CBU:
+  indice: S&P SmallCap 600
+  nom: Community Bank System, Inc.
+CC:
+  indice: S&P SmallCap 600
+  nom: Chemours
 CCC.L:
   indice: FTSE 100
   nom: Computacenter
@@ -1458,6 +1971,9 @@ CCH.L:
 CCI:
   indice: S&P 500
   nom: Crown Castle
+CCK:
+  indice: S&P MidCap 400
+  nom: Crown Holdings
 CCL:
   indice: S&P 500
   nom: Carnival Corporation
@@ -1467,36 +1983,99 @@ CCL-B.TO:
 CCO.TO:
   indice: S&P/TSX 60
   nom: Cameco Corporation
+CCOI:
+  indice: S&P SmallCap 600
+  nom: Cogent Communications Holdings, Inc.
+CCS:
+  indice: S&P SmallCap 600
+  nom: Century Communities, Inc.
+CDE:
+  indice: S&P MidCap 400
+  nom: Coeur Mining
 CDNS:
   indice: S&P 500
   nom: Cadence Design Systems
+CDP:
+  indice: S&P MidCap 400
+  nom: COPT Defense Properties
 CDW:
   indice: S&P 500
   nom: CDW Corporation
+CE:
+  indice: S&P SmallCap 600
+  nom: Celanese
 CEG:
   indice: S&P 500
   nom: Constellation Energy
+CELH:
+  indice: S&P MidCap 400
+  nom: Celsius Holdings
+CENT:
+  indice: S&P SmallCap 600
+  nom: Central Garden & Pet Company
+CENTA:
+  indice: S&P SmallCap 600
+  nom: Central Garden & Pet Company (Class A)
+CENX:
+  indice: S&P SmallCap 600
+  nom: Century Aluminum Company
+CERT:
+  indice: S&P SmallCap 600
+  nom: Certara, Inc.
 CF:
   indice: S&P 500
   nom: CF Industries
+CFFN:
+  indice: S&P SmallCap 600
+  nom: Capitol Federal Savings Bank
 CFG:
   indice: S&P 500
   nom: Citizens Financial Group
+CFR:
+  indice: S&P MidCap 400
+  nom: Frost Bank
+CG:
+  indice: S&P MidCap 400
+  nom: Carlyle Group (The)
+CGNX:
+  indice: S&P MidCap 400
+  nom: Cognex
 CGT.L:
   indice: FTSE 250
   nom: Capital Gearing Trust
+CHCO:
+  indice: S&P SmallCap 600
+  nom: City Holding Company
 CHD:
   indice: S&P 500
   nom: Church & Dwight
+CHDN:
+  indice: S&P MidCap 400
+  nom: Churchill Downs Inc.
+CHE:
+  indice: S&P MidCap 400
+  nom: Chemed Corp.
+CHEF:
+  indice: S&P SmallCap 600
+  nom: Chefs' Warehouse, Inc.
 CHG.L:
   indice: FTSE 250
   nom: Chemring Group
+CHH:
+  indice: S&P MidCap 400
+  nom: Choice Hotels
+CHRD:
+  indice: S&P MidCap 400
+  nom: Chord Energy
 CHRW:
   indice: S&P 500
   nom: C.H. Robinson
 CHTR:
   indice: S&P 500
   nom: Charter Communications
+CHWY:
+  indice: S&P MidCap 400
+  nom: Chewy
 CI:
   indice: S&P 500
   nom: Cigna
@@ -1515,18 +2094,30 @@ CL:
 CLDN.L:
   indice: FTSE 250
   nom: Caledonia Investments
+CLF:
+  indice: S&P MidCap 400
+  nom: Cleveland-Cliffs
+CLH:
+  indice: S&P MidCap 400
+  nom: Clean Harbors
 CLNX.MC:
   indice: IBEX 35
   nom: Cellnex Telecom
 CLS.TO:
   indice: S&P/TSX 60
   nom: Celestica Inc.
+CLSK:
+  indice: S&P SmallCap 600
+  nom: CleanSpark, Inc.
 CLX:
   indice: S&P 500
   nom: Clorox
 CM.TO:
   indice: S&P/TSX 60
   nom: Canadian Imperial Bank of Commerce
+CMC:
+  indice: S&P MidCap 400
+  nom: Commercial Metals
 CMCSA:
   indice: S&P 500
   nom: Comcast
@@ -1551,15 +2142,48 @@ CNA.L:
 CNC:
   indice: S&P 500
   nom: Centene Corporation
+CNH:
+  indice: S&P MidCap 400
+  nom: CNH Industrial
+CNK:
+  indice: S&P SmallCap 600
+  nom: Cinemark Holdings, Inc.
+CNM:
+  indice: S&P MidCap 400
+  nom: Core & Main
+CNMD:
+  indice: S&P SmallCap 600
+  nom: CONMED Corporation
+CNO:
+  indice: S&P MidCap 400
+  nom: CNO Financial Group
 CNP:
   indice: S&P 500
   nom: CenterPoint Energy
 CNQ.TO:
   indice: S&P/TSX 60
   nom: Canadian Natural Resources Limited
+CNR:
+  indice: S&P SmallCap 600
+  nom: Core Natural Resources, Inc.
+CNS:
+  indice: S&P SmallCap 600
+  nom: Cohen & Steers, Inc.
+CNX:
+  indice: S&P MidCap 400
+  nom: CNX Resources
+CNXC:
+  indice: S&P SmallCap 600
+  nom: Concentrix
+CNXN:
+  indice: S&P SmallCap 600
+  nom: PC Connection, Inc.
 COA.L:
   indice: FTSE 250
   nom: Coats Group
+COCO:
+  indice: S&P SmallCap 600
+  nom: The Vita Coco Company
 COF:
   indice: S&P 500
   nom: Capital One
@@ -1569,15 +2193,33 @@ COH.AX:
 COHR:
   indice: S&P 500
   nom: Coherent Corp.
+COHU:
+  indice: S&P SmallCap 600
+  nom: Cohu, Inc.
 COIN:
   indice: S&P 500
   nom: Coinbase
+COKE:
+  indice: S&P MidCap 400
+  nom: Coca-Cola Consolidated
 COL.AX:
   indice: S&P/ASX 50
   nom: Coles Group
 COL.MC:
   indice: IBEX 35
   nom: Inmobiliaria Colonial
+COLB:
+  indice: S&P MidCap 400
+  nom: Columbia Banking System
+COLL:
+  indice: S&P SmallCap 600
+  nom: Collegium Pharmaceutical, Inc.
+COLM:
+  indice: S&P MidCap 400
+  nom: Columbia Sportswear
+CON:
+  indice: S&P SmallCap 600
+  nom: Concentra Group Holdings Parent, Inc.
 CON.DE:
   indice: DAX
   nom: Continental
@@ -1596,12 +2238,27 @@ COR.LS:
 CORD.L:
   indice: FTSE 250
   nom: Cordiant Digital Infrastructure
+CORT:
+  indice: S&P MidCap 400
+  nom: Corcept Therapeutics
 COST.L:
   indice: FTSE 250
   nom: Costain Group
+COTY:
+  indice: S&P SmallCap 600
+  nom: Coty
 CPAY:
   indice: S&P 500
   nom: Corpay
+CPB:
+  indice: S&P SmallCap 600
+  nom: The Campbell's Company
+CPF:
+  indice: S&P SmallCap 600
+  nom: Central Pacific Financial Corp.
+CPK:
+  indice: S&P SmallCap 600
+  nom: Chesapeake Utilities Corp.
 CPR.MI:
   indice: FTSE MIB
   nom: Campari
@@ -1614,18 +2271,51 @@ CPT:
 CPU.AX:
   indice: S&P/ASX 50
   nom: Computershare
+CR:
+  indice: S&P MidCap 400
+  nom: Crane
+CRBG:
+  indice: S&P MidCap 400
+  nom: Corebridge Financial
+CRC:
+  indice: S&P SmallCap 600
+  nom: California Resources Corporation
 CRDA.L:
   indice: FTSE 100
   nom: Croda International
+CRGY:
+  indice: S&P SmallCap 600
+  nom: Crescent Energy Company
 CRH:
   indice: S&P 500
   nom: CRH plc
+CRI:
+  indice: S&P SmallCap 600
+  nom: Carter's, Inc.
+CRK:
+  indice: S&P SmallCap 600
+  nom: Comstock Resources, Inc.
 CRL:
   indice: S&P 500
   nom: Charles River Laboratories
 CRM:
   indice: S&P 500
   nom: Salesforce
+CROX:
+  indice: S&P MidCap 400
+  nom: Crocs
+CRS:
+  indice: S&P MidCap 400
+  nom: Carpenter Technology
+CRSR:
+  indice: S&P SmallCap 600
+  nom: Corsair Gaming
+CRUS:
+  indice: S&P MidCap 400
+  nom: Cirrus Logic
+CRVL:
+  indice: S&P SmallCap 600
+  nom: CorVel Corporation
 CRWD:
   indice: S&P 500
   nom: CrowdStrike
@@ -1635,9 +2325,18 @@ CSCO:
 CSGP:
   indice: S&P 500
   nom: CoStar Group
+CSL:
+  indice: S&P MidCap 400
+  nom: Carlisle Companies
 CSN.L:
   indice: FTSE 250
   nom: Chesnara
+CSR:
+  indice: S&P SmallCap 600
+  nom: Centerspace Trust
+CSW:
+  indice: S&P SmallCap 600
+  nom: CSW Industrials, Inc.
 CSX:
   indice: S&P 500
   nom: CSX Corporation
@@ -1650,6 +2349,12 @@ CTC-A.TO:
 CTEC.L:
   indice: FTSE 100
   nom: Convatec
+CTRE:
+  indice: S&P MidCap 400
+  nom: CareTrust REIT
+CTS:
+  indice: S&P SmallCap 600
+  nom: CTS Corporation
 CTSH:
   indice: S&P 500
   nom: Cognizant
@@ -1662,48 +2367,129 @@ CTVA:
 CTY.L:
   indice: FTSE 250
   nom: City of London Investment Trust
+CUBE:
+  indice: S&P MidCap 400
+  nom: CubeSmart
+CUBI:
+  indice: S&P SmallCap 600
+  nom: Customers Bancorp, Inc.
+CURB:
+  indice: S&P SmallCap 600
+  nom: Curbline Properties Corp.
 CURY.L:
   indice: FTSE 250
   nom: Currys
+CUZ:
+  indice: S&P MidCap 400
+  nom: Cousins Properties
+CVBF:
+  indice: S&P SmallCap 600
+  nom: CVB Financial Corp.
+CVCO:
+  indice: S&P SmallCap 600
+  nom: Cavco Industries, Inc.
 CVE.TO:
   indice: S&P/TSX 60
   nom: Cenovus Energy Inc.
+CVI:
+  indice: S&P SmallCap 600
+  nom: CVR Energy, Inc.
+CVLT:
+  indice: S&P MidCap 400
+  nom: CommVault Systems
 CVNA:
   indice: S&P 500
   nom: Carvana
 CVS:
   indice: S&P 500
   nom: CVS Health
+CVSA:
+  indice: S&P SmallCap 600
+  nom: Covista Inc.
 CVSG.L:
   indice: FTSE 250
   nom: CVS Group
 CVX:
   indice: S&P 500
   nom: Chevron Corporation
+CW:
+  indice: S&P MidCap 400
+  nom: Curtiss-Wright
+CWEN:
+  indice: S&P SmallCap 600
+  nom: Clearway Energy, Inc. (Class C)
+CWK:
+  indice: S&P SmallCap 600
+  nom: Cushman & Wakefield plc
 CWK.L:
   indice: FTSE 250
   nom: Cranswick
 CWR.L:
   indice: FTSE 250
   nom: Ceres Power
+CWST:
+  indice: S&P SmallCap 600
+  nom: Casella Waste Systems, Inc.
+CWT:
+  indice: S&P SmallCap 600
+  nom: California Water Service Group
+CXM:
+  indice: S&P SmallCap 600
+  nom: Sprinklr, Inc.
+CXT:
+  indice: S&P MidCap 400
+  nom: Crane NXT
+CXW:
+  indice: S&P SmallCap 600
+  nom: CoreCivic
+CYTK:
+  indice: S&P MidCap 400
+  nom: Cytokinetics
+CZR:
+  indice: S&P SmallCap 600
+  nom: Caesars Entertainment
 D:
   indice: S&P 500
   nom: Dominion Energy
 DAL:
   indice: S&P 500
   nom: Delta Air Lines
+DAN:
+  indice: S&P SmallCap 600
+  nom: Dana Incorporated
 DANSKE.CO:
   indice: OMX Copenhagen 25
   nom: Danske Bank
+DAR:
+  indice: S&P MidCap 400
+  nom: Darling Ingredients
 DASH:
   indice: S&P 500
   nom: DoorDash
 DATA.L:
   indice: FTSE 250
   nom: GlobalData
+DAVE:
+  indice: S&P SmallCap 600
+  nom: Dave, Inc.
+DBD:
+  indice: S&P SmallCap 600
+  nom: Diebold Nixdorf
+DBX:
+  indice: S&P MidCap 400
+  nom: Dropbox
 DCC.L:
   indice: FTSE 100
   nom: DCC Energy
+DCH:
+  indice: S&P SmallCap 600
+  nom: Dauch Corporation
+DCI:
+  indice: S&P MidCap 400
+  nom: Donaldson Company
+DCOM:
+  indice: S&P SmallCap 600
+  nom: Dime Community Bancshares, Inc.
 DD:
   indice: S&P 500
   nom: DuPont
@@ -1713,18 +2499,33 @@ DDOG:
 DE:
   indice: S&P 500
   nom: Deere & Company
+DEA:
+  indice: S&P SmallCap 600
+  nom: Easterly Government Properties, Inc.
 DECK:
   indice: S&P 500
   nom: Deckers Brands
+DEI:
+  indice: S&P SmallCap 600
+  nom: Douglas Emmett
 DELL:
   indice: S&P 500
   nom: Dell Technologies
 DEMANT.CO:
   indice: OMX Copenhagen 25
   nom: Demant
+DFH:
+  indice: S&P SmallCap 600
+  nom: Dream Finders Homes, Inc.
+DFIN:
+  indice: S&P SmallCap 600
+  nom: Donnelley Financial Solutions, Inc.
 DG:
   indice: S&P 500
   nom: Dollar General
+DGII:
+  indice: S&P SmallCap 600
+  nom: Digi International Inc.
 DGX:
   indice: S&P 500
   nom: Quest Diagnostics
@@ -1743,9 +2544,21 @@ DIA.MI:
 DIE.BR:
   indice: BEL 20
   nom: D'Ieteren
+DINO:
+  indice: S&P MidCap 400
+  nom: HF Sinclair
+DIOD:
+  indice: S&P SmallCap 600
+  nom: Diodes Incorporated
 DIS:
   indice: S&P 500
   nom: Walt Disney Company (The)
+DKS:
+  indice: S&P MidCap 400
+  nom: Dick's Sporting Goods
+DLB:
+  indice: S&P MidCap 400
+  nom: Dolby
 DLN.L:
   indice: FTSE 250
   nom: Derwent London
@@ -1755,24 +2568,45 @@ DLR:
 DLTR:
   indice: S&P 500
   nom: Dollar Tree
+DLX:
+  indice: S&P SmallCap 600
+  nom: Deluxe Corporation
+DMC:
+  indice: S&P SmallCap 600
+  nom: Del Monte Corporation
 DNB.OL:
   indice: OBX
   nom: DNB Bank
 DNLM.L:
   indice: FTSE 250
   nom: Dunelm Group
+DNOW:
+  indice: S&P SmallCap 600
+  nom: NOW Inc
 DOC:
   indice: S&P 500
   nom: Healthpeak Properties
+DOCN:
+  indice: S&P MidCap 400
+  nom: DigitalOcean
+DOCS:
+  indice: S&P MidCap 400
+  nom: Doximity
 DOCS.L:
   indice: FTSE 250
   nom: Dr. Martens
+DOCU:
+  indice: S&P MidCap 400
+  nom: Docusign
 DOL.TO:
   indice: S&P/TSX 60
   nom: Dollarama Inc.
 DOM.L:
   indice: FTSE 250
   nom: Domino's Pizza
+DORM:
+  indice: S&P SmallCap 600
+  nom: Dorman Products, Inc.
 DOV:
   indice: S&P 500
   nom: Dover Corporation
@@ -1785,9 +2619,18 @@ DPLM.L:
 DPZ:
   indice: S&P 500
   nom: Domino's
+DQ7A.IR:
+  indice: ISEQ 20
+  nom: Donegal investment group
+DRH:
+  indice: S&P SmallCap 600
+  nom: DiamondRock Hospitality Company
 DRI:
   indice: S&P 500
   nom: Darden Restaurants
+DRW3.DE:
+  indice: TecDAX
+  nom: Drägerwerk AG & Co. KGaA
 DRX.L:
   indice: FTSE 250
   nom: Drax Group
@@ -1797,33 +2640,66 @@ DSCV.L:
 DSFIR.AS:
   indice: AEX
   nom: DSM Firmenich AG
+DT:
+  indice: S&P MidCap 400
+  nom: Dynatrace
 DTE:
   indice: S&P 500
   nom: DTE Energy
 DTG.DE:
   indice: DAX
   nom: Daimler Truck
+DTM:
+  indice: S&P MidCap 400
+  nom: DT Midstream
 DUK:
   indice: S&P 500
   nom: Duke Energy
+DUOL:
+  indice: S&P MidCap 400
+  nom: Duolingo
+DV:
+  indice: S&P SmallCap 600
+  nom: DoubleVerify Holdings Inc.
 DVA:
   indice: S&P 500
   nom: DaVita
 DVN:
   indice: S&P 500
   nom: Devon Energy
+DXC:
+  indice: S&P SmallCap 600
+  nom: DXC Technology
 DXCM:
   indice: S&P 500
   nom: Dexcom
+DXPE:
+  indice: S&P SmallCap 600
+  nom: DXP Enterprises, Inc.
+DY:
+  indice: S&P MidCap 400
+  nom: Dycom Industries
+EAT:
+  indice: S&P MidCap 400
+  nom: Brinker International
 EBAY:
   indice: S&P 500
   nom: eBay Inc.
+EBC:
+  indice: S&P SmallCap 600
+  nom: Eastern Bankshares, Inc.
+ECG:
+  indice: S&P SmallCap 600
+  nom: Everus Construction Group, Inc.
 ECHO:
   indice: S&P 500
   nom: EchoStar
 ECL:
   indice: S&P 500
   nom: Ecolab
+ECPG:
+  indice: S&P SmallCap 600
+  nom: Encore Capital Group, Inc.
 ED:
   indice: S&P 500
   nom: Consolidated Edison
@@ -1839,30 +2715,66 @@ EDPR.LS:
 EDV.L:
   indice: FTSE 100
   nom: Endeavour Mining
+EEFT:
+  indice: S&P MidCap 400
+  nom: Euronet Worldwide
+EFC:
+  indice: S&P SmallCap 600
+  nom: Ellington Financial, Inc.
+EFOR:
+  indice: S&P SmallCap 600
+  nom: Everforth Inc.
 EFX:
   indice: S&P 500
   nom: Equifax
 EG:
   indice: S&P 500
   nom: Everest Group
+EG7.IR:
+  indice: ISEQ 20
+  nom: FBD Holdings
+EGBN:
+  indice: S&P SmallCap 600
+  nom: Eagle Bancorp Inc
 EGL.LS:
   indice: PSI
   nom: Mota-Engil
+EGP:
+  indice: S&P MidCap 400
+  nom: EastGroup Properties
+EHC:
+  indice: S&P MidCap 400
+  nom: Encompass Health
+EIG:
+  indice: S&P SmallCap 600
+  nom: Employers Holdings, Inc.
 EIX:
   indice: S&P 500
   nom: Edison International
 EL:
   indice: S&P 500
   nom: Estée Lauder Companies (The)
+ELAN:
+  indice: S&P MidCap 400
+  nom: Elanco
 ELE.MC:
   indice: IBEX 35
   nom: Endesa
+ELF:
+  indice: S&P MidCap 400
+  nom: e.l.f. Beauty
+ELG.DE:
+  indice: TecDAX
+  nom: Elmos Semiconductor SE
 ELISA.HE:
   indice: OMX Helsinki 25
   nom: Elisa
 ELM.L:
   indice: FTSE 250
   nom: Elementis
+ELS:
+  indice: S&P MidCap 400
+  nom: Equity Lifestyle Properties
 ELV:
   indice: S&P 500
   nom: Elevance Health
@@ -1875,6 +2787,9 @@ EME:
 EMG.L:
   indice: FTSE 250
   nom: Man Group
+EMN:
+  indice: S&P SmallCap 600
+  nom: Eastman Chemical Company
 EMR:
   indice: S&P 500
   nom: Emerson Electric
@@ -1887,18 +2802,57 @@ ENG.MC:
 ENOG.L:
   indice: FTSE 250
   nom: Energean
+ENOV:
+  indice: S&P SmallCap 600
+  nom: Enovis
+ENPH:
+  indice: S&P SmallCap 600
+  nom: Enphase Energy
+ENR:
+  indice: S&P SmallCap 600
+  nom: Energizer
 ENR.DE:
   indice: DAX
   nom: Siemens Energy
+ENS:
+  indice: S&P MidCap 400
+  nom: EnerSys
+ENSG:
+  indice: S&P MidCap 400
+  nom: Ensign Group
 ENT.L:
   indice: FTSE 250
   nom: Entain
+ENTG:
+  indice: S&P MidCap 400
+  nom: Entegris
+ENVA:
+  indice: S&P SmallCap 600
+  nom: Enova International, Inc.
 EOG:
   indice: S&P 500
   nom: EOG Resources
+EPAC:
+  indice: S&P SmallCap 600
+  nom: Enerpac Tool Group
+EPAM:
+  indice: S&P SmallCap 600
+  nom: EPAM Systems
+EPC:
+  indice: S&P SmallCap 600
+  nom: Edgewell Personal Care
 EPI-A.ST:
   indice: OMX Stockholm 30
   nom: Epiroc A
+EPR:
+  indice: S&P MidCap 400
+  nom: EPR Properties
+EPRT:
+  indice: S&P SmallCap 600
+  nom: Essential Properties Realty Trust, Inc.
+EQH:
+  indice: S&P MidCap 400
+  nom: Equitable Holdings
 EQIX:
   indice: S&P 500
   nom: Equinix
@@ -1914,9 +2868,21 @@ ERIE:
 ES:
   indice: S&P 500
   nom: Eversource Energy
+ESAB:
+  indice: S&P MidCap 400
+  nom: ESAB
 ESCT.L:
   indice: FTSE 250
   nom: European Smaller Companies Trust
+ESE:
+  indice: S&P SmallCap 600
+  nom: ESCO Technologies Inc.
+ESI:
+  indice: S&P SmallCap 600
+  nom: Element Solutions
+ESNT:
+  indice: S&P MidCap 400
+  nom: Essent Group Ltd.
 ESS:
   indice: S&P 500
   nom: Essex Property Trust
@@ -1929,6 +2895,12 @@ ETN:
 ETR:
   indice: S&P 500
   nom: Entergy
+ETSY:
+  indice: S&P SmallCap 600
+  nom: Etsy
+EUZ.DE:
+  indice: TecDAX
+  nom: Eckert & Ziegler Strahlen- und Medizintechnik AG
 EVD.DE:
   indice: MDAX
   nom: CTS Eventim
@@ -1938,15 +2910,24 @@ EVK.DE:
 EVN.AX:
   indice: S&P/ASX 50
   nom: Evolution Mining
+EVR:
+  indice: S&P MidCap 400
+  nom: Evercore
 EVRG:
   indice: S&P 500
   nom: Evergy
 EVT.DE:
   indice: MDAX
   nom: Evotec
+EVTC:
+  indice: S&P SmallCap 600
+  nom: EVERTEC, Inc.
 EW:
   indice: S&P 500
   nom: Edwards Lifesciences
+EWBC:
+  indice: S&P MidCap 400
+  nom: East West Bancorp
 EWG.L:
   indice: FTSE 250
   nom: Eurowag
@@ -1959,9 +2940,18 @@ EXC:
 EXE:
   indice: S&P 500
   nom: Expand Energy
+EXEL:
+  indice: S&P MidCap 400
+  nom: Exelixis
+EXLS:
+  indice: S&P MidCap 400
+  nom: EXL Service
 EXO.AS:
   indice: AEX
   nom: Exor
+EXP:
+  indice: S&P MidCap 400
+  nom: Eagle Materials
 EXPD:
   indice: S&P 500
   nom: Expeditors International
@@ -1971,15 +2961,33 @@ EXPE:
 EXPN.L:
   indice: FTSE 100
   nom: Experian
+EXPO:
+  indice: S&P MidCap 400
+  nom: Exponent, Inc.
 EXR:
   indice: S&P 500
   nom: Extra Space Storage
+EXTR:
+  indice: S&P SmallCap 600
+  nom: Extreme Networks, Inc.
+EYE:
+  indice: S&P SmallCap 600
+  nom: National Vision Holdings
 EZJ.L:
   indice: FTSE 100
   nom: EasyJet
+EZPW:
+  indice: S&P SmallCap 600
+  nom: EZCORP, Inc.
 F:
   indice: S&P 500
   nom: Ford Motor Company
+FA:
+  indice: S&P SmallCap 600
+  nom: First Advantage Corporation
+FAF:
+  indice: S&P MidCap 400
+  nom: First American Financial Corporation
 FAN.L:
   indice: FTSE 250
   nom: Volution Group
@@ -1989,15 +2997,42 @@ FANG:
 FAST:
   indice: S&P 500
   nom: Fastenal
+FBIN:
+  indice: S&P MidCap 400
+  nom: Fortune Brands Innovations
+FBK:
+  indice: S&P SmallCap 600
+  nom: FB Financial Corp.
 FBK.MI:
   indice: FTSE MIB
   nom: FinecoBank
+FBNC:
+  indice: S&P SmallCap 600
+  nom: First Bancorp (Southern Pines NC)
+FBP:
+  indice: S&P SmallCap 600
+  nom: First BanCorp (Puerto Rico)
+FBRT:
+  indice: S&P SmallCap 600
+  nom: Franklin BSP Realty Trust, Inc.
+FCF:
+  indice: S&P SmallCap 600
+  nom: First Commonwealth Financial, Corp.
+FCFS:
+  indice: S&P MidCap 400
+  nom: FirstCash
 FCH.L:
   indice: FTSE 250
   nom: Funding Circle
 FCIT.L:
   indice: FTSE 100
   nom: F & C Investment Trust
+FCN:
+  indice: S&P MidCap 400
+  nom: FTI Consulting
+FCPT:
+  indice: S&P SmallCap 600
+  nom: Four Corners Property Trust, Inc.
 FCSS.L:
   indice: FTSE 250
   nom: Fidelity China Special Situations
@@ -2022,6 +3057,9 @@ FDXF:
 FE:
   indice: S&P 500
   nom: FirstEnergy
+FELE:
+  indice: S&P SmallCap 600
+  nom: Franklin Electric
 FEML.L:
   indice: FTSE 250
   nom: Fidelity Emerging Markets
@@ -2034,12 +3072,21 @@ FERG:
 FEV.L:
   indice: FTSE 250
   nom: Fidelity European Trust
+FFBC:
+  indice: S&P SmallCap 600
+  nom: First Financial Bancorp
 FFH.TO:
   indice: S&P/TSX 60
   nom: Fairfax Financial Holdings Limited
+FFIN:
+  indice: S&P MidCap 400
+  nom: First Financial Bankshares
 FFIV:
   indice: S&P 500
   nom: F5, Inc.
+FG:
+  indice: S&P SmallCap 600
+  nom: F&G Annuities & Life, Inc.
 FGEN.L:
   indice: FTSE 250
   nom: Foresight Environmental Infrastructure
@@ -2049,6 +3096,18 @@ FGP.L:
 FGT.L:
   indice: FTSE 250
   nom: Finsbury Growth & Income Trust
+FHB:
+  indice: S&P SmallCap 600
+  nom: First Hawaiian, Inc.
+FHI:
+  indice: S&P MidCap 400
+  nom: Federated Hermes
+FHN:
+  indice: S&P MidCap 400
+  nom: First Horizon
+FIBK:
+  indice: S&P SmallCap 600
+  nom: First Interstate BancSystem, Inc.
 FICO:
   indice: S&P 500
   nom: Fair Isaac
@@ -2061,30 +3120,72 @@ FISV:
 FITB:
   indice: S&P 500
   nom: Fifth Third Bancorp
+FIVE:
+  indice: S&P MidCap 400
+  nom: Five Below
+FIVN:
+  indice: S&P SmallCap 600
+  nom: Five9, Inc.
 FIX:
   indice: S&P 500
   nom: Comfort Systems USA
+FIZZ:
+  indice: S&P SmallCap 600
+  nom: National Beverage Corp.
 FLEX:
   indice: S&P 500
   nom: Flex Ltd.
+FLG:
+  indice: S&P MidCap 400
+  nom: Flagstar Bank
+FLO:
+  indice: S&P SmallCap 600
+  nom: Flowers Foods
+FLR:
+  indice: S&P MidCap 400
+  nom: Fluor
+FLS:
+  indice: S&P MidCap 400
+  nom: Flowserve
 FLS.CO:
   indice: OMX Copenhagen 25
   nom: FLSmidth & Co.
 FM.TO:
   indice: S&P/TSX 60
   nom: First Quantum Minerals Ltd.
+FMC:
+  indice: S&P SmallCap 600
+  nom: FMC Corporation
 FME.DE:
   indice: DAX
   nom: Fresenius Medical Care
+FN:
+  indice: S&P MidCap 400
+  nom: Fabrinet
+FNB:
+  indice: S&P MidCap 400
+  nom: FNB Corporation
+FND:
+  indice: S&P MidCap 400
+  nom: Floor & Decor
+FNF:
+  indice: S&P MidCap 400
+  nom: Fidelity National Financial
 FNTN.DE:
   indice: MDAX
   nom: Freenet
 FNV.TO:
   indice: S&P/TSX 60
   nom: Franco-Nevada Corporation
+FORM:
+  indice: S&P SmallCap 600
+  nom: FormFactor, Inc.
 FORTUM.HE:
   indice: OMX Helsinki 25
   nom: Fortum
+FOUR:
+  indice: S&P MidCap 400
+  nom: Shift4
 FOUR.L:
   indice: FTSE 250
   nom: 4imprint
@@ -2094,12 +3195,18 @@ FOX:
 FOXA:
   indice: S&P 500
   nom: Fox Corporation (Class A)
+FOXF:
+  indice: S&P SmallCap 600
+  nom: Fox Factory
 FPE3.DE:
   indice: MDAX
   nom: Fuchs Petrolub
 FPH.AX:
   indice: S&P/ASX 50
   nom: Fisher & Paykel Healthcare
+FR:
+  indice: S&P MidCap 400
+  nom: First Industrial Realty Trust
 FRA.DE:
   indice: MDAX
   nom: Fraport
@@ -2115,6 +3222,9 @@ FRES.L:
 FRO.OL:
   indice: OBX
   nom: Frontline
+FRPT:
+  indice: S&P SmallCap 600
+  nom: Freshpet
 FRT:
   indice: S&P 500
   nom: Federal Realty Investment Trust
@@ -2124,21 +3234,45 @@ FSG.L:
 FSLR:
   indice: S&P 500
   nom: First Solar
+FSS:
+  indice: S&P SmallCap 600
+  nom: Federal Signal Corporation
 FSV.L:
   indice: FTSE 250
   nom: Fidelity Special Values
 FSV.TO:
   indice: S&P/TSX 60
   nom: FirstService Corporation
+FTDR:
+  indice: S&P SmallCap 600
+  nom: Frontdoor, Inc.
+FTI:
+  indice: S&P MidCap 400
+  nom: TechnipFMC
 FTNT:
   indice: S&P 500
   nom: Fortinet
+FTRE:
+  indice: S&P SmallCap 600
+  nom: Fortrea
 FTS.TO:
   indice: S&P/TSX 60
   nom: Fortis Inc.
 FTV:
   indice: S&P 500
   nom: Fortive
+FUL:
+  indice: S&P SmallCap 600
+  nom: H.B. Fuller Company
+FULT:
+  indice: S&P SmallCap 600
+  nom: Fulton Financial Corporation
+FUN:
+  indice: S&P SmallCap 600
+  nom: Six Flags
+G:
+  indice: S&P MidCap 400
+  nom: Genpact
 G1A.DE:
   indice: DAX
   nom: GEA Group
@@ -2151,12 +3285,24 @@ GALD.SW:
 GAMA.L:
   indice: FTSE 250
   nom: Gamma Communications
+GAP:
+  indice: S&P MidCap 400
+  nom: Gap Inc.
+GATX:
+  indice: S&P MidCap 400
+  nom: GATX
 GAW.L:
   indice: FTSE 100
   nom: Games Workshop
+GBCI:
+  indice: S&P MidCap 400
+  nom: Glacier Bancorp
 GBF.DE:
   indice: MDAX
   nom: Bilfinger
+GBX:
+  indice: S&P SmallCap 600
+  nom: The Greenbrier Companies, Inc.
 GCP.L:
   indice: FTSE 250
   nom: GCP Infrastructure Investments
@@ -2175,6 +3321,9 @@ GE:
 GEBN.SW:
   indice: SMI
   nom: Geberit AG
+GEF:
+  indice: S&P MidCap 400
+  nom: Greif, Inc.
 GEHC:
   indice: S&P 500
   nom: GE HealthCare
@@ -2184,18 +3333,33 @@ GEN:
 GEN.L:
   indice: FTSE 250
   nom: Genuit Group
+GEO:
+  indice: S&P SmallCap 600
+  nom: GEO Group, Inc.
 GEV:
   indice: S&P 500
   nom: GE Vernova
+GFF:
+  indice: S&P SmallCap 600
+  nom: Griffon Corporation
 GFRD.L:
   indice: FTSE 250
   nom: Galliford Try
 GFTU.L:
   indice: FTSE 250
   nom: Grafton Group
+GGG:
+  indice: S&P MidCap 400
+  nom: Graco Inc.
+GHC:
+  indice: S&P MidCap 400
+  nom: Graham Holdings
 GIB-A.TO:
   indice: S&P/TSX 60
   nom: CGI Inc.
+GIII:
+  indice: S&P SmallCap 600
+  nom: G-III Apparel Group, Ltd.
 GIL.TO:
   indice: S&P/TSX 60
   nom: Gildan Activewear Inc.
@@ -2208,15 +3372,30 @@ GIS:
 GJF.OL:
   indice: OBX
   nom: Gjensidige Forsikring
+GKOS:
+  indice: S&P SmallCap 600
+  nom: Glaukos Corp.
 GL:
   indice: S&P 500
   nom: Globe Life
+GL9.IR:
+  indice: ISEQ 20
+  nom: Glanbia
+GLPI:
+  indice: S&P MidCap 400
+  nom: Gaming and Leisure Properties
 GLW:
   indice: S&P 500
   nom: Corning Inc.
 GM:
   indice: S&P 500
   nom: General Motors
+GME:
+  indice: S&P MidCap 400
+  nom: GameStop
+GMED:
+  indice: S&P MidCap 400
+  nom: Globus Medical
 GMG.AX:
   indice: S&P/ASX 50
   nom: Goodman Group
@@ -2226,12 +3405,27 @@ GN.CO:
 GNC.L:
   indice: FTSE 250
   nom: Greencore
+GNL:
+  indice: S&P SmallCap 600
+  nom: Global Net Lease, Inc.
 GNRC:
   indice: S&P 500
   nom: Generac
 GNS.L:
   indice: FTSE 250
   nom: Genus
+GNTX:
+  indice: S&P MidCap 400
+  nom: Gentex
+GNW:
+  indice: S&P SmallCap 600
+  nom: Genworth Financial, Inc.
+GO:
+  indice: S&P SmallCap 600
+  nom: Grocery Outlet
+GOLF:
+  indice: S&P SmallCap 600
+  nom: Acushnet Company
 GOOG:
   indice: S&P 500
   nom: Alphabet Inc. (Class C)
@@ -2241,9 +3435,21 @@ GPC:
 GPE.L:
   indice: FTSE 250
   nom: Great Portland Estates
+GPI:
+  indice: S&P SmallCap 600
+  nom: Group 1 Automotive, Inc.
+GPK:
+  indice: S&P MidCap 400
+  nom: Graphic Packaging
 GPN:
   indice: S&P 500
   nom: Global Payments
+GPOR:
+  indice: S&P SmallCap 600
+  nom: Gulfport Energy Corporation
+GRBK:
+  indice: S&P SmallCap 600
+  nom: Green Brick Partners, Inc.
 GRF.MC:
   indice: IBEX 35
   nom: Grifols
@@ -2259,24 +3465,63 @@ GRMN:
 GROW.L:
   indice: FTSE 250
   nom: Molten Ventures
+GRP.IR:
+  indice: ISEQ 20
+  nom: Greencoat Renewables
 GS:
   indice: S&P 500
   nom: Goldman Sachs
 GSCT.L:
   indice: FTSE 250
   nom: Global Smaller Companies Trust
+GSHD:
+  indice: S&P SmallCap 600
+  nom: Goosehead Insurance, Inc.
 GSK.L:
   indice: FTSE 100
   nom: GSK plc
+GT:
+  indice: S&P SmallCap 600
+  nom: Goodyear Tire and Rubber Company
+GTES:
+  indice: S&P SmallCap 600
+  nom: Gates Corporation
+GTM:
+  indice: S&P SmallCap 600
+  nom: ZoomInfo
+GTY:
+  indice: S&P SmallCap 600
+  nom: Getty Realty Corp.
+GVA:
+  indice: S&P SmallCap 600
+  nom: Granite Construction, Inc.
+GVR.IR:
+  indice: ISEQ 20
+  nom: Glenveagh Properties
+GWRE:
+  indice: S&P MidCap 400
+  nom: Guidewire Software
 GWW:
   indice: S&P 500
   nom: W. W. Grainger
 GXI.DE:
   indice: MDAX
   nom: Gerresheimer
+GXO:
+  indice: S&P MidCap 400
+  nom: GXO Logistics
+H:
+  indice: S&P MidCap 400
+  nom: Hyatt
 H.TO:
   indice: S&P/TSX 60
   nom: Hydro One Limited
+HAE:
+  indice: S&P MidCap 400
+  nom: Haemonetics
+HAFC:
+  indice: S&P SmallCap 600
+  nom: Hanmi Financial Corporation
 HAFNI.OL:
   indice: OBX
   nom: Hafnia Limited
@@ -2286,6 +3531,9 @@ HAG.DE:
 HAL:
   indice: S&P 500
   nom: Halliburton
+HALO:
+  indice: S&P MidCap 400
+  nom: Halozyme
 HANA.L:
   indice: FTSE 250
   nom: Hansa Investment Company
@@ -2295,9 +3543,15 @@ HAS:
 HAS.L:
   indice: FTSE 250
   nom: Hays
+HASI:
+  indice: S&P SmallCap 600
+  nom: Hannon Armstrong Sustainable Infrastructure Capital, Inc.
 HAUTO.OL:
   indice: OBX
   nom: Höegh Autoliners ASA
+HAYW:
+  indice: S&P SmallCap 600
+  nom: Hayward Holdings, Inc.
 HBAN:
   indice: S&P 500
   nom: Huntington Bancshares
@@ -2307,9 +3561,21 @@ HBR.L:
 HCA:
   indice: S&P 500
   nom: HCA Healthcare
+HCC:
+  indice: S&P SmallCap 600
+  nom: Warrior Met Coal, Inc.
+HCI:
+  indice: S&P SmallCap 600
+  nom: HCI Group, Inc.
+HCSG:
+  indice: S&P SmallCap 600
+  nom: Healthcare Services Group, Inc.
 HD:
   indice: S&P 500
   nom: Home Depot (The)
+HE:
+  indice: S&P SmallCap 600
+  nom: Hawaiian Electric Industries, Inc.
 HEN3.DE:
   indice: DAX
   nom: Henkel
@@ -2331,9 +3597,15 @@ HFG.DE:
 HFG.L:
   indice: FTSE 250
   nom: Hilton Food Group
+HFWA:
+  indice: S&P SmallCap 600
+  nom: Heritage Financial Corporation
 HGT.L:
   indice: FTSE 250
   nom: Hg Capital Trust
+HGV:
+  indice: S&P MidCap 400
+  nom: Hilton Grand Vacations
 HIAB.HE:
   indice: OMX Helsinki 25
   nom: Hiab
@@ -2352,27 +3624,60 @@ HIK.L:
 HILS.L:
   indice: FTSE 250
   nom: Hill & Smith
+HIMS:
+  indice: S&P MidCap 400
+  nom: Hims & Hers Health
+HIW:
+  indice: S&P SmallCap 600
+  nom: Highwoods Properties
+HL:
+  indice: S&P MidCap 400
+  nom: Hecla Mining
 HLE.DE:
   indice: MDAX
   nom: Hella
+HLI:
+  indice: S&P MidCap 400
+  nom: Houlihan Lokey
+HLIT:
+  indice: S&P SmallCap 600
+  nom: Harmonic Inc.
 HLMA.L:
   indice: FTSE 100
   nom: Halma plc
 HLN.L:
   indice: FTSE 100
   nom: Haleon
+HLNE:
+  indice: S&P MidCap 400
+  nom: Hamilton Lane
 HLT:
   indice: S&P 500
   nom: Hilton Worldwide
+HMN:
+  indice: S&P SmallCap 600
+  nom: Horace Mann Educators Corporation
+HMSO.IR:
+  indice: ISEQ 20
+  nom: Hammerson plc
 HMSO.L:
   indice: FTSE 250
   nom: Hammerson
+HNI:
+  indice: S&P SmallCap 600
+  nom: HNI Corporation
 HOC.L:
   indice: FTSE 250
   nom: Hochschild Mining
+HOG:
+  indice: S&P MidCap 400
+  nom: Harley-Davidson
 HOLN.SW:
   indice: SMI
   nom: Holcim Limited
+HOMB:
+  indice: S&P MidCap 400
+  nom: Home BancShares
 HON:
   indice: S&P 500
   nom: Honeywell Technologies
@@ -2382,21 +3687,39 @@ HONA:
 HOOD:
   indice: S&P 500
   nom: Robinhood Markets
+HOPE:
+  indice: S&P SmallCap 600
+  nom: Hope Bancorp, Inc.
 HOT.DE:
   indice: MDAX
   nom: Hochtief
+HP:
+  indice: S&P SmallCap 600
+  nom: Helmerich & Payne, Inc.
 HPE:
   indice: S&P 500
   nom: Hewlett Packard Enterprise
 HPQ:
   indice: S&P 500
   nom: HP Inc.
+HQY:
+  indice: S&P MidCap 400
+  nom: HealthEquity
+HR:
+  indice: S&P MidCap 400
+  nom: Healthcare Realty Trust
+HRB:
+  indice: S&P MidCap 400
+  nom: H&R Block
 HRI.L:
   indice: FTSE 250
   nom: Herald Investment Trust
 HRL:
   indice: S&P 500
   nom: Hormel Foods
+HRMY:
+  indice: S&P SmallCap 600
+  nom: Harmony Biosciences Holdings, Inc.
 HSIC:
   indice: S&P 500
   nom: Henry Schein
@@ -2406,6 +3729,9 @@ HSL.L:
 HST:
   indice: S&P 500
   nom: Host Hotels & Resorts
+HSTM:
+  indice: S&P SmallCap 600
+  nom: HealthStream, Inc.
 HSX.L:
   indice: FTSE 100
   nom: Hiscox
@@ -2415,12 +3741,27 @@ HSY:
 HTG.L:
   indice: FTSE 250
   nom: Hunting
+HTH:
+  indice: S&P SmallCap 600
+  nom: Hilltop Holdings Inc.
+HTLD:
+  indice: S&P SmallCap 600
+  nom: Heartland Express, Inc.
+HTO:
+  indice: S&P SmallCap 600
+  nom: H2O America
 HTWS.L:
   indice: FTSE 250
   nom: Helios Towers
 HUBB:
   indice: S&P 500
   nom: Hubbell Incorporated
+HUBG:
+  indice: S&P SmallCap 600
+  nom: Hub Group, Inc.
+HUBS:
+  indice: S&P MidCap 400
+  nom: HubSpot
 HUH1V.HE:
   indice: OMX Helsinki 25
   nom: Huhtamäki
@@ -2430,15 +3771,27 @@ HUM:
 HVPE.L:
   indice: FTSE 250
   nom: HarbourVest Global Private Equity
+HWC:
+  indice: S&P MidCap 400
+  nom: Hancock Whitney
 HWDN.L:
   indice: FTSE 100
   nom: Howdens Joinery
 HWG.L:
   indice: FTSE 250
   nom: Harworth Group
+HWKN:
+  indice: S&P SmallCap 600
+  nom: Hawkins, Inc.
 HWM:
   indice: S&P 500
   nom: Howmet Aerospace
+HXL:
+  indice: S&P MidCap 400
+  nom: Hexcel
+HZO:
+  indice: S&P SmallCap 600
+  nom: MarineMax, Inc.
 IAD.L:
   indice: FTSE 250
   nom: Invesco Asia Dragon Trust
@@ -2451,12 +3804,21 @@ IAG.L:
 IAG.MC:
   indice: IBEX 35
   nom: International Airlines Group
+IART:
+  indice: S&P SmallCap 600
+  nom: Integra Lifesciences Holdings
 IBKR:
   indice: S&P 500
   nom: Interactive Brokers
 IBM:
   indice: S&P 500
   nom: IBM
+IBOC:
+  indice: S&P MidCap 400
+  nom: Intl Bancshares Corp
+IBP:
+  indice: S&P SmallCap 600
+  nom: Installed Building Products, Inc.
 IBS.LS:
   indice: PSI
   nom: Ibersol
@@ -2469,12 +3831,27 @@ ICG.L:
 ICGT.L:
   indice: FTSE 250
   nom: ICG Enterprise Trust
+ICHR:
+  indice: S&P SmallCap 600
+  nom: Ichor Holdings, Ltd.
+ICUI:
+  indice: S&P SmallCap 600
+  nom: ICU Medical
+IDA:
+  indice: S&P MidCap 400
+  nom: Idacorp
+IDCC:
+  indice: S&P MidCap 400
+  nom: InterDigital
 IDR.MC:
   indice: IBEX 35
   nom: Indra
 IDXX:
   indice: S&P 500
   nom: Idexx Laboratories
+IESC:
+  indice: S&P MidCap 400
+  nom: IES Holdings
 IEX:
   indice: S&P 500
   nom: IDEX Corporation
@@ -2499,6 +3876,9 @@ IHP.L:
 III.L:
   indice: FTSE 100
   nom: 3i
+IIPR:
+  indice: S&P SmallCap 600
+  nom: Innovative Industrial Properties, Inc.
 ILMN:
   indice: S&P 500
   nom: Illumina, Inc.
@@ -2520,36 +3900,69 @@ INCH.L:
 INCY:
   indice: S&P 500
   nom: Incyte
+INDB:
+  indice: S&P SmallCap 600
+  nom: Independent Bank Corp.
 INDU-C.ST:
   indice: OMX Stockholm 30
   nom: Industrivärden C
+INDV:
+  indice: S&P SmallCap 600
+  nom: Indivior
 INF.L:
   indice: FTSE 100
   nom: Informa
 INGA.BR:
   indice: BEL 20
   nom: ING Group
+INGR:
+  indice: S&P MidCap 400
+  nom: Ingredion
 INPP.L:
   indice: FTSE 250
   nom: International Public Partnerships
+INSP:
+  indice: S&P SmallCap 600
+  nom: Inspire Medical Systems, Inc.
+INSW:
+  indice: S&P SmallCap 600
+  nom: International Seaways, Inc.
 INTC:
   indice: S&P 500
   nom: Intel
 INTU:
   indice: S&P 500
   nom: Intuit
+INVA:
+  indice: S&P SmallCap 600
+  nom: Innoviva, Inc.
 INVH:
   indice: S&P 500
   nom: Invitation Homes
 INVP.L:
   indice: FTSE 100
   nom: Investec
+INVX:
+  indice: S&P SmallCap 600
+  nom: Innovex International, Inc.
 INW.MI:
   indice: FTSE MIB
   nom: INWIT
+IOS.DE:
+  indice: TecDAX
+  nom: Ionos SE
+IOSP:
+  indice: S&P SmallCap 600
+  nom: Innospec, Inc.
 IP:
   indice: S&P 500
   nom: International Paper
+IPAR:
+  indice: S&P SmallCap 600
+  nom: Inter Parfums, Inc.
+IPGP:
+  indice: S&P MidCap 400
+  nom: IPG Photonics
 IPO.L:
   indice: FTSE 250
   nom: IP Group
@@ -2559,9 +3972,21 @@ IQV:
 IR:
   indice: S&P 500
   nom: Ingersoll Rand
+IR5B.IR:
+  indice: ISEQ 20
+  nom: Irish Continental Group
+IRDM:
+  indice: S&P SmallCap 600
+  nom: Iridium Communications
+IRES.IR:
+  indice: ISEQ 20
+  nom: Irish Residential Properties REIT
 IRM:
   indice: S&P 500
   nom: Iron Mountain
+IRT:
+  indice: S&P MidCap 400
+  nom: Independence Realty Trust
 ISRG:
   indice: S&P 500
   nom: Intuitive Surgical
@@ -2571,12 +3996,21 @@ ISS.CO:
 IT:
   indice: S&P 500
   nom: Gartner
+ITGR:
+  indice: S&P SmallCap 600
+  nom: Integer Holdings Corporation
 ITH.L:
   indice: FTSE 100
   nom: Ithaca Energy
+ITRI:
+  indice: S&P SmallCap 600
+  nom: Itron, Inc.
 ITRK.L:
   indice: FTSE 100
   nom: Intertek
+ITT:
+  indice: S&P MidCap 400
+  nom: ITT Inc.
 ITV.L:
   indice: FTSE 250
   nom: ITV
@@ -2586,6 +4020,9 @@ ITW:
 IVG.MI:
   indice: FTSE MIB
   nom: Iveco
+IVT:
+  indice: S&P SmallCap 600
+  nom: InvenTrust Properties
 IVZ:
   indice: S&P 500
   nom: Invesco
@@ -2598,6 +4035,12 @@ J:
 JAM.L:
   indice: FTSE 250
   nom: JPMorgan American Investment Trust
+JAZZ:
+  indice: S&P MidCap 400
+  nom: Jazz Pharmaceuticals
+JBGS:
+  indice: S&P SmallCap 600
+  nom: JBG Smith
 JBH.AX:
   indice: S&P/ASX 50
   nom: JB Hi-Fi
@@ -2607,6 +4050,15 @@ JBHT:
 JBL:
   indice: S&P 500
   nom: Jabil
+JBLU:
+  indice: S&P SmallCap 600
+  nom: JetBlue
+JBSS:
+  indice: S&P SmallCap 600
+  nom: John B. Sanfilippo & Son, Inc.
+JBTM:
+  indice: S&P SmallCap 600
+  nom: JBT Marel Corporation
 JCH.L:
   indice: FTSE 250
   nom: JPMorgan Claverhouse Investment Trust
@@ -2622,6 +4074,9 @@ JDW.L:
 JEDT.L:
   indice: FTSE 250
   nom: JPMorgan European Discovery
+JEF:
+  indice: S&P MidCap 400
+  nom: Jefferies
 JEGI.L:
   indice: FTSE 250
   nom: JPMorgan European Growth & Income
@@ -2640,9 +4095,15 @@ JGGI.L:
 JHX.AX:
   indice: S&P/ASX 50
   nom: James Hardie
+JJSF:
+  indice: S&P SmallCap 600
+  nom: J&J Snack Foods Corp.
 JKHY:
   indice: S&P 500
   nom: Jack Henry & Associates
+JLL:
+  indice: S&P MidCap 400
+  nom: Jones Lang LaSalle
 JMAT.L:
   indice: FTSE 250
   nom: Johnson Matthey
@@ -2652,6 +4113,9 @@ JMGI.L:
 JMT.LS:
   indice: PSI
   nom: Jerónimo Martins
+JOE:
+  indice: S&P SmallCap 600
+  nom: St. Joe Company
 JSG.L:
   indice: FTSE 250
   nom: Johnson Service Group
@@ -2661,21 +4125,39 @@ JUN3.DE:
 JUP.L:
   indice: FTSE 250
   nom: Jupiter Fund Management
+JXN:
+  indice: S&P SmallCap 600
+  nom: Jackson Financial, Inc.
 JYSK.CO:
   indice: OMX Copenhagen 25
   nom: Jyske Bank
 K.TO:
   indice: S&P/TSX 60
   nom: Kinross Gold Corporation
+KAI:
+  indice: S&P SmallCap 600
+  nom: Kadant Inc.
 KALMAR.HE:
   indice: OMX Helsinki 25
   nom: Kalmar  B
+KALU:
+  indice: S&P SmallCap 600
+  nom: Kaiser Aluminum Corporation
+KBH:
+  indice: S&P MidCap 400
+  nom: KB Home
+KBR:
+  indice: S&P MidCap 400
+  nom: KBR, Inc.
 KBX.DE:
   indice: MDAX
   nom: Knorr-Bremse
 KCR.HE:
   indice: OMX Helsinki 25
   nom: Konecranes
+KD:
+  indice: S&P MidCap 400
+  nom: Kyndryl
 KDP:
   indice: S&P 500
   nom: Keurig Dr Pepper
@@ -2685,15 +4167,24 @@ KEMIRA.HE:
 KESKOB.HE:
   indice: OMX Helsinki 25
   nom: Kesko B
+KEX:
+  indice: S&P MidCap 400
+  nom: Kirby Corporation
 KEY:
   indice: S&P 500
   nom: KeyCorp
 KEYS:
   indice: S&P 500
   nom: Keysight Technologies
+KFY:
+  indice: S&P SmallCap 600
+  nom: Korn/Ferry International
 KGF.L:
   indice: FTSE 100
   nom: Kingfisher plc
+KGS:
+  indice: S&P SmallCap 600
+  nom: Kodiak Gas Services, Inc.
 KGX.DE:
   indice: MDAX
   nom: KION Group
@@ -2712,6 +4203,9 @@ KKR:
 KLAC:
   indice: S&P 500
   nom: KLA Corporation
+KLIC:
+  indice: S&P SmallCap 600
+  nom: Kulicke and Soffa Industries, Inc.
 KLR.L:
   indice: FTSE 250
   nom: Keller Group
@@ -2721,48 +4215,150 @@ KMB:
 KMI:
   indice: S&P 500
   nom: Kinder Morgan
+KMPR:
+  indice: S&P SmallCap 600
+  nom: Kemper Corporation
+KMR.IR:
+  indice: ISEQ 20
+  nom: Kenmare Resources
+KMT:
+  indice: S&P SmallCap 600
+  nom: Kennametal
+KMX:
+  indice: S&P SmallCap 600
+  nom: CarMax, Inc.
+KN:
+  indice: S&P SmallCap 600
+  nom: Knowles Corporation
+KNF:
+  indice: S&P MidCap 400
+  nom: Knife River Corporation
 KNOS.L:
   indice: FTSE 250
   nom: Kainos
+KNSL:
+  indice: S&P MidCap 400
+  nom: Kinsale Capital Group
+KNTK:
+  indice: S&P SmallCap 600
+  nom: Kinetik Holdings, Inc.
+KNX:
+  indice: S&P MidCap 400
+  nom: Knight-Swift
 KOG.OL:
   indice: OBX
   nom: Kongsberg Gruppen
+KOP:
+  indice: S&P SmallCap 600
+  nom: Koppers Holdings, Inc.
 KPN.AS:
   indice: AEX
   nom: KPN
 KR:
   indice: S&P 500
   nom: Kroger
+KRC:
+  indice: S&P MidCap 400
+  nom: Kilroy Realty Corp
+KRG:
+  indice: S&P MidCap 400
+  nom: Kite Realty Group Trust
+KRMN:
+  indice: S&P SmallCap 600
+  nom: Karman Holdings
 KRN.DE:
   indice: MDAX
   nom: Krones
+KRX.IR:
+  indice: ISEQ 20
+  nom: Kingspan Group
+KRYS:
+  indice: S&P MidCap 400
+  nom: Krystal Biotech
+KRZ.IR:
+  indice: ISEQ 20
+  nom: Kerry Group
+KSS:
+  indice: S&P SmallCap 600
+  nom: Kohl's Corp.
+KTB:
+  indice: S&P SmallCap 600
+  nom: Kontoor Brands
+KTN.DE:
+  indice: TecDAX
+  nom: Kontron AG
+KTOS:
+  indice: S&P MidCap 400
+  nom: Kratos Defense & Security Solutions
 KVUE:
   indice: S&P 500
   nom: Kenvue
+KWR:
+  indice: S&P SmallCap 600
+  nom: Quaker Chemical Corporation
 L:
   indice: S&P 500
   nom: Loews Corporation
 L.TO:
   indice: S&P/TSX 60
   nom: Loblaw Companies Limited
+LAD:
+  indice: S&P MidCap 400
+  nom: Lithia Motors
+LAMR:
+  indice: S&P MidCap 400
+  nom: Lamar Advertising Company
 LAND.L:
   indice: FTSE 100
   nom: Land Securities
+LAUR:
+  indice: S&P SmallCap 600
+  nom: Laureate Education, Inc.
+LAZ:
+  indice: S&P SmallCap 600
+  nom: Lazard
+LBRT:
+  indice: S&P SmallCap 600
+  nom: Liberty Energy, Inc.
+LCII:
+  indice: S&P SmallCap 600
+  nom: LCI Industries
 LDO.MI:
   indice: FTSE MIB
   nom: Leonardo
 LDOS:
   indice: S&P 500
   nom: Leidos
+LEA:
+  indice: S&P MidCap 400
+  nom: Lear
+LECO:
+  indice: S&P MidCap 400
+  nom: Lincoln Electric
 LEG.DE:
   indice: MDAX
   nom: LEG Immobilien
 LEN:
   indice: S&P 500
   nom: Lennar
+LEU:
+  indice: S&P SmallCap 600
+  nom: Centrus Energy Corp.
+LFST:
+  indice: S&P SmallCap 600
+  nom: Lifestance Health
+LFUS:
+  indice: S&P MidCap 400
+  nom: Littelfuse
 LGEN.L:
   indice: FTSE 100
   nom: Legal & General
+LGIH:
+  indice: S&P SmallCap 600
+  nom: LGI Homes
+LGND:
+  indice: S&P SmallCap 600
+  nom: Ligand Pharmaceuticals, Inc.
 LH:
   indice: S&P 500
   nom: Labcorp
@@ -2772,6 +4368,9 @@ LHA.DE:
 LHX:
   indice: S&P 500
   nom: L3Harris
+LIF:
+  indice: S&P SmallCap 600
+  nom: Life360
 LIFCO-B.ST:
   indice: OMX Stockholm 30
   nom: Lifco B
@@ -2784,42 +4383,102 @@ LIN:
 LITE:
   indice: S&P 500
   nom: Lumentum
+LIVN:
+  indice: S&P MidCap 400
+  nom: LivaNova
+LKFN:
+  indice: S&P SmallCap 600
+  nom: Lakeland Financial
+LKQ:
+  indice: S&P SmallCap 600
+  nom: LKQ Corporation
+LMAT:
+  indice: S&P SmallCap 600
+  nom: LeMaitre Vascular
 LMP.L:
   indice: FTSE 100
   nom: LondonMetric Property
 LMT:
   indice: S&P 500
   nom: Lockheed Martin
+LNC:
+  indice: S&P SmallCap 600
+  nom: Lincoln Financial
+LNN:
+  indice: S&P SmallCap 600
+  nom: Lindsay Corporation
 LNT:
   indice: S&P 500
   nom: Alliant Energy
+LNTH:
+  indice: S&P MidCap 400
+  nom: Lantheus Holdings
 LOG.MC:
   indice: IBEX 35
   nom: Logista
+LOPE:
+  indice: S&P MidCap 400
+  nom: Grand Canyon Education
 LOW:
   indice: S&P 500
   nom: Lowe's
+LPG:
+  indice: S&P SmallCap 600
+  nom: Dorian LPG Ltd.
+LPX:
+  indice: S&P MidCap 400
+  nom: Louisiana-Pacific
+LQDA:
+  indice: S&P SmallCap 600
+  nom: Liquidia Corporation
+LQDT:
+  indice: S&P SmallCap 600
+  nom: Liquidity Services, Inc.
 LRCX:
   indice: S&P 500
   nom: Lam Research
 LRE.L:
   indice: FTSE 250
   nom: Lancashire Holdings
+LRN:
+  indice: S&P SmallCap 600
+  nom: Stride, Inc.
+LSCC:
+  indice: S&P MidCap 400
+  nom: Lattice Semiconductor
+LSTR:
+  indice: S&P MidCap 400
+  nom: Landstar System
+LTC:
+  indice: S&P SmallCap 600
+  nom: LTC Properties, Inc.
+LTH:
+  indice: S&P SmallCap 600
+  nom: Life Time Group Holdings, Inc.
 LTMC.MI:
   indice: FTSE MIB
   nom: Lottomatica Group
 LULU:
   indice: S&P 500
   nom: Lululemon Athletica
+LUMN:
+  indice: S&P SmallCap 600
+  nom: Lumen Technologies
 LUV:
   indice: S&P 500
   nom: Southwest Airlines
 LVS:
   indice: S&P 500
   nom: Las Vegas Sands
+LW:
+  indice: S&P SmallCap 600
+  nom: Lamb Weston
 LWDB.L:
   indice: FTSE 250
   nom: Law Debenture
+LXP:
+  indice: S&P SmallCap 600
+  nom: Lexington Realty Trust
 LXS.DE:
   indice: MDAX
   nom: Lanxess
@@ -2829,18 +4488,39 @@ LYB:
 LYC.AX:
   indice: S&P/ASX 50
   nom: Lynas
+LYFT:
+  indice: S&P SmallCap 600
+  nom: Lyft, Inc.
 LYV:
   indice: S&P 500
   nom: Live Nation Entertainment
+LZ:
+  indice: S&P SmallCap 600
+  nom: LegalZoom.com, Inc.
+LZB:
+  indice: S&P SmallCap 600
+  nom: La-Z-Boy, Inc.
+M:
+  indice: S&P MidCap 400
+  nom: Macy's
 MAA:
   indice: S&P 500
   nom: Mid-America Apartment Communities
 MAB.L:
   indice: FTSE 250
   nom: Mitchells & Butlers
+MAC:
+  indice: S&P SmallCap 600
+  nom: Macerich
 MAERSK-A.CO:
   indice: OMX Copenhagen 25
   nom: A.P. Møller-Mærsk (class A)
+MAN:
+  indice: S&P SmallCap 600
+  nom: ManpowerGroup
+MANH:
+  indice: S&P MidCap 400
+  nom: Manhattan Associates
 MANTA.HE:
   indice: OMX Helsinki 25
   nom: Mandatum
@@ -2850,12 +4530,36 @@ MAP.MC:
 MAR:
   indice: S&P 500
   nom: Marriott International
+MARA:
+  indice: S&P SmallCap 600
+  nom: MARA Holdings, Inc.
 MAS:
   indice: S&P 500
   nom: Masco
+MAT:
+  indice: S&P MidCap 400
+  nom: Mattel
+MATW:
+  indice: S&P SmallCap 600
+  nom: Matthews International Corporation
+MATX:
+  indice: S&P SmallCap 600
+  nom: Matson, Inc.
 MB.MI:
   indice: FTSE MIB
   nom: Mediobanca
+MBC:
+  indice: S&P SmallCap 600
+  nom: MasterBrand, Inc.
+MBGL:
+  indice: S&P SmallCap 600
+  nom: Mobility Global, Inc.
+MBIN:
+  indice: S&P SmallCap 600
+  nom: Merchants Bancorp
+MC:
+  indice: S&P SmallCap 600
+  nom: Moelis & Company
 MCHP:
   indice: S&P 500
   nom: Microchip Technology
@@ -2865,12 +4569,27 @@ MCK:
 MCO:
   indice: S&P 500
   nom: Moody's Corporation
+MCRI:
+  indice: S&P SmallCap 600
+  nom: Monarch Casino & Resort, Inc.
+MCY:
+  indice: S&P SmallCap 600
+  nom: Mercury General
+MD:
+  indice: S&P SmallCap 600
+  nom: Pediatrix Medical Group
 MDLZ:
   indice: S&P 500
   nom: Mondelez International
 MDT:
   indice: S&P 500
   nom: Medtronic
+MDU:
+  indice: S&P SmallCap 600
+  nom: MDU Resources Group, Inc.
+MEDP:
+  indice: S&P MidCap 400
+  nom: Medpace
 MEGP.L:
   indice: FTSE 250
   nom: ME Group International
@@ -2883,30 +4602,78 @@ METSO.HE:
 MFC.TO:
   indice: S&P/TSX 60
   nom: Manulife Financial Corporation
+MFP:
+  indice: S&P SmallCap 600
+  nom: Midera Food Processing, Inc.
 MG.TO:
   indice: S&P/TSX 60
   nom: Magna International Inc.
 MGAM.L:
   indice: FTSE 250
   nom: Morgan Advanced Materials
+MGEE:
+  indice: S&P SmallCap 600
+  nom: MGE Energy, Inc.
 MGM:
   indice: S&P 500
   nom: MGM Resorts
 MGNS.L:
   indice: FTSE 250
   nom: Morgan Sindall Group
+MGY:
+  indice: S&P SmallCap 600
+  nom: Magnolia Oil & Gas, Corp.
+MHK:
+  indice: S&P SmallCap 600
+  nom: Mohawk Industries
+MHO:
+  indice: S&P SmallCap 600
+  nom: M/I Homes, Inc.
+MIDD:
+  indice: S&P MidCap 400
+  nom: Middleby
+MIO.IR:
+  indice: ISEQ 20
+  nom: Mincon group
+MIR:
+  indice: S&P SmallCap 600
+  nom: Mirion Technologies, Inc.
 MKC:
   indice: S&P 500
   nom: McCormick & Company
 MKS.L:
   indice: FTSE 100
   nom: Marks & Spencer
+MKSI:
+  indice: S&P MidCap 400
+  nom: MKS Instruments
+MKTX:
+  indice: S&P SmallCap 600
+  nom: MarketAxess
+MLC.IR:
+  indice: ISEQ 20
+  nom: Malin Corp.
+MLI:
+  indice: S&P MidCap 400
+  nom: Mueller Industries
+MLKN:
+  indice: S&P SmallCap 600
+  nom: MillerKnoll, Inc.
 MLM:
   indice: S&P 500
   nom: Martin Marietta Materials
+MMI:
+  indice: S&P SmallCap 600
+  nom: Marcus & Millichap, Inc.
 MMM:
   indice: S&P 500
   nom: 3M
+MMS:
+  indice: S&P MidCap 400
+  nom: Maximus Inc.
+MMSI:
+  indice: S&P SmallCap 600
+  nom: Merit Medical Systems, Inc.
 MNDI.L:
   indice: FTSE 250
   nom: Mondi
@@ -2928,15 +4695,27 @@ MNTN.L:
 MO:
   indice: S&P 500
   nom: Altria
+MOG-A:
+  indice: S&P MidCap 400
+  nom: Moog Inc.
+MOH:
+  indice: S&P MidCap 400
+  nom: Molina Healthcare
 MONY.L:
   indice: FTSE 250
   nom: MONY Group
 MOON.L:
   indice: FTSE 250
   nom: Moonpig
+MORN:
+  indice: S&P MidCap 400
+  nom: Morningstar, Inc.
 MOS:
   indice: S&P 500
   nom: Mosaic Company (The)
+MP:
+  indice: S&P MidCap 400
+  nom: MP Materials
 MPC:
   indice: S&P 500
   nom: Marathon Petroleum
@@ -2946,6 +4725,9 @@ MPCC.OL:
 MPL.AX:
   indice: S&P/ASX 50
   nom: Medibank
+MPT:
+  indice: S&P SmallCap 600
+  nom: Medical Properties Trust
 MPWR:
   indice: S&P 500
   nom: Monolithic Power Systems
@@ -2955,6 +4737,9 @@ MRC.L:
 MRCH.L:
   indice: FTSE 250
   nom: Merchants Trust
+MRCY:
+  indice: S&P SmallCap 600
+  nom: Mercury Systems
 MRK:
   indice: S&P 500
   nom: Merck & Co.
@@ -2967,9 +4752,15 @@ MRNA:
 MRO.L:
   indice: FTSE 100
   nom: Melrose Industries
+MRP:
+  indice: S&P SmallCap 600
+  nom: Millrose Properties, Inc.
 MRSH:
   indice: S&P 500
   nom: Marsh McLennan
+MRTN:
+  indice: S&P SmallCap 600
+  nom: Marten Transport, Ltd.
 MRU.TO:
   indice: S&P/TSX 60
   nom: Metro Inc.
@@ -2979,48 +4770,111 @@ MRVL:
 MS:
   indice: S&P 500
   nom: Morgan Stanley
+MSA:
+  indice: S&P MidCap 400
+  nom: MSA Safety
 MSCI:
   indice: S&P 500
   nom: MSCI
+MSEX:
+  indice: S&P SmallCap 600
+  nom: Middlesex Water Company
+MSGS:
+  indice: S&P SmallCap 600
+  nom: Madison Square Garden Sports Corp.
 MSI:
   indice: S&P 500
   nom: Motorola Solutions
+MSM:
+  indice: S&P MidCap 400
+  nom: MSC Industrial Direct
 MT.AS:
   indice: AEX
   nom: ArcelorMittal
 MTB:
   indice: S&P 500
   nom: M&T Bank
+MTCH:
+  indice: S&P SmallCap 600
+  nom: Match Group
 MTD:
   indice: S&P 500
   nom: Mettler Toledo
+MTDR:
+  indice: S&P MidCap 400
+  nom: Matador Resources
+MTG:
+  indice: S&P MidCap 400
+  nom: MGIC Investment Corporation
+MTH:
+  indice: S&P SmallCap 600
+  nom: Meritage Homes Corporation
 MTLN.L:
   indice: FTSE 100
   nom: Metlen Energy & Metals
+MTN:
+  indice: S&P MidCap 400
+  nom: Vail Resorts
 MTO.L:
   indice: FTSE 250
   nom: Mitie
+MTRN:
+  indice: S&P SmallCap 600
+  nom: Materion Corp.
 MTRO.L:
   indice: FTSE 250
   nom: Metro Bank
 MTS.MC:
   indice: IBEX 35
   nom: ArcelorMittal
+MTSI:
+  indice: S&P MidCap 400
+  nom: MACOM Technology Solutions
+MTUS:
+  indice: S&P SmallCap 600
+  nom: Metallus Inc
+MTX:
+  indice: S&P SmallCap 600
+  nom: Minerals Technologies
+MTZ:
+  indice: S&P MidCap 400
+  nom: MasTec
 MU:
   indice: S&P 500
   nom: Micron Technology
+MUR:
+  indice: S&P MidCap 400
+  nom: Murphy Oil
+MUSA:
+  indice: S&P MidCap 400
+  nom: Murphy USA
 MUT.L:
   indice: FTSE 250
   nom: Murray Income Trust
+MWA:
+  indice: S&P SmallCap 600
+  nom: Mueller Water Products
+MXL:
+  indice: S&P SmallCap 600
+  nom: MaxLinear, Inc.
 MYI.L:
   indice: FTSE 250
   nom: Murray International Trust
+MYRG:
+  indice: S&P SmallCap 600
+  nom: MYR Group, Inc.
+MZTI:
+  indice: S&P MidCap 400
+  nom: The Marzetti Company
 N91.L:
   indice: FTSE 250
   nom: Ninety One
 NAB.AX:
   indice: S&P/ASX 50
   nom: National Australia Bank
+NABL:
+  indice: S&P SmallCap 600
+  nom: N-able, Inc.
 NAIT.L:
   indice: FTSE 250
   nom: North American Income Trust
@@ -3030,12 +4884,27 @@ NAS.L:
 NAS.OL:
   indice: OBX
   nom: Norwegian Air Shuttle
+NATL:
+  indice: S&P SmallCap 600
+  nom: NCR Atleos
+NAVI:
+  indice: S&P SmallCap 600
+  nom: Navient
 NBA.LS:
   indice: PSI
   nom: Novabase
+NBHC:
+  indice: S&P SmallCap 600
+  nom: National Bank Holdings Corporation
+NBIX:
+  indice: S&P MidCap 400
+  nom: Neurocrine Biosciences
 NBPE.L:
   indice: FTSE 250
   nom: Neuberger Private Equity Partners
+NBTB:
+  indice: S&P SmallCap 600
+  nom: NBT Bancorp, Inc.
 NCC.L:
   indice: FTSE 250
   nom: NCC Group
@@ -3060,6 +4929,9 @@ NDSN:
 NDX1.DE:
   indice: MDAX
   nom: Nordex
+NE:
+  indice: S&P SmallCap 600
+  nom: Noble Corporation
 NEE:
   indice: S&P 500
   nom: NextEra Energy
@@ -3072,39 +4944,90 @@ NEM.AX:
 NEM.DE:
   indice: MDAX
   nom: Nemetschek
+NEO:
+  indice: S&P SmallCap 600
+  nom: NeoGenomics Laboratories, Inc.
+NEOG:
+  indice: S&P SmallCap 600
+  nom: Neogen
+NEU:
+  indice: S&P MidCap 400
+  nom: NewMarket Corporation
 NEXI.MI:
   indice: FTSE MIB
   nom: Nexi
+NFG:
+  indice: S&P MidCap 400
+  nom: National Fuel Gas
 NFLX:
   indice: S&P 500
   nom: Netflix
+NGVT:
+  indice: S&P SmallCap 600
+  nom: Ingevity, Corp.
+NHC:
+  indice: S&P SmallCap 600
+  nom: National Healthcare, Corp.
+NHI:
+  indice: S&P SmallCap 600
+  nom: National Health Investors, Inc.
 NI:
   indice: S&P 500
   nom: NiSource
 NIBE-B.ST:
   indice: OMX Stockholm 30
   nom: Nibe Industrier B
+NIC:
+  indice: S&P SmallCap 600
+  nom: Nicolet Bankshares
+NJR:
+  indice: S&P MidCap 400
+  nom: New Jersey Resources
 NKE:
   indice: S&P 500
   nom: Nike, Inc.
 NKT.CO:
   indice: OMX Copenhagen 25
   nom: NKT
+NLY:
+  indice: S&P MidCap 400
+  nom: Annaly Capital Management
+NMIH:
+  indice: S&P SmallCap 600
+  nom: NMI Holdings, Inc.
 NN.AS:
   indice: AEX
   nom: NN Group
+NNN:
+  indice: S&P MidCap 400
+  nom: NNN Reit
 NOC:
   indice: S&P 500
   nom: Northrop Grumman
 NOD.OL:
   indice: OBX
   nom: Nordic Semiconductor
+NOG:
+  indice: S&P SmallCap 600
+  nom: Northern Oil and Gas, Inc.
 NOS.LS:
   indice: PSI
   nom: NOS
+NOV:
+  indice: S&P MidCap 400
+  nom: NOV Inc.
+NOVT:
+  indice: S&P MidCap 400
+  nom: Novanta
 NOW:
   indice: S&P 500
   nom: ServiceNow
+NPK:
+  indice: S&P SmallCap 600
+  nom: National Presto Industries, Inc.
+NPO:
+  indice: S&P SmallCap 600
+  nom: EnPro Industries, Inc.
 NRG:
   indice: S&P 500
   nom: NRG Energy
@@ -3114,21 +5037,39 @@ NSC:
 NSIS-B.CO:
   indice: OMX Copenhagen 25
   nom: Novonesis
+NSIT:
+  indice: S&P SmallCap 600
+  nom: Insight Enterprises, Inc.
+NSP:
+  indice: S&P SmallCap 600
+  nom: Insperity
+NSSC:
+  indice: S&P SmallCap 600
+  nom: Napco Security Technologies
 NST.AX:
   indice: S&P/ASX 50
   nom: Northern Star Resources
 NTAP:
   indice: S&P 500
   nom: NetApp
+NTCT:
+  indice: S&P SmallCap 600
+  nom: NETSCOUT Systems, Inc.
 NTGY.MC:
   indice: IBEX 35
   nom: Naturgy
+NTNX:
+  indice: S&P MidCap 400
+  nom: Nutanix
 NTR.TO:
   indice: S&P/TSX 60
   nom: Nutrien Ltd.
 NTRS:
   indice: S&P 500
   nom: Northern Trust
+NTST:
+  indice: S&P SmallCap 600
+  nom: NETSTREIT Corp.
 NUE:
   indice: S&P 500
   nom: Nucor
@@ -3138,9 +5079,27 @@ NVG.LS:
 NVR:
   indice: S&P 500
   nom: NVR, Inc.
+NVST:
+  indice: S&P MidCap 400
+  nom: Envista Holdings
+NVT:
+  indice: S&P MidCap 400
+  nom: nVent Electric plc
+NWBI:
+  indice: S&P SmallCap 600
+  nom: Northwest Bancshares, Inc.
+NWE:
+  indice: S&P MidCap 400
+  nom: NorthWestern Energy
 NWG.L:
   indice: FTSE 100
   nom: NatWest Group
+NWL:
+  indice: S&P SmallCap 600
+  nom: Newell Brands
+NWN:
+  indice: S&P SmallCap 600
+  nom: NW Natural
 NWS:
   indice: S&P 500
   nom: News Corp (Class B)
@@ -3150,21 +5109,42 @@ NWS.AX:
 NWSA:
   indice: S&P 500
   nom: News Corp (Class A)
+NX:
+  indice: S&P SmallCap 600
+  nom: Quanex Building Products Corporation
 NXPI:
   indice: S&P 500
   nom: NXP Semiconductors
+NXRT:
+  indice: S&P SmallCap 600
+  nom: NexPoint Residential Trust, Inc.
+NXST:
+  indice: S&P MidCap 400
+  nom: Nexstar Media Group
+NXT:
+  indice: S&P MidCap 400
+  nom: Nextpower
 NXT.L:
   indice: FTSE 100
   nom: Next plc
 NYR.BR:
   indice: BEL 20
   nom: Nyrstar
+NYT:
+  indice: S&P MidCap 400
+  nom: New York Times Company
 O:
   indice: S&P 500
   nom: Realty Income
+OBCK.DE:
+  indice: TecDAX
+  nom: Ottobock SE & Co. KGaA
 OBEL.BR:
   indice: BEL 20
   nom: Mobistar
+OC:
+  indice: S&P MidCap 400
+  nom: Owens Corning
 OCDO.L:
   indice: FTSE 250
   nom: Ocado Group
@@ -3174,27 +5154,87 @@ OCI.L:
 ODFL:
   indice: S&P 500
   nom: Old Dominion
+OFG:
+  indice: S&P SmallCap 600
+  nom: OFG Bancorp
+OGE:
+  indice: S&P MidCap 400
+  nom: OGE Energy
+OGN:
+  indice: S&P SmallCap 600
+  nom: Organon & Co.
+OGS:
+  indice: S&P MidCap 400
+  nom: One Gas
+OHB.DE:
+  indice: TecDAX
+  nom: OHB SE
+OHI:
+  indice: S&P MidCap 400
+  nom: Omega Healthcare Investors
+OI:
+  indice: S&P SmallCap 600
+  nom: O-I Glass, Inc.
+OII:
+  indice: S&P SmallCap 600
+  nom: Oceaneering International, Inc.
+OIZ.IR:
+  indice: ISEQ 20
+  nom: Origin Enterprises
 OKE:
   indice: S&P 500
   nom: Oneok
+OKTA:
+  indice: S&P MidCap 400
+  nom: Okta, Inc.
+OLED:
+  indice: S&P MidCap 400
+  nom: Universal Display
+OLLI:
+  indice: S&P MidCap 400
+  nom: Ollie's Bargain Outlet
+OLN:
+  indice: S&P MidCap 400
+  nom: Olin Corporation
 OMC:
   indice: S&P 500
   nom: Omnicom Group
+OMCL:
+  indice: S&P SmallCap 600
+  nom: Omnicell
 'ON':
   indice: S&P 500
   nom: ON Semiconductor
+ONB:
+  indice: S&P MidCap 400
+  nom: Old National Bank
 ONT.L:
   indice: FTSE 250
   nom: Oxford Nanopore Technologies
 ONTEX.BR:
   indice: BEL 20
   nom: Ontex Group
+ONTO:
+  indice: S&P MidCap 400
+  nom: Onto Innovation
+OPCH:
+  indice: S&P MidCap 400
+  nom: Option Care Health
+OPLN:
+  indice: S&P SmallCap 600
+  nom: OPENLANE, Inc.
+ORA:
+  indice: S&P MidCap 400
+  nom: Ormat Technologies
 ORCL:
   indice: S&P 500
   nom: Oracle Corporation
 ORG.AX:
   indice: S&P/ASX 50
   nom: Origin Energy
+ORI:
+  indice: S&P MidCap 400
+  nom: Old Republic International
 ORK.OL:
   indice: OBX
   nom: Orkla
@@ -3207,15 +5247,33 @@ ORNBV.HE:
 OSB.L:
   indice: FTSE 250
   nom: OSB Group
+OSIS:
+  indice: S&P SmallCap 600
+  nom: OSI Systems, Inc.
+OSK:
+  indice: S&P MidCap 400
+  nom: Oshkosh
+OSW:
+  indice: S&P SmallCap 600
+  nom: OneSpaWorld Holdings Limited
 OTEX.TO:
   indice: S&P/TSX 60
   nom: Open Text Corporation
 OTIS:
   indice: S&P 500
   nom: Otis Worldwide
+OTTR:
+  indice: S&P SmallCap 600
+  nom: Otter Tail Corporation
+OUT:
+  indice: S&P SmallCap 600
+  nom: Outfront Media
 OUT1V.HE:
   indice: OMX Helsinki 25
   nom: Outokumpu
+OVV:
+  indice: S&P MidCap 400
+  nom: Ovintiv
 OXB.L:
   indice: FTSE 250
   nom: Oxford Biomedica
@@ -3225,12 +5283,18 @@ OXIG.L:
 OXY:
   indice: S&P 500
   nom: Occidental Petroleum
+OZK:
+  indice: S&P MidCap 400
+  nom: Bank OZK
 P:
   indice: S&P 500
   nom: Everpure
 PAF.L:
   indice: FTSE 250
   nom: Pan African Resources
+PAG:
+  indice: S&P MidCap 400
+  nom: Penske Automotive Group
 PAG.L:
   indice: FTSE 250
   nom: Paragon Banking Group
@@ -3240,12 +5304,42 @@ PAGE.L:
 PAH3.DE:
   indice: DAX
   nom: Porsche SE
+PAHC:
+  indice: S&P SmallCap 600
+  nom: Phibro Animal Health
 PANW:
   indice: S&P 500
   nom: Palo Alto Networks
+PARR:
+  indice: S&P SmallCap 600
+  nom: Par Pacific Holdings, Inc.
+PATH:
+  indice: S&P MidCap 400
+  nom: UiPath
+PATK:
+  indice: S&P SmallCap 600
+  nom: Patrick Industries, Inc.
+PAYC:
+  indice: S&P SmallCap 600
+  nom: Paycom
+PAYO:
+  indice: S&P SmallCap 600
+  nom: Payoneer Global Inc.
 PAYX:
   indice: S&P 500
   nom: Paychex
+PB:
+  indice: S&P MidCap 400
+  nom: Prosperity Bancshares
+PBF:
+  indice: S&P MidCap 400
+  nom: PBF Energy
+PBH:
+  indice: S&P SmallCap 600
+  nom: Prestige Consumer Healthcare
+PBI:
+  indice: S&P SmallCap 600
+  nom: Pitney Bowes, Inc.
 PCAR:
   indice: S&P 500
   nom: Paccar
@@ -3255,18 +5349,48 @@ PCG:
 PCGH.L:
   indice: FTSE 250
   nom: Polar Capital Global Healthcare Trust
+PCRX:
+  indice: S&P SmallCap 600
+  nom: Pacira BioSciences, Inc.
 PCT.L:
   indice: FTSE 100
   nom: Polar Capital Technology Trust
+PCTY:
+  indice: S&P MidCap 400
+  nom: Paylocity
+PDFS:
+  indice: S&P SmallCap 600
+  nom: PDF Solutions, Inc.
+PEB:
+  indice: S&P SmallCap 600
+  nom: Pebblebrook Hotel Trust
+PECO:
+  indice: S&P SmallCap 600
+  nom: Phillips Edison & Company
 PEG:
   indice: S&P 500
   nom: Public Service Enterprise Group
+PEGA:
+  indice: S&P MidCap 400
+  nom: Pegasystems
+PEN:
+  indice: S&P MidCap 400
+  nom: Penumbra, Inc.
+PENG:
+  indice: S&P SmallCap 600
+  nom: Penguin Solutions, Inc.
+PENN:
+  indice: S&P SmallCap 600
+  nom: Penn Entertainment
 PETS.L:
   indice: FTSE 250
   nom: Pets at Home
 PEY.L:
   indice: FTSE 250
   nom: Partners Group Private Equity
+PFBC:
+  indice: S&P SmallCap 600
+  nom: Preferred Bank
 PFD.L:
   indice: FTSE 250
   nom: Premier Foods
@@ -3276,6 +5400,15 @@ PFE:
 PFG:
   indice: S&P 500
   nom: Principal Financial Group
+PFGC:
+  indice: S&P MidCap 400
+  nom: Performance Food Group
+PFS:
+  indice: S&P SmallCap 600
+  nom: Provident Financial Services, Inc.
+PGNY:
+  indice: S&P SmallCap 600
+  nom: Progyny, Inc.
 PGR:
   indice: S&P 500
   nom: Progressive Corporation
@@ -3285,6 +5418,9 @@ PH:
 PHI.L:
   indice: FTSE 250
   nom: Pacific Horizon Investment Trust
+PHIN:
+  indice: S&P SmallCap 600
+  nom: PHINIA, Inc.
 PHM:
   indice: S&P 500
   nom: PulteGroup
@@ -3294,39 +5430,78 @@ PHP.L:
 PHR.LS:
   indice: PSI
   nom: Pharol
+PI:
+  indice: S&P SmallCap 600
+  nom: Impinj, Inc.
+PII:
+  indice: S&P MidCap 400
+  nom: Polaris
 PIN.L:
   indice: FTSE 250
   nom: Pantheon International
 PINE.L:
   indice: FTSE 250
   nom: Pinewood Technologies
+PINS:
+  indice: S&P MidCap 400
+  nom: Pinterest
 PINT.L:
   indice: FTSE 250
   nom: Pantheon Infrastructure
+PIPR:
+  indice: S&P SmallCap 600
+  nom: Piper Sandler Companies
+PJT:
+  indice: S&P SmallCap 600
+  nom: PJT Partners, Inc.
+PK:
+  indice: S&P MidCap 400
+  nom: Park Hotels & Resorts
 PKG:
   indice: S&P 500
   nom: Packaging Corporation of America
+PLAB:
+  indice: S&P SmallCap 600
+  nom: Photronics, Inc.
 PLD:
   indice: S&P 500
   nom: Prologis
+PLMR:
+  indice: S&P SmallCap 600
+  nom: Palomar Holdings, Inc.
+PLNT:
+  indice: S&P MidCap 400
+  nom: Planet Fitness
 PLTR:
   indice: S&P 500
   nom: Palantir Technologies
+PLUS:
+  indice: S&P SmallCap 600
+  nom: ePlus, Inc.
 PLUS.L:
   indice: FTSE 250
   nom: Plus500
+PLXS:
+  indice: S&P SmallCap 600
+  nom: Plexus Corp.
 PM:
   indice: S&P 500
   nom: Philip Morris International
 PME.AX:
   indice: S&P/ASX 50
   nom: Pro Medicus
+PMT:
+  indice: S&P SmallCap 600
+  nom: PennyMac Mortgage Investment Trust
 PNC:
   indice: S&P 500
   nom: PNC Financial Services
 PNDORA.CO:
   indice: OMX Copenhagen 25
   nom: Pandora
+PNFP:
+  indice: S&P MidCap 400
+  nom: Pinnacle Financial Partners
 PNL.L:
   indice: FTSE 250
   nom: Personal Assets Trust
@@ -3345,9 +5520,27 @@ PODD:
 POLN.L:
   indice: FTSE 250
   nom: Pollen Street Group
+POOL:
+  indice: S&P SmallCap 600
+  nom: Pool Corporation
+POR:
+  indice: S&P MidCap 400
+  nom: Portland General Electric
+POST:
+  indice: S&P MidCap 400
+  nom: Post Holdings
 POW.TO:
   indice: S&P/TSX 60
   nom: Power Corporation of Canada
+POWI:
+  indice: S&P SmallCap 600
+  nom: Power Integrations
+POWL:
+  indice: S&P SmallCap 600
+  nom: Powell Industries, Inc.
+PPC:
+  indice: S&P MidCap 400
+  nom: Pilgrim's Pride
 PPET.L:
   indice: FTSE 250
   nom: Patria Private Equity Trust
@@ -3363,15 +5556,54 @@ PPL:
 PPL.TO:
   indice: S&P/TSX 60
   nom: Pembina Pipeline Corporation
+PPLI:
+  indice: S&P SmallCap 600
+  nom: People Inc.
+PR:
+  indice: S&P MidCap 400
+  nom: Permian Resources
+PRDO:
+  indice: S&P SmallCap 600
+  nom: Perdoceo Education Corp.
+PRG:
+  indice: S&P SmallCap 600
+  nom: PROG Holdings, Inc.
+PRGO:
+  indice: S&P SmallCap 600
+  nom: Perrigo
+PRGS:
+  indice: S&P SmallCap 600
+  nom: Progress Software Corporation
+PRI:
+  indice: S&P MidCap 400
+  nom: Primerica
+PRIM:
+  indice: S&P SmallCap 600
+  nom: Primoris Services Corporation
+PRK:
+  indice: S&P SmallCap 600
+  nom: Park National Corp.
+PRKS:
+  indice: S&P SmallCap 600
+  nom: United Parks & Resorts
+PRLB:
+  indice: S&P SmallCap 600
+  nom: Protolabs
 PRN.L:
   indice: FTSE 250
   nom: Princes Group
+PRSU:
+  indice: S&P SmallCap 600
+  nom: Pursuit Attractions & Hospitality, Inc.
 PRU:
   indice: S&P 500
   nom: Prudential Financial
 PRU.L:
   indice: FTSE 100
   nom: Prudential plc
+PRVA:
+  indice: S&P SmallCap 600
+  nom: Privia Health Group, Inc.
 PSA:
   indice: S&P 500
   nom: Public Storage
@@ -3381,6 +5613,12 @@ PSH.L:
 PSKY:
   indice: S&P 500
   nom: Paramount Skydance Corporation
+PSMT:
+  indice: S&P SmallCap 600
+  nom: PriceSmart
+PSN:
+  indice: S&P MidCap 400
+  nom: Parsons Corporation
 PSN.L:
   indice: FTSE 250
   nom: Persimmon
@@ -3396,21 +5634,42 @@ PSX:
 PTC:
   indice: S&P 500
   nom: PTC Inc.
+PTCT:
+  indice: S&P SmallCap 600
+  nom: PTC Therapeutics, Inc.
 PTEC.L:
   indice: FTSE 250
   nom: Playtech
+PTEN:
+  indice: S&P SmallCap 600
+  nom: Patterson-UTI Energy, Inc.
+PTGX:
+  indice: S&P SmallCap 600
+  nom: Protagonist Therapeutics, Inc.
+PTON:
+  indice: S&P SmallCap 600
+  nom: Peloton Interactive, Inc.
+PTSB.IR:
+  indice: ISEQ 20
+  nom: Permanent TSB
 PUIG.MC:
   indice: IBEX 35
   nom: Puig
 PUM.DE:
   indice: MDAX
   nom: Puma
+PVH:
+  indice: S&P MidCap 400
+  nom: PVH Corp.
 PWR:
   indice: S&P 500
   nom: Quanta Services
 PYPL:
   indice: S&P 500
   nom: PayPal
+PZZA:
+  indice: S&P SmallCap 600
+  nom: Papa John's Pizza
 Q:
   indice: S&P 500
   nom: Qnity Electronics
@@ -3423,30 +5682,60 @@ QBE.AX:
 QCOM:
   indice: S&P 500
   nom: Qualcomm
+QDEL:
+  indice: S&P SmallCap 600
+  nom: QuidelOrtho
 QIA.DE:
   indice: DAX
   nom: Qiagen
 QLT.L:
   indice: FTSE 250
   nom: Quilter
+QLYS:
+  indice: S&P MidCap 400
+  nom: Qualys
+QNST:
+  indice: S&P SmallCap 600
+  nom: QuinStreet, Inc.
 QQ.L:
   indice: FTSE 250
   nom: Qinetiq
+QRVO:
+  indice: S&P SmallCap 600
+  nom: Qorvo
 QSR.TO:
   indice: S&P/TSX 60
   nom: Restaurant Brands International Inc.
 QTCOM.HE:
   indice: OMX Helsinki 25
   nom: Qt Group
+QTWO:
+  indice: S&P SmallCap 600
+  nom: Q2 Holdings, Inc.
+R:
+  indice: S&P MidCap 400
+  nom: Ryder
 RAA.DE:
   indice: MDAX
   nom: Rational
+RAL:
+  indice: S&P SmallCap 600
+  nom: Ralliant Corp
+RAMP:
+  indice: S&P SmallCap 600
+  nom: LiveRamp Holdings, Inc.
 RAND.AS:
   indice: AEX
   nom: Randstad
 RAT.L:
   indice: FTSE 250
   nom: Rathbones
+RBA:
+  indice: S&P MidCap 400
+  nom: RB Global
+RBC:
+  indice: S&P MidCap 400
+  nom: RBC Bearings
 RBREW.CO:
   indice: OMX Copenhagen 25
   nom: Royal Unibrew
@@ -3459,12 +5748,21 @@ RCL:
 RCP.L:
   indice: FTSE 250
   nom: RIT Capital Partners
+RCUS:
+  indice: S&P SmallCap 600
+  nom: Arcus Biosciences, Inc.
 RDC.DE:
   indice: MDAX
   nom: Redcare Pharmacy
 RDDT:
   indice: S&P 500
   nom: Reddit
+RDN:
+  indice: S&P SmallCap 600
+  nom: Radian Group, Inc.
+RDNT:
+  indice: S&P SmallCap 600
+  nom: RadNet, Inc.
 REA.AX:
   indice: S&P/ASX 50
   nom: REA Group
@@ -3480,6 +5778,9 @@ REG:
 REGN:
   indice: S&P 500
   nom: Regeneron Pharmaceuticals
+RELY:
+  indice: S&P SmallCap 600
+  nom: Remitly
 REN.AS:
   indice: AEX
   nom: RELX
@@ -3489,18 +5790,54 @@ RENE.LS:
 REP.MC:
   indice: IBEX 35
   nom: Repsol
+RES:
+  indice: S&P SmallCap 600
+  nom: RPC, Inc.
+REX:
+  indice: S&P SmallCap 600
+  nom: REX American Resources Corporation
+REXR:
+  indice: S&P MidCap 400
+  nom: Rexford Industrial Realty
+REYN:
+  indice: S&P SmallCap 600
+  nom: Reynolds Consumer Products
+REZI:
+  indice: S&P SmallCap 600
+  nom: Resideo Technologies, Inc.
 RF:
   indice: S&P 500
   nom: Regions Financial Corporation
+RGA:
+  indice: S&P MidCap 400
+  nom: Reinsurance Group of America
+RGEN:
+  indice: S&P MidCap 400
+  nom: Repligen
+RGLD:
+  indice: S&P MidCap 400
+  nom: Royal Gold
+RH:
+  indice: S&P MidCap 400
+  nom: RH
+RHI:
+  indice: S&P SmallCap 600
+  nom: Robert Half
 RHIM.L:
   indice: FTSE 250
   nom: RHI Magnesita
+RHP:
+  indice: S&P SmallCap 600
+  nom: Ryman Hospitality Properties
 RICA.L:
   indice: FTSE 250
   nom: Ruffer Investment Company
 RIO.AX:
   indice: S&P/ASX 50
   nom: Rio Tinto
+RITM:
+  indice: S&P SmallCap 600
+  nom: Rithm Capital
 RJF:
   indice: S&P 500
   nom: Raymond James Financial
@@ -3510,6 +5847,12 @@ RKT.L:
 RL:
   indice: S&P 500
   nom: Ralph Lauren Corporation
+RLI:
+  indice: S&P MidCap 400
+  nom: RLI Corp.
+RMBS:
+  indice: S&P MidCap 400
+  nom: Rambus
 RMD:
   indice: S&P 500
   nom: ResMed|
@@ -3519,15 +5862,39 @@ RMD.AX:
 RMV.L:
   indice: FTSE 250
   nom: Rightmove
+RNG:
+  indice: S&P SmallCap 600
+  nom: RingCentral, Inc.
 RNK.L:
   indice: FTSE 250
   nom: Rank Group
+RNR:
+  indice: S&P MidCap 400
+  nom: RenaissanceRe
+RNST:
+  indice: S&P SmallCap 600
+  nom: Renasant Corp.
+ROAD:
+  indice: S&P SmallCap 600
+  nom: Construction Partners, Inc.
+ROCK:
+  indice: S&P SmallCap 600
+  nom: Gibraltar Industries, Inc.
 ROCK-B.CO:
   indice: OMX Copenhagen 25
   nom: Rockwool International
+ROG:
+  indice: S&P SmallCap 600
+  nom: Rogers Corporation
+ROIV:
+  indice: S&P MidCap 400
+  nom: Roivant Sciences
 ROK:
   indice: S&P 500
   nom: Rockwell Automation
+ROKU:
+  indice: S&P MidCap 400
+  nom: Roku, Inc.
 ROL:
   indice: S&P 500
   nom: Rollins, Inc.
@@ -3552,15 +5919,33 @@ ROVI.MC:
 RPI.L:
   indice: FTSE 250
   nom: Raspberry Pi Holdings
+RPM:
+  indice: S&P MidCap 400
+  nom: RPM International
+RRC:
+  indice: S&P MidCap 400
+  nom: Range Resources
+RRR:
+  indice: S&P SmallCap 600
+  nom: Red Rock Resorts, Inc.
 RRTL.DE:
   indice: MDAX
   nom: RTL Group
+RRX:
+  indice: S&P MidCap 400
+  nom: Regal Rexnord
+RS:
+  indice: S&P MidCap 400
+  nom: Reliance, Inc.
 RS1.L:
   indice: FTSE 250
   nom: RS Group
 RSG:
   indice: S&P 500
   nom: Republic Services
+RSI:
+  indice: S&P SmallCap 600
+  nom: Rush Street Interactive, Inc.
 RSW.L:
   indice: FTSE 250
   nom: Renishaw
@@ -3573,24 +5958,60 @@ RTW.L:
 RTX:
   indice: S&P 500
   nom: RTX Corporation
+RUN:
+  indice: S&P SmallCap 600
+  nom: Sunrun
+RUSHA:
+  indice: S&P SmallCap 600
+  nom: Rush Enterprises
 RVTY:
   indice: S&P 500
   nom: Revvity
+RXO:
+  indice: S&P SmallCap 600
+  nom: RXO, Inc.
+RYAN:
+  indice: S&P MidCap 400
+  nom: Ryan Specialty
+RYN:
+  indice: S&P MidCap 400
+  nom: Rayonier
 S32.AX:
   indice: S&P/ASX 50
   nom: South32
+S92.DE:
+  indice: TecDAX
+  nom: SMA Solar Technology AG
 SAAB-B.ST:
   indice: OMX Stockholm 30
   nom: Saab B
 SAB.MC:
   indice: IBEX 35
   nom: Banco Sabadell
+SABR:
+  indice: S&P SmallCap 600
+  nom: Sabre
+SAFE:
+  indice: S&P SmallCap 600
+  nom: Safehold, Inc.
 SAFE.L:
   indice: FTSE 250
   nom: Safestore
+SAFT:
+  indice: S&P SmallCap 600
+  nom: Safety Insurance Group, Inc.
 SAGA.L:
   indice: FTSE 250
   nom: Saga
+SAH:
+  indice: S&P SmallCap 600
+  nom: Sonic Automotive, Inc.
+SAIA:
+  indice: S&P MidCap 400
+  nom: Saia
+SAIC:
+  indice: S&P MidCap 400
+  nom: Science Applications Intl Corp
 SAIN.L:
   indice: FTSE 250
   nom: Scottish American Investment Company
@@ -3600,18 +6021,36 @@ SALM.OL:
 SAMPO.HE:
   indice: OMX Helsinki 25
   nom: Sampo A
+SANM:
+  indice: S&P MidCap 400
+  nom: Sanmina Corporation
 SAP.TO:
   indice: S&P/TSX 60
   nom: Saputo Inc.
+SARO:
+  indice: S&P MidCap 400
+  nom: StandardAero
 SAX.DE:
   indice: MDAX
   nom: Ströer
 SBAC:
   indice: S&P 500
   nom: SBA Communications
+SBCF:
+  indice: S&P SmallCap 600
+  nom: Seacoast Banking Corporation of Florida
+SBH:
+  indice: S&P SmallCap 600
+  nom: Sally Beauty Holdings, Inc.
+SBRA:
+  indice: S&P MidCap 400
+  nom: Sabra Health Care REIT
 SBRY.L:
   indice: FTSE 100
   nom: Sainsbury's
+SBSI:
+  indice: S&P SmallCap 600
+  nom: Southside Bancshares, Inc.
 SBUX:
   indice: S&P 500
   nom: Starbucks
@@ -3621,9 +6060,21 @@ SCA-B.ST:
 SCG.AX:
   indice: S&P/ASX 50
   nom: Scentre Group
+SCHL:
+  indice: S&P SmallCap 600
+  nom: Scholastic Corporation
 SCHW:
   indice: S&P 500
   nom: Charles Schwab Corporation
+SCI:
+  indice: S&P MidCap 400
+  nom: Service Corp Intl
+SCL:
+  indice: S&P SmallCap 600
+  nom: Stepan Company
+SCSC:
+  indice: S&P SmallCap 600
+  nom: ScanSource, Inc.
 SCT.L:
   indice: FTSE 250
   nom: Softcat
@@ -3633,6 +6084,9 @@ SCYR.MC:
 SDF.DE:
   indice: MDAX
   nom: K+S
+SDGR:
+  indice: S&P SmallCap 600
+  nom: Schrödinger, Inc.
 SDLF.L:
   indice: FTSE 100
   nom: Standard Life
@@ -3645,6 +6099,15 @@ SDZ.SW:
 SEB-A.ST:
   indice: OMX Stockholm 30
   nom: SEB A
+SEDG:
+  indice: S&P SmallCap 600
+  nom: SolarEdge
+SEI:
+  indice: S&P SmallCap 600
+  nom: Solaris Energy Infrastructure, Inc.
+SEIC:
+  indice: S&P MidCap 400
+  nom: SEI Investments Company
 SEIT.L:
   indice: FTSE 250
   nom: SDCL Efficiency Income Trust
@@ -3654,39 +6117,84 @@ SEM.LS:
 SEQI.L:
   indice: FTSE 250
   nom: Sequoia Economic Infrastructure Income Fund
+SEZL:
+  indice: S&P SmallCap 600
+  nom: Sezzle
+SF:
+  indice: S&P MidCap 400
+  nom: Stifel
+SFBS:
+  indice: S&P SmallCap 600
+  nom: ServisFirst Bancshares, Inc.
+SFM:
+  indice: S&P MidCap 400
+  nom: Sprouts Farmers Market
+SFNC:
+  indice: S&P SmallCap 600
+  nom: Simmons First National Corporation
 SGE.L:
   indice: FTSE 100
   nom: Sage Group
 SGH.AX:
   indice: S&P/ASX 50
   nom: Seven Group Holdings
+SGI:
+  indice: S&P MidCap 400
+  nom: Somnigroup International
 SGP.AX:
   indice: S&P/ASX 50
   nom: Stockland
 SGRO.L:
   indice: FTSE 100
   nom: Segro
+SHAK:
+  indice: S&P SmallCap 600
+  nom: Shake Shack, Inc.
 SHAW.L:
   indice: FTSE 250
   nom: Shawbrook Bank
 SHB-A.ST:
   indice: OMX Stockholm 30
   nom: Handelsbanken A
+SHC:
+  indice: S&P MidCap 400
+  nom: Sotera Health
 SHC.L:
   indice: FTSE 250
   nom: Shaftesbury Capital
 SHELL.AS:
   indice: AEX
   nom: Shell plc
+SHEN:
+  indice: S&P SmallCap 600
+  nom: Shenandoah Telecommunications Co
 SHL.DE:
   indice: DAX
   nom: Siemens Healthineers
+SHO:
+  indice: S&P SmallCap 600
+  nom: Sunstone Hotel Investors, Inc.
+SHOO:
+  indice: S&P SmallCap 600
+  nom: Steven Madden, Ltd.
 SHW:
   indice: S&P 500
   nom: Sherwin-Williams
+SIG:
+  indice: S&P SmallCap 600
+  nom: Signet Jewelers
 SIG.AX:
   indice: S&P/ASX 50
   nom: Sigma Healthcare
+SIGI:
+  indice: S&P MidCap 400
+  nom: Selective Insurance Group
+SIRI:
+  indice: S&P MidCap 400
+  nom: SiriusXM
+SITM:
+  indice: S&P MidCap 400
+  nom: SiTime
 SJM:
   indice: S&P 500
   nom: J.M. Smucker Company (The)
@@ -3696,30 +6204,75 @@ SKA-B.ST:
 SKF-B.ST:
   indice: OMX Stockholm 30
   nom: SKF B
+SKT:
+  indice: S&P SmallCap 600
+  nom: Tanger Factory Outlet Centers, Inc.
+SKY:
+  indice: S&P SmallCap 600
+  nom: Champion Homes, Inc.
+SKYW:
+  indice: S&P SmallCap 600
+  nom: SkyWest, Inc.
+SLAB:
+  indice: S&P MidCap 400
+  nom: Silicon Labs
 SLB:
   indice: S&P 500
   nom: Schlumberger
 SLF.TO:
   indice: S&P/TSX 60
   nom: Sun Life Financial Inc.
+SLG:
+  indice: S&P SmallCap 600
+  nom: SL Green Realty
+SLGN:
+  indice: S&P MidCap 400
+  nom: Silgan Holdings
 SLHN.SW:
   indice: SMI
   nom: Swiss Life Holding AG
+SLM:
+  indice: S&P MidCap 400
+  nom: SLM Corp
 SLR.MC:
   indice: IBEX 35
   nom: Solaria
+SLVM:
+  indice: S&P SmallCap 600
+  nom: Sylvamo Corp.
+SM:
+  indice: S&P SmallCap 600
+  nom: SM Energy Company
 SMCI:
   indice: S&P 500
   nom: Supermicro
+SMG:
+  indice: S&P MidCap 400
+  nom: Scotts Miracle-Gro Company
+SMHN.DE:
+  indice: TecDAX
+  nom: Suss Microtec SE
 SMIN.L:
   indice: FTSE 100
   nom: Smiths Group
+SMP:
+  indice: S&P SmallCap 600
+  nom: Standard Motor Products, Inc.
+SMPL:
+  indice: S&P SmallCap 600
+  nom: Simply Good Foods Company
 SMT.L:
   indice: FTSE 100
   nom: Scottish Mortgage Investment Trust
+SMTC:
+  indice: S&P MidCap 400
+  nom: Semtech
 SMWH.L:
   indice: FTSE 250
   nom: WHSmith
+SN:
+  indice: S&P MidCap 400
+  nom: SharkNinja
 SN.L:
   indice: FTSE 100
   nom: Smith & Nephew
@@ -3729,12 +6282,21 @@ SNA:
 SNDK:
   indice: S&P 500
   nom: Sandisk
+SNDR:
+  indice: S&P SmallCap 600
+  nom: Schneider National
+SNEX:
+  indice: S&P SmallCap 600
+  nom: StoneX Group Inc.
 SNPS:
   indice: S&P 500
   nom: Synopsys
 SNR.L:
   indice: FTSE 250
   nom: Senior
+SNX:
+  indice: S&P MidCap 400
+  nom: TD Synnex
 SO:
   indice: S&P 500
   nom: Southern Company
@@ -3744,27 +6306,51 @@ SOI.L:
 SOL.AX:
   indice: S&P/ASX 50
   nom: Soul Patts
+SOLS:
+  indice: S&P MidCap 400
+  nom: Solstice Advanced Materials
 SOLV:
   indice: S&P 500
   nom: Solventum
+SON:
+  indice: S&P MidCap 400
+  nom: Sonoco
 SON.LS:
   indice: PSI
   nom: Sonae
+SONO:
+  indice: S&P SmallCap 600
+  nom: Sonos, Inc.
 SPG:
   indice: S&P 500
   nom: Simon Property Group
 SPGI:
   indice: S&P 500
   nom: S&P Global
+SPHR:
+  indice: S&P SmallCap 600
+  nom: Sphere Entertainment
 SPI.L:
   indice: FTSE 250
   nom: Spire Healthcare
 SPM.MI:
   indice: FTSE MIB
   nom: Saipem
+SPNT:
+  indice: S&P SmallCap 600
+  nom: SiriusPoint Ltd.
+SPSC:
+  indice: S&P SmallCap 600
+  nom: SPS Commerce, Inc.
 SPX.L:
   indice: FTSE 100
   nom: Spirax Group
+SPXC:
+  indice: S&P MidCap 400
+  nom: SPX Technologies
+SR:
+  indice: S&P MidCap 400
+  nom: Spire
 SRE:
   indice: S&P 500
   nom: Sempra
@@ -3780,6 +6366,18 @@ SRG.MI:
 SRP.L:
   indice: FTSE 250
   nom: Serco
+SRPT:
+  indice: S&P SmallCap 600
+  nom: Sarepta Therapeutics
+SRT3.DE:
+  indice: TecDAX
+  nom: Sartorius AG
+SSB:
+  indice: S&P MidCap 400
+  nom: South State Bank
+SSD:
+  indice: S&P MidCap 400
+  nom: Simpson Manufacturing
 SSE.L:
   indice: FTSE 100
   nom: SSE plc
@@ -3789,15 +6387,33 @@ SSIT.L:
 SSPG.L:
   indice: FTSE 250
   nom: SSP Group
+ST:
+  indice: S&P MidCap 400
+  nom: Sensata Technologies
+STAA:
+  indice: S&P SmallCap 600
+  nom: STAAR Surgical Company
+STAG:
+  indice: S&P MidCap 400
+  nom: STAG Industrial
 STAN.L:
   indice: FTSE 100
   nom: Standard Chartered
 STB.OL:
   indice: OBX
   nom: Storebrand
+STBA:
+  indice: S&P SmallCap 600
+  nom: S&T Bancorp, Inc.
+STC:
+  indice: S&P SmallCap 600
+  nom: Stewart Information Services Corporation
 STE:
   indice: S&P 500
   nom: Steris
+STEP:
+  indice: S&P SmallCap 600
+  nom: StepStone Group
 STERV.HE:
   indice: OMX Helsinki 25
   nom: Stora Enso R
@@ -3822,9 +6438,18 @@ STMPA.PA:
 STO.AX:
   indice: S&P/ASX 50
   nom: Santos
+STRA:
+  indice: S&P SmallCap 600
+  nom: Strategic Education, Inc.
+STRL:
+  indice: S&P MidCap 400
+  nom: Sterling Infrastructure
 STT:
   indice: S&P 500
   nom: State Street Corporation
+STWD:
+  indice: S&P MidCap 400
+  nom: Starwood Property Trust
 STX:
   indice: S&P 500
   nom: Seagate Technology
@@ -3837,9 +6462,15 @@ SU.TO:
 SUBC.OL:
   indice: OBX
   nom: Subsea 7
+SUI:
+  indice: S&P MidCap 400
+  nom: Sun Communities
 SUN.AX:
   indice: S&P/ASX 50
   nom: Suncorp
+SUPN:
+  indice: S&P SmallCap 600
+  nom: Supernus Pharmaceuticals, Inc.
 SUPR.L:
   indice: FTSE 250
   nom: Supermarket Income REIT
@@ -3861,12 +6492,24 @@ SWK:
 SWKS:
   indice: S&P 500
   nom: Skyworks Solutions
+SWX:
+  indice: S&P MidCap 400
+  nom: Southwest Gas Corp
+SXI:
+  indice: S&P SmallCap 600
+  nom: Standex International Corporation
+SXT:
+  indice: S&P SmallCap 600
+  nom: Sensient Technologies
 SYF:
   indice: S&P 500
   nom: Synchrony Financial
 SYK:
   indice: S&P 500
   nom: Stryker Corporation
+SYNA:
+  indice: S&P MidCap 400
+  nom: Synaptics
 SYNC.L:
   indice: FTSE 250
   nom: Syncona
@@ -3879,21 +6522,39 @@ T:
 T.TO:
   indice: S&P/TSX 60
   nom: Telus Corporation
+TALO:
+  indice: S&P SmallCap 600
+  nom: Talos Energy, Inc.
 TATE.L:
   indice: FTSE 250
   nom: Tate & Lyle
+TBBK:
+  indice: S&P SmallCap 600
+  nom: The Bancorp, Inc.
 TBCG.L:
   indice: FTSE 250
   nom: TBC Bank
 TCAP.L:
   indice: FTSE 250
   nom: TP ICAP
+TCBI:
+  indice: S&P MidCap 400
+  nom: Texas Capital Bancshares
 TCL.AX:
   indice: S&P/ASX 50
   nom: Transurban
+TDC:
+  indice: S&P SmallCap 600
+  nom: Teradata
 TDG:
   indice: S&P 500
   nom: TransDigm Group
+TDS:
+  indice: S&P SmallCap 600
+  nom: Telephone and Data Systems, Inc.
+TDW:
+  indice: S&P SmallCap 600
+  nom: Tidewater, Inc.
 TDY:
   indice: S&P 500
   nom: Teledyne Technologies
@@ -3936,27 +6597,54 @@ TER:
 TESB.BR:
   indice: BEL 20
   nom: Tessenderlo
+TEX:
+  indice: S&P MidCap 400
+  nom: Terex
 TFC:
   indice: S&P 500
   nom: Truist Financial
 TFIF.L:
   indice: FTSE 250
   nom: Twentyfour Income Fund
+TFIN:
+  indice: S&P SmallCap 600
+  nom: Triumph Bancorp, Inc.
+TFX:
+  indice: S&P SmallCap 600
+  nom: Teleflex
 TGS.OL:
   indice: OBX
   nom: TGS ASA
 TGT:
   indice: S&P 500
   nom: Target Corporation
+TGTX:
+  indice: S&P SmallCap 600
+  nom: TG Therapeutics, Inc.
+THC:
+  indice: S&P MidCap 400
+  nom: Tenet Health
+THG:
+  indice: S&P MidCap 400
+  nom: Hanover Insurance
 THG.L:
   indice: FTSE 250
   nom: THG
+THO:
+  indice: S&P MidCap 400
+  nom: Thor Industries
 THRL.L:
   indice: FTSE 250
   nom: Target Healthcare REIT
+THRM:
+  indice: S&P SmallCap 600
+  nom: Gentherm Incorporated
 TIETO.HE:
   indice: OMX Helsinki 25
   nom: TietoEVRY
+TILE:
+  indice: S&P SmallCap 600
+  nom: Interface, Inc.
 TIT.MI:
   indice: FTSE MIB
   nom: Telecom Italia
@@ -3969,15 +6657,27 @@ TKA.DE:
 TKO:
   indice: S&P 500
   nom: TKO Group Holdings
+TKR:
+  indice: S&P MidCap 400
+  nom: Timken
+TLN:
+  indice: S&P MidCap 400
+  nom: Talen Energy
 TLS.AX:
   indice: S&P/ASX 50
   nom: Telstra
 TLX.DE:
   indice: MDAX
   nom: Talanx
+TMDX:
+  indice: S&P SmallCap 600
+  nom: TransMedics Group, Inc.
 TMO:
   indice: S&P 500
   nom: Thermo Fisher Scientific
+TMP:
+  indice: S&P SmallCap 600
+  nom: Tompkins Financial Corporation
 TMPL.L:
   indice: FTSE 250
   nom: Temple Bar Investment Trust
@@ -3987,12 +6687,33 @@ TMUS:
 TMV.DE:
   indice: MDAX
   nom: TeamViewer
+TNC:
+  indice: S&P SmallCap 600
+  nom: Tennant Company
+TNDM:
+  indice: S&P SmallCap 600
+  nom: Tandem Diabetes Care
+TNL:
+  indice: S&P MidCap 400
+  nom: Travel + Leisure Co.
+TOL:
+  indice: S&P MidCap 400
+  nom: Toll Brothers
 TOM.OL:
   indice: OBX
   nom: Tomra Systems
+TOST:
+  indice: S&P MidCap 400
+  nom: Toast, Inc.
 TOU.TO:
   indice: S&P/TSX 60
   nom: Tourmaline Oil Corp.
+TPC:
+  indice: S&P SmallCap 600
+  nom: Tutor Perini Corporation
+TPE.DE:
+  indice: TecDAX
+  nom: PVA TePla AG
 TPK.L:
   indice: FTSE 250
   nom: Travis Perkins
@@ -4002,6 +6723,12 @@ TPL:
 TPR:
   indice: S&P 500
   nom: Tapestry, Inc.
+TR:
+  indice: S&P SmallCap 600
+  nom: Tootsie Roll Industries, Inc.
+TREX:
+  indice: S&P MidCap 400
+  nom: Trex
 TRGP:
   indice: S&P 500
   nom: Targa Resources
@@ -4011,24 +6738,45 @@ TRI.TO:
 TRIG.L:
   indice: FTSE 250
   nom: The Renewables Infrastructure Group
+TRIP:
+  indice: S&P SmallCap 600
+  nom: TripAdvisor
 TRMB:
   indice: S&P 500
   nom: Trimble Inc.
+TRMK:
+  indice: S&P SmallCap 600
+  nom: Trustmark Corp.
+TRN:
+  indice: S&P SmallCap 600
+  nom: Trinity Industries, Inc.
 TRN.L:
   indice: FTSE 250
   nom: Trainline
 TRN.MI:
   indice: FTSE MIB
   nom: Terna
+TRNO:
+  indice: S&P SmallCap 600
+  nom: Terreno Realty Corporation
 TROW:
   indice: S&P 500
   nom: T. Rowe Price
 TRP.TO:
   indice: S&P/TSX 60
   nom: TC Energy Corporation
+TRST:
+  indice: S&P SmallCap 600
+  nom: TrustCo Bank Corp NY
 TRST.L:
   indice: FTSE 250
   nom: Trustpilot
+TRU:
+  indice: S&P MidCap 400
+  nom: TransUnion
+TRUP:
+  indice: S&P SmallCap 600
+  nom: Trupanion
 TRV:
   indice: S&P 500
   nom: Travelers Companies (The)
@@ -4050,6 +6798,15 @@ TSN:
 TT:
   indice: S&P 500
   nom: Trane Technologies
+TTC:
+  indice: S&P MidCap 400
+  nom: Toro
+TTEK:
+  indice: S&P MidCap 400
+  nom: Tetra Tech
+TTMI:
+  indice: S&P MidCap 400
+  nom: TTM Technologies
 TTWO:
   indice: S&P 500
   nom: Take-Two Interactive
@@ -4059,9 +6816,18 @@ TUI1.DE:
 TW.L:
   indice: FTSE 250
   nom: Taylor Wimpey
+TWLO:
+  indice: S&P MidCap 400
+  nom: Twilio
 TXN:
   indice: S&P 500
   nom: Texas Instruments
+TXNM:
+  indice: S&P MidCap 400
+  nom: TXNM Energy
+TXRH:
+  indice: S&P MidCap 400
+  nom: Texas Roadhouse
 TXT:
   indice: S&P 500
   nom: Textron
@@ -4071,48 +6837,108 @@ TYL:
 TYRES.HE:
   indice: OMX Helsinki 25
   nom: Nokian Tyres
+UA:
+  indice: S&P SmallCap 600
+  nom: Under Armour (Class C)
+UAA:
+  indice: S&P SmallCap 600
+  nom: Under Armour (Class A)
 UAL:
   indice: S&P 500
   nom: United Airlines Holdings
 UBER:
   indice: S&P 500
   nom: Uber
+UBSI:
+  indice: S&P MidCap 400
+  nom: United Bankshares
+UCB:
+  indice: S&P SmallCap 600
+  nom: United Community Banks, Inc.
+UCTT:
+  indice: S&P SmallCap 600
+  nom: Ultra Clean Holdings, Inc.
 UDR:
   indice: S&P 500
   nom: UDR, Inc.
+UE:
+  indice: S&P SmallCap 600
+  nom: Urban Edge Properties
 UEM.L:
   indice: FTSE 250
   nom: Utilico Emerging Markets
+UFCS:
+  indice: S&P SmallCap 600
+  nom: United Fire Group, Inc.
+UFPI:
+  indice: S&P MidCap 400
+  nom: UFP Industries
+UFPT:
+  indice: S&P SmallCap 600
+  nom: UFP Technologies, Inc.
+UGI:
+  indice: S&P MidCap 400
+  nom: UGI Corp
 UHS:
   indice: S&P 500
   nom: Universal Health Services
 UKW.L:
   indice: FTSE 250
   nom: Greencoat UK Wind
+ULS:
+  indice: S&P MidCap 400
+  nom: UL Solutions
 ULTA:
   indice: S&P 500
   nom: Ulta Beauty
+UMBF:
+  indice: S&P MidCap 400
+  nom: UMB Financial Corp.
 UMG.AS:
   indice: AEX
   nom: Universal Music Group
 UNA.AS:
   indice: AEX
   nom: Unilever
+UNF:
+  indice: S&P SmallCap 600
+  nom: UniFirst Corporation
+UNFI:
+  indice: S&P SmallCap 600
+  nom: United Natural Foods Inc
 UNI.MC:
   indice: IBEX 35
   nom: Unicaja
 UNI.MI:
   indice: FTSE MIB
   nom: Unipol
+UNIT:
+  indice: S&P SmallCap 600
+  nom: Uniti Group
+UNM:
+  indice: S&P MidCap 400
+  nom: Unum
 UNP:
   indice: S&P 500
   nom: Union Pacific Corporation
+UPBD:
+  indice: S&P SmallCap 600
+  nom: Upbound Group, Inc.
 UPM.HE:
   indice: OMX Helsinki 25
   nom: UPM-Kymmene
+UPR.IR:
+  indice: ISEQ 20
+  nom: Uniphar
 UPS:
   indice: S&P 500
   nom: United Parcel Service
+UPWK:
+  indice: S&P SmallCap 600
+  nom: Upwork, Inc.
+URBN:
+  indice: S&P SmallCap 600
+  nom: Urban Outfitters, Inc.
 URI:
   indice: S&P 500
   nom: United Rentals
@@ -4125,15 +6951,42 @@ USA.L:
 USB:
   indice: S&P 500
   nom: U.S. Bancorp
+USFD:
+  indice: S&P MidCap 400
+  nom: US Foods
+USLM:
+  indice: S&P SmallCap 600
+  nom: United States Lime & Minerals, Inc.
+USPH:
+  indice: S&P SmallCap 600
+  nom: U.S. Physical Therapy, Inc.
 UTDI.DE:
   indice: MDAX
   nom: United Internet
 UTG.L:
   indice: FTSE 250
   nom: Unite Group
+UTHR:
+  indice: S&P MidCap 400
+  nom: United Therapeutics
+UTI:
+  indice: S&P SmallCap 600
+  nom: Universal Technical Institute
+UTL:
+  indice: S&P SmallCap 600
+  nom: Unitil Corporation
 UU.L:
   indice: FTSE 100
   nom: United Utilities
+UVV:
+  indice: S&P SmallCap 600
+  nom: Universal Corporation
+VAC:
+  indice: S&P SmallCap 600
+  nom: Marriott Vacations Worldwide
+VAL:
+  indice: S&P MidCap 400
+  nom: Valaris
 VALMT.HE:
   indice: OMX Helsinki 25
   nom: Valmet
@@ -4143,18 +6996,54 @@ VAR.OL:
 VAS.AX:
   indice: S&P/ASX 50
   nom: Vanguard Australian Shares
+VBK.DE:
+  indice: TecDAX
+  nom: Verbio SE
+VC:
+  indice: S&P MidCap 400
+  nom: Visteon
+VCEL:
+  indice: S&P SmallCap 600
+  nom: Vericel
 VCT.L:
   indice: FTSE 250
   nom: Victrex
+VCTR:
+  indice: S&P SmallCap 600
+  nom: Victory Capital Holdings, Inc.
+VCYT:
+  indice: S&P SmallCap 600
+  nom: Veracyte, Inc.
+VECO:
+  indice: S&P SmallCap 600
+  nom: Veeco Instruments Inc.
 VEEV:
   indice: S&P 500
   nom: Veeva Systems
 VEIL.L:
   indice: FTSE 250
   nom: Vietnam Enterprise Investments
+VFC:
+  indice: S&P MidCap 400
+  nom: VF Corporation
+VGNT:
+  indice: S&P SmallCap 600
+  nom: Versigent PLC
+VIAV:
+  indice: S&P MidCap 400
+  nom: Viavi Solutions
 VICI:
   indice: S&P 500
   nom: Vici Properties
+VICR:
+  indice: S&P MidCap 400
+  nom: Vicor Corporation
+VIR:
+  indice: S&P SmallCap 600
+  nom: Vir Biotechnology, Inc.
+VIRT:
+  indice: S&P SmallCap 600
+  nom: Virtu Financial, Inc.
 VLO:
   indice: S&P 500
   nom: Valero Energy
@@ -4164,21 +7053,42 @@ VLTO:
 VLX.L:
   indice: FTSE 250
   nom: Volex
+VLY:
+  indice: S&P MidCap 400
+  nom: Valley Bank
 VMC:
   indice: S&P 500
   nom: Vulcan Materials Company
+VMI:
+  indice: S&P MidCap 400
+  nom: Valmont Industries
 VMRK:
   indice: S&P 500
   nom: Vivmark Residential
 VNA.DE:
   indice: DAX
   nom: Vonovia
+VNO:
+  indice: S&P MidCap 400
+  nom: Vornado Realty Trust
+VNOM:
+  indice: S&P MidCap 400
+  nom: Viper Energy
+VNT:
+  indice: S&P MidCap 400
+  nom: Vontier
 VOD.L:
   indice: FTSE 100
   nom: Vodafone Group
 VOF.L:
   indice: FTSE 250
   nom: VinaCapital Vietnam Opportunity Fund
+VOYA:
+  indice: S&P MidCap 400
+  nom: Voya Financial
+VRRM:
+  indice: S&P SmallCap 600
+  nom: Verra Mobility Corporation
 VRSK:
   indice: S&P 500
   nom: Verisk Analytics
@@ -4188,15 +7098,39 @@ VRSN:
 VRT:
   indice: S&P 500
   nom: Vertiv
+VRTS:
+  indice: S&P SmallCap 600
+  nom: Virtus Investment Partners, Inc.
 VRTX:
   indice: S&P 500
   nom: Vertex Pharmaceuticals
+VSAT:
+  indice: S&P SmallCap 600
+  nom: Viasat, Inc.
+VSEC:
+  indice: S&P SmallCap 600
+  nom: VSE Corporation
+VSH:
+  indice: S&P SmallCap 600
+  nom: Vishay Intertechnology
+VSNT:
+  indice: S&P SmallCap 600
+  nom: Versant Media Group, Inc.
 VST:
   indice: S&P 500
   nom: Vistra Corp.
+VSTS:
+  indice: S&P SmallCap 600
+  nom: Vestis
 VSVS.L:
   indice: FTSE 250
   nom: Vesuvius
+VSXY:
+  indice: S&P SmallCap 600
+  nom: Victoria's Secret
+VTOL:
+  indice: S&P SmallCap 600
+  nom: Bristow Group Inc.
 VTR:
   indice: S&P 500
   nom: Ventas
@@ -4206,39 +7140,69 @@ VTRS:
 VTY.L:
   indice: FTSE 250
   nom: Vistry Group
+VVV:
+  indice: S&P MidCap 400
+  nom: Valvoline
+VVX:
+  indice: S&P SmallCap 600
+  nom: V2X, Inc.
+VYX:
+  indice: S&P SmallCap 600
+  nom: NCR Voyix
 VZ:
   indice: S&P 500
   nom: Verizon
 WAB:
   indice: S&P 500
   nom: Wabtec
+WABC:
+  indice: S&P SmallCap 600
+  nom: Westamerica Bank
 WAF.DE:
   indice: MDAX
   nom: Siltronic
+WAFD:
+  indice: S&P SmallCap 600
+  nom: WaFd, Inc.
+WAL:
+  indice: S&P MidCap 400
+  nom: Western Alliance Bancorporation
 WAT:
   indice: S&P 500
   nom: Waters Corporation
 WAWI.OL:
   indice: OBX
   nom: Wallenius Wilhelmsen
+WAY:
+  indice: S&P SmallCap 600
+  nom: Waystar Holding Corp
 WBC.AX:
   indice: S&P/ASX 50
   nom: Westpac
 WBD:
   indice: S&P 500
   nom: Warner Bros. Discovery
+WCC:
+  indice: S&P MidCap 400
+  nom: WESCO International
 WCH.DE:
   indice: MDAX
   nom: Wacker Chemie
 WCN.TO:
   indice: S&P/TSX 60
   nom: Waste Connections Inc.
+WD:
+  indice: S&P SmallCap 600
+  nom: Walker & Dunlop, Inc.
 WDAY:
   indice: S&P 500
   nom: Workday, Inc.
 WDC:
   indice: S&P 500
   nom: Western Digital
+WDFC:
+  indice: S&P SmallCap 600
+  nom: WD-40 Company
 WDS.AX:
   indice: S&P/ASX 50
   nom: Woodside Energy
@@ -4251,33 +7215,84 @@ WEIR.L:
 WELL:
   indice: S&P 500
   nom: Welltower
+WEN:
+  indice: S&P SmallCap 600
+  nom: The Wendy's Company
+WERN:
+  indice: S&P SmallCap 600
+  nom: Werner Enterprises
+WEX:
+  indice: S&P MidCap 400
+  nom: WEX Inc.
 WFC:
   indice: S&P 500
   nom: Wells Fargo
+WFRD:
+  indice: S&P MidCap 400
+  nom: Weatherford International
+WGO:
+  indice: S&P SmallCap 600
+  nom: Winnebago Industries, Inc.
+WH:
+  indice: S&P MidCap 400
+  nom: Wyndham Hotels & Resorts
+WHD:
+  indice: S&P SmallCap 600
+  nom: Cactus, Inc.
+WHR:
+  indice: S&P MidCap 400
+  nom: Whirlpool Corporation
+WINA:
+  indice: S&P SmallCap 600
+  nom: Winmark
+WING:
+  indice: S&P MidCap 400
+  nom: Wingstop
 WIX.L:
   indice: FTSE 250
   nom: Wickes
 WIZZ.L:
   indice: FTSE 250
   nom: Wizz Air
+WKC:
+  indice: S&P SmallCap 600
+  nom: World Kinect Corporation
 WKP.L:
   indice: FTSE 250
   nom: Workspace Group
+WLK:
+  indice: S&P MidCap 400
+  nom: Westlake Corporation
+WLY:
+  indice: S&P SmallCap 600
+  nom: John Wiley & Sons
 WM:
   indice: S&P 500
   nom: Waste Management
 WMB:
   indice: S&P 500
   nom: Williams Companies
+WMG:
+  indice: S&P MidCap 400
+  nom: Warner Music Group
+WMS:
+  indice: S&P MidCap 400
+  nom: Advanced Drainage Systems
 WN.TO:
   indice: S&P/TSX 60
   nom: George Weston Limited
+WOR:
+  indice: S&P SmallCap 600
+  nom: Worthington Enterprises
 WOSG.L:
   indice: FTSE 250
   nom: Watches of Switzerland
 WOW.AX:
   indice: S&P/ASX 50
   nom: Woolworths
+WPC:
+  indice: S&P MidCap 400
+  nom: W. P. Carey
 WPM.TO:
   indice: S&P/TSX 60
   nom: Wheaton Precious Metals Corp.
@@ -4287,27 +7302,69 @@ WPP.L:
 WRB:
   indice: S&P 500
   nom: W. R. Berkley Corporation
+WRBY:
+  indice: S&P SmallCap 600
+  nom: Warby Parker
+WRLD:
+  indice: S&P SmallCap 600
+  nom: World Acceptance Corporation
 WRT1V.HE:
   indice: OMX Helsinki 25
   nom: Wärtsilä
+WS:
+  indice: S&P SmallCap 600
+  nom: Worthington Steel
+WSBC:
+  indice: S&P SmallCap 600
+  nom: WesBanco
+WSC:
+  indice: S&P SmallCap 600
+  nom: WillScot Holdings Corp.
+WSFS:
+  indice: S&P SmallCap 600
+  nom: WSFS Financial Corporation
 WSM:
   indice: S&P 500
   nom: Williams-Sonoma, Inc.
+WSO:
+  indice: S&P MidCap 400
+  nom: Watsco
 WSP.TO:
   indice: S&P/TSX 60
   nom: WSP Global Inc.
 WST:
   indice: S&P 500
   nom: West Pharmaceutical Services
+WT:
+  indice: S&P SmallCap 600
+  nom: WisdomTree Investments, Inc.
 WTB.L:
   indice: FTSE 100
   nom: Whitbread
+WTFC:
+  indice: S&P MidCap 400
+  nom: Wintrust Financial
+WTRG:
+  indice: S&P MidCap 400
+  nom: Essential Utilities
+WTS:
+  indice: S&P MidCap 400
+  nom: Watts Water Technologies
 WTW:
   indice: S&P 500
   nom: Willis Towers Watson
+WU:
+  indice: S&P SmallCap 600
+  nom: Western Union
+WWD:
+  indice: S&P MidCap 400
+  nom: Woodward, Inc.
 WWH.L:
   indice: FTSE 250
   nom: Worldwide Healthcare Trust
+WWW:
+  indice: S&P SmallCap 600
+  nom: Wolverine World Wide, Inc.
 WY:
   indice: S&P 500
   nom: Weyerhaeuser
@@ -4317,15 +7374,30 @@ WYNN:
 XEL:
   indice: S&P 500
   nom: Xcel Energy
+XHR:
+  indice: S&P SmallCap 600
+  nom: Xenia Hotels & Resorts, Inc.
+XNCR:
+  indice: S&P SmallCap 600
+  nom: Xencor Inc
 XOM:
   indice: S&P 500
   nom: ExxonMobil
+XPEL:
+  indice: S&P SmallCap 600
+  nom: XPEL, Inc.
+XPO:
+  indice: S&P MidCap 400
+  nom: XPO, Inc.
 XPP.L:
   indice: FTSE 250
   nom: XP Power
 XPS.L:
   indice: FTSE 250
   nom: XPS Pensions
+XRAY:
+  indice: S&P MidCap 400
+  nom: Dentsply Sirona
 XRO.AX:
   indice: S&P/ASX 50
   nom: Xero
@@ -4341,6 +7413,15 @@ XYZ.AX:
 YAR.OL:
   indice: OBX
   nom: Yara International
+YELP:
+  indice: S&P SmallCap 600
+  nom: Yelp, Inc.
+YETI:
+  indice: S&P MidCap 400
+  nom: Yeti Holdings
+YOU:
+  indice: S&P SmallCap 600
+  nom: Clear Secure, Inc.
 YUM:
   indice: S&P 500
   nom: Yum! Brands
@@ -4350,12 +7431,21 @@ ZBH:
 ZBRA:
   indice: S&P 500
   nom: Zebra Technologies
+ZD:
+  indice: S&P SmallCap 600
+  nom: Ziff Davis
 ZEAL.CO:
   indice: OMX Copenhagen 25
   nom: Zealand Pharma
 ZIG.L:
   indice: FTSE 250
   nom: Zigup
+ZION:
+  indice: S&P MidCap 400
+  nom: Zions Bancorporation
 ZTS:
   indice: S&P 500
   nom: Zoetis
+ZWS:
+  indice: S&P SmallCap 600
+  nom: Zurn Elkay Water Solutions Corp.
