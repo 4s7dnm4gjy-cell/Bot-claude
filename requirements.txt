@@ -5,3 +5,4 @@ requests>=2.31
 yfinance>=0.2.40
 pytest>=8.0
 matplotlib>=3.7
+lxml>=5.0

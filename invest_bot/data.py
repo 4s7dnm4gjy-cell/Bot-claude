@@ -25,8 +25,23 @@ def fetch_prices(tickers: list[str], start: str = "2000-01-01", use_cache: bool 
     import yfinance as yf  # import tardif : inutile pour les tests
 
     series = {}
-    for t in tickers:  # un par un : le téléchargement parallèle de yfinance verrouille son cache
-        for essai in range(4):
+    paquet = 100  # téléchargement par lots : ~10 fois plus rapide qu'un par un
+    for i in range(0, len(tickers), paquet):
+        lot = tickers[i:i + paquet]
+        try:
+            raw = yf.download(lot, start=start, auto_adjust=True, progress=False, threads=False)
+        except Exception as e:
+            print(f"Lot {i // paquet + 1} en échec ({type(e).__name__}), reprise titre par titre")
+            raw = pd.DataFrame()
+        if not raw.empty:
+            close = raw["Close"]
+            if not isinstance(close, pd.DataFrame):
+                close = close.to_frame(lot[0])
+            for t in lot:
+                if t in close and close[t].notna().any():
+                    series[t] = close[t]
+    for t in [t for t in tickers if t not in series]:  # rattrapage un par un
+        for essai in range(4 if strict else 2):
             raw = yf.download(t, start=start, auto_adjust=True, progress=False, threads=False)
             if not raw.empty:
                 break

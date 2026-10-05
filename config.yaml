@@ -62,5 +62,6 @@ radar:
   montant: 150         # montant suggéré par opportunité (€)
   part_max: 0.20       # au plus 20 % du portefeuille en titres individuels
   delai_jours: 30      # pas deux alertes sur le même titre en 30 jours
-  # Liste des ~220 titres surveillés (monde entier) : voir radar_liste.yaml.
-  fichier: radar_liste.yaml
+  # radar_liste.yaml : ~220 titres choisis à la main (avec ISIN).
+  # radar_univers.yaml : composition des grands indices mondiaux, mise à jour chaque mois.
+  fichiers: [radar_liste.yaml, radar_univers.yaml]  # liste vérifiée + univers automatique

@@ -202,6 +202,8 @@ def main(argv: list[str] | None = None) -> None:
     c = sub.add_parser("commentaire", help="traite une réponse (oui/non/…) laissée sur un ticket")
     c.add_argument("--ticket", type=int, required=True)
 
+    sub.add_parser("univers", help="reconstruit radar_univers.yaml à partir des grands indices mondiaux")
+
     d = sub.add_parser("deposit")
     d.add_argument("amount", type=float)
 
@@ -210,6 +212,14 @@ def main(argv: list[str] | None = None) -> None:
 
     if args.cmd == "backtest":
         cmd_backtest(args, cfg)
+    elif args.cmd == "univers":
+        import yaml
+
+        from .univers import construire
+
+        manuel = Path(args.config).parent / "radar_liste.yaml"
+        deja = yaml.safe_load(manuel.read_text(encoding="utf-8")) if manuel.exists() else {}
+        construire(Path(args.config).parent / "radar_univers.yaml", deja)
     elif args.cmd == "conseil":
         cmd_conseil(args, cfg)
     elif args.cmd == "publier":

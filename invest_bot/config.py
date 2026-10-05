@@ -19,6 +19,7 @@ class ReserveTier:
 RADAR_DEFAUTS = {
     "liste": {},          # ticker Yahoo -> {nom, isin, type}
     "fichier": None,      # fichier YAML avec la liste (ajoutée à `liste`)
+    "fichiers": [],       # plusieurs fichiers (le premier est prioritaire)
     "score_min": 70,      # affiché dans le bulletin à partir de ce score
     "score_alerte": 85,   # ticket « opportunité » à partir de ce score
     "montant": 150,       # montant suggéré par opportunité (€)
@@ -111,9 +112,15 @@ def load_config(path: str | Path) -> Config:
     raw = yaml.safe_load(Path(path).read_text(encoding="utf-8")) or {}
     tiers = [ReserveTier(**t) for t in raw.pop("reserve_tiers", []) or []]
     radar = raw.get("radar") or {}
-    if radar.get("fichier"):
-        chemin = Path(path).parent / radar["fichier"]
-        radar["liste"] = {**(yaml.safe_load(chemin.read_text(encoding="utf-8")) or {}), **(radar.get("liste") or {})}
+    fichiers = radar.get("fichiers") or ([radar["fichier"]] if radar.get("fichier") else [])
+    if fichiers:
+        liste: dict = {}
+        for nom in fichiers:  # les premiers fichiers sont prioritaires (ISIN, noms vérifiés)
+            chemin = Path(path).parent / nom
+            if chemin.exists():
+                for t, info in (yaml.safe_load(chemin.read_text(encoding="utf-8")) or {}).items():
+                    liste.setdefault(t, info)
+        radar["liste"] = {**liste, **(radar.get("liste") or {})}
     cfg = Config(reserve_tiers=tiers, **raw)
     cfg.validate()
     return cfg

@@ -264,9 +264,10 @@ def lire_actualites(cfg: Config, opportunites: list[Opportunite]) -> dict[str, n
     """Lit l'actualité des titres affichés et de tous les candidats à une alerte."""
     if not cfg.radar.get("actualites"):
         return {}
-    choix = opportunites[: cfg.radar["actualites_nb"]] + [
-        o for o in opportunites if o.score >= cfg.radar["score_alerte"]
-    ]
+    # Les titres affichés dans le bulletin, plus les premiers candidats à une alerte
+    # (limité : avec un grand univers, des centaines de titres peuvent être soldés).
+    candidats = [o for o in opportunites if o.score >= cfg.radar["score_alerte"] and o.favorable]
+    choix = opportunites[: cfg.radar["actualites_nb"]] + candidats[:15]
     actus = {}
     for o in choix:
         if o.ticker not in actus:
@@ -296,6 +297,8 @@ def evaluer_radar(cfg: Config, etat: dict, prix: pd.DataFrame, prix_radar: pd.Da
         if o.score < r["score_alerte"] or not o.favorable:
             continue
         act = (actus or {}).get(o.ticker)
+        if act is None and r.get("actualites") and actus is not None:
+            act = actus[o.ticker] = news.verifier(o.nom, o.vs_marche_3m)  # lu seulement si nécessaire
         if act is not None and act.verdict == "rouge":
             continue  # vraie mauvaise nouvelle : ce n'est pas une opportunité
         derniere = etat["radar_alertes"].get(o.ticker)
@@ -322,7 +325,7 @@ def evaluer_radar(cfg: Config, etat: dict, prix: pd.DataFrame, prix_radar: pd.Da
 
 def resume_radar(cfg: Config, opportunites: list[Opportunite], limite: int | None = 3,
                  actus: dict[str, news.Actualites] | None = None) -> str:
-    titre = f"#### 🔎 Radar ({len(cfg.radar['liste'])} actions et ETF de Trade Republic)"
+    titre = f"#### 🔎 Radar ({len(cfg.radar['liste'])} actions et ETF suivis, {len(opportunites)} soldés aujourd'hui)"
     if not opportunites:
         return titre + "\n\nAucun titre nettement soldé aujourd'hui."
     actus = actus or {}
@@ -334,12 +337,12 @@ def resume_radar(cfg: Config, opportunites: list[Opportunite], limite: int | Non
         lignes.append(f"- {o.ligne()}")
         if o.ticker in actus:
             lignes.append(f"  - {actus[o.ticker].court()}")
-            if limite is None:  # tableau de bord : les articles détectés, pour juger soi-même
+            if limite is None or limite > 3:  # tableau de bord : les articles détectés, pour juger soi-même
                 lignes += [f"    - ⚠️ [{a.titre}]({a.lien}) ({', '.join(a.mots)})" for a in actus[o.ticker].alertes[:3]]
     for o in ecartes:
         lignes.append(f"- ⛔ **{o.nom}** écarté : {actus[o.ticker].resume}")
     if limite is not None and len(retenues) > limite:
-        lignes.append(f"- … et {len(retenues) - limite} autres sur le tableau de bord.")
+        lignes.append(f"- … et {len(retenues) - limite} autres" + (" sur le tableau de bord." if limite <= 3 else "."))
     lignes.append("⭐ = historiquement, acheter ce titre à ce niveau de score a fait mieux que sa moyenne.")
     return "\n".join(lignes)
 
@@ -618,7 +621,7 @@ def lancer_conseil(
     sauver_etat(etat)
     tdb = tableau_de_bord(cfg, etat, prix, a)
     if cfg.radar:
-        tdb += "\n\n" + resume_radar(cfg, opportunites, limite=None, actus=actus)
+        tdb += "\n\n" + resume_radar(cfg, opportunites, limite=60, actus=actus)
     (RAPPORTS / "tableau-de-bord.md").write_text(tdb + "\n", encoding="utf-8")
     return nouvelle
 

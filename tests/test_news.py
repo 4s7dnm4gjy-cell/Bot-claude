@@ -73,3 +73,28 @@ def test_lecture_flux_et_reseau_indisponible(monkeypatch):
 def test_aller_retour_dict():
     act = analyser([art("FTC probe into X")], -0.2)
     assert news.Actualites.from_dict(act.to_dict()) == act
+
+
+def test_conversion_des_codes_d_indices():
+    from invest_bot.univers import convertir
+
+    assert convertir("BRK.B", "", "us") == "BRK-B"
+    assert convertir("NYSE: KO", "", "us") == "KO"
+    assert convertir("BT.A", ".L", "uk") == "BT-A.L"
+    assert convertir("7203", ".T", "japon") == "7203.T"
+    assert convertir("SEHK: 5", ".HK", "hk") == "0005.HK"
+    assert convertir("ATCO A", ".ST", "nordique") == "ATCO-A.ST"
+    assert convertir("MC.PA", ".PA", None) == "MC.PA"
+    assert convertir("ADS", ".DE", None) == "ADS.DE"
+    assert convertir("nan", ".DE", None) is None
+
+
+def test_plusieurs_fichiers_de_liste(tmp_path):
+    from invest_bot.config import load_config
+
+    (tmp_path / "a.yaml").write_text("X.PA: {nom: X verifie, isin: FR1}\n", encoding="utf-8")
+    (tmp_path / "b.yaml").write_text("X.PA: {nom: X auto}\nY.DE: {nom: Y}\n", encoding="utf-8")
+    (tmp_path / "c.yaml").write_text(
+        "targets: {W: 1.0}\nbenchmark: W\nradar:\n  fichiers: [a.yaml, b.yaml, absent.yaml]\n", encoding="utf-8")
+    cfg = load_config(tmp_path / "c.yaml")
+    assert cfg.radar["liste"] == {"X.PA": {"nom": "X verifie", "isin": "FR1"}, "Y.DE": {"nom": "Y"}}
