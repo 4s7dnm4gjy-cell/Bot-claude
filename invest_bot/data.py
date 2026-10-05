@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import hashlib
 import time
 from datetime import date, timedelta
 from pathlib import Path
@@ -14,7 +15,8 @@ CACHE_DIR = Path("data_cache")
 def fetch_prices(tickers: list[str], start: str = "2000-01-01", use_cache: bool = True, strict: bool = True) -> pd.DataFrame:
     """Clôtures ajustées (dividendes réinvestis), une colonne par ticker."""
     CACHE_DIR.mkdir(exist_ok=True)
-    cache = CACHE_DIR / f"{'_'.join(sorted(tickers))}_{start}.csv"
+    cle = hashlib.sha1(f"{'_'.join(sorted(tickers))}_{start}".encode()).hexdigest()[:16]
+    cache = CACHE_DIR / f"cours_{cle}.csv"  # empreinte : le nom reste court même avec 200 titres
     if use_cache and cache.exists():
         df = pd.read_csv(cache, index_col=0, parse_dates=True)
         if not df.empty and df.index[-1].date() >= date.today() - timedelta(days=1):

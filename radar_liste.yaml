@@ -139,7 +139,6 @@ GALP.LS:  {nom: Galp Energia, isin: PTGAL0AM0009}
 # ------------------------------------------------------------------ Suisse (CHF)
 NESN.SW: {nom: Nestlé, isin: CH0038863350}
 NOVN.SW: {nom: Novartis, isin: CH0012005267}
-ROG.SW:  {nom: Roche, isin: CH0012032048}
 UBSG.SW: {nom: UBS, isin: CH0244767585}
 ZURN.SW: {nom: Zurich Insurance, isin: CH0011075394}
 ABBN.SW: {nom: ABB, isin: CH0012221716}
