@@ -18,89 +18,100 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-06",
-    "cree_le": "2026-10-06T18:19+00:00",
-    "liberation": 105.1732923654283,
+    "cree_le": "2026-10-06T18:51+00:00",
+    "liberation": 105.20521203226868,
     "reserve_pct": null,
-    "score": 96.73386313299103,
+    "score": 96.61029383665092,
     "ordres": [
       {
-        "ticker": "WSP.TO",
+        "ticker": "LDOS",
         "side": "buy",
         "quantity": 1.0,
-        "price": 104.1732923654283,
+        "price": 104.20521203226868,
         "reason": "opportunité radar (score 97)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "WSP.TO",
-      "nom": "WSP Global Inc.",
-      "isin": "WSP.TO",
+      "ticker": "LDOS",
+      "nom": "Leidos",
+      "isin": "LDOS",
       "type": "action",
-      "prix": 167.09500122070312,
-      "score": 96.73386313299103,
-      "baisse": 0.40912629535607803,
-      "perf_5ans": 0.13204585148662762,
+      "prix": 117.33499908447266,
+      "score": 96.61029383665092,
+      "baisse": 0.40519273790054255,
+      "perf_5ans": 0.2771050310819989,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.39134954423846463,
-      "pos_12m": 0.9827586206896551,
-      "n_12m": 232,
-      "base_moy_12m": 0.22513283412034413,
-      "pire_12m": -0.03653184118140318,
-      "vs_marche_3m": -0.08620886581983689,
-      "devise": "CAD",
-      "prix_eur": 104.1732923654283
+      "moy_12m": 0.21195511663981054,
+      "pos_12m": 0.7512038523274478,
+      "n_12m": 623,
+      "base_moy_12m": 0.1572477203252607,
+      "pire_12m": -0.2771395591114325,
+      "vs_marche_3m": 0.0534146972406615,
+      "devise": "USD",
+      "prix_eur": 104.20521203226868
     },
     "actualites": {
       "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -9% vs marché)",
-      "vs_marche_3m": -0.08620886581983689,
-      "alertes": [],
+      "resume": "rien d'alarmant dans l'actualité (1 article(s) mineur(s), courant pour une grande entreprise) (3 mois : +5% vs marché)",
+      "vs_marche_3m": 0.0534146972406615,
+      "alertes": [
+        {
+          "titre": "Northern Virginia Tech Company Anticipates Major Layoffs In Ashburn - Patch",
+          "lien": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWnE5TUdsTng5T1VuQThRRGJGZ1pLYzBLbERnSWo5SUtQSFBJc0xfdFBuV0FqX3dkMmd4VDlGRzNmaXB4YXR5Qmd2c2FPRVl3OFo4WUpWNFZuSXY0ckQ4aFplcW5ETk5HZ01zT24wWEJYREdoWmxfTUJCZkRRQjRZOTJvbU5pSFBYUWhwZGphd0dKVTdMRkdUQmtCWURvdk5D0gG2AUFVX3lxTE54NG5pWkNRVmZIM3d1ckMtWFlIYnBSdnNFdmgtRzBCaXhjT1ZFVlE5Q2VDVVA0V0hYY2ZZVWVDNHIwWDZYa3lPQUdPSWExVmVYVWtCdV9BTXV6V2M2RF85YXBoNUx3eGczbGprZU9vb1dCNTZiQ3pxeGI0dDN3U1dRSGZoS2VfRlkxTmM5SGV1WTE0dVF4cUplRlRUUEQ0MU1xdmRuRlMyMldtb2dMWU44LVZyNkJR?oc=5",
+          "date": "2026-09-30",
+          "source": "Patch",
+          "gravite": 1,
+          "mots": [
+            "layoffs"
+          ]
+        }
+      ],
       "recents": [
         {
-          "titre": "WSP Global Joins Most Actively Traded Canadian Stocks as Infrastructure and Engineering Outlook Drives Investor Attention - kalkine.ca",
-          "lien": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNNWdvcGFMSHkwQmQxV0xuS096eGc1bHQ5Tzh5STMzSjZGQ0NWcmUxRTByX2pLT21TcFlJekx4UTgwaGFDZUxrMTYtclNwZVNScGxRN3BJVHlHVC04OEJsRnlWRVRNNUlMSXNta0hCVGJmcndHa2I0dHo3UDBfeDNQQWpEUEtEcTdUUVkyVTBIR0pPc2pHdXhHX1o3NVJrYXlKdVMzZ1IwQXd4RVUzTGg2OWFKTG5rUjhjMU1rdFpabmFxbEh3ZDNycExWMU9NblotU19jQ3VEc1ViNnpIRkFDSlRVZzc5ZHRRR2FXcE9B?oc=5",
+          "titre": "Leidos Holdings, Inc. : Jefferies & Co. neutre sur le dossier - Zonebourse",
+          "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWGVWTTA1aTdHS3ZJSVhReVJlYXZqZjJNM0JtYzliNVNqZ0RSLVJVNzBNSE5XdFdtS0hlajlvWlUtVXVYMUpod3REYm1IM19ZcFh0cHZxcUhYRHVUSUJKMC1tVTJUb1M4bzJwbnFTbHpYRzdhQkhSSGxUdFMwUDIwemNHZmdOVWszSTROdUV0NUtiTUlQdXV1OUdnOEZUUkhacmx5bXZHcVN4bFhFeTdQSURURElnQQ?oc=5",
           "date": "2026-10-06",
-          "source": "kalkine.ca",
+          "source": "Zonebourse",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "WSP fera l’acquisition de GCM Corpo et renforcera sa présence dans le secteur de l’énergie au Canada - Magazine MCI",
-          "lien": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMFpVY1h0dHE5ak1ZU3IwT1ZkOWhSMFNpTG96Rm9SY0NIN3VtODBoTTJVa3NRMldqZWsxTzRtNlFhU2VFbk96OVJIRlRoLU1WUTVnVUF4ZzlDTXdlZUZwWFZRWW1EcmUyajN1SDJIQ0lwZVVZNWZFYUJvRmxIN0pYaEtDcnNTSFU2dVlDRmVsZG81NzBYRmJDcHFrbnJwaTJocHpzelpVWTNtSmpBOXpINVVZQWZuY0t5Y3dXcE56RGpyeWMyNm1ic1h4VFFwdktV?oc=5",
-          "date": "2026-10-05",
-          "source": "Magazine MCI",
+          "titre": "Leidos nomme Stephen Vather à la tête des relations investisseurs - Investing.com France",
+          "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNajFjZnlyU250UkhKWE9lNHllYjJpUmhtUmJYY0dZSmZ1a0kyWklsUm85TEFweHh3SUh2djE3bGRMaDVaMkZBcjlieFFPeEs4S2lSMExMb2d5VU5ONmhLQ2Nwbldoa0hvdjB5b1J0SmhEVFZ0MmZFSmJkNWhLQ0JPSGFRVlRUOFI1cmc0dDdJc05pX1h6UTMxcnZ5QngyM0FWYVBIUDFVb2VCSFplcWR2emg2Nkc1dXRoeTRmNElR?oc=5",
+          "date": "2026-10-06",
+          "source": "Investing.com France",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "FY2026 Earnings Forecast for WSP Global Issued By Scotiabank - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPa3NWU2Jna0lUcXdOQWdnSkczZ0NTaTBLYzVUMFFuTVA1aElQSHZ1YlJNejQwVXdPNUlrOUoxOTJSNkRfSHBIRktWZXFLb1RoRTFDQzg3TTJrR0l0SW5BZ1JmRkNqZnlNRU5sN0FMY2d0dl9ZdUg3aGpzQ0pZNk03SWxNT001UnJUekFOdmp3dGlFTkpJa19STkxlbXpZNEJEeHlkX0lGZERzWlFDNHJINlQwNmNaLWY0UXpacGEyTHFNQQ?oc=5",
-          "date": "2026-10-05",
-          "source": "MarketBeat",
+          "titre": "Leidos Holdings, Inc. (LDOS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBYUFE0V3JROEJBYnl4MzhwWXBsY05CNk5hSEpEVUFGUFRaOExzY1VKdDA5VGJVakhnU0pqWjBXcXY3ZWFVY2FZN3pwWkFmOTJJZ3c?oc=5",
+          "date": "2026-10-06",
+          "source": "Yahoo! Finance Canada",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "What Is Driving Attention at WSP Global Inc. (TSX:WSP)? - Kalkine Media",
-          "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOTM1RExGN1M2LS12VUtGWHlhQ2JfUUgxRExCdjc5bHUtYS05QW9zOU9kS3lhMmZhMFhqbnRuc1dmSTBsWTlvRHYyNFJERFNBNzZYN2ZaNDJiVDh3ZGROS3JQRndMOXo0UXd4aUpyX1BKTXhzZWxsU1pQblVjYldtR25OV1ZtOWZjMGpWSXE4ZUJlLWVVTHpreld2cWRsNGFTYmdUWTR6bzdzX2VFMS1oSjN3WWVNeDg?oc=5",
-          "date": "2026-10-05",
-          "source": "Kalkine Media",
+          "titre": "Leidos, Altaris Complete Analogic Security Screening Joint Venture - GovCon Wire",
+          "lien": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9oRTJES2NzZHVfdnNVaXRsRUtrUEMtZVFrZUFUc0xUMUJVempEMjdDV0tTdjNrYTNZR0hJTHZxaElEc2JCZGp0enlKQXRWWmpMcXJCcnJRbDNwX0RtR3VvV1hYWVE4M2NjS2Z2Snc2X2U5cXZpSEpETE5iaWxGdw?oc=5",
+          "date": "2026-10-06",
+          "source": "GovCon Wire",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "What Is Shaping WSP Global (TSX:WSP) New Direction? - Kalkine Media",
-          "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVmFfRWhYaVRXSDdQSUdGZXM0SG5mUVU5dXJ2Ym1tMlNzbHJsZWxGVzRQVXJWay1pQWZxT0VSMVhONzJISEMwc0xZRExCWG8zNDJtU0Z0anNyMVF0MW51cm9mc19mRWpjUUJWMkZKZlJHbndHT1RnVi1ENFNkcFZYY3BIR2JnQ2dOQ3pRcHdQc21zN3Y5Q09RcQ?oc=5",
-          "date": "2026-10-05",
-          "source": "Kalkine Media",
+          "titre": "Leidos Schedules Third Quarter 2026 Earnings Conference Call for November 3, 2026, at 8 a.m. (ET) - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQm94TTRJWGJLNnFVOHF6Ym4zNG55NWlPZ3ZKSkpqZ0lMNjFQZlRnWEJ6T0wyaTNVNkU1a3hrNTI2Smw2N3BTNUhUS3FHOERKbEQ3ZjljLTBmZmpNUFZTSUI4NzAwNmU2RHBUSlFfVTFGWmlJc0tQczVOWlJYdktTTzNMZ1N6WjducC1YMGItTDFyVkdKNUhmQUJBY2pFb0ctQ2c?oc=5",
+          "date": "2026-10-06",
+          "source": "Yahoo Finance",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 10
+    "ticket": 11
   },
   "radar_proposes": [
     "MCD",
@@ -112,7 +123,8 @@
     "7532.T",
     "FCPT",
     "CHRW",
-    "WSP.TO"
+    "WSP.TO",
+    "LDOS"
   ],
   "achats": [],
   "historique": [
@@ -956,6 +968,94 @@
         ]
       },
       "ticket": 9,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-06",
+      "cree_le": "2026-10-06T18:19+00:00",
+      "liberation": 105.1732923654283,
+      "reserve_pct": null,
+      "score": 96.73386313299103,
+      "ordres": [
+        {
+          "ticker": "WSP.TO",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 104.1732923654283,
+          "reason": "opportunité radar (score 97)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "WSP.TO",
+        "nom": "WSP Global Inc.",
+        "isin": "WSP.TO",
+        "type": "action",
+        "prix": 167.09500122070312,
+        "score": 96.73386313299103,
+        "baisse": 0.40912629535607803,
+        "perf_5ans": 0.13204585148662762,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.39134954423846463,
+        "pos_12m": 0.9827586206896551,
+        "n_12m": 232,
+        "base_moy_12m": 0.22513283412034413,
+        "pire_12m": -0.03653184118140318,
+        "vs_marche_3m": -0.08620886581983689,
+        "devise": "CAD",
+        "prix_eur": 104.1732923654283
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -9% vs marché)",
+        "vs_marche_3m": -0.08620886581983689,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "WSP Global Joins Most Actively Traded Canadian Stocks as Infrastructure and Engineering Outlook Drives Investor Attention - kalkine.ca",
+            "lien": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNNWdvcGFMSHkwQmQxV0xuS096eGc1bHQ5Tzh5STMzSjZGQ0NWcmUxRTByX2pLT21TcFlJekx4UTgwaGFDZUxrMTYtclNwZVNScGxRN3BJVHlHVC04OEJsRnlWRVRNNUlMSXNta0hCVGJmcndHa2I0dHo3UDBfeDNQQWpEUEtEcTdUUVkyVTBIR0pPc2pHdXhHX1o3NVJrYXlKdVMzZ1IwQXd4RVUzTGg2OWFKTG5rUjhjMU1rdFpabmFxbEh3ZDNycExWMU9NblotU19jQ3VEc1ViNnpIRkFDSlRVZzc5ZHRRR2FXcE9B?oc=5",
+            "date": "2026-10-06",
+            "source": "kalkine.ca",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "WSP fera l’acquisition de GCM Corpo et renforcera sa présence dans le secteur de l’énergie au Canada - Magazine MCI",
+            "lien": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMFpVY1h0dHE5ak1ZU3IwT1ZkOWhSMFNpTG96Rm9SY0NIN3VtODBoTTJVa3NRMldqZWsxTzRtNlFhU2VFbk96OVJIRlRoLU1WUTVnVUF4ZzlDTXdlZUZwWFZRWW1EcmUyajN1SDJIQ0lwZVVZNWZFYUJvRmxIN0pYaEtDcnNTSFU2dVlDRmVsZG81NzBYRmJDcHFrbnJwaTJocHpzelpVWTNtSmpBOXpINVVZQWZuY0t5Y3dXcE56RGpyeWMyNm1ic1h4VFFwdktV?oc=5",
+            "date": "2026-10-05",
+            "source": "Magazine MCI",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "FY2026 Earnings Forecast for WSP Global Issued By Scotiabank - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPa3NWU2Jna0lUcXdOQWdnSkczZ0NTaTBLYzVUMFFuTVA1aElQSHZ1YlJNejQwVXdPNUlrOUoxOTJSNkRfSHBIRktWZXFLb1RoRTFDQzg3TTJrR0l0SW5BZ1JmRkNqZnlNRU5sN0FMY2d0dl9ZdUg3aGpzQ0pZNk03SWxNT001UnJUekFOdmp3dGlFTkpJa19STkxlbXpZNEJEeHlkX0lGZERzWlFDNHJINlQwNmNaLWY0UXpacGEyTHFNQQ?oc=5",
+            "date": "2026-10-05",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "What Is Driving Attention at WSP Global Inc. (TSX:WSP)? - Kalkine Media",
+            "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOTM1RExGN1M2LS12VUtGWHlhQ2JfUUgxRExCdjc5bHUtYS05QW9zOU9kS3lhMmZhMFhqbnRuc1dmSTBsWTlvRHYyNFJERFNBNzZYN2ZaNDJiVDh3ZGROS3JQRndMOXo0UXd4aUpyX1BKTXhzZWxsU1pQblVjYldtR25OV1ZtOWZjMGpWSXE4ZUJlLWVVTHpreld2cWRsNGFTYmdUWTR6bzdzX2VFMS1oSjN3WWVNeDg?oc=5",
+            "date": "2026-10-05",
+            "source": "Kalkine Media",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "What Is Shaping WSP Global (TSX:WSP) New Direction? - Kalkine Media",
+            "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVmFfRWhYaVRXSDdQSUdGZXM0SG5mUVU5dXJ2Ym1tMlNzbHJsZWxGVzRQVXJWay1pQWZxT0VSMVhONzJISEMwc0xZRExCWG8zNDJtU0Z0anNyMVF0MW51cm9mc19mRWpjUUJWMkZKZlJHbndHT1RnVi1ENFNkcFZYY3BIR2JnQ2dOQ3pRcHdQc21zN3Y5Q09RcQ?oc=5",
+            "date": "2026-10-05",
+            "source": "Kalkine Media",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 10,
       "decision": "sans réponse"
     }
   ]
