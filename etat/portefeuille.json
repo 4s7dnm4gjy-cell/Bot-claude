@@ -18,149 +18,128 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-06",
-    "cree_le": "2026-10-06T14:19+00:00",
-    "liberation": 142.16743832685825,
+    "cree_le": "2026-10-06T15:19+00:00",
+    "liberation": 115.9000015258789,
     "reserve_pct": null,
-    "score": 97.28153130106153,
+    "score": 97.22981109723129,
     "ordres": [
       {
-        "ticker": "VICI",
+        "ticker": "GBF.DE",
         "side": "buy",
-        "quantity": 7.0,
-        "price": 20.16677690383689,
+        "quantity": 2.0,
+        "price": 57.45000076293945,
         "reason": "opportunité radar (score 97)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "VICI",
-      "nom": "Vici Properties",
-      "isin": "VICI",
+      "ticker": "GBF.DE",
+      "nom": "Bilfinger",
+      "isin": "GBF.DE",
       "type": "action",
-      "prix": 22.69499969482422,
-      "score": 97.28153130106153,
-      "baisse": 0.24670764639426823,
-      "perf_5ans": 0.03796563997879532,
+      "prix": 57.45000076293945,
+      "score": 97.22981109723129,
+      "baisse": 0.5362050043952232,
+      "perf_5ans": 1.5500760780890026,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.1611134395695071,
-      "pos_12m": 0.8867924528301887,
-      "n_12m": 159,
-      "base_moy_12m": 0.05775196851949441,
-      "pire_12m": -0.03743319708724924,
-      "vs_marche_3m": -0.15826070229710443,
-      "devise": "USD",
-      "prix_eur": 20.16677690383689
+      "moy_12m": 0.2624089319559825,
+      "pos_12m": 0.5921052631578947,
+      "n_12m": 912,
+      "base_moy_12m": 0.17793929263452785,
+      "pire_12m": -0.5291757434023001,
+      "vs_marche_3m": -0.3644176467834228,
+      "devise": "EUR",
+      "prix_eur": 57.45000076293945
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, 5 article(s) à regarder (3 mois : -16% vs marché)",
-      "vs_marche_3m": -0.15826070229710443,
+      "resume": "à vérifier : baisse bien plus forte que le marché, 3 article(s) à regarder (3 mois : -36% vs marché)",
+      "vs_marche_3m": -0.3644176467834228,
       "alertes": [
         {
-          "titre": "VICI Properties: I'm Flipping From Buy To Sell (Rating Downgrade) (NYSE:VICI) - Seeking Alpha",
-          "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRTdDdXJjZFB3bHRKOTl0eXJIYzNDdDNGeUxCTkt4NzBQb2ZLaUlCR1NpaGFjWlRrTDhlY3o4SllkVm5ZNHVqM2x5a0hVanZ5MmJVQ2ktMkRoaXAwMUdOanFEVzNJQmUxU3ZNREdGV2hudGdhRzFhMVJOZXN4bktvMm5ISnJpRkNvQ2hfd0o1ajZONEhXTDNZNmdjNDBsNGNGcl9kXw?oc=5",
-          "date": "2026-09-22",
-          "source": "Seeking Alpha",
+          "titre": "Bilfinger stock heads into the open after guidance cut and 1.1% gain - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVmVWLUJQLVkwVVREUi1ubzdYSVpSUGhiRS1WeUR2LUxNeUpGcmRzekt0REJBa1RjcFhpbUQ0UU9QOElOTEJsNldGZU1GM3puNG1FOHllYTE3dVJRVm5TWWpVbWJUdE9OSzd3eEwzRTVXUk5VUXB3azlDMXVaejE3YkxsRTZlVHdvbG4tZWxTRmU0N25vaW5GZDVMdFlPM1lzUW5hb21HUTdIQjhTRjdNM0lGdFpjRkJLLTcyNE9nbnNIaHlpNENhSjFMeVVJQQ?oc=5",
+          "date": "2026-09-17",
+          "source": "AD HOC NEWS",
           "gravite": 1,
           "mots": [
-            "downgrade"
+            "guidance cut"
           ]
         },
         {
-          "titre": "VICI Properties Shares Fall After JPMorgan Downgrade - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX0prWkt3elVjZDRkcWxHQmMtUy1McksybUgzM1NmMjF4aHFldjd4ck1GckhVYkdFU0ozaEhmTmR0eGhFb2dKYjB5SE44ckEzQXJYWTRiMUdEbWpQVWtIeG1KMGwyRndNMW9aZWZyRzhPbzhkN0tFMTZLN0tsYnVXaGV6RXU2VGJpZVpnOVdvSWs1OHFiQVRWcWtNU3k3WkdueURV?oc=5",
+          "titre": "Bilfinger's Guidance Cut Triggers Analyst Reckoning as Agile Restructuring Takes Shape - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNczhZQmtQMVZSdUw4bTdBSFJRTlFLaGo5azhkQUJnNGg5dXkzWk9rZXdyZXlxeWJTMmE5NXFSLXUtelV3VDdKd1Z4QVE1NjZRY1dyQUlmTUNReWtNMHl3TUZpN194VDBya1c5WkVhZFhvdzNjZ2Z4ZTNnejNvV1EyalZhUnpjX0NNUG94Q3NGSjB0dk9SVlN3WWZfUG1YTW5GbEtNRjZ2R1dweVFSUGp1MjdFWGVRd2V6LXEwWllXYThOS3lYYmEzRFNaTlNYTDA1NGwyM0hPYkRXaXlJZGk4?oc=5",
+          "date": "2026-09-23",
+          "source": "AD HOC NEWS",
+          "gravite": 1,
+          "mots": [
+            "guidance cut"
+          ]
+        },
+        {
+          "titre": "Bilfinger stock falls 1.93 percent after guidance cut - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdVpjdzNLTmIxUTZabHEzdGlQS1Fjem4zNEpxOTJoT0JDT1RVbGg5T3lZZmMyVnRVc0p4ZzdqTDBTX0ZEVDVVOWV2ZFhIWEtra25jZElKRFdCUE9mM0FsZC0zdmJjRXR1dzd2cWZWbFRXYUR0UkVMeFRzQkd2VGNSaUQ0b1JsVFl4RkhDRG1YaTk1eXpQVXRLSWZsZDBJdS1GbXdFV0NuNzFGLVhFT2tlY0pER0pUdXc?oc=5",
           "date": "2026-09-24",
-          "source": "Yahoo Finance",
+          "source": "AD HOC NEWS",
           "gravite": 1,
           "mots": [
-            "downgrade"
-          ]
-        },
-        {
-          "titre": "VICI Properties (NYSE:VICI) Downgraded by JPMorgan Chase & Co. to \"Neutral\" - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOT0gtMk96NzUwRE1hdGs2b1RQWDZJZVF4cGY4LXRSM3FEQm5mTWoyNWZlRm9UWGJ3YjU4VFIyemF1WmR3VW15VjJHRmdBcmtPbEpCUE9IVjUzT19kUmJpcm9QeEhBZlBUSU4wX1JSVHBaRVNxM0JFRy1qTC1lN0c3dXdpV1l6RUdRQVUwUEM5QzE3WWkxZ0kwckpKMEEwWXVhMFd6cVFVbkg5WHQ5MGJvQ2JaLVMzWEZnbFBwSnNIRDB0aThyMENsVA?oc=5",
-          "date": "2026-09-24",
-          "source": "MarketBeat",
-          "gravite": 1,
-          "mots": [
-            "downgraded"
-          ]
-        },
-        {
-          "titre": "VICI Properties Shares Fall After JPMorgan Downgrade - marketscreener.com",
-          "lien": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRG9oLTVucTJMcU92MEtzeVVJZ21fRU1RMXZySVVQNkhyTUFRVjlSSUxOb2lNWlZucWNNR2FZbGFHbFhnR2dPRWdrTjc5VWNaSS1vVGxtb0ZfQXRoTmJzZFJmZmp5UnhWbDJDMW1qd2lXaHZwR19HNEtsU2FVR2ZqYktraVFRM0prbDhHQWlwYmR3SzR6Z1NmMms4d01pSE51c1daVWVWc1o?oc=5",
-          "date": "2026-09-24",
-          "source": "marketscreener.com",
-          "gravite": 1,
-          "mots": [
-            "downgrade"
-          ]
-        },
-        {
-          "titre": "VICI Properties (NYSE:VICI) Reaches New 1-Year Low on Analyst Downgrade - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeVdVU2pxVWtXajNJR0p1SXdTMDU2bGVyQjBiTTlMN3AzZEpkMlhKRVIySExldHVLTGRZRkJQMmtIdUx3TDhCS1AxTHluaG14WmE0bFY1S0xLNnZOVnlNNDBWWGs1TGdFMEhKaEZ2OS12YnJzU01kaXpEWktIMmNJYXhncVBvSDcxcjFTY20yRzdjOTFxS1JxZGV4MUZXOXR3SHdqZF9NVU5DUi1BU0xiN0piOFhYXzhzVE82ZVJTekloOXVGNTMyNw?oc=5",
-          "date": "2026-10-05",
-          "source": "MarketBeat",
-          "gravite": 1,
-          "mots": [
-            "downgrade"
+            "guidance cut"
           ]
         }
       ],
       "recents": [
         {
-          "titre": "VICI Properties Expands Experiences: Can Non-Gaming Growth Scale? - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQczJENEhzdmltVGtRTDJ0N001d3ptbUZsOUtJQzBPN0lnUThMR2J1anNrNU9GMEZpcDVyZTlsNTBraWwwUUFhQU9xT3NSSjhCcXNkS1RMdXI5bjZndjBibFRnYkl0T3dIOThPUW1RLUpnbVFiRXgwQXBGOVVqemoyZTlxQ0NtTnZsN3dqVkN6WU5veG5nNllwWWNFMWphTUxRVzBB?oc=5",
-          "date": "2026-10-05",
-          "source": "Yahoo Finance",
+          "titre": "Bilfinger cuts 2026 outlook while Bilfinger stock trades above EUR 56.78 - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUTJpdVdNcjB2MVFHY0JPSGNaYUw0Yy1CM1VEX0hCNkJvZFBhZ0piTWRnenlEd2RKU2pQcGxrODEzdE9tMFc3a1RDUHhtd21UWndlVFpnQ3pZS0VFUGVlcVl4NlB2bFV6ZkJ5V2pRSjNuaUhoejNRcHF0dm1zMXJ0R0w4dzlBcXZVOXN1SllTWDBKN1U4clZFVEpJV25YNHB6anpqV0txaEc3NVFyZW1MY19hRFdCQjc3dDNkR2poY3ZxWmwzUDk3cjhIS2c1YTR6?oc=5",
+          "date": "2026-10-06",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "VICI Properties (VICI) Could Be 46% Undervalued As Its Alberta Rent Stream Holds Flat - Simply Wall Street",
-          "lien": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNN3JSWkdER0hCdkpoT2ZHT3lQdVpiSFozWHp5VTJyOENYZ1NPTF9NSzUwWW5DNlJLN2lEa2UzTWRrd2kwRXpmZlh4b3RnUUJPRjhNTk41SU43NXZGYXcxN1FsUVlMUXZFRFFFSjFMcmZ5MnY1RmFLNFFWTnNCZ0Zjc1BJNFFtWkxENXJYODFFRjlEaWtNZGxkdmlhY0xJYTVKdm9oYjRGTXdLQmhCaFc4RG9NRnBHc05lQTVla3RFV2FKMjdndWQ1ZEpCSGxmN0HSAdQBQVVfeXFMTTkwOXZ3RU85amY2ajVEWlVrR01TMFMzT0o2Xy0wQTZHY1dpTUIwVGJRRzBtX2sydnpxcWlBMlFBVVoxYkJVWUJ5bTRmTkxrNG9hOEtRdjRDdE5VcWxQb3FDYXF0aWJNb0xMaHRFY21sbEhZekpLck1hM3FUZFpIajd2Mml1R015VkJlTjBJd2NBdzZpQXVVTWljVnpIdDBucVdseHdnWmxqcURTeENkU1Vic0txSjNsZ2FNSjFVTGNEcUxmRDNveGVtczctQnczYkhBMFQ?oc=5",
+          "titre": "Bilfinger SE (GBF) Discloses Major Holdings Notification - TradingView",
+          "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTlU2ZUdWVlhMTXktWGoyanJXREdNNHhpTUZHWHdvSTNMdW4tM1daNFp6b1kweFFoLVE4NU9feHQ4MGo4TVIxWlM0UWtFQTJ6YlRTUktrYTltOEJfeEZTSXJ1SmZqdktfQWQ1QzJNOGlpOWlMLXh3djl3cVVVcWV1c2MwV011X0NyQnpuRVlNSC1vbWtSVEF0Z3kxejFOQmNITlBUNDYwWURtTWMxemFmZEpjZEx6MlE?oc=5",
           "date": "2026-10-05",
-          "source": "Simply Wall Street",
+          "source": "TradingView",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "VICI Properties Sees Unusually High Options Volume (NYSE:VICI) - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcnhjbHJaM29GS1NDR3k1aTRXNWF6Sm5YYWxMWFE4MnY0bi1mQ3VLVlAteldQdVNUd253d0lCSnJKdFBpNXU4QVl2Vk5IejFhSzlHQjVZYmVpZmY3TjNiUGx3VTVhSlg3WUU1NHJONUkzMTc3WlZaMEtJaGxKbEZHWFZjb29jNDdaYmlUSlZrYXZmMFZRa2IxbC1pcTdqUnM5TkpwQVh1cWh3eGVpSGhJUGhBZjZNaU50ZUZEeGt0dw?oc=5",
+          "titre": "Bilfinger : Wins Multi-Service Framework Agreement With Specialty Chemicals Producer Delamine in the Netherlands - marketscreener.com",
+          "lien": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPMkx2UTBiRnBrajNaVUFyTHNUb2ZwY0ZqZHV6SVl6ZWthU3gwUXA1ajZJRUZuYjFUTWQzSUxPSmJ0SU1qZkpQbXdnZ1NaMHJQUktMUUwyOEM5dUNzZENMcFlXMl9VSHBwUEQ2T3hoSV9XTUtPRVhzOFdOUzZVRExZd3FHUWlreWtRdjNUU1ozb3pCN1RlNDhicG9SMFlPX21jNGtVd25SUmhGUGhWWmNzMFRFN3lGMHFwSG55ZDU1RHRaRGMzRm5OcVJhVkdueXdNNnJlRkxlU3FQZkZrcG5zTFVleldxUQ?oc=5",
           "date": "2026-10-05",
-          "source": "MarketBeat",
+          "source": "marketscreener.com",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "VICI Properties (NYSE:VICI) Reaches New 1-Year Low on Analyst Downgrade - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeVdVU2pxVWtXajNJR0p1SXdTMDU2bGVyQjBiTTlMN3AzZEpkMlhKRVIySExldHVLTGRZRkJQMmtIdUx3TDhCS1AxTHluaG14WmE0bFY1S0xLNnZOVnlNNDBWWGs1TGdFMEhKaEZ2OS12YnJzU01kaXpEWktIMmNJYXhncVBvSDcxcjFTY20yRzdjOTFxS1JxZGV4MUZXOXR3SHdqZF9NVU5DUi1BU0xiN0piOFhYXzhzVE82ZVJTekloOXVGNTMyNw?oc=5",
+          "titre": "Bilfinger SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution - TradingView",
+          "lien": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNUndpNlV6M0ZGVHZIcDAxUmZjR0owdmlkdGdPNTY3UHlrTkozZGJNNXZxMTJWUzF1R1UyRkR3UXRyU2xKQzZUa05ST1BEc1J3RjB4cXAzaWhURnIxVkVTZ0trdW4xaDhETlVGZkVqNURqbXFxVlJGLUJDZjNoMUZOd3BGMXBVWi1oRXNqMXpQWldkWU1rUkxIUWR4UUVWVzd5ZXBJMEJ3eWNnZEdDdFFBWUZDOC1tQkZWczJpNTVSUG51UDZ5SDRHVjl4MXBwalBTVXdQQkVSYkJ0QXlfcmhLTWhyNjdfTHQ5eE5TMXcyNmVXODU4eTRoNjlmczNweEo4cF9UOEdIVjVmZnZVeTIxZV9IS3pGdExndlU4aGdKRHBlLW90SldHQg?oc=5",
           "date": "2026-10-05",
-          "source": "MarketBeat",
-          "gravite": 1,
-          "mots": [
-            "downgrade"
-          ]
+          "source": "TradingView",
+          "gravite": 0,
+          "mots": []
         },
         {
-          "titre": "VICI Properties Director Michael D. Rumbolz Granted 371 Shares in October 2026 - Kalkine Media",
-          "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVmpfNGZtTkc5bVh0UjF2bkVPRFJjVkdsTWpwQzJGd1hwUDFiMXZLeUpzYldPdWtQYkVJbjR6dXFlcFQ1SVp2X2pOZmVVTDZPaFZ6WXhxNU13WExpMEhyUWRENTkweXZsanpycHJBQ0FFT25RTjE0a01YQnczd1Y0bjZQWkJmMEtoNUFyMmNydjh5R0xIUU0ta3NEbW5Pa0lsMkdkYTNidEhNLWtDbV9hVDNBZ0JWeUZhOGk0Y2V3U3dPQQ?oc=5",
+          "titre": "Bilfinger Signs Multi-Service Deal With Delamine In The Netherlands - TradingView",
+          "lien": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQ1gzRDI5b1E0THc5SU9mdmRCUF8xZ3MtMjJwYlFLUEJtVFN5QXc5N080MUpQRGJPU3c1ekVYUFFJdFA0THpFX1NlRll6NF82U0t2UkhOOUhaaVhTRGN3N1FIcEt5TjN4bkhJZzB4akpZTTY4Z2ZqNjVjYldkWDNGc3NGTnhGcnJhU3B0SUxrVDVnS01qZGxnQW5XTUJHMmMxTVRlekYyZC1ZZk9HYm8xYzVxdWVUV1NBSjExVHhpNmpDbm1uWXBrQnN0Rnhxcy1tNFFn?oc=5",
           "date": "2026-10-05",
-          "source": "Kalkine Media",
+          "source": "TradingView",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 5
+    "ticket": 6
   },
   "radar_proposes": [
     "MCD",
     "IGG.L",
     "MXT.AX",
     "NOC",
-    "VICI"
+    "VICI",
+    "GBF.DE"
   ],
   "achats": [],
   "historique": [
@@ -469,6 +448,147 @@
         ]
       },
       "ticket": 4,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-06",
+      "cree_le": "2026-10-06T14:19+00:00",
+      "liberation": 142.16743832685825,
+      "reserve_pct": null,
+      "score": 97.28153130106153,
+      "ordres": [
+        {
+          "ticker": "VICI",
+          "side": "buy",
+          "quantity": 7.0,
+          "price": 20.16677690383689,
+          "reason": "opportunité radar (score 97)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "VICI",
+        "nom": "Vici Properties",
+        "isin": "VICI",
+        "type": "action",
+        "prix": 22.69499969482422,
+        "score": 97.28153130106153,
+        "baisse": 0.24670764639426823,
+        "perf_5ans": 0.03796563997879532,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.1611134395695071,
+        "pos_12m": 0.8867924528301887,
+        "n_12m": 159,
+        "base_moy_12m": 0.05775196851949441,
+        "pire_12m": -0.03743319708724924,
+        "vs_marche_3m": -0.15826070229710443,
+        "devise": "USD",
+        "prix_eur": 20.16677690383689
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, 5 article(s) à regarder (3 mois : -16% vs marché)",
+        "vs_marche_3m": -0.15826070229710443,
+        "alertes": [
+          {
+            "titre": "VICI Properties: I'm Flipping From Buy To Sell (Rating Downgrade) (NYSE:VICI) - Seeking Alpha",
+            "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRTdDdXJjZFB3bHRKOTl0eXJIYzNDdDNGeUxCTkt4NzBQb2ZLaUlCR1NpaGFjWlRrTDhlY3o4SllkVm5ZNHVqM2x5a0hVanZ5MmJVQ2ktMkRoaXAwMUdOanFEVzNJQmUxU3ZNREdGV2hudGdhRzFhMVJOZXN4bktvMm5ISnJpRkNvQ2hfd0o1ajZONEhXTDNZNmdjNDBsNGNGcl9kXw?oc=5",
+            "date": "2026-09-22",
+            "source": "Seeking Alpha",
+            "gravite": 1,
+            "mots": [
+              "downgrade"
+            ]
+          },
+          {
+            "titre": "VICI Properties Shares Fall After JPMorgan Downgrade - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX0prWkt3elVjZDRkcWxHQmMtUy1McksybUgzM1NmMjF4aHFldjd4ck1GckhVYkdFU0ozaEhmTmR0eGhFb2dKYjB5SE44ckEzQXJYWTRiMUdEbWpQVWtIeG1KMGwyRndNMW9aZWZyRzhPbzhkN0tFMTZLN0tsYnVXaGV6RXU2VGJpZVpnOVdvSWs1OHFiQVRWcWtNU3k3WkdueURV?oc=5",
+            "date": "2026-09-24",
+            "source": "Yahoo Finance",
+            "gravite": 1,
+            "mots": [
+              "downgrade"
+            ]
+          },
+          {
+            "titre": "VICI Properties (NYSE:VICI) Downgraded by JPMorgan Chase & Co. to \"Neutral\" - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOT0gtMk96NzUwRE1hdGs2b1RQWDZJZVF4cGY4LXRSM3FEQm5mTWoyNWZlRm9UWGJ3YjU4VFIyemF1WmR3VW15VjJHRmdBcmtPbEpCUE9IVjUzT19kUmJpcm9QeEhBZlBUSU4wX1JSVHBaRVNxM0JFRy1qTC1lN0c3dXdpV1l6RUdRQVUwUEM5QzE3WWkxZ0kwckpKMEEwWXVhMFd6cVFVbkg5WHQ5MGJvQ2JaLVMzWEZnbFBwSnNIRDB0aThyMENsVA?oc=5",
+            "date": "2026-09-24",
+            "source": "MarketBeat",
+            "gravite": 1,
+            "mots": [
+              "downgraded"
+            ]
+          },
+          {
+            "titre": "VICI Properties Shares Fall After JPMorgan Downgrade - marketscreener.com",
+            "lien": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRG9oLTVucTJMcU92MEtzeVVJZ21fRU1RMXZySVVQNkhyTUFRVjlSSUxOb2lNWlZucWNNR2FZbGFHbFhnR2dPRWdrTjc5VWNaSS1vVGxtb0ZfQXRoTmJzZFJmZmp5UnhWbDJDMW1qd2lXaHZwR19HNEtsU2FVR2ZqYktraVFRM0prbDhHQWlwYmR3SzR6Z1NmMms4d01pSE51c1daVWVWc1o?oc=5",
+            "date": "2026-09-24",
+            "source": "marketscreener.com",
+            "gravite": 1,
+            "mots": [
+              "downgrade"
+            ]
+          },
+          {
+            "titre": "VICI Properties (NYSE:VICI) Reaches New 1-Year Low on Analyst Downgrade - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeVdVU2pxVWtXajNJR0p1SXdTMDU2bGVyQjBiTTlMN3AzZEpkMlhKRVIySExldHVLTGRZRkJQMmtIdUx3TDhCS1AxTHluaG14WmE0bFY1S0xLNnZOVnlNNDBWWGs1TGdFMEhKaEZ2OS12YnJzU01kaXpEWktIMmNJYXhncVBvSDcxcjFTY20yRzdjOTFxS1JxZGV4MUZXOXR3SHdqZF9NVU5DUi1BU0xiN0piOFhYXzhzVE82ZVJTekloOXVGNTMyNw?oc=5",
+            "date": "2026-10-05",
+            "source": "MarketBeat",
+            "gravite": 1,
+            "mots": [
+              "downgrade"
+            ]
+          }
+        ],
+        "recents": [
+          {
+            "titre": "VICI Properties Expands Experiences: Can Non-Gaming Growth Scale? - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQczJENEhzdmltVGtRTDJ0N001d3ptbUZsOUtJQzBPN0lnUThMR2J1anNrNU9GMEZpcDVyZTlsNTBraWwwUUFhQU9xT3NSSjhCcXNkS1RMdXI5bjZndjBibFRnYkl0T3dIOThPUW1RLUpnbVFiRXgwQXBGOVVqemoyZTlxQ0NtTnZsN3dqVkN6WU5veG5nNllwWWNFMWphTUxRVzBB?oc=5",
+            "date": "2026-10-05",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "VICI Properties (VICI) Could Be 46% Undervalued As Its Alberta Rent Stream Holds Flat - Simply Wall Street",
+            "lien": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNN3JSWkdER0hCdkpoT2ZHT3lQdVpiSFozWHp5VTJyOENYZ1NPTF9NSzUwWW5DNlJLN2lEa2UzTWRrd2kwRXpmZlh4b3RnUUJPRjhNTk41SU43NXZGYXcxN1FsUVlMUXZFRFFFSjFMcmZ5MnY1RmFLNFFWTnNCZ0Zjc1BJNFFtWkxENXJYODFFRjlEaWtNZGxkdmlhY0xJYTVKdm9oYjRGTXdLQmhCaFc4RG9NRnBHc05lQTVla3RFV2FKMjdndWQ1ZEpCSGxmN0HSAdQBQVVfeXFMTTkwOXZ3RU85amY2ajVEWlVrR01TMFMzT0o2Xy0wQTZHY1dpTUIwVGJRRzBtX2sydnpxcWlBMlFBVVoxYkJVWUJ5bTRmTkxrNG9hOEtRdjRDdE5VcWxQb3FDYXF0aWJNb0xMaHRFY21sbEhZekpLck1hM3FUZFpIajd2Mml1R015VkJlTjBJd2NBdzZpQXVVTWljVnpIdDBucVdseHdnWmxqcURTeENkU1Vic0txSjNsZ2FNSjFVTGNEcUxmRDNveGVtczctQnczYkhBMFQ?oc=5",
+            "date": "2026-10-05",
+            "source": "Simply Wall Street",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "VICI Properties Sees Unusually High Options Volume (NYSE:VICI) - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcnhjbHJaM29GS1NDR3k1aTRXNWF6Sm5YYWxMWFE4MnY0bi1mQ3VLVlAteldQdVNUd253d0lCSnJKdFBpNXU4QVl2Vk5IejFhSzlHQjVZYmVpZmY3TjNiUGx3VTVhSlg3WUU1NHJONUkzMTc3WlZaMEtJaGxKbEZHWFZjb29jNDdaYmlUSlZrYXZmMFZRa2IxbC1pcTdqUnM5TkpwQVh1cWh3eGVpSGhJUGhBZjZNaU50ZUZEeGt0dw?oc=5",
+            "date": "2026-10-05",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "VICI Properties (NYSE:VICI) Reaches New 1-Year Low on Analyst Downgrade - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeVdVU2pxVWtXajNJR0p1SXdTMDU2bGVyQjBiTTlMN3AzZEpkMlhKRVIySExldHVLTGRZRkJQMmtIdUx3TDhCS1AxTHluaG14WmE0bFY1S0xLNnZOVnlNNDBWWGs1TGdFMEhKaEZ2OS12YnJzU01kaXpEWktIMmNJYXhncVBvSDcxcjFTY20yRzdjOTFxS1JxZGV4MUZXOXR3SHdqZF9NVU5DUi1BU0xiN0piOFhYXzhzVE82ZVJTekloOXVGNTMyNw?oc=5",
+            "date": "2026-10-05",
+            "source": "MarketBeat",
+            "gravite": 1,
+            "mots": [
+              "downgrade"
+            ]
+          },
+          {
+            "titre": "VICI Properties Director Michael D. Rumbolz Granted 371 Shares in October 2026 - Kalkine Media",
+            "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVmpfNGZtTkc5bVh0UjF2bkVPRFJjVkdsTWpwQzJGd1hwUDFiMXZLeUpzYldPdWtQYkVJbjR6dXFlcFQ1SVp2X2pOZmVVTDZPaFZ6WXhxNU13WExpMEhyUWRENTkweXZsanpycHJBQ0FFT25RTjE0a01YQnczd1Y0bjZQWkJmMEtoNUFyMmNydjh5R0xIUU0ta3NEbW5Pa0lsMkdkYTNidEhNLWtDbV9hVDNBZ0JWeUZhOGk0Y2V3U3dPQQ?oc=5",
+            "date": "2026-10-05",
+            "source": "Kalkine Media",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 5,
       "decision": "sans réponse"
     }
   ]
