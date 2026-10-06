@@ -18,120 +18,89 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-06",
-    "cree_le": "2026-10-06T15:19+00:00",
-    "liberation": 115.9000015258789,
+    "cree_le": "2026-10-06T16:19+00:00",
+    "liberation": 147.94810682783572,
     "reserve_pct": null,
-    "score": 97.22981109723129,
+    "score": 96.74129750049796,
     "ordres": [
       {
-        "ticker": "GBF.DE",
+        "ticker": "7532.T",
         "side": "buy",
-        "quantity": 2.0,
-        "price": 57.45000076293945,
+        "quantity": 38.0,
+        "price": 3.867055442837782,
         "reason": "opportunité radar (score 97)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "GBF.DE",
-      "nom": "Bilfinger",
-      "isin": "GBF.DE",
+      "ticker": "7532.T",
+      "nom": "Pan Pacific International Holdings Corp.",
+      "isin": "7532.T",
       "type": "action",
-      "prix": 57.45000076293945,
-      "score": 97.22981109723129,
-      "baisse": 0.5362050043952232,
-      "perf_5ans": 1.5500760780890026,
+      "prix": 687.4000244140625,
+      "score": 96.74129750049796,
+      "baisse": 0.3454205964676167,
+      "perf_5ans": 0.5769879182692281,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.2624089319559825,
-      "pos_12m": 0.5921052631578947,
-      "n_12m": 912,
-      "base_moy_12m": 0.17793929263452785,
-      "pire_12m": -0.5291757434023001,
-      "vs_marche_3m": -0.3644176467834228,
-      "devise": "EUR",
-      "prix_eur": 57.45000076293945
+      "moy_12m": 0.22767818950240576,
+      "pos_12m": 0.7418111753371869,
+      "n_12m": 519,
+      "base_moy_12m": 0.1861439714462016,
+      "pire_12m": -0.38778247069015903,
+      "vs_marche_3m": -0.18528084139937717,
+      "devise": "JPY",
+      "prix_eur": 3.867055442837782
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, 3 article(s) à regarder (3 mois : -36% vs marché)",
-      "vs_marche_3m": -0.3644176467834228,
-      "alertes": [
-        {
-          "titre": "Bilfinger stock heads into the open after guidance cut and 1.1% gain - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVmVWLUJQLVkwVVREUi1ubzdYSVpSUGhiRS1WeUR2LUxNeUpGcmRzekt0REJBa1RjcFhpbUQ0UU9QOElOTEJsNldGZU1GM3puNG1FOHllYTE3dVJRVm5TWWpVbWJUdE9OSzd3eEwzRTVXUk5VUXB3azlDMXVaejE3YkxsRTZlVHdvbG4tZWxTRmU0N25vaW5GZDVMdFlPM1lzUW5hb21HUTdIQjhTRjdNM0lGdFpjRkJLLTcyNE9nbnNIaHlpNENhSjFMeVVJQQ?oc=5",
-          "date": "2026-09-17",
-          "source": "AD HOC NEWS",
-          "gravite": 1,
-          "mots": [
-            "guidance cut"
-          ]
-        },
-        {
-          "titre": "Bilfinger's Guidance Cut Triggers Analyst Reckoning as Agile Restructuring Takes Shape - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNczhZQmtQMVZSdUw4bTdBSFJRTlFLaGo5azhkQUJnNGg5dXkzWk9rZXdyZXlxeWJTMmE5NXFSLXUtelV3VDdKd1Z4QVE1NjZRY1dyQUlmTUNReWtNMHl3TUZpN194VDBya1c5WkVhZFhvdzNjZ2Z4ZTNnejNvV1EyalZhUnpjX0NNUG94Q3NGSjB0dk9SVlN3WWZfUG1YTW5GbEtNRjZ2R1dweVFSUGp1MjdFWGVRd2V6LXEwWllXYThOS3lYYmEzRFNaTlNYTDA1NGwyM0hPYkRXaXlJZGk4?oc=5",
-          "date": "2026-09-23",
-          "source": "AD HOC NEWS",
-          "gravite": 1,
-          "mots": [
-            "guidance cut"
-          ]
-        },
-        {
-          "titre": "Bilfinger stock falls 1.93 percent after guidance cut - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdVpjdzNLTmIxUTZabHEzdGlQS1Fjem4zNEpxOTJoT0JDT1RVbGg5T3lZZmMyVnRVc0p4ZzdqTDBTX0ZEVDVVOWV2ZFhIWEtra25jZElKRFdCUE9mM0FsZC0zdmJjRXR1dzd2cWZWbFRXYUR0UkVMeFRzQkd2VGNSaUQ0b1JsVFl4RkhDRG1YaTk1eXpQVXRLSWZsZDBJdS1GbXdFV0NuNzFGLVhFT2tlY0pER0pUdXc?oc=5",
-          "date": "2026-09-24",
-          "source": "AD HOC NEWS",
-          "gravite": 1,
-          "mots": [
-            "guidance cut"
-          ]
-        }
-      ],
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -19% vs marché)",
+      "vs_marche_3m": -0.18528084139937717,
+      "alertes": [],
       "recents": [
         {
-          "titre": "Bilfinger cuts 2026 outlook while Bilfinger stock trades above EUR 56.78 - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUTJpdVdNcjB2MVFHY0JPSGNaYUw0Yy1CM1VEX0hCNkJvZFBhZ0piTWRnenlEd2RKU2pQcGxrODEzdE9tMFc3a1RDUHhtd21UWndlVFpnQ3pZS0VFUGVlcVl4NlB2bFV6ZkJ5V2pRSjNuaUhoejNRcHF0dm1zMXJ0R0w4dzlBcXZVOXN1SllTWDBKN1U4clZFVEpJV25YNHB6anpqV0txaEc3NVFyZW1MY19hRFdCQjc3dDNkR2poY3ZxWmwzUDk3cjhIS2c1YTR6?oc=5",
-          "date": "2026-10-06",
-          "source": "AD HOC NEWS",
+          "titre": "Don Quijote operator to acquire Toys R Us Japan's business - 毎日新聞",
+          "lien": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9uUGxYNjVEVmxrSmRJS0o2Y1QxbnRyeF9Ra0trN0FhX25HVUZUZExfSmRyRzJpaWRaMDdSMlpwOU1xaVQxOG5DQ0MzV3htaW1NamNLWXhsa0RrRkhuUkpGTUVxOWVoX181T1BJM3RuVzY5UXc?oc=5",
+          "date": "2026-10-02",
+          "source": "毎日新聞",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Bilfinger SE (GBF) Discloses Major Holdings Notification - TradingView",
-          "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTlU2ZUdWVlhMTXktWGoyanJXREdNNHhpTUZHWHdvSTNMdW4tM1daNFp6b1kweFFoLVE4NU9feHQ4MGo4TVIxWlM0UWtFQTJ6YlRTUktrYTltOEJfeEZTSXJ1SmZqdktfQWQ1QzJNOGlpOWlMLXh3djl3cVVVcWV1c2MwV011X0NyQnpuRVlNSC1vbWtSVEF0Z3kxejFOQmNITlBUNDYwWURtTWMxemFmZEpjZEx6MlE?oc=5",
-          "date": "2026-10-05",
-          "source": "TradingView",
+          "titre": "Don Quijote Parent to Acquire Toys \"R\" Us-Japan Operations - nippon.com",
+          "lien": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDRFpEQUxLMGxxVldhbFM1VUR1MXdOZDdBQ2dtX2xxVzNuX2NlSXlOa2R3QVNOcE9Kc0pMSjBsVk42TWdOa0dTSUpfNFFYdEsxM3czMVFlN21KYTE1?oc=5",
+          "date": "2026-10-01",
+          "source": "nippon.com",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Bilfinger : Wins Multi-Service Framework Agreement With Specialty Chemicals Producer Delamine in the Netherlands - marketscreener.com",
-          "lien": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPMkx2UTBiRnBrajNaVUFyTHNUb2ZwY0ZqZHV6SVl6ZWthU3gwUXA1ajZJRUZuYjFUTWQzSUxPSmJ0SU1qZkpQbXdnZ1NaMHJQUktMUUwyOEM5dUNzZENMcFlXMl9VSHBwUEQ2T3hoSV9XTUtPRVhzOFdOUzZVRExZd3FHUWlreWtRdjNUU1ozb3pCN1RlNDhicG9SMFlPX21jNGtVd25SUmhGUGhWWmNzMFRFN3lGMHFwSG55ZDU1RHRaRGMzRm5OcVJhVkdueXdNNnJlRkxlU3FQZkZrcG5zTFVleldxUQ?oc=5",
-          "date": "2026-10-05",
-          "source": "marketscreener.com",
+          "titre": "Don Quijote operator to buy Toys ‘R’ Us after years of losses - 朝日新聞",
+          "lien": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkMzVma3pPdDh4WmRvYk5xWDJ1d2tRRzEzSC1CemNzUVJHdS0wM3pSRWpSM2xWajlScnh2MFBtWnhjbzE2RDNjd253RFVnR1UwVEp5SEpn?oc=5",
+          "date": "2026-10-01",
+          "source": "朝日新聞",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Bilfinger SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution - TradingView",
-          "lien": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNUndpNlV6M0ZGVHZIcDAxUmZjR0owdmlkdGdPNTY3UHlrTkozZGJNNXZxMTJWUzF1R1UyRkR3UXRyU2xKQzZUa05ST1BEc1J3RjB4cXAzaWhURnIxVkVTZ0trdW4xaDhETlVGZkVqNURqbXFxVlJGLUJDZjNoMUZOd3BGMXBVWi1oRXNqMXpQWldkWU1rUkxIUWR4UUVWVzd5ZXBJMEJ3eWNnZEdDdFFBWUZDOC1tQkZWczJpNTVSUG51UDZ5SDRHVjl4MXBwalBTVXdQQkVSYkJ0QXlfcmhLTWhyNjdfTHQ5eE5TMXcyNmVXODU4eTRoNjlmczNweEo4cF9UOEdIVjVmZnZVeTIxZV9IS3pGdExndlU4aGdKRHBlLW90SldHQg?oc=5",
-          "date": "2026-10-05",
-          "source": "TradingView",
+          "titre": "Toys R Us eyes exiting Japan, selling business to Don Quijote operator - Japan Wire by Kyodo News",
+          "lien": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5wRHM2YWJlNFNhZEs1ZExSMGttQjVzS1ZsWnlFWlRaWFFBV2ZodlFxQ19PMFU2UFdVNDFlTjAzQ2IybHBxVzkzUHhnN181Mk5vYV9LbERnaE0xdw?oc=5",
+          "date": "2026-09-30",
+          "source": "Japan Wire by Kyodo News",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Bilfinger Signs Multi-Service Deal With Delamine In The Netherlands - TradingView",
-          "lien": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQ1gzRDI5b1E0THc5SU9mdmRCUF8xZ3MtMjJwYlFLUEJtVFN5QXc5N080MUpQRGJPU3c1ekVYUFFJdFA0THpFX1NlRll6NF82U0t2UkhOOUhaaVhTRGN3N1FIcEt5TjN4bkhJZzB4akpZTTY4Z2ZqNjVjYldkWDNGc3NGTnhGcnJhU3B0SUxrVDVnS01qZGxnQW5XTUJHMmMxTVRlekYyZC1ZZk9HYm8xYzVxdWVUV1NBSjExVHhpNmpDbm1uWXBrQnN0Rnhxcy1tNFFn?oc=5",
-          "date": "2026-10-05",
-          "source": "TradingView",
+          "titre": "Toys \"R\" Us to Quit Store Operation in Japan - nippon.com",
+          "lien": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pUldaRHdpVUhISDFVUFdrNTREaHIzZmNEbGRvSXBEWHdabVB6QlRwZFNROWpSMlk4TkRIMUctNFVnWkhBVGZTY3RDaDRsc3RCVDlnR3Q0X2Zyb1RX?oc=5",
+          "date": "2026-09-30",
+          "source": "nippon.com",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 6
+    "ticket": 7
   },
   "radar_proposes": [
     "MCD",
@@ -139,7 +108,8 @@
     "MXT.AX",
     "NOC",
     "VICI",
-    "GBF.DE"
+    "GBF.DE",
+    "7532.T"
   ],
   "achats": [],
   "historique": [
@@ -589,6 +559,125 @@
         ]
       },
       "ticket": 5,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-06",
+      "cree_le": "2026-10-06T15:19+00:00",
+      "liberation": 115.9000015258789,
+      "reserve_pct": null,
+      "score": 97.22981109723129,
+      "ordres": [
+        {
+          "ticker": "GBF.DE",
+          "side": "buy",
+          "quantity": 2.0,
+          "price": 57.45000076293945,
+          "reason": "opportunité radar (score 97)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "GBF.DE",
+        "nom": "Bilfinger",
+        "isin": "GBF.DE",
+        "type": "action",
+        "prix": 57.45000076293945,
+        "score": 97.22981109723129,
+        "baisse": 0.5362050043952232,
+        "perf_5ans": 1.5500760780890026,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.2624089319559825,
+        "pos_12m": 0.5921052631578947,
+        "n_12m": 912,
+        "base_moy_12m": 0.17793929263452785,
+        "pire_12m": -0.5291757434023001,
+        "vs_marche_3m": -0.3644176467834228,
+        "devise": "EUR",
+        "prix_eur": 57.45000076293945
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, 3 article(s) à regarder (3 mois : -36% vs marché)",
+        "vs_marche_3m": -0.3644176467834228,
+        "alertes": [
+          {
+            "titre": "Bilfinger stock heads into the open after guidance cut and 1.1% gain - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVmVWLUJQLVkwVVREUi1ubzdYSVpSUGhiRS1WeUR2LUxNeUpGcmRzekt0REJBa1RjcFhpbUQ0UU9QOElOTEJsNldGZU1GM3puNG1FOHllYTE3dVJRVm5TWWpVbWJUdE9OSzd3eEwzRTVXUk5VUXB3azlDMXVaejE3YkxsRTZlVHdvbG4tZWxTRmU0N25vaW5GZDVMdFlPM1lzUW5hb21HUTdIQjhTRjdNM0lGdFpjRkJLLTcyNE9nbnNIaHlpNENhSjFMeVVJQQ?oc=5",
+            "date": "2026-09-17",
+            "source": "AD HOC NEWS",
+            "gravite": 1,
+            "mots": [
+              "guidance cut"
+            ]
+          },
+          {
+            "titre": "Bilfinger's Guidance Cut Triggers Analyst Reckoning as Agile Restructuring Takes Shape - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNczhZQmtQMVZSdUw4bTdBSFJRTlFLaGo5azhkQUJnNGg5dXkzWk9rZXdyZXlxeWJTMmE5NXFSLXUtelV3VDdKd1Z4QVE1NjZRY1dyQUlmTUNReWtNMHl3TUZpN194VDBya1c5WkVhZFhvdzNjZ2Z4ZTNnejNvV1EyalZhUnpjX0NNUG94Q3NGSjB0dk9SVlN3WWZfUG1YTW5GbEtNRjZ2R1dweVFSUGp1MjdFWGVRd2V6LXEwWllXYThOS3lYYmEzRFNaTlNYTDA1NGwyM0hPYkRXaXlJZGk4?oc=5",
+            "date": "2026-09-23",
+            "source": "AD HOC NEWS",
+            "gravite": 1,
+            "mots": [
+              "guidance cut"
+            ]
+          },
+          {
+            "titre": "Bilfinger stock falls 1.93 percent after guidance cut - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdVpjdzNLTmIxUTZabHEzdGlQS1Fjem4zNEpxOTJoT0JDT1RVbGg5T3lZZmMyVnRVc0p4ZzdqTDBTX0ZEVDVVOWV2ZFhIWEtra25jZElKRFdCUE9mM0FsZC0zdmJjRXR1dzd2cWZWbFRXYUR0UkVMeFRzQkd2VGNSaUQ0b1JsVFl4RkhDRG1YaTk1eXpQVXRLSWZsZDBJdS1GbXdFV0NuNzFGLVhFT2tlY0pER0pUdXc?oc=5",
+            "date": "2026-09-24",
+            "source": "AD HOC NEWS",
+            "gravite": 1,
+            "mots": [
+              "guidance cut"
+            ]
+          }
+        ],
+        "recents": [
+          {
+            "titre": "Bilfinger cuts 2026 outlook while Bilfinger stock trades above EUR 56.78 - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUTJpdVdNcjB2MVFHY0JPSGNaYUw0Yy1CM1VEX0hCNkJvZFBhZ0piTWRnenlEd2RKU2pQcGxrODEzdE9tMFc3a1RDUHhtd21UWndlVFpnQ3pZS0VFUGVlcVl4NlB2bFV6ZkJ5V2pRSjNuaUhoejNRcHF0dm1zMXJ0R0w4dzlBcXZVOXN1SllTWDBKN1U4clZFVEpJV25YNHB6anpqV0txaEc3NVFyZW1MY19hRFdCQjc3dDNkR2poY3ZxWmwzUDk3cjhIS2c1YTR6?oc=5",
+            "date": "2026-10-06",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Bilfinger SE (GBF) Discloses Major Holdings Notification - TradingView",
+            "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTlU2ZUdWVlhMTXktWGoyanJXREdNNHhpTUZHWHdvSTNMdW4tM1daNFp6b1kweFFoLVE4NU9feHQ4MGo4TVIxWlM0UWtFQTJ6YlRTUktrYTltOEJfeEZTSXJ1SmZqdktfQWQ1QzJNOGlpOWlMLXh3djl3cVVVcWV1c2MwV011X0NyQnpuRVlNSC1vbWtSVEF0Z3kxejFOQmNITlBUNDYwWURtTWMxemFmZEpjZEx6MlE?oc=5",
+            "date": "2026-10-05",
+            "source": "TradingView",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Bilfinger : Wins Multi-Service Framework Agreement With Specialty Chemicals Producer Delamine in the Netherlands - marketscreener.com",
+            "lien": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPMkx2UTBiRnBrajNaVUFyTHNUb2ZwY0ZqZHV6SVl6ZWthU3gwUXA1ajZJRUZuYjFUTWQzSUxPSmJ0SU1qZkpQbXdnZ1NaMHJQUktMUUwyOEM5dUNzZENMcFlXMl9VSHBwUEQ2T3hoSV9XTUtPRVhzOFdOUzZVRExZd3FHUWlreWtRdjNUU1ozb3pCN1RlNDhicG9SMFlPX21jNGtVd25SUmhGUGhWWmNzMFRFN3lGMHFwSG55ZDU1RHRaRGMzRm5OcVJhVkdueXdNNnJlRkxlU3FQZkZrcG5zTFVleldxUQ?oc=5",
+            "date": "2026-10-05",
+            "source": "marketscreener.com",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Bilfinger SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution - TradingView",
+            "lien": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNUndpNlV6M0ZGVHZIcDAxUmZjR0owdmlkdGdPNTY3UHlrTkozZGJNNXZxMTJWUzF1R1UyRkR3UXRyU2xKQzZUa05ST1BEc1J3RjB4cXAzaWhURnIxVkVTZ0trdW4xaDhETlVGZkVqNURqbXFxVlJGLUJDZjNoMUZOd3BGMXBVWi1oRXNqMXpQWldkWU1rUkxIUWR4UUVWVzd5ZXBJMEJ3eWNnZEdDdFFBWUZDOC1tQkZWczJpNTVSUG51UDZ5SDRHVjl4MXBwalBTVXdQQkVSYkJ0QXlfcmhLTWhyNjdfTHQ5eE5TMXcyNmVXODU4eTRoNjlmczNweEo4cF9UOEdIVjVmZnZVeTIxZV9IS3pGdExndlU4aGdKRHBlLW90SldHQg?oc=5",
+            "date": "2026-10-05",
+            "source": "TradingView",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Bilfinger Signs Multi-Service Deal With Delamine In The Netherlands - TradingView",
+            "lien": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQ1gzRDI5b1E0THc5SU9mdmRCUF8xZ3MtMjJwYlFLUEJtVFN5QXc5N080MUpQRGJPU3c1ekVYUFFJdFA0THpFX1NlRll6NF82U0t2UkhOOUhaaVhTRGN3N1FIcEt5TjN4bkhJZzB4akpZTTY4Z2ZqNjVjYldkWDNGc3NGTnhGcnJhU3B0SUxrVDVnS01qZGxnQW5XTUJHMmMxTVRlekYyZC1ZZk9HYm8xYzVxdWVUV1NBSjExVHhpNmpDbm1uWXBrQnN0Rnhxcy1tNFFn?oc=5",
+            "date": "2026-10-05",
+            "source": "TradingView",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 6,
       "decision": "sans réponse"
     }
   ]
