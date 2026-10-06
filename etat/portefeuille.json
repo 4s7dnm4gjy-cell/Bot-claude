@@ -18,89 +18,89 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-06",
-    "cree_le": "2026-10-06T16:19+00:00",
-    "liberation": 147.94810682783572,
+    "cree_le": "2026-10-06T16:49+00:00",
+    "liberation": 132.80604246581555,
     "reserve_pct": null,
-    "score": 96.74129750049796,
+    "score": 96.65550500760128,
     "ordres": [
       {
-        "ticker": "7532.T",
+        "ticker": "FCPT",
         "side": "buy",
-        "quantity": 38.0,
-        "price": 3.867055442837782,
+        "quantity": 7.0,
+        "price": 18.829434637973648,
         "reason": "opportunité radar (score 97)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "7532.T",
-      "nom": "Pan Pacific International Holdings Corp.",
-      "isin": "7532.T",
+      "ticker": "FCPT",
+      "nom": "Four Corners Property Trust, Inc.",
+      "isin": "FCPT",
       "type": "action",
-      "prix": 687.4000244140625,
-      "score": 96.74129750049796,
-      "baisse": 0.3454205964676167,
-      "perf_5ans": 0.5769879182692281,
+      "prix": 21.190000534057617,
+      "score": 96.65550500760128,
+      "baisse": 0.18783284054759708,
+      "perf_5ans": 0.021304074795923666,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.22767818950240576,
-      "pos_12m": 0.7418111753371869,
-      "n_12m": 519,
-      "base_moy_12m": 0.1861439714462016,
-      "pire_12m": -0.38778247069015903,
-      "vs_marche_3m": -0.18528084139937717,
-      "devise": "JPY",
-      "prix_eur": 3.867055442837782
+      "moy_12m": 0.1685377547851575,
+      "pos_12m": 0.7287234042553191,
+      "n_12m": 376,
+      "base_moy_12m": 0.04780589431994763,
+      "pire_12m": -0.26108207291583907,
+      "vs_marche_3m": -0.18102964213074624,
+      "devise": "USD",
+      "prix_eur": 18.829434637973648
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -19% vs marché)",
-      "vs_marche_3m": -0.18528084139937717,
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -18% vs marché)",
+      "vs_marche_3m": -0.18102964213074624,
       "alertes": [],
       "recents": [
         {
-          "titre": "Don Quijote operator to acquire Toys R Us Japan's business - 毎日新聞",
-          "lien": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9uUGxYNjVEVmxrSmRJS0o2Y1QxbnRyeF9Ra0trN0FhX25HVUZUZExfSmRyRzJpaWRaMDdSMlpwOU1xaVQxOG5DQ0MzV3htaW1NamNLWXhsa0RrRkhuUkpGTUVxOWVoX181T1BJM3RuVzY5UXc?oc=5",
-          "date": "2026-10-02",
-          "source": "毎日新聞",
+          "titre": "TOUR D'HORIZON DE LA RECHERCHE AUX ÉTATS-UNIS-Affiliated Managers Group, Goldman Sachs, Vaxcyte - Boursorama",
+          "lien": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQeUhTU1ZYdk91Z3BERVQ4ajNDZWJmdGd3Vm1FclFFQlZKdWtzdkV5OWgwLWxzc1JkY3FxSlJubkZRQmUyeVZPaGwtRlh1dVNZUzVFQ3gyVHBNM0hKLVhlSldGTnpfcl9xZXhuNE5LMXV4N3FNaUhUWk5ETUxncVQ4OTlvdjB3ZUdXYjdDR0hVODF6TTE5SU82THVxalByTUM4MGhQSHJfUTVJOEw3dkNFU1hEZXhIRkRGQlJzNndSVmd6UndfY2dmR1huZThEQUFMaExyRElHcEJMcWFHYzFFNFhPVEtWTjNtN3FwMGhESVVhOWgtbWZNYW5fbm1ZZUd5OUgtUm1R0gGGAkFVX3lxTFB5SFNTVlh2T3VncERFVDhqM0NlYmZ0Z3dWbUVyUUVCVkp1a3N2RXk5aDAtbHNzUmRjcXFKUm5uRlFCZTJ5Vk9obC1GWHV1U1lTNUVDeDJUcE0zSEotWGVKV0ZOel9yX3FleG40TksxdXg3cU1pSFRaTkRNTGdxVDg5OW92MHdlR1diN0NHSFU4MXpNMTlJTzZMdXFqUHJNQzgwaFBIcl9RNUk4TDd2Q0VTWERleEhGREZCUnM2d1JWZ3pSd19jZ2ZHWG5lOERBQUxoTHJESUdwQkxxYUdjMUU0WE9US1ZOM203cXAwaERJVWE5aC1tZk1hbl9ubVllR3k5SC1SbVE?oc=5",
+          "date": "2026-10-06",
+          "source": "Boursorama",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Don Quijote Parent to Acquire Toys \"R\" Us-Japan Operations - nippon.com",
-          "lien": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDRFpEQUxLMGxxVldhbFM1VUR1MXdOZDdBQ2dtX2xxVzNuX2NlSXlOa2R3QVNOcE9Kc0pMSjBsVk42TWdOa0dTSUpfNFFYdEsxM3czMVFlN21KYTE1?oc=5",
-          "date": "2026-10-01",
-          "source": "nippon.com",
+          "titre": "Four Corners Property Trust (NYSE:FCPT) Given New $26.00 Price Target at JPMorgan Chase & Co. - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOb2VaeFNvM0RTY0dydWphZEpPeDNPdHZnN0JMMkRXN184Wk90N01UODlzLTNJcF9jOVo1N1JBVDh6aHU0UmpNQVBLMmhoT1ZiRXgtYjdjb1Y0Z19Fb3dEX1RZbHE4cVYwRHA1bDhFSDNLZkFMZlRkZ0lQc2o1NEZ6Q1VHbTdyWkhQMEd4ampSNHJiYjFrdmd5S2xneUd5Q1FRbmxPVkFqVl9NUnVscFNBUTFCRFlESzZJSmoydTYzUGFCVTJzQ3VQMms3d3VGWDJvV0cwSWpaTHh1Y2dxTGVCbWxn?oc=5",
+          "date": "2026-10-06",
+          "source": "MarketBeat",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Don Quijote operator to buy Toys ‘R’ Us after years of losses - 朝日新聞",
-          "lien": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkMzVma3pPdDh4WmRvYk5xWDJ1d2tRRzEzSC1CemNzUVJHdS0wM3pSRWpSM2xWajlScnh2MFBtWnhjbzE2RDNjd253RFVnR1UwVEp5SEpn?oc=5",
-          "date": "2026-10-01",
-          "source": "朝日新聞",
+          "titre": "L’action Four Corners Property Trust atteint un plus bas sur 52 semaines - Investing.com France",
+          "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZGtpQURGbTg0bjVHb0tsM1FxeDdHWi10bmVnWjhRams1MU5FTXNJc2VnZHNSbUhwRDl3ZDZPMDVPdVA1OWtEYXNOV2hRU3AwMkhqanRXM0ZHa0dXenZqYkpYYWVFcDdVY1k5aklnY0ZpeTdzU0FMWnZsdTlnZEV4VTRnNk1wWDEydndNelZPUTc2eGNBcjF4dzk1Rm00OVQyZ2Z5WDE4WU93azZpNGxFbDFsXzFKZDV4WVpvRm5LVVJEN2JwYWc?oc=5",
+          "date": "2026-10-05",
+          "source": "Investing.com France",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Toys R Us eyes exiting Japan, selling business to Don Quijote operator - Japan Wire by Kyodo News",
-          "lien": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5wRHM2YWJlNFNhZEs1ZExSMGttQjVzS1ZsWnlFWlRaWFFBV2ZodlFxQ19PMFU2UFdVNDFlTjAzQ2IybHBxVzkzUHhnN181Mk5vYV9LbERnaE0xdw?oc=5",
-          "date": "2026-09-30",
-          "source": "Japan Wire by Kyodo News",
+          "titre": "Four Corners Property Trust stock hits 52-week low at 21.34 USD - Investing.com",
+          "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcnAxOUdyaHR4RVR2eFUyZDdQQjFmT0E0T0xna2t3WmE5bzBGakFPNkJLYmZMaTM4RjJCQ2d1b0hQdTRDLTE1TVNSMmF4T0IxSThtZEVudTBEVDJRUllPZkV5NmlxSWw3WXRETUFHRHpWa1RTY1lvdy1JYkZIX2J5NklPc1owOWJNOFpRQXFjMVVkaXFUWmhvMG1LekRMZmM1WkIwTjA0Tlpab1NveVRSTG9rOURTdERITGc?oc=5",
+          "date": "2026-10-05",
+          "source": "Investing.com",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Toys \"R\" Us to Quit Store Operation in Japan - nippon.com",
-          "lien": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pUldaRHdpVUhISDFVUFdrNTREaHIzZmNEbGRvSXBEWHdabVB6QlRwZFNROWpSMlk4TkRIMUctNFVnWkhBVGZTY3RDaDRsc3RCVDlnR3Q0X2Zyb1RX?oc=5",
-          "date": "2026-09-30",
-          "source": "nippon.com",
+          "titre": "Four Corners Property Trust (NYSE:FCPT) Sets New 1-Year Low - Here's Why - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVHdPN1dYdGtZTmkyOF9YeGpxcTE5MF9rcTRXR09uZmtObUFiVW5ObkdGWDFPZkw5emhIVlNhUndrUUlGb2J6SEtLMkNMdnZRbG1vSWs2SzJ0MEp4WEF3ZVpHWTNYRmVZT2JfZDZlQndyVk1fS2JpOTRnWHluQVV5SFlpeTQydkFRMnBjanJkaWNNZWFvTjlwVGVyVHFZTl9RYmVwRlRRMm8zZ1ZMMjRjNlJFR21kbDVyeVdHZTRKMXBlVFFzMVE?oc=5",
+          "date": "2026-10-05",
+          "source": "MarketBeat",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 7
+    "ticket": 8
   },
   "radar_proposes": [
     "MCD",
@@ -109,7 +109,8 @@
     "NOC",
     "VICI",
     "GBF.DE",
-    "7532.T"
+    "7532.T",
+    "FCPT"
   ],
   "achats": [],
   "historique": [
@@ -678,6 +679,94 @@
         ]
       },
       "ticket": 6,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-06",
+      "cree_le": "2026-10-06T16:19+00:00",
+      "liberation": 147.94810682783572,
+      "reserve_pct": null,
+      "score": 96.74129750049796,
+      "ordres": [
+        {
+          "ticker": "7532.T",
+          "side": "buy",
+          "quantity": 38.0,
+          "price": 3.867055442837782,
+          "reason": "opportunité radar (score 97)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "7532.T",
+        "nom": "Pan Pacific International Holdings Corp.",
+        "isin": "7532.T",
+        "type": "action",
+        "prix": 687.4000244140625,
+        "score": 96.74129750049796,
+        "baisse": 0.3454205964676167,
+        "perf_5ans": 0.5769879182692281,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.22767818950240576,
+        "pos_12m": 0.7418111753371869,
+        "n_12m": 519,
+        "base_moy_12m": 0.1861439714462016,
+        "pire_12m": -0.38778247069015903,
+        "vs_marche_3m": -0.18528084139937717,
+        "devise": "JPY",
+        "prix_eur": 3.867055442837782
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -19% vs marché)",
+        "vs_marche_3m": -0.18528084139937717,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Don Quijote operator to acquire Toys R Us Japan's business - 毎日新聞",
+            "lien": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9uUGxYNjVEVmxrSmRJS0o2Y1QxbnRyeF9Ra0trN0FhX25HVUZUZExfSmRyRzJpaWRaMDdSMlpwOU1xaVQxOG5DQ0MzV3htaW1NamNLWXhsa0RrRkhuUkpGTUVxOWVoX181T1BJM3RuVzY5UXc?oc=5",
+            "date": "2026-10-02",
+            "source": "毎日新聞",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Don Quijote Parent to Acquire Toys \"R\" Us-Japan Operations - nippon.com",
+            "lien": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDRFpEQUxLMGxxVldhbFM1VUR1MXdOZDdBQ2dtX2xxVzNuX2NlSXlOa2R3QVNOcE9Kc0pMSjBsVk42TWdOa0dTSUpfNFFYdEsxM3czMVFlN21KYTE1?oc=5",
+            "date": "2026-10-01",
+            "source": "nippon.com",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Don Quijote operator to buy Toys ‘R’ Us after years of losses - 朝日新聞",
+            "lien": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkMzVma3pPdDh4WmRvYk5xWDJ1d2tRRzEzSC1CemNzUVJHdS0wM3pSRWpSM2xWajlScnh2MFBtWnhjbzE2RDNjd253RFVnR1UwVEp5SEpn?oc=5",
+            "date": "2026-10-01",
+            "source": "朝日新聞",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Toys R Us eyes exiting Japan, selling business to Don Quijote operator - Japan Wire by Kyodo News",
+            "lien": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5wRHM2YWJlNFNhZEs1ZExSMGttQjVzS1ZsWnlFWlRaWFFBV2ZodlFxQ19PMFU2UFdVNDFlTjAzQ2IybHBxVzkzUHhnN181Mk5vYV9LbERnaE0xdw?oc=5",
+            "date": "2026-09-30",
+            "source": "Japan Wire by Kyodo News",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Toys \"R\" Us to Quit Store Operation in Japan - nippon.com",
+            "lien": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pUldaRHdpVUhISDFVUFdrNTREaHIzZmNEbGRvSXBEWHdabVB6QlRwZFNROWpSMlk4TkRIMUctNFVnWkhBVGZTY3RDaDRsc3RCVDlnR3Q0X2Zyb1RX?oc=5",
+            "date": "2026-09-30",
+            "source": "nippon.com",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 7,
       "decision": "sans réponse"
     }
   ]
