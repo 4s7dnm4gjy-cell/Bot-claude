@@ -23,6 +23,9 @@ INDICES = {
     "S&P 500": ("List_of_S%26P_500_companies", "", "us"),
     "S&P MidCap 400": ("List_of_S%26P_400_companies", "", "us"),
     "S&P SmallCap 600": ("List_of_S%26P_600_companies", "", "us"),
+    "Russell 1000": ("Russell_1000_Index", "", "us"),
+    "Nasdaq-100": ("https://de.wikipedia.org/wiki/NASDAQ-100", "", "us"),
+    "CAC Mid 60": ("https://fr.wikipedia.org/wiki/CAC_Mid_60", ".PA", None),
     "CAC 40": ("CAC_40", ".PA", None),
     "SBF 120": ("https://fr.wikipedia.org/wiki/SBF_120", ".PA", None),
     "DAX": ("DAX", ".DE", None),
@@ -47,7 +50,11 @@ INDICES = {
     "Nikkei 225": ("Nikkei_225", ".T", "japon"),
     "Hang Seng": ("Hang_Seng_Index", ".HK", "hk"),
     "S&P/TSX 60": ("S%26P/TSX_60", ".TO", "us"),
+    "S&P/TSX Composite": ("S%26P/TSX_Composite_Index", ".TO", "us"),
     "S&P/ASX 50": ("S%26P/ASX_50", ".AX", None),
+    "S&P/ASX 200": ("S%26P/ASX_200", ".AX", None),
+    "SMI Mid": ("SMI_MID", ".SW", None),
+    "Hang Seng China Ent.": ("Hang_Seng_China_Enterprises_Index", ".HK", "hk"),
 }
 
 COLS_CODE = ("symbol", "ticker", "ticker symbol", "code", "epic", "stock symbol", "ticker code", "sehk",
@@ -133,7 +140,7 @@ def lire_indice(nom: str, page: str, suffixe: str | None, regle: str | None) -> 
             if t:
                 meilleur.setdefault(t, {"nom": nom_societe.strip(" ,;"), "indice": nom})
     if not meilleur:  # aide au diagnostic dans le journal
-        tables = [list(map(str, df.columns))[:6] for df in pd.read_html(StringIO(html)) if len(df) >= 10]
+        tables = [list(map(str, df.columns))[:6] for df in pd.read_html(StringIO(html)) if len(df) >= 5]
         print(f"  {nom} : colonnes des tableaux trouvés : {tables[:4]}")
     return meilleur
 

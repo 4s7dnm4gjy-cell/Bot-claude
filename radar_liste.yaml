@@ -245,3 +245,20 @@ QDVE.DE: {nom: iShares S&P 500 Information Technology, isin: IE00B3WJKG14, type:
 EXV1.DE: {nom: iShares STOXX Europe 600 Banks, isin: DE000A0F5UJ7, type: ETF}
 IQQH.DE: {nom: iShares Global Clean Energy, isin: IE00B1XNHC34, type: ETF}
 4GLD.DE: {nom: Xetra-Gold (or physique), isin: DE000A0S9GB0, type: ETC}
+
+# ------------------------------------------------- ETF populaires sur Trade Republic
+VWCE.DE: {nom: Vanguard FTSE All-World (capitalisant), isin: IE00BK5BQT80, type: ETF}
+VGWL.DE: {nom: Vanguard FTSE All-World (distribuant), isin: IE00B3RBWM25, type: ETF}
+XDWD.DE: {nom: Xtrackers MSCI World, isin: IE00BJ0KDQ92, type: ETF}
+EUNL.DE: {nom: iShares Core MSCI World, isin: IE00B4L5Y983, type: ETF}
+IS3N.DE: {nom: iShares Core MSCI EM IMI, isin: IE00BKM4GZ66, type: ETF}
+EXS1.DE: {nom: iShares Core DAX, isin: DE0005933931, type: ETF}
+SXR7.DE: {nom: iShares Core MSCI EMU, isin: IE00B53QG562, type: ETF}
+XDEW.DE: {nom: Xtrackers S&P 500 Equal Weight, isin: IE00BLNMYC90, type: ETF}
+IS3Q.DE: {nom: iShares MSCI World Quality Factor, isin: IE00BP3QZ601, type: ETF}
+IS3R.DE: {nom: iShares MSCI World Momentum Factor, isin: IE00BP3QZ825, type: ETF}
+ZPRV.DE: {nom: SPDR MSCI USA Small Cap Value, isin: IE00BSPLC413, type: ETF}
+ZPRX.DE: {nom: SPDR MSCI Europe Small Cap Value, isin: IE00BSPLC298, type: ETF}
+XAIX.DE: {nom: Xtrackers Artificial Intelligence & Big Data, isin: IE00BGV5VN51, type: ETF}
+QDV5.DE: {nom: iShares MSCI India, isin: IE00BZCQB185, type: ETF}
+DFEN.DE: {nom: VanEck Defense, isin: IE000YYE6WK5, type: ETF}
