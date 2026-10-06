@@ -1,8 +1,8 @@
 # Tableau de bord — 06/10/2026
 
-⏳ Proposition prête, publication en cours
+⏳ Proposition en attente de votre réponse : ticket #3
 
-Score du moment : **11/100 — 🔴 marché très cher (au plus haut)**. iShares Core MSCI World est à -0.0% de son plus haut sur 1 an, +10.0% par rapport à sa moyenne 200 jours, RSI 69.
+Score du moment : **11/100 — 🔴 marché très cher (au plus haut)**. iShares Core MSCI World est à -0.0% de son plus haut sur 1 an, +9.9% par rapport à sa moyenne 200 jours, RSI 69.
 
 Historiquement (^GSPC depuis 1950), quand le score était dans la tranche 0-20 (cher) : **+11.1% en moyenne 12 mois plus tard**, positif dans 81% des cas (tous jours confondus : +9.3%, 74%).
 
@@ -35,12 +35,12 @@ Apport mensuel : 200 € — proposé dès que le score atteint 60, au plus tard
 - `possede EUNL.DE 12` : déclarer des parts que vous avez déjà
 - `aide` : afficher cette aide
 
-#### 🔎 Radar (3064 actions et ETF suivis, 670 soldés aujourd'hui)
+#### 🔎 Radar (3064 actions et ETF suivis, 675 soldés aujourd'hui)
 - ⭐ **IG Group** (action, chercher « IG Group ») — score **99/100**, -50% depuis son plus haut ; historiquement à ce niveau : +21% à 12 mois en moyenne, positif 75% des cas (moyenne du titre : +12%)
   - 📰 🟠 à vérifier : baisse bien plus forte que le marché, 4 article(s) à regarder (3 mois : -52% vs marché)
     - ⚠️ [UK's IG Group plans significant layoffs, Sky News reports - Reuters](https://news.google.com/rss/articles/CBMiogFBVV95cUxQdzI4SXdIZU5Fa1RWZnlrbms5VlVwZ2VRM2U5NEE4ZkV6SkxtQ2syME5XWXdJc2dVOUV3eTQ3cHNSeHlWUTVDZFlhX2hCaHU0dlEtZVVMMVdYZDlIUmJHR2dlMnBYRExhSnppNzRJMVpTZC11elJfZ1V6LThtOGdMc1pkWml3c2FPNkxCSzU4RHZDZG95N05HSTE0cFNsRWxQeWc?oc=5) (layoffs)
-    - ⚠️ [IG Group shares plunge 25% as Peel Hunt flags revenue and margin downgrade - Yahoo Finance UK](https://news.google.com/rss/articles/CBMif0FVX3lxTE9jYnRRZ3ExQTZtTjNsYjNsNTJRcy02c01Ub1VPaUZEbHZSejhubjNBMEhrNzE3RktYVzVYU09tYTJYY1VEWHIzSWtGUWU3Tm1qU3JGRk5HWU1aNlJTcXB6bEtqWUpNUlZCYlF2VFBTUHgxSm1jbFhFZWtVMUt4STA?oc=5) (downgrade)
-    - ⚠️ [IG Group Shares Plunge c25% After De Facto Profit Warning - share-talk.com](https://news.google.com/rss/articles/CBMijAFBVV95cUxQYnVXR3cybHZiR2NSSXpJbnpjYVlwOHhDSDJ0OHQ3YnhBejJpak9BV1pReXBPc2pnd3ViclBHTXhyQ2NkazI3Q1JnT1FEWGszeHdSazBOdjdQTnMxcEdnOGxUYlJFV2JYTVlMUW1CTUFoeHRtd0RCNFYzWlEwdU5nYm1vR1BzdXNfNlR2VA?oc=5) (profit warning)
+    - ⚠️ [IG Group shares plunge 25% as Peel Hunt flags revenue and margin downgrade - uk.finance.yahoo.com](https://news.google.com/rss/articles/CBMif0FVX3lxTE9jYnRRZ3ExQTZtTjNsYjNsNTJRcy02c01Ub1VPaUZEbHZSejhubjNBMEhrNzE3RktYVzVYU09tYTJYY1VEWHIzSWtGUWU3Tm1qU3JGRk5HWU1aNlJTcXB6bEtqWUpNUlZCYlF2VFBTUHgxSm1jbFhFZWtVMUt4STA?oc=5) (downgrade)
+    - ⚠️ [IG Group Shares Plunge c25% After De Facto Profit Warning - Share Talk](https://news.google.com/rss/articles/CBMijAFBVV95cUxQYnVXR3cybHZiR2NSSXpJbnpjYVlwOHhDSDJ0OHQ3YnhBejJpak9BV1pReXBPc2pnd3ViclBHTXhyQ2NkazI3Q1JnT1FEWGszeHdSazBOdjdQTnMxcEdnOGxUYlJFV2JYTVlMUW1CTUFoeHRtd0RCNFYzWlEwdU5nYm1vR1BzdXNfNlR2VA?oc=5) (profit warning)
 - ⭐ **Metrics Master Income Trust** (action, chercher « Metrics Master Income Trust ») — score **98/100**, -12% depuis son plus haut ; historiquement à ce niveau : +8% à 12 mois en moyenne, positif 88% des cas (moyenne du titre : +7%)
   - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -15% vs marché)
 - ⭐ **Northrop Grumman** (action, chercher « Northrop Grumman ») — score **98/100**, -37% depuis son plus haut ; historiquement à ce niveau : +18% à 12 mois en moyenne, positif 83% des cas (moyenne du titre : +17%)
@@ -52,7 +52,7 @@ Apport mensuel : 200 € — proposé dès que le score atteint 60, au plus tard
   - 📰 🟠 à vérifier : baisse bien plus forte que le marché, 5 article(s) à regarder (3 mois : -18% vs marché)
     - ⚠️ [VICI Properties: I'm Flipping From Buy To Sell (Rating Downgrade) (NYSE:VICI) - Seeking Alpha](https://news.google.com/rss/articles/CBMipAFBVV95cUxPRTdDdXJjZFB3bHRKOTl0eXJIYzNDdDNGeUxCTkt4NzBQb2ZLaUlCR1NpaGFjWlRrTDhlY3o4SllkVm5ZNHVqM2x5a0hVanZ5MmJVQ2ktMkRoaXAwMUdOanFEVzNJQmUxU3ZNREdGV2hudGdhRzFhMVJOZXN4bktvMm5ISnJpRkNvQ2hfd0o1ajZONEhXTDNZNmdjNDBsNGNGcl9kXw?oc=5) (downgrade)
     - ⚠️ [VICI Properties Shares Fall After JPMorgan Downgrade - Yahoo Finance](https://news.google.com/rss/articles/CBMiowFBVV95cUxNX0prWkt3elVjZDRkcWxHQmMtUy1McksybUgzM1NmMjF4aHFldjd4ck1GckhVYkdFU0ozaEhmTmR0eGhFb2dKYjB5SE44ckEzQXJYWTRiMUdEbWpQVWtIeG1KMGwyRndNMW9aZWZyRzhPbzhkN0tFMTZLN0tsYnVXaGV6RXU2VGJpZVpnOVdvSWs1OHFiQVRWcWtNU3k3WkdueURV?oc=5) (downgrade)
-    - ⚠️ [VICI Properties (NYSE:VICI) Downgraded by JPMorgan Chase & Co. to "Neutral" - MarketBeat](https://news.google.com/rss/articles/CBMiyAFBVV95cUxOT0gtMk96NzUwRE1hdGs2b1RQWDZJZVF4cGY4LXRSM3FEQm5mTWoyNWZlRm9UWGJ3YjU4VFIyemF1WmR3VW15VjJHRmdBcmtPbEpCUE9IVjUzT19kUmJpcm9QeEhBZlBUSU4wX1JSVHBaRVNxM0JFRy1qTC1lN0c3dXdpV1l6RUdRQVUwUEM5QzE3WWkxZ0kwckpKMEEwWXVhMFd6cVFVbkg5WHQ5MGJvQ2JaLVMzWEZnbFBwSnNIRDB0aThyMENsVA?oc=5) (downgraded)
+    - ⚠️ [VICI Properties (NYSE:VICI) Downgraded by JPMorgan Chase & Co. to "Neutral" - marketbeat.com](https://news.google.com/rss/articles/CBMiyAFBVV95cUxOT0gtMk96NzUwRE1hdGs2b1RQWDZJZVF4cGY4LXRSM3FEQm5mTWoyNWZlRm9UWGJ3YjU4VFIyemF1WmR3VW15VjJHRmdBcmtPbEpCUE9IVjUzT19kUmJpcm9QeEhBZlBUSU4wX1JSVHBaRVNxM0JFRy1qTC1lN0c3dXdpV1l6RUdRQVUwUEM5QzE3WWkxZ0kwckpKMEEwWXVhMFd6cVFVbkg5WHQ5MGJvQ2JaLVMzWEZnbFBwSnNIRDB0aThyMENsVA?oc=5) (downgraded)
 - ⭐ **BWX Technologies** (action, chercher « BWX Technologies ») — score **98/100**, -43% depuis son plus haut ; historiquement à ce niveau : +29% à 12 mois en moyenne, positif 83% des cas (moyenne du titre : +24%)
   - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -32% vs marché)
 - ⭐ **McDonald's** (action, ISIN `US5801351017`) — score **97/100**, -30% depuis son plus haut ; historiquement à ce niveau : +34% à 12 mois en moyenne, positif 98% des cas (moyenne du titre : +17%)
@@ -69,7 +69,7 @@ Apport mensuel : 200 € — proposé dès que le score atteint 60, au plus tard
     - ⚠️ [Bilfinger's Guidance Cut Triggers Analyst Reckoning as Agile Restructuring Takes Shape - AD HOC NEWS](https://news.google.com/rss/articles/CBMi3wFBVV95cUxNczhZQmtQMVZSdUw4bTdBSFJRTlFLaGo5azhkQUJnNGg5dXkzWk9rZXdyZXlxeWJTMmE5NXFSLXUtelV3VDdKd1Z4QVE1NjZRY1dyQUlmTUNReWtNMHl3TUZpN194VDBya1c5WkVhZFhvdzNjZ2Z4ZTNnejNvV1EyalZhUnpjX0NNUG94Q3NGSjB0dk9SVlN3WWZfUG1YTW5GbEtNRjZ2R1dweVFSUGp1MjdFWGVRd2V6LXEwWllXYThOS3lYYmEzRFNaTlNYTDA1NGwyM0hPYkRXaXlJZGk4?oc=5) (guidance cut)
     - ⚠️ [Bilfinger stock falls 1.93 percent after guidance cut - AD HOC NEWS](https://news.google.com/rss/articles/CBMitwFBVV95cUxQdVpjdzNLTmIxUTZabHEzdGlQS1Fjem4zNEpxOTJoT0JDT1RVbGg5T3lZZmMyVnRVc0p4ZzdqTDBTX0ZEVDVVOWV2ZFhIWEtra25jZElKRFdCUE9mM0FsZC0zdmJjRXR1dzd2cWZWbFRXYUR0UkVMeFRzQkd2VGNSaUQ0b1JsVFl4RkhDRG1YaTk1eXpQVXRLSWZsZDBJdS1GbXdFV0NuNzFGLVhFT2tlY0pER0pUdXc?oc=5) (guidance cut)
 - ⭐ **Pan Pacific International Holdings Corp.** (action, chercher « Pan Pacific International Holdings Corp. ») — score **97/100**, -35% depuis son plus haut ; historiquement à ce niveau : +23% à 12 mois en moyenne, positif 74% des cas (moyenne du titre : +19%)
-  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -19% vs marché)
+  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -18% vs marché)
 - ⭐ **Casey's** (action, chercher « Casey's ») — score **97/100**, -33% depuis son plus haut ; historiquement à ce niveau : +25% à 12 mois en moyenne, positif 87% des cas (moyenne du titre : +22%)
   - 📰 🟠 à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -27% vs marché)
     - ⚠️ [Investigation underway after shooting at Clarksville convenience store - WSMV](https://news.google.com/rss/articles/CBMiogFBVV95cUxNX01ReTlQaVBmbW5yeC1mTzdaaEFTRXBQRlhNUDFLY0FyY3h6OXljSTVsRm5mZzdZMjVaOFhIdXItSEpNZlhYMmxkZnBIQU8yTGh0cDNWQldrc0lUMVBtSXVZSEdnNHEwQWJLQzI5d2o1eEN0MnpDaFd1aEhqWnVpSHJBS2g0djUwbjVkUTExWWZPU1VyYlY5MVhWcE5JdEZuaFE?oc=5) (investigation)
@@ -111,23 +111,23 @@ Apport mensuel : 200 € — proposé dès que le score atteint 60, au plus tard
 - ⭐ **AGNC Investment** (action, chercher « AGNC Investment ») — score **94/100**, -22% depuis son plus haut ; historiquement à ce niveau : +14% à 12 mois en moyenne, positif 71% des cas (moyenne du titre : +8%)
 - ⭐ **Fidelity National Financial** (action, chercher « Fidelity National Financial ») — score **94/100**, -30% depuis son plus haut ; historiquement à ce niveau : +34% à 12 mois en moyenne, positif 83% des cas (moyenne du titre : +18%)
 - ⭐ **Stantec Inc.** (action, chercher « Stantec Inc. ») — score **93/100**, -39% depuis son plus haut ; historiquement à ce niveau : +25% à 12 mois en moyenne, positif 84% des cas (moyenne du titre : +20%)
-- ⭐ **Danone** (action, ISIN `FR0000120644`) — score **93/100**, -24% depuis son plus haut ; historiquement à ce niveau : +9% à 12 mois en moyenne, positif 76% des cas (moyenne du titre : +8%)
 - ⭐ **Southern Company** (action, chercher « Southern Company ») — score **93/100**, -14% depuis son plus haut ; historiquement à ce niveau : +15% à 12 mois en moyenne, positif 88% des cas (moyenne du titre : +11%)
 - ⭐ **WEC Energy Group** (action, chercher « WEC Energy Group ») — score **93/100**, -14% depuis son plus haut ; historiquement à ce niveau : +17% à 12 mois en moyenne, positif 83% des cas (moyenne du titre : +14%)
+- ⭐ **Ferrovial** (action, chercher « Ferrovial ») — score **93/100**, -28% depuis son plus haut ; historiquement à ce niveau : +17% à 12 mois en moyenne, positif 73% des cas (moyenne du titre : +13%)
 - ⭐ **Regis Healthcare** (action, chercher « Regis Healthcare ») — score **93/100**, -44% depuis son plus haut ; historiquement à ce niveau : +41% à 12 mois en moyenne, positif 72% des cas (moyenne du titre : +22%)
 - ⭐ **AutoZone** (action, chercher « AutoZone ») — score **93/100**, -33% depuis son plus haut ; historiquement à ce niveau : +26% à 12 mois en moyenne, positif 87% des cas (moyenne du titre : +20%)
+- ⭐ **Danone** (action, ISIN `FR0000120644`) — score **93/100**, -24% depuis son plus haut ; historiquement à ce niveau : +9% à 12 mois en moyenne, positif 76% des cas (moyenne du titre : +8%)
 - ⭐ **Universal Corporation** (action, chercher « Universal Corporation ») — score **93/100**, -26% depuis son plus haut ; historiquement à ce niveau : +21% à 12 mois en moyenne, positif 76% des cas (moyenne du titre : +8%)
 - ⭐ **Lennox International** (action, chercher « Lennox International ») — score **93/100**, -37% depuis son plus haut ; historiquement à ce niveau : +35% à 12 mois en moyenne, positif 83% des cas (moyenne du titre : +22%)
-- ⭐ **Ferrovial** (action, chercher « Ferrovial ») — score **93/100**, -28% depuis son plus haut ; historiquement à ce niveau : +17% à 12 mois en moyenne, positif 73% des cas (moyenne du titre : +13%)
 - ⭐ **Tabcorp** (action, chercher « Tabcorp ») — score **93/100**, -26% depuis son plus haut ; historiquement à ce niveau : +197% à 12 mois en moyenne, positif 84% des cas (moyenne du titre : +188%)
 - ⭐ **AutoNation** (action, chercher « AutoNation ») — score **93/100**, -30% depuis son plus haut ; historiquement à ce niveau : +34% à 12 mois en moyenne, positif 70% des cas (moyenne du titre : +18%)
 - ⭐ **Terna** (action, chercher « Terna ») — score **93/100**, -12% depuis son plus haut ; historiquement à ce niveau : +20% à 12 mois en moyenne, positif 95% des cas (moyenne du titre : +13%)
 - ⭐ **RPM International** (action, chercher « RPM International ») — score **93/100**, -20% depuis son plus haut ; historiquement à ce niveau : +26% à 12 mois en moyenne, positif 84% des cas (moyenne du titre : +15%)
+- ⭐ **Gjensidige Forsikring** (action, chercher « Gjensidige Forsikring ») — score **93/100**, -13% depuis son plus haut ; historiquement à ce niveau : +18% à 12 mois en moyenne, positif 83% des cas (moyenne du titre : +15%)
 - ⭐ **Choice Properties Real Estate Investment Trust** (action, chercher « Choice Properties Real Estate Investment Trust ») — score **92/100**, -12% depuis son plus haut ; historiquement à ce niveau : +13% à 12 mois en moyenne, positif 85% des cas (moyenne du titre : +7%)
 - ⭐ **NNN Reit** (action, chercher « NNN Reit ») — score **92/100**, -18% depuis son plus haut ; historiquement à ce niveau : +21% à 12 mois en moyenne, positif 82% des cas (moyenne du titre : +12%)
 - ⭐ **Bank of Hawaii** (action, chercher « Bank of Hawaii ») — score **92/100**, -20% depuis son plus haut ; historiquement à ce niveau : +20% à 12 mois en moyenne, positif 80% des cas (moyenne du titre : +9%)
 - ⭐ **Texas Roadhouse** (action, chercher « Texas Roadhouse ») — score **92/100**, -26% depuis son plus haut ; historiquement à ce niveau : +29% à 12 mois en moyenne, positif 72% des cas (moyenne du titre : +21%)
-- ⭐ **Annaly Capital Management** (action, chercher « Annaly Capital Management ») — score **92/100**, -20% depuis son plus haut ; historiquement à ce niveau : +15% à 12 mois en moyenne, positif 73% des cas (moyenne du titre : +9%)
 - ⛔ **L3Harris** écarté : problème sérieux : 1 article(s) grave(s) (fraud, investigation) (3 mois : -24% vs marché)
-- … et 609 autres.
+- … et 614 autres.
 ⭐ = historiquement, acheter ce titre à ce niveau de score a fait mieux que sa moyenne.
