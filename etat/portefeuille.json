@@ -6,134 +6,7 @@
   "dernier_mois_apport": "2026-10",
   "reserve_pct_appliquee": null,
   "pause_jusqua": null,
-  "proposition": {
-    "type": "opportunite",
-    "date": "2026-10-06",
-    "liberation": 149.63481682426556,
-    "reserve_pct": null,
-    "score": 99.32199127542813,
-    "ordres": [
-      {
-        "ticker": "IGG.L",
-        "side": "buy",
-        "quantity": 13.0,
-        "price": 11.433447448020427,
-        "reason": "opportunité radar (score 99)"
-      }
-    ],
-    "notes": [],
-    "total": 0.0,
-    "radar": {
-      "ticker": "IGG.L",
-      "nom": "IG Group",
-      "isin": "IGG.L",
-      "type": "action",
-      "prix": 971.5,
-      "score": 99.32199127542813,
-      "baisse": 0.4986564531572847,
-      "perf_5ans": 0.2533926211602042,
-      "tranche": "80-100 (soldé)",
-      "moy_12m": 0.20873137791274674,
-      "pos_12m": 0.7484586929716399,
-      "n_12m": 811,
-      "base_moy_12m": 0.12236121964594839,
-      "pire_12m": -0.5367737982323304,
-      "vs_marche_3m": -0.5205080835115842,
-      "devise": "GBp",
-      "prix_eur": 11.433447448020427
-    },
-    "actualites": {
-      "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, 4 article(s) à regarder (3 mois : -52% vs marché)",
-      "vs_marche_3m": -0.5205080835115842,
-      "alertes": [
-        {
-          "titre": "UK's IG Group plans significant layoffs, Sky News reports - Reuters",
-          "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdzI4SXdIZU5Fa1RWZnlrbms5VlVwZ2VRM2U5NEE4ZkV6SkxtQ2syME5XWXdJc2dVOUV3eTQ3cHNSeHlWUTVDZFlhX2hCaHU0dlEtZVVMMVdYZDlIUmJHR2dlMnBYRExhSnppNzRJMVpTZC11elJfZ1V6LThtOGdMc1pkWml3c2FPNkxCSzU4RHZDZG95N05HSTE0cFNsRWxQeWc?oc=5",
-          "date": "2026-09-09",
-          "source": "Reuters",
-          "gravite": 1,
-          "mots": [
-            "layoffs"
-          ]
-        },
-        {
-          "titre": "IG Group shares plunge 25% as Peel Hunt flags revenue and margin downgrade - Yahoo Finance UK",
-          "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jYnRRZ3ExQTZtTjNsYjNsNTJRcy02c01Ub1VPaUZEbHZSejhubjNBMEhrNzE3RktYVzVYU09tYTJYY1VEWHIzSWtGUWU3Tm1qU3JGRk5HWU1aNlJTcXB6bEtqWUpNUlZCYlF2VFBTUHgxSm1jbFhFZWtVMUt4STA?oc=5",
-          "date": "2026-10-02",
-          "source": "Yahoo Finance UK",
-          "gravite": 1,
-          "mots": [
-            "downgrade"
-          ]
-        },
-        {
-          "titre": "IG Group Shares Plunge c25% After De Facto Profit Warning - share-talk.com",
-          "lien": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYnVXR3cybHZiR2NSSXpJbnpjYVlwOHhDSDJ0OHQ3YnhBejJpak9BV1pReXBPc2pnd3ViclBHTXhyQ2NkazI3Q1JnT1FEWGszeHdSazBOdjdQTnMxcEdnOGxUYlJFV2JYTVlMUW1CTUFoeHRtd0RCNFYzWlEwdU5nYm1vR1BzdXNfNlR2VA?oc=5",
-          "date": "2026-10-02",
-          "source": "share-talk.com",
-          "gravite": 1,
-          "mots": [
-            "profit warning"
-          ]
-        },
-        {
-          "titre": "IG Group Falls Again as Panmure Cuts EBITDA Forecast 18% After Profit Warning - share-talk.com",
-          "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOM2V2Z3RCb290b2ZVcm9faWJKUE5Bblo4UjVEMnpha085T21qX2o2elZBaFlYTlctNm1KZC1mQVF2aVR0aXV0d1RXQ1kxSXM3ZzJuSmN1Q3pEb2lwSFlvTXpNcEhWaS1GYUU3YzllVDhTVnBESGxTd3Vyb0dQZzVzV2VDY2N5NFdpYUlrQnRJekpsUDQ4RmFuNWh3cnBlRHpiSFVPOUNzMA?oc=5",
-          "date": "2026-10-05",
-          "source": "share-talk.com",
-          "gravite": 1,
-          "mots": [
-            "profit warning"
-          ]
-        }
-      ],
-      "recents": [
-        {
-          "titre": "IG Group (LON:IGG) Stock Rating Reaffirmed as \"Hold\" by Peel Hunt - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRjA5S2Raajg4aEloUVNQLTNKVGt3NzJTSzAyTEczTGlvMGt6aWtQdGREXzFRNllDUzlQNi1WbjRidC0tZk50RC1jbUVEVHl0XzR4cU5yYU1QNERPa1VXYUlWX1NjMmRrSFBqV0pEaUQxZVpXM25JWDV1QW9mT2doZi11azBiQzctdmV2dlM0czQ0eHZuc2hLdWhabURiQVRFdF9uczI1MWJVRHNEQ1JON2ZwU2pVUQ?oc=5",
-          "date": "2026-10-06",
-          "source": "MarketBeat",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Trading 212 Group Revenue Climbs 70% to £345.8 Million in 2025 - tradingview.com",
-          "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWHE4NmE3ekxKbFNvZktQbnZ3ekloRVNuakFlNkRQVnpCWXVYbVc3bWJLOEY4TEZ3MnowbXZLTVhibm9jYXNwMlNTV0oxMWwtMXRkUzNUbzZGcV9GanJVSVVEcndWS0hWQ2t2QVYwM1BMSFdFVFBQQVo0NzJHNVlWMkxSVFc3U0FraGt2emdLMndxTXFHTWZQWjdPRHhoYlhtWE8xMHhiZ1IydVFvMmN2MWJWbXIwYmtUa1BBMmRuVzd2Nk5J?oc=5",
-          "date": "2026-10-06",
-          "source": "tradingview.com",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Exclusive: OANDA CRO Mark Chesterman departs - FX News Group",
-          "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPd1VPMHNxTHRsWVdiSlZpQ1RsQjN5VXZjWlRmVlNwbnF2TUMxanM3WjVPSkxPYW9wSFJCTktyN2liZmY3MVpLN1BKR3Y3b1ZLN2NXX0p3VzZBSHlwcUdSUmswampGQWRQeTQ5T1VOdWY5UjJDS0MyN1VKSzc1TERocU9vYktEcVEzel8xM2ZGTVhLNkxH?oc=5",
-          "date": "2026-10-06",
-          "source": "FX News Group",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Why Did CMC Markets (LSE:CMCX) Shares Tumble After the IG Group Outlook Cut As FTSE 100 Slips? - Kalkine Media",
-          "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNX0drYzUyZElVeTh1clB5dGtTbl9DMTlpb0s4b0dOS1ROREZYc2Z3eTJTMm45VkI3R3d1RzB5R25fQmhsR0NfY2I2NlRhWFphOWRKV2trZS1rTzBYS3JtUkd6SUkwNVRsQUVZdkRRVnctVW55MUV6Z21RdWlTSTFPczJuV2szR2hUSWFzNEtBLXd1Wm1WRUQ3VF80dXF5RC1DWWlPVWh4ZlVxckdKd1RkRzlXVlY0cjJyQXJhTXoyYWlTcl9zUDVKdTlJWUk?oc=5",
-          "date": "2026-10-06",
-          "source": "Kalkine Media",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Mixed fortunes at Underdog and IG Group ahead of $1.1bn deal - sbcnews.co.uk",
-          "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTE94bTRGM1FURXBWN2JPOFJ4aWFITWNIb3UzVkNhYzEzV1F1Yk5HUUJZRjVCbk5xdHpwSDV5SDkxT09sckdLdGVqV2MzVTQ0M1dLc1FEUy1CekpMOEVmSE1mR1hnejZTaVo5cE5xTmtoMVhGamlLbEloNmF3?oc=5",
-          "date": "2026-10-06",
-          "source": "sbcnews.co.uk",
-          "gravite": 0,
-          "mots": []
-        }
-      ]
-    },
-    "image": "rapports/propositions/2026-10-06.png",
-    "ticket": 3
-  },
+  "proposition": null,
   "dernier_mois_plan": null,
   "palier_alerte": 0,
   "bulletin_ticket": 1,
@@ -232,6 +105,136 @@
       "ticket": 2,
       "decision": "non",
       "decide_le": "2026-10-05"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-06",
+      "liberation": 149.63481682426556,
+      "reserve_pct": null,
+      "score": 99.32199127542813,
+      "ordres": [
+        {
+          "ticker": "IGG.L",
+          "side": "buy",
+          "quantity": 13.0,
+          "price": 11.433447448020427,
+          "reason": "opportunité radar (score 99)"
+        }
+      ],
+      "notes": [],
+      "total": 0.0,
+      "radar": {
+        "ticker": "IGG.L",
+        "nom": "IG Group",
+        "isin": "IGG.L",
+        "type": "action",
+        "prix": 971.5,
+        "score": 99.32199127542813,
+        "baisse": 0.4986564531572847,
+        "perf_5ans": 0.2533926211602042,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.20873137791274674,
+        "pos_12m": 0.7484586929716399,
+        "n_12m": 811,
+        "base_moy_12m": 0.12236121964594839,
+        "pire_12m": -0.5367737982323304,
+        "vs_marche_3m": -0.5205080835115842,
+        "devise": "GBp",
+        "prix_eur": 11.433447448020427
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, 4 article(s) à regarder (3 mois : -52% vs marché)",
+        "vs_marche_3m": -0.5205080835115842,
+        "alertes": [
+          {
+            "titre": "UK's IG Group plans significant layoffs, Sky News reports - Reuters",
+            "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdzI4SXdIZU5Fa1RWZnlrbms5VlVwZ2VRM2U5NEE4ZkV6SkxtQ2syME5XWXdJc2dVOUV3eTQ3cHNSeHlWUTVDZFlhX2hCaHU0dlEtZVVMMVdYZDlIUmJHR2dlMnBYRExhSnppNzRJMVpTZC11elJfZ1V6LThtOGdMc1pkWml3c2FPNkxCSzU4RHZDZG95N05HSTE0cFNsRWxQeWc?oc=5",
+            "date": "2026-09-09",
+            "source": "Reuters",
+            "gravite": 1,
+            "mots": [
+              "layoffs"
+            ]
+          },
+          {
+            "titre": "IG Group shares plunge 25% as Peel Hunt flags revenue and margin downgrade - Yahoo Finance UK",
+            "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jYnRRZ3ExQTZtTjNsYjNsNTJRcy02c01Ub1VPaUZEbHZSejhubjNBMEhrNzE3RktYVzVYU09tYTJYY1VEWHIzSWtGUWU3Tm1qU3JGRk5HWU1aNlJTcXB6bEtqWUpNUlZCYlF2VFBTUHgxSm1jbFhFZWtVMUt4STA?oc=5",
+            "date": "2026-10-02",
+            "source": "Yahoo Finance UK",
+            "gravite": 1,
+            "mots": [
+              "downgrade"
+            ]
+          },
+          {
+            "titre": "IG Group Shares Plunge c25% After De Facto Profit Warning - share-talk.com",
+            "lien": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYnVXR3cybHZiR2NSSXpJbnpjYVlwOHhDSDJ0OHQ3YnhBejJpak9BV1pReXBPc2pnd3ViclBHTXhyQ2NkazI3Q1JnT1FEWGszeHdSazBOdjdQTnMxcEdnOGxUYlJFV2JYTVlMUW1CTUFoeHRtd0RCNFYzWlEwdU5nYm1vR1BzdXNfNlR2VA?oc=5",
+            "date": "2026-10-02",
+            "source": "share-talk.com",
+            "gravite": 1,
+            "mots": [
+              "profit warning"
+            ]
+          },
+          {
+            "titre": "IG Group Falls Again as Panmure Cuts EBITDA Forecast 18% After Profit Warning - share-talk.com",
+            "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOM2V2Z3RCb290b2ZVcm9faWJKUE5Bblo4UjVEMnpha085T21qX2o2elZBaFlYTlctNm1KZC1mQVF2aVR0aXV0d1RXQ1kxSXM3ZzJuSmN1Q3pEb2lwSFlvTXpNcEhWaS1GYUU3YzllVDhTVnBESGxTd3Vyb0dQZzVzV2VDY2N5NFdpYUlrQnRJekpsUDQ4RmFuNWh3cnBlRHpiSFVPOUNzMA?oc=5",
+            "date": "2026-10-05",
+            "source": "share-talk.com",
+            "gravite": 1,
+            "mots": [
+              "profit warning"
+            ]
+          }
+        ],
+        "recents": [
+          {
+            "titre": "IG Group (LON:IGG) Stock Rating Reaffirmed as \"Hold\" by Peel Hunt - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRjA5S2Raajg4aEloUVNQLTNKVGt3NzJTSzAyTEczTGlvMGt6aWtQdGREXzFRNllDUzlQNi1WbjRidC0tZk50RC1jbUVEVHl0XzR4cU5yYU1QNERPa1VXYUlWX1NjMmRrSFBqV0pEaUQxZVpXM25JWDV1QW9mT2doZi11azBiQzctdmV2dlM0czQ0eHZuc2hLdWhabURiQVRFdF9uczI1MWJVRHNEQ1JON2ZwU2pVUQ?oc=5",
+            "date": "2026-10-06",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Trading 212 Group Revenue Climbs 70% to £345.8 Million in 2025 - tradingview.com",
+            "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWHE4NmE3ekxKbFNvZktQbnZ3ekloRVNuakFlNkRQVnpCWXVYbVc3bWJLOEY4TEZ3MnowbXZLTVhibm9jYXNwMlNTV0oxMWwtMXRkUzNUbzZGcV9GanJVSVVEcndWS0hWQ2t2QVYwM1BMSFdFVFBQQVo0NzJHNVlWMkxSVFc3U0FraGt2emdLMndxTXFHTWZQWjdPRHhoYlhtWE8xMHhiZ1IydVFvMmN2MWJWbXIwYmtUa1BBMmRuVzd2Nk5J?oc=5",
+            "date": "2026-10-06",
+            "source": "tradingview.com",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Exclusive: OANDA CRO Mark Chesterman departs - FX News Group",
+            "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPd1VPMHNxTHRsWVdiSlZpQ1RsQjN5VXZjWlRmVlNwbnF2TUMxanM3WjVPSkxPYW9wSFJCTktyN2liZmY3MVpLN1BKR3Y3b1ZLN2NXX0p3VzZBSHlwcUdSUmswampGQWRQeTQ5T1VOdWY5UjJDS0MyN1VKSzc1TERocU9vYktEcVEzel8xM2ZGTVhLNkxH?oc=5",
+            "date": "2026-10-06",
+            "source": "FX News Group",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Why Did CMC Markets (LSE:CMCX) Shares Tumble After the IG Group Outlook Cut As FTSE 100 Slips? - Kalkine Media",
+            "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNX0drYzUyZElVeTh1clB5dGtTbl9DMTlpb0s4b0dOS1ROREZYc2Z3eTJTMm45VkI3R3d1RzB5R25fQmhsR0NfY2I2NlRhWFphOWRKV2trZS1rTzBYS3JtUkd6SUkwNVRsQUVZdkRRVnctVW55MUV6Z21RdWlTSTFPczJuV2szR2hUSWFzNEtBLXd1Wm1WRUQ3VF80dXF5RC1DWWlPVWh4ZlVxckdKd1RkRzlXVlY0cjJyQXJhTXoyYWlTcl9zUDVKdTlJWUk?oc=5",
+            "date": "2026-10-06",
+            "source": "Kalkine Media",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Mixed fortunes at Underdog and IG Group ahead of $1.1bn deal - sbcnews.co.uk",
+            "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTE94bTRGM1FURXBWN2JPOFJ4aWFITWNIb3UzVkNhYzEzV1F1Yk5HUUJZRjVCbk5xdHpwSDV5SDkxT09sckdLdGVqV2MzVTQ0M1dLc1FEUy1CekpMOEVmSE1mR1hnejZTaVo5cE5xTmtoMVhGamlLbEloNmF3?oc=5",
+            "date": "2026-10-06",
+            "source": "sbcnews.co.uk",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "image": "rapports/propositions/2026-10-06.png",
+      "ticket": 3,
+      "decision": "non",
+      "decide_le": "2026-10-06"
     }
   ]
 }
