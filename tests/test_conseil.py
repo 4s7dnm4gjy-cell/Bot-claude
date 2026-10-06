@@ -295,3 +295,28 @@ def test_comparaison_au_marche_sans_effet_de_change():
     assert ecart_marche(en_eur, marche_eur) == pytest.approx(-0.06, abs=0.02)  # effet de change visible
     assert ecart_marche(action_usd, marche_eur) == pytest.approx(0.0)
     assert en_euros_serie(action_usd, "SEK", {}) is None
+
+
+def test_mention_du_proprietaire_pour_l_inbox(cfg, monkeypatch):
+    envois = []
+
+    class FauxGitHub(conseil.GitHub):
+        def __init__(self):
+            self.token, self.repo, self.api = "x", "moi/depot", ""
+
+        def creer_ticket(self, titre, corps, label="proposition"):
+            envois.append(("ticket", corps))
+            return 10 if label == "proposition" else 1
+
+        def commenter(self, numero, texte):
+            envois.append(("commentaire", texte))
+
+        def est_ouvert(self, numero):
+            return True
+
+    px = marche(final_drop=0.25)
+    conseil.lancer_conseil(cfg, px, px["WORLD"], date(2025, 6, 3))
+    monkeypatch.setattr(conseil, "GitHub", FauxGitHub)
+    assert conseil.publier(cfg) == 10
+    assert all(texte.startswith("@moi") for _, texte in envois)  # ticket, bulletin : mention partout
+    assert {genre for genre, _ in envois} == {"ticket", "commentaire"}

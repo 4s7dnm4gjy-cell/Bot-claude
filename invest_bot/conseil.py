@@ -98,6 +98,11 @@ class GitHub:
         r.raise_for_status()
         return r.json() if r.text else {}
 
+    @property
+    def mention(self) -> str:
+        """« @propriétaire » : une mention garantit la notification dans l'Inbox GitHub."""
+        return f"@{self.repo.split('/')[0]}"
+
     def creer_ticket(self, titre: str, corps: str, label: str = "proposition") -> int:
         owner = self.repo.split("/")[0]
         try:
@@ -676,20 +681,21 @@ def publier(cfg: Config) -> int | None:
     if "titre" in data and prop:
         branche = os.environ.get("GITHUB_REF_NAME", "main")
         url = f"https://github.com/{gh.repo}/blob/{branche}/{prop['image']}?raw=true"
-        numero = gh.creer_ticket(data["titre"], data["corps"].replace("{IMAGE_URL}", url))
+        corps = f"{gh.mention} 👋 nouvelle proposition à valider.\n\n" + data["corps"].replace("{IMAGE_URL}", url)
+        numero = gh.creer_ticket(data["titre"], corps)
         prop["ticket"] = numero
     if "bulletin" in data:
         b = etat.get("bulletin_ticket")
         if not b or not gh.est_ouvert(b):
             b = gh.creer_ticket(
                 "📅 Bulletin quotidien du bot",
-                "Chaque jour, le bot poste ici un point sur le marché. Vous recevez une notification "
+                f"{gh.mention} Chaque jour, le bot poste ici un point sur le marché. Vous recevez une notification "
                 "à chaque message.\n\nVous pouvez répondre `oui` / `non` ici aussi quand une action est proposée.\n\n" + AIDE,
                 label="bulletin",
             )
             etat["bulletin_ticket"] = b
         ticket = f"#{prop['ticket']}" if prop and prop.get("ticket") else "ouvert"
-        gh.commenter(b, data["bulletin"].replace("{TICKET}", ticket))
+        gh.commenter(b, f"{gh.mention}\n\n" + data["bulletin"].replace("{TICKET}", ticket))
     sauver_etat(etat)
     return numero
 
