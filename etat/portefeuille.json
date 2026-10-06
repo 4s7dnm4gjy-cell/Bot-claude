@@ -15,6 +15,11 @@
     "MCD": "2026-10-05",
     "IGG.L": "2026-10-06"
   },
+  "opportunite": null,
+  "radar_proposes": [
+    "MCD",
+    "IGG.L"
+  ],
   "achats": [],
   "historique": [
     {
