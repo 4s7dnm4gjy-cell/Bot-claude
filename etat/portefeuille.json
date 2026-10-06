@@ -15,10 +15,97 @@
     "MCD": "2026-10-05",
     "IGG.L": "2026-10-06"
   },
-  "opportunite": null,
+  "opportunite": {
+    "type": "opportunite",
+    "date": "2026-10-06",
+    "cree_le": "2026-10-06T13:41+00:00",
+    "liberation": 150.1247679544107,
+    "reserve_pct": null,
+    "score": 98.4588130378303,
+    "ordres": [
+      {
+        "ticker": "MXT.AX",
+        "side": "buy",
+        "quantity": 143.0,
+        "price": 1.0428305451357391,
+        "reason": "opportunité radar (score 98)"
+      }
+    ],
+    "notes": [],
+    "total": 0,
+    "radar": {
+      "ticker": "MXT.AX",
+      "nom": "Metrics Master Income Trust",
+      "isin": "MXT.AX",
+      "type": "action",
+      "prix": 1.6799999475479126,
+      "score": 98.4588130378303,
+      "baisse": 0.12330203802404649,
+      "perf_5ans": 0.18751365068536563,
+      "tranche": "80-100 (soldé)",
+      "moy_12m": 0.07508349700630974,
+      "pos_12m": 0.8757396449704142,
+      "n_12m": 169,
+      "base_moy_12m": 0.06544126464015146,
+      "pire_12m": -0.05389571495724199,
+      "vs_marche_3m": -0.15127163561186097,
+      "devise": "AUD",
+      "prix_eur": 1.0428305451357391
+    },
+    "actualites": {
+      "verdict": "orange",
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -15% vs marché)",
+      "vs_marche_3m": -0.15127163561186097,
+      "alertes": [],
+      "recents": [
+        {
+          "titre": "Metrics Master Income Trust (ASX:MXT) Resumes Trading After FY26 NTA Revision - Kalkine",
+          "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQM2FMemRkdFVyTFdsN0R5cWZNcVRXM2ZWbG93RGRmRm0tVThyTWo0dFRfVE11Vmh0NURuYlF3RXd0U0RRZGxuZ01kSGZmYjBSMWRFeWpuLXZYNkJDRm9FajAxTXk4WUttYmZGSEN4VEdxdlJrQlJfd3dBNnNNdk14cG52OUFZMDFiRlBud1VhcWM4M0dQQkc4VGptMC1xVkg1cmt3b3ZmSlAzbEZmMFo3XzFOT1BMYVhVU2c?oc=5",
+          "date": "2026-10-06",
+          "source": "Kalkine",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Metrics Master Income Trust Confirms Actual Distribution of AUD 0.013 Per Unit for September 2026 - Kalkine",
+          "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQemFwczgxcW5zMHJ1X2JRSFliUGd4Z05BRlJQM01YQWJfdGh2WTBrLW1LQk0wXzNNRXBURG1uR3Z5LUg5blU4Zi1IRTc5R3NnMFV1ZzBoWGIyU2RDZHg0X1Q0aHA0Z1BEUGQwdTZDbDRUcEVBQXJfWmtDSm5rV25OR0FiWXJHbGV2UnFOZXdmM1F1NEZvNElCVk55RFNkekppZFpfTlRsZ1NwVGxLRDAtcWdqdzJDN2MxQS10TGZGVjNob0JlXzFISTFHZjBEQnlxdkRLUA?oc=5",
+          "date": "2026-10-06",
+          "source": "Kalkine",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "What Changes for Metrics Master Income Trust (ASX:MXT) Now It's Back Trading? - Kalkine Media",
+          "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcmpkcXczam45WlcwcWxlY0xfaUZCSHY5dnYzcjZHbmoyN0NCQmtFT0FfQnR1OEpJb1hCdU54NDNtdDJRclhLS0ZLTmgtdVBSN1FfOFBoZll4VlhqZHdpMS1SblZ0cmJCM25rRHJLTUlucVlXdFZFajhuQUh0WkpQSHc0WWJhS1Q2M1h2dzAteWlzSUxrdEkyMnZfak43NTh6MExNNFc0NTZLUUJWeU14VS12ekM2RTBD?oc=5",
+          "date": "2026-10-06",
+          "source": "Kalkine Media",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Metrics Income Opportunities Trust Declares October Distribution of AUD 0.01180000 Per Unit - Kalkine",
+          "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcWVDVEpiZURrSUxlY01INHNJTDNOU0tjMG9DYVJLa0xNNl9WckRqMGRwYWExTmdtRE5sTm5ia3k0WDhFVHJHQlhJcnVzaThTQzBFWDA3dFFUUlBMOTNnNUtoZlhJYVpzX3l2a1NIeVp2VGxkVUFjcVpMSEZZcEtGVlBIQlI1VmY2ZlZyNXM0UWJLWXBTZnF1bjA1NkZNdk5kbDByU3h4YjlNS3RKUUphYkJURjBKd2JTYXhsQWVyUlJTY19LVEZ1Y3NqWlU?oc=5",
+          "date": "2026-10-06",
+          "source": "Kalkine",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Metrics Master Income Trust updates monthly distribution and DRP status - TipRanks",
+          "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNczFsVXBMUVVVQmNqNGp1UHlHNVRfY3N1YW00SHhLNVFMSVZkeFEybjliaVhUR1BYT1dSM2t6Zm5VWGl4N2x0ay1CNG9TU2VadWxvWi10RFJzOWhfVHc0amN6aFJPYkZtbklIVFNiQXhfSWt2dlptSUpsTTBvQVRnTm5VazhKSVRfUEtRdzgxSEdoX2Q5WmpWNWVXVndiNjFVMFREdkNDUG1zYWJ3d0d4NVVFQUZndVRUTWFBVG9JeE0?oc=5",
+          "date": "2026-10-06",
+          "source": "TipRanks",
+          "gravite": 0,
+          "mots": []
+        }
+      ]
+    },
+    "ticket": 4
+  },
   "radar_proposes": [
     "MCD",
-    "IGG.L"
+    "IGG.L",
+    "MXT.AX"
   ],
   "achats": [],
   "historique": [
