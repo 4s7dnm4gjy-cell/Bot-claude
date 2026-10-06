@@ -18,100 +18,89 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-06",
-    "cree_le": "2026-10-06T20:17+00:00",
-    "liberation": 138.43791219733023,
+    "cree_le": "2026-10-06T20:47+00:00",
+    "liberation": 130.94679768827007,
     "reserve_pct": null,
-    "score": 96.07950722952752,
+    "score": 95.43222246672978,
     "ordres": [
       {
-        "ticker": "FER",
+        "ticker": "LVS",
         "side": "buy",
-        "quantity": 3.0,
-        "price": 45.81263739911008,
-        "reason": "opportunité radar (score 96)"
+        "quantity": 4.0,
+        "price": 32.48669942206752,
+        "reason": "opportunité radar (score 95)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "FER",
-      "nom": "Ferrovial",
-      "isin": "FER",
+      "ticker": "LVS",
+      "nom": "Las Vegas Sands",
+      "isin": "LVS",
       "type": "action",
-      "prix": 51.584999084472656,
-      "score": 96.07950722952752,
-      "baisse": 0.29967184364170907,
-      "perf_5ans": 0.9679500612969814,
+      "prix": 36.58000183105469,
+      "score": 95.43222246672978,
+      "baisse": 0.4643692532359952,
+      "perf_5ans": 0.07093248539327046,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.15592115201916953,
-      "pos_12m": 0.7607573149741824,
-      "n_12m": 581,
-      "base_moy_12m": 0.14890235948645547,
-      "pire_12m": -0.2671463927099882,
-      "vs_marche_3m": -0.24666672628944886,
+      "moy_12m": 0.38421995406858117,
+      "pos_12m": 0.561046511627907,
+      "n_12m": 688,
+      "base_moy_12m": 0.21656404104742538,
+      "pire_12m": -0.9820344116236468,
+      "vs_marche_3m": -0.2517327097579086,
       "devise": "USD",
-      "prix_eur": 45.81263739911008
+      "prix_eur": 32.48669942206752
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -25% vs marché)",
-      "vs_marche_3m": -0.24666672628944886,
-      "alertes": [
-        {
-          "titre": "Ferrovial downgraded to Neutral from Overweight at JPMorgan - TipRanks",
-          "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMXlDNUh6ZUs5OU1KSVpvVjduRGVKUWNHVWUzcTUwdzRVRmNKS2w5eHlmMFlJRENXN004NGtVVHdFY0lSVGl2YktRSmgxUGRIN2N6eklMWEJhN2NkR2JvbFVWbUY0NkItYWtyUDhLR3NyTmFmLXQ3bHpHbGNJOUFWclgwVE1VWTY0eXZKTTFhcHUxYzhLRlR4Q0xycXB4cHlYYzZkaloyV1FSdnhWYVE?oc=5",
-          "date": "2026-10-06",
-          "source": "TipRanks",
-          "gravite": 1,
-          "mots": [
-            "downgraded"
-          ]
-        }
-      ],
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -25% vs marché)",
+      "vs_marche_3m": -0.2517327097579086,
+      "alertes": [],
       "recents": [
         {
-          "titre": "J.P. Morgan signale un risque baissier pour Ferrovial lié au projet I24 - Investing.com France",
-          "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZGtzSktqMFc5VGtfclVKYXlUVHRrdjJ4d0ZfRFBrdXk2SjlCODFtY3hNcWJwSlRCTUd2YzJYTWQxU3poTGtURWVsM1MzTmQ1by1tQzVRWENQRE1qejZlanVhcGdZSkkxQVB2ZGRfckJSdVhNYXBoamNtck55NDRTZWpybUdiZWdtcHozeWdwS0paLV9RaTlXampnYU9LMDZjN3NYNm94NUZmMmptQmVJMmtKOGRFS1ZqNVVaT3hrRjBRUGM?oc=5",
+          "titre": "Las Vegas Sands (NYSE:LVS) Sets New 52-Week Low - Here's What Happened - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQV0dFcTRfbExvRWpWajFsVjB6SjdOYlRDVm4xdHFoVDFhdHhMX2NZdFNXcnBfRmJ0ZHJJVXpsS0Z4SW83YmF4NW1TX0wtTGVsVkRwckp3aDRrWTBDdzV4bElHamxaekVUczZVV0lIWFdQcXZCbUZZZi05LUtwQVRsM0hYVGl6OW5mcERnUU1ucTFyNzZSTGljNVlYMGZSQjdUUl9yS0x0ZGNjalBDZnROZ3lwT2xJcGxydl96cDVBSkpjNHM?oc=5",
           "date": "2026-10-06",
-          "source": "Investing.com France",
+          "source": "MarketBeat",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Pourquoi l’action Ferrovial chute-t-elle aujourd’hui ? - Investing.com France",
-          "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOU0R1UVlpZldSYnl4U2diLXVqZHR2ZENvaE4wSS0tYlVpeXR3MDc3c2dFWWs3MTVNNzNGZmpra0hROG5tZzFSS0lESUd5eVVEV2hqWWJXSWk3ZE9vOEwtZTZNeTZwenlKUkd2YXFMUGltTkJVZXZoOURVaW9DaXp3MTdiTE5HNHlYdEg3WlpTbUxEV3lqR2dnZTVPVHhYZnpSVEo1aVREUmJEWHVmd0dB?oc=5",
+          "titre": "Las Vegas Sands (NYSE:LVS) Doubles Down on Macao and Singapore - Kalkine Media",
+          "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeXdqSkdEeDQwa2toRFJuTjBHVXVUQUV5aXNzaTU5a3F5UDNQTHZrTGJ5eGkwTHp5cmFBYzRHU2kwcXEyWkw1R1A5dmNpQmFmQkoybVlWVjJhbHlUWkwxTEZKTktGVnBzRmlVdUNBMUxDTDdwZ2t1dEZnbUZrZ2JOdzlSQ2t3WXFRSFNIZDlLTVBlNVZZcXFnQ0tERGN0cUsyb3c3LXZn?oc=5",
           "date": "2026-10-06",
-          "source": "Investing.com France",
+          "source": "Kalkine Media",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Ferrovial dirige le consortium choisi pour un tronçon clé de l'autoroute tchèque D35 - Demócrata",
-          "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS2hCZzFSMjROZVBXTXdneUVGQktBM21QOHRDVE5mbjY4SjIxSEhYek5DQmpfQnM1cjFFMW9tTWhsSnNscDJZZ3o3ZkhacmRVMUdlRzRQcmg2MXl1alExWVB6YTA3d3huem9CUVFWb1JuT0lndFFKTmZtVjZxcVBQRXplTXlJTEdVQXpsYWVOWGFOSl9QMjBSVjhFejBiOTl0RGdmUkN0emZ6bEkwa0VGdXJobUhNTW1PVERteWRnRdIBxAFBVV95cUxPcTBwWTJuRUlRc19BVDc2akU2REcyVHc4eWNkRVFIbk16bHBmeGw5eHBfaGx1c1JpMVIzYld5TVBLS19SUU5nYU53cVNIUlpMNGtmWm5aT2tkRW9yVFBjUEt3OEhmZlBJSEoycmx5S0xOSkpGdnFub1ZkaUE5SFhXXzJqVTVHakQ4cG5OZXdJZjUxcDNoY0NDSmM4aFA0QXFJNjZUSHNPOS1WYnhzbUdzMGU4TEdQZmZWQjRVdjl4dkYtQWF1?oc=5",
+          "titre": "Why Are Investors Revisiting Las Vegas Sands (NYSE:LVS) Now? - Kalkine Media",
+          "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPS2t4bE5CUEU0cThXWVhzNlh3cGt0NkI5RlBkbnlSMnhhdnp5Y3pfamtsNFVPMWVjQlhKMU1IbmF5X0oxa0VmOUpzY01MZE5FWF9LcTBMNnlqbUxZaXpVcUJaZHRBWVFhTldvNVRMUmVaaE1rS2FiWUlzR1p1Q2d0ZkhlX1ZvdlEwci1hdGxvZEI5WHFXaXA5UC1hQVpleGZWdEE?oc=5",
           "date": "2026-10-06",
-          "source": "Demócrata",
+          "source": "Kalkine Media",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Ferrovial s'impose à Hacienda et pourra récupérer 37 millions pour l'achat d'Amey et Swissport - Demócrata",
-          "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNHVsSlQ1bDlfdUtjYjJMSGl6dlhhdmlCNzJMbk9EVDF6NVdzWWVEdnYybGcwRUlfUzZPSDFUV05aZlQyU09ReUNJNnV0UUltczhJM2JJTkMwNG9DaTRia1o3UUJxT3JhaW1fTjV4Tkc5Q0pRN3Y5NXk1VkhVaW5DYzFyMnhDSjZJb01oaFktNHNieVl6S09obHI2dVQtcWZkZFFCN1BiWHhKMUNiTFYwdl9UVjdrck9XcndmQm5CVTY3TG9ySFdROWQ2Q2NCQdIB0wFBVV95cUxOY3lJVlA3RDY2RWFEOG5OWkdCS1BqcmVxZlF2aGZzMTExTGJIU3VnWEZQZ09NUTJnOTZ4VkdUekVuYnlWRnJQdlNKa2hVcjh6NjQ0ZTlaRW9tQ0x5eGFGdkYwUDZMRFgxdThHWDRBeFN0WWV6cHhMVlhlZ2Q4Q1dDWnhWLW01WDZGQ2k3akgybS1FMUpqWVJvV2RFbU53Sm1CdG9uaUx2TFZZMDJsZERINUk2QlRfY3FzT1Vua1dQbURrWkpKM3J6TF9uNWpyM25LMWFr?oc=5",
+          "titre": "Las Vegas Sands: In Pursuit of Excellence in Sustainability: Marina Bay Sands Contributes More Than $1.1 Million to the Mandai Wildlife Centre - FinanzNachrichten.de",
+          "lien": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOZnZ6c0E1RVJpb1daRG80RGFJQWlRbEp3UHljS3NFaVMySnUwRGJXc2JXRzRGOWxzd0h4WVF2N2xuUU5nVjlVREZpOVBKTUVTV2ZjMDc2SHlydjZfWENqOFktdTBZYmF2a2V2cnk2YmpybDg3VHJvOERES3E0TTU4TG9OaXZ4cEZxMTJRWmcwRXd4RjNpMU1BUlVDUS1lQk9WTEZaZEtiMGZ0eDB0anhHbERWZEVKNHp2dVZ2cUt3YUg3YS1TcElxaWhrUEp1bHl5YVNaaFBDYUE2TVVRT3owUmtEeDB4WW5HNjhPVG10a1M2OC1mUkNCamJvUFFBLVQ3M1BRc1ZOSUtNX2hrbnR5MzlwbVFpN2EzVms0NmR4OXZla3ZvU1Rva3lBMHlic1RaZm5xblpJTzJqSGtB?oc=5",
           "date": "2026-10-06",
-          "source": "Demócrata",
+          "source": "FinanzNachrichten.de",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Ferrovial N.V. (FER) stock price, news, quote and history - Yahoo Finance UK",
-          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5yMlRaX3ZUY0pVQktKUWx2bmRiY2NxQVVTbU11cjBhQ01TUXAxeXY5Ym9lVTg2a0t3MURwdjlUMFlVQTJ5Y015SkxQdl9WMXpU?oc=5",
-          "date": "2026-10-06",
-          "source": "Yahoo Finance UK",
+          "titre": "Las Vegas Sands stock pre-market at EUR 32.28: minus 0.31 percent - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZVktZGpwMmNzY0hHMFRKU1lfOW5jejZNQ2lNVFNxNFdwMEdFVF8wZWhEdmVFc0R3XzJPbWNTOWJvTzQ3N2hKVnlMTDRRM3E3UnBJRnc3NDhsQ3JMRVAyUHY1T0xkLUVKX2lzdnUzMVNGMUVJWnR4WVh3V0JOMllNbXFmcnBhUk9IOThEeTNYcGhLRmhqeU8zVVFKMHRQUF9lNXk2cUpfMzV3M1I1TmJPdGxkYzNOOVlOUWYyaEg0RQ?oc=5",
+          "date": "2026-10-05",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 12
+    "ticket": 13
   },
   "radar_proposes": [
     "MCD",
@@ -126,7 +115,8 @@
     "WSP.TO",
     "LDOS",
     "CASY",
-    "FER"
+    "FER",
+    "LVS"
   ],
   "achats": [],
   "historique": [
@@ -1157,6 +1147,105 @@
         ]
       },
       "ticket": 11,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-06",
+      "cree_le": "2026-10-06T20:17+00:00",
+      "liberation": 138.43791219733023,
+      "reserve_pct": null,
+      "score": 96.07950722952752,
+      "ordres": [
+        {
+          "ticker": "FER",
+          "side": "buy",
+          "quantity": 3.0,
+          "price": 45.81263739911008,
+          "reason": "opportunité radar (score 96)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "FER",
+        "nom": "Ferrovial",
+        "isin": "FER",
+        "type": "action",
+        "prix": 51.584999084472656,
+        "score": 96.07950722952752,
+        "baisse": 0.29967184364170907,
+        "perf_5ans": 0.9679500612969814,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.15592115201916953,
+        "pos_12m": 0.7607573149741824,
+        "n_12m": 581,
+        "base_moy_12m": 0.14890235948645547,
+        "pire_12m": -0.2671463927099882,
+        "vs_marche_3m": -0.24666672628944886,
+        "devise": "USD",
+        "prix_eur": 45.81263739911008
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -25% vs marché)",
+        "vs_marche_3m": -0.24666672628944886,
+        "alertes": [
+          {
+            "titre": "Ferrovial downgraded to Neutral from Overweight at JPMorgan - TipRanks",
+            "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMXlDNUh6ZUs5OU1KSVpvVjduRGVKUWNHVWUzcTUwdzRVRmNKS2w5eHlmMFlJRENXN004NGtVVHdFY0lSVGl2YktRSmgxUGRIN2N6eklMWEJhN2NkR2JvbFVWbUY0NkItYWtyUDhLR3NyTmFmLXQ3bHpHbGNJOUFWclgwVE1VWTY0eXZKTTFhcHUxYzhLRlR4Q0xycXB4cHlYYzZkaloyV1FSdnhWYVE?oc=5",
+            "date": "2026-10-06",
+            "source": "TipRanks",
+            "gravite": 1,
+            "mots": [
+              "downgraded"
+            ]
+          }
+        ],
+        "recents": [
+          {
+            "titre": "J.P. Morgan signale un risque baissier pour Ferrovial lié au projet I24 - Investing.com France",
+            "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZGtzSktqMFc5VGtfclVKYXlUVHRrdjJ4d0ZfRFBrdXk2SjlCODFtY3hNcWJwSlRCTUd2YzJYTWQxU3poTGtURWVsM1MzTmQ1by1tQzVRWENQRE1qejZlanVhcGdZSkkxQVB2ZGRfckJSdVhNYXBoamNtck55NDRTZWpybUdiZWdtcHozeWdwS0paLV9RaTlXampnYU9LMDZjN3NYNm94NUZmMmptQmVJMmtKOGRFS1ZqNVVaT3hrRjBRUGM?oc=5",
+            "date": "2026-10-06",
+            "source": "Investing.com France",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Pourquoi l’action Ferrovial chute-t-elle aujourd’hui ? - Investing.com France",
+            "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOU0R1UVlpZldSYnl4U2diLXVqZHR2ZENvaE4wSS0tYlVpeXR3MDc3c2dFWWs3MTVNNzNGZmpra0hROG5tZzFSS0lESUd5eVVEV2hqWWJXSWk3ZE9vOEwtZTZNeTZwenlKUkd2YXFMUGltTkJVZXZoOURVaW9DaXp3MTdiTE5HNHlYdEg3WlpTbUxEV3lqR2dnZTVPVHhYZnpSVEo1aVREUmJEWHVmd0dB?oc=5",
+            "date": "2026-10-06",
+            "source": "Investing.com France",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Ferrovial dirige le consortium choisi pour un tronçon clé de l'autoroute tchèque D35 - Demócrata",
+            "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS2hCZzFSMjROZVBXTXdneUVGQktBM21QOHRDVE5mbjY4SjIxSEhYek5DQmpfQnM1cjFFMW9tTWhsSnNscDJZZ3o3ZkhacmRVMUdlRzRQcmg2MXl1alExWVB6YTA3d3huem9CUVFWb1JuT0lndFFKTmZtVjZxcVBQRXplTXlJTEdVQXpsYWVOWGFOSl9QMjBSVjhFejBiOTl0RGdmUkN0emZ6bEkwa0VGdXJobUhNTW1PVERteWRnRdIBxAFBVV95cUxPcTBwWTJuRUlRc19BVDc2akU2REcyVHc4eWNkRVFIbk16bHBmeGw5eHBfaGx1c1JpMVIzYld5TVBLS19SUU5nYU53cVNIUlpMNGtmWm5aT2tkRW9yVFBjUEt3OEhmZlBJSEoycmx5S0xOSkpGdnFub1ZkaUE5SFhXXzJqVTVHakQ4cG5OZXdJZjUxcDNoY0NDSmM4aFA0QXFJNjZUSHNPOS1WYnhzbUdzMGU4TEdQZmZWQjRVdjl4dkYtQWF1?oc=5",
+            "date": "2026-10-06",
+            "source": "Demócrata",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Ferrovial s'impose à Hacienda et pourra récupérer 37 millions pour l'achat d'Amey et Swissport - Demócrata",
+            "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNHVsSlQ1bDlfdUtjYjJMSGl6dlhhdmlCNzJMbk9EVDF6NVdzWWVEdnYybGcwRUlfUzZPSDFUV05aZlQyU09ReUNJNnV0UUltczhJM2JJTkMwNG9DaTRia1o3UUJxT3JhaW1fTjV4Tkc5Q0pRN3Y5NXk1VkhVaW5DYzFyMnhDSjZJb01oaFktNHNieVl6S09obHI2dVQtcWZkZFFCN1BiWHhKMUNiTFYwdl9UVjdrck9XcndmQm5CVTY3TG9ySFdROWQ2Q2NCQdIB0wFBVV95cUxOY3lJVlA3RDY2RWFEOG5OWkdCS1BqcmVxZlF2aGZzMTExTGJIU3VnWEZQZ09NUTJnOTZ4VkdUekVuYnlWRnJQdlNKa2hVcjh6NjQ0ZTlaRW9tQ0x5eGFGdkYwUDZMRFgxdThHWDRBeFN0WWV6cHhMVlhlZ2Q4Q1dDWnhWLW01WDZGQ2k3akgybS1FMUpqWVJvV2RFbU53Sm1CdG9uaUx2TFZZMDJsZERINUk2QlRfY3FzT1Vua1dQbURrWkpKM3J6TF9uNWpyM25LMWFr?oc=5",
+            "date": "2026-10-06",
+            "source": "Demócrata",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Ferrovial N.V. (FER) stock price, news, quote and history - Yahoo Finance UK",
+            "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5yMlRaX3ZUY0pVQktKUWx2bmRiY2NxQVVTbU11cjBhQ01TUXAxeXY5Ym9lVTg2a0t3MURwdjlUMFlVQTJ5Y015SkxQdl9WMXpU?oc=5",
+            "date": "2026-10-06",
+            "source": "Yahoo Finance UK",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 12,
       "decision": "sans réponse"
     }
   ]
