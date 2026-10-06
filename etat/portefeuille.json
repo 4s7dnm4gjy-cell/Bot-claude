@@ -15,93 +15,7 @@
     "MCD": "2026-10-05",
     "IGG.L": "2026-10-06"
   },
-  "opportunite": {
-    "type": "opportunite",
-    "date": "2026-10-06",
-    "cree_le": "2026-10-06T20:47+00:00",
-    "liberation": 130.94679768827007,
-    "reserve_pct": null,
-    "score": 95.43222246672978,
-    "ordres": [
-      {
-        "ticker": "LVS",
-        "side": "buy",
-        "quantity": 4.0,
-        "price": 32.48669942206752,
-        "reason": "opportunité radar (score 95)"
-      }
-    ],
-    "notes": [],
-    "total": 0,
-    "radar": {
-      "ticker": "LVS",
-      "nom": "Las Vegas Sands",
-      "isin": "LVS",
-      "type": "action",
-      "prix": 36.58000183105469,
-      "score": 95.43222246672978,
-      "baisse": 0.4643692532359952,
-      "perf_5ans": 0.07093248539327046,
-      "tranche": "80-100 (soldé)",
-      "moy_12m": 0.38421995406858117,
-      "pos_12m": 0.561046511627907,
-      "n_12m": 688,
-      "base_moy_12m": 0.21656404104742538,
-      "pire_12m": -0.9820344116236468,
-      "vs_marche_3m": -0.2517327097579086,
-      "devise": "USD",
-      "prix_eur": 32.48669942206752
-    },
-    "actualites": {
-      "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -25% vs marché)",
-      "vs_marche_3m": -0.2517327097579086,
-      "alertes": [],
-      "recents": [
-        {
-          "titre": "Las Vegas Sands (NYSE:LVS) Sets New 52-Week Low - Here's What Happened - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQV0dFcTRfbExvRWpWajFsVjB6SjdOYlRDVm4xdHFoVDFhdHhMX2NZdFNXcnBfRmJ0ZHJJVXpsS0Z4SW83YmF4NW1TX0wtTGVsVkRwckp3aDRrWTBDdzV4bElHamxaekVUczZVV0lIWFdQcXZCbUZZZi05LUtwQVRsM0hYVGl6OW5mcERnUU1ucTFyNzZSTGljNVlYMGZSQjdUUl9yS0x0ZGNjalBDZnROZ3lwT2xJcGxydl96cDVBSkpjNHM?oc=5",
-          "date": "2026-10-06",
-          "source": "MarketBeat",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Las Vegas Sands (NYSE:LVS) Doubles Down on Macao and Singapore - Kalkine Media",
-          "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeXdqSkdEeDQwa2toRFJuTjBHVXVUQUV5aXNzaTU5a3F5UDNQTHZrTGJ5eGkwTHp5cmFBYzRHU2kwcXEyWkw1R1A5dmNpQmFmQkoybVlWVjJhbHlUWkwxTEZKTktGVnBzRmlVdUNBMUxDTDdwZ2t1dEZnbUZrZ2JOdzlSQ2t3WXFRSFNIZDlLTVBlNVZZcXFnQ0tERGN0cUsyb3c3LXZn?oc=5",
-          "date": "2026-10-06",
-          "source": "Kalkine Media",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Why Are Investors Revisiting Las Vegas Sands (NYSE:LVS) Now? - Kalkine Media",
-          "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPS2t4bE5CUEU0cThXWVhzNlh3cGt0NkI5RlBkbnlSMnhhdnp5Y3pfamtsNFVPMWVjQlhKMU1IbmF5X0oxa0VmOUpzY01MZE5FWF9LcTBMNnlqbUxZaXpVcUJaZHRBWVFhTldvNVRMUmVaaE1rS2FiWUlzR1p1Q2d0ZkhlX1ZvdlEwci1hdGxvZEI5WHFXaXA5UC1hQVpleGZWdEE?oc=5",
-          "date": "2026-10-06",
-          "source": "Kalkine Media",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Las Vegas Sands: In Pursuit of Excellence in Sustainability: Marina Bay Sands Contributes More Than $1.1 Million to the Mandai Wildlife Centre - FinanzNachrichten.de",
-          "lien": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOZnZ6c0E1RVJpb1daRG80RGFJQWlRbEp3UHljS3NFaVMySnUwRGJXc2JXRzRGOWxzd0h4WVF2N2xuUU5nVjlVREZpOVBKTUVTV2ZjMDc2SHlydjZfWENqOFktdTBZYmF2a2V2cnk2YmpybDg3VHJvOERES3E0TTU4TG9OaXZ4cEZxMTJRWmcwRXd4RjNpMU1BUlVDUS1lQk9WTEZaZEtiMGZ0eDB0anhHbERWZEVKNHp2dVZ2cUt3YUg3YS1TcElxaWhrUEp1bHl5YVNaaFBDYUE2TVVRT3owUmtEeDB4WW5HNjhPVG10a1M2OC1mUkNCamJvUFFBLVQ3M1BRc1ZOSUtNX2hrbnR5MzlwbVFpN2EzVms0NmR4OXZla3ZvU1Rva3lBMHlic1RaZm5xblpJTzJqSGtB?oc=5",
-          "date": "2026-10-06",
-          "source": "FinanzNachrichten.de",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Las Vegas Sands stock pre-market at EUR 32.28: minus 0.31 percent - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZVktZGpwMmNzY0hHMFRKU1lfOW5jejZNQ2lNVFNxNFdwMEdFVF8wZWhEdmVFc0R3XzJPbWNTOWJvTzQ3N2hKVnlMTDRRM3E3UnBJRnc3NDhsQ3JMRVAyUHY1T0xkLUVKX2lzdnUzMVNGMUVJWnR4WVh3V0JOMllNbXFmcnBhUk9IOThEeTNYcGhLRmhqeU8zVVFKMHRQUF9lNXk2cUpfMzV3M1I1TmJPdGxkYzNOOVlOUWYyaEg0RQ?oc=5",
-          "date": "2026-10-05",
-          "source": "AD HOC NEWS",
-          "gravite": 0,
-          "mots": []
-        }
-      ]
-    },
-    "ticket": 13
-  },
+  "opportunite": null,
   "radar_proposes": [
     "MCD",
     "IGG.L",
@@ -1246,6 +1160,94 @@
         ]
       },
       "ticket": 12,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-06",
+      "cree_le": "2026-10-06T20:47+00:00",
+      "liberation": 130.94679768827007,
+      "reserve_pct": null,
+      "score": 95.43222246672978,
+      "ordres": [
+        {
+          "ticker": "LVS",
+          "side": "buy",
+          "quantity": 4.0,
+          "price": 32.48669942206752,
+          "reason": "opportunité radar (score 95)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "LVS",
+        "nom": "Las Vegas Sands",
+        "isin": "LVS",
+        "type": "action",
+        "prix": 36.58000183105469,
+        "score": 95.43222246672978,
+        "baisse": 0.4643692532359952,
+        "perf_5ans": 0.07093248539327046,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.38421995406858117,
+        "pos_12m": 0.561046511627907,
+        "n_12m": 688,
+        "base_moy_12m": 0.21656404104742538,
+        "pire_12m": -0.9820344116236468,
+        "vs_marche_3m": -0.2517327097579086,
+        "devise": "USD",
+        "prix_eur": 32.48669942206752
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -25% vs marché)",
+        "vs_marche_3m": -0.2517327097579086,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Las Vegas Sands (NYSE:LVS) Sets New 52-Week Low - Here's What Happened - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQV0dFcTRfbExvRWpWajFsVjB6SjdOYlRDVm4xdHFoVDFhdHhMX2NZdFNXcnBfRmJ0ZHJJVXpsS0Z4SW83YmF4NW1TX0wtTGVsVkRwckp3aDRrWTBDdzV4bElHamxaekVUczZVV0lIWFdQcXZCbUZZZi05LUtwQVRsM0hYVGl6OW5mcERnUU1ucTFyNzZSTGljNVlYMGZSQjdUUl9yS0x0ZGNjalBDZnROZ3lwT2xJcGxydl96cDVBSkpjNHM?oc=5",
+            "date": "2026-10-06",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Las Vegas Sands (NYSE:LVS) Doubles Down on Macao and Singapore - Kalkine Media",
+            "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeXdqSkdEeDQwa2toRFJuTjBHVXVUQUV5aXNzaTU5a3F5UDNQTHZrTGJ5eGkwTHp5cmFBYzRHU2kwcXEyWkw1R1A5dmNpQmFmQkoybVlWVjJhbHlUWkwxTEZKTktGVnBzRmlVdUNBMUxDTDdwZ2t1dEZnbUZrZ2JOdzlSQ2t3WXFRSFNIZDlLTVBlNVZZcXFnQ0tERGN0cUsyb3c3LXZn?oc=5",
+            "date": "2026-10-06",
+            "source": "Kalkine Media",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Why Are Investors Revisiting Las Vegas Sands (NYSE:LVS) Now? - Kalkine Media",
+            "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPS2t4bE5CUEU0cThXWVhzNlh3cGt0NkI5RlBkbnlSMnhhdnp5Y3pfamtsNFVPMWVjQlhKMU1IbmF5X0oxa0VmOUpzY01MZE5FWF9LcTBMNnlqbUxZaXpVcUJaZHRBWVFhTldvNVRMUmVaaE1rS2FiWUlzR1p1Q2d0ZkhlX1ZvdlEwci1hdGxvZEI5WHFXaXA5UC1hQVpleGZWdEE?oc=5",
+            "date": "2026-10-06",
+            "source": "Kalkine Media",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Las Vegas Sands: In Pursuit of Excellence in Sustainability: Marina Bay Sands Contributes More Than $1.1 Million to the Mandai Wildlife Centre - FinanzNachrichten.de",
+            "lien": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOZnZ6c0E1RVJpb1daRG80RGFJQWlRbEp3UHljS3NFaVMySnUwRGJXc2JXRzRGOWxzd0h4WVF2N2xuUU5nVjlVREZpOVBKTUVTV2ZjMDc2SHlydjZfWENqOFktdTBZYmF2a2V2cnk2YmpybDg3VHJvOERES3E0TTU4TG9OaXZ4cEZxMTJRWmcwRXd4RjNpMU1BUlVDUS1lQk9WTEZaZEtiMGZ0eDB0anhHbERWZEVKNHp2dVZ2cUt3YUg3YS1TcElxaWhrUEp1bHl5YVNaaFBDYUE2TVVRT3owUmtEeDB4WW5HNjhPVG10a1M2OC1mUkNCamJvUFFBLVQ3M1BRc1ZOSUtNX2hrbnR5MzlwbVFpN2EzVms0NmR4OXZla3ZvU1Rva3lBMHlic1RaZm5xblpJTzJqSGtB?oc=5",
+            "date": "2026-10-06",
+            "source": "FinanzNachrichten.de",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Las Vegas Sands stock pre-market at EUR 32.28: minus 0.31 percent - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZVktZGpwMmNzY0hHMFRKU1lfOW5jejZNQ2lNVFNxNFdwMEdFVF8wZWhEdmVFc0R3XzJPbWNTOWJvTzQ3N2hKVnlMTDRRM3E3UnBJRnc3NDhsQ3JMRVAyUHY1T0xkLUVKX2lzdnUzMVNGMUVJWnR4WVh3V0JOMllNbXFmcnBhUk9IOThEeTNYcGhLRmhqeU8zVVFKMHRQUF9lNXk2cUpfMzV3M1I1TmJPdGxkYzNOOVlOUWYyaEg0RQ?oc=5",
+            "date": "2026-10-05",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 13,
       "decision": "sans réponse"
     }
   ]
