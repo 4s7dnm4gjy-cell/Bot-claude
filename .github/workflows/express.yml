@@ -1,0 +1,42 @@
+name: Radar express (toutes les 30 minutes)
+
+# Propose une nouvelle opportunité du radar toutes les 30 minutes (entre 7h et 23h,
+# heure de Paris, réglable dans config.yaml : radar.express_heures). Sans réponse
+# au bout de 30 minutes, le ticket est fermé et le titre suivant est proposé.
+# Un titre n'est jamais proposé deux fois. Léger : aucun cours n'est téléchargé,
+# la liste des candidats est préparée chaque soir par le conseil quotidien.
+on:
+  schedule:
+    - cron: "*/30 5-22 * * *"   # UTC : couvre 7h-23h à Paris été comme hiver (le bot vérifie l'heure exacte)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: bot-etat
+  cancel-in-progress: false
+
+jobs:
+  express:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Proposer l'opportunité suivante
+        run: python -m invest_bot express
+      - name: Enregistrer
+        run: |
+          git config user.name "bot-investissement"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add etat
+          git diff --cached --quiet || (git commit -m "Radar express $(date +%H:%M)" && git pull --rebase && git push)

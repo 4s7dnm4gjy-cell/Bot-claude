@@ -1,5 +1,5 @@
 import json
-from datetime import date
+from datetime import date, datetime, timedelta, timezone
 
 import numpy as np
 import pandas as pd
@@ -203,25 +203,105 @@ def test_radar_scanner_filtre_et_classe():
     assert "DECLIN" not in tickers  # tendance 5 ans négative : écartée
 
 
-def test_radar_alerte_opportunite_puis_oui(cfg_radar, monkeypatch):
+class FauxGitHub:
+    """Remplace l'API GitHub : garde les tickets, commentaires et fermetures en mémoire."""
+
+    tickets: dict = {}
+    commentaires: list = []
+
+    def __init__(self):
+        self.repo, self.token = "moi/depot", "x"
+
+    actif = True
+    mention = "@moi"
+
+    def creer_ticket(self, titre, corps, label="proposition"):
+        n = 100 + len(FauxGitHub.tickets)
+        FauxGitHub.tickets[n] = {"titre": titre, "corps": corps, "ouvert": True}
+        return n
+
+    def commenter(self, numero, texte):
+        FauxGitHub.commentaires.append((numero, texte))
+
+    def fermer(self, numero):
+        FauxGitHub.tickets[numero]["ouvert"] = False
+
+    def est_ouvert(self, numero):
+        return FauxGitHub.tickets.get(numero, {}).get("ouvert", False)
+
+
+@pytest.fixture
+def gh(monkeypatch):
+    FauxGitHub.tickets, FauxGitHub.commentaires = {}, []
+    monkeypatch.setattr(conseil, "GitHub", FauxGitHub)
+    return FauxGitHub
+
+
+def preparer_radar(cfg_radar, monkeypatch, rp=None, taux=None, cfg=None):
+    """Conseil du soir (sans GitHub) : écrit la liste des candidats du mode express."""
     from invest_bot import radar
 
     monkeypatch.setattr(radar.Opportunite, "favorable", property(lambda self: True))
     px = marche()  # marché calme : pas de proposition sur les ETF
     px.iloc[-60:] *= np.linspace(1, 1.3, 60)[:, None]
-    rp = radar_prix()
-    prop = conseil.lancer_conseil(cfg_radar, px, px["WORLD"], date(2025, 6, 3), prix_radar=rp)
+    assert conseil.lancer_conseil(cfg or cfg_radar, px, px["WORLD"], date(2025, 6, 3),
+                                  prix_radar=rp if rp is not None else radar_prix(), taux=taux) is None
+    return px
+
+
+MIDI = datetime(2025, 6, 3, 10, 0, tzinfo=timezone.utc)  # 12 h à Paris
+
+
+def test_radar_express_propose_puis_oui(cfg_radar, monkeypatch, gh):
+    preparer_radar(cfg_radar, monkeypatch)
+    assert "Radar" in json.loads(conseil.A_PUBLIER.read_text())["bulletin"]
+    prop = conseil.lancer_express(cfg_radar, MIDI)
     assert prop["type"] == "opportunite" and prop["ordres"][0]["ticker"] == "SOLDE"
-    pub = json.loads(conseil.A_PUBLIER.read_text())
-    assert "Soldée SA" in pub["titre"] and "biais du survivant" in pub["corps"]
-    assert "Radar" in pub["bulletin"]
+    ticket = gh.tickets[prop["ticket"]]
+    assert "Soldée SA" in ticket["titre"] and "biais du survivant" in ticket["corps"]
+    assert ticket["corps"].startswith("@moi")
     etat = conseil.charger_etat(cfg_radar)
-    conseil.executer_commande(cfg_radar, etat, "oui", None, date(2025, 6, 4))
+    assert etat["opportunite"]["ticket"] == prop["ticket"] and etat["proposition"] is None
+    conseil.executer_commande(cfg_radar, etat, "oui", prop["ticket"], date(2025, 6, 3))
     assert "SOLDE" in etat["satellites"] and "SOLDE" not in etat["positions"]
     assert etat["apport_en_attente"] == 200  # l'apport du mois n'a pas été consommé
-    conseil.sauver_etat(etat)
-    # Pas de nouvelle alerte sur le même titre pendant le délai.
-    assert conseil.lancer_conseil(cfg_radar, px, px["WORLD"], date(2025, 6, 5), prix_radar=rp) is None
+    assert etat["opportunite"] is None
+
+
+def test_radar_express_30_minutes_puis_titre_suivant_jamais_deux_fois(cfg_radar, monkeypatch, gh):
+    from dataclasses import replace
+
+    rp = radar_prix()
+    rp["SOLDE2"] = rp["SOLDE"] * 1.01
+    liste = {**cfg_radar.radar["liste"], "SOLDE2": {"nom": "Soldée Bis", "isin": "FR0000000009", "devise": "EUR"}}
+    c = replace(cfg_radar, radar={**cfg_radar.radar, "liste": liste})
+    preparer_radar(cfg_radar, monkeypatch, rp=rp, cfg=c)
+
+    p1 = conseil.lancer_express(c, MIDI)
+    assert conseil.lancer_express(c, MIDI + timedelta(minutes=20)) is None  # on laisse 30 min
+    p2 = conseil.lancer_express(c, MIDI + timedelta(minutes=31))
+    assert p2["ordres"][0]["ticker"] != p1["ordres"][0]["ticker"]
+    assert not gh.tickets[p1["ticket"]]["ouvert"]  # l'ancien ticket est fermé, avec un mot
+    assert any("Pas de réponse" in t for n, t in gh.commentaires if n == p1["ticket"])
+    # Plus de candidat neuf : rien n'est reproposé, même des heures plus tard.
+    assert conseil.lancer_express(c, MIDI + timedelta(minutes=62)) is None
+    etat = conseil.charger_etat(c)
+    assert sorted(etat["radar_proposes"]) == ["SOLDE", "SOLDE2"]
+
+
+def test_radar_express_respecte_les_horaires(cfg_radar, monkeypatch, gh):
+    preparer_radar(cfg_radar, monkeypatch)
+    nuit = datetime(2025, 6, 3, 1, 0, tzinfo=timezone.utc)  # 3 h à Paris
+    assert conseil.lancer_express(cfg_radar, nuit) is None
+    assert conseil.lancer_express(cfg_radar, MIDI) is not None
+
+
+def test_non_sur_une_opportunite_ne_bloque_pas_les_propositions(cfg_radar, monkeypatch, gh):
+    preparer_radar(cfg_radar, monkeypatch)
+    prop = conseil.lancer_express(cfg_radar, MIDI)
+    etat = conseil.charger_etat(cfg_radar)
+    rep = conseil.executer_commande(cfg_radar, etat, "non", prop["ticket"], date(2025, 6, 3))
+    assert "plus jamais" in rep and etat["pause_jusqua"] is None and etat["opportunite"] is None
 
 
 def test_radar_scandale_bloque_l_alerte(cfg_radar, monkeypatch):
@@ -239,18 +319,15 @@ def test_radar_scandale_bloque_l_alerte(cfg_radar, monkeypatch):
     assert "⛔" in bulletin and "Soldée SA" in bulletin
 
 
-def test_radar_ticket_montre_les_actualites(cfg_radar, monkeypatch):
-    from invest_bot import news, radar
+def test_radar_ticket_montre_les_actualites(cfg_radar, monkeypatch, gh):
+    from invest_bot import news
 
-    monkeypatch.setattr(radar.Opportunite, "favorable", property(lambda self: True))
+    preparer_radar(cfg_radar, monkeypatch)
     monkeypatch.setattr(news, "lire_flux", lambda nom, jours=30: [
         news.Article(f"{nom} faces lawsuit over pricing", "https://ex.com/a", "2026-10-01", "Reuters"),
     ])
-    px = marche()
-    px.iloc[-60:] *= np.linspace(1, 1.3, 60)[:, None]
-    prop = conseil.lancer_conseil(cfg_radar, px, px["WORLD"], date(2025, 6, 3), prix_radar=radar_prix())
-    assert prop["type"] == "opportunite"
-    corps = json.loads(conseil.A_PUBLIER.read_text())["corps"]
+    prop = conseil.lancer_express(cfg_radar, MIDI)
+    corps = gh.tickets[prop["ticket"]]["corps"]
     assert "Pourquoi Soldée SA baisse" in corps and "https://ex.com/a" in corps
 
 
@@ -267,21 +344,18 @@ def test_devises_et_conversion_en_euros():
     assert en_euros(100, "SEK", taux) is None  # taux manquant : pas de proposition chiffrée
 
 
-def test_radar_titre_etranger_quantite_en_euros(cfg_radar, monkeypatch):
+def test_radar_titre_etranger_quantite_en_euros(cfg_radar, monkeypatch, gh):
     from dataclasses import replace
-    from invest_bot import radar
 
-    monkeypatch.setattr(radar.Opportunite, "favorable", property(lambda self: True))
     liste = {"SOLDE.T": {"nom": "Soldée KK", "isin": "JP0000000001"}}
     c = replace(cfg_radar, radar={**cfg_radar.radar, "liste": liste, "montant": 150})
     rp = radar_prix().rename(columns={"SOLDE": "SOLDE.T"})[["SOLDE.T"]] * 100  # cours en yens
-    px = marche()
-    px.iloc[-60:] *= np.linspace(1, 1.3, 60)[:, None]
-    prop = conseil.lancer_conseil(c, px, px["WORLD"], date(2025, 6, 3), prix_radar=rp, taux={"JPY": 160.0})
+    preparer_radar(c, monkeypatch, rp=rp, taux={"JPY": 160.0}, cfg=c)
+    prop = conseil.lancer_express(c, MIDI)
     o = prop["ordres"][0]
     assert o["price"] == pytest.approx(rp["SOLDE.T"].iloc[-1] / 160)  # prix en euros
     assert o["quantity"] * o["price"] <= 2 * 150
-    assert "JPY" in json.loads(conseil.A_PUBLIER.read_text())["corps"]
+    assert "JPY" in gh.tickets[prop["ticket"]]["corps"]
 
 
 def test_comparaison_au_marche_sans_effet_de_change():

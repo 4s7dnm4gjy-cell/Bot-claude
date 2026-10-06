@@ -206,6 +206,7 @@ def main(argv: list[str] | None = None) -> None:
     c = sub.add_parser("commentaire", help="traite une réponse (oui/non/…) laissée sur un ticket")
     c.add_argument("--ticket", type=int, required=True)
 
+    sub.add_parser("express", help="propose l'opportunité radar suivante (lancé toutes les 30 minutes)")
     sub.add_parser("univers", help="reconstruit radar_univers.yaml à partir des grands indices mondiaux")
 
     d = sub.add_parser("deposit")
@@ -216,6 +217,12 @@ def main(argv: list[str] | None = None) -> None:
 
     if args.cmd == "backtest":
         cmd_backtest(args, cfg)
+    elif args.cmd == "express":
+        from .conseil import lancer_express
+
+        prop = lancer_express(cfg)
+        print(f"Opportunité proposée : {prop['radar']['nom']} (ticket #{prop.get('ticket')})" if prop
+              else "Rien de nouveau (proposition en attente, hors horaires ou plus de candidat).")
     elif args.cmd == "univers":
         import yaml
 

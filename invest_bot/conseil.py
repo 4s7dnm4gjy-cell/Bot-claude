@@ -16,7 +16,8 @@ import json
 import os
 import re
 from dataclasses import asdict
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 import pandas as pd
@@ -60,15 +61,25 @@ def etat_vide(cfg: Config) -> dict:
         "bulletin_ticket": None,
         "satellites": {},
         "radar_alertes": {},
+        "opportunite": None,        # proposition radar en cours (indépendante de la proposition principale)
+        "radar_proposes": [],       # tous les titres déjà proposés : jamais deux fois le même
         "achats": [],
         "historique": [],
     }
 
 
 def charger_etat(cfg: Config) -> dict:
+    etat = etat_vide(cfg)
     if ETAT.exists():
-        return {**etat_vide(cfg), **json.loads(ETAT.read_text(encoding="utf-8"))}
-    return etat_vide(cfg)
+        etat.update(json.loads(ETAT.read_text(encoding="utf-8")))
+    # Migration : les opportunités vivent désormais dans leur propre emplacement.
+    prop = etat.get("proposition")
+    if prop and prop.get("type") == "opportunite" and not etat.get("opportunite"):
+        etat["opportunite"], etat["proposition"] = prop, None
+    for t in etat.get("radar_alertes", {}):
+        if t not in etat["radar_proposes"]:
+            etat["radar_proposes"].append(t)
+    return etat
 
 
 def sauver_etat(etat: dict) -> None:
@@ -280,54 +291,6 @@ def lire_actualites(cfg: Config, opportunites: list[Opportunite]) -> dict[str, n
     return actus
 
 
-def evaluer_radar(cfg: Config, etat: dict, prix: pd.DataFrame, prix_radar: pd.DataFrame,
-                  opportunites: list[Opportunite], aujourdhui: date,
-                  actus: dict[str, news.Actualites] | None = None,
-                  taux: dict[str, float] | None = None) -> dict | None:
-    """Ouvre au plus une alerte « opportunité » par jour, avec garde-fous."""
-    r = cfg.radar
-    if etat["proposition"] is not None or aujourdhui.weekday() >= 5:
-        return None
-    if etat["pause_jusqua"] and aujourdhui.isoformat() < etat["pause_jusqua"]:
-        return None
-    coeur = valeur_portefeuille(etat, prix)
-    sat = 0.0
-    for t, q in etat["satellites"].items():
-        if t in prix_radar:
-            px = en_euros(float(prix_radar[t].dropna().iloc[-1]), devise(t, r["liste"].get(t)), taux)
-            sat += q * (px or 0.0)
-    if coeur + sat > 0 and sat / (coeur + sat) >= r["part_max"]:
-        return None  # assez de titres individuels : le cœur du portefeuille reste les ETF
-    for o in opportunites:
-        if o.score < r["score_alerte"] or not o.favorable:
-            continue
-        act = (actus or {}).get(o.ticker)
-        if act is None and r.get("actualites") and actus is not None:
-            act = actus[o.ticker] = news.verifier(o.nom, o.vs_marche_3m)  # lu seulement si nécessaire
-        if act is not None and act.verdict == "rouge":
-            continue  # vraie mauvaise nouvelle : ce n'est pas une opportunité
-        derniere = etat["radar_alertes"].get(o.ticker)
-        if derniere and (aujourdhui - date.fromisoformat(derniere)).days < r["delai_jours"]:
-            continue
-        px = o.prix_eur
-        if not px:
-            continue  # taux de change indisponible : impossible de chiffrer l'achat en euros
-        qty = float(int(r["montant"] // px))
-        if qty == 0 and px <= 2 * r["montant"]:
-            qty = 1.0  # une seule part, un peu au-dessus du montant prévu
-        if qty == 0:
-            continue
-        etat["radar_alertes"][o.ticker] = aujourdhui.isoformat()
-        ordre = Order(o.ticker, "buy", qty, px, f"opportunité radar (score {o.score:.0f})")
-        return {
-            "type": "opportunite", "date": aujourdhui.isoformat(), "liberation": qty * px + cfg.fee_fixed,
-            "reserve_pct": etat["reserve_pct_appliquee"], "score": o.score, "ordres": [asdict(ordre)],
-            "notes": [], "total": coeur + sat, "radar": asdict(o),
-            "actualites": act.to_dict() if act is not None else None,
-        }
-    return None
-
-
 def resume_radar(cfg: Config, opportunites: list[Opportunite], limite: int | None = 3,
                  actus: dict[str, news.Actualites] | None = None) -> str:
     titre = f"#### 🔎 Radar ({len(cfg.radar['liste'])} actions et ETF suivis, {len(opportunites)} soldés aujourd'hui)"
@@ -370,7 +333,7 @@ def corps_opportunite(cfg: Config, prop: dict, image_url: str) -> str:
         f"- Historiquement, quand ce titre était à ce niveau de score : **{o.moy_12m:+.0%} en moyenne 12 mois "
         f"plus tard**, positif dans {o.pos_12m:.0%} des cas, pire cas {o.pire_12m:+.0%} "
         f"(moyenne de tous les jours : {o.base_moy_12m:+.0%} ; {o.n_12m:_} jours observés).".replace("_", " "),
-        f"![Graphique]({image_url})",
+        f"![Graphique]({image_url})" if image_url else "",
         news.section_markdown(o.nom, news.Actualites.from_dict(prop["actualites"])) if prop.get("actualites") else "",
         "#### ⚠️ À savoir",
         f"- Une action seule est bien plus risquée qu'un ETF. Le bot limite ces titres à "
@@ -382,6 +345,102 @@ def corps_opportunite(cfg: Config, prop: dict, image_url: str) -> str:
         "Répondez **en commentaire** :\n- `oui` → acheté, j'enregistre\n- `non` → je passe "
         f"(pas de nouvelle alerte sur ce titre avant {cfg.radar['delai_jours']} jours)",
     ] if p)
+
+
+# --------------------------------------------------------------------------- radar express (toutes les 30 min)
+
+CANDIDATS = Path("etat/candidats.json")
+
+
+def ecrire_candidats(cfg: Config, opportunites: list[Opportunite], actus: dict, valeur_coeur: float) -> None:
+    """Liste classée des titres soldés, recalculée chaque soir, consommée par le mode express."""
+    seuil = cfg.radar["score_alerte"]
+    liste = [asdict(o) for o in opportunites if o.score >= seuil and o.favorable]
+    CANDIDATS.parent.mkdir(parents=True, exist_ok=True)
+    CANDIDATS.write_text(json.dumps({
+        "calcule_le": datetime.now(timezone.utc).isoformat(timespec="minutes"),
+        "valeur_coeur": valeur_coeur,
+        "candidats": liste,
+        "rouges": [t for t, a in actus.items() if a.verdict == "rouge"],
+    }, ensure_ascii=False, indent=1, default=float), encoding="utf-8")
+
+
+def _dans_les_heures(cfg: Config, maintenant: datetime) -> bool:
+    debut, fin = cfg.radar.get("express_heures", [0, 24])
+    heure = maintenant.astimezone(ZoneInfo("Europe/Paris")).hour
+    return debut <= heure < fin
+
+
+def lancer_express(cfg: Config, maintenant: datetime | None = None, max_actualites: int = 6) -> dict | None:
+    """Toutes les 30 min : sans réponse depuis 30 min, on passe au titre suivant (jamais deux fois le même)."""
+    maintenant = maintenant or datetime.now(timezone.utc)
+    if not cfg.radar or not CANDIDATS.exists():
+        return None
+    etat = charger_etat(cfg)
+    gh = GitHub()
+    delai = timedelta(minutes=cfg.radar.get("express_minutes", 30))
+
+    opp = etat.get("opportunite")
+    if opp:
+        cree = datetime.fromisoformat(opp.get("cree_le", opp["date"] + "T00:00:00+00:00"))
+        ouvert = gh.est_ouvert(opp["ticket"]) if gh.actif and opp.get("ticket") else True
+        if ouvert and maintenant - cree < delai:
+            return None  # on laisse le temps de répondre
+        if ouvert and gh.actif and opp.get("ticket"):
+            gh.commenter(opp["ticket"], "⏭️ Pas de réponse en 30 minutes : je passe à l'opportunité suivante. "
+                                        "Ce titre ne sera plus reproposé.")
+            gh.fermer(opp["ticket"])
+        etat["historique"].append({**opp, "decision": "sans réponse" if ouvert else "fermé"})
+        etat["opportunite"] = None
+
+    if not _dans_les_heures(cfg, maintenant):
+        sauver_etat(etat)
+        return None
+
+    data = json.loads(CANDIDATS.read_text(encoding="utf-8"))
+    deja = set(etat["radar_proposes"]) | set(etat["satellites"]) | set(data.get("rouges", []))
+    r = cfg.radar
+    lus = 0
+    for c in data["candidats"]:
+        if c["ticker"] in deja:
+            continue
+        o = Opportunite(**c)
+        if not o.prix_eur:
+            continue
+        act = None
+        if r.get("actualites"):
+            if lus >= max_actualites:
+                break  # on reprendra au prochain passage
+            lus += 1
+            act = news.verifier(o.nom, o.vs_marche_3m)
+            if act.verdict == "rouge":
+                etat["radar_proposes"].append(o.ticker)  # écarté définitivement
+                continue
+        qty = float(int(r["montant"] // o.prix_eur)) or (1.0 if o.prix_eur <= 2 * r["montant"] else 0.0)
+        if not qty:
+            etat["radar_proposes"].append(o.ticker)
+            continue
+        ordre = Order(o.ticker, "buy", qty, o.prix_eur, f"opportunité radar (score {o.score:.0f})")
+        prop = {
+            "type": "opportunite", "date": maintenant.date().isoformat(),
+            "cree_le": maintenant.isoformat(timespec="minutes"),
+            "liberation": qty * o.prix_eur + cfg.fee_fixed, "reserve_pct": etat["reserve_pct_appliquee"],
+            "score": o.score, "ordres": [asdict(ordre)], "notes": [], "total": data.get("valeur_coeur", 0.0),
+            "radar": asdict(o), "actualites": act.to_dict() if act is not None else None,
+        }
+        corps = corps_opportunite(cfg, prop, None) + (
+            "\n\n*Prix de la dernière clôture. Sans réponse dans 30 minutes, je passe au titre suivant ; "
+            "un titre n'est jamais proposé deux fois.*")
+        if gh.actif:
+            prop["ticket"] = gh.creer_ticket(titre_ticket(prop), f"{gh.mention} 👋 nouvelle opportunité.\n\n" + corps)
+        else:
+            print(f"=== {titre_ticket(prop)} ===\n{corps}")
+        etat["radar_proposes"].append(o.ticker)
+        etat["opportunite"] = prop
+        sauver_etat(etat)
+        return prop
+    sauver_etat(etat)
+    return None
 
 
 TITRES = {
@@ -485,22 +544,22 @@ def executer_commande(cfg: Config, etat: dict, texte: str, numero: int | None, a
     if not mots:
         return None
     cmd, args = mots[0], mots[1:]
-    prop = etat["proposition"]
+    slot, prop = _proposition_visee(etat, numero)
 
     if cmd in ("oui", "ok", "fait", "valide", "validé"):
-        if not prop or (numero and numero not in (prop.get("ticket"), etat.get("bulletin_ticket"))):
+        if not prop:
             return "Aucune proposition en attente sur ce ticket."
         appliquer(cfg, etat, prop)
         etat["historique"].append({**prop, "decision": "oui", "decide_le": aujourdhui.isoformat()})
-        etat["proposition"] = None
+        etat[slot] = None
         return "✅ Enregistré. " + resume_portefeuille(cfg, etat)
     if cmd in ("non", "refus", "annule", "annuler"):
-        if not prop or (numero and numero not in (prop.get("ticket"), etat.get("bulletin_ticket"))):
+        if not prop:
             return "Aucune proposition en attente sur ce ticket."
         etat["historique"].append({**prop, "decision": "non", "decide_le": aujourdhui.isoformat()})
-        etat["proposition"] = None
+        etat[slot] = None
         if prop["type"] == "opportunite":
-            return "👌 Ignoré. Pas de nouvelle alerte sur ce titre avant un moment."
+            return "👌 Ignoré. Ce titre ne vous sera plus jamais proposé ; une autre opportunité arrive bientôt."
         etat["pause_jusqua"] = (aujourdhui + timedelta(days=PAUSE_APRES_NON)).isoformat()
         return f"👌 Ignoré. L'argent prévu reste en attente ; prochaine proposition au plus tôt le {etat['pause_jusqua']}."
     if cmd == "apport" and args:
@@ -520,6 +579,19 @@ def executer_commande(cfg: Config, etat: dict, texte: str, numero: int | None, a
     if cmd == "aide":
         return AIDE
     return None
+
+
+def _proposition_visee(etat: dict, numero: int | None) -> tuple[str, dict | None]:
+    """Quel emplacement ('proposition' ou 'opportunite') vise ce ticket ?"""
+    for slot in ("proposition", "opportunite"):
+        prop = etat.get(slot)
+        if prop and (numero is None or numero == prop.get("ticket")):
+            return slot, prop
+    if numero is not None and numero == etat.get("bulletin_ticket"):  # réponse dans le bulletin
+        for slot in ("proposition", "opportunite"):
+            if etat.get(slot):
+                return slot, etat[slot]
+    return "proposition", None
 
 
 def _nombre(s: str) -> float:
@@ -598,8 +670,7 @@ def lancer_conseil(
     if cfg.radar and prix_radar is not None and not prix_radar.empty:
         opportunites = scanner(cfg.radar["liste"], prix_radar, cfg.radar["score_min"], prix[cfg.benchmark], taux, fx)
         actus = lire_actualites(cfg, opportunites)
-        if nouvelle is None:
-            nouvelle = evaluer_radar(cfg, etat, prix, prix_radar, opportunites, aujourdhui, actus, taux)
+        ecrire_candidats(cfg, opportunites, actus, valeur_portefeuille(etat, prix))
     a_publier = {}
     if nouvelle:
         etat["proposition"] = nouvelle
@@ -650,6 +721,11 @@ def bulletin(cfg: Config, etat: dict, prix: pd.DataFrame, a: dict, aujourdhui: d
     prop = etat["proposition"]
     if prop:
         lignes.append(f"👉 **Action à faire** : {titre_ticket(prop)} — voir le ticket {{TICKET}} et répondre `oui` ou `non`.")
+    if etat.get("opportunite"):
+        lignes.append(f"🔎 Opportunité en cours : {titre_ticket(etat['opportunite'])} — ticket "
+                      f"#{etat['opportunite'].get('ticket')}.")
+    if prop:
+        pass  # l'action à faire est déjà indiquée
     elif cfg.mode == "timing" and etat["apport_en_attente"] > 0:
         lignes.append(
             f"⏳ Rien à faire : {etat['apport_en_attente']:,.0f} € attendent le meilleur moment "
