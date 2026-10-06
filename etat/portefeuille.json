@@ -131,7 +131,8 @@
         }
       ]
     },
-    "image": "rapports/propositions/2026-10-06.png"
+    "image": "rapports/propositions/2026-10-06.png",
+    "ticket": 3
   },
   "dernier_mois_plan": null,
   "palier_alerte": 0,
