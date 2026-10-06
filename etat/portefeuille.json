@@ -18,94 +18,149 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-06",
-    "cree_le": "2026-10-06T13:41+00:00",
-    "liberation": 150.1247679544107,
+    "cree_le": "2026-10-06T14:19+00:00",
+    "liberation": 142.16743832685825,
     "reserve_pct": null,
-    "score": 98.4588130378303,
+    "score": 97.28153130106153,
     "ordres": [
       {
-        "ticker": "MXT.AX",
+        "ticker": "VICI",
         "side": "buy",
-        "quantity": 143.0,
-        "price": 1.0428305451357391,
-        "reason": "opportunité radar (score 98)"
+        "quantity": 7.0,
+        "price": 20.16677690383689,
+        "reason": "opportunité radar (score 97)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "MXT.AX",
-      "nom": "Metrics Master Income Trust",
-      "isin": "MXT.AX",
+      "ticker": "VICI",
+      "nom": "Vici Properties",
+      "isin": "VICI",
       "type": "action",
-      "prix": 1.6799999475479126,
-      "score": 98.4588130378303,
-      "baisse": 0.12330203802404649,
-      "perf_5ans": 0.18751365068536563,
+      "prix": 22.69499969482422,
+      "score": 97.28153130106153,
+      "baisse": 0.24670764639426823,
+      "perf_5ans": 0.03796563997879532,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.07508349700630974,
-      "pos_12m": 0.8757396449704142,
-      "n_12m": 169,
-      "base_moy_12m": 0.06544126464015146,
-      "pire_12m": -0.05389571495724199,
-      "vs_marche_3m": -0.15127163561186097,
-      "devise": "AUD",
-      "prix_eur": 1.0428305451357391
+      "moy_12m": 0.1611134395695071,
+      "pos_12m": 0.8867924528301887,
+      "n_12m": 159,
+      "base_moy_12m": 0.05775196851949441,
+      "pire_12m": -0.03743319708724924,
+      "vs_marche_3m": -0.15826070229710443,
+      "devise": "USD",
+      "prix_eur": 20.16677690383689
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -15% vs marché)",
-      "vs_marche_3m": -0.15127163561186097,
-      "alertes": [],
+      "resume": "à vérifier : baisse bien plus forte que le marché, 5 article(s) à regarder (3 mois : -16% vs marché)",
+      "vs_marche_3m": -0.15826070229710443,
+      "alertes": [
+        {
+          "titre": "VICI Properties: I'm Flipping From Buy To Sell (Rating Downgrade) (NYSE:VICI) - Seeking Alpha",
+          "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRTdDdXJjZFB3bHRKOTl0eXJIYzNDdDNGeUxCTkt4NzBQb2ZLaUlCR1NpaGFjWlRrTDhlY3o4SllkVm5ZNHVqM2x5a0hVanZ5MmJVQ2ktMkRoaXAwMUdOanFEVzNJQmUxU3ZNREdGV2hudGdhRzFhMVJOZXN4bktvMm5ISnJpRkNvQ2hfd0o1ajZONEhXTDNZNmdjNDBsNGNGcl9kXw?oc=5",
+          "date": "2026-09-22",
+          "source": "Seeking Alpha",
+          "gravite": 1,
+          "mots": [
+            "downgrade"
+          ]
+        },
+        {
+          "titre": "VICI Properties Shares Fall After JPMorgan Downgrade - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX0prWkt3elVjZDRkcWxHQmMtUy1McksybUgzM1NmMjF4aHFldjd4ck1GckhVYkdFU0ozaEhmTmR0eGhFb2dKYjB5SE44ckEzQXJYWTRiMUdEbWpQVWtIeG1KMGwyRndNMW9aZWZyRzhPbzhkN0tFMTZLN0tsYnVXaGV6RXU2VGJpZVpnOVdvSWs1OHFiQVRWcWtNU3k3WkdueURV?oc=5",
+          "date": "2026-09-24",
+          "source": "Yahoo Finance",
+          "gravite": 1,
+          "mots": [
+            "downgrade"
+          ]
+        },
+        {
+          "titre": "VICI Properties (NYSE:VICI) Downgraded by JPMorgan Chase & Co. to \"Neutral\" - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOT0gtMk96NzUwRE1hdGs2b1RQWDZJZVF4cGY4LXRSM3FEQm5mTWoyNWZlRm9UWGJ3YjU4VFIyemF1WmR3VW15VjJHRmdBcmtPbEpCUE9IVjUzT19kUmJpcm9QeEhBZlBUSU4wX1JSVHBaRVNxM0JFRy1qTC1lN0c3dXdpV1l6RUdRQVUwUEM5QzE3WWkxZ0kwckpKMEEwWXVhMFd6cVFVbkg5WHQ5MGJvQ2JaLVMzWEZnbFBwSnNIRDB0aThyMENsVA?oc=5",
+          "date": "2026-09-24",
+          "source": "MarketBeat",
+          "gravite": 1,
+          "mots": [
+            "downgraded"
+          ]
+        },
+        {
+          "titre": "VICI Properties Shares Fall After JPMorgan Downgrade - marketscreener.com",
+          "lien": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRG9oLTVucTJMcU92MEtzeVVJZ21fRU1RMXZySVVQNkhyTUFRVjlSSUxOb2lNWlZucWNNR2FZbGFHbFhnR2dPRWdrTjc5VWNaSS1vVGxtb0ZfQXRoTmJzZFJmZmp5UnhWbDJDMW1qd2lXaHZwR19HNEtsU2FVR2ZqYktraVFRM0prbDhHQWlwYmR3SzR6Z1NmMms4d01pSE51c1daVWVWc1o?oc=5",
+          "date": "2026-09-24",
+          "source": "marketscreener.com",
+          "gravite": 1,
+          "mots": [
+            "downgrade"
+          ]
+        },
+        {
+          "titre": "VICI Properties (NYSE:VICI) Reaches New 1-Year Low on Analyst Downgrade - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeVdVU2pxVWtXajNJR0p1SXdTMDU2bGVyQjBiTTlMN3AzZEpkMlhKRVIySExldHVLTGRZRkJQMmtIdUx3TDhCS1AxTHluaG14WmE0bFY1S0xLNnZOVnlNNDBWWGs1TGdFMEhKaEZ2OS12YnJzU01kaXpEWktIMmNJYXhncVBvSDcxcjFTY20yRzdjOTFxS1JxZGV4MUZXOXR3SHdqZF9NVU5DUi1BU0xiN0piOFhYXzhzVE82ZVJTekloOXVGNTMyNw?oc=5",
+          "date": "2026-10-05",
+          "source": "MarketBeat",
+          "gravite": 1,
+          "mots": [
+            "downgrade"
+          ]
+        }
+      ],
       "recents": [
         {
-          "titre": "Metrics Master Income Trust (ASX:MXT) Resumes Trading After FY26 NTA Revision - Kalkine",
-          "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQM2FMemRkdFVyTFdsN0R5cWZNcVRXM2ZWbG93RGRmRm0tVThyTWo0dFRfVE11Vmh0NURuYlF3RXd0U0RRZGxuZ01kSGZmYjBSMWRFeWpuLXZYNkJDRm9FajAxTXk4WUttYmZGSEN4VEdxdlJrQlJfd3dBNnNNdk14cG52OUFZMDFiRlBud1VhcWM4M0dQQkc4VGptMC1xVkg1cmt3b3ZmSlAzbEZmMFo3XzFOT1BMYVhVU2c?oc=5",
-          "date": "2026-10-06",
-          "source": "Kalkine",
+          "titre": "VICI Properties Expands Experiences: Can Non-Gaming Growth Scale? - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQczJENEhzdmltVGtRTDJ0N001d3ptbUZsOUtJQzBPN0lnUThMR2J1anNrNU9GMEZpcDVyZTlsNTBraWwwUUFhQU9xT3NSSjhCcXNkS1RMdXI5bjZndjBibFRnYkl0T3dIOThPUW1RLUpnbVFiRXgwQXBGOVVqemoyZTlxQ0NtTnZsN3dqVkN6WU5veG5nNllwWWNFMWphTUxRVzBB?oc=5",
+          "date": "2026-10-05",
+          "source": "Yahoo Finance",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Metrics Master Income Trust Confirms Actual Distribution of AUD 0.013 Per Unit for September 2026 - Kalkine",
-          "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQemFwczgxcW5zMHJ1X2JRSFliUGd4Z05BRlJQM01YQWJfdGh2WTBrLW1LQk0wXzNNRXBURG1uR3Z5LUg5blU4Zi1IRTc5R3NnMFV1ZzBoWGIyU2RDZHg0X1Q0aHA0Z1BEUGQwdTZDbDRUcEVBQXJfWmtDSm5rV25OR0FiWXJHbGV2UnFOZXdmM1F1NEZvNElCVk55RFNkekppZFpfTlRsZ1NwVGxLRDAtcWdqdzJDN2MxQS10TGZGVjNob0JlXzFISTFHZjBEQnlxdkRLUA?oc=5",
-          "date": "2026-10-06",
-          "source": "Kalkine",
+          "titre": "VICI Properties (VICI) Could Be 46% Undervalued As Its Alberta Rent Stream Holds Flat - Simply Wall Street",
+          "lien": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNN3JSWkdER0hCdkpoT2ZHT3lQdVpiSFozWHp5VTJyOENYZ1NPTF9NSzUwWW5DNlJLN2lEa2UzTWRrd2kwRXpmZlh4b3RnUUJPRjhNTk41SU43NXZGYXcxN1FsUVlMUXZFRFFFSjFMcmZ5MnY1RmFLNFFWTnNCZ0Zjc1BJNFFtWkxENXJYODFFRjlEaWtNZGxkdmlhY0xJYTVKdm9oYjRGTXdLQmhCaFc4RG9NRnBHc05lQTVla3RFV2FKMjdndWQ1ZEpCSGxmN0HSAdQBQVVfeXFMTTkwOXZ3RU85amY2ajVEWlVrR01TMFMzT0o2Xy0wQTZHY1dpTUIwVGJRRzBtX2sydnpxcWlBMlFBVVoxYkJVWUJ5bTRmTkxrNG9hOEtRdjRDdE5VcWxQb3FDYXF0aWJNb0xMaHRFY21sbEhZekpLck1hM3FUZFpIajd2Mml1R015VkJlTjBJd2NBdzZpQXVVTWljVnpIdDBucVdseHdnWmxqcURTeENkU1Vic0txSjNsZ2FNSjFVTGNEcUxmRDNveGVtczctQnczYkhBMFQ?oc=5",
+          "date": "2026-10-05",
+          "source": "Simply Wall Street",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "What Changes for Metrics Master Income Trust (ASX:MXT) Now It's Back Trading? - Kalkine Media",
-          "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcmpkcXczam45WlcwcWxlY0xfaUZCSHY5dnYzcjZHbmoyN0NCQmtFT0FfQnR1OEpJb1hCdU54NDNtdDJRclhLS0ZLTmgtdVBSN1FfOFBoZll4VlhqZHdpMS1SblZ0cmJCM25rRHJLTUlucVlXdFZFajhuQUh0WkpQSHc0WWJhS1Q2M1h2dzAteWlzSUxrdEkyMnZfak43NTh6MExNNFc0NTZLUUJWeU14VS12ekM2RTBD?oc=5",
-          "date": "2026-10-06",
+          "titre": "VICI Properties Sees Unusually High Options Volume (NYSE:VICI) - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcnhjbHJaM29GS1NDR3k1aTRXNWF6Sm5YYWxMWFE4MnY0bi1mQ3VLVlAteldQdVNUd253d0lCSnJKdFBpNXU4QVl2Vk5IejFhSzlHQjVZYmVpZmY3TjNiUGx3VTVhSlg3WUU1NHJONUkzMTc3WlZaMEtJaGxKbEZHWFZjb29jNDdaYmlUSlZrYXZmMFZRa2IxbC1pcTdqUnM5TkpwQVh1cWh3eGVpSGhJUGhBZjZNaU50ZUZEeGt0dw?oc=5",
+          "date": "2026-10-05",
+          "source": "MarketBeat",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "VICI Properties (NYSE:VICI) Reaches New 1-Year Low on Analyst Downgrade - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeVdVU2pxVWtXajNJR0p1SXdTMDU2bGVyQjBiTTlMN3AzZEpkMlhKRVIySExldHVLTGRZRkJQMmtIdUx3TDhCS1AxTHluaG14WmE0bFY1S0xLNnZOVnlNNDBWWGs1TGdFMEhKaEZ2OS12YnJzU01kaXpEWktIMmNJYXhncVBvSDcxcjFTY20yRzdjOTFxS1JxZGV4MUZXOXR3SHdqZF9NVU5DUi1BU0xiN0piOFhYXzhzVE82ZVJTekloOXVGNTMyNw?oc=5",
+          "date": "2026-10-05",
+          "source": "MarketBeat",
+          "gravite": 1,
+          "mots": [
+            "downgrade"
+          ]
+        },
+        {
+          "titre": "VICI Properties Director Michael D. Rumbolz Granted 371 Shares in October 2026 - Kalkine Media",
+          "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVmpfNGZtTkc5bVh0UjF2bkVPRFJjVkdsTWpwQzJGd1hwUDFiMXZLeUpzYldPdWtQYkVJbjR6dXFlcFQ1SVp2X2pOZmVVTDZPaFZ6WXhxNU13WExpMEhyUWRENTkweXZsanpycHJBQ0FFT25RTjE0a01YQnczd1Y0bjZQWkJmMEtoNUFyMmNydjh5R0xIUU0ta3NEbW5Pa0lsMkdkYTNidEhNLWtDbV9hVDNBZ0JWeUZhOGk0Y2V3U3dPQQ?oc=5",
+          "date": "2026-10-05",
           "source": "Kalkine Media",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Metrics Income Opportunities Trust Declares October Distribution of AUD 0.01180000 Per Unit - Kalkine",
-          "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcWVDVEpiZURrSUxlY01INHNJTDNOU0tjMG9DYVJLa0xNNl9WckRqMGRwYWExTmdtRE5sTm5ia3k0WDhFVHJHQlhJcnVzaThTQzBFWDA3dFFUUlBMOTNnNUtoZlhJYVpzX3l2a1NIeVp2VGxkVUFjcVpMSEZZcEtGVlBIQlI1VmY2ZlZyNXM0UWJLWXBTZnF1bjA1NkZNdk5kbDByU3h4YjlNS3RKUUphYkJURjBKd2JTYXhsQWVyUlJTY19LVEZ1Y3NqWlU?oc=5",
-          "date": "2026-10-06",
-          "source": "Kalkine",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Metrics Master Income Trust updates monthly distribution and DRP status - TipRanks",
-          "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNczFsVXBMUVVVQmNqNGp1UHlHNVRfY3N1YW00SHhLNVFMSVZkeFEybjliaVhUR1BYT1dSM2t6Zm5VWGl4N2x0ay1CNG9TU2VadWxvWi10RFJzOWhfVHc0amN6aFJPYkZtbklIVFNiQXhfSWt2dlptSUpsTTBvQVRnTm5VazhKSVRfUEtRdzgxSEdoX2Q5WmpWNWVXVndiNjFVMFREdkNDUG1zYWJ3d0d4NVVFQUZndVRUTWFBVG9JeE0?oc=5",
-          "date": "2026-10-06",
-          "source": "TipRanks",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 4
+    "ticket": 5
   },
   "radar_proposes": [
     "MCD",
     "IGG.L",
-    "MXT.AX"
+    "MXT.AX",
+    "NOC",
+    "VICI"
   ],
   "achats": [],
   "historique": [
@@ -327,6 +382,94 @@
       "ticket": 3,
       "decision": "non",
       "decide_le": "2026-10-06"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-06",
+      "cree_le": "2026-10-06T13:41+00:00",
+      "liberation": 150.1247679544107,
+      "reserve_pct": null,
+      "score": 98.4588130378303,
+      "ordres": [
+        {
+          "ticker": "MXT.AX",
+          "side": "buy",
+          "quantity": 143.0,
+          "price": 1.0428305451357391,
+          "reason": "opportunité radar (score 98)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "MXT.AX",
+        "nom": "Metrics Master Income Trust",
+        "isin": "MXT.AX",
+        "type": "action",
+        "prix": 1.6799999475479126,
+        "score": 98.4588130378303,
+        "baisse": 0.12330203802404649,
+        "perf_5ans": 0.18751365068536563,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.07508349700630974,
+        "pos_12m": 0.8757396449704142,
+        "n_12m": 169,
+        "base_moy_12m": 0.06544126464015146,
+        "pire_12m": -0.05389571495724199,
+        "vs_marche_3m": -0.15127163561186097,
+        "devise": "AUD",
+        "prix_eur": 1.0428305451357391
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -15% vs marché)",
+        "vs_marche_3m": -0.15127163561186097,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Metrics Master Income Trust (ASX:MXT) Resumes Trading After FY26 NTA Revision - Kalkine",
+            "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQM2FMemRkdFVyTFdsN0R5cWZNcVRXM2ZWbG93RGRmRm0tVThyTWo0dFRfVE11Vmh0NURuYlF3RXd0U0RRZGxuZ01kSGZmYjBSMWRFeWpuLXZYNkJDRm9FajAxTXk4WUttYmZGSEN4VEdxdlJrQlJfd3dBNnNNdk14cG52OUFZMDFiRlBud1VhcWM4M0dQQkc4VGptMC1xVkg1cmt3b3ZmSlAzbEZmMFo3XzFOT1BMYVhVU2c?oc=5",
+            "date": "2026-10-06",
+            "source": "Kalkine",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Metrics Master Income Trust Confirms Actual Distribution of AUD 0.013 Per Unit for September 2026 - Kalkine",
+            "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQemFwczgxcW5zMHJ1X2JRSFliUGd4Z05BRlJQM01YQWJfdGh2WTBrLW1LQk0wXzNNRXBURG1uR3Z5LUg5blU4Zi1IRTc5R3NnMFV1ZzBoWGIyU2RDZHg0X1Q0aHA0Z1BEUGQwdTZDbDRUcEVBQXJfWmtDSm5rV25OR0FiWXJHbGV2UnFOZXdmM1F1NEZvNElCVk55RFNkekppZFpfTlRsZ1NwVGxLRDAtcWdqdzJDN2MxQS10TGZGVjNob0JlXzFISTFHZjBEQnlxdkRLUA?oc=5",
+            "date": "2026-10-06",
+            "source": "Kalkine",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "What Changes for Metrics Master Income Trust (ASX:MXT) Now It's Back Trading? - Kalkine Media",
+            "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcmpkcXczam45WlcwcWxlY0xfaUZCSHY5dnYzcjZHbmoyN0NCQmtFT0FfQnR1OEpJb1hCdU54NDNtdDJRclhLS0ZLTmgtdVBSN1FfOFBoZll4VlhqZHdpMS1SblZ0cmJCM25rRHJLTUlucVlXdFZFajhuQUh0WkpQSHc0WWJhS1Q2M1h2dzAteWlzSUxrdEkyMnZfak43NTh6MExNNFc0NTZLUUJWeU14VS12ekM2RTBD?oc=5",
+            "date": "2026-10-06",
+            "source": "Kalkine Media",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Metrics Income Opportunities Trust Declares October Distribution of AUD 0.01180000 Per Unit - Kalkine",
+            "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcWVDVEpiZURrSUxlY01INHNJTDNOU0tjMG9DYVJLa0xNNl9WckRqMGRwYWExTmdtRE5sTm5ia3k0WDhFVHJHQlhJcnVzaThTQzBFWDA3dFFUUlBMOTNnNUtoZlhJYVpzX3l2a1NIeVp2VGxkVUFjcVpMSEZZcEtGVlBIQlI1VmY2ZlZyNXM0UWJLWXBTZnF1bjA1NkZNdk5kbDByU3h4YjlNS3RKUUphYkJURjBKd2JTYXhsQWVyUlJTY19LVEZ1Y3NqWlU?oc=5",
+            "date": "2026-10-06",
+            "source": "Kalkine",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Metrics Master Income Trust updates monthly distribution and DRP status - TipRanks",
+            "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNczFsVXBMUVVVQmNqNGp1UHlHNVRfY3N1YW00SHhLNVFMSVZkeFEybjliaVhUR1BYT1dSM2t6Zm5VWGl4N2x0ay1CNG9TU2VadWxvWi10RFJzOWhfVHc0amN6aFJPYkZtbklIVFNiQXhfSWt2dlptSUpsTTBvQVRnTm5VazhKSVRfUEtRdzgxSEdoX2Q5WmpWNWVXVndiNjFVMFREdkNDUG1zYWJ3d0d4NVVFQUZndVRUTWFBVG9JeE0?oc=5",
+            "date": "2026-10-06",
+            "source": "TipRanks",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 4,
+      "decision": "sans réponse"
     }
   ]
 }
