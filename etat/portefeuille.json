@@ -18,100 +18,89 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-06",
-    "cree_le": "2026-10-06T17:46+00:00",
-    "liberation": 119.93879446305341,
+    "cree_le": "2026-10-06T18:19+00:00",
+    "liberation": 105.1732923654283,
     "reserve_pct": null,
-    "score": 98.21671423210762,
+    "score": 96.73386313299103,
     "ordres": [
       {
-        "ticker": "CHRW",
+        "ticker": "WSP.TO",
         "side": "buy",
         "quantity": 1.0,
-        "price": 118.93879446305341,
-        "reason": "opportunité radar (score 98)"
+        "price": 104.1732923654283,
+        "reason": "opportunité radar (score 97)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "CHRW",
-      "nom": "C.H. Robinson",
-      "isin": "CHRW",
+      "ticker": "WSP.TO",
+      "nom": "WSP Global Inc.",
+      "isin": "WSP.TO",
       "type": "action",
-      "prix": 133.9250030517578,
-      "score": 98.21671423210762,
-      "baisse": 0.3577372534915212,
-      "perf_5ans": 0.6958029841766242,
+      "prix": 167.09500122070312,
+      "score": 96.73386313299103,
+      "baisse": 0.40912629535607803,
+      "perf_5ans": 0.13204585148662762,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.19386661440465472,
-      "pos_12m": 0.7447619047619047,
-      "n_12m": 1050,
-      "base_moy_12m": 0.14950215319039778,
-      "pire_12m": -0.27903798073327146,
-      "vs_marche_3m": -0.34177664870931257,
-      "devise": "USD",
-      "prix_eur": 118.93879446305341
+      "moy_12m": 0.39134954423846463,
+      "pos_12m": 0.9827586206896551,
+      "n_12m": 232,
+      "base_moy_12m": 0.22513283412034413,
+      "pire_12m": -0.03653184118140318,
+      "vs_marche_3m": -0.08620886581983689,
+      "devise": "CAD",
+      "prix_eur": 104.1732923654283
     },
     "actualites": {
-      "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -34% vs marché)",
-      "vs_marche_3m": -0.34177664870931257,
-      "alertes": [
-        {
-          "titre": "New lawsuit approach: accusing C.H. Robinson, TQL of RICO violations - FreightWaves",
-          "lien": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNzMzZFNmOENTV2hlT3B1eTVWY3RPOHZicjFrR01ldkZYRzJVeUgtdDhvcG0zVHdXTUlVLV9PRWV5eFNaNkE4WUNSS0xvY1J3WFVnQ1BobEVmTFNyNXNBaC1iV1NhcnlLblEzM2ZBM2c3TVkzbjkzdzh5NS1HSEJERUFGOXh3b2pOQzEyUXV2bXFxdGxLakJXeEpmdTQxbC1B?oc=5",
-          "date": "2026-09-26",
-          "source": "FreightWaves",
-          "gravite": 1,
-          "mots": [
-            "lawsuit"
-          ]
-        }
-      ],
+      "verdict": "vert",
+      "resume": "rien d'alarmant dans l'actualité (3 mois : -9% vs marché)",
+      "vs_marche_3m": -0.08620886581983689,
+      "alertes": [],
       "recents": [
         {
-          "titre": "C.H. Robinson va acquérir RXO pour plus de 5 milliards d’euros - Voxlog",
-          "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPanNvWWRRUnZlSENQYWdHZ0ZyZjlXMm1ydFJLUlBFYk9ZQ3IzMXo4T3puTmI0Qnp6VUpjTHc4TFVieEdPMGlQdk5pLXJkTVRWV0stajR4cGJ0anZacUdSalV1ZkRvRFpDRWlRYVZzR0hzMXZnLTN5UTNtcmh5NWlJMEVfb1ZDcElncmp3RWtzelBTS2tUc2hWdUZCb3BaX2M?oc=5",
+          "titre": "WSP Global Joins Most Actively Traded Canadian Stocks as Infrastructure and Engineering Outlook Drives Investor Attention - kalkine.ca",
+          "lien": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNNWdvcGFMSHkwQmQxV0xuS096eGc1bHQ5Tzh5STMzSjZGQ0NWcmUxRTByX2pLT21TcFlJekx4UTgwaGFDZUxrMTYtclNwZVNScGxRN3BJVHlHVC04OEJsRnlWRVRNNUlMSXNta0hCVGJmcndHa2I0dHo3UDBfeDNQQWpEUEtEcTdUUVkyVTBIR0pPc2pHdXhHX1o3NVJrYXlKdVMzZ1IwQXd4RVUzTGg2OWFKTG5rUjhjMU1rdFpabmFxbEh3ZDNycExWMU9NblotU19jQ3VEc1ViNnpIRkFDSlRVZzc5ZHRRR2FXcE9B?oc=5",
           "date": "2026-10-06",
-          "source": "Voxlog",
+          "source": "kalkine.ca",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "C.H. Robinson rachète RXO | %sep% %sitename% - Trans.INFO",
-          "lien": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVzBfbURVQmxwNnhtYVlwbVowZHloVXF4aXlYS09pbXcxdktmR1B3MUlJMkVWOGVnY2NOdEg5M2ZySGdrWkdWbVRvR2lfRGtkQ3lEVHAxMi1Qem5fOHB0QS1ydW5MVjBKZzRQSW92Y1pfSTlja2dtRTR1VnNSMVlBU2pxdDVPNU9jUnFB?oc=5",
-          "date": "2026-10-06",
-          "source": "Trans.INFO",
+          "titre": "WSP fera l’acquisition de GCM Corpo et renforcera sa présence dans le secteur de l’énergie au Canada - Magazine MCI",
+          "lien": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMFpVY1h0dHE5ak1ZU3IwT1ZkOWhSMFNpTG96Rm9SY0NIN3VtODBoTTJVa3NRMldqZWsxTzRtNlFhU2VFbk96OVJIRlRoLU1WUTVnVUF4ZzlDTXdlZUZwWFZRWW1EcmUyajN1SDJIQ0lwZVVZNWZFYUJvRmxIN0pYaEtDcnNTSFU2dVlDRmVsZG81NzBYRmJDcHFrbnJwaTJocHpzelpVWTNtSmpBOXpINVVZQWZuY0t5Y3dXcE56RGpyeWMyNm1ic1h4VFFwdktV?oc=5",
+          "date": "2026-10-05",
+          "source": "Magazine MCI",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "L’acquisition de RXO par C.H. Robinson va « considérablement » creuser l’écart avec ses concurrents, selon UBS Securities - Zonebourse",
-          "lien": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWmRFTlgzUkR5WWMtQ2hwRUxxc0xkSEtWbFhrWGVrWjhaSDRaMm0ydzUxY3JnYWhUM19sWHo4UjREVDJSN1k5OTJlSEFpTkVvbVQ5SWdGMDRKME44b2xzWHJ5RHJRM0w1TXM0X2lrXzYxcFdPdktQQ1NFMWpJUHJtVURiNWlCMVVYS1ZVZjVKbmpkY3dTNU13NmdYc3Y5bThOa0tUWldwRlVnR19oVWNscnBxZUxGMmRZWHkxTnBNeDJjWEdiaFljR2JTa1duWmgyU1dMLUNsMFBiWXE4dnBFbzgwWlBnVlBKSEE?oc=5",
-          "date": "2026-10-06",
-          "source": "Zonebourse",
+          "titre": "FY2026 Earnings Forecast for WSP Global Issued By Scotiabank - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPa3NWU2Jna0lUcXdOQWdnSkczZ0NTaTBLYzVUMFFuTVA1aElQSHZ1YlJNejQwVXdPNUlrOUoxOTJSNkRfSHBIRktWZXFLb1RoRTFDQzg3TTJrR0l0SW5BZ1JmRkNqZnlNRU5sN0FMY2d0dl9ZdUg3aGpzQ0pZNk03SWxNT001UnJUekFOdmp3dGlFTkpJa19STkxlbXpZNEJEeHlkX0lGZERzWlFDNHJINlQwNmNaLWY0UXpacGEyTHFNQQ?oc=5",
+          "date": "2026-10-05",
+          "source": "MarketBeat",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "EXMAR, navire en perdition, CLdN, Höegh Autoliners, C.H. Robinson et Shell - Flows",
-          "lien": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa2pKeWlNMzVPa18xdkZoeEdFNkViZnd5aUFGaUMyalRoQng4RmJMbExDYi00VXlrdnFYQmJRWWgxSUJ5cUJOdUc3bk12VkxYY1MyOV9ZTElrR0hqQ0pkNl80aUFIMkllT2UyTGZ4VUdpbXhjMkhWZE1neE1CQVdhSUE3U01mWGFvR2RjRG9QZFZTNzZuaDQ0TTA3V3hiYmp5TGN4YXJrMW8?oc=5",
-          "date": "2026-10-06",
-          "source": "Flows",
+          "titre": "What Is Driving Attention at WSP Global Inc. (TSX:WSP)? - Kalkine Media",
+          "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOTM1RExGN1M2LS12VUtGWHlhQ2JfUUgxRExCdjc5bHUtYS05QW9zOU9kS3lhMmZhMFhqbnRuc1dmSTBsWTlvRHYyNFJERFNBNzZYN2ZaNDJiVDh3ZGROS3JQRndMOXo0UXd4aUpyX1BKTXhzZWxsU1pQblVjYldtR25OV1ZtOWZjMGpWSXE4ZUJlLWVVTHpreld2cWRsNGFTYmdUWTR6bzdzX2VFMS1oSjN3WWVNeDg?oc=5",
+          "date": "2026-10-05",
+          "source": "Kalkine Media",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "C.H. Robinson to buy RXO: What could it mean for truckers? - Land Line Media",
-          "lien": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSUR2YVF0WDRaVGZiS1ZNSHhZSDZMdE1fSXpHRzNWYTNJMlhXZ2VMOUZ3V2VJbER2RWlreUIzeTFnUFJ3YXdFZ3NWM05qRmJ3aUxKOS00RFNYdlR4TzdMUHR2cnltU25JaWhwSUVpSTdkSDE2QTRWV2hnT0lhc1cyQ2ZsZXYtUQ?oc=5",
-          "date": "2026-10-06",
-          "source": "Land Line Media",
+          "titre": "What Is Shaping WSP Global (TSX:WSP) New Direction? - Kalkine Media",
+          "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVmFfRWhYaVRXSDdQSUdGZXM0SG5mUVU5dXJ2Ym1tMlNzbHJsZWxGVzRQVXJWay1pQWZxT0VSMVhONzJISEMwc0xZRExCWG8zNDJtU0Z0anNyMVF0MW51cm9mc19mRWpjUUJWMkZKZlJHbndHT1RnVi1ENFNkcFZYY3BIR2JnQ2dOQ3pRcHdQc21zN3Y5Q09RcQ?oc=5",
+          "date": "2026-10-05",
+          "source": "Kalkine Media",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 9
+    "ticket": 10
   },
   "radar_proposes": [
     "MCD",
@@ -122,7 +111,8 @@
     "GBF.DE",
     "7532.T",
     "FCPT",
-    "CHRW"
+    "CHRW",
+    "WSP.TO"
   ],
   "achats": [],
   "historique": [
@@ -867,6 +857,105 @@
         ]
       },
       "ticket": 8,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-06",
+      "cree_le": "2026-10-06T17:46+00:00",
+      "liberation": 119.93879446305341,
+      "reserve_pct": null,
+      "score": 98.21671423210762,
+      "ordres": [
+        {
+          "ticker": "CHRW",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 118.93879446305341,
+          "reason": "opportunité radar (score 98)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "CHRW",
+        "nom": "C.H. Robinson",
+        "isin": "CHRW",
+        "type": "action",
+        "prix": 133.9250030517578,
+        "score": 98.21671423210762,
+        "baisse": 0.3577372534915212,
+        "perf_5ans": 0.6958029841766242,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.19386661440465472,
+        "pos_12m": 0.7447619047619047,
+        "n_12m": 1050,
+        "base_moy_12m": 0.14950215319039778,
+        "pire_12m": -0.27903798073327146,
+        "vs_marche_3m": -0.34177664870931257,
+        "devise": "USD",
+        "prix_eur": 118.93879446305341
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -34% vs marché)",
+        "vs_marche_3m": -0.34177664870931257,
+        "alertes": [
+          {
+            "titre": "New lawsuit approach: accusing C.H. Robinson, TQL of RICO violations - FreightWaves",
+            "lien": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNzMzZFNmOENTV2hlT3B1eTVWY3RPOHZicjFrR01ldkZYRzJVeUgtdDhvcG0zVHdXTUlVLV9PRWV5eFNaNkE4WUNSS0xvY1J3WFVnQ1BobEVmTFNyNXNBaC1iV1NhcnlLblEzM2ZBM2c3TVkzbjkzdzh5NS1HSEJERUFGOXh3b2pOQzEyUXV2bXFxdGxLakJXeEpmdTQxbC1B?oc=5",
+            "date": "2026-09-26",
+            "source": "FreightWaves",
+            "gravite": 1,
+            "mots": [
+              "lawsuit"
+            ]
+          }
+        ],
+        "recents": [
+          {
+            "titre": "C.H. Robinson va acquérir RXO pour plus de 5 milliards d’euros - Voxlog",
+            "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPanNvWWRRUnZlSENQYWdHZ0ZyZjlXMm1ydFJLUlBFYk9ZQ3IzMXo4T3puTmI0Qnp6VUpjTHc4TFVieEdPMGlQdk5pLXJkTVRWV0stajR4cGJ0anZacUdSalV1ZkRvRFpDRWlRYVZzR0hzMXZnLTN5UTNtcmh5NWlJMEVfb1ZDcElncmp3RWtzelBTS2tUc2hWdUZCb3BaX2M?oc=5",
+            "date": "2026-10-06",
+            "source": "Voxlog",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "C.H. Robinson rachète RXO | %sep% %sitename% - Trans.INFO",
+            "lien": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVzBfbURVQmxwNnhtYVlwbVowZHloVXF4aXlYS09pbXcxdktmR1B3MUlJMkVWOGVnY2NOdEg5M2ZySGdrWkdWbVRvR2lfRGtkQ3lEVHAxMi1Qem5fOHB0QS1ydW5MVjBKZzRQSW92Y1pfSTlja2dtRTR1VnNSMVlBU2pxdDVPNU9jUnFB?oc=5",
+            "date": "2026-10-06",
+            "source": "Trans.INFO",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "L’acquisition de RXO par C.H. Robinson va « considérablement » creuser l’écart avec ses concurrents, selon UBS Securities - Zonebourse",
+            "lien": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWmRFTlgzUkR5WWMtQ2hwRUxxc0xkSEtWbFhrWGVrWjhaSDRaMm0ydzUxY3JnYWhUM19sWHo4UjREVDJSN1k5OTJlSEFpTkVvbVQ5SWdGMDRKME44b2xzWHJ5RHJRM0w1TXM0X2lrXzYxcFdPdktQQ1NFMWpJUHJtVURiNWlCMVVYS1ZVZjVKbmpkY3dTNU13NmdYc3Y5bThOa0tUWldwRlVnR19oVWNscnBxZUxGMmRZWHkxTnBNeDJjWEdiaFljR2JTa1duWmgyU1dMLUNsMFBiWXE4dnBFbzgwWlBnVlBKSEE?oc=5",
+            "date": "2026-10-06",
+            "source": "Zonebourse",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "EXMAR, navire en perdition, CLdN, Höegh Autoliners, C.H. Robinson et Shell - Flows",
+            "lien": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa2pKeWlNMzVPa18xdkZoeEdFNkViZnd5aUFGaUMyalRoQng4RmJMbExDYi00VXlrdnFYQmJRWWgxSUJ5cUJOdUc3bk12VkxYY1MyOV9ZTElrR0hqQ0pkNl80aUFIMkllT2UyTGZ4VUdpbXhjMkhWZE1neE1CQVdhSUE3U01mWGFvR2RjRG9QZFZTNzZuaDQ0TTA3V3hiYmp5TGN4YXJrMW8?oc=5",
+            "date": "2026-10-06",
+            "source": "Flows",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "C.H. Robinson to buy RXO: What could it mean for truckers? - Land Line Media",
+            "lien": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSUR2YVF0WDRaVGZiS1ZNSHhZSDZMdE1fSXpHRzNWYTNJMlhXZ2VMOUZ3V2VJbER2RWlreUIzeTFnUFJ3YXdFZ3NWM05qRmJ3aUxKOS00RFNYdlR4TzdMUHR2cnltU25JaWhwSUVpSTdkSDE2QTRWV2hnT0lhc1cyQ2ZsZXYtUQ?oc=5",
+            "date": "2026-10-06",
+            "source": "Land Line Media",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 9,
       "decision": "sans réponse"
     }
   ]
