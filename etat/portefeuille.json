@@ -18,89 +18,89 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-07",
-    "cree_le": "2026-10-07T06:53+00:00",
-    "liberation": 125.53400330546594,
+    "cree_le": "2026-10-07T07:48+00:00",
+    "liberation": 117.12795039196693,
     "reserve_pct": null,
-    "score": 95.15094607381526,
+    "score": 95.05760787164029,
     "ordres": [
       {
-        "ticker": "MGEE",
+        "ticker": "NHI",
         "side": "buy",
         "quantity": 2.0,
-        "price": 62.26700165273297,
+        "price": 58.06397519598347,
         "reason": "opportunité radar (score 95)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "MGEE",
-      "nom": "MGE Energy, Inc.",
-      "isin": "MGEE",
+      "ticker": "NHI",
+      "nom": "National Health Investors, Inc.",
+      "isin": "NHI",
       "type": "action",
-      "prix": 70.11260223388672,
-      "score": 95.15094607381526,
-      "baisse": 0.17467063563875285,
-      "perf_5ans": 0.045745837920187826,
+      "prix": 65.37999725341797,
+      "score": 95.05760787164029,
+      "baisse": 0.2543568137986182,
+      "perf_5ans": 0.6106644397944767,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.1568749962134674,
-      "pos_12m": 0.8240495137046862,
-      "n_12m": 1131,
-      "base_moy_12m": 0.10460678020535553,
-      "pire_12m": -0.16934270975502552,
-      "vs_marche_3m": -0.1893845174558515,
+      "moy_12m": 0.2589885197285586,
+      "pos_12m": 0.9323144104803494,
+      "n_12m": 916,
+      "base_moy_12m": 0.1578399691634662,
+      "pire_12m": -0.2842694525529741,
+      "vs_marche_3m": -0.1829260576994597,
       "devise": "USD",
-      "prix_eur": 62.26700165273297
+      "prix_eur": 58.06397519598347
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -19% vs marché)",
-      "vs_marche_3m": -0.1893845174558515,
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -18% vs marché)",
+      "vs_marche_3m": -0.1829260576994597,
       "alertes": [],
       "recents": [
         {
-          "titre": "MGE Energy Extends Credit Facilities to Support Liquidity - TipRanks",
-          "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQU2tmV1BBX0FFeEFOeElaV0RGaTdKWWJfbGgwRmg2R0FzZEFySDM1LU9nTERFUVJ6UHNweHNTZnViVVBZVDM3OURnS0FRQ3BmZTVoQk1OQzhFUkRndDNrM09NVnVBLTY0Mm9tSmZaZnlEQU9nak9tUkhqZGJpbnNpZVVqT09LanY5UElxS3JxZU1RTkZ1ZUlZb3FlSDVkdGRzMUJGbkxfMzFCRVk1Vmc?oc=5",
-          "date": "2026-10-05",
-          "source": "TipRanks",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "How Mge Energy Inc. (MGEE) Affects Rotational Strategy Timing - Stock Traders Daily",
-          "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQODhIUlZEVGR5T3lqUDRscFhBbFBOM3BmeXFabmRnZ0hXcFFMajlLUnota2RHb194Zkt6OTJsUVVlYWNNVVdXVTdsMGZuRTZ2anU1SGk4cjJZZzlDa1VoQWtraE0wc1lKalduR0pnSXJmVmpDMml4Nm0weEFDWFpWbXc1MnNPTlExYy14VFZIRFg3bHRxelB1WmltZlFYY1Y2WFdxWWdXRkhxa2lmUmVhWkItT0VWNWFrZ2NBQWdCZkdoVFEzR3VBOEtJYVE3M0FSbWRKTTFR?oc=5",
-          "date": "2026-10-02",
-          "source": "Stock Traders Daily",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "MGE Energy Inc. (MGEE) Stock Forecasts - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcUUzRXVpUkxLM2lDNWRNYWozNV8td1IzV29iME5rcmxxNFZHQm1LT09jRHZ2OUFkOW1OM3hrZ0pzM25KZzdQTndNZkFqbTlPNGZ1Z2Qwd3RIYWJ6cDNNTVAtZ01PSlE2ZDlVbGIyYm5MQVh6Z3dLZXpZWXFjZzFEdS1WTHRidFpMcjd1MWwxaw?oc=5",
-          "date": "2026-10-01",
-          "source": "Yahoo Finance",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "MGE Energy Inc. $MGEE Shares Newly Acquired by Bank of America Corp DE - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSVk2UzZ2SEJpdUMybzFhVDZ2Mk9pVEZxc3IxYWNHTmRqR182amxzSENYZDdnUHhFbnphc0IybmZ2QVFvMkJCUzNTazU2aE4tQ3VtUzVGUWJ1ZG5BMnVGVzNfcWZmbm1GVkJhOTZ5WFJLS05qcHQtR0I4N3dHeVFwTmpkSzM5a0xsRUM5eUxKaFFPVzh1cDRZN1NFRHhOdy1KTUV1MzdONFhDQlJZa1BUR1pRbXlqWExpRDRiajZUVnpPejJjYmtzNA?oc=5",
-          "date": "2026-09-28",
+          "titre": "National Health Investors (NYSE:NHI) Reaches New 12-Month Low - Time to Sell? - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdzFtcHpKRWI4a2Z5UjZlcWx2TTBucjZhNG5KMi1JbXlfMUxaMDVSN19HODVWRlZLWC1uZ2FWUXpHRm5SUXg1cWV6RVRaald0M2NWdUlEVXVFbm0yc0JrWTNPWFE2eDNMZEVLWFRueUNiQk5pR2R1cHlNQ3NQM2V3TC1KSmNlaHNGeHhzaUQ0ZFNCX3lIb3FwaE0tVkRoZ2RlWjVjVUV6MDNQSF9tQ0lIUC13WWtWZ1NUN0IxOF9sdWNXV2JxeVhwUVBCMlo?oc=5",
+          "date": "2026-10-06",
           "source": "MarketBeat",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "BofA initiates MGE Energy stock coverage with neutral rating - Investing.com",
-          "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRFVHdFo0QkZjQldVZ0lxUU0yWnN0ZVpTR0RRb1hJeUloMjRscnV6ckV0OXUxeWNnbGx3V1YtY2kwbV85UWw2OFBEa0s5MXFhMGowNnpYYmlHV1d6cWxXRGJhU2xWUEJQaHdrNl9RdDhndW5rVDZzVngxMFZNUjdSbUJ2YXFQM2RhM256Sk5mMEhOVkhnUktkTlB2MHZXT1Z5VXBrWmhJNzlGQ054eVFFTWxMaW9aN3ZEb3NTXw?oc=5",
-          "date": "2026-09-24",
-          "source": "Investing.com",
+          "titre": "National Health Investors stock reports USD 107.7 million deal - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxON0FZZHhKWVBkLWtMSU5NWElLR0V1WXpUdGE1VUNsMWVEdnhXU0liSHhWdl9CRVVtOFF5MUxYVngtS2NtQnZWOU4zTzdtZGlBZGhxdjFxeWRtUHpWYk1NdkN3Vm1iNl9Wcy10WGpRcXdZSEtkS0ZTcTJTSlo3YXl3OUwtaVdFTTlnM1R3Uk1SS2p1MDVmeDlHRjVySjBzVjZFWFlwZk5hZVdhUjNZckhVMDd4eVFxRnRfVnpieEwwS0ZFLWc?oc=5",
+          "date": "2026-10-04",
+          "source": "AD HOC NEWS",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "National Health Investors, Inc. (NYSE:NHI) Stock Rated \"Moderate Buy\" by Wall Street Brokerages - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOOGhlUVpGWUxwdTliSlpXRjlYQ2N5QUNBWWFRRGlMWFZvSXQtbDNqQVd2ZzBpQWFmOE5ZWl9BMjNxSzFPazUtNnFqeEVMal85V2o5dlJCbjdobFNsclpkWGJLc1NQX1hyckdBeTlBbU0zT3ZlUkRjNlN5dHhyT1NINWViQkI2QzNtTzI5aDBCMTVsRWVCNklGWTZ4Y1RrN2l1Y3I5bUQ1VWdBUlVlbkowVXFjMkV3OGdyRjJFc0RGRzRvVjU0Vks5YngzV0k1OHhhQWVJWGgzdFFsaFhadHJxRGV5bDdQbnQx?oc=5",
+          "date": "2026-10-03",
+          "source": "MarketBeat",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Understanding the Setup: (NHI) and Scalable Risk - Stock Traders Daily",
+          "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZjFQU25SQ3pDNmx5Q2p2NjhxRWFXVjNra1Vvcjd5VDFGX3M4UzE1N0cxU3BiSGRhODdaYi1hV2l5MTljVWVPQW10dWFFZzNGYnN2czlMaUI1cVVKYW9OdnZWUjB1Mkd4UkFmc216REN1NS1JbGM2QU9KcnNwb3YxaldZamt3TmZBWTNoRm5fV0VpTnlqZGRWYlVpQmtLakRHb3RFUmlnSlRqSmVQVGlvdDcxMzdIaTMwVV91RHduRVkzT3dS?oc=5",
+          "date": "2026-10-03",
+          "source": "Stock Traders Daily",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "National Health Investors, Inc. (NHI) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9vYUhXOVdNNFREZHNvZVB3ckxoVndnVWlOZk5Sa3BhUlN4NjF1SzBvbGxRVkVuSGNjRmVBMWRHSUJJMW16alRjUlJLVzJ2b2N1?oc=5",
+          "date": "2026-10-02",
+          "source": "Yahoo! Finance Canada",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 16
+    "ticket": 17
   },
   "radar_proposes": [
     "MCD",
@@ -119,7 +119,8 @@
     "LVS",
     "APE.AX",
     "PATK",
-    "MGEE"
+    "MGEE",
+    "NHI"
   ],
   "achats": [],
   "historique": [
@@ -1524,6 +1525,94 @@
         ]
       },
       "ticket": 15,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-07",
+      "cree_le": "2026-10-07T06:53+00:00",
+      "liberation": 125.53400330546594,
+      "reserve_pct": null,
+      "score": 95.15094607381526,
+      "ordres": [
+        {
+          "ticker": "MGEE",
+          "side": "buy",
+          "quantity": 2.0,
+          "price": 62.26700165273297,
+          "reason": "opportunité radar (score 95)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "MGEE",
+        "nom": "MGE Energy, Inc.",
+        "isin": "MGEE",
+        "type": "action",
+        "prix": 70.11260223388672,
+        "score": 95.15094607381526,
+        "baisse": 0.17467063563875285,
+        "perf_5ans": 0.045745837920187826,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.1568749962134674,
+        "pos_12m": 0.8240495137046862,
+        "n_12m": 1131,
+        "base_moy_12m": 0.10460678020535553,
+        "pire_12m": -0.16934270975502552,
+        "vs_marche_3m": -0.1893845174558515,
+        "devise": "USD",
+        "prix_eur": 62.26700165273297
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -19% vs marché)",
+        "vs_marche_3m": -0.1893845174558515,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "MGE Energy Extends Credit Facilities to Support Liquidity - TipRanks",
+            "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQU2tmV1BBX0FFeEFOeElaV0RGaTdKWWJfbGgwRmg2R0FzZEFySDM1LU9nTERFUVJ6UHNweHNTZnViVVBZVDM3OURnS0FRQ3BmZTVoQk1OQzhFUkRndDNrM09NVnVBLTY0Mm9tSmZaZnlEQU9nak9tUkhqZGJpbnNpZVVqT09LanY5UElxS3JxZU1RTkZ1ZUlZb3FlSDVkdGRzMUJGbkxfMzFCRVk1Vmc?oc=5",
+            "date": "2026-10-05",
+            "source": "TipRanks",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "How Mge Energy Inc. (MGEE) Affects Rotational Strategy Timing - Stock Traders Daily",
+            "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQODhIUlZEVGR5T3lqUDRscFhBbFBOM3BmeXFabmRnZ0hXcFFMajlLUnota2RHb194Zkt6OTJsUVVlYWNNVVdXVTdsMGZuRTZ2anU1SGk4cjJZZzlDa1VoQWtraE0wc1lKalduR0pnSXJmVmpDMml4Nm0weEFDWFpWbXc1MnNPTlExYy14VFZIRFg3bHRxelB1WmltZlFYY1Y2WFdxWWdXRkhxa2lmUmVhWkItT0VWNWFrZ2NBQWdCZkdoVFEzR3VBOEtJYVE3M0FSbWRKTTFR?oc=5",
+            "date": "2026-10-02",
+            "source": "Stock Traders Daily",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "MGE Energy Inc. (MGEE) Stock Forecasts - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcUUzRXVpUkxLM2lDNWRNYWozNV8td1IzV29iME5rcmxxNFZHQm1LT09jRHZ2OUFkOW1OM3hrZ0pzM25KZzdQTndNZkFqbTlPNGZ1Z2Qwd3RIYWJ6cDNNTVAtZ01PSlE2ZDlVbGIyYm5MQVh6Z3dLZXpZWXFjZzFEdS1WTHRidFpMcjd1MWwxaw?oc=5",
+            "date": "2026-10-01",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "MGE Energy Inc. $MGEE Shares Newly Acquired by Bank of America Corp DE - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSVk2UzZ2SEJpdUMybzFhVDZ2Mk9pVEZxc3IxYWNHTmRqR182amxzSENYZDdnUHhFbnphc0IybmZ2QVFvMkJCUzNTazU2aE4tQ3VtUzVGUWJ1ZG5BMnVGVzNfcWZmbm1GVkJhOTZ5WFJLS05qcHQtR0I4N3dHeVFwTmpkSzM5a0xsRUM5eUxKaFFPVzh1cDRZN1NFRHhOdy1KTUV1MzdONFhDQlJZa1BUR1pRbXlqWExpRDRiajZUVnpPejJjYmtzNA?oc=5",
+            "date": "2026-09-28",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "BofA initiates MGE Energy stock coverage with neutral rating - Investing.com",
+            "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRFVHdFo0QkZjQldVZ0lxUU0yWnN0ZVpTR0RRb1hJeUloMjRscnV6ckV0OXUxeWNnbGx3V1YtY2kwbV85UWw2OFBEa0s5MXFhMGowNnpYYmlHV1d6cWxXRGJhU2xWUEJQaHdrNl9RdDhndW5rVDZzVngxMFZNUjdSbUJ2YXFQM2RhM256Sk5mMEhOVkhnUktkTlB2MHZXT1Z5VXBrWmhJNzlGQ054eVFFTWxMaW9aN3ZEb3NTXw?oc=5",
+            "date": "2026-09-24",
+            "source": "Investing.com",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 16,
       "decision": "sans réponse"
     }
   ]
