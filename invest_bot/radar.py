@@ -81,6 +81,9 @@ class Opportunite:
     vs_marche_3m: float | None = None  # performance 3 mois du titre moins celle du marché
     devise: str = "EUR"
     prix_eur: float | None = None
+    fondamental: float | None = None  # 0-100 : croissance, analystes, valorisation, santé
+    fondamental_notes: list | None = None
+    score_global: float | None = None  # 40 % repli du cours + 60 % fondamentaux
 
     @property
     def prix_affiche(self) -> str:

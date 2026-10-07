@@ -27,6 +27,7 @@ RADAR_DEFAUTS = {
     "delai_jours": 30,    # pas deux alertes sur le même titre avant ce délai
     "actualites": True,   # lire l'actualité avant d'alerter (scandale, fraude…)
     "actualites_nb": 5,   # nombre de titres du radar dont on lit l'actualité chaque jour
+    "fondamental_min": 55,      # score fondamental minimum pour proposer une action
     "express_minutes": 30,      # mode express : délai avant de passer au titre suivant
     "express_heures": [7, 23],  # heures de Paris où le mode express propose (bourse ouverte côté Trade Republic)
 }

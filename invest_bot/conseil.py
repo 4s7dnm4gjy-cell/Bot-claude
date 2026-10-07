@@ -23,7 +23,7 @@ from pathlib import Path
 import pandas as pd
 import requests
 
-from . import news, rapport
+from . import fondamentaux, news, rapport
 from .config import Config
 from .radar import Opportunite, devise, en_euros, scanner
 from .score import BUCKET_LABELS, BUCKETS, label, moment_score, score_stats
@@ -328,7 +328,12 @@ def corps_opportunite(cfg: Config, prop: dict, image_url: str) -> str:
         + (" ; Trade Republic affiche le prix en euros, il peut différer légèrement selon le taux de change."
            if o.devise != "EUR" else "."),
         "#### Pourquoi ce titre, maintenant",
-        f"- Score du moment : **{o.score:.0f}/100**, tranche {o.tranche} : il est à {-o.baisse:+.0%} de son plus haut sur un an.",
+        (f"**Score global {o.score_global:.0f}/100** = 40 % baisse du cours ({o.score:.0f}/100) "
+         f"+ 60 % fondamentaux ({o.fondamental:.0f}/100)." if o.fondamental is not None and o.score_global is not None
+         else ""),
+        ("**Fondamentaux** (l'entreprise est-elle saine et pas chère, pas seulement en baisse ?) :\n"
+         + "\n".join(f"- {n}" for n in (o.fondamental_notes or []))) if o.fondamental_notes else "",
+        f"- Score de baisse du cours : **{o.score:.0f}/100**, tranche {o.tranche} : il est à {-o.baisse:+.0%} de son plus haut sur un an.",
         f"- Tendance de fond positive : {o.perf_5ans:+.0%} sur 5 ans.",
         f"- Historiquement, quand ce titre était à ce niveau de score : **{o.moy_12m:+.0%} en moyenne 12 mois "
         f"plus tard**, positif dans {o.pos_12m:.0%} des cas, pire cas {o.pire_12m:+.0%} "
@@ -352,10 +357,12 @@ def corps_opportunite(cfg: Config, prop: dict, image_url: str) -> str:
 CANDIDATS = Path("etat/candidats.json")
 
 
-def ecrire_candidats(cfg: Config, opportunites: list[Opportunite], actus: dict, valeur_coeur: float) -> None:
-    """Liste classée des titres soldés, recalculée chaque soir, consommée par le mode express."""
+def ecrire_candidats(cfg: Config, opportunites: list[Opportunite], actus: dict, valeur_coeur: float,
+                     lire=None) -> None:
+    """Liste des titres soldés, classée par score global (baisse + fondamentaux), pour le mode express."""
     seuil = cfg.radar["score_alerte"]
     liste = [asdict(o) for o in opportunites if o.score >= seuil and o.favorable]
+    liste = fondamentaux.enrichir(liste, lire or fondamentaux.lire_infos)
     CANDIDATS.parent.mkdir(parents=True, exist_ok=True)
     CANDIDATS.write_text(json.dumps({
         "calcule_le": datetime.now(timezone.utc).isoformat(timespec="minutes"),
@@ -407,6 +414,8 @@ def lancer_express(cfg: Config, maintenant: datetime | None = None, max_actualit
         o = Opportunite(**c)
         if not o.prix_eur:
             continue
+        if o.type == "action" and (o.fondamental is None or o.fondamental < r.get("fondamental_min", 55)):
+            continue  # en baisse mais fondamentaux faibles ou inconnus : pas une bonne affaire
         act = None
         if r.get("actualites"):
             if lus >= max_actualites:
@@ -449,7 +458,7 @@ TITRES = {
     "krach": "🔵 Le marché a chuté : déployer la réserve, {montant} (score {score:.0f}/100)",
     "vente": "🟠 Prendre des bénéfices : rééquilibrage (score {score:.0f}/100)",
     "krach_plan": "🔵 Krach : versement exceptionnel conseillé de {montant} (score {score:.0f}/100)",
-    "opportunite": "🔎 Opportunité : {nom} à prix bas (score {score:.0f}/100), {montant}",
+    "opportunite": "🔎 Opportunité : {nom} ({qualite}), {montant}",
 }
 
 EXPLICATIONS = {
@@ -510,8 +519,11 @@ def corps_ticket(cfg: Config, prop: dict, a: dict, image_url: str | None) -> str
 def titre_ticket(prop: dict) -> str:
     achats = sum(o["quantity"] * o["price"] for o in prop["ordres"] if o["side"] == "buy")
     montant = f"{achats:,.0f} €".replace(",", " ")
-    nom_titre = prop.get("radar", {}).get("nom", "")
-    return TITRES[prop["type"]].format(montant=montant, score=prop["score"], nom=nom_titre)
+    radar = prop.get("radar", {})
+    f = radar.get("fondamental")
+    qualite = (f"score global {radar['score_global']:.0f}/100, fondamentaux {f:.0f}/100" if f is not None
+               and radar.get("score_global") is not None else f"baisse {prop['score']:.0f}/100")
+    return TITRES[prop["type"]].format(montant=montant, score=prop["score"], nom=radar.get("nom", ""), qualite=qualite)
 
 
 # --------------------------------------------------------------------------- commandes
@@ -645,7 +657,7 @@ def tableau_de_bord(cfg: Config, etat: dict, prix: pd.DataFrame, a: dict) -> str
 def lancer_conseil(
     cfg: Config, prix: pd.DataFrame, prix_stats: pd.Series, aujourdhui: date | None = None,
     prix_radar: pd.DataFrame | None = None, taux: dict[str, float] | None = None,
-    fx: dict[str, pd.Series] | None = None,
+    fx: dict[str, pd.Series] | None = None, lire_fondamentaux=None,
 ) -> dict | None:
     aujourdhui = aujourdhui or date.today()
     etat = charger_etat(cfg)
@@ -670,7 +682,7 @@ def lancer_conseil(
     if cfg.radar and prix_radar is not None and not prix_radar.empty:
         opportunites = scanner(cfg.radar["liste"], prix_radar, cfg.radar["score_min"], prix[cfg.benchmark], taux, fx)
         actus = lire_actualites(cfg, opportunites)
-        ecrire_candidats(cfg, opportunites, actus, valeur_portefeuille(etat, prix))
+        ecrire_candidats(cfg, opportunites, actus, valeur_portefeuille(etat, prix), lire_fondamentaux)
     a_publier = {}
     if nouvelle:
         etat["proposition"] = nouvelle

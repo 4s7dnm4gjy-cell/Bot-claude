@@ -1,0 +1,116 @@
+"""Analyse fondamentale : l'action est-elle bon marché et saine, ou seulement en baisse ?
+
+Le score du moment (0-100) mesure une baisse par rapport au passé du titre. Il
+dit « le cours a baissé », pas « l'entreprise est bonne et pas chère ». Ce module
+ajoute un score fondamental (0-100) à partir des données publiques de Yahoo
+Finance :
+
+  * croissance du chiffre d'affaires   (sur un an)              20 pts
+  * croissance des bénéfices           (sur un an)              20 pts
+  * avis des analystes + potentiel vers leur objectif de cours  30 pts
+  * valorisation : P/E sur les bénéfices attendus               15 pts
+  * santé : marge nette et endettement                          15 pts
+
+Une donnée manquante compte pour la moitié des points de son critère (ni bonus
+ni pénalité). Sans aucune donnée, le score est inconnu et le titre n'est pas
+proposé (sauf ETF, qui n'ont pas de bénéfices propres).
+"""
+
+from __future__ import annotations
+
+import math
+from typing import Callable
+
+CHAMPS = ("revenueGrowth", "earningsGrowth", "recommendationMean", "numberOfAnalystOpinions",
+          "targetMeanPrice", "currentPrice", "forwardPE", "trailingPE", "profitMargins", "debtToEquity")
+
+
+def lire_infos(ticker: str) -> dict:
+    """Données fondamentales Yahoo (vide si indisponible)."""
+    try:
+        import yfinance as yf
+
+        infos = yf.Ticker(ticker).info or {}
+    except Exception:  # réseau, titre inconnu… : on ne bloque pas le bot
+        return {}
+    return {k: infos.get(k) for k in CHAMPS if infos.get(k) is not None}
+
+
+def _nombre(x) -> float | None:
+    try:
+        v = float(x)
+    except (TypeError, ValueError):
+        return None
+    return None if math.isnan(v) else v
+
+
+def score_fondamental(infos: dict) -> tuple[float | None, list[str]]:
+    """Score 0-100 et explications lisibles ; None si aucune donnée exploitable."""
+    g = {k: _nombre(infos.get(k)) for k in CHAMPS}
+    if all(v is None for v in g.values()):
+        return None, ["aucune donnée fondamentale disponible"]
+    pts, notes = 0.0, []
+
+    ca = g["revenueGrowth"]
+    if ca is None:
+        pts += 10
+    else:
+        pts += 20 if ca > 0.05 else 10 if ca > 0 else 0
+        notes.append(f"chiffre d'affaires {ca:+.1%} sur un an")
+
+    bpa = g["earningsGrowth"]
+    if bpa is None:
+        pts += 10
+    else:
+        pts += 20 if bpa > 0.10 else 10 if bpa > 0 else 0
+        notes.append(f"bénéfices {bpa:+.1%} sur un an")
+
+    reco, n = g["recommendationMean"], g["numberOfAnalystOpinions"] or 0
+    if reco is None or n < 3:
+        pts += 10
+    else:
+        pts += 20 if reco <= 1.8 else 15 if reco <= 2.3 else 8 if reco <= 2.8 else 0
+        avis = "achat fort" if reco <= 1.8 else "achat" if reco <= 2.3 else "conserver" if reco <= 2.8 else "vendre"
+        notes.append(f"analystes : « {avis} » ({reco:.1f}/5, {int(n)} avis)")
+    cible, cours = g["targetMeanPrice"], g["currentPrice"]
+    if cible and cours:
+        potentiel = cible / cours - 1
+        pts += 10 if potentiel > 0.15 else 5 if potentiel > 0.05 else 0
+        notes.append(f"objectif moyen des analystes : {potentiel:+.0%}")
+    else:
+        pts += 5
+
+    fpe, tpe = g["forwardPE"], g["trailingPE"]
+    if fpe is None or fpe <= 0:
+        pts += 7.5 if fpe is None else 0
+        if fpe is not None:
+            notes.append("bénéfices attendus négatifs")
+    else:
+        pts += 15 if fpe < 15 else 10 if fpe < 22 else 5 if fpe < 30 else 0
+        txt = f"P/E attendu {fpe:.1f}"
+        if tpe and tpe > 0:
+            txt += f" (actuel {tpe:.1f})"
+        notes.append(txt)
+
+    marge, dette = g["profitMargins"], g["debtToEquity"]
+    pts += 7.5 if marge is None else 10 if marge > 0.08 else 5 if marge > 0 else 0
+    if marge is not None:
+        notes.append(f"marge nette {marge:.0%}")
+    pts += 2.5 if dette is None else 5 if dette < 100 else 2 if dette < 200 else 0
+    if dette is not None:
+        notes.append(f"dette / capitaux propres {dette:.0f} %")
+    return round(pts, 1), notes
+
+
+def enrichir(candidats: list[dict], lire: Callable[[str], dict] = lire_infos, nb_max: int = 150,
+             poids_fondamental: float = 0.6) -> list[dict]:
+    """Ajoute fondamentaux et score global, puis trie du meilleur au moins bon."""
+    for c in candidats[:nb_max]:
+        if c.get("type", "action") != "action":
+            c["fondamental"], c["fondamental_notes"] = None, ["ETF : pas d'analyse d'entreprise"]
+        else:
+            c["fondamental"], c["fondamental_notes"] = score_fondamental(lire(c["ticker"]))
+        f = c["fondamental"] if c["fondamental"] is not None else 60.0  # ETF / inconnu : neutre
+        c["score_global"] = round((1 - poids_fondamental) * c["score"] + poids_fondamental * f, 1)
+    analyses = [c for c in candidats[:nb_max]]
+    return sorted(analyses, key=lambda c: c["score_global"], reverse=True)

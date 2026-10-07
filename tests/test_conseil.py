@@ -237,15 +237,24 @@ def gh(monkeypatch):
     return FauxGitHub
 
 
-def preparer_radar(cfg_radar, monkeypatch, rp=None, taux=None, cfg=None):
+SAINE = {"revenueGrowth": 0.06, "earningsGrowth": 0.14, "recommendationMean": 1.6, "numberOfAnalystOpinions": 19,
+         "targetMeanPrice": 120, "currentPrice": 100, "forwardPE": 14, "trailingPE": 17,
+         "profitMargins": 0.11, "debtToEquity": 60}
+FRAGILE = {"revenueGrowth": -0.04, "earningsGrowth": -0.30, "recommendationMean": 3.0, "numberOfAnalystOpinions": 9,
+           "targetMeanPrice": 98, "currentPrice": 100, "forwardPE": 35, "profitMargins": -0.02, "debtToEquity": 250}
+
+
+def preparer_radar(cfg_radar, monkeypatch, rp=None, taux=None, cfg=None, infos=None):
     """Conseil du soir (sans GitHub) : écrit la liste des candidats du mode express."""
     from invest_bot import radar
 
     monkeypatch.setattr(radar.Opportunite, "favorable", property(lambda self: True))
     px = marche()  # marché calme : pas de proposition sur les ETF
     px.iloc[-60:] *= np.linspace(1, 1.3, 60)[:, None]
+    lire = (lambda t: infos.get(t, SAINE)) if isinstance(infos, dict) else (lambda t: SAINE)
     assert conseil.lancer_conseil(cfg or cfg_radar, px, px["WORLD"], date(2025, 6, 3),
-                                  prix_radar=rp if rp is not None else radar_prix(), taux=taux) is None
+                                  prix_radar=rp if rp is not None else radar_prix(), taux=taux,
+                                  lire_fondamentaux=lire) is None
     return px
 
 
@@ -394,3 +403,33 @@ def test_mention_du_proprietaire_pour_l_inbox(cfg, monkeypatch):
     assert conseil.publier(cfg) == 10
     assert all(texte.startswith("@moi") for _, texte in envois)  # ticket, bulletin : mention partout
     assert {genre for genre, _ in envois} == {"ticket", "commentaire"}
+
+
+def test_score_fondamental_distingue_baisse_et_qualite():
+    from invest_bot.fondamentaux import score_fondamental
+
+    bon, notes = score_fondamental(SAINE)
+    mauvais, _ = score_fondamental(FRAGILE)
+    assert bon >= 85 and mauvais <= 25
+    assert any("achat fort" in n for n in notes) and any("P/E attendu 14.0" in n for n in notes)
+    assert score_fondamental({}) == (None, ["aucune donnée fondamentale disponible"])
+    neutre, _ = score_fondamental({"forwardPE": 20})
+    assert 45 <= neutre <= 60  # données manquantes : ni bonus ni pénalité
+
+
+def test_express_ecarte_une_action_en_baisse_aux_fondamentaux_faibles(cfg_radar, monkeypatch, gh):
+    from dataclasses import replace
+
+    rp = radar_prix()
+    rp["SOLDE2"] = rp["SOLDE"] * 1.01
+    liste = {**cfg_radar.radar["liste"], "SOLDE2": {"nom": "Soldée Saine", "isin": "FR0000000009", "devise": "EUR"}}
+    c = replace(cfg_radar, radar={**cfg_radar.radar, "liste": liste})
+    preparer_radar(cfg_radar, monkeypatch, rp=rp, cfg=c, infos={"SOLDE": FRAGILE, "SOLDE2": SAINE})
+    candidats = json.loads(conseil.CANDIDATS.read_text())["candidats"]
+    assert [x["ticker"] for x in candidats][0] == "SOLDE2"  # classée devant grâce aux fondamentaux
+    prop = conseil.lancer_express(c, MIDI)
+    assert prop["ordres"][0]["ticker"] == "SOLDE2"
+    corps = gh.tickets[prop["ticket"]]["corps"]
+    assert "Score global" in corps and "achat fort" in corps
+    # La fragile n'est jamais proposée, même quand il n'y a plus d'autre candidat.
+    assert conseil.lancer_express(c, MIDI + timedelta(minutes=31)) is None

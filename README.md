@@ -79,6 +79,18 @@ Les prix étrangers sont convertis en euros pour chiffrer les achats. Pour les t
 - un titre n'est jamais proposé deux fois ;
 - le bot ne revend jamais ces titres à votre place.
 
+**📊 Baisse du cours ≠ bonne affaire : analyse fondamentale.** Le score de baisse (0-100) dit seulement que le cours a baissé par rapport à son propre passé. Le bot ajoute donc un **score fondamental (0-100)**, à partir des données Yahoo Finance :
+
+| Critère | Points |
+|---|---:|
+| Croissance du chiffre d'affaires | 20 |
+| Croissance des bénéfices | 20 |
+| Avis des analystes et potentiel vers leur objectif de cours | 30 |
+| Valorisation (P/E sur les bénéfices attendus) | 15 |
+| Santé (marge nette, dette) | 15 |
+
+Les opportunités sont classées par **score global** : 40 % baisse du cours + 60 % fondamentaux. Une action dont le score fondamental est inférieur à 55/100, ou inconnu, n'est jamais proposée.
+
 **⚡ Mode express (toutes les 30 minutes) :**
 - **De 7h à 23h, tous les jours,** le bot propose une nouvelle opportunité du radar, par un ticket dans votre Inbox GitHub.
 - **Sans réponse au bout de 30 minutes,** il ferme le ticket et propose le titre suivant.
