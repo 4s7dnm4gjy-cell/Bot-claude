@@ -18,89 +18,100 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-07",
-    "cree_le": "2026-10-07T07:48+00:00",
-    "liberation": 117.12795039196693,
+    "cree_le": "2026-10-07T08:20+00:00",
+    "liberation": 131.60398301128984,
     "reserve_pct": null,
-    "score": 95.05760787164029,
+    "score": 95.03625234707167,
     "ordres": [
       {
-        "ticker": "NHI",
+        "ticker": "POST",
         "side": "buy",
         "quantity": 2.0,
-        "price": 58.06397519598347,
+        "price": 65.30199150564492,
         "reason": "opportunité radar (score 95)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "NHI",
-      "nom": "National Health Investors, Inc.",
-      "isin": "NHI",
+      "ticker": "POST",
+      "nom": "Post Holdings",
+      "isin": "POST",
       "type": "action",
-      "prix": 65.37999725341797,
-      "score": 95.05760787164029,
-      "baisse": 0.2543568137986182,
-      "perf_5ans": 0.6106644397944767,
+      "prix": 73.52999877929688,
+      "score": 95.03625234707167,
+      "baisse": 0.35843296058183904,
+      "perf_5ans": 0.0029801998878769,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.2589885197285586,
-      "pos_12m": 0.9323144104803494,
-      "n_12m": 916,
-      "base_moy_12m": 0.1578399691634662,
-      "pire_12m": -0.2842694525529741,
-      "vs_marche_3m": -0.1829260576994597,
+      "moy_12m": 0.20907306491342745,
+      "pos_12m": 0.7767584097859327,
+      "n_12m": 327,
+      "base_moy_12m": 0.12129726741424213,
+      "pire_12m": -0.2901187508948685,
+      "vs_marche_3m": -0.1920883621634445,
       "devise": "USD",
-      "prix_eur": 58.06397519598347
+      "prix_eur": 65.30199150564492
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -18% vs marché)",
-      "vs_marche_3m": -0.1829260576994597,
-      "alertes": [],
+      "resume": "à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -19% vs marché)",
+      "vs_marche_3m": -0.1920883621634445,
+      "alertes": [
+        {
+          "titre": "Post Holdings stock faces a Zacks downgrade as revenue misses - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcW1FRVBCYkVfV3A4Qmxoa3Q3WDZQUDJ3eGg3TGotS1Rac3dtdnhibGh5a096WkpfS3BkN2JKcFBOUmp2MWoySEpsQW80dkx2TFJkNndWQjFsaGs1eTJBQ1JBZXU1TnVkRXF1M0VMUmtWYzRNUGo5U3ZvUExPSmVPUG10em5XczNjWmIycXpxdmphUlR0R0VOZC1CVzYxRmM3UThLQ1JSYTM2bk84M3FxX2lGYWVRaTdYeEUzV1plMnFZdw?oc=5",
+          "date": "2026-10-04",
+          "source": "AD HOC NEWS",
+          "gravite": 1,
+          "mots": [
+            "downgrade"
+          ]
+        }
+      ],
       "recents": [
         {
-          "titre": "National Health Investors (NYSE:NHI) Reaches New 12-Month Low - Time to Sell? - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdzFtcHpKRWI4a2Z5UjZlcWx2TTBucjZhNG5KMi1JbXlfMUxaMDVSN19HODVWRlZLWC1uZ2FWUXpHRm5SUXg1cWV6RVRaald0M2NWdUlEVXVFbm0yc0JrWTNPWFE2eDNMZEVLWFRueUNiQk5pR2R1cHlNQ3NQM2V3TC1KSmNlaHNGeHhzaUQ0ZFNCX3lIb3FwaE0tVkRoZ2RlWjVjVUV6MDNQSF9tQ0lIUC13WWtWZ1NUN0IxOF9sdWNXV2JxeVhwUVBCMlo?oc=5",
+          "titre": "Japan Post reports JPY 374.6 billion profit: what it means for Japan Post stock - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPLUNZWTc4SEpDajFWUXpOYnpGSWMtaHU0QWRHb0l5NEtreXhWWHdYSkpOLU1tM1phUzc2UV9YdzFudUxTUElZZVlrSTdMeU1QenZZeml5OEx1TEVrYzdIUnJKTEVUdWZTem5KSU9aZHluSlRoaGRYQlJNX0RLRTFBdTRzQlFwRTU1NU9rblh2TG1iN21ibzBJOENVdjRrcTJReDJEZEw2M3FNV2pMNE9XUENPdk0xOFI4S2VCdERGLVhhcXdSR3RYVlA0MA?oc=5",
+          "date": "2026-10-07",
+          "source": "AD HOC NEWS",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Japan Post stock falls 1.92 percent below its yearly high - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbXdrdWNkT2h1Vm9RSmJHSmJJbkVvWEl4ZklaY0FWOTktNDc5akJuYUtEMGh6WEpINUxKdjBlMlJBU1RIVUpmSTNUU1c5ZWRNXzF2RW93My1qR3l4OW5ZR2NqVDFzNFItUzVxdTdCenZNbGtnRkxKQzQtbHRrcC1Cck5TUXlzZXF1QW9tMWF0cnpYZWN5VTZKTFlwa29jUllrSUlvZm0yX0h3VVB5VlpjSTU4UUhER3c?oc=5",
+          "date": "2026-10-07",
+          "source": "AD HOC NEWS",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Aflac (NYSE:AFL) Major Shareholder Post Holdings Co. Ltd. Japan Sells 13,200 Shares of Stock - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMWVUSXZyQVRyOTh2LUNaaF9zWXdtb3VENmFsOV9sLVRUY2VLMUx3MjdmS21uT3l1cmh6aEZYQnhZN2phVVlTLVFCay1kMFI5NGRndW5oUTdGc1VKYUlBTk5BRDNaODdpU0JielU3NUIyQ0RNNTFpNm4zZFNFSGlHa0pFcWpYZDlHNVNzWjQwYWxidXdBOWFkSEwyTDZwNF9PUXU4V1NnVHUyMEdPYVhrWTE5MWkxSVQ0c1BPRWRlMWhpdkpzMGNDcGktMFR4OVpxQlVfYVVhcXZyVk9HNnVlUk5LRQ?oc=5",
           "date": "2026-10-06",
           "source": "MarketBeat",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "National Health Investors stock reports USD 107.7 million deal - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxON0FZZHhKWVBkLWtMSU5NWElLR0V1WXpUdGE1VUNsMWVEdnhXU0liSHhWdl9CRVVtOFF5MUxYVngtS2NtQnZWOU4zTzdtZGlBZGhxdjFxeWRtUHpWYk1NdkN3Vm1iNl9Wcy10WGpRcXdZSEtkS0ZTcTJTSlo3YXl3OUwtaVdFTTlnM1R3Uk1SS2p1MDVmeDlHRjVySjBzVjZFWFlwZk5hZVdhUjNZckhVMDd4eVFxRnRfVnpieEwwS0ZFLWc?oc=5",
-          "date": "2026-10-04",
+          "titre": "Japan Post Holdings, AFLAC director and 10% owner, sells $1.47m stock - Investing.com",
+          "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRThQVUk0eVY3YmZ1TjdIVEcwbUJXZGk3WFBUeEhDUDVnWHVLaGhXc2JnLXh5YVNGckppRkNnR3FmejVZU3lZajhnM21LcElfYU81QzhYa2hfSm5Pa2g3dmg3VE0teDVYTXRjU1Y1NkNDX3VYaDIxYXplY1E5QWU0U01mNHBOWXdGUXowczZua1Y3R0dDRTVxb2pUUUI2dVhVeWFIUWVkeTZmSzRKaU1FVHd0dEhSaXBubU8yVW5vcjhlZzc4YTBxRw?oc=5",
+          "date": "2026-10-06",
+          "source": "Investing.com",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Post Holdings sells Aflac shares. Aflac stock yields 2.20 percent - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQVEzeExCZG9SSVJoTXBjMlZqdUFKTmV0M20xVHR0YXF0bldtVnF0MmU5TUU4cGhFY1ZpOWNybFVHTzRkNjlidS0zY19uQUtrMTEwZzk4eHpMZFl1bjdla2I3SlRZN3VKbllyUEFfOElHZENxY3ZtZmxCMHFTckNFc2hCQlZKa2JKSWtCaVpZMENER1NCY2VaQktlV05zSEZLS0hSSWtnTXBYSmU5aTFDWGdEdXlfMk01WWlucEtWQ0ducjR1MkE?oc=5",
+          "date": "2026-10-06",
           "source": "AD HOC NEWS",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "National Health Investors, Inc. (NYSE:NHI) Stock Rated \"Moderate Buy\" by Wall Street Brokerages - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOOGhlUVpGWUxwdTliSlpXRjlYQ2N5QUNBWWFRRGlMWFZvSXQtbDNqQVd2ZzBpQWFmOE5ZWl9BMjNxSzFPazUtNnFqeEVMal85V2o5dlJCbjdobFNsclpkWGJLc1NQX1hyckdBeTlBbU0zT3ZlUkRjNlN5dHhyT1NINWViQkI2QzNtTzI5aDBCMTVsRWVCNklGWTZ4Y1RrN2l1Y3I5bUQ1VWdBUlVlbkowVXFjMkV3OGdyRjJFc0RGRzRvVjU0Vks5YngzV0k1OHhhQWVJWGgzdFFsaFhadHJxRGV5bDdQbnQx?oc=5",
-          "date": "2026-10-03",
-          "source": "MarketBeat",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Understanding the Setup: (NHI) and Scalable Risk - Stock Traders Daily",
-          "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZjFQU25SQ3pDNmx5Q2p2NjhxRWFXVjNra1Vvcjd5VDFGX3M4UzE1N0cxU3BiSGRhODdaYi1hV2l5MTljVWVPQW10dWFFZzNGYnN2czlMaUI1cVVKYW9OdnZWUjB1Mkd4UkFmc216REN1NS1JbGM2QU9KcnNwb3YxaldZamt3TmZBWTNoRm5fV0VpTnlqZGRWYlVpQmtLakRHb3RFUmlnSlRqSmVQVGlvdDcxMzdIaTMwVV91RHduRVkzT3dS?oc=5",
-          "date": "2026-10-03",
-          "source": "Stock Traders Daily",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "National Health Investors, Inc. (NHI) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9vYUhXOVdNNFREZHNvZVB3ckxoVndnVWlOZk5Sa3BhUlN4NjF1SzBvbGxRVkVuSGNjRmVBMWRHSUJJMW16alRjUlJLVzJ2b2N1?oc=5",
-          "date": "2026-10-02",
-          "source": "Yahoo! Finance Canada",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 17
+    "ticket": 18
   },
   "radar_proposes": [
     "MCD",
@@ -120,7 +131,8 @@
     "APE.AX",
     "PATK",
     "MGEE",
-    "NHI"
+    "NHI",
+    "POST"
   ],
   "achats": [],
   "historique": [
@@ -1613,6 +1625,94 @@
         ]
       },
       "ticket": 16,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-07",
+      "cree_le": "2026-10-07T07:48+00:00",
+      "liberation": 117.12795039196693,
+      "reserve_pct": null,
+      "score": 95.05760787164029,
+      "ordres": [
+        {
+          "ticker": "NHI",
+          "side": "buy",
+          "quantity": 2.0,
+          "price": 58.06397519598347,
+          "reason": "opportunité radar (score 95)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "NHI",
+        "nom": "National Health Investors, Inc.",
+        "isin": "NHI",
+        "type": "action",
+        "prix": 65.37999725341797,
+        "score": 95.05760787164029,
+        "baisse": 0.2543568137986182,
+        "perf_5ans": 0.6106644397944767,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.2589885197285586,
+        "pos_12m": 0.9323144104803494,
+        "n_12m": 916,
+        "base_moy_12m": 0.1578399691634662,
+        "pire_12m": -0.2842694525529741,
+        "vs_marche_3m": -0.1829260576994597,
+        "devise": "USD",
+        "prix_eur": 58.06397519598347
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -18% vs marché)",
+        "vs_marche_3m": -0.1829260576994597,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "National Health Investors (NYSE:NHI) Reaches New 12-Month Low - Time to Sell? - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdzFtcHpKRWI4a2Z5UjZlcWx2TTBucjZhNG5KMi1JbXlfMUxaMDVSN19HODVWRlZLWC1uZ2FWUXpHRm5SUXg1cWV6RVRaald0M2NWdUlEVXVFbm0yc0JrWTNPWFE2eDNMZEVLWFRueUNiQk5pR2R1cHlNQ3NQM2V3TC1KSmNlaHNGeHhzaUQ0ZFNCX3lIb3FwaE0tVkRoZ2RlWjVjVUV6MDNQSF9tQ0lIUC13WWtWZ1NUN0IxOF9sdWNXV2JxeVhwUVBCMlo?oc=5",
+            "date": "2026-10-06",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "National Health Investors stock reports USD 107.7 million deal - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxON0FZZHhKWVBkLWtMSU5NWElLR0V1WXpUdGE1VUNsMWVEdnhXU0liSHhWdl9CRVVtOFF5MUxYVngtS2NtQnZWOU4zTzdtZGlBZGhxdjFxeWRtUHpWYk1NdkN3Vm1iNl9Wcy10WGpRcXdZSEtkS0ZTcTJTSlo3YXl3OUwtaVdFTTlnM1R3Uk1SS2p1MDVmeDlHRjVySjBzVjZFWFlwZk5hZVdhUjNZckhVMDd4eVFxRnRfVnpieEwwS0ZFLWc?oc=5",
+            "date": "2026-10-04",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "National Health Investors, Inc. (NYSE:NHI) Stock Rated \"Moderate Buy\" by Wall Street Brokerages - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOOGhlUVpGWUxwdTliSlpXRjlYQ2N5QUNBWWFRRGlMWFZvSXQtbDNqQVd2ZzBpQWFmOE5ZWl9BMjNxSzFPazUtNnFqeEVMal85V2o5dlJCbjdobFNsclpkWGJLc1NQX1hyckdBeTlBbU0zT3ZlUkRjNlN5dHhyT1NINWViQkI2QzNtTzI5aDBCMTVsRWVCNklGWTZ4Y1RrN2l1Y3I5bUQ1VWdBUlVlbkowVXFjMkV3OGdyRjJFc0RGRzRvVjU0Vks5YngzV0k1OHhhQWVJWGgzdFFsaFhadHJxRGV5bDdQbnQx?oc=5",
+            "date": "2026-10-03",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Understanding the Setup: (NHI) and Scalable Risk - Stock Traders Daily",
+            "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZjFQU25SQ3pDNmx5Q2p2NjhxRWFXVjNra1Vvcjd5VDFGX3M4UzE1N0cxU3BiSGRhODdaYi1hV2l5MTljVWVPQW10dWFFZzNGYnN2czlMaUI1cVVKYW9OdnZWUjB1Mkd4UkFmc216REN1NS1JbGM2QU9KcnNwb3YxaldZamt3TmZBWTNoRm5fV0VpTnlqZGRWYlVpQmtLakRHb3RFUmlnSlRqSmVQVGlvdDcxMzdIaTMwVV91RHduRVkzT3dS?oc=5",
+            "date": "2026-10-03",
+            "source": "Stock Traders Daily",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "National Health Investors, Inc. (NHI) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+            "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9vYUhXOVdNNFREZHNvZVB3ckxoVndnVWlOZk5Sa3BhUlN4NjF1SzBvbGxRVkVuSGNjRmVBMWRHSUJJMW16alRjUlJLVzJ2b2N1?oc=5",
+            "date": "2026-10-02",
+            "source": "Yahoo! Finance Canada",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 17,
       "decision": "sans réponse"
     }
   ]
