@@ -18,100 +18,89 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-07",
-    "cree_le": "2026-10-07T08:20+00:00",
-    "liberation": 131.60398301128984,
+    "cree_le": "2026-10-07T09:19+00:00",
+    "liberation": 138.26473296944482,
     "reserve_pct": null,
-    "score": 95.03625234707167,
+    "score": 94.87196444317533,
     "ordres": [
       {
-        "ticker": "POST",
+        "ticker": "UTI",
         "side": "buy",
-        "quantity": 2.0,
-        "price": 65.30199150564492,
+        "quantity": 8.0,
+        "price": 17.158091621180603,
         "reason": "opportunité radar (score 95)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "POST",
-      "nom": "Post Holdings",
-      "isin": "POST",
+      "ticker": "UTI",
+      "nom": "Universal Technical Institute",
+      "isin": "UTI",
       "type": "action",
-      "prix": 73.52999877929688,
-      "score": 95.03625234707167,
-      "baisse": 0.35843296058183904,
-      "perf_5ans": 0.0029801998878769,
+      "prix": 19.31999969482422,
+      "score": 94.87196444317533,
+      "baisse": 0.6226562615833243,
+      "perf_5ans": 1.8163264313125471,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.20907306491342745,
-      "pos_12m": 0.7767584097859327,
-      "n_12m": 327,
-      "base_moy_12m": 0.12129726741424213,
-      "pire_12m": -0.2901187508948685,
-      "vs_marche_3m": -0.1920883621634445,
+      "moy_12m": 0.18156956651761477,
+      "pos_12m": 0.5891891891891892,
+      "n_12m": 555,
+      "base_moy_12m": 0.13168010023382085,
+      "pire_12m": -0.6654802452696729,
+      "vs_marche_3m": -0.6630678681573852,
       "devise": "USD",
-      "prix_eur": 65.30199150564492
+      "prix_eur": 17.158091621180603
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -19% vs marché)",
-      "vs_marche_3m": -0.1920883621634445,
-      "alertes": [
-        {
-          "titre": "Post Holdings stock faces a Zacks downgrade as revenue misses - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcW1FRVBCYkVfV3A4Qmxoa3Q3WDZQUDJ3eGg3TGotS1Rac3dtdnhibGh5a096WkpfS3BkN2JKcFBOUmp2MWoySEpsQW80dkx2TFJkNndWQjFsaGs1eTJBQ1JBZXU1TnVkRXF1M0VMUmtWYzRNUGo5U3ZvUExPSmVPUG10em5XczNjWmIycXpxdmphUlR0R0VOZC1CVzYxRmM3UThLQ1JSYTM2bk84M3FxX2lGYWVRaTdYeEUzV1plMnFZdw?oc=5",
-          "date": "2026-10-04",
-          "source": "AD HOC NEWS",
-          "gravite": 1,
-          "mots": [
-            "downgrade"
-          ]
-        }
-      ],
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -66% vs marché)",
+      "vs_marche_3m": -0.6630678681573852,
+      "alertes": [],
       "recents": [
         {
-          "titre": "Japan Post reports JPY 374.6 billion profit: what it means for Japan Post stock - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPLUNZWTc4SEpDajFWUXpOYnpGSWMtaHU0QWRHb0l5NEtreXhWWHdYSkpOLU1tM1phUzc2UV9YdzFudUxTUElZZVlrSTdMeU1QenZZeml5OEx1TEVrYzdIUnJKTEVUdWZTem5KSU9aZHluSlRoaGRYQlJNX0RLRTFBdTRzQlFwRTU1NU9rblh2TG1iN21ibzBJOENVdjRrcTJReDJEZEw2M3FNV2pMNE9XUENPdk0xOFI4S2VCdERGLVhhcXdSR3RYVlA0MA?oc=5",
-          "date": "2026-10-07",
-          "source": "AD HOC NEWS",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Japan Post stock falls 1.92 percent below its yearly high - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbXdrdWNkT2h1Vm9RSmJHSmJJbkVvWEl4ZklaY0FWOTktNDc5akJuYUtEMGh6WEpINUxKdjBlMlJBU1RIVUpmSTNUU1c5ZWRNXzF2RW93My1qR3l4OW5ZR2NqVDFzNFItUzVxdTdCenZNbGtnRkxKQzQtbHRrcC1Cck5TUXlzZXF1QW9tMWF0cnpYZWN5VTZKTFlwa29jUllrSUlvZm0yX0h3VVB5VlpjSTU4UUhER3c?oc=5",
-          "date": "2026-10-07",
-          "source": "AD HOC NEWS",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Aflac (NYSE:AFL) Major Shareholder Post Holdings Co. Ltd. Japan Sells 13,200 Shares of Stock - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMWVUSXZyQVRyOTh2LUNaaF9zWXdtb3VENmFsOV9sLVRUY2VLMUx3MjdmS21uT3l1cmh6aEZYQnhZN2phVVlTLVFCay1kMFI5NGRndW5oUTdGc1VKYUlBTk5BRDNaODdpU0JielU3NUIyQ0RNNTFpNm4zZFNFSGlHa0pFcWpYZDlHNVNzWjQwYWxidXdBOWFkSEwyTDZwNF9PUXU4V1NnVHUyMEdPYVhrWTE5MWkxSVQ0c1BPRWRlMWhpdkpzMGNDcGktMFR4OVpxQlVfYVVhcXZyVk9HNnVlUk5LRQ?oc=5",
+          "titre": "Changes in working capital of Universal Technical Institute Inc – NYSE:UTI - TradingView",
+          "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYlB3UUN0b0ZfYmpRZk9DU1FHX05Tc1FUaDZJdDdlSmh2NGwzcXNJTnRzV0x4OS1TeGZwNE1BZS1PQUR6UklCYjh5M1hpc3BOQUgxVGQ5Ym4xT1Q1UXFkenQwbHhQb1o0OHNiR2hYZjJoSkJNOWpYWHY1SGVreXJzazF1MWlXLTlLM0Z0NlNDYjhkMnBQMDlqeg?oc=5",
           "date": "2026-10-06",
-          "source": "MarketBeat",
+          "source": "TradingView",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Japan Post Holdings, AFLAC director and 10% owner, sells $1.47m stock - Investing.com",
-          "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRThQVUk0eVY3YmZ1TjdIVEcwbUJXZGk3WFBUeEhDUDVnWHVLaGhXc2JnLXh5YVNGckppRkNnR3FmejVZU3lZajhnM21LcElfYU81QzhYa2hfSm5Pa2g3dmg3VE0teDVYTXRjU1Y1NkNDX3VYaDIxYXplY1E5QWU0U01mNHBOWXdGUXowczZua1Y3R0dDRTVxb2pUUUI2dVhVeWFIUWVkeTZmSzRKaU1FVHd0dEhSaXBubU8yVW5vcjhlZzc4YTBxRw?oc=5",
+          "titre": "Truist reiterates Buy on Universal Technical Institute stock at $38 - Investing.com",
+          "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVXhpakNlRVVFY1VwY0hlMGRxaDFCd2piRDFQb3UwemVTZHQzZDZ2SFhkQTdSWXhzZmlXM1ZNSWREaXdkSmxZd0tLNjZ2Y04zWll0Z1IySHU3S3Nkc2xKN0x5YmYxRVhGYVFyZzBIa3BtbE1EQXIyTS1qcmhiVUJobjN6QmxfdEdNTkNwUUJlTGFWNzd6aDYtajYtNXliUFppam5uNlVDRm1WYVNfOE13Q0Y0ek9MY29rc0RJRk5BMHhXR1Nt?oc=5",
           "date": "2026-10-06",
           "source": "Investing.com",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Post Holdings sells Aflac shares. Aflac stock yields 2.20 percent - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQVEzeExCZG9SSVJoTXBjMlZqdUFKTmV0M20xVHR0YXF0bldtVnF0MmU5TUU4cGhFY1ZpOWNybFVHTzRkNjlidS0zY19uQUtrMTEwZzk4eHpMZFl1bjdla2I3SlRZN3VKbllyUEFfOElHZENxY3ZtZmxCMHFTckNFc2hCQlZKa2JKSWtCaVpZMENER1NCY2VaQktlV05zSEZLS0hSSWtnTXBYSmU5aTFDWGdEdXlfMk01WWlucEtWQ0ducjR1MkE?oc=5",
+          "titre": "Truist Securities Reiterates Buy Rating on Universal Technical Institute (UTI) - StreetInsider",
+          "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSFU0ekYwTjZwTnpFcnJVZG5IekpBakpKUUR3d3g5M0FScWpuVURKWWN1ZzV6M2ZvY2Rvclc3aVlWb25zcmdoWFN2d09rdU02TEZiYlozQlptSUlPX2hIeTVValFkb3NHNTdMS01tM0JJcWo2bDdZdDc2Z2JZcE1lelVQNDJBT0ZuaWpZNkl1RVI1V29qM21ucDBtS2JjYWRGdDhuMi1pMjVEaE11ZkZ5OWp5bHRIcV9CYU9Tb1djWUdKLTEtX3AyN21IRlUzUG5Qa2RxMkdEVXVvMXM?oc=5",
           "date": "2026-10-06",
-          "source": "AD HOC NEWS",
+          "source": "StreetInsider",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "High Demand for Skilled Trades Meets Evolving Customer Acquisition Headwinds at Universal Technical Institute (UTI) - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaFZuWW5sZGFDczVwOVdCX2FGUU1UbHdTb1lhaXFucm5NWXlpV3dzRVhndE9SbU1Kc2xiQmlnLVpveFFtQ2FnTV9BQ3Z5MDhtQ2ppd2xESkV4ak5jcWZodi00YW5FbDBuc1ZKRXJaZjdOZGR3QmtURENnM1VuNnZwLUpDd3NZWUsyY3pUejRnNU5wLW1tcWZmQjd5WG9SUQ?oc=5",
+          "date": "2026-10-05",
+          "source": "Yahoo Finance",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Universal Technical Institute R (UTI.MU) Q3 FY2026 earnings call transcript - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYkZBMEFJMDlmWHJPaW5oUWZ2ZWViYy1xRzFnU2h2N3V2cDJYUExYbmFXUVQxTDlxQ0lLN002N3ZDdE5iNU9xZTRqa0U0ZHp2bk85RzF5NHdoWVBHWVhPblJPT2VNZmJGQVBVM3gzZ0poN1dsckhpeFlLUVdpOVFHblM5WE5YSDRiWFBKMzFUaXBfa1E?oc=5",
+          "date": "2026-10-05",
+          "source": "Yahoo Finance",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 18
+    "ticket": 19
   },
   "radar_proposes": [
     "MCD",
@@ -132,7 +121,8 @@
     "PATK",
     "MGEE",
     "NHI",
-    "POST"
+    "POST",
+    "UTI"
   ],
   "achats": [],
   "historique": [
@@ -1713,6 +1703,105 @@
         ]
       },
       "ticket": 17,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-07",
+      "cree_le": "2026-10-07T08:20+00:00",
+      "liberation": 131.60398301128984,
+      "reserve_pct": null,
+      "score": 95.03625234707167,
+      "ordres": [
+        {
+          "ticker": "POST",
+          "side": "buy",
+          "quantity": 2.0,
+          "price": 65.30199150564492,
+          "reason": "opportunité radar (score 95)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "POST",
+        "nom": "Post Holdings",
+        "isin": "POST",
+        "type": "action",
+        "prix": 73.52999877929688,
+        "score": 95.03625234707167,
+        "baisse": 0.35843296058183904,
+        "perf_5ans": 0.0029801998878769,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.20907306491342745,
+        "pos_12m": 0.7767584097859327,
+        "n_12m": 327,
+        "base_moy_12m": 0.12129726741424213,
+        "pire_12m": -0.2901187508948685,
+        "vs_marche_3m": -0.1920883621634445,
+        "devise": "USD",
+        "prix_eur": 65.30199150564492
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -19% vs marché)",
+        "vs_marche_3m": -0.1920883621634445,
+        "alertes": [
+          {
+            "titre": "Post Holdings stock faces a Zacks downgrade as revenue misses - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcW1FRVBCYkVfV3A4Qmxoa3Q3WDZQUDJ3eGg3TGotS1Rac3dtdnhibGh5a096WkpfS3BkN2JKcFBOUmp2MWoySEpsQW80dkx2TFJkNndWQjFsaGs1eTJBQ1JBZXU1TnVkRXF1M0VMUmtWYzRNUGo5U3ZvUExPSmVPUG10em5XczNjWmIycXpxdmphUlR0R0VOZC1CVzYxRmM3UThLQ1JSYTM2bk84M3FxX2lGYWVRaTdYeEUzV1plMnFZdw?oc=5",
+            "date": "2026-10-04",
+            "source": "AD HOC NEWS",
+            "gravite": 1,
+            "mots": [
+              "downgrade"
+            ]
+          }
+        ],
+        "recents": [
+          {
+            "titre": "Japan Post reports JPY 374.6 billion profit: what it means for Japan Post stock - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPLUNZWTc4SEpDajFWUXpOYnpGSWMtaHU0QWRHb0l5NEtreXhWWHdYSkpOLU1tM1phUzc2UV9YdzFudUxTUElZZVlrSTdMeU1QenZZeml5OEx1TEVrYzdIUnJKTEVUdWZTem5KSU9aZHluSlRoaGRYQlJNX0RLRTFBdTRzQlFwRTU1NU9rblh2TG1iN21ibzBJOENVdjRrcTJReDJEZEw2M3FNV2pMNE9XUENPdk0xOFI4S2VCdERGLVhhcXdSR3RYVlA0MA?oc=5",
+            "date": "2026-10-07",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Japan Post stock falls 1.92 percent below its yearly high - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbXdrdWNkT2h1Vm9RSmJHSmJJbkVvWEl4ZklaY0FWOTktNDc5akJuYUtEMGh6WEpINUxKdjBlMlJBU1RIVUpmSTNUU1c5ZWRNXzF2RW93My1qR3l4OW5ZR2NqVDFzNFItUzVxdTdCenZNbGtnRkxKQzQtbHRrcC1Cck5TUXlzZXF1QW9tMWF0cnpYZWN5VTZKTFlwa29jUllrSUlvZm0yX0h3VVB5VlpjSTU4UUhER3c?oc=5",
+            "date": "2026-10-07",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Aflac (NYSE:AFL) Major Shareholder Post Holdings Co. Ltd. Japan Sells 13,200 Shares of Stock - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMWVUSXZyQVRyOTh2LUNaaF9zWXdtb3VENmFsOV9sLVRUY2VLMUx3MjdmS21uT3l1cmh6aEZYQnhZN2phVVlTLVFCay1kMFI5NGRndW5oUTdGc1VKYUlBTk5BRDNaODdpU0JielU3NUIyQ0RNNTFpNm4zZFNFSGlHa0pFcWpYZDlHNVNzWjQwYWxidXdBOWFkSEwyTDZwNF9PUXU4V1NnVHUyMEdPYVhrWTE5MWkxSVQ0c1BPRWRlMWhpdkpzMGNDcGktMFR4OVpxQlVfYVVhcXZyVk9HNnVlUk5LRQ?oc=5",
+            "date": "2026-10-06",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Japan Post Holdings, AFLAC director and 10% owner, sells $1.47m stock - Investing.com",
+            "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRThQVUk0eVY3YmZ1TjdIVEcwbUJXZGk3WFBUeEhDUDVnWHVLaGhXc2JnLXh5YVNGckppRkNnR3FmejVZU3lZajhnM21LcElfYU81QzhYa2hfSm5Pa2g3dmg3VE0teDVYTXRjU1Y1NkNDX3VYaDIxYXplY1E5QWU0U01mNHBOWXdGUXowczZua1Y3R0dDRTVxb2pUUUI2dVhVeWFIUWVkeTZmSzRKaU1FVHd0dEhSaXBubU8yVW5vcjhlZzc4YTBxRw?oc=5",
+            "date": "2026-10-06",
+            "source": "Investing.com",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Post Holdings sells Aflac shares. Aflac stock yields 2.20 percent - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQVEzeExCZG9SSVJoTXBjMlZqdUFKTmV0M20xVHR0YXF0bldtVnF0MmU5TUU4cGhFY1ZpOWNybFVHTzRkNjlidS0zY19uQUtrMTEwZzk4eHpMZFl1bjdla2I3SlRZN3VKbllyUEFfOElHZENxY3ZtZmxCMHFTckNFc2hCQlZKa2JKSWtCaVpZMENER1NCY2VaQktlV05zSEZLS0hSSWtnTXBYSmU5aTFDWGdEdXlfMk01WWlucEtWQ0ducjR1MkE?oc=5",
+            "date": "2026-10-06",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 18,
       "decision": "sans réponse"
     }
   ]
