@@ -38,7 +38,10 @@ def lire_infos(ticker: str, essais: int = 3) -> dict:
 
             infos = yf.Ticker(ticker).info or {}
             time.sleep(0.4)  # Yahoo limite les appels rapprochés
-            return {k: infos.get(k) for k in CHAMPS if infos.get(k) is not None}
+            utiles = {k: infos.get(k) for k in CHAMPS if infos.get(k) is not None}
+            if not utiles:
+                ERREURS.append(f"{ticker}: réponse sans donnée utile ({len(infos)} champs : {list(infos)[:8]})")
+            return utiles
         except Exception as e:  # réseau, limite d'appels, titre inconnu… : on ne bloque pas le bot
             ERREURS.append(f"{ticker}: {type(e).__name__}: {str(e)[:120]}")
             time.sleep(3 * (essai + 1))
