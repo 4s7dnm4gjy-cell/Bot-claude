@@ -18,89 +18,89 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-07",
-    "cree_le": "2026-10-07T19:46+00:00",
-    "liberation": 118.64191280032114,
+    "cree_le": "2026-10-07T20:18+00:00",
+    "liberation": 144.93720627302946,
     "reserve_pct": null,
-    "score": 95.32071112269013,
+    "score": 94.90126869871233,
     "ordres": [
       {
-        "ticker": "STN.TO",
+        "ticker": "RBA",
         "side": "buy",
         "quantity": 2.0,
-        "price": 58.82095640016057,
+        "price": 71.96860313651473,
         "reason": "opportunité radar (score 95)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "STN.TO",
-      "nom": "Stantec Inc.",
-      "isin": "STN.TO",
+      "ticker": "RBA",
+      "nom": "RB Global",
+      "isin": "RBA",
       "type": "action",
-      "prix": 94.0999984741211,
-      "score": 95.32071112269013,
-      "baisse": 0.40210119881524287,
-      "perf_5ans": 0.6531032153880352,
+      "prix": 80.61000061035156,
+      "score": 94.90126869871233,
+      "baisse": 0.31872694048145633,
+      "perf_5ans": 0.42482323406679234,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.2480457613059325,
-      "pos_12m": 0.84,
-      "n_12m": 850,
-      "base_moy_12m": 0.19495535078714896,
-      "pire_12m": -0.46656240546403827,
-      "vs_marche_3m": -0.07892142794460588,
-      "devise": "CAD",
-      "prix_eur": 58.82095640016057
+      "moy_12m": 0.20837630758922532,
+      "pos_12m": 0.8430493273542601,
+      "n_12m": 892,
+      "base_moy_12m": 0.17723391146879852,
+      "pire_12m": -0.39816337622109343,
+      "vs_marche_3m": -0.3052569432636034,
+      "devise": "USD",
+      "prix_eur": 71.96860313651473
     },
     "actualites": {
-      "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -8% vs marché)",
-      "vs_marche_3m": -0.07892142794460588,
+      "verdict": "orange",
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -31% vs marché)",
+      "vs_marche_3m": -0.3052569432636034,
       "alertes": [],
       "recents": [
         {
-          "titre": "Stantec Inc (TSX:STN): What's Fueling The Buzz? - Kalkine Media",
-          "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeXV1Q1dpbUtPNmJiRWFKbFF2cnVBV0QweEJQOWZ6M2ItMFBYR1l0MnFHNm9UdXN5LWlCemVtQTdwaDBlRDNDSTlUUDl3aTQ5VE9TYXhhU3BVNFhPbkR1MG9TVGw3ZDFLWFFVcC1hT0M5eGRBcVlwam1YazFNWEVlcnFUSmZ2c21TcVZJbS1yLVI?oc=5",
-          "date": "2026-10-05",
+          "titre": "Why Is RB Global (TSX:RBA) in Focus Amid Its Marketplace Volume Trends Story? - Kalkine Media",
+          "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMVBVUmZKZm9HaGZvYzZUQVFNOXlqcG45Y3pMUERtazEyYWlhN2hadTVhVTdta3ZMSUctajVodElacXUyOGxNVFhMc1hQYm9pTXdsWW9BbXNRRnVCaXpQc3BnMkZ5eTVDelhBallFM0RNTzhsWTNyMGI2b2FNbHJNTDV2dTRPanR5ckhhRlNzMmZVZ2FpNC1HYjhsbDItYnRfRkNfQVI0OUFBaGxSdU5PdkVvTnVab2VyM0FB?oc=5",
+          "date": "2026-10-07",
           "source": "Kalkine Media",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Will Stantec (TSX:STN) Ease Changes Amid Strong Smallcap Stocks? - Kalkine Media",
-          "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTkdHU1RBRldrazlmaU1zcVZkVFNvekNOVGdxcHFpN1M3RXJ4QVdlbUhHSE55Z1hwVVlMUER0bW1KUW45QWdwME1SU1FCcW5rZ2NJTWFDQUVtSXI2bVF1ZXM0Mmg5VC1mZnI3ZEQyQkxlMTFkcjh6MVMzaFk2MWZ1bmRNeFhrQ2J4MHkwb19kdzVLU181TXVpc2R5U1IyekU2VEMtNEdUWQ?oc=5",
+          "titre": "RB Global price target lowered to $110 from $121 at Barclays - TipRanks",
+          "lien": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcUNXd0RmWEYzSnRzT1QwRXp4NWkxaDd6bmhjQ0NnbTZhQ0FUYnJwUVBxby1Ia2dESkRKUlc3VmVMRnhxZzRUbGZ3QWw4OHJ3U2NpY0UySGdESGlob093ZThnTE5ZajhSV08tZTM1TWdIMmtHSklNT2tsSmROQ0hKNjBoTExWMkhFWEtwUWhtT1BJLUdvVzdDdi1LWTU4VkcwajlLRHFOdXR6QndzVDJTcFlwenFMYV9LMTNPNUdJMlZDOVNpaUlhZktxd0R6YVZWYUZjUjNoOWZLN2hTLWhxa2Q5bWdiVlJOYTBB?oc=5",
+          "date": "2026-10-07",
+          "source": "TipRanks",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "RB Global, Inc. (RBA) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1IWU9NaV80X2dyY3hWZmx5QTdmNDVWOU5aUEJKb2RNTW9xMFctNE9LcEUxSG1jdENSY0dnNGdhdVg3dDVHYUNNbEoxZVNiWURv?oc=5",
+          "date": "2026-10-06",
+          "source": "Yahoo! Finance Canada",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "RB Global, Inc. (RBA.TO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1EVGl5MXdQbzY5ZzJpQWlGOXJXZzk1d1NadDg1eU00TnBCNFFub3R5TW5VX2tOWXp3QkVZWWM1a3BCcWI3djl3enBsZ1IzZ0tVcmJSVw?oc=5",
           "date": "2026-10-05",
-          "source": "Kalkine Media",
+          "source": "Yahoo! Finance Canada",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "MarketBeat reports CAD 143.00 target for Stantec stock - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNa3lRU2ZxWURNdW5zZFkwSG1lMWNOc2xjWGE3ZGhYSGxOUVNMdkVoeDloTlFQOUtIYzVPeUo4bFptRnlTaDNtUFNRQzNNX2p3dnI0OFp5UmtLLTRvem9ZZ3hic3d2aUVwUjNWQU9tTGZTY0oyZWxpRDE3czItZkV4a05aZzZEbjZyZUZ5RFp1ZjN5SEl6c0tiN0huY0RKalE3VWJiUEU3SzlzSnFJNktYUm9rRQ?oc=5",
+          "titre": "1 Safe-and-Steady Stock with Exciting Potential and 2 That Underwhelm - FinancialContent",
+          "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORnVzX0hGTVMtdHA5OUo2b213Q0tXZFdRRm1aU0Zjc0I5d1g3UGNVMnhFaFNnX2MxMEdCbWc5YmtacGd6bTU1X0dzZFVXS3l6OXF1MGdzRnRhMW5BWkd0SVlWLUQ1TDZwNkt0dHljRjZ6Q3dPdmp6eEhQSnhRM3hGd2dGcHZrbnFEY3YxVG10RW9VNGI1UDNOdkVRcDJKNFV4Z3BNb2EzSzRoSVVYMm5jMUl0cGtxRVpmdktXYkZpVERpOVVCUnl1UmtjTQ?oc=5",
           "date": "2026-10-05",
-          "source": "AD HOC NEWS",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Stantec Inc. (TSE:STN) Stock Has Consensus Price Target of C$143.00 According to Analysts - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOQzcydWNVdGtvSHh5QmE5WlpjYnMzTVlFWk54SjEyaGU3Vmh6SmpPNklQNURjWTFJMHlJcEV2UnlHN2xQeGhKdi13ZGFvYUxScHFSdXRnTEFzV2dnd0V5dGRyS05aRmNuVlYyc1plLWJqTjFUZ25MWnk5ZEl6ZVJEY0FWaF9rUWRnZGd2eFlUQmdLbWtqRkJ1WGx3MzZxWVhCeTVZVEQ4RV9kc0hnSF9BTlc2Rmdmb2xsdjdJNk5rT045YVd2Q1BIRmhKc0ROaFg4ckFFRFlxRDJFeHpxc2dsMGR3?oc=5",
-          "date": "2026-10-04",
-          "source": "MarketBeat",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "How Stantec Inc (STN) Affects Rotational Strategy Timing - Stock Traders Daily",
-          "lien": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQLU1XM3RmTGxZMXV1blhnZXcyT2RxcTlibGtjOFVhckI3WWl1Ujg3SXZMcHA4OVMzYl8zNThKMnQ5cHFFVURNVU1VWjVTd3dNS3hUdWlYaTlKTG83THgyTUxSVXVnUkhiRE9fRGpsSnBib2FMWWVIZjlSS1otSFpkdTQ4cGN1V0x0QWNtZERkTmFiYm5CSUE2QTFrRkRYZmEzV0FJZmNLRHV0R0ZRaVRWR2NkVVhHZzBlS2NNTGMyMUNxZEhiRjRuSTZaU0xSbHc?oc=5",
-          "date": "2026-10-04",
-          "source": "Stock Traders Daily",
+          "source": "FinancialContent",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 33
+    "ticket": 34
   },
   "radar_proposes": [
     "MCD",
@@ -137,7 +137,8 @@
     "CRH",
     "GOLF",
     "EMA.TO",
-    "STN.TO"
+    "STN.TO",
+    "RBA"
   ],
   "achats": [],
   "historique": [
@@ -3157,6 +3158,94 @@
         ]
       },
       "ticket": 32,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-07",
+      "cree_le": "2026-10-07T19:46+00:00",
+      "liberation": 118.64191280032114,
+      "reserve_pct": null,
+      "score": 95.32071112269013,
+      "ordres": [
+        {
+          "ticker": "STN.TO",
+          "side": "buy",
+          "quantity": 2.0,
+          "price": 58.82095640016057,
+          "reason": "opportunité radar (score 95)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "STN.TO",
+        "nom": "Stantec Inc.",
+        "isin": "STN.TO",
+        "type": "action",
+        "prix": 94.0999984741211,
+        "score": 95.32071112269013,
+        "baisse": 0.40210119881524287,
+        "perf_5ans": 0.6531032153880352,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.2480457613059325,
+        "pos_12m": 0.84,
+        "n_12m": 850,
+        "base_moy_12m": 0.19495535078714896,
+        "pire_12m": -0.46656240546403827,
+        "vs_marche_3m": -0.07892142794460588,
+        "devise": "CAD",
+        "prix_eur": 58.82095640016057
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -8% vs marché)",
+        "vs_marche_3m": -0.07892142794460588,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Stantec Inc (TSX:STN): What's Fueling The Buzz? - Kalkine Media",
+            "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeXV1Q1dpbUtPNmJiRWFKbFF2cnVBV0QweEJQOWZ6M2ItMFBYR1l0MnFHNm9UdXN5LWlCemVtQTdwaDBlRDNDSTlUUDl3aTQ5VE9TYXhhU3BVNFhPbkR1MG9TVGw3ZDFLWFFVcC1hT0M5eGRBcVlwam1YazFNWEVlcnFUSmZ2c21TcVZJbS1yLVI?oc=5",
+            "date": "2026-10-05",
+            "source": "Kalkine Media",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Will Stantec (TSX:STN) Ease Changes Amid Strong Smallcap Stocks? - Kalkine Media",
+            "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTkdHU1RBRldrazlmaU1zcVZkVFNvekNOVGdxcHFpN1M3RXJ4QVdlbUhHSE55Z1hwVVlMUER0bW1KUW45QWdwME1SU1FCcW5rZ2NJTWFDQUVtSXI2bVF1ZXM0Mmg5VC1mZnI3ZEQyQkxlMTFkcjh6MVMzaFk2MWZ1bmRNeFhrQ2J4MHkwb19kdzVLU181TXVpc2R5U1IyekU2VEMtNEdUWQ?oc=5",
+            "date": "2026-10-05",
+            "source": "Kalkine Media",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "MarketBeat reports CAD 143.00 target for Stantec stock - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNa3lRU2ZxWURNdW5zZFkwSG1lMWNOc2xjWGE3ZGhYSGxOUVNMdkVoeDloTlFQOUtIYzVPeUo4bFptRnlTaDNtUFNRQzNNX2p3dnI0OFp5UmtLLTRvem9ZZ3hic3d2aUVwUjNWQU9tTGZTY0oyZWxpRDE3czItZkV4a05aZzZEbjZyZUZ5RFp1ZjN5SEl6c0tiN0huY0RKalE3VWJiUEU3SzlzSnFJNktYUm9rRQ?oc=5",
+            "date": "2026-10-05",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Stantec Inc. (TSE:STN) Stock Has Consensus Price Target of C$143.00 According to Analysts - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOQzcydWNVdGtvSHh5QmE5WlpjYnMzTVlFWk54SjEyaGU3Vmh6SmpPNklQNURjWTFJMHlJcEV2UnlHN2xQeGhKdi13ZGFvYUxScHFSdXRnTEFzV2dnd0V5dGRyS05aRmNuVlYyc1plLWJqTjFUZ25MWnk5ZEl6ZVJEY0FWaF9rUWRnZGd2eFlUQmdLbWtqRkJ1WGx3MzZxWVhCeTVZVEQ4RV9kc0hnSF9BTlc2Rmdmb2xsdjdJNk5rT045YVd2Q1BIRmhKc0ROaFg4ckFFRFlxRDJFeHpxc2dsMGR3?oc=5",
+            "date": "2026-10-04",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "How Stantec Inc (STN) Affects Rotational Strategy Timing - Stock Traders Daily",
+            "lien": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQLU1XM3RmTGxZMXV1blhnZXcyT2RxcTlibGtjOFVhckI3WWl1Ujg3SXZMcHA4OVMzYl8zNThKMnQ5cHFFVURNVU1VWjVTd3dNS3hUdWlYaTlKTG83THgyTUxSVXVnUkhiRE9fRGpsSnBib2FMWWVIZjlSS1otSFpkdTQ4cGN1V0x0QWNtZERkTmFiYm5CSUE2QTFrRkRYZmEzV0FJZmNLRHV0R0ZRaVRWR2NkVVhHZzBlS2NNTGMyMUNxZEhiRjRuSTZaU0xSbHc?oc=5",
+            "date": "2026-10-04",
+            "source": "Stock Traders Daily",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 33,
       "decision": "sans réponse"
     }
   ]
