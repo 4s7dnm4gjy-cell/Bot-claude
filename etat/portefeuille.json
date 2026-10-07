@@ -18,89 +18,89 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-07",
-    "cree_le": "2026-10-07T06:22+00:00",
-    "liberation": 119.37484229374478,
+    "cree_le": "2026-10-07T06:53+00:00",
+    "liberation": 125.53400330546594,
     "reserve_pct": null,
-    "score": 95.18129614710355,
+    "score": 95.15094607381526,
     "ordres": [
       {
-        "ticker": "PATK",
+        "ticker": "MGEE",
         "side": "buy",
         "quantity": 2.0,
-        "price": 59.18742114687239,
+        "price": 62.26700165273297,
         "reason": "opportunité radar (score 95)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "PATK",
-      "nom": "Patrick Industries, Inc.",
-      "isin": "PATK",
+      "ticker": "MGEE",
+      "nom": "MGE Energy, Inc.",
+      "isin": "MGEE",
       "type": "action",
-      "prix": 66.6449966430664,
-      "score": 95.18129614710355,
-      "baisse": 0.536169445662759,
-      "perf_5ans": 0.31164277785060257,
+      "prix": 70.11260223388672,
+      "score": 95.15094607381526,
+      "baisse": 0.17467063563875285,
+      "perf_5ans": 0.045745837920187826,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.7891122384587087,
-      "pos_12m": 0.6584992343032159,
-      "n_12m": 653,
-      "base_moy_12m": 0.5127142965742401,
-      "pire_12m": -0.9686369179351028,
-      "vs_marche_3m": -0.2418877449470097,
+      "moy_12m": 0.1568749962134674,
+      "pos_12m": 0.8240495137046862,
+      "n_12m": 1131,
+      "base_moy_12m": 0.10460678020535553,
+      "pire_12m": -0.16934270975502552,
+      "vs_marche_3m": -0.1893845174558515,
       "devise": "USD",
-      "prix_eur": 59.18742114687239
+      "prix_eur": 62.26700165273297
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -24% vs marché)",
-      "vs_marche_3m": -0.2418877449470097,
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -19% vs marché)",
+      "vs_marche_3m": -0.1893845174558515,
       "alertes": [],
       "recents": [
         {
-          "titre": "Patrick Industries stock hits 52-week low at 66.13 USD - Investing.com",
-          "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU2t1N3JMLUotb3huV2h2dnVLeXYxREtaY0dwVlBxTU9fdTV1emhoQVUwbTIyZXJ2eGN2emFJUEFRWi1KYldxa2VzaS16T0lYT1pwZk9USHN6ZWkyMWpoTml1aWZ4RkRXcElLcjNoNkVJdFZjX0Ewc29oWV9tdFNxYi1yeElUZFFEMmltWURTSW5qWU1FZFpid21TblhFMmI0Y3NnbG5FTkpSYUc4MkE?oc=5",
-          "date": "2026-10-06",
+          "titre": "MGE Energy Extends Credit Facilities to Support Liquidity - TipRanks",
+          "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQU2tmV1BBX0FFeEFOeElaV0RGaTdKWWJfbGgwRmg2R0FzZEFySDM1LU9nTERFUVJ6UHNweHNTZnViVVBZVDM3OURnS0FRQ3BmZTVoQk1OQzhFUkRndDNrM09NVnVBLTY0Mm9tSmZaZnlEQU9nak9tUkhqZGJpbnNpZVVqT09LanY5UElxS3JxZU1RTkZ1ZUlZb3FlSDVkdGRzMUJGbkxfMzFCRVk1Vmc?oc=5",
+          "date": "2026-10-05",
+          "source": "TipRanks",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "How Mge Energy Inc. (MGEE) Affects Rotational Strategy Timing - Stock Traders Daily",
+          "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQODhIUlZEVGR5T3lqUDRscFhBbFBOM3BmeXFabmRnZ0hXcFFMajlLUnota2RHb194Zkt6OTJsUVVlYWNNVVdXVTdsMGZuRTZ2anU1SGk4cjJZZzlDa1VoQWtraE0wc1lKalduR0pnSXJmVmpDMml4Nm0weEFDWFpWbXc1MnNPTlExYy14VFZIRFg3bHRxelB1WmltZlFYY1Y2WFdxWWdXRkhxa2lmUmVhWkItT0VWNWFrZ2NBQWdCZkdoVFEzR3VBOEtJYVE3M0FSbWRKTTFR?oc=5",
+          "date": "2026-10-02",
+          "source": "Stock Traders Daily",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "MGE Energy Inc. (MGEE) Stock Forecasts - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcUUzRXVpUkxLM2lDNWRNYWozNV8td1IzV29iME5rcmxxNFZHQm1LT09jRHZ2OUFkOW1OM3hrZ0pzM25KZzdQTndNZkFqbTlPNGZ1Z2Qwd3RIYWJ6cDNNTVAtZ01PSlE2ZDlVbGIyYm5MQVh6Z3dLZXpZWXFjZzFEdS1WTHRidFpMcjd1MWwxaw?oc=5",
+          "date": "2026-10-01",
+          "source": "Yahoo Finance",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "MGE Energy Inc. $MGEE Shares Newly Acquired by Bank of America Corp DE - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSVk2UzZ2SEJpdUMybzFhVDZ2Mk9pVEZxc3IxYWNHTmRqR182amxzSENYZDdnUHhFbnphc0IybmZ2QVFvMkJCUzNTazU2aE4tQ3VtUzVGUWJ1ZG5BMnVGVzNfcWZmbm1GVkJhOTZ5WFJLS05qcHQtR0I4N3dHeVFwTmpkSzM5a0xsRUM5eUxKaFFPVzh1cDRZN1NFRHhOdy1KTUV1MzdONFhDQlJZa1BUR1pRbXlqWExpRDRiajZUVnpPejJjYmtzNA?oc=5",
+          "date": "2026-09-28",
+          "source": "MarketBeat",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "BofA initiates MGE Energy stock coverage with neutral rating - Investing.com",
+          "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRFVHdFo0QkZjQldVZ0lxUU0yWnN0ZVpTR0RRb1hJeUloMjRscnV6ckV0OXUxeWNnbGx3V1YtY2kwbV85UWw2OFBEa0s5MXFhMGowNnpYYmlHV1d6cWxXRGJhU2xWUEJQaHdrNl9RdDhndW5rVDZzVngxMFZNUjdSbUJ2YXFQM2RhM256Sk5mMEhOVkhnUktkTlB2MHZXT1Z5VXBrWmhJNzlGQ054eVFFTWxMaW9aN3ZEb3NTXw?oc=5",
+          "date": "2026-09-24",
           "source": "Investing.com",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Patrick Industries stock faces a key LCI merger test - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUHNPVU13dUpXZmNKa2h4TkJNaFdXaUdhbmZPOXlYdFoyR0hLMTdqUW5QalBMMVZrZGwwc2RYWTU1c0U1bVk1VlJlTkhIU19QWS1rRmE4dy1aSEJlbkhOQ1A3cWxTczhCcjlleFd0M1M5Qy1qUVR1X25WcVdad2Z2Qy1rNzltRG00MTFOWG1EUkM2WHViR2ozSWx4aDJBVW5BZGQxQWhVc1p3WDVIWGJtSW00RllDUQ?oc=5",
-          "date": "2026-10-06",
-          "source": "AD HOC NEWS",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Patrick Industries stock hits 52-week low at 66.13 USD By Investing.com - Investing.com South Africa",
-          "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ0JjMXRCZE1mUk0xYmJjMUFtc1ZHR0g3cEluTE1oOEJBcHEyUU9SbFVSdGtONng2LUowVVlzbGgyTmVsbnpuNTlYc2NXS2dYTmFoZW5OcGdqSXkxQ0R1cWprS0ZhSVVkRjRRSTFtQnFKWkFQbkw3akJpd0ZSQ3lRaml2TTQwV2FpbExXQnRpOHUxVWFkcVZGdFZWR0xsd0dZVWU5M2VES2otVWRUUXF3NkNjaw?oc=5",
-          "date": "2026-10-06",
-          "source": "Investing.com South Africa",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Baird keeps Hold rating on Patrick Industries stock at USD 84 target - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORVNzM28wNlU3dFhIR3hBV1hIZGI1OWs1RnR3WGpHTVZnelBkdFdnODlqeHRHYkJ2eVBFYTRyNVRkdHBDZ0hIN1JNVHkwVkplTW5rcXdoeG5Rc0tHTEdadS1PM25VcFhWcktmX2l3RUR4OExNM3lOY01QbmFHWGoxWjFsOTdneDlPOUZSZktmNTBpZnFETXlYekV6aU9DRnVNMWZkbERIUkVZaHRoYVBJYnVYdzhiTWFBM2lOZW9mTlZPc2E2QkE?oc=5",
-          "date": "2026-10-05",
-          "source": "AD HOC NEWS",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Patrick Industries stock faces merger hurdle near yearly low - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNm9YQWNvNHF1VFB4aV9UOVpIa2xYTy16d1Z1aTZ6Zm10aDFNY0d2WWZaTjlWUnZFalJPdmRSNURvX2NjT05oczQzd1A5NzJKdmFqLUVoa3VyeENhYTJ2ZnNYbWd5OWE5VllFeGJXUFVjeEEza0hycllDSUF4UjRYdUtEUUhuc0NJTy1rWWp1bFJuRTJyeUk2QmUwek0yWXJrbXE4WFNwT0dvc2JyWVk2LUdzdmh3eVlvaUQwdWpsaEc?oc=5",
-          "date": "2026-10-05",
-          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 15
+    "ticket": 16
   },
   "radar_proposes": [
     "MCD",
@@ -118,7 +118,8 @@
     "FER",
     "LVS",
     "APE.AX",
-    "PATK"
+    "PATK",
+    "MGEE"
   ],
   "achats": [],
   "historique": [
@@ -1435,6 +1436,94 @@
         ]
       },
       "ticket": 14,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-07",
+      "cree_le": "2026-10-07T06:22+00:00",
+      "liberation": 119.37484229374478,
+      "reserve_pct": null,
+      "score": 95.18129614710355,
+      "ordres": [
+        {
+          "ticker": "PATK",
+          "side": "buy",
+          "quantity": 2.0,
+          "price": 59.18742114687239,
+          "reason": "opportunité radar (score 95)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "PATK",
+        "nom": "Patrick Industries, Inc.",
+        "isin": "PATK",
+        "type": "action",
+        "prix": 66.6449966430664,
+        "score": 95.18129614710355,
+        "baisse": 0.536169445662759,
+        "perf_5ans": 0.31164277785060257,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.7891122384587087,
+        "pos_12m": 0.6584992343032159,
+        "n_12m": 653,
+        "base_moy_12m": 0.5127142965742401,
+        "pire_12m": -0.9686369179351028,
+        "vs_marche_3m": -0.2418877449470097,
+        "devise": "USD",
+        "prix_eur": 59.18742114687239
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -24% vs marché)",
+        "vs_marche_3m": -0.2418877449470097,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Patrick Industries stock hits 52-week low at 66.13 USD - Investing.com",
+            "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU2t1N3JMLUotb3huV2h2dnVLeXYxREtaY0dwVlBxTU9fdTV1emhoQVUwbTIyZXJ2eGN2emFJUEFRWi1KYldxa2VzaS16T0lYT1pwZk9USHN6ZWkyMWpoTml1aWZ4RkRXcElLcjNoNkVJdFZjX0Ewc29oWV9tdFNxYi1yeElUZFFEMmltWURTSW5qWU1FZFpid21TblhFMmI0Y3NnbG5FTkpSYUc4MkE?oc=5",
+            "date": "2026-10-06",
+            "source": "Investing.com",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Patrick Industries stock faces a key LCI merger test - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUHNPVU13dUpXZmNKa2h4TkJNaFdXaUdhbmZPOXlYdFoyR0hLMTdqUW5QalBMMVZrZGwwc2RYWTU1c0U1bVk1VlJlTkhIU19QWS1rRmE4dy1aSEJlbkhOQ1A3cWxTczhCcjlleFd0M1M5Qy1qUVR1X25WcVdad2Z2Qy1rNzltRG00MTFOWG1EUkM2WHViR2ozSWx4aDJBVW5BZGQxQWhVc1p3WDVIWGJtSW00RllDUQ?oc=5",
+            "date": "2026-10-06",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Patrick Industries stock hits 52-week low at 66.13 USD By Investing.com - Investing.com South Africa",
+            "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ0JjMXRCZE1mUk0xYmJjMUFtc1ZHR0g3cEluTE1oOEJBcHEyUU9SbFVSdGtONng2LUowVVlzbGgyTmVsbnpuNTlYc2NXS2dYTmFoZW5OcGdqSXkxQ0R1cWprS0ZhSVVkRjRRSTFtQnFKWkFQbkw3akJpd0ZSQ3lRaml2TTQwV2FpbExXQnRpOHUxVWFkcVZGdFZWR0xsd0dZVWU5M2VES2otVWRUUXF3NkNjaw?oc=5",
+            "date": "2026-10-06",
+            "source": "Investing.com South Africa",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Baird keeps Hold rating on Patrick Industries stock at USD 84 target - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORVNzM28wNlU3dFhIR3hBV1hIZGI1OWs1RnR3WGpHTVZnelBkdFdnODlqeHRHYkJ2eVBFYTRyNVRkdHBDZ0hIN1JNVHkwVkplTW5rcXdoeG5Rc0tHTEdadS1PM25VcFhWcktmX2l3RUR4OExNM3lOY01QbmFHWGoxWjFsOTdneDlPOUZSZktmNTBpZnFETXlYekV6aU9DRnVNMWZkbERIUkVZaHRoYVBJYnVYdzhiTWFBM2lOZW9mTlZPc2E2QkE?oc=5",
+            "date": "2026-10-05",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Patrick Industries stock faces merger hurdle near yearly low - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNm9YQWNvNHF1VFB4aV9UOVpIa2xYTy16d1Z1aTZ6Zm10aDFNY0d2WWZaTjlWUnZFalJPdmRSNURvX2NjT05oczQzd1A5NzJKdmFqLUVoa3VyeENhYTJ2ZnNYbWd5OWE5VllFeGJXUFVjeEEza0hycllDSUF4UjRYdUtEUUhuc0NJTy1rWWp1bFJuRTJyeUk2QmUwek0yWXJrbXE4WFNwT0dvc2JyWVk2LUdzdmh3eVlvaUQwdWpsaEc?oc=5",
+            "date": "2026-10-05",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 15,
       "decision": "sans réponse"
     }
   ]
