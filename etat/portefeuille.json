@@ -18,89 +18,110 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-07",
-    "cree_le": "2026-10-07T18:21+00:00",
-    "liberation": 146.37461470993077,
+    "cree_le": "2026-10-07T18:52+00:00",
+    "liberation": 123.548867374976,
     "reserve_pct": null,
-    "score": 96.51515700447632,
+    "score": 95.57899458163917,
     "ordres": [
       {
-        "ticker": "GOLF",
+        "ticker": "EMA.TO",
         "side": "buy",
-        "quantity": 2.0,
-        "price": 72.68730735496538,
-        "reason": "opportunité radar (score 97)"
+        "quantity": 3.0,
+        "price": 40.849622458325335,
+        "reason": "opportunité radar (score 96)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "GOLF",
-      "nom": "Acushnet Company",
-      "isin": "GOLF",
+      "ticker": "EMA.TO",
+      "nom": "Emera Incorporated",
+      "isin": "EMA.TO",
       "type": "action",
-      "prix": 81.41500091552734,
-      "score": 96.51515700447632,
-      "baisse": 0.31109871188334925,
-      "perf_5ans": 0.8664347796277319,
+      "prix": 65.3499984741211,
+      "score": 95.57899458163917,
+      "baisse": 0.14875896801091426,
+      "perf_5ans": 0.47823217648379046,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.36515840206073574,
-      "pos_12m": 0.9432314410480349,
-      "n_12m": 229,
-      "base_moy_12m": 0.23894670087261377,
-      "pire_12m": -0.13787478593696623,
-      "vs_marche_3m": -0.3137109814548562,
-      "devise": "USD",
-      "prix_eur": 72.68730735496538
+      "moy_12m": 0.19195745538174613,
+      "pos_12m": 0.9138613861386139,
+      "n_12m": 1010,
+      "base_moy_12m": 0.12565847831862428,
+      "pire_12m": -0.14652577183334825,
+      "vs_marche_3m": -0.1686515646386938,
+      "devise": "CAD",
+      "prix_eur": 40.849622458325335
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -31% vs marché)",
-      "vs_marche_3m": -0.3137109814548562,
-      "alertes": [],
+      "resume": "à vérifier : baisse bien plus forte que le marché, 2 article(s) à regarder (3 mois : -17% vs marché)",
+      "vs_marche_3m": -0.1686515646386938,
+      "alertes": [
+        {
+          "titre": "Canadian Investment Regulatory Organization Trading Halt - IVQ - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPR0ZVWlpEeWdZZ3BaRmtZNmxFMGZMZThndElpV0l4Tm1LN01haDBMVEw5NGlsb2RvMmVQUXp3N09vNERONHZyelZVTTUxZW5yQk9HQkdfejJSSzdnaHlSUEd1SGt4VmtueTJ1aHdWd3padngxSDZGNDNYS1pqVTEweW5vbG5CMWJIVFZBNFRvVXZWYjlGTmZQc2Q5ZlpqdTlTT1E?oc=5",
+          "date": "2026-10-01",
+          "source": "Yahoo! Finance Canada",
+          "gravite": 1,
+          "mots": [
+            "trading halt"
+          ]
+        },
+        {
+          "titre": "LIV Golf in line to get initial investment as it tries to emerge from bankruptcy - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOVp5Snd0dEVfelYxSk0xS3NuX0JVOTVTOFd3b1Y4SkpTQ2JHcUxiaEdhQ0FwTUJZT2dsZ0hsR3B0VEIwQWRWLXZSNWxFbDhGZTdjSDVodmhHb0lyeml2SjJSOW5QeUV5Y2t1UHN5RHh2eWU3YmQ5ME1jMTNoaHJ2QXVHV1AzY2FF?oc=5",
+          "date": "2026-10-06",
+          "source": "Yahoo! Finance Canada",
+          "gravite": 1,
+          "mots": [
+            "bankruptcy"
+          ]
+        }
+      ],
       "recents": [
         {
-          "titre": "Inside Titleist’s Golf Ball Facilities - GolfWRX",
-          "lien": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1SdjlsZGdabVExQTlPaURHQlNIdmRONDBoTVBYTHVRUEhBTWJESmFoX0FpdVpaODFheDZLcHpia0w1NXk4V1hiZUZHR2pyYXZtSUJkaVNjSWlScXVtc2QxUUU0X0dHRVVoLTd4Q1JTY0pDN1k?oc=5",
+          "titre": "What Is Emera (TSX:EMA) Planning With Its Canadian Energy Champion Agreement? - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMmR0V3Y1U3lEQUQzNTFXS3lWa1JvRHFGY01YLXFCMjI3R19xLWlHMFVTRF9YYUJNNWlPbjRqRk9fcE03eEl6MG5QcHAwMW5GT2Q3bVJ6MVhtczFMV3ZJUFJaUHUxbGtyZXRYVVhudXRlM0ZXMWJmR1Y4YjVqWWFvSE1tSlVua3dHOUJSSXN6UXdtQQ?oc=5",
+          "date": "2026-10-07",
+          "source": "Yahoo Finance",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Emera stock fell 2.91 percent on October 6 as merger took shape - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYlZCR1Bsd1BKNlFoOThzLTFiMS1Obm05YTBKTW9EUkNRakhBRWwyb3JJa0tkYXYzYlBOTUVkVG4ydjFzbzk5NUZUclltYWtpSVczaWZYOFNrZFp1aFUyZ1N4VVlTcVZpeVJzbEl2MUtrYWo5R2VkYzNvV3c5aXNhY0ZxVEVVdVpHYzF6eU5JSG9mdlZEdlJxYks2YTJNNXFpdTI5QnBlVXJQVkpiT3o5WkFFajRQclVsTTNRaTBIRQ?oc=5",
+          "date": "2026-10-07",
+          "source": "AD HOC NEWS",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Transcript : Canadian Utilities Limited, Emera Incorporated - M&A Call - Zonebourse",
+          "lien": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNaHNaV2JoYl81dFI2MTNYTi1Lb3VIYkp5TUNrVzJvWlVITTFQYzgybUNPZXFpVW9BODZ3Z2gtdGg2Ry1sbWZBRXFKOWxBck05TS16Mkl6OWNrYlJNSTJlRi1sb3RmdTFkdWQwUUZGMmx3RlYyQ0thYkxuUnYwcDRvQ2E0U3pFWFJtNlVNb2ZNTVMwazg1YktGVWd5UURoaF9wWW1BWDVuVnQ2OVdEMm9QRG9XbEF3V2FsUW5HWUgteThvRy1iNHI1aDk5dHY1bFFqdF96cEZEclVrWXVTcmlsUjNDeGZna0U?oc=5",
           "date": "2026-10-06",
-          "source": "GolfWRX",
+          "source": "Zonebourse",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Now on Tour: New Titleist Pro V1 and Pro V1x Begin Global Validation Phase in Japan - Titleist Newsroom",
-          "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPX2VnUlZxRVNRWmp0VU9JS3NicHI4ZXhIZzlJSkEtbkQtcndBRThaRC1vR29jY2s1ZGJaZmtFS1F4NmcyNWNBT0otR2o2OXByLWpacUNtX2dHamFRTGJoOWdZM2Q1X3lPejVGYVJkU2w0QXpvQXFiUzUwcl9FXzFaTTlmandKc3l6VlNfQUhBRTFtYTFVb1V4cEpCNFQ0Rlo5aUNCRWZmdzZ1V0N1ZU0xSWI5Tm91N05IaGVFeHhPZWh0WWhtZ3lLcw?oc=5",
-          "date": "2026-10-04",
-          "source": "Titleist Newsroom",
+          "titre": "Le TSX atteint son plus haut niveau en 11 jours, les rendements obligataires refluent - Zonebourse Suisse",
+          "lien": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPU1RMbkZoVjJ3SWJaLV83djZTZGVhTHBMMFVFVXdQTDlYTWNwQjJEbmxFN190Uy1SSnltbmg5aXI3dHh1Y0ZMbWZlZ1ExU3ozY3k3NWJOQkVORXFZOTRxVmZrWWptbmJkLXl1dWVIQVpKODdlcjg1eFk1eVdjSTM1eV8zX2ZVQkxMd0Z1N0Uzd3VrOE1OLVlTbG5XRFNVTnBXcDg2c0J3SmNJUmNIMXpsQXY0TlcxZXdoZXpqaGNJYnFwbzdoRmN6cjY5Y3dhSmJVRTdJRVg5THRieGxm?oc=5",
+          "date": "2026-10-06",
+          "source": "Zonebourse Suisse",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Acushnet (NYSE:GOLF) Stock Now Rated \"Hold\" by Sell-Side Brokerages - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaUYxeE1lOFA0Zy01NGZaR3NwWi01SXpvMldoM21DeC1oX2U0U29pRDZjY1QwOE5YRExQdXZlTXBnNVJBT1hOTmhWVGFUOVlDRmZSM3BDaHFuSmh4SzNKaERXTlVsV0FYQjhPc000OU5kWmRqRHdIeFI3X182VXR4VDUweEh6VHBMbUJBUGx2Ml8xNlhHNGV6aF9jV2VXWDV3b0trZHQtV3ZtUzJoLTRCN0hXUmEwQVNGdk5kNU5hcjBzUlJ5Ymc?oc=5",
-          "date": "2026-09-26",
-          "source": "MarketBeat",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "166,469 Shares in Acushnet $GOLF Bought by Bank of America Corp DE - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSkZkcW1mRU1mN2NRWnhobnc0QVQwLVVvZjRnVDI0dV85RWh5Zjh6VldxelNJdzdwY3JTOS1TektuV0cxYzFWcjZMbVRNaWVWTDUxU1NmZWszRXVaNVB3eTQ5NkdwTGJKU3ZqcDBRNC1YMnkyanZYcnJFTUg0T0h5eGlNTklFM1RvejNBQnFhcEVocTVMZWF1X1FrZDdvWTNHZE5pXzZXWkYzc2tvblpFclE3cUI1TEVvZWtTVjQ5OFBNVlU?oc=5",
-          "date": "2026-09-25",
-          "source": "MarketBeat",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Scotty Cameron® Introduces Limited-Edition Phantom OC Spec III Putters - Titleist Newsroom",
-          "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRThkZXpsa3ljQV9XMzVHZnlmU2RwZVl4N1U4SFkxaGNGUWhOYWFEZkVnd3dyQy1RanhPcVI1R0Jhc0h1REZsMmJqQmVITTZVcEtTSTYxN2lEb0huRnRkckZhRWVMQ0s1TlNPLWpaM3g4MWRtcFE2dzlUWl91aFpSTDFDN1ZxZTVBNWNtQ050akNfbExjQjEyc0l1bTdMZlM4NG43MTF0LUV5MFhiNVo1b1FZRlA2Q0k?oc=5",
-          "date": "2026-09-22",
-          "source": "Titleist Newsroom",
+          "titre": "Canadian Utilities Limited (CU:CA) Emera Incorporated - M&A Call - Slideshow (TSX:CU:CA) 2026-10-06 - Seeking Alpha",
+          "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNY0lMRlM3U2lHbXo0SjRucHNBMUd1cE5FMmg1eTg3Qi01dkVmVjJyX1JqZE9nU0FkSnkzanA0aXpGdGpYUXZhU2NqX2Q0LVVUcWxVa3dYVHEweldvOW9rUC1XMVRDU01ubzE3b2I3ZVFTSDJDaE5iWHZlQ1M2S2sxUm42YmVQa0ZWVXh2YkdMblo5TWNHOVNROElUdXQzN2t1V3UtOWxGUDVpamFfRkRkMVZ4c1pNQQ?oc=5",
+          "date": "2026-10-06",
+          "source": "Seeking Alpha",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 31
+    "ticket": 32
   },
   "radar_proposes": [
     "MCD",
@@ -135,7 +156,8 @@
     "GLPI",
     "CW",
     "CRH",
-    "GOLF"
+    "GOLF",
+    "EMA.TO"
   ],
   "achats": [],
   "historique": [
@@ -2958,6 +2980,94 @@
         ]
       },
       "ticket": 30,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-07",
+      "cree_le": "2026-10-07T18:21+00:00",
+      "liberation": 146.37461470993077,
+      "reserve_pct": null,
+      "score": 96.51515700447632,
+      "ordres": [
+        {
+          "ticker": "GOLF",
+          "side": "buy",
+          "quantity": 2.0,
+          "price": 72.68730735496538,
+          "reason": "opportunité radar (score 97)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "GOLF",
+        "nom": "Acushnet Company",
+        "isin": "GOLF",
+        "type": "action",
+        "prix": 81.41500091552734,
+        "score": 96.51515700447632,
+        "baisse": 0.31109871188334925,
+        "perf_5ans": 0.8664347796277319,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.36515840206073574,
+        "pos_12m": 0.9432314410480349,
+        "n_12m": 229,
+        "base_moy_12m": 0.23894670087261377,
+        "pire_12m": -0.13787478593696623,
+        "vs_marche_3m": -0.3137109814548562,
+        "devise": "USD",
+        "prix_eur": 72.68730735496538
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -31% vs marché)",
+        "vs_marche_3m": -0.3137109814548562,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Inside Titleist’s Golf Ball Facilities - GolfWRX",
+            "lien": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1SdjlsZGdabVExQTlPaURHQlNIdmRONDBoTVBYTHVRUEhBTWJESmFoX0FpdVpaODFheDZLcHpia0w1NXk4V1hiZUZHR2pyYXZtSUJkaVNjSWlScXVtc2QxUUU0X0dHRVVoLTd4Q1JTY0pDN1k?oc=5",
+            "date": "2026-10-06",
+            "source": "GolfWRX",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Now on Tour: New Titleist Pro V1 and Pro V1x Begin Global Validation Phase in Japan - Titleist Newsroom",
+            "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPX2VnUlZxRVNRWmp0VU9JS3NicHI4ZXhIZzlJSkEtbkQtcndBRThaRC1vR29jY2s1ZGJaZmtFS1F4NmcyNWNBT0otR2o2OXByLWpacUNtX2dHamFRTGJoOWdZM2Q1X3lPejVGYVJkU2w0QXpvQXFiUzUwcl9FXzFaTTlmandKc3l6VlNfQUhBRTFtYTFVb1V4cEpCNFQ0Rlo5aUNCRWZmdzZ1V0N1ZU0xSWI5Tm91N05IaGVFeHhPZWh0WWhtZ3lLcw?oc=5",
+            "date": "2026-10-04",
+            "source": "Titleist Newsroom",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Acushnet (NYSE:GOLF) Stock Now Rated \"Hold\" by Sell-Side Brokerages - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaUYxeE1lOFA0Zy01NGZaR3NwWi01SXpvMldoM21DeC1oX2U0U29pRDZjY1QwOE5YRExQdXZlTXBnNVJBT1hOTmhWVGFUOVlDRmZSM3BDaHFuSmh4SzNKaERXTlVsV0FYQjhPc000OU5kWmRqRHdIeFI3X182VXR4VDUweEh6VHBMbUJBUGx2Ml8xNlhHNGV6aF9jV2VXWDV3b0trZHQtV3ZtUzJoLTRCN0hXUmEwQVNGdk5kNU5hcjBzUlJ5Ymc?oc=5",
+            "date": "2026-09-26",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "166,469 Shares in Acushnet $GOLF Bought by Bank of America Corp DE - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSkZkcW1mRU1mN2NRWnhobnc0QVQwLVVvZjRnVDI0dV85RWh5Zjh6VldxelNJdzdwY3JTOS1TektuV0cxYzFWcjZMbVRNaWVWTDUxU1NmZWszRXVaNVB3eTQ5NkdwTGJKU3ZqcDBRNC1YMnkyanZYcnJFTUg0T0h5eGlNTklFM1RvejNBQnFhcEVocTVMZWF1X1FrZDdvWTNHZE5pXzZXWkYzc2tvblpFclE3cUI1TEVvZWtTVjQ5OFBNVlU?oc=5",
+            "date": "2026-09-25",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Scotty Cameron® Introduces Limited-Edition Phantom OC Spec III Putters - Titleist Newsroom",
+            "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRThkZXpsa3ljQV9XMzVHZnlmU2RwZVl4N1U4SFkxaGNGUWhOYWFEZkVnd3dyQy1RanhPcVI1R0Jhc0h1REZsMmJqQmVITTZVcEtTSTYxN2lEb0huRnRkckZhRWVMQ0s1TlNPLWpaM3g4MWRtcFE2dzlUWl91aFpSTDFDN1ZxZTVBNWNtQ050akNfbExjQjEyc0l1bTdMZlM4NG43MTF0LUV5MFhiNVo1b1FZRlA2Q0k?oc=5",
+            "date": "2026-09-22",
+            "source": "Titleist Newsroom",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 31,
       "decision": "sans réponse"
     }
   ]
