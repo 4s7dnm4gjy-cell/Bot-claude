@@ -18,89 +18,89 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-07",
-    "cree_le": "2026-10-07T15:29+00:00",
-    "liberation": 235.3695831070808,
+    "cree_le": "2026-10-07T16:20+00:00",
+    "liberation": 263.984166011421,
     "reserve_pct": null,
-    "score": 93.81798829192945,
+    "score": 93.80678468078268,
     "ordres": [
       {
-        "ticker": "HII",
+        "ticker": "WINA",
         "side": "buy",
         "quantity": 1.0,
-        "price": 234.3695831070808,
+        "price": 262.984166011421,
         "reason": "opportunité radar (score 94)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "HII",
-      "nom": "Huntington Ingalls Industries",
-      "isin": "HII",
+      "ticker": "WINA",
+      "nom": "Winmark",
+      "isin": "WINA",
       "type": "action",
-      "prix": 263.8999938964844,
-      "score": 93.81798829192945,
-      "baisse": 0.4131403863193145,
-      "perf_5ans": 0.48969159720207633,
+      "prix": 296.1199951171875,
+      "score": 93.80678468078268,
+      "baisse": 0.3915720152697977,
+      "perf_5ans": 0.5665178732510638,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.30069541347341694,
-      "pos_12m": 0.821917808219178,
-      "n_12m": 730,
-      "base_moy_12m": 0.16093917268446373,
-      "pire_12m": -0.30413756038201534,
-      "vs_marche_3m": -0.13129958596064473,
+      "moy_12m": 0.3560792664004908,
+      "pos_12m": 0.8509036144578314,
+      "n_12m": 664,
+      "base_moy_12m": 0.222310768424179,
+      "pire_12m": -0.5055553923390248,
+      "vs_marche_3m": -0.2986485927394681,
       "devise": "USD",
-      "prix_eur": 234.3695831070808
+      "prix_eur": 262.984166011421
     },
     "actualites": {
-      "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -13% vs marché)",
-      "vs_marche_3m": -0.13129958596064473,
+      "verdict": "orange",
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -30% vs marché)",
+      "vs_marche_3m": -0.2986485927394681,
       "alertes": [],
       "recents": [
         {
-          "titre": "Anduril va construire un chantier naval de 6,6 milliards de dollars pour fabriquer des sous-marins américains de classe Virginia - Business AM",
-          "lien": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWXZXMkEtZ0lBU2lnZFNHSHY0eXhFUVY4S2tlV01wOWZwSTlqZ3hTb1FOQmxDYVd3NnlvS184Nm05ZGNIVm96MUpNVG1kb0hfU2tIVjhxRUlrb2oxWU0zYm5GRnN4X1ZmRVZwbjJlMlpQMlR4OXlLRmhpbGZyMWZVRDVQeWV6QVlpUlgxVFQ2dXNZX1FiZGZXd2ZobXJQLWJpWk9qZFRYb1VfRG1FWDdzNk90QU1qcDBRdmJPSHNmdWlRUHNsZEo1Q2pNT1JQakxPWEVkOG1XLVR5Sk1hWHBjT2wteVFFSk1t?oc=5",
-          "date": "2026-10-07",
-          "source": "Business AM",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Maryland : Arsenal-2 et la relance de la production de sous-marins américains - Armees.com",
-          "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1MQWZYU2NjNWdRRG5XOGlIMFM0aENHTW03THFTejlKMk5WSnVGamRQUkc3OE1zUWY0bFdqZkdldF9CQkVudXlnbzhiY21MdmhlMGt5NTFmd05lTVVTOWNYNmVIRDBWUGJKLUxXOTVFWWdmU3I1emRWb1ln?oc=5",
-          "date": "2026-10-07",
-          "source": "Armees.com",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Maryland : 6,6 milliards de dollars pour transformer Sparrows Point en hub naval - Economie Matin",
-          "lien": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaEtiUEJPM0czZ1dYOUJzbG5mcU5MWmFXZnJPT3hBQ2g1YW9sY2lha3RDaGs5eVF4b2JQR0R1Zkt3N2ppU2d6dk9UTlQ2TGZLUEktY1NjQkVGNXFuX2RqaTl1ZjdtY0RjQWZTZTNxaDlMaFBEZjJiUF9PRTBWaENPbDRxSldXamlLajEtaw?oc=5",
-          "date": "2026-10-07",
-          "source": "Economie Matin",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Research Analysts Set Expectations for HII FY2028 Earnings - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWDBubHJ4U3o3a19OeDRFaVQtV3F4NndCQmpPUlNmN2dDRnNfT0ppZDVJeURzMC1QSmF5V0k4cHlkSFloUDBuZVRsLVNoSkUzbzdMTmxkUXJkdVNGWjF6NzJoU2VtUW9RclFUcWV0aG9YcEQ0cXZUMWlIUmprWnRFd0hUOXc5WGEtQTRPUlNVemgwSnc0ejg2V2RpbktuZERNczhtMkNLTDVZRXNUSGJGa0l6d0QzT3ZWcjAtVTdXUQ?oc=5",
+          "titre": "7,361 Winmark Corporation $WINA Shares Purchased by Congress Asset Management Co. - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaGN4WEV3dkt0emVTM3YxcFpXSGxhWGxEdmkwVTdEQUxsTzRNM0xNeTkzX3JUMFhyV1ZUMW1iY2U1di1lV1ZoZUlTQW1YWkZ5eXBSTC1NdGpWVlhmeHAtb3RRR2lSMmZPNGh5TWdZSEhvZzBlY1RBNGlCaVBTaXoxQXI2Mkx1dlZNWXBmNXNnUmMzWTRMWmc2YjFmb3c0Tlg0aWlZLUZ1ZFViYzF3Z2dOR2dwdFVrWHdXTkFjSFUwd3llOGl0UXFheU5JVnRZQ2lwdEhvUDJB?oc=5",
           "date": "2026-10-07",
           "source": "MarketBeat",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Anduril unveils plans for $3.7b submarine component production facility - Baird Maritime",
-          "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOREkzd1FERzNuMVQ2UV9ESnFYbkZvMDRibU9wTE82QnVjNUNicHI2TS1MYjRtcV9CU21EYzFYRi1xUkdieWRaV0xhSG9qSFY2SFB6TWlOcFNaSERlcmF6Z3dxS29tYW92TU5zZklaZzAzUjdyV1h0RzFRbUROYk1RM2h4QThqU1h3RWRPSGhrZ0NtUU1sUzZ0N2hPYUhpYnNMYS0tWVVQeWYzU2lKMjRj0gG8AUFVX3lxTE5IcjlndDBVaGJfTEY4RmRQNWI0bWVpdzNPQ1J0czB3YldYVTdtWklxQU44ZWctTkJtbFExZlEzU251UjJJVHlkQzVSQ05hZGZBVDl2SzNacmJuanNINDhOTktCaEJXOUwyQ25obHRDQkFXaERLTDlBMnlTSUhhdnpSa2ZlLWxSUEZJN1BCdU9DM0pob0NwSDNEcDY2MG9LYjlJWVV0c3U2dlUtSHg0SWxCVks0V1pJX3lhSjA4?oc=5",
-          "date": "2026-10-07",
-          "source": "Baird Maritime",
+          "titre": "Price-Driven Insight from (WINA) for Rule-Based Strategy - Stock Traders Daily",
+          "lien": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQc1cwUVJsbkx5el8yUWxzWFIzQXc1VThiUVJOWVpjeGZOY0JaRGtIclhyTWpDSnIxR3lPM1VVNi1KQWxVQTRzVzVvYVlFNVE3N0g4X3hZUzNiOGJJektpX2VnMmRhWmVUYmhyYzM1YXFLZFppRGpxUjM1dlNUdjMzaEtDUTJvV1hFMTlVTzAxX1JOUVU3ZE0wN2tYb29KWDlLemZnX1h2azJtRW9ZWFlkRzZZclBJTEtudm5aeUh3czlEMGsyemdwd0oyZHlDZnM?oc=5",
+          "date": "2026-10-04",
+          "source": "Stock Traders Daily",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Winmark Corporation (WINA) Stock Forecasts - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZE5TUWI4V0tJNFlldS12SjlncTljaG5qLXBmZlYtVzFVd3lGc2wzalUtbW9Zck9VbWdOSzNvZWdqdFNCOGM5OUhzMWdyVUZhT3gzd2JmZDN0d003ek9FYWU4NFV2a245VHZ2SFVHSWFpRXprVktpMUdUbjBQQkd5bGRhMVVnWUYtVG55SV9YQQ?oc=5",
+          "date": "2026-10-03",
+          "source": "Yahoo Finance",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Winmark Is Still Trading At A Premium After Its Plunge (NASDAQ:WINA) - Seeking Alpha",
+          "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbk1DV2puejItN09TVlY1QVhLRkpleXhsWWhRN21BM19jWnBGenhoa29WNlBQWU1zUVlTSHNTZGRxWHM3LWZkT3hueThOcFg5cWJ4bTNkamVMb0RvZXZxSTduUVhaZUpIbnlTODNLUk50bFdXeE5USkZSRzU4cnp6NDdWT0dqdnh2V09ydC1zQXpJdjNTQkg4bkRUSQ?oc=5",
+          "date": "2026-10-02",
+          "source": "Seeking Alpha",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Winmark Stock Price Forecast. Should You Buy WINA? - StockInvest.us",
+          "lien": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBlSThZM1B5YXlFcG92RXd5NTlDRElGSGpsYVVTNzVHelQ2OHM5elFrOWVQcnN2WGpsUl9yWGphOUk5cVhnSmpVXw?oc=5",
+          "date": "2026-10-02",
+          "source": "StockInvest.us",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 27
+    "ticket": 28
   },
   "radar_proposes": [
     "MCD",
@@ -130,7 +130,8 @@
     "AN",
     "IBP",
     "GIL.TO",
-    "HII"
+    "HII",
+    "WINA"
   ],
   "achats": [],
   "historique": [
@@ -2568,6 +2569,94 @@
         ]
       },
       "ticket": 26,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-07",
+      "cree_le": "2026-10-07T15:29+00:00",
+      "liberation": 235.3695831070808,
+      "reserve_pct": null,
+      "score": 93.81798829192945,
+      "ordres": [
+        {
+          "ticker": "HII",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 234.3695831070808,
+          "reason": "opportunité radar (score 94)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "HII",
+        "nom": "Huntington Ingalls Industries",
+        "isin": "HII",
+        "type": "action",
+        "prix": 263.8999938964844,
+        "score": 93.81798829192945,
+        "baisse": 0.4131403863193145,
+        "perf_5ans": 0.48969159720207633,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.30069541347341694,
+        "pos_12m": 0.821917808219178,
+        "n_12m": 730,
+        "base_moy_12m": 0.16093917268446373,
+        "pire_12m": -0.30413756038201534,
+        "vs_marche_3m": -0.13129958596064473,
+        "devise": "USD",
+        "prix_eur": 234.3695831070808
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -13% vs marché)",
+        "vs_marche_3m": -0.13129958596064473,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Anduril va construire un chantier naval de 6,6 milliards de dollars pour fabriquer des sous-marins américains de classe Virginia - Business AM",
+            "lien": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWXZXMkEtZ0lBU2lnZFNHSHY0eXhFUVY4S2tlV01wOWZwSTlqZ3hTb1FOQmxDYVd3NnlvS184Nm05ZGNIVm96MUpNVG1kb0hfU2tIVjhxRUlrb2oxWU0zYm5GRnN4X1ZmRVZwbjJlMlpQMlR4OXlLRmhpbGZyMWZVRDVQeWV6QVlpUlgxVFQ2dXNZX1FiZGZXd2ZobXJQLWJpWk9qZFRYb1VfRG1FWDdzNk90QU1qcDBRdmJPSHNmdWlRUHNsZEo1Q2pNT1JQakxPWEVkOG1XLVR5Sk1hWHBjT2wteVFFSk1t?oc=5",
+            "date": "2026-10-07",
+            "source": "Business AM",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Maryland : Arsenal-2 et la relance de la production de sous-marins américains - Armees.com",
+            "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1MQWZYU2NjNWdRRG5XOGlIMFM0aENHTW03THFTejlKMk5WSnVGamRQUkc3OE1zUWY0bFdqZkdldF9CQkVudXlnbzhiY21MdmhlMGt5NTFmd05lTVVTOWNYNmVIRDBWUGJKLUxXOTVFWWdmU3I1emRWb1ln?oc=5",
+            "date": "2026-10-07",
+            "source": "Armees.com",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Maryland : 6,6 milliards de dollars pour transformer Sparrows Point en hub naval - Economie Matin",
+            "lien": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaEtiUEJPM0czZ1dYOUJzbG5mcU5MWmFXZnJPT3hBQ2g1YW9sY2lha3RDaGs5eVF4b2JQR0R1Zkt3N2ppU2d6dk9UTlQ2TGZLUEktY1NjQkVGNXFuX2RqaTl1ZjdtY0RjQWZTZTNxaDlMaFBEZjJiUF9PRTBWaENPbDRxSldXamlLajEtaw?oc=5",
+            "date": "2026-10-07",
+            "source": "Economie Matin",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Research Analysts Set Expectations for HII FY2028 Earnings - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWDBubHJ4U3o3a19OeDRFaVQtV3F4NndCQmpPUlNmN2dDRnNfT0ppZDVJeURzMC1QSmF5V0k4cHlkSFloUDBuZVRsLVNoSkUzbzdMTmxkUXJkdVNGWjF6NzJoU2VtUW9RclFUcWV0aG9YcEQ0cXZUMWlIUmprWnRFd0hUOXc5WGEtQTRPUlNVemgwSnc0ejg2V2RpbktuZERNczhtMkNLTDVZRXNUSGJGa0l6d0QzT3ZWcjAtVTdXUQ?oc=5",
+            "date": "2026-10-07",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Anduril unveils plans for $3.7b submarine component production facility - Baird Maritime",
+            "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOREkzd1FERzNuMVQ2UV9ESnFYbkZvMDRibU9wTE82QnVjNUNicHI2TS1MYjRtcV9CU21EYzFYRi1xUkdieWRaV0xhSG9qSFY2SFB6TWlOcFNaSERlcmF6Z3dxS29tYW92TU5zZklaZzAzUjdyV1h0RzFRbUROYk1RM2h4QThqU1h3RWRPSGhrZ0NtUU1sUzZ0N2hPYUhpYnNMYS0tWVVQeWYzU2lKMjRj0gG8AUFVX3lxTE5IcjlndDBVaGJfTEY4RmRQNWI0bWVpdzNPQ1J0czB3YldYVTdtWklxQU44ZWctTkJtbFExZlEzU251UjJJVHlkQzVSQ05hZGZBVDl2SzNacmJuanNINDhOTktCaEJXOUwyQ25obHRDQkFXaERLTDlBMnlTSUhhdnpSa2ZlLWxSUEZJN1BCdU9DM0pob0NwSDNEcDY2MG9LYjlJWVV0c3U2dlUtSHg0SWxCVks0V1pJX3lhSjA4?oc=5",
+            "date": "2026-10-07",
+            "source": "Baird Maritime",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 27,
       "decision": "sans réponse"
     }
   ]
