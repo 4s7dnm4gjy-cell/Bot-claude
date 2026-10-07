@@ -18,122 +18,89 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-07",
-    "cree_le": "2026-10-07T16:50+00:00",
-    "liberation": 136.41748335489018,
+    "cree_le": "2026-10-07T17:22+00:00",
+    "liberation": 145.48181477702425,
     "reserve_pct": null,
-    "score": 93.75524059978142,
+    "score": 96.7585200736881,
     "ordres": [
       {
-        "ticker": "GLPI",
+        "ticker": "CRH",
         "side": "buy",
-        "quantity": 4.0,
-        "price": 33.854370838722545,
-        "reason": "opportunité radar (score 94)"
+        "quantity": 2.0,
+        "price": 72.24090738851213,
+        "reason": "opportunité radar (score 97)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "GLPI",
-      "nom": "Gaming and Leisure Properties",
-      "isin": "GLPI",
+      "ticker": "CRH",
+      "nom": "CRH plc",
+      "isin": "CRH",
       "type": "action",
-      "prix": 38.119998931884766,
-      "score": 93.75524059978142,
-      "baisse": 0.19259204196967572,
-      "perf_5ans": 0.11733073571379138,
+      "prix": 80.91500091552734,
+      "score": 96.7585200736881,
+      "baisse": 0.377211489191433,
+      "perf_5ans": 0.9726642447536451,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.39440729143266634,
-      "pos_12m": 0.975,
-      "n_12m": 160,
-      "base_moy_12m": 0.1129478490585757,
-      "pire_12m": -0.01569890149043207,
-      "vs_marche_3m": -0.1408275024427672,
+      "moy_12m": 0.219921987489209,
+      "pos_12m": 0.7481259370314842,
+      "n_12m": 667,
+      "base_moy_12m": 0.15718338686506067,
+      "pire_12m": -0.51760766682791,
+      "vs_marche_3m": -0.2521044882428285,
       "devise": "USD",
-      "prix_eur": 33.854370838722545
+      "prix_eur": 72.24090738851213
     },
     "actualites": {
-      "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 article(s) mineur(s), courant pour une grande entreprise) (3 mois : -14% vs marché)",
-      "vs_marche_3m": -0.1408275024427672,
-      "alertes": [
-        {
-          "titre": "Gaming and Leisure Properties Shares Fall After JPMorgan Downgrade - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOREFKbGp4dkoydjM5R0lOMjBXREJkR2xvQ19OMXVuZFBkdU5FWk5McnVfVHZRbWo3eXFrdnJUN1JRRmpCY0VtS0FDSU9IWDhsTmducDA4OUNkZG5QUFZDX1V5emJqWEFKVUNGa0RUemtjVlN3cG9iMlBDOFRRVmNfM2VVRGNnTndIRl9iU0pTaXJRRlV6bGUtX2lnTEgyMHVQeWxvTQ?oc=5",
-          "date": "2026-09-24",
-          "source": "Yahoo Finance",
-          "gravite": 1,
-          "mots": [
-            "downgrade"
-          ]
-        },
-        {
-          "titre": "Gaming and Leisure Properties Shares Fall After JPMorgan Downgrade - marketscreener.com",
-          "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcUxUandrMy1TQkNfeUVzQWxnZUtlNWstUjB1b25pUW0wNGxWQ2ZsTFYzTHlna3JxNG15Z1BvVjRwa3dIQW56WjdTQzRKSDg5d0FsY2VVUWhiU3l6OUZtNTJNU0htWWpmTF9FQ0R1U1M0VE85cVZ5SUowVDNLWkM3MDk3cFZIakpheUduSWNGTXAxeTd1NlpoYV9mNk9DeDdPeXI4ZHQ5a0Joal93UmJYZlhEQ241R0s2aTY0?oc=5",
-          "date": "2026-09-24",
-          "source": "marketscreener.com",
-          "gravite": 1,
-          "mots": [
-            "downgrade"
-          ]
-        },
-        {
-          "titre": "Gaming and Leisure Properties (NASDAQ:GLPI) Reaches New 52-Week Low on Analyst Downgrade - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOUGs5a2Nzdk15WGdkVTV0QjUya1M0MmxGNkZlLXhlSGhaODlqbmRSUERscWhVSl8yNkVFc1dDb3pIaHZXQU1jbUYxOS1DR3NRaGZBZ0FQLVQtOFRkUWEtUkNoZ1JoZF92QkpYR19rLWJ2NzBSRUl4aGd4dVNBdmdoM25yV1YtUzZESEpVeW83Sk53a25WR1k1cmJ3ekJ2WmswU1RUYUpxMlB6bHU1dUMzZzV0WnczZ1RJRGhBamxabGRhWTdsZ0NxZV91ejlHcHVrOUNhVDludDIwTGF2M2V3?oc=5",
-          "date": "2026-10-05",
-          "source": "MarketBeat",
-          "gravite": 1,
-          "mots": [
-            "downgrade"
-          ]
-        }
-      ],
+      "verdict": "orange",
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -25% vs marché)",
+      "vs_marche_3m": -0.2521044882428285,
+      "alertes": [],
       "recents": [
         {
-          "titre": "Gaming and Leisure Properties: A Freefall Worth Buying, Dividend And Upside Story (GLPI) - Seeking Alpha",
-          "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRW9fbTI2NUNrS2xYMkJFeW1ITm0tSkhIdnduSFlqUk5rejVEVjZjVElEbWpRUUlOcUw3Qk1iNGNKN1g4bjhfTkp2VU1QQ1JuWjJMTDdsN1NHdWgtaHJ5YkNXanRlTzNueGYySUF4TngwSGVvMFZyS1FpeEp6UFp3SjN3Q19tTjUyUWhjTVZYTUtFdkZhSUZ2RzdUVVNxU0gtWEpJNU93VVBrRlRVTy1uWHNIZldFT2R4NTUyVmFRal9IeUlTbFE?oc=5",
+          "titre": "CRH va acquérir les activités de NCC au Danemark et en Finlande - Zonebourse Suisse",
+          "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONmhPQWNWOHJSYmJtaVdHSi1ZM1FWZVpEd0x4RzlBSnJuX2VuVHAtSG9lYlQxSkJfY1BRb3pYcmM1TTZid3BfV1dHZ2R0VFRQUDJEN1NNRDFNV096RGpOMWM5VmhkMFJZVGJzc25Ka29qcVJnb0tvT3FiczVqZlE5RWlzdkJNWFl5SWFxOGRjTkZkaVFCLWk2ZHpyZEhMMXVuR1NHVXNvT0JENUdNalFVaW85bGpIQkVHbWNManBNSXI?oc=5",
           "date": "2026-10-07",
-          "source": "Seeking Alpha",
+          "source": "Zonebourse Suisse",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "GLPI stock heads toward October 29 results near its yearly low - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSmx4djVjMVpzWkdrdi1aa0lmTDlweDlwVWVrUEI0UktSSVc5OHFYaVFCcUFSUFhLMFVaWWhtWlEwNXBJeUZuUm5aQ1pEVTFfeGp3eVY2TDU1RWtDQWtRMnN2X1hVTklMYktxVXlVdHl6N2pwU3F6d2ZKdWlOS3liRllGdnE4dWMyaUQwY0wwMnNSbHVLU0MxYWJyMnJOSjY5Sk5lekdTQ3dHc3JWekFQekM1cUFLck5TRksyQnVn?oc=5",
+          "titre": "CRH plc and Heidelberg Materials AG agreed to acquire Industry Business Area of NCC AB from NCC AB (OM:NCC B) for an enterprise value of SEK 8.2 billion. - marketscreener.com",
+          "lien": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObEwtVzZ4RXIzbmJWQVNTMGtBdG9Ed204ek5Ub0FxdmpGUVFxYWtsLXNfZzdfbGszamN2d1d5QjBmalBpcWhBX2RDdEUxVEZtYnZaZTB6R25Ga0gzVllXWjIyVmNqNHVFUURkU2dCU3hMWHdqUk5OX1RLYlFfbWpSTV9JbmtFREpyQVBxZUNXOVpCczloWjB1UEd0eUFTR0xuVDltX3lEbHBremlia3VQN1FuOEF3M3ItWGllMVVfU2NFc3FJN3piZ2Vxaks2UGVaVEZnOFUtdWR6VnVLV2xyNGdXb3ZzNmM?oc=5",
+          "date": "2026-10-07",
+          "source": "marketscreener.com",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "CRH to Acquire Finland, Denmark Operations of NCC Industry - marketscreener.com",
+          "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOT2YzTWxGcU04bU5LNEFzYks5aWRjZDJkZ3B6SFVEX3BzT0tSeWdRQ2ZaSHZpMjlXNzdGaEZmTVF5MDJVZjA4eDNZQkRqRGZDUEhkLVZOUkhvM05EaVNkT0VLMUl0VEY5Yjd3VElEWVRzbzVHWkpGNDM5N29HWG1hV0NzaVVxVG1UTGtSNUhKcWMzQjB1T0thY09Qc0UtMXNaVEF0bTNCTTdXUmJYOFk4?oc=5",
+          "date": "2026-10-07",
+          "source": "marketscreener.com",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "CRH to Acquire Aggregate Operations in Denmark and Finland - www.marketscreener.com",
+          "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTEFLa2JsUU91eC13Sk8wQzMxWW9sZjJOdU5vVzE2YnNpT0tYVEdQSm9NdlcxbTA5U3hQaWduRFR0a2pkVGJQQXpQOTNONi1rbFhlM3NmaV9ORFZ6UmRFUXRPb1NNMlVuMDN4Z2JNWXFiRndqUWZGZWEyMmROakxHd19Cb2NEZGJ0ZjQ4cFRjcTVWRlJnYTUxNXdVbmRlakg0LVVBZThHdE11M2ZXM3c1bQ?oc=5",
+          "date": "2026-10-07",
+          "source": "www.marketscreener.com",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Wells Fargo cuts target for CRH stock to USD 106 - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdGZqa0ZBR20zNGRMUnZWa2g3b0VuRDJzVVd5Q1ZMQUozMUEzcFdadUY4endhT1RISzQ2T25mVk0xRHlsc1ltdFhUOWhrNFZnTDlQcDZsaHJiR2xHX194YkRvWGExWjVVU2J3YjlTb0ZZVjBNSUNUZzd1a04wMmRIM1plcGIwbVlFTEs2M2toR0tYS0c5NFd5NUFpMFNWSHN4YnZsX01zR0tZVkM1NWdHZQ?oc=5",
           "date": "2026-10-07",
           "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
-        },
-        {
-          "titre": "Gaming and Leisure Properties, Inc. (GLPI) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-          "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9BWjVxV09xdGpqOHJSdkg3dlZwb2hFV3l2bVhlNndneFlnT2xZTF85UFU5dEF5TERuQ1M0cWV1OGxIVjBIeEV2alZXQWJiUnNWVXc?oc=5",
-          "date": "2026-10-06",
-          "source": "Yahoo! Finance Canada",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Citizens JMP cuts target for Gaming and Leisure Properties stock - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTWNraE40bndjRVhEbDJaQlhqb25UN0UxUEU0VDNTUHJCQ1ZJYThGVlZDRkFFVlp0VXE2al9ta1JLZERybWNueWZnakhFNDI5UjFERzRTenZkV2hYTnpFUUdTeG9kcWFyUUYtSmt0TkVLSWRvbE0xaVVVU2JKQW45NWJNamU3NHdtY2FpOE5ObzAyeFZaXzZuMWtyM0t1VlJXeUZOMktxbldYbEhaTG5sZGhmM2prN0lfZm45emJEMno?oc=5",
-          "date": "2026-10-06",
-          "source": "AD HOC NEWS",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Gaming and Leisure Properties (NASDAQ:GLPI) Reaches New 52-Week Low on Analyst Downgrade - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOUGs5a2Nzdk15WGdkVTV0QjUya1M0MmxGNkZlLXhlSGhaODlqbmRSUERscWhVSl8yNkVFc1dDb3pIaHZXQU1jbUYxOS1DR3NRaGZBZ0FQLVQtOFRkUWEtUkNoZ1JoZF92QkpYR19rLWJ2NzBSRUl4aGd4dVNBdmdoM25yV1YtUzZESEpVeW83Sk53a25WR1k1cmJ3ekJ2WmswU1RUYUpxMlB6bHU1dUMzZzV0WnczZ1RJRGhBamxabGRhWTdsZ0NxZV91ejlHcHVrOUNhVDludDIwTGF2M2V3?oc=5",
-          "date": "2026-10-05",
-          "source": "MarketBeat",
-          "gravite": 1,
-          "mots": [
-            "downgrade"
-          ]
         }
       ]
     },
-    "ticket": 29
+    "ticket": 30
   },
   "radar_proposes": [
     "MCD",
@@ -165,7 +132,9 @@
     "GIL.TO",
     "HII",
     "WINA",
-    "GLPI"
+    "GLPI",
+    "CW",
+    "CRH"
   ],
   "achats": [],
   "historique": [
@@ -2779,6 +2748,127 @@
         ]
       },
       "ticket": 28,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-07",
+      "cree_le": "2026-10-07T16:50+00:00",
+      "liberation": 136.41748335489018,
+      "reserve_pct": null,
+      "score": 93.75524059978142,
+      "ordres": [
+        {
+          "ticker": "GLPI",
+          "side": "buy",
+          "quantity": 4.0,
+          "price": 33.854370838722545,
+          "reason": "opportunité radar (score 94)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "GLPI",
+        "nom": "Gaming and Leisure Properties",
+        "isin": "GLPI",
+        "type": "action",
+        "prix": 38.119998931884766,
+        "score": 93.75524059978142,
+        "baisse": 0.19259204196967572,
+        "perf_5ans": 0.11733073571379138,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.39440729143266634,
+        "pos_12m": 0.975,
+        "n_12m": 160,
+        "base_moy_12m": 0.1129478490585757,
+        "pire_12m": -0.01569890149043207,
+        "vs_marche_3m": -0.1408275024427672,
+        "devise": "USD",
+        "prix_eur": 33.854370838722545
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 article(s) mineur(s), courant pour une grande entreprise) (3 mois : -14% vs marché)",
+        "vs_marche_3m": -0.1408275024427672,
+        "alertes": [
+          {
+            "titre": "Gaming and Leisure Properties Shares Fall After JPMorgan Downgrade - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOREFKbGp4dkoydjM5R0lOMjBXREJkR2xvQ19OMXVuZFBkdU5FWk5McnVfVHZRbWo3eXFrdnJUN1JRRmpCY0VtS0FDSU9IWDhsTmducDA4OUNkZG5QUFZDX1V5emJqWEFKVUNGa0RUemtjVlN3cG9iMlBDOFRRVmNfM2VVRGNnTndIRl9iU0pTaXJRRlV6bGUtX2lnTEgyMHVQeWxvTQ?oc=5",
+            "date": "2026-09-24",
+            "source": "Yahoo Finance",
+            "gravite": 1,
+            "mots": [
+              "downgrade"
+            ]
+          },
+          {
+            "titre": "Gaming and Leisure Properties Shares Fall After JPMorgan Downgrade - marketscreener.com",
+            "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcUxUandrMy1TQkNfeUVzQWxnZUtlNWstUjB1b25pUW0wNGxWQ2ZsTFYzTHlna3JxNG15Z1BvVjRwa3dIQW56WjdTQzRKSDg5d0FsY2VVUWhiU3l6OUZtNTJNU0htWWpmTF9FQ0R1U1M0VE85cVZ5SUowVDNLWkM3MDk3cFZIakpheUduSWNGTXAxeTd1NlpoYV9mNk9DeDdPeXI4ZHQ5a0Joal93UmJYZlhEQ241R0s2aTY0?oc=5",
+            "date": "2026-09-24",
+            "source": "marketscreener.com",
+            "gravite": 1,
+            "mots": [
+              "downgrade"
+            ]
+          },
+          {
+            "titre": "Gaming and Leisure Properties (NASDAQ:GLPI) Reaches New 52-Week Low on Analyst Downgrade - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOUGs5a2Nzdk15WGdkVTV0QjUya1M0MmxGNkZlLXhlSGhaODlqbmRSUERscWhVSl8yNkVFc1dDb3pIaHZXQU1jbUYxOS1DR3NRaGZBZ0FQLVQtOFRkUWEtUkNoZ1JoZF92QkpYR19rLWJ2NzBSRUl4aGd4dVNBdmdoM25yV1YtUzZESEpVeW83Sk53a25WR1k1cmJ3ekJ2WmswU1RUYUpxMlB6bHU1dUMzZzV0WnczZ1RJRGhBamxabGRhWTdsZ0NxZV91ejlHcHVrOUNhVDludDIwTGF2M2V3?oc=5",
+            "date": "2026-10-05",
+            "source": "MarketBeat",
+            "gravite": 1,
+            "mots": [
+              "downgrade"
+            ]
+          }
+        ],
+        "recents": [
+          {
+            "titre": "Gaming and Leisure Properties: A Freefall Worth Buying, Dividend And Upside Story (GLPI) - Seeking Alpha",
+            "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRW9fbTI2NUNrS2xYMkJFeW1ITm0tSkhIdnduSFlqUk5rejVEVjZjVElEbWpRUUlOcUw3Qk1iNGNKN1g4bjhfTkp2VU1QQ1JuWjJMTDdsN1NHdWgtaHJ5YkNXanRlTzNueGYySUF4TngwSGVvMFZyS1FpeEp6UFp3SjN3Q19tTjUyUWhjTVZYTUtFdkZhSUZ2RzdUVVNxU0gtWEpJNU93VVBrRlRVTy1uWHNIZldFT2R4NTUyVmFRal9IeUlTbFE?oc=5",
+            "date": "2026-10-07",
+            "source": "Seeking Alpha",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "GLPI stock heads toward October 29 results near its yearly low - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSmx4djVjMVpzWkdrdi1aa0lmTDlweDlwVWVrUEI0UktSSVc5OHFYaVFCcUFSUFhLMFVaWWhtWlEwNXBJeUZuUm5aQ1pEVTFfeGp3eVY2TDU1RWtDQWtRMnN2X1hVTklMYktxVXlVdHl6N2pwU3F6d2ZKdWlOS3liRllGdnE4dWMyaUQwY0wwMnNSbHVLU0MxYWJyMnJOSjY5Sk5lekdTQ3dHc3JWekFQekM1cUFLck5TRksyQnVn?oc=5",
+            "date": "2026-10-07",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Gaming and Leisure Properties, Inc. (GLPI) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+            "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9BWjVxV09xdGpqOHJSdkg3dlZwb2hFV3l2bVhlNndneFlnT2xZTF85UFU5dEF5TERuQ1M0cWV1OGxIVjBIeEV2alZXQWJiUnNWVXc?oc=5",
+            "date": "2026-10-06",
+            "source": "Yahoo! Finance Canada",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Citizens JMP cuts target for Gaming and Leisure Properties stock - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTWNraE40bndjRVhEbDJaQlhqb25UN0UxUEU0VDNTUHJCQ1ZJYThGVlZDRkFFVlp0VXE2al9ta1JLZERybWNueWZnakhFNDI5UjFERzRTenZkV2hYTnpFUUdTeG9kcWFyUUYtSmt0TkVLSWRvbE0xaVVVU2JKQW45NWJNamU3NHdtY2FpOE5ObzAyeFZaXzZuMWtyM0t1VlJXeUZOMktxbldYbEhaTG5sZGhmM2prN0lfZm45emJEMno?oc=5",
+            "date": "2026-10-06",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Gaming and Leisure Properties (NASDAQ:GLPI) Reaches New 52-Week Low on Analyst Downgrade - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOUGs5a2Nzdk15WGdkVTV0QjUya1M0MmxGNkZlLXhlSGhaODlqbmRSUERscWhVSl8yNkVFc1dDb3pIaHZXQU1jbUYxOS1DR3NRaGZBZ0FQLVQtOFRkUWEtUkNoZ1JoZF92QkpYR19rLWJ2NzBSRUl4aGd4dVNBdmdoM25yV1YtUzZESEpVeW83Sk53a25WR1k1cmJ3ekJ2WmswU1RUYUpxMlB6bHU1dUMzZzV0WnczZ1RJRGhBamxabGRhWTdsZ0NxZV91ejlHcHVrOUNhVDludDIwTGF2M2V3?oc=5",
+            "date": "2026-10-05",
+            "source": "MarketBeat",
+            "gravite": 1,
+            "mots": [
+              "downgrade"
+            ]
+          }
+        ]
+      },
+      "ticket": 29,
       "decision": "sans réponse"
     }
   ]
