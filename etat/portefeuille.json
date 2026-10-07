@@ -18,89 +18,122 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-07",
-    "cree_le": "2026-10-07T16:20+00:00",
-    "liberation": 263.984166011421,
+    "cree_le": "2026-10-07T16:50+00:00",
+    "liberation": 136.41748335489018,
     "reserve_pct": null,
-    "score": 93.80678468078268,
+    "score": 93.75524059978142,
     "ordres": [
       {
-        "ticker": "WINA",
+        "ticker": "GLPI",
         "side": "buy",
-        "quantity": 1.0,
-        "price": 262.984166011421,
+        "quantity": 4.0,
+        "price": 33.854370838722545,
         "reason": "opportunité radar (score 94)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "WINA",
-      "nom": "Winmark",
-      "isin": "WINA",
+      "ticker": "GLPI",
+      "nom": "Gaming and Leisure Properties",
+      "isin": "GLPI",
       "type": "action",
-      "prix": 296.1199951171875,
-      "score": 93.80678468078268,
-      "baisse": 0.3915720152697977,
-      "perf_5ans": 0.5665178732510638,
+      "prix": 38.119998931884766,
+      "score": 93.75524059978142,
+      "baisse": 0.19259204196967572,
+      "perf_5ans": 0.11733073571379138,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.3560792664004908,
-      "pos_12m": 0.8509036144578314,
-      "n_12m": 664,
-      "base_moy_12m": 0.222310768424179,
-      "pire_12m": -0.5055553923390248,
-      "vs_marche_3m": -0.2986485927394681,
+      "moy_12m": 0.39440729143266634,
+      "pos_12m": 0.975,
+      "n_12m": 160,
+      "base_moy_12m": 0.1129478490585757,
+      "pire_12m": -0.01569890149043207,
+      "vs_marche_3m": -0.1408275024427672,
       "devise": "USD",
-      "prix_eur": 262.984166011421
+      "prix_eur": 33.854370838722545
     },
     "actualites": {
-      "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -30% vs marché)",
-      "vs_marche_3m": -0.2986485927394681,
-      "alertes": [],
+      "verdict": "vert",
+      "resume": "rien d'alarmant dans l'actualité (3 article(s) mineur(s), courant pour une grande entreprise) (3 mois : -14% vs marché)",
+      "vs_marche_3m": -0.1408275024427672,
+      "alertes": [
+        {
+          "titre": "Gaming and Leisure Properties Shares Fall After JPMorgan Downgrade - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOREFKbGp4dkoydjM5R0lOMjBXREJkR2xvQ19OMXVuZFBkdU5FWk5McnVfVHZRbWo3eXFrdnJUN1JRRmpCY0VtS0FDSU9IWDhsTmducDA4OUNkZG5QUFZDX1V5emJqWEFKVUNGa0RUemtjVlN3cG9iMlBDOFRRVmNfM2VVRGNnTndIRl9iU0pTaXJRRlV6bGUtX2lnTEgyMHVQeWxvTQ?oc=5",
+          "date": "2026-09-24",
+          "source": "Yahoo Finance",
+          "gravite": 1,
+          "mots": [
+            "downgrade"
+          ]
+        },
+        {
+          "titre": "Gaming and Leisure Properties Shares Fall After JPMorgan Downgrade - marketscreener.com",
+          "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcUxUandrMy1TQkNfeUVzQWxnZUtlNWstUjB1b25pUW0wNGxWQ2ZsTFYzTHlna3JxNG15Z1BvVjRwa3dIQW56WjdTQzRKSDg5d0FsY2VVUWhiU3l6OUZtNTJNU0htWWpmTF9FQ0R1U1M0VE85cVZ5SUowVDNLWkM3MDk3cFZIakpheUduSWNGTXAxeTd1NlpoYV9mNk9DeDdPeXI4ZHQ5a0Joal93UmJYZlhEQ241R0s2aTY0?oc=5",
+          "date": "2026-09-24",
+          "source": "marketscreener.com",
+          "gravite": 1,
+          "mots": [
+            "downgrade"
+          ]
+        },
+        {
+          "titre": "Gaming and Leisure Properties (NASDAQ:GLPI) Reaches New 52-Week Low on Analyst Downgrade - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOUGs5a2Nzdk15WGdkVTV0QjUya1M0MmxGNkZlLXhlSGhaODlqbmRSUERscWhVSl8yNkVFc1dDb3pIaHZXQU1jbUYxOS1DR3NRaGZBZ0FQLVQtOFRkUWEtUkNoZ1JoZF92QkpYR19rLWJ2NzBSRUl4aGd4dVNBdmdoM25yV1YtUzZESEpVeW83Sk53a25WR1k1cmJ3ekJ2WmswU1RUYUpxMlB6bHU1dUMzZzV0WnczZ1RJRGhBamxabGRhWTdsZ0NxZV91ejlHcHVrOUNhVDludDIwTGF2M2V3?oc=5",
+          "date": "2026-10-05",
+          "source": "MarketBeat",
+          "gravite": 1,
+          "mots": [
+            "downgrade"
+          ]
+        }
+      ],
       "recents": [
         {
-          "titre": "7,361 Winmark Corporation $WINA Shares Purchased by Congress Asset Management Co. - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaGN4WEV3dkt0emVTM3YxcFpXSGxhWGxEdmkwVTdEQUxsTzRNM0xNeTkzX3JUMFhyV1ZUMW1iY2U1di1lV1ZoZUlTQW1YWkZ5eXBSTC1NdGpWVlhmeHAtb3RRR2lSMmZPNGh5TWdZSEhvZzBlY1RBNGlCaVBTaXoxQXI2Mkx1dlZNWXBmNXNnUmMzWTRMWmc2YjFmb3c0Tlg0aWlZLUZ1ZFViYzF3Z2dOR2dwdFVrWHdXTkFjSFUwd3llOGl0UXFheU5JVnRZQ2lwdEhvUDJB?oc=5",
+          "titre": "Gaming and Leisure Properties: A Freefall Worth Buying, Dividend And Upside Story (GLPI) - Seeking Alpha",
+          "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRW9fbTI2NUNrS2xYMkJFeW1ITm0tSkhIdnduSFlqUk5rejVEVjZjVElEbWpRUUlOcUw3Qk1iNGNKN1g4bjhfTkp2VU1QQ1JuWjJMTDdsN1NHdWgtaHJ5YkNXanRlTzNueGYySUF4TngwSGVvMFZyS1FpeEp6UFp3SjN3Q19tTjUyUWhjTVZYTUtFdkZhSUZ2RzdUVVNxU0gtWEpJNU93VVBrRlRVTy1uWHNIZldFT2R4NTUyVmFRal9IeUlTbFE?oc=5",
           "date": "2026-10-07",
-          "source": "MarketBeat",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Price-Driven Insight from (WINA) for Rule-Based Strategy - Stock Traders Daily",
-          "lien": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQc1cwUVJsbkx5el8yUWxzWFIzQXc1VThiUVJOWVpjeGZOY0JaRGtIclhyTWpDSnIxR3lPM1VVNi1KQWxVQTRzVzVvYVlFNVE3N0g4X3hZUzNiOGJJektpX2VnMmRhWmVUYmhyYzM1YXFLZFppRGpxUjM1dlNUdjMzaEtDUTJvV1hFMTlVTzAxX1JOUVU3ZE0wN2tYb29KWDlLemZnX1h2azJtRW9ZWFlkRzZZclBJTEtudm5aeUh3czlEMGsyemdwd0oyZHlDZnM?oc=5",
-          "date": "2026-10-04",
-          "source": "Stock Traders Daily",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Winmark Corporation (WINA) Stock Forecasts - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZE5TUWI4V0tJNFlldS12SjlncTljaG5qLXBmZlYtVzFVd3lGc2wzalUtbW9Zck9VbWdOSzNvZWdqdFNCOGM5OUhzMWdyVUZhT3gzd2JmZDN0d003ek9FYWU4NFV2a245VHZ2SFVHSWFpRXprVktpMUdUbjBQQkd5bGRhMVVnWUYtVG55SV9YQQ?oc=5",
-          "date": "2026-10-03",
-          "source": "Yahoo Finance",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Winmark Is Still Trading At A Premium After Its Plunge (NASDAQ:WINA) - Seeking Alpha",
-          "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbk1DV2puejItN09TVlY1QVhLRkpleXhsWWhRN21BM19jWnBGenhoa29WNlBQWU1zUVlTSHNTZGRxWHM3LWZkT3hueThOcFg5cWJ4bTNkamVMb0RvZXZxSTduUVhaZUpIbnlTODNLUk50bFdXeE5USkZSRzU4cnp6NDdWT0dqdnh2V09ydC1zQXpJdjNTQkg4bkRUSQ?oc=5",
-          "date": "2026-10-02",
           "source": "Seeking Alpha",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Winmark Stock Price Forecast. Should You Buy WINA? - StockInvest.us",
-          "lien": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBlSThZM1B5YXlFcG92RXd5NTlDRElGSGpsYVVTNzVHelQ2OHM5elFrOWVQcnN2WGpsUl9yWGphOUk5cVhnSmpVXw?oc=5",
-          "date": "2026-10-02",
-          "source": "StockInvest.us",
+          "titre": "GLPI stock heads toward October 29 results near its yearly low - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSmx4djVjMVpzWkdrdi1aa0lmTDlweDlwVWVrUEI0UktSSVc5OHFYaVFCcUFSUFhLMFVaWWhtWlEwNXBJeUZuUm5aQ1pEVTFfeGp3eVY2TDU1RWtDQWtRMnN2X1hVTklMYktxVXlVdHl6N2pwU3F6d2ZKdWlOS3liRllGdnE4dWMyaUQwY0wwMnNSbHVLU0MxYWJyMnJOSjY5Sk5lekdTQ3dHc3JWekFQekM1cUFLck5TRksyQnVn?oc=5",
+          "date": "2026-10-07",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
+        },
+        {
+          "titre": "Gaming and Leisure Properties, Inc. (GLPI) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9BWjVxV09xdGpqOHJSdkg3dlZwb2hFV3l2bVhlNndneFlnT2xZTF85UFU5dEF5TERuQ1M0cWV1OGxIVjBIeEV2alZXQWJiUnNWVXc?oc=5",
+          "date": "2026-10-06",
+          "source": "Yahoo! Finance Canada",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Citizens JMP cuts target for Gaming and Leisure Properties stock - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTWNraE40bndjRVhEbDJaQlhqb25UN0UxUEU0VDNTUHJCQ1ZJYThGVlZDRkFFVlp0VXE2al9ta1JLZERybWNueWZnakhFNDI5UjFERzRTenZkV2hYTnpFUUdTeG9kcWFyUUYtSmt0TkVLSWRvbE0xaVVVU2JKQW45NWJNamU3NHdtY2FpOE5ObzAyeFZaXzZuMWtyM0t1VlJXeUZOMktxbldYbEhaTG5sZGhmM2prN0lfZm45emJEMno?oc=5",
+          "date": "2026-10-06",
+          "source": "AD HOC NEWS",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Gaming and Leisure Properties (NASDAQ:GLPI) Reaches New 52-Week Low on Analyst Downgrade - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOUGs5a2Nzdk15WGdkVTV0QjUya1M0MmxGNkZlLXhlSGhaODlqbmRSUERscWhVSl8yNkVFc1dDb3pIaHZXQU1jbUYxOS1DR3NRaGZBZ0FQLVQtOFRkUWEtUkNoZ1JoZF92QkpYR19rLWJ2NzBSRUl4aGd4dVNBdmdoM25yV1YtUzZESEpVeW83Sk53a25WR1k1cmJ3ekJ2WmswU1RUYUpxMlB6bHU1dUMzZzV0WnczZ1RJRGhBamxabGRhWTdsZ0NxZV91ejlHcHVrOUNhVDludDIwTGF2M2V3?oc=5",
+          "date": "2026-10-05",
+          "source": "MarketBeat",
+          "gravite": 1,
+          "mots": [
+            "downgrade"
+          ]
         }
       ]
     },
-    "ticket": 28
+    "ticket": 29
   },
   "radar_proposes": [
     "MCD",
@@ -131,7 +164,8 @@
     "IBP",
     "GIL.TO",
     "HII",
-    "WINA"
+    "WINA",
+    "GLPI"
   ],
   "achats": [],
   "historique": [
@@ -2657,6 +2691,94 @@
         ]
       },
       "ticket": 27,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-07",
+      "cree_le": "2026-10-07T16:20+00:00",
+      "liberation": 263.984166011421,
+      "reserve_pct": null,
+      "score": 93.80678468078268,
+      "ordres": [
+        {
+          "ticker": "WINA",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 262.984166011421,
+          "reason": "opportunité radar (score 94)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "WINA",
+        "nom": "Winmark",
+        "isin": "WINA",
+        "type": "action",
+        "prix": 296.1199951171875,
+        "score": 93.80678468078268,
+        "baisse": 0.3915720152697977,
+        "perf_5ans": 0.5665178732510638,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.3560792664004908,
+        "pos_12m": 0.8509036144578314,
+        "n_12m": 664,
+        "base_moy_12m": 0.222310768424179,
+        "pire_12m": -0.5055553923390248,
+        "vs_marche_3m": -0.2986485927394681,
+        "devise": "USD",
+        "prix_eur": 262.984166011421
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -30% vs marché)",
+        "vs_marche_3m": -0.2986485927394681,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "7,361 Winmark Corporation $WINA Shares Purchased by Congress Asset Management Co. - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaGN4WEV3dkt0emVTM3YxcFpXSGxhWGxEdmkwVTdEQUxsTzRNM0xNeTkzX3JUMFhyV1ZUMW1iY2U1di1lV1ZoZUlTQW1YWkZ5eXBSTC1NdGpWVlhmeHAtb3RRR2lSMmZPNGh5TWdZSEhvZzBlY1RBNGlCaVBTaXoxQXI2Mkx1dlZNWXBmNXNnUmMzWTRMWmc2YjFmb3c0Tlg0aWlZLUZ1ZFViYzF3Z2dOR2dwdFVrWHdXTkFjSFUwd3llOGl0UXFheU5JVnRZQ2lwdEhvUDJB?oc=5",
+            "date": "2026-10-07",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Price-Driven Insight from (WINA) for Rule-Based Strategy - Stock Traders Daily",
+            "lien": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQc1cwUVJsbkx5el8yUWxzWFIzQXc1VThiUVJOWVpjeGZOY0JaRGtIclhyTWpDSnIxR3lPM1VVNi1KQWxVQTRzVzVvYVlFNVE3N0g4X3hZUzNiOGJJektpX2VnMmRhWmVUYmhyYzM1YXFLZFppRGpxUjM1dlNUdjMzaEtDUTJvV1hFMTlVTzAxX1JOUVU3ZE0wN2tYb29KWDlLemZnX1h2azJtRW9ZWFlkRzZZclBJTEtudm5aeUh3czlEMGsyemdwd0oyZHlDZnM?oc=5",
+            "date": "2026-10-04",
+            "source": "Stock Traders Daily",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Winmark Corporation (WINA) Stock Forecasts - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZE5TUWI4V0tJNFlldS12SjlncTljaG5qLXBmZlYtVzFVd3lGc2wzalUtbW9Zck9VbWdOSzNvZWdqdFNCOGM5OUhzMWdyVUZhT3gzd2JmZDN0d003ek9FYWU4NFV2a245VHZ2SFVHSWFpRXprVktpMUdUbjBQQkd5bGRhMVVnWUYtVG55SV9YQQ?oc=5",
+            "date": "2026-10-03",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Winmark Is Still Trading At A Premium After Its Plunge (NASDAQ:WINA) - Seeking Alpha",
+            "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbk1DV2puejItN09TVlY1QVhLRkpleXhsWWhRN21BM19jWnBGenhoa29WNlBQWU1zUVlTSHNTZGRxWHM3LWZkT3hueThOcFg5cWJ4bTNkamVMb0RvZXZxSTduUVhaZUpIbnlTODNLUk50bFdXeE5USkZSRzU4cnp6NDdWT0dqdnh2V09ydC1zQXpJdjNTQkg4bkRUSQ?oc=5",
+            "date": "2026-10-02",
+            "source": "Seeking Alpha",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Winmark Stock Price Forecast. Should You Buy WINA? - StockInvest.us",
+            "lien": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBlSThZM1B5YXlFcG92RXd5NTlDRElGSGpsYVVTNzVHelQ2OHM5elFrOWVQcnN2WGpsUl9yWGphOUk5cVhnSmpVXw?oc=5",
+            "date": "2026-10-02",
+            "source": "StockInvest.us",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 28,
       "decision": "sans réponse"
     }
   ]
