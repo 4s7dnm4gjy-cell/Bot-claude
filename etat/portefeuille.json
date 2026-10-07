@@ -18,89 +18,89 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-07",
-    "cree_le": "2026-10-07T10:19+00:00",
-    "liberation": 117.64305001489058,
+    "cree_le": "2026-10-07T11:18+00:00",
+    "liberation": 138.3890444372376,
     "reserve_pct": null,
-    "score": 94.59608194608764,
+    "score": 94.56047475890693,
     "ordres": [
       {
-        "ticker": "ADC",
+        "ticker": "CAR.AX",
         "side": "buy",
-        "quantity": 2.0,
-        "price": 58.32152500744529,
+        "quantity": 10.0,
+        "price": 13.738904443723762,
         "reason": "opportunité radar (score 95)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "ADC",
-      "nom": "Agree Realty",
-      "isin": "ADC",
+      "ticker": "CAR.AX",
+      "nom": "CAR Group",
+      "isin": "CAR.AX",
       "type": "action",
-      "prix": 65.66999816894531,
-      "score": 94.59608194608764,
-      "baisse": 0.18148834789078316,
-      "perf_5ans": 0.20918030410242006,
+      "prix": 22.149999618530273,
+      "score": 94.56047475890693,
+      "baisse": 0.3844651833945124,
+      "perf_5ans": 0.053443795909658975,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.21036654383024558,
-      "pos_12m": 0.7497467071935157,
-      "n_12m": 987,
-      "base_moy_12m": 0.14564532534584454,
-      "pire_12m": -0.6691177204123798,
-      "vs_marche_3m": -0.1959060484295485,
-      "devise": "USD",
-      "prix_eur": 58.32152500744529
+      "moy_12m": 0.2421471099973491,
+      "pos_12m": 0.8842504743833017,
+      "n_12m": 527,
+      "base_moy_12m": 0.1554027919562331,
+      "pire_12m": -0.30391051446562833,
+      "vs_marche_3m": -0.17911570080011585,
+      "devise": "AUD",
+      "prix_eur": 13.738904443723762
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -20% vs marché)",
-      "vs_marche_3m": -0.1959060484295485,
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -18% vs marché)",
+      "vs_marche_3m": -0.17911570080011585,
       "alertes": [],
       "recents": [
         {
-          "titre": "Agree Realty stock reports higher Q2 earnings and guidance - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZEQwekUzWVIxTWxwQ3B6SFc1bXM0NWE3NDF0NGVqOFcwaFM0anlUOG9aT1JTMEVGZDhEcE9IcGJYanVqdURfTTE3NC1WQjJrZ3hHWmJSZFlsZVFWQTQyR2NXU2RSckNhQ1pJVlVtR2J3dkNaZUVLNFhjMEVQVzZjS2pJYmcyeHE3QkhoZFhjSTZSVUpmMlRjLUZlbXlrczg2b3N0QXE3aF90dk92MjNzWnhRNElEQ2RScm5XeDZR?oc=5",
-          "date": "2026-10-05",
+          "titre": "Carsales stock gets a double digit FY2027 growth outlook by CAR Group - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOTJ2d2ZLX2x3LTBIMkVfSTU5ekltUk9KanpvaUQ3NERxYWxhSmhGNWRISlgzMHJwT3EyajByelZSTUhhNzFKbWhBYTBQSGoyY1dmdllmemw1dktvOUpVbjQwc3ZQbzRaeUhDTmJTSDhHS1I1eTc5cWlmQ2JfSUNyVG5QRUlBbFpnWDJLY3Q1QWNWd19XSEp4bW1YQ00zdVU3OXpfSU9zZDRNQ1BWRTZuQ25UdU1zRVdROXRaaEpjaWkyaDNUdGRJ?oc=5",
+          "date": "2026-10-07",
           "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "RBC Capital Reaffirms Their Buy Rating on Agree Realty (ADC) - The Globe and Mail",
-          "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWldLX1lNVkVVUkMtYmV4Y04wMDRvTEkyeDFvRnJUMWlTN2VrNEprSEdhSl9BUnFSc3VCNV9VTEIxd1dvWWJVdjI0cDJvcVNQSHJyQ0xIUUkyT3kzb0lpTWZfMlBSTzBxZnR3VHVvZDV4bnBweW5ReGNoTkp5RXhIUlY4UHJUWjNrempqZU0wdTBYZWJUZUxLNW5FWFllNzVYdjNCMnZxZjFoMDZLN2pSMmRMTDFFdlpHeUhkcmw0S2w1RWxtQmw1NnlBNFJpTXZOdjlvYXBn?oc=5",
-          "date": "2026-10-04",
-          "source": "The Globe and Mail",
+          "titre": "Could CAR Group (ASX:CAR) Sustain Its Growth Momentum? - Kalkine Media",
+          "lien": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOXdXMm9PUGdBQTYxS041Um5feTEzUHVoWjJaWWR5d2tfV3dhZF8wSkxaa09EaDVvUHBVX2VaNWNFR2M2RTMzSk9IMVh3bDd5b3FDNUpVQzJOS3I4NDJSd2tESW1hclpacVJhSFdjYkdFZkJoMlp1YXJXWWoyYU1aTjVjaFpiTFEyenVSVkJsSmZsMHc5c3U1aGhOdWFmMXdv?oc=5",
+          "date": "2026-10-07",
+          "source": "Kalkine Media",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Agree Realty (ADC) Stock Looks About Right After Its 38% 3 Year Gain - Simply Wall Street",
-          "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSDdMTm1KUTRIODdNWTRwUmJfVDdCaDVBMWVDMXpnOHZrOW54MEg3dXRscF9vNmN1QkZlLWpGa2I1dENUUkJxQkUzektQZTgwWmtEUUdTX3NOajZIYUJ4cDZyS0VZbXJ2UGJhU0RfcXY0d1ZDa2Y3NF8weE42YnY3MHBza2dEczVoTjZsWkY5UjgtdXYwM1ZCZGlxOUFPemxOZHpKNEFFUkJzdXBuMkxjQU84YTdVRU1pcDdUaGtwQUFFaEtvaHNwcGg2RdIB0AFBVV95cUxPV0o0QVVqTkRMRUJzcmNWb3VCN29nMTBKUWFXSThKc3gweW15SkxzNkRpbDVLcVVESERaajRCblg0U1NBbHdzY0JhclM1NzVrbWs3My1PUWZvMzFta3JkbFVQdGU4N2tpWEI4NTV2cVFwVThBNlEtdTJBMTFvaF9IS2t4aHM0cFJKQ244TE8yblk2SlhkenYwci1yeGJJbHJSOFdkZUFmN2VIR3VTQUdNVF9uanF4YkRfclVhbzh0TEpHZ194S2NJRUU2U3Nmc1Na?oc=5",
-          "date": "2026-10-03",
-          "source": "Simply Wall Street",
+          "titre": "Commonwealth Bank of Australia Becomes Substantial Holder in CAR Group with 5.05% Voting Power on 6 October 2026 - Kalkine",
+          "lien": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZWoxYXh5cUFBcVZ0b3JrRk9oV1NvM1ViMjVfdEE3SVFOa1UtTl95akFxVmRMbDZSaDJ6b3B6UF9fNXNCUFhGX3NWWjZLSS1WY3dadjI1cWMwXzhUa2wtUkJwOFpGUFpDbm4tNGhVUUhISkJlR3lLVnJkTjd2dXBCYXE0SDZDUUh6Y0Z3MWozbVBQNmhJaHZJYWdRN1F5dDBONWx5dXd5Wl8tWnBvU0tUdzN0UGN3UDZ3V05CSTNmcERhY0pjRnlISXJoY0xGbXQwTDd4aEJta0Y0bVE0RWNzRE1XckhkN2s?oc=5",
+          "date": "2026-10-07",
+          "source": "Kalkine",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Agree Realty (ADC) Earnings Date and Reports 2026 $ADC - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBTOEpNYmVJbV9rdDVwckJWVmQ5a2poQXM2ZjIyT2N2WG1TZC1nWVAzdW1EajJybVdQYVBPblF0MVlBeUhZbS01UHhkWktVQTZvNUg5TkM1OTdjS05HelJYQkln?oc=5",
-          "date": "2026-10-02",
-          "source": "MarketBeat",
+          "titre": "Is CAR Group Testing the Low End of Its Annual Range (ASX:CAR)? - Kalkine Media",
+          "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPc3lVM0lnc3N5WWY1X3l6QUI4NF9jeF9qQUp6eGZRN3dubGMxU1dCTTBGTjFneVBOaTBiT3B0Smt4R3NXd1BjbWJIeGM1Y1p4N2t0MWdvUXNSMXBRTVQ3bDJsakhJSHphMDhWR3RWQVZUb0Z6RTVEdkVpSjI0aHdCSlZwVEhRcXpZcTZWQmVSTEthNlYtN2tpRkZSMWRvdkNtUlJIcUc0TmZKaTcz?oc=5",
+          "date": "2026-10-06",
+          "source": "Kalkine Media",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Agree Realty reports diluted shares of 124.95M for Q3 2026, 122.23M YTD - TradingView",
-          "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbFdTWWRydzRYNlJpWHlTcmFNUUdOcGVoQTZTekxEX1VHeklQbkFBMDlmY2NYa19ibFRBeDMwZVFyMms5VHBkZl92LXZUX3p2U1VZTmh0cllOdVJzVVJ5TGxFRWZYaXB1MFpjOG9wZHUwWHRjb2t0ZENDRWxmMkM3QXZicXJ3MFJ0X1FIbmNTckZEdV9HU1pKSlBNOGc0T0NNMWZTSnRGX1R4ck5KOTlDZnQ5aHpnWXJSSEE4MEZEa0c1dEJvQ1BIaG5vTjg?oc=5",
-          "date": "2026-10-02",
-          "source": "TradingView",
+          "titre": "CAR Group retires Kee Wong as director while Carsales stock sits 40.14 percent below its high - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU0Q4cjNZOEVRZ3pZOEY0X0RSUzhwYkFNNjh5TTlNUGJLOFd2d2gtTlJ2eDVDUjF5UGMzOHV2NFQ1X0QtcmwxR3NaMWRfdVhVWjhpVUtSTERGc3Raemx3QVZub3hZX1dFdmFhVXNHTWZHaHR4dGRTbEg5THRja2FwTUY2dS00RjJOLXh6dUVJdnNLdjZTcmx5UDJLeG9IMUJEVVJsT2JEV0pmT1ZSeXQyeEFtNWVDaTJZZnJqUGxCZDBUQ1YxdlB5RQ?oc=5",
+          "date": "2026-10-06",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 21
+    "ticket": 22
   },
   "radar_proposes": [
     "MCD",
@@ -124,7 +124,8 @@
     "POST",
     "UTI",
     "WSO",
-    "ADC"
+    "ADC",
+    "CAR.AX"
   ],
   "achats": [],
   "historique": [
@@ -1980,6 +1981,94 @@
         ]
       },
       "ticket": 20,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-07",
+      "cree_le": "2026-10-07T10:19+00:00",
+      "liberation": 117.64305001489058,
+      "reserve_pct": null,
+      "score": 94.59608194608764,
+      "ordres": [
+        {
+          "ticker": "ADC",
+          "side": "buy",
+          "quantity": 2.0,
+          "price": 58.32152500744529,
+          "reason": "opportunité radar (score 95)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "ADC",
+        "nom": "Agree Realty",
+        "isin": "ADC",
+        "type": "action",
+        "prix": 65.66999816894531,
+        "score": 94.59608194608764,
+        "baisse": 0.18148834789078316,
+        "perf_5ans": 0.20918030410242006,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.21036654383024558,
+        "pos_12m": 0.7497467071935157,
+        "n_12m": 987,
+        "base_moy_12m": 0.14564532534584454,
+        "pire_12m": -0.6691177204123798,
+        "vs_marche_3m": -0.1959060484295485,
+        "devise": "USD",
+        "prix_eur": 58.32152500744529
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -20% vs marché)",
+        "vs_marche_3m": -0.1959060484295485,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Agree Realty stock reports higher Q2 earnings and guidance - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZEQwekUzWVIxTWxwQ3B6SFc1bXM0NWE3NDF0NGVqOFcwaFM0anlUOG9aT1JTMEVGZDhEcE9IcGJYanVqdURfTTE3NC1WQjJrZ3hHWmJSZFlsZVFWQTQyR2NXU2RSckNhQ1pJVlVtR2J3dkNaZUVLNFhjMEVQVzZjS2pJYmcyeHE3QkhoZFhjSTZSVUpmMlRjLUZlbXlrczg2b3N0QXE3aF90dk92MjNzWnhRNElEQ2RScm5XeDZR?oc=5",
+            "date": "2026-10-05",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "RBC Capital Reaffirms Their Buy Rating on Agree Realty (ADC) - The Globe and Mail",
+            "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWldLX1lNVkVVUkMtYmV4Y04wMDRvTEkyeDFvRnJUMWlTN2VrNEprSEdhSl9BUnFSc3VCNV9VTEIxd1dvWWJVdjI0cDJvcVNQSHJyQ0xIUUkyT3kzb0lpTWZfMlBSTzBxZnR3VHVvZDV4bnBweW5ReGNoTkp5RXhIUlY4UHJUWjNrempqZU0wdTBYZWJUZUxLNW5FWFllNzVYdjNCMnZxZjFoMDZLN2pSMmRMTDFFdlpHeUhkcmw0S2w1RWxtQmw1NnlBNFJpTXZOdjlvYXBn?oc=5",
+            "date": "2026-10-04",
+            "source": "The Globe and Mail",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Agree Realty (ADC) Stock Looks About Right After Its 38% 3 Year Gain - Simply Wall Street",
+            "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSDdMTm1KUTRIODdNWTRwUmJfVDdCaDVBMWVDMXpnOHZrOW54MEg3dXRscF9vNmN1QkZlLWpGa2I1dENUUkJxQkUzektQZTgwWmtEUUdTX3NOajZIYUJ4cDZyS0VZbXJ2UGJhU0RfcXY0d1ZDa2Y3NF8weE42YnY3MHBza2dEczVoTjZsWkY5UjgtdXYwM1ZCZGlxOUFPemxOZHpKNEFFUkJzdXBuMkxjQU84YTdVRU1pcDdUaGtwQUFFaEtvaHNwcGg2RdIB0AFBVV95cUxPV0o0QVVqTkRMRUJzcmNWb3VCN29nMTBKUWFXSThKc3gweW15SkxzNkRpbDVLcVVESERaajRCblg0U1NBbHdzY0JhclM1NzVrbWs3My1PUWZvMzFta3JkbFVQdGU4N2tpWEI4NTV2cVFwVThBNlEtdTJBMTFvaF9IS2t4aHM0cFJKQ244TE8yblk2SlhkenYwci1yeGJJbHJSOFdkZUFmN2VIR3VTQUdNVF9uanF4YkRfclVhbzh0TEpHZ194S2NJRUU2U3Nmc1Na?oc=5",
+            "date": "2026-10-03",
+            "source": "Simply Wall Street",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Agree Realty (ADC) Earnings Date and Reports 2026 $ADC - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBTOEpNYmVJbV9rdDVwckJWVmQ5a2poQXM2ZjIyT2N2WG1TZC1nWVAzdW1EajJybVdQYVBPblF0MVlBeUhZbS01UHhkWktVQTZvNUg5TkM1OTdjS05HelJYQkln?oc=5",
+            "date": "2026-10-02",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Agree Realty reports diluted shares of 124.95M for Q3 2026, 122.23M YTD - TradingView",
+            "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbFdTWWRydzRYNlJpWHlTcmFNUUdOcGVoQTZTekxEX1VHeklQbkFBMDlmY2NYa19ibFRBeDMwZVFyMms5VHBkZl92LXZUX3p2U1VZTmh0cllOdVJzVVJ5TGxFRWZYaXB1MFpjOG9wZHUwWHRjb2t0ZENDRWxmMkM3QXZicXJ3MFJ0X1FIbmNTckZEdV9HU1pKSlBNOGc0T0NNMWZTSnRGX1R4ck5KOTlDZnQ5aHpnWXJSSEE4MEZEa0c1dEJvQ1BIaG5vTjg?oc=5",
+            "date": "2026-10-02",
+            "source": "TradingView",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 21,
       "decision": "sans réponse"
     }
   ]
