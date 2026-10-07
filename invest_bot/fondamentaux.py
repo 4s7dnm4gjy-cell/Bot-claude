@@ -25,15 +25,24 @@ CHAMPS = ("revenueGrowth", "earningsGrowth", "recommendationMean", "numberOfAnal
           "targetMeanPrice", "currentPrice", "forwardPE", "trailingPE", "profitMargins", "debtToEquity")
 
 
-def lire_infos(ticker: str) -> dict:
-    """Données fondamentales Yahoo (vide si indisponible)."""
-    try:
-        import yfinance as yf
+ERREURS: list[str] = []  # pour le journal : pourquoi une lecture a échoué
 
-        infos = yf.Ticker(ticker).info or {}
-    except Exception:  # réseau, titre inconnu… : on ne bloque pas le bot
-        return {}
-    return {k: infos.get(k) for k in CHAMPS if infos.get(k) is not None}
+
+def lire_infos(ticker: str, essais: int = 3) -> dict:
+    """Données fondamentales Yahoo (vide si indisponible), avec relances espacées."""
+    import time
+
+    for essai in range(essais):
+        try:
+            import yfinance as yf
+
+            infos = yf.Ticker(ticker).info or {}
+            time.sleep(0.4)  # Yahoo limite les appels rapprochés
+            return {k: infos.get(k) for k in CHAMPS if infos.get(k) is not None}
+        except Exception as e:  # réseau, limite d'appels, titre inconnu… : on ne bloque pas le bot
+            ERREURS.append(f"{ticker}: {type(e).__name__}: {str(e)[:120]}")
+            time.sleep(3 * (essai + 1))
+    return {}
 
 
 def _nombre(x) -> float | None:
@@ -112,5 +121,9 @@ def enrichir(candidats: list[dict], lire: Callable[[str], dict] = lire_infos, nb
             c["fondamental"], c["fondamental_notes"] = score_fondamental(lire(c["ticker"]))
         f = c["fondamental"] if c["fondamental"] is not None else 60.0  # ETF / inconnu : neutre
         c["score_global"] = round((1 - poids_fondamental) * c["score"] + poids_fondamental * f, 1)
-    analyses = [c for c in candidats[:nb_max]]
+    analyses = candidats[:nb_max]
+    ok = sum(1 for c in analyses if c["fondamental"] is not None)
+    print(f"Fondamentaux : {ok}/{len(analyses)} titres analysés", flush=True)
+    if ERREURS:
+        print(f"  {len(ERREURS)} erreur(s), ex. : {ERREURS[:3]}", flush=True)
     return sorted(analyses, key=lambda c: c["score_global"], reverse=True)
