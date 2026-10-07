@@ -18,89 +18,89 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-07",
-    "cree_le": "2026-10-07T09:19+00:00",
-    "liberation": 138.26473296944482,
+    "cree_le": "2026-10-07T09:49+00:00",
+    "liberation": 262.74972111256,
     "reserve_pct": null,
-    "score": 94.87196444317533,
+    "score": 94.83154990218242,
     "ordres": [
       {
-        "ticker": "UTI",
+        "ticker": "WSO",
         "side": "buy",
-        "quantity": 8.0,
-        "price": 17.158091621180603,
+        "quantity": 1.0,
+        "price": 261.74972111256,
         "reason": "opportunité radar (score 95)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "UTI",
-      "nom": "Universal Technical Institute",
-      "isin": "UTI",
+      "ticker": "WSO",
+      "nom": "Watsco",
+      "isin": "WSO",
       "type": "action",
-      "prix": 19.31999969482422,
-      "score": 94.87196444317533,
-      "baisse": 0.6226562615833243,
-      "perf_5ans": 1.8163264313125471,
+      "prix": 294.7300109863281,
+      "score": 94.83154990218242,
+      "baisse": 0.3493340514362069,
+      "perf_5ans": 0.2501670520319508,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.18156956651761477,
-      "pos_12m": 0.5891891891891892,
-      "n_12m": 555,
-      "base_moy_12m": 0.13168010023382085,
-      "pire_12m": -0.6654802452696729,
-      "vs_marche_3m": -0.6630678681573852,
+      "moy_12m": 0.22985448846403025,
+      "pos_12m": 0.7471428571428571,
+      "n_12m": 700,
+      "base_moy_12m": 0.21259377165477258,
+      "pire_12m": -0.279385274773003,
+      "vs_marche_3m": -0.26711108983779175,
       "devise": "USD",
-      "prix_eur": 17.158091621180603
+      "prix_eur": 261.74972111256
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -66% vs marché)",
-      "vs_marche_3m": -0.6630678681573852,
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -27% vs marché)",
+      "vs_marche_3m": -0.26711108983779175,
       "alertes": [],
       "recents": [
         {
-          "titre": "Changes in working capital of Universal Technical Institute Inc – NYSE:UTI - TradingView",
-          "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYlB3UUN0b0ZfYmpRZk9DU1FHX05Tc1FUaDZJdDdlSmh2NGwzcXNJTnRzV0x4OS1TeGZwNE1BZS1PQUR6UklCYjh5M1hpc3BOQUgxVGQ5Ym4xT1Q1UXFkenQwbHhQb1o0OHNiR2hYZjJoSkJNOWpYWHY1SGVreXJzazF1MWlXLTlLM0Z0NlNDYjhkMnBQMDlqeg?oc=5",
-          "date": "2026-10-06",
-          "source": "TradingView",
+          "titre": "Watsco agrees to Granite deal: what it means for Watsco stock - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONllYWjVhWVY1aUpsNjVoMlZSamZsR3QwZW1jcWU0YmlwT3lQOS1QNWVzUWRKcEJZclpKTjVtSnV4d0VUZzMzNUVmZEdQSUhuWDlOOGY0ZXRKMDBGQW9LNzRXSlFoT2Y5NDVINDZYU0N4c1JnNUpxVnIwdUxKZU9FNDBJYUtSWkhBRl8za0tYWUhad0lLaW11QTdfSGhlMGhEX2FJQVE4NnZHaUlmeUNqcXZsUmtnT2dfRF9Z?oc=5",
+          "date": "2026-10-07",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Truist reiterates Buy on Universal Technical Institute stock at $38 - Investing.com",
-          "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVXhpakNlRVVFY1VwY0hlMGRxaDFCd2piRDFQb3UwemVTZHQzZDZ2SFhkQTdSWXhzZmlXM1ZNSWREaXdkSmxZd0tLNjZ2Y04zWll0Z1IySHU3S3Nkc2xKN0x5YmYxRVhGYVFyZzBIa3BtbE1EQXIyTS1qcmhiVUJobjN6QmxfdEdNTkNwUUJlTGFWNzd6aDYtajYtNXliUFppam5uNlVDRm1WYVNfOE13Q0Y0ek9MY29rc0RJRk5BMHhXR1Nt?oc=5",
-          "date": "2026-10-06",
-          "source": "Investing.com",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Truist Securities Reiterates Buy Rating on Universal Technical Institute (UTI) - StreetInsider",
-          "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSFU0ekYwTjZwTnpFcnJVZG5IekpBakpKUUR3d3g5M0FScWpuVURKWWN1ZzV6M2ZvY2Rvclc3aVlWb25zcmdoWFN2d09rdU02TEZiYlozQlptSUlPX2hIeTVValFkb3NHNTdMS01tM0JJcWo2bDdZdDc2Z2JZcE1lelVQNDJBT0ZuaWpZNkl1RVI1V29qM21ucDBtS2JjYWRGdDhuMi1pMjVEaE11ZkZ5OWp5bHRIcV9CYU9Tb1djWUdKLTEtX3AyN21IRlUzUG5Qa2RxMkdEVXVvMXM?oc=5",
-          "date": "2026-10-06",
-          "source": "StreetInsider",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "High Demand for Skilled Trades Meets Evolving Customer Acquisition Headwinds at Universal Technical Institute (UTI) - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaFZuWW5sZGFDczVwOVdCX2FGUU1UbHdTb1lhaXFucm5NWXlpV3dzRVhndE9SbU1Kc2xiQmlnLVpveFFtQ2FnTV9BQ3Z5MDhtQ2ppd2xESkV4ak5jcWZodi00YW5FbDBuc1ZKRXJaZjdOZGR3QmtURENnM1VuNnZwLUpDd3NZWUsyY3pUejRnNU5wLW1tcWZmQjd5WG9SUQ?oc=5",
+          "titre": "What Could Help Watsco (NYSE:WSO) Strengthen Its Market Case? - Kalkine Media",
+          "lien": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQLTRXeEpKdkZPMXBfenVqQ1UtcWctai11TExaQ19uM2ZHdU9SZzAxNXlsWkNZT1IxYi1jdlQ0aFl1RmpzR0ROQU9IQ2g3VnR4Y29oT3A1bkl5eXVONUVfb1JaY2FKOGZNUDlmQkZDajFMQVFBV0RZMXptVEhrQTB1UjBtdkFITVVPcm4xbG9Ma3RTX2RjR2NfSllVTmxzNWVN?oc=5",
           "date": "2026-10-05",
-          "source": "Yahoo Finance",
+          "source": "Kalkine Media",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Universal Technical Institute R (UTI.MU) Q3 FY2026 earnings call transcript - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYkZBMEFJMDlmWHJPaW5oUWZ2ZWViYy1xRzFnU2h2N3V2cDJYUExYbmFXUVQxTDlxQ0lLN002N3ZDdE5iNU9xZTRqa0U0ZHp2bk85RzF5NHdoWVBHWVhPblJPT2VNZmJGQVBVM3gzZ0poN1dsckhpeFlLUVdpOVFHblM5WE5YSDRiWFBKMzFUaXBfa1E?oc=5",
-          "date": "2026-10-05",
-          "source": "Yahoo Finance",
+          "titre": "Watsco stock falls 1.22 percent as dividend meets earnings pressure - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQb0tYU21zV0VzYnpnTU4yeGF2UWxFeVB6M2d1aGZnVUMyU29sdjRFM2NCb0JUUE1VSnJnZlRlZWZEMEltOG1Eci1MYUo2UkV5bXYyM1VtZ0JaZjFKM1dYNlJ6Ui1SVzllbkJKMmt1NGphczhVSk1qNVNlX3R6NGh0RmVnWXhxTUF6NEt2bWU2OUJrTlNfSXhESFlqQng5OUVYZ29Qb21SYjFfZ0NxYmdBdWpPNDRZdzB0QVd3RkdqZmtrVUhLaXZfazF3?oc=5",
+          "date": "2026-10-04",
+          "source": "AD HOC NEWS",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Watsco (NYSE:WSO.B) Stands Out as a Quality Investing Candidate - ChartMill",
+          "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTTV6dVY3OVBlQ2tDci1hSkVuYkU3eEMwNGdKc0ZtYnFXQVBXUFV4QWdPaTA3MmVrUWQwNGVMQkhCTjk1TUJ1cnlSclZjTnJWdmNySmtmX0ZCSWFaSUt0WFdxdHdqUUtzbzNJUFJBbzJlVmN0TmFTQk1TaEYxcW1sZlhqTk1XQXlqbi11QWszdXpISXFFQUhpWFRUQUhsQlprQTQ4SzFCOE5JZXNCR2NxMmFn?oc=5",
+          "date": "2026-10-02",
+          "source": "ChartMill",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Watsco declares a USD 3.30 dividend and Watsco stock falls 1.38 percent - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSU5MRDdBUW4tVk1RRlF6dE1GdHFOVGUtaVlnZ0FTRC1nV0x0TGprUEpRS2pheFh4bGxkV25scURMcEFQbm01TlRHQzFOVE8yalI0ajFoZFE5aV9OM196d0N2NndES0VZNUlFVlB5bDZHLS00VmZMSnNPSjM4LXo2TGVpVE95ajdlblZqcEpFNVkwOWc1enJPZG82R2dteVB2UUZXZW9ZMDlHQ2JoRWFHVEZyaDFzMGNCNmFub3RiazRwT3pFWThRcHVn?oc=5",
+          "date": "2026-10-02",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 19
+    "ticket": 20
   },
   "radar_proposes": [
     "MCD",
@@ -122,7 +122,8 @@
     "MGEE",
     "NHI",
     "POST",
-    "UTI"
+    "UTI",
+    "WSO"
   ],
   "achats": [],
   "historique": [
@@ -1802,6 +1803,94 @@
         ]
       },
       "ticket": 18,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-07",
+      "cree_le": "2026-10-07T09:19+00:00",
+      "liberation": 138.26473296944482,
+      "reserve_pct": null,
+      "score": 94.87196444317533,
+      "ordres": [
+        {
+          "ticker": "UTI",
+          "side": "buy",
+          "quantity": 8.0,
+          "price": 17.158091621180603,
+          "reason": "opportunité radar (score 95)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "UTI",
+        "nom": "Universal Technical Institute",
+        "isin": "UTI",
+        "type": "action",
+        "prix": 19.31999969482422,
+        "score": 94.87196444317533,
+        "baisse": 0.6226562615833243,
+        "perf_5ans": 1.8163264313125471,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.18156956651761477,
+        "pos_12m": 0.5891891891891892,
+        "n_12m": 555,
+        "base_moy_12m": 0.13168010023382085,
+        "pire_12m": -0.6654802452696729,
+        "vs_marche_3m": -0.6630678681573852,
+        "devise": "USD",
+        "prix_eur": 17.158091621180603
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -66% vs marché)",
+        "vs_marche_3m": -0.6630678681573852,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Changes in working capital of Universal Technical Institute Inc – NYSE:UTI - TradingView",
+            "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYlB3UUN0b0ZfYmpRZk9DU1FHX05Tc1FUaDZJdDdlSmh2NGwzcXNJTnRzV0x4OS1TeGZwNE1BZS1PQUR6UklCYjh5M1hpc3BOQUgxVGQ5Ym4xT1Q1UXFkenQwbHhQb1o0OHNiR2hYZjJoSkJNOWpYWHY1SGVreXJzazF1MWlXLTlLM0Z0NlNDYjhkMnBQMDlqeg?oc=5",
+            "date": "2026-10-06",
+            "source": "TradingView",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Truist reiterates Buy on Universal Technical Institute stock at $38 - Investing.com",
+            "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVXhpakNlRVVFY1VwY0hlMGRxaDFCd2piRDFQb3UwemVTZHQzZDZ2SFhkQTdSWXhzZmlXM1ZNSWREaXdkSmxZd0tLNjZ2Y04zWll0Z1IySHU3S3Nkc2xKN0x5YmYxRVhGYVFyZzBIa3BtbE1EQXIyTS1qcmhiVUJobjN6QmxfdEdNTkNwUUJlTGFWNzd6aDYtajYtNXliUFppam5uNlVDRm1WYVNfOE13Q0Y0ek9MY29rc0RJRk5BMHhXR1Nt?oc=5",
+            "date": "2026-10-06",
+            "source": "Investing.com",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Truist Securities Reiterates Buy Rating on Universal Technical Institute (UTI) - StreetInsider",
+            "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSFU0ekYwTjZwTnpFcnJVZG5IekpBakpKUUR3d3g5M0FScWpuVURKWWN1ZzV6M2ZvY2Rvclc3aVlWb25zcmdoWFN2d09rdU02TEZiYlozQlptSUlPX2hIeTVValFkb3NHNTdMS01tM0JJcWo2bDdZdDc2Z2JZcE1lelVQNDJBT0ZuaWpZNkl1RVI1V29qM21ucDBtS2JjYWRGdDhuMi1pMjVEaE11ZkZ5OWp5bHRIcV9CYU9Tb1djWUdKLTEtX3AyN21IRlUzUG5Qa2RxMkdEVXVvMXM?oc=5",
+            "date": "2026-10-06",
+            "source": "StreetInsider",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "High Demand for Skilled Trades Meets Evolving Customer Acquisition Headwinds at Universal Technical Institute (UTI) - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaFZuWW5sZGFDczVwOVdCX2FGUU1UbHdTb1lhaXFucm5NWXlpV3dzRVhndE9SbU1Kc2xiQmlnLVpveFFtQ2FnTV9BQ3Z5MDhtQ2ppd2xESkV4ak5jcWZodi00YW5FbDBuc1ZKRXJaZjdOZGR3QmtURENnM1VuNnZwLUpDd3NZWUsyY3pUejRnNU5wLW1tcWZmQjd5WG9SUQ?oc=5",
+            "date": "2026-10-05",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Universal Technical Institute R (UTI.MU) Q3 FY2026 earnings call transcript - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYkZBMEFJMDlmWHJPaW5oUWZ2ZWViYy1xRzFnU2h2N3V2cDJYUExYbmFXUVQxTDlxQ0lLN002N3ZDdE5iNU9xZTRqa0U0ZHp2bk85RzF5NHdoWVBHWVhPblJPT2VNZmJGQVBVM3gzZ0poN1dsckhpeFlLUVdpOVFHblM5WE5YSDRiWFBKMzFUaXBfa1E?oc=5",
+            "date": "2026-10-05",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 19,
       "decision": "sans réponse"
     }
   ]
