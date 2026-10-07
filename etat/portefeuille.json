@@ -15,93 +15,7 @@
     "MCD": "2026-10-05",
     "IGG.L": "2026-10-06"
   },
-  "opportunite": {
-    "type": "opportunite",
-    "date": "2026-10-07",
-    "cree_le": "2026-10-07T20:18+00:00",
-    "liberation": 144.93720627302946,
-    "reserve_pct": null,
-    "score": 94.90126869871233,
-    "ordres": [
-      {
-        "ticker": "RBA",
-        "side": "buy",
-        "quantity": 2.0,
-        "price": 71.96860313651473,
-        "reason": "opportunité radar (score 95)"
-      }
-    ],
-    "notes": [],
-    "total": 0,
-    "radar": {
-      "ticker": "RBA",
-      "nom": "RB Global",
-      "isin": "RBA",
-      "type": "action",
-      "prix": 80.61000061035156,
-      "score": 94.90126869871233,
-      "baisse": 0.31872694048145633,
-      "perf_5ans": 0.42482323406679234,
-      "tranche": "80-100 (soldé)",
-      "moy_12m": 0.20837630758922532,
-      "pos_12m": 0.8430493273542601,
-      "n_12m": 892,
-      "base_moy_12m": 0.17723391146879852,
-      "pire_12m": -0.39816337622109343,
-      "vs_marche_3m": -0.3052569432636034,
-      "devise": "USD",
-      "prix_eur": 71.96860313651473
-    },
-    "actualites": {
-      "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -31% vs marché)",
-      "vs_marche_3m": -0.3052569432636034,
-      "alertes": [],
-      "recents": [
-        {
-          "titre": "Why Is RB Global (TSX:RBA) in Focus Amid Its Marketplace Volume Trends Story? - Kalkine Media",
-          "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMVBVUmZKZm9HaGZvYzZUQVFNOXlqcG45Y3pMUERtazEyYWlhN2hadTVhVTdta3ZMSUctajVodElacXUyOGxNVFhMc1hQYm9pTXdsWW9BbXNRRnVCaXpQc3BnMkZ5eTVDelhBallFM0RNTzhsWTNyMGI2b2FNbHJNTDV2dTRPanR5ckhhRlNzMmZVZ2FpNC1HYjhsbDItYnRfRkNfQVI0OUFBaGxSdU5PdkVvTnVab2VyM0FB?oc=5",
-          "date": "2026-10-07",
-          "source": "Kalkine Media",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "RB Global price target lowered to $110 from $121 at Barclays - TipRanks",
-          "lien": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcUNXd0RmWEYzSnRzT1QwRXp4NWkxaDd6bmhjQ0NnbTZhQ0FUYnJwUVBxby1Ia2dESkRKUlc3VmVMRnhxZzRUbGZ3QWw4OHJ3U2NpY0UySGdESGlob093ZThnTE5ZajhSV08tZTM1TWdIMmtHSklNT2tsSmROQ0hKNjBoTExWMkhFWEtwUWhtT1BJLUdvVzdDdi1LWTU4VkcwajlLRHFOdXR6QndzVDJTcFlwenFMYV9LMTNPNUdJMlZDOVNpaUlhZktxd0R6YVZWYUZjUjNoOWZLN2hTLWhxa2Q5bWdiVlJOYTBB?oc=5",
-          "date": "2026-10-07",
-          "source": "TipRanks",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "RB Global, Inc. (RBA) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1IWU9NaV80X2dyY3hWZmx5QTdmNDVWOU5aUEJKb2RNTW9xMFctNE9LcEUxSG1jdENSY0dnNGdhdVg3dDVHYUNNbEoxZVNiWURv?oc=5",
-          "date": "2026-10-06",
-          "source": "Yahoo! Finance Canada",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "RB Global, Inc. (RBA.TO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-          "lien": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1EVGl5MXdQbzY5ZzJpQWlGOXJXZzk1d1NadDg1eU00TnBCNFFub3R5TW5VX2tOWXp3QkVZWWM1a3BCcWI3djl3enBsZ1IzZ0tVcmJSVw?oc=5",
-          "date": "2026-10-05",
-          "source": "Yahoo! Finance Canada",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "1 Safe-and-Steady Stock with Exciting Potential and 2 That Underwhelm - FinancialContent",
-          "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORnVzX0hGTVMtdHA5OUo2b213Q0tXZFdRRm1aU0Zjc0I5d1g3UGNVMnhFaFNnX2MxMEdCbWc5YmtacGd6bTU1X0dzZFVXS3l6OXF1MGdzRnRhMW5BWkd0SVlWLUQ1TDZwNkt0dHljRjZ6Q3dPdmp6eEhQSnhRM3hGd2dGcHZrbnFEY3YxVG10RW9VNGI1UDNOdkVRcDJKNFV4Z3BNb2EzSzRoSVVYMm5jMUl0cGtxRVpmdktXYkZpVERpOVVCUnl1UmtjTQ?oc=5",
-          "date": "2026-10-05",
-          "source": "FinancialContent",
-          "gravite": 0,
-          "mots": []
-        }
-      ]
-    },
-    "ticket": 34
-  },
+  "opportunite": null,
   "radar_proposes": [
     "MCD",
     "IGG.L",
@@ -3246,6 +3160,94 @@
         ]
       },
       "ticket": 33,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-07",
+      "cree_le": "2026-10-07T20:18+00:00",
+      "liberation": 144.93720627302946,
+      "reserve_pct": null,
+      "score": 94.90126869871233,
+      "ordres": [
+        {
+          "ticker": "RBA",
+          "side": "buy",
+          "quantity": 2.0,
+          "price": 71.96860313651473,
+          "reason": "opportunité radar (score 95)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "RBA",
+        "nom": "RB Global",
+        "isin": "RBA",
+        "type": "action",
+        "prix": 80.61000061035156,
+        "score": 94.90126869871233,
+        "baisse": 0.31872694048145633,
+        "perf_5ans": 0.42482323406679234,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.20837630758922532,
+        "pos_12m": 0.8430493273542601,
+        "n_12m": 892,
+        "base_moy_12m": 0.17723391146879852,
+        "pire_12m": -0.39816337622109343,
+        "vs_marche_3m": -0.3052569432636034,
+        "devise": "USD",
+        "prix_eur": 71.96860313651473
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -31% vs marché)",
+        "vs_marche_3m": -0.3052569432636034,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Why Is RB Global (TSX:RBA) in Focus Amid Its Marketplace Volume Trends Story? - Kalkine Media",
+            "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMVBVUmZKZm9HaGZvYzZUQVFNOXlqcG45Y3pMUERtazEyYWlhN2hadTVhVTdta3ZMSUctajVodElacXUyOGxNVFhMc1hQYm9pTXdsWW9BbXNRRnVCaXpQc3BnMkZ5eTVDelhBallFM0RNTzhsWTNyMGI2b2FNbHJNTDV2dTRPanR5ckhhRlNzMmZVZ2FpNC1HYjhsbDItYnRfRkNfQVI0OUFBaGxSdU5PdkVvTnVab2VyM0FB?oc=5",
+            "date": "2026-10-07",
+            "source": "Kalkine Media",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "RB Global price target lowered to $110 from $121 at Barclays - TipRanks",
+            "lien": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcUNXd0RmWEYzSnRzT1QwRXp4NWkxaDd6bmhjQ0NnbTZhQ0FUYnJwUVBxby1Ia2dESkRKUlc3VmVMRnhxZzRUbGZ3QWw4OHJ3U2NpY0UySGdESGlob093ZThnTE5ZajhSV08tZTM1TWdIMmtHSklNT2tsSmROQ0hKNjBoTExWMkhFWEtwUWhtT1BJLUdvVzdDdi1LWTU4VkcwajlLRHFOdXR6QndzVDJTcFlwenFMYV9LMTNPNUdJMlZDOVNpaUlhZktxd0R6YVZWYUZjUjNoOWZLN2hTLWhxa2Q5bWdiVlJOYTBB?oc=5",
+            "date": "2026-10-07",
+            "source": "TipRanks",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "RB Global, Inc. (RBA) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+            "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1IWU9NaV80X2dyY3hWZmx5QTdmNDVWOU5aUEJKb2RNTW9xMFctNE9LcEUxSG1jdENSY0dnNGdhdVg3dDVHYUNNbEoxZVNiWURv?oc=5",
+            "date": "2026-10-06",
+            "source": "Yahoo! Finance Canada",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "RB Global, Inc. (RBA.TO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+            "lien": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1EVGl5MXdQbzY5ZzJpQWlGOXJXZzk1d1NadDg1eU00TnBCNFFub3R5TW5VX2tOWXp3QkVZWWM1a3BCcWI3djl3enBsZ1IzZ0tVcmJSVw?oc=5",
+            "date": "2026-10-05",
+            "source": "Yahoo! Finance Canada",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "1 Safe-and-Steady Stock with Exciting Potential and 2 That Underwhelm - FinancialContent",
+            "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORnVzX0hGTVMtdHA5OUo2b213Q0tXZFdRRm1aU0Zjc0I5d1g3UGNVMnhFaFNnX2MxMEdCbWc5YmtacGd6bTU1X0dzZFVXS3l6OXF1MGdzRnRhMW5BWkd0SVlWLUQ1TDZwNkt0dHljRjZ6Q3dPdmp6eEhQSnhRM3hGd2dGcHZrbnFEY3YxVG10RW9VNGI1UDNOdkVRcDJKNFV4Z3BNb2EzSzRoSVVYMm5jMUl0cGtxRVpmdktXYkZpVERpOVVCUnl1UmtjTQ?oc=5",
+            "date": "2026-10-05",
+            "source": "FinancialContent",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 34,
       "decision": "sans réponse"
     }
   ]
