@@ -18,89 +18,132 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-07",
-    "cree_le": "2026-10-07T13:49+00:00",
-    "liberation": 171.71058201164632,
+    "cree_le": "2026-10-07T14:19+00:00",
+    "liberation": 147.60756836041648,
     "reserve_pct": null,
-    "score": 94.19353112359991,
+    "score": 94.01572866518418,
     "ordres": [
       {
-        "ticker": "IBP",
+        "ticker": "GIL.TO",
         "side": "buy",
-        "quantity": 1.0,
-        "price": 170.71058201164632,
+        "quantity": 4.0,
+        "price": 36.65189209010412,
         "reason": "opportunité radar (score 94)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "IBP",
-      "nom": "Installed Building Products, Inc.",
-      "isin": "IBP",
+      "ticker": "GIL.TO",
+      "nom": "Gildan Activewear Inc.",
+      "isin": "GIL.TO",
       "type": "action",
-      "prix": 192.22000122070312,
-      "score": 94.19353112359991,
-      "baisse": 0.4348355597157284,
-      "perf_5ans": 0.8681513016099982,
+      "prix": 58.790000915527344,
+      "score": 94.01572866518418,
+      "baisse": 0.39826479128228787,
+      "perf_5ans": 0.3667799689829476,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.4951177628298923,
-      "pos_12m": 0.7709163346613546,
-      "n_12m": 502,
-      "base_moy_12m": 0.3050539039253774,
-      "pire_12m": -0.40987671602691655,
-      "vs_marche_3m": -0.15079674746816185,
-      "devise": "USD",
-      "prix_eur": 170.71058201164632
+      "moy_12m": 0.39053247492837034,
+      "pos_12m": 0.6790633608815427,
+      "n_12m": 726,
+      "base_moy_12m": 0.2186558464770975,
+      "pire_12m": -0.7798540903699502,
+      "vs_marche_3m": -0.2489873350046481,
+      "devise": "CAD",
+      "prix_eur": 36.65189209010412
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -15% vs marché)",
-      "vs_marche_3m": -0.15079674746816185,
-      "alertes": [],
+      "resume": "à vérifier : baisse bien plus forte que le marché, 4 article(s) à regarder (3 mois : -25% vs marché)",
+      "vs_marche_3m": -0.2489873350046481,
+      "alertes": [
+        {
+          "titre": "GIL Legal Notice: BFA Law Notifies Gildan Investors that Lost Money of the Ongoing Securities Fraud Investigation - GlobeNewswire",
+          "lien": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNRHVTUGl6ZzJEdlRMTWI5cVVQb19iUDNRWjM4RnFyaHl3VHlUbDVLM2I4ZkMzUmN6TkQ1UmhtbVVDVE5YSFVPRnJOUVpRUUtIU0kwVHlJcXFLczRPT0hGck9hVTJud2hCdHZKOXRfeW8yYmpERUVPRGR6aS1SQ09YTmdud3J1YnZ3QUJDb1prakpZQ1ZnMFpVRkNMUFFjYTFFUWNRWTI2TExNQ2d3OURhdXNDcm4wMXJVcVM5N3ZPSktRLWM2OXJLVF93R3NtSEVQZF80a3dGX3NTZ3haUjlFcDdFbXFTSUo4RGlHa1FNNEFYaHZWR2dYRGlVUll0Yk1jQkg2dm9PV2pHOTNYS2k1bzhn?oc=5",
+          "date": "2026-09-09",
+          "source": "GlobeNewswire",
+          "gravite": 1,
+          "mots": [
+            "fraud",
+            "investigation"
+          ]
+        },
+        {
+          "titre": "Rosen Law Firm Encourages Gildan Activewear Inc. Investors to Inquire About Securities Class Action Investigation - GIL - PR Newswire",
+          "lien": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNSE9vdFphR2MzeEJ5YXBkc1pNX0ZBTU5FRjdNNnFqUXRORjM5ZlhBcjV5NUlRclRsRlF0dTgwSFVYZk0xVnNSdW5wR09aUlZkamM4R2VJNnNTaUNvUHZYUkRNazZOUVRrM0lnUTFfNEVwclJvY2loMV9IcmNWX0NVYk5yVmdnd3FhWjUzMURwNVpjUzd2Umg3aGtReEhPVTByRzBDdF9kQzZFemRhUFhDWXRDeVZ1NTRJaHNyeFh0ZjdPYUttUkIwUnRrSzgzaUdWSFVHc1ozWGtOMUZrNHR4VGtuS0pWVUFZV2FMWXB5b003MTVCMFh1aGI1Z2wxbHBRRVVF?oc=5",
+          "date": "2026-10-02",
+          "source": "PR Newswire",
+          "gravite": 1,
+          "mots": [
+            "investigation",
+            "class action"
+          ]
+        },
+        {
+          "titre": "Lawsuit probes Gildan Activewear over alleged m... - Pluang",
+          "lien": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaUs5RDVaZnBjdl9hbHBLUHJkMUtlbG5hcnQ2S0hmeEx1UnVBeWI5dzBPMlFaNDBpRzZBLW1TSkdEUmRZdk1MM0RjaTByaVEzUGhpS2RJc1lXNERTcXJPalJSdElvR0NYQV85N3Nia1ZfRmdsZGVLRHN1bXppY3lvelctUHc2Z2ZXY252a0xn?oc=5",
+          "date": "2026-10-02",
+          "source": "Pluang",
+          "gravite": 1,
+          "mots": [
+            "lawsuit"
+          ]
+        },
+        {
+          "titre": "Gildan Activewear faces class action over alleged misleading business info causing 18.7% stock drop - Pluang",
+          "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeUh2akgtMWVCWVBzY1p0S1BMU0Rqa1JRZmRNQktuOHBLX25SaEJRYm5kNVBVb3o5Nk1JdHFkRWxsZTJxTDdzRmJuOXhsZzVJNUY2Z0k5S1hFeG5fUEM2QVEzS0RuSkpvdEJuVW9fOFhFaE5PbjhpeFQ0b1V4ZUtFZkY3S0dzZmVXUTQ4LVp1ZXpvTkwt?oc=5",
+          "date": "2026-10-03",
+          "source": "Pluang",
+          "gravite": 1,
+          "mots": [
+            "class action"
+          ]
+        }
+      ],
       "recents": [
         {
-          "titre": "Installed Building Products, Inc. : RBC Capital Markets conserve son opinion neutre - Zonebourse",
-          "lien": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNY2RqX0lLb0xzQnNQbHV5TmVzOG9lVE1Kb0VsV2J0M1JMQkd5d1ZBMlBTWkhMRnhyeVBncWhTWGVvNE4xQ2NuWmRERzl6YWN4S296VmpUM1V1RkNvU3Rld2VablZ1Ml91X1pkVzAxYjUzYlBSZF9INzZobG9PdFJNMzJSWFRtTjRkNnhvMnlEWHlTUkl5MS0wZVJCVGdyRlAzZmdlRHBBQnVUdXhHUlc5LUtZa2lqUHU5ejVuRzRnTXlUUi1yVTdZbXBOcVhQODlxTjNDYXJtOA?oc=5",
+          "titre": "Why Is Gildan (TSX:GIL) in Focus Amid Its HanesBrands Combination Story? - Kalkine Media",
+          "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUmVESUFUbE0xZlJPVlh3RkR3ZW03R2hNcEZHSGlIdmZjZlYtQ096bDBzRWRwMEFySEdWeFRuY3VuNjZzc1RfaWRNdWZfRmdqNm5iV21VVkE5SkVtNWtwN0E5WVB0NEx6cGhjRUhRNTdiX2tWNjdIbzRLUmtQaDBlVHNBRlRncjdSNVpNdmFCeWNhZHhVVE13a1ByNjlzWU9yM1B2QXVBX01rZ3BlOFl6QXVB?oc=5",
           "date": "2026-10-07",
-          "source": "Zonebourse",
+          "source": "Kalkine Media",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "RBC Adjusts PT on Installed Building Products to $208 From $288, Keeps Sector Perform Rating - marketscreener.com",
-          "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSWJTT0FFMUNqQUhkVC10ZjJDdU4wdl9kb3ZMbmJNeF9fQWgyRE9tdHczWWg2OFd2ZXpkM0dqYlhRV0ZKbDNONDJjMkVPTGNGS2xPZTRvbkp5UVhUam5RcVdteC1GM2pXdnU3NHJxZGRRTkU2cG9oRXZfU24xVFVLeWJPU3NINGluWUh1UUJMQkN5LVdaOTRtbU1vUkY5bi1wWWNNdEhaeFBKX0VraFFDY3QzVFg3MDlJLVlKN09ZWjgtamRHVjU1LXJBVVprQW5pXzk3cjFNN1NDZw?oc=5",
+          "titre": "What Does the HanesBrands Combination Story Mean for Gildan (TSX:GIL)? - Kalkine Media",
+          "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQ0poSjM2YWJnREpxZTlBTEJKbG9xcFgtdUU2RGQzUVh2eXNYY0pTeEQtOVYyU0ZRZm52S3VGSnNodUt5N05PX3QyUmQ2WjJJTHVZU0RKNGpMUTIxcWUtdTBEdzBxdUpBbjJPV21LczhPQk9vTXF4d1g0LUwtWHNTZEJ4clBWbFp6X205UW9MU3VOS182aXZadWxMaEg5WlpadW9VNk5TRGxuNFJiLXEwQQ?oc=5",
           "date": "2026-10-07",
-          "source": "marketscreener.com",
+          "source": "Kalkine Media",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Installed Building Products stock hits 52-week low at 186.5 USD - Investing.com Canada",
-          "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMkhVTkZGT2pHRkVxZnphZm1ZUGhmd3Z3QzV3b0ZzOEUzWk9fb0NDeThBYmt3d0lxbHVYVWgzTjNuTU1TU2pfT3BwbWdRcGhvaHhoY29HZmpzaGdFcU1ERWNZeWgtdmhRNVFYbE52YVdEbm1ONDJVOGdid0VHWjBrVHhHSmVvTkZPNWNDMWF2M2hZcDItbTdYeUs2ZmlGUDFpa1p1TlNodWFDOVVhbWp2SW1YNjRhcV9hSWMyaEhUNA?oc=5",
+          "titre": "Gildan Activewear stock gained 2.56 percent as Q2 sales rose - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeDd1MVB0OE52aGYtRlNPQThpaG04a0xHMDJ4bkMyUS1XaWd6cnd1RUlaN1FKUjMtUmNWTGhPYkpiYk9ZYzBZNFJMTDB2bEctem5jX0daQzdHZlBIWV9nWi01OGpLR0dISmJ2RFB2ZVBsMnZsQm81N1ljSUFMNWJ6Y2d4UVBWZ0U0Y1JoNmNYazF1ME9GQkJiSEc0WEZfLXhFY3Bwd3Rrc2FJWm1lLW0yVlljdFNBQjQzempr?oc=5",
           "date": "2026-10-07",
-          "source": "Investing.com Canada",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Matrice des capital-options Dream Finders Homes, Inc. (DFH) - Yahoo Finance France",
-          "lien": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcGo4RWk4ODRmTE1lTldSY01GZEdoMXhodkVDdnMtb1RlcEtweG9lNkxfWFZxY1V6N1lFWlg0SHlmMDd2Z3k3OW1uSkZISzVqYnROY2xUdGNobTBTNEpJXzM1QVdqWFRYMUtxYUpZT3YwY19jaHo0VnpoeWQ1YTRueGh3UQ?oc=5",
-          "date": "2026-10-04",
-          "source": "Yahoo Finance France",
+          "titre": "Le procureur général du Texas, Ken Paxton, enquête sur Fruit of the Loom et Hanes pour l’utilisation potentielle de produits chimiques toxiques dans les sous-vêtements pour enfants - Zonebourse Suisse",
+          "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQ2NWWVd0cnB4cGZUVHpzZVFuSzVha2JRb19ORmFnTUNCOFRLUFhmN2VvSVVIZjNIXzJZUjRIdjZxdTJ6S01zYWxQYVRTZ0JYQ29Yd3lQOWNuWnliU2ZSa0w0eWRMNHY1SjhGQzczU2VVUFNFRHRJQWVJcGYyY1QzX1ltdlBXblVDNnZ5ZWczTlBWZFh6a1hHeWNaVkpkNTk4UEI4RXdjWHJQRURJRGpVQ29PaG1yOVBwTVVKeFpIb1lpRHJSLTB1WlA4TnRKQ0JfQ3VMX1YxVEdVUU9Zc214elk1bWw0VlZMTVpLMVFEOA?oc=5",
+          "date": "2026-10-06",
+          "source": "Zonebourse Suisse",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Installed Building Products (NYSE:IBP) - Stock Analysis - Simply Wall Street",
-          "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbEUwR2NycVk3T1BmMmJ2UjgtcDZoQkRqdkdWVi1QNXl6Z0VZZFJxTVF4RzlJQUNLZklmZDZMRFY0ajdtcEJ4VGNqVDZyckMyc3FwSlN0TjN5enpmbkY2eGxjU3J4cFdvVG9IRGdJMm5Wbl8wek1EREhKTFdCXzRTZnBmWXFfOTFYSTNJMG1fQQ?oc=5",
-          "date": "2026-10-04",
-          "source": "Simply Wall Street",
+          "titre": "Texas AG Paxton probes Fruit of the Loom, Hanes over potential toxic chemicals in children's underwear - Reuters",
+          "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMEpMTzhkV3JnelVPSzgxVlI4b0doZUdIRDhpQlpoUUc5NUlkUlVJYjZSS2hzd2tBcmFINVpDMWhybDYtZWZxTEFIM3gtcDR2QnlCRHJkYVdsS3RMVGVDSjZJdDQwRE9CNnM4WDJRbmVWQzJhN3lWcUZtbUxPblRrV2VIMk1pelY0RXg4RmppeEI0OUtLN2NnOElGS0FJaFJnTi1yMWxfRkp5cTVSTi02UXRjMm9tRzJTbldENEVVWTA3dkY1dDZIc1FVdjJDdw?oc=5",
+          "date": "2026-10-06",
+          "source": "Reuters",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 25
+    "ticket": 26
   },
   "radar_proposes": [
     "MCD",
@@ -128,7 +171,8 @@
     "CAR.AX",
     "GTY",
     "AN",
-    "IBP"
+    "IBP",
+    "GIL.TO"
   ],
   "achats": [],
   "historique": [
@@ -2347,6 +2391,94 @@
         ]
       },
       "ticket": 24,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-07",
+      "cree_le": "2026-10-07T13:49+00:00",
+      "liberation": 171.71058201164632,
+      "reserve_pct": null,
+      "score": 94.19353112359991,
+      "ordres": [
+        {
+          "ticker": "IBP",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 170.71058201164632,
+          "reason": "opportunité radar (score 94)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "IBP",
+        "nom": "Installed Building Products, Inc.",
+        "isin": "IBP",
+        "type": "action",
+        "prix": 192.22000122070312,
+        "score": 94.19353112359991,
+        "baisse": 0.4348355597157284,
+        "perf_5ans": 0.8681513016099982,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.4951177628298923,
+        "pos_12m": 0.7709163346613546,
+        "n_12m": 502,
+        "base_moy_12m": 0.3050539039253774,
+        "pire_12m": -0.40987671602691655,
+        "vs_marche_3m": -0.15079674746816185,
+        "devise": "USD",
+        "prix_eur": 170.71058201164632
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -15% vs marché)",
+        "vs_marche_3m": -0.15079674746816185,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Installed Building Products, Inc. : RBC Capital Markets conserve son opinion neutre - Zonebourse",
+            "lien": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNY2RqX0lLb0xzQnNQbHV5TmVzOG9lVE1Kb0VsV2J0M1JMQkd5d1ZBMlBTWkhMRnhyeVBncWhTWGVvNE4xQ2NuWmRERzl6YWN4S296VmpUM1V1RkNvU3Rld2VablZ1Ml91X1pkVzAxYjUzYlBSZF9INzZobG9PdFJNMzJSWFRtTjRkNnhvMnlEWHlTUkl5MS0wZVJCVGdyRlAzZmdlRHBBQnVUdXhHUlc5LUtZa2lqUHU5ejVuRzRnTXlUUi1yVTdZbXBOcVhQODlxTjNDYXJtOA?oc=5",
+            "date": "2026-10-07",
+            "source": "Zonebourse",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "RBC Adjusts PT on Installed Building Products to $208 From $288, Keeps Sector Perform Rating - marketscreener.com",
+            "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSWJTT0FFMUNqQUhkVC10ZjJDdU4wdl9kb3ZMbmJNeF9fQWgyRE9tdHczWWg2OFd2ZXpkM0dqYlhRV0ZKbDNONDJjMkVPTGNGS2xPZTRvbkp5UVhUam5RcVdteC1GM2pXdnU3NHJxZGRRTkU2cG9oRXZfU24xVFVLeWJPU3NINGluWUh1UUJMQkN5LVdaOTRtbU1vUkY5bi1wWWNNdEhaeFBKX0VraFFDY3QzVFg3MDlJLVlKN09ZWjgtamRHVjU1LXJBVVprQW5pXzk3cjFNN1NDZw?oc=5",
+            "date": "2026-10-07",
+            "source": "marketscreener.com",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Installed Building Products stock hits 52-week low at 186.5 USD - Investing.com Canada",
+            "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMkhVTkZGT2pHRkVxZnphZm1ZUGhmd3Z3QzV3b0ZzOEUzWk9fb0NDeThBYmt3d0lxbHVYVWgzTjNuTU1TU2pfT3BwbWdRcGhvaHhoY29HZmpzaGdFcU1ERWNZeWgtdmhRNVFYbE52YVdEbm1ONDJVOGdid0VHWjBrVHhHSmVvTkZPNWNDMWF2M2hZcDItbTdYeUs2ZmlGUDFpa1p1TlNodWFDOVVhbWp2SW1YNjRhcV9hSWMyaEhUNA?oc=5",
+            "date": "2026-10-07",
+            "source": "Investing.com Canada",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Matrice des capital-options Dream Finders Homes, Inc. (DFH) - Yahoo Finance France",
+            "lien": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcGo4RWk4ODRmTE1lTldSY01GZEdoMXhodkVDdnMtb1RlcEtweG9lNkxfWFZxY1V6N1lFWlg0SHlmMDd2Z3k3OW1uSkZISzVqYnROY2xUdGNobTBTNEpJXzM1QVdqWFRYMUtxYUpZT3YwY19jaHo0VnpoeWQ1YTRueGh3UQ?oc=5",
+            "date": "2026-10-04",
+            "source": "Yahoo Finance France",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Installed Building Products (NYSE:IBP) - Stock Analysis - Simply Wall Street",
+            "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbEUwR2NycVk3T1BmMmJ2UjgtcDZoQkRqdkdWVi1QNXl6Z0VZZFJxTVF4RzlJQUNLZklmZDZMRFY0ajdtcEJ4VGNqVDZyckMyc3FwSlN0TjN5enpmbkY2eGxjU3J4cFdvVG9IRGdJMm5Wbl8wek1EREhKTFdCXzRTZnBmWXFfOTFYSTNJMG1fQQ?oc=5",
+            "date": "2026-10-04",
+            "source": "Simply Wall Street",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 25,
       "decision": "sans réponse"
     }
   ]
