@@ -18,89 +18,89 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-07",
-    "cree_le": "2026-10-07T09:49+00:00",
-    "liberation": 262.74972111256,
+    "cree_le": "2026-10-07T10:19+00:00",
+    "liberation": 117.64305001489058,
     "reserve_pct": null,
-    "score": 94.83154990218242,
+    "score": 94.59608194608764,
     "ordres": [
       {
-        "ticker": "WSO",
+        "ticker": "ADC",
         "side": "buy",
-        "quantity": 1.0,
-        "price": 261.74972111256,
+        "quantity": 2.0,
+        "price": 58.32152500744529,
         "reason": "opportunité radar (score 95)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "WSO",
-      "nom": "Watsco",
-      "isin": "WSO",
+      "ticker": "ADC",
+      "nom": "Agree Realty",
+      "isin": "ADC",
       "type": "action",
-      "prix": 294.7300109863281,
-      "score": 94.83154990218242,
-      "baisse": 0.3493340514362069,
-      "perf_5ans": 0.2501670520319508,
+      "prix": 65.66999816894531,
+      "score": 94.59608194608764,
+      "baisse": 0.18148834789078316,
+      "perf_5ans": 0.20918030410242006,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.22985448846403025,
-      "pos_12m": 0.7471428571428571,
-      "n_12m": 700,
-      "base_moy_12m": 0.21259377165477258,
-      "pire_12m": -0.279385274773003,
-      "vs_marche_3m": -0.26711108983779175,
+      "moy_12m": 0.21036654383024558,
+      "pos_12m": 0.7497467071935157,
+      "n_12m": 987,
+      "base_moy_12m": 0.14564532534584454,
+      "pire_12m": -0.6691177204123798,
+      "vs_marche_3m": -0.1959060484295485,
       "devise": "USD",
-      "prix_eur": 261.74972111256
+      "prix_eur": 58.32152500744529
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -27% vs marché)",
-      "vs_marche_3m": -0.26711108983779175,
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -20% vs marché)",
+      "vs_marche_3m": -0.1959060484295485,
       "alertes": [],
       "recents": [
         {
-          "titre": "Watsco agrees to Granite deal: what it means for Watsco stock - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONllYWjVhWVY1aUpsNjVoMlZSamZsR3QwZW1jcWU0YmlwT3lQOS1QNWVzUWRKcEJZclpKTjVtSnV4d0VUZzMzNUVmZEdQSUhuWDlOOGY0ZXRKMDBGQW9LNzRXSlFoT2Y5NDVINDZYU0N4c1JnNUpxVnIwdUxKZU9FNDBJYUtSWkhBRl8za0tYWUhad0lLaW11QTdfSGhlMGhEX2FJQVE4NnZHaUlmeUNqcXZsUmtnT2dfRF9Z?oc=5",
-          "date": "2026-10-07",
-          "source": "AD HOC NEWS",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "What Could Help Watsco (NYSE:WSO) Strengthen Its Market Case? - Kalkine Media",
-          "lien": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQLTRXeEpKdkZPMXBfenVqQ1UtcWctai11TExaQ19uM2ZHdU9SZzAxNXlsWkNZT1IxYi1jdlQ0aFl1RmpzR0ROQU9IQ2g3VnR4Y29oT3A1bkl5eXVONUVfb1JaY2FKOGZNUDlmQkZDajFMQVFBV0RZMXptVEhrQTB1UjBtdkFITVVPcm4xbG9Ma3RTX2RjR2NfSllVTmxzNWVN?oc=5",
+          "titre": "Agree Realty stock reports higher Q2 earnings and guidance - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZEQwekUzWVIxTWxwQ3B6SFc1bXM0NWE3NDF0NGVqOFcwaFM0anlUOG9aT1JTMEVGZDhEcE9IcGJYanVqdURfTTE3NC1WQjJrZ3hHWmJSZFlsZVFWQTQyR2NXU2RSckNhQ1pJVlVtR2J3dkNaZUVLNFhjMEVQVzZjS2pJYmcyeHE3QkhoZFhjSTZSVUpmMlRjLUZlbXlrczg2b3N0QXE3aF90dk92MjNzWnhRNElEQ2RScm5XeDZR?oc=5",
           "date": "2026-10-05",
-          "source": "Kalkine Media",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Watsco stock falls 1.22 percent as dividend meets earnings pressure - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQb0tYU21zV0VzYnpnTU4yeGF2UWxFeVB6M2d1aGZnVUMyU29sdjRFM2NCb0JUUE1VSnJnZlRlZWZEMEltOG1Eci1MYUo2UkV5bXYyM1VtZ0JaZjFKM1dYNlJ6Ui1SVzllbkJKMmt1NGphczhVSk1qNVNlX3R6NGh0RmVnWXhxTUF6NEt2bWU2OUJrTlNfSXhESFlqQng5OUVYZ29Qb21SYjFfZ0NxYmdBdWpPNDRZdzB0QVd3RkdqZmtrVUhLaXZfazF3?oc=5",
+          "titre": "RBC Capital Reaffirms Their Buy Rating on Agree Realty (ADC) - The Globe and Mail",
+          "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWldLX1lNVkVVUkMtYmV4Y04wMDRvTEkyeDFvRnJUMWlTN2VrNEprSEdhSl9BUnFSc3VCNV9VTEIxd1dvWWJVdjI0cDJvcVNQSHJyQ0xIUUkyT3kzb0lpTWZfMlBSTzBxZnR3VHVvZDV4bnBweW5ReGNoTkp5RXhIUlY4UHJUWjNrempqZU0wdTBYZWJUZUxLNW5FWFllNzVYdjNCMnZxZjFoMDZLN2pSMmRMTDFFdlpHeUhkcmw0S2w1RWxtQmw1NnlBNFJpTXZOdjlvYXBn?oc=5",
           "date": "2026-10-04",
-          "source": "AD HOC NEWS",
+          "source": "The Globe and Mail",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Watsco (NYSE:WSO.B) Stands Out as a Quality Investing Candidate - ChartMill",
-          "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTTV6dVY3OVBlQ2tDci1hSkVuYkU3eEMwNGdKc0ZtYnFXQVBXUFV4QWdPaTA3MmVrUWQwNGVMQkhCTjk1TUJ1cnlSclZjTnJWdmNySmtmX0ZCSWFaSUt0WFdxdHdqUUtzbzNJUFJBbzJlVmN0TmFTQk1TaEYxcW1sZlhqTk1XQXlqbi11QWszdXpISXFFQUhpWFRUQUhsQlprQTQ4SzFCOE5JZXNCR2NxMmFn?oc=5",
-          "date": "2026-10-02",
-          "source": "ChartMill",
+          "titre": "Agree Realty (ADC) Stock Looks About Right After Its 38% 3 Year Gain - Simply Wall Street",
+          "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSDdMTm1KUTRIODdNWTRwUmJfVDdCaDVBMWVDMXpnOHZrOW54MEg3dXRscF9vNmN1QkZlLWpGa2I1dENUUkJxQkUzektQZTgwWmtEUUdTX3NOajZIYUJ4cDZyS0VZbXJ2UGJhU0RfcXY0d1ZDa2Y3NF8weE42YnY3MHBza2dEczVoTjZsWkY5UjgtdXYwM1ZCZGlxOUFPemxOZHpKNEFFUkJzdXBuMkxjQU84YTdVRU1pcDdUaGtwQUFFaEtvaHNwcGg2RdIB0AFBVV95cUxPV0o0QVVqTkRMRUJzcmNWb3VCN29nMTBKUWFXSThKc3gweW15SkxzNkRpbDVLcVVESERaajRCblg0U1NBbHdzY0JhclM1NzVrbWs3My1PUWZvMzFta3JkbFVQdGU4N2tpWEI4NTV2cVFwVThBNlEtdTJBMTFvaF9IS2t4aHM0cFJKQ244TE8yblk2SlhkenYwci1yeGJJbHJSOFdkZUFmN2VIR3VTQUdNVF9uanF4YkRfclVhbzh0TEpHZ194S2NJRUU2U3Nmc1Na?oc=5",
+          "date": "2026-10-03",
+          "source": "Simply Wall Street",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Watsco declares a USD 3.30 dividend and Watsco stock falls 1.38 percent - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSU5MRDdBUW4tVk1RRlF6dE1GdHFOVGUtaVlnZ0FTRC1nV0x0TGprUEpRS2pheFh4bGxkV25scURMcEFQbm01TlRHQzFOVE8yalI0ajFoZFE5aV9OM196d0N2NndES0VZNUlFVlB5bDZHLS00VmZMSnNPSjM4LXo2TGVpVE95ajdlblZqcEpFNVkwOWc1enJPZG82R2dteVB2UUZXZW9ZMDlHQ2JoRWFHVEZyaDFzMGNCNmFub3RiazRwT3pFWThRcHVn?oc=5",
+          "titre": "Agree Realty (ADC) Earnings Date and Reports 2026 $ADC - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBTOEpNYmVJbV9rdDVwckJWVmQ5a2poQXM2ZjIyT2N2WG1TZC1nWVAzdW1EajJybVdQYVBPblF0MVlBeUhZbS01UHhkWktVQTZvNUg5TkM1OTdjS05HelJYQkln?oc=5",
           "date": "2026-10-02",
-          "source": "AD HOC NEWS",
+          "source": "MarketBeat",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Agree Realty reports diluted shares of 124.95M for Q3 2026, 122.23M YTD - TradingView",
+          "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbFdTWWRydzRYNlJpWHlTcmFNUUdOcGVoQTZTekxEX1VHeklQbkFBMDlmY2NYa19ibFRBeDMwZVFyMms5VHBkZl92LXZUX3p2U1VZTmh0cllOdVJzVVJ5TGxFRWZYaXB1MFpjOG9wZHUwWHRjb2t0ZENDRWxmMkM3QXZicXJ3MFJ0X1FIbmNTckZEdV9HU1pKSlBNOGc0T0NNMWZTSnRGX1R4ck5KOTlDZnQ5aHpnWXJSSEE4MEZEa0c1dEJvQ1BIaG5vTjg?oc=5",
+          "date": "2026-10-02",
+          "source": "TradingView",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 20
+    "ticket": 21
   },
   "radar_proposes": [
     "MCD",
@@ -123,7 +123,8 @@
     "NHI",
     "POST",
     "UTI",
-    "WSO"
+    "WSO",
+    "ADC"
   ],
   "achats": [],
   "historique": [
@@ -1891,6 +1892,94 @@
         ]
       },
       "ticket": 19,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-07",
+      "cree_le": "2026-10-07T09:49+00:00",
+      "liberation": 262.74972111256,
+      "reserve_pct": null,
+      "score": 94.83154990218242,
+      "ordres": [
+        {
+          "ticker": "WSO",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 261.74972111256,
+          "reason": "opportunité radar (score 95)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "WSO",
+        "nom": "Watsco",
+        "isin": "WSO",
+        "type": "action",
+        "prix": 294.7300109863281,
+        "score": 94.83154990218242,
+        "baisse": 0.3493340514362069,
+        "perf_5ans": 0.2501670520319508,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.22985448846403025,
+        "pos_12m": 0.7471428571428571,
+        "n_12m": 700,
+        "base_moy_12m": 0.21259377165477258,
+        "pire_12m": -0.279385274773003,
+        "vs_marche_3m": -0.26711108983779175,
+        "devise": "USD",
+        "prix_eur": 261.74972111256
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -27% vs marché)",
+        "vs_marche_3m": -0.26711108983779175,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Watsco agrees to Granite deal: what it means for Watsco stock - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONllYWjVhWVY1aUpsNjVoMlZSamZsR3QwZW1jcWU0YmlwT3lQOS1QNWVzUWRKcEJZclpKTjVtSnV4d0VUZzMzNUVmZEdQSUhuWDlOOGY0ZXRKMDBGQW9LNzRXSlFoT2Y5NDVINDZYU0N4c1JnNUpxVnIwdUxKZU9FNDBJYUtSWkhBRl8za0tYWUhad0lLaW11QTdfSGhlMGhEX2FJQVE4NnZHaUlmeUNqcXZsUmtnT2dfRF9Z?oc=5",
+            "date": "2026-10-07",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "What Could Help Watsco (NYSE:WSO) Strengthen Its Market Case? - Kalkine Media",
+            "lien": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQLTRXeEpKdkZPMXBfenVqQ1UtcWctai11TExaQ19uM2ZHdU9SZzAxNXlsWkNZT1IxYi1jdlQ0aFl1RmpzR0ROQU9IQ2g3VnR4Y29oT3A1bkl5eXVONUVfb1JaY2FKOGZNUDlmQkZDajFMQVFBV0RZMXptVEhrQTB1UjBtdkFITVVPcm4xbG9Ma3RTX2RjR2NfSllVTmxzNWVN?oc=5",
+            "date": "2026-10-05",
+            "source": "Kalkine Media",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Watsco stock falls 1.22 percent as dividend meets earnings pressure - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQb0tYU21zV0VzYnpnTU4yeGF2UWxFeVB6M2d1aGZnVUMyU29sdjRFM2NCb0JUUE1VSnJnZlRlZWZEMEltOG1Eci1MYUo2UkV5bXYyM1VtZ0JaZjFKM1dYNlJ6Ui1SVzllbkJKMmt1NGphczhVSk1qNVNlX3R6NGh0RmVnWXhxTUF6NEt2bWU2OUJrTlNfSXhESFlqQng5OUVYZ29Qb21SYjFfZ0NxYmdBdWpPNDRZdzB0QVd3RkdqZmtrVUhLaXZfazF3?oc=5",
+            "date": "2026-10-04",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Watsco (NYSE:WSO.B) Stands Out as a Quality Investing Candidate - ChartMill",
+            "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTTV6dVY3OVBlQ2tDci1hSkVuYkU3eEMwNGdKc0ZtYnFXQVBXUFV4QWdPaTA3MmVrUWQwNGVMQkhCTjk1TUJ1cnlSclZjTnJWdmNySmtmX0ZCSWFaSUt0WFdxdHdqUUtzbzNJUFJBbzJlVmN0TmFTQk1TaEYxcW1sZlhqTk1XQXlqbi11QWszdXpISXFFQUhpWFRUQUhsQlprQTQ4SzFCOE5JZXNCR2NxMmFn?oc=5",
+            "date": "2026-10-02",
+            "source": "ChartMill",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Watsco declares a USD 3.30 dividend and Watsco stock falls 1.38 percent - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSU5MRDdBUW4tVk1RRlF6dE1GdHFOVGUtaVlnZ0FTRC1nV0x0TGprUEpRS2pheFh4bGxkV25scURMcEFQbm01TlRHQzFOVE8yalI0ajFoZFE5aV9OM196d0N2NndES0VZNUlFVlB5bDZHLS00VmZMSnNPSjM4LXo2TGVpVE95ajdlblZqcEpFNVkwOWc1enJPZG82R2dteVB2UUZXZW9ZMDlHQ2JoRWFHVEZyaDFzMGNCNmFub3RiazRwT3pFWThRcHVn?oc=5",
+            "date": "2026-10-02",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 20,
       "decision": "sans réponse"
     }
   ]
