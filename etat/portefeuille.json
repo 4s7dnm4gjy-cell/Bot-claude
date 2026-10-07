@@ -18,132 +18,89 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-07",
-    "cree_le": "2026-10-07T14:19+00:00",
-    "liberation": 147.60756836041648,
+    "cree_le": "2026-10-07T15:29+00:00",
+    "liberation": 235.3695831070808,
     "reserve_pct": null,
-    "score": 94.01572866518418,
+    "score": 93.81798829192945,
     "ordres": [
       {
-        "ticker": "GIL.TO",
+        "ticker": "HII",
         "side": "buy",
-        "quantity": 4.0,
-        "price": 36.65189209010412,
+        "quantity": 1.0,
+        "price": 234.3695831070808,
         "reason": "opportunité radar (score 94)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "GIL.TO",
-      "nom": "Gildan Activewear Inc.",
-      "isin": "GIL.TO",
+      "ticker": "HII",
+      "nom": "Huntington Ingalls Industries",
+      "isin": "HII",
       "type": "action",
-      "prix": 58.790000915527344,
-      "score": 94.01572866518418,
-      "baisse": 0.39826479128228787,
-      "perf_5ans": 0.3667799689829476,
+      "prix": 263.8999938964844,
+      "score": 93.81798829192945,
+      "baisse": 0.4131403863193145,
+      "perf_5ans": 0.48969159720207633,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.39053247492837034,
-      "pos_12m": 0.6790633608815427,
-      "n_12m": 726,
-      "base_moy_12m": 0.2186558464770975,
-      "pire_12m": -0.7798540903699502,
-      "vs_marche_3m": -0.2489873350046481,
-      "devise": "CAD",
-      "prix_eur": 36.65189209010412
+      "moy_12m": 0.30069541347341694,
+      "pos_12m": 0.821917808219178,
+      "n_12m": 730,
+      "base_moy_12m": 0.16093917268446373,
+      "pire_12m": -0.30413756038201534,
+      "vs_marche_3m": -0.13129958596064473,
+      "devise": "USD",
+      "prix_eur": 234.3695831070808
     },
     "actualites": {
-      "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, 4 article(s) à regarder (3 mois : -25% vs marché)",
-      "vs_marche_3m": -0.2489873350046481,
-      "alertes": [
-        {
-          "titre": "GIL Legal Notice: BFA Law Notifies Gildan Investors that Lost Money of the Ongoing Securities Fraud Investigation - GlobeNewswire",
-          "lien": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNRHVTUGl6ZzJEdlRMTWI5cVVQb19iUDNRWjM4RnFyaHl3VHlUbDVLM2I4ZkMzUmN6TkQ1UmhtbVVDVE5YSFVPRnJOUVpRUUtIU0kwVHlJcXFLczRPT0hGck9hVTJud2hCdHZKOXRfeW8yYmpERUVPRGR6aS1SQ09YTmdud3J1YnZ3QUJDb1prakpZQ1ZnMFpVRkNMUFFjYTFFUWNRWTI2TExNQ2d3OURhdXNDcm4wMXJVcVM5N3ZPSktRLWM2OXJLVF93R3NtSEVQZF80a3dGX3NTZ3haUjlFcDdFbXFTSUo4RGlHa1FNNEFYaHZWR2dYRGlVUll0Yk1jQkg2dm9PV2pHOTNYS2k1bzhn?oc=5",
-          "date": "2026-09-09",
-          "source": "GlobeNewswire",
-          "gravite": 1,
-          "mots": [
-            "fraud",
-            "investigation"
-          ]
-        },
-        {
-          "titre": "Rosen Law Firm Encourages Gildan Activewear Inc. Investors to Inquire About Securities Class Action Investigation - GIL - PR Newswire",
-          "lien": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNSE9vdFphR2MzeEJ5YXBkc1pNX0ZBTU5FRjdNNnFqUXRORjM5ZlhBcjV5NUlRclRsRlF0dTgwSFVYZk0xVnNSdW5wR09aUlZkamM4R2VJNnNTaUNvUHZYUkRNazZOUVRrM0lnUTFfNEVwclJvY2loMV9IcmNWX0NVYk5yVmdnd3FhWjUzMURwNVpjUzd2Umg3aGtReEhPVTByRzBDdF9kQzZFemRhUFhDWXRDeVZ1NTRJaHNyeFh0ZjdPYUttUkIwUnRrSzgzaUdWSFVHc1ozWGtOMUZrNHR4VGtuS0pWVUFZV2FMWXB5b003MTVCMFh1aGI1Z2wxbHBRRVVF?oc=5",
-          "date": "2026-10-02",
-          "source": "PR Newswire",
-          "gravite": 1,
-          "mots": [
-            "investigation",
-            "class action"
-          ]
-        },
-        {
-          "titre": "Lawsuit probes Gildan Activewear over alleged m... - Pluang",
-          "lien": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaUs5RDVaZnBjdl9hbHBLUHJkMUtlbG5hcnQ2S0hmeEx1UnVBeWI5dzBPMlFaNDBpRzZBLW1TSkdEUmRZdk1MM0RjaTByaVEzUGhpS2RJc1lXNERTcXJPalJSdElvR0NYQV85N3Nia1ZfRmdsZGVLRHN1bXppY3lvelctUHc2Z2ZXY252a0xn?oc=5",
-          "date": "2026-10-02",
-          "source": "Pluang",
-          "gravite": 1,
-          "mots": [
-            "lawsuit"
-          ]
-        },
-        {
-          "titre": "Gildan Activewear faces class action over alleged misleading business info causing 18.7% stock drop - Pluang",
-          "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeUh2akgtMWVCWVBzY1p0S1BMU0Rqa1JRZmRNQktuOHBLX25SaEJRYm5kNVBVb3o5Nk1JdHFkRWxsZTJxTDdzRmJuOXhsZzVJNUY2Z0k5S1hFeG5fUEM2QVEzS0RuSkpvdEJuVW9fOFhFaE5PbjhpeFQ0b1V4ZUtFZkY3S0dzZmVXUTQ4LVp1ZXpvTkwt?oc=5",
-          "date": "2026-10-03",
-          "source": "Pluang",
-          "gravite": 1,
-          "mots": [
-            "class action"
-          ]
-        }
-      ],
+      "verdict": "vert",
+      "resume": "rien d'alarmant dans l'actualité (3 mois : -13% vs marché)",
+      "vs_marche_3m": -0.13129958596064473,
+      "alertes": [],
       "recents": [
         {
-          "titre": "Why Is Gildan (TSX:GIL) in Focus Amid Its HanesBrands Combination Story? - Kalkine Media",
-          "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUmVESUFUbE0xZlJPVlh3RkR3ZW03R2hNcEZHSGlIdmZjZlYtQ096bDBzRWRwMEFySEdWeFRuY3VuNjZzc1RfaWRNdWZfRmdqNm5iV21VVkE5SkVtNWtwN0E5WVB0NEx6cGhjRUhRNTdiX2tWNjdIbzRLUmtQaDBlVHNBRlRncjdSNVpNdmFCeWNhZHhVVE13a1ByNjlzWU9yM1B2QXVBX01rZ3BlOFl6QXVB?oc=5",
+          "titre": "Anduril va construire un chantier naval de 6,6 milliards de dollars pour fabriquer des sous-marins américains de classe Virginia - Business AM",
+          "lien": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWXZXMkEtZ0lBU2lnZFNHSHY0eXhFUVY4S2tlV01wOWZwSTlqZ3hTb1FOQmxDYVd3NnlvS184Nm05ZGNIVm96MUpNVG1kb0hfU2tIVjhxRUlrb2oxWU0zYm5GRnN4X1ZmRVZwbjJlMlpQMlR4OXlLRmhpbGZyMWZVRDVQeWV6QVlpUlgxVFQ2dXNZX1FiZGZXd2ZobXJQLWJpWk9qZFRYb1VfRG1FWDdzNk90QU1qcDBRdmJPSHNmdWlRUHNsZEo1Q2pNT1JQakxPWEVkOG1XLVR5Sk1hWHBjT2wteVFFSk1t?oc=5",
           "date": "2026-10-07",
-          "source": "Kalkine Media",
+          "source": "Business AM",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "What Does the HanesBrands Combination Story Mean for Gildan (TSX:GIL)? - Kalkine Media",
-          "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQ0poSjM2YWJnREpxZTlBTEJKbG9xcFgtdUU2RGQzUVh2eXNYY0pTeEQtOVYyU0ZRZm52S3VGSnNodUt5N05PX3QyUmQ2WjJJTHVZU0RKNGpMUTIxcWUtdTBEdzBxdUpBbjJPV21LczhPQk9vTXF4d1g0LUwtWHNTZEJ4clBWbFp6X205UW9MU3VOS182aXZadWxMaEg5WlpadW9VNk5TRGxuNFJiLXEwQQ?oc=5",
+          "titre": "Maryland : Arsenal-2 et la relance de la production de sous-marins américains - Armees.com",
+          "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1MQWZYU2NjNWdRRG5XOGlIMFM0aENHTW03THFTejlKMk5WSnVGamRQUkc3OE1zUWY0bFdqZkdldF9CQkVudXlnbzhiY21MdmhlMGt5NTFmd05lTVVTOWNYNmVIRDBWUGJKLUxXOTVFWWdmU3I1emRWb1ln?oc=5",
           "date": "2026-10-07",
-          "source": "Kalkine Media",
+          "source": "Armees.com",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Gildan Activewear stock gained 2.56 percent as Q2 sales rose - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeDd1MVB0OE52aGYtRlNPQThpaG04a0xHMDJ4bkMyUS1XaWd6cnd1RUlaN1FKUjMtUmNWTGhPYkpiYk9ZYzBZNFJMTDB2bEctem5jX0daQzdHZlBIWV9nWi01OGpLR0dISmJ2RFB2ZVBsMnZsQm81N1ljSUFMNWJ6Y2d4UVBWZ0U0Y1JoNmNYazF1ME9GQkJiSEc0WEZfLXhFY3Bwd3Rrc2FJWm1lLW0yVlljdFNBQjQzempr?oc=5",
+          "titre": "Maryland : 6,6 milliards de dollars pour transformer Sparrows Point en hub naval - Economie Matin",
+          "lien": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaEtiUEJPM0czZ1dYOUJzbG5mcU5MWmFXZnJPT3hBQ2g1YW9sY2lha3RDaGs5eVF4b2JQR0R1Zkt3N2ppU2d6dk9UTlQ2TGZLUEktY1NjQkVGNXFuX2RqaTl1ZjdtY0RjQWZTZTNxaDlMaFBEZjJiUF9PRTBWaENPbDRxSldXamlLajEtaw?oc=5",
           "date": "2026-10-07",
-          "source": "AD HOC NEWS",
+          "source": "Economie Matin",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Le procureur général du Texas, Ken Paxton, enquête sur Fruit of the Loom et Hanes pour l’utilisation potentielle de produits chimiques toxiques dans les sous-vêtements pour enfants - Zonebourse Suisse",
-          "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQ2NWWVd0cnB4cGZUVHpzZVFuSzVha2JRb19ORmFnTUNCOFRLUFhmN2VvSVVIZjNIXzJZUjRIdjZxdTJ6S01zYWxQYVRTZ0JYQ29Yd3lQOWNuWnliU2ZSa0w0eWRMNHY1SjhGQzczU2VVUFNFRHRJQWVJcGYyY1QzX1ltdlBXblVDNnZ5ZWczTlBWZFh6a1hHeWNaVkpkNTk4UEI4RXdjWHJQRURJRGpVQ29PaG1yOVBwTVVKeFpIb1lpRHJSLTB1WlA4TnRKQ0JfQ3VMX1YxVEdVUU9Zc214elk1bWw0VlZMTVpLMVFEOA?oc=5",
-          "date": "2026-10-06",
-          "source": "Zonebourse Suisse",
+          "titre": "Research Analysts Set Expectations for HII FY2028 Earnings - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWDBubHJ4U3o3a19OeDRFaVQtV3F4NndCQmpPUlNmN2dDRnNfT0ppZDVJeURzMC1QSmF5V0k4cHlkSFloUDBuZVRsLVNoSkUzbzdMTmxkUXJkdVNGWjF6NzJoU2VtUW9RclFUcWV0aG9YcEQ0cXZUMWlIUmprWnRFd0hUOXc5WGEtQTRPUlNVemgwSnc0ejg2V2RpbktuZERNczhtMkNLTDVZRXNUSGJGa0l6d0QzT3ZWcjAtVTdXUQ?oc=5",
+          "date": "2026-10-07",
+          "source": "MarketBeat",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Texas AG Paxton probes Fruit of the Loom, Hanes over potential toxic chemicals in children's underwear - Reuters",
-          "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMEpMTzhkV3JnelVPSzgxVlI4b0doZUdIRDhpQlpoUUc5NUlkUlVJYjZSS2hzd2tBcmFINVpDMWhybDYtZWZxTEFIM3gtcDR2QnlCRHJkYVdsS3RMVGVDSjZJdDQwRE9CNnM4WDJRbmVWQzJhN3lWcUZtbUxPblRrV2VIMk1pelY0RXg4RmppeEI0OUtLN2NnOElGS0FJaFJnTi1yMWxfRkp5cTVSTi02UXRjMm9tRzJTbldENEVVWTA3dkY1dDZIc1FVdjJDdw?oc=5",
-          "date": "2026-10-06",
-          "source": "Reuters",
+          "titre": "Anduril unveils plans for $3.7b submarine component production facility - Baird Maritime",
+          "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOREkzd1FERzNuMVQ2UV9ESnFYbkZvMDRibU9wTE82QnVjNUNicHI2TS1MYjRtcV9CU21EYzFYRi1xUkdieWRaV0xhSG9qSFY2SFB6TWlOcFNaSERlcmF6Z3dxS29tYW92TU5zZklaZzAzUjdyV1h0RzFRbUROYk1RM2h4QThqU1h3RWRPSGhrZ0NtUU1sUzZ0N2hPYUhpYnNMYS0tWVVQeWYzU2lKMjRj0gG8AUFVX3lxTE5IcjlndDBVaGJfTEY4RmRQNWI0bWVpdzNPQ1J0czB3YldYVTdtWklxQU44ZWctTkJtbFExZlEzU251UjJJVHlkQzVSQ05hZGZBVDl2SzNacmJuanNINDhOTktCaEJXOUwyQ25obHRDQkFXaERLTDlBMnlTSUhhdnpSa2ZlLWxSUEZJN1BCdU9DM0pob0NwSDNEcDY2MG9LYjlJWVV0c3U2dlUtSHg0SWxCVks0V1pJX3lhSjA4?oc=5",
+          "date": "2026-10-07",
+          "source": "Baird Maritime",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 26
+    "ticket": 27
   },
   "radar_proposes": [
     "MCD",
@@ -172,7 +129,8 @@
     "GTY",
     "AN",
     "IBP",
-    "GIL.TO"
+    "GIL.TO",
+    "HII"
   ],
   "achats": [],
   "historique": [
@@ -2479,6 +2437,137 @@
         ]
       },
       "ticket": 25,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-07",
+      "cree_le": "2026-10-07T14:19+00:00",
+      "liberation": 147.60756836041648,
+      "reserve_pct": null,
+      "score": 94.01572866518418,
+      "ordres": [
+        {
+          "ticker": "GIL.TO",
+          "side": "buy",
+          "quantity": 4.0,
+          "price": 36.65189209010412,
+          "reason": "opportunité radar (score 94)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "GIL.TO",
+        "nom": "Gildan Activewear Inc.",
+        "isin": "GIL.TO",
+        "type": "action",
+        "prix": 58.790000915527344,
+        "score": 94.01572866518418,
+        "baisse": 0.39826479128228787,
+        "perf_5ans": 0.3667799689829476,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.39053247492837034,
+        "pos_12m": 0.6790633608815427,
+        "n_12m": 726,
+        "base_moy_12m": 0.2186558464770975,
+        "pire_12m": -0.7798540903699502,
+        "vs_marche_3m": -0.2489873350046481,
+        "devise": "CAD",
+        "prix_eur": 36.65189209010412
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, 4 article(s) à regarder (3 mois : -25% vs marché)",
+        "vs_marche_3m": -0.2489873350046481,
+        "alertes": [
+          {
+            "titre": "GIL Legal Notice: BFA Law Notifies Gildan Investors that Lost Money of the Ongoing Securities Fraud Investigation - GlobeNewswire",
+            "lien": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNRHVTUGl6ZzJEdlRMTWI5cVVQb19iUDNRWjM4RnFyaHl3VHlUbDVLM2I4ZkMzUmN6TkQ1UmhtbVVDVE5YSFVPRnJOUVpRUUtIU0kwVHlJcXFLczRPT0hGck9hVTJud2hCdHZKOXRfeW8yYmpERUVPRGR6aS1SQ09YTmdud3J1YnZ3QUJDb1prakpZQ1ZnMFpVRkNMUFFjYTFFUWNRWTI2TExNQ2d3OURhdXNDcm4wMXJVcVM5N3ZPSktRLWM2OXJLVF93R3NtSEVQZF80a3dGX3NTZ3haUjlFcDdFbXFTSUo4RGlHa1FNNEFYaHZWR2dYRGlVUll0Yk1jQkg2dm9PV2pHOTNYS2k1bzhn?oc=5",
+            "date": "2026-09-09",
+            "source": "GlobeNewswire",
+            "gravite": 1,
+            "mots": [
+              "fraud",
+              "investigation"
+            ]
+          },
+          {
+            "titre": "Rosen Law Firm Encourages Gildan Activewear Inc. Investors to Inquire About Securities Class Action Investigation - GIL - PR Newswire",
+            "lien": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNSE9vdFphR2MzeEJ5YXBkc1pNX0ZBTU5FRjdNNnFqUXRORjM5ZlhBcjV5NUlRclRsRlF0dTgwSFVYZk0xVnNSdW5wR09aUlZkamM4R2VJNnNTaUNvUHZYUkRNazZOUVRrM0lnUTFfNEVwclJvY2loMV9IcmNWX0NVYk5yVmdnd3FhWjUzMURwNVpjUzd2Umg3aGtReEhPVTByRzBDdF9kQzZFemRhUFhDWXRDeVZ1NTRJaHNyeFh0ZjdPYUttUkIwUnRrSzgzaUdWSFVHc1ozWGtOMUZrNHR4VGtuS0pWVUFZV2FMWXB5b003MTVCMFh1aGI1Z2wxbHBRRVVF?oc=5",
+            "date": "2026-10-02",
+            "source": "PR Newswire",
+            "gravite": 1,
+            "mots": [
+              "investigation",
+              "class action"
+            ]
+          },
+          {
+            "titre": "Lawsuit probes Gildan Activewear over alleged m... - Pluang",
+            "lien": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaUs5RDVaZnBjdl9hbHBLUHJkMUtlbG5hcnQ2S0hmeEx1UnVBeWI5dzBPMlFaNDBpRzZBLW1TSkdEUmRZdk1MM0RjaTByaVEzUGhpS2RJc1lXNERTcXJPalJSdElvR0NYQV85N3Nia1ZfRmdsZGVLRHN1bXppY3lvelctUHc2Z2ZXY252a0xn?oc=5",
+            "date": "2026-10-02",
+            "source": "Pluang",
+            "gravite": 1,
+            "mots": [
+              "lawsuit"
+            ]
+          },
+          {
+            "titre": "Gildan Activewear faces class action over alleged misleading business info causing 18.7% stock drop - Pluang",
+            "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeUh2akgtMWVCWVBzY1p0S1BMU0Rqa1JRZmRNQktuOHBLX25SaEJRYm5kNVBVb3o5Nk1JdHFkRWxsZTJxTDdzRmJuOXhsZzVJNUY2Z0k5S1hFeG5fUEM2QVEzS0RuSkpvdEJuVW9fOFhFaE5PbjhpeFQ0b1V4ZUtFZkY3S0dzZmVXUTQ4LVp1ZXpvTkwt?oc=5",
+            "date": "2026-10-03",
+            "source": "Pluang",
+            "gravite": 1,
+            "mots": [
+              "class action"
+            ]
+          }
+        ],
+        "recents": [
+          {
+            "titre": "Why Is Gildan (TSX:GIL) in Focus Amid Its HanesBrands Combination Story? - Kalkine Media",
+            "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUmVESUFUbE0xZlJPVlh3RkR3ZW03R2hNcEZHSGlIdmZjZlYtQ096bDBzRWRwMEFySEdWeFRuY3VuNjZzc1RfaWRNdWZfRmdqNm5iV21VVkE5SkVtNWtwN0E5WVB0NEx6cGhjRUhRNTdiX2tWNjdIbzRLUmtQaDBlVHNBRlRncjdSNVpNdmFCeWNhZHhVVE13a1ByNjlzWU9yM1B2QXVBX01rZ3BlOFl6QXVB?oc=5",
+            "date": "2026-10-07",
+            "source": "Kalkine Media",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "What Does the HanesBrands Combination Story Mean for Gildan (TSX:GIL)? - Kalkine Media",
+            "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQ0poSjM2YWJnREpxZTlBTEJKbG9xcFgtdUU2RGQzUVh2eXNYY0pTeEQtOVYyU0ZRZm52S3VGSnNodUt5N05PX3QyUmQ2WjJJTHVZU0RKNGpMUTIxcWUtdTBEdzBxdUpBbjJPV21LczhPQk9vTXF4d1g0LUwtWHNTZEJ4clBWbFp6X205UW9MU3VOS182aXZadWxMaEg5WlpadW9VNk5TRGxuNFJiLXEwQQ?oc=5",
+            "date": "2026-10-07",
+            "source": "Kalkine Media",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Gildan Activewear stock gained 2.56 percent as Q2 sales rose - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeDd1MVB0OE52aGYtRlNPQThpaG04a0xHMDJ4bkMyUS1XaWd6cnd1RUlaN1FKUjMtUmNWTGhPYkpiYk9ZYzBZNFJMTDB2bEctem5jX0daQzdHZlBIWV9nWi01OGpLR0dISmJ2RFB2ZVBsMnZsQm81N1ljSUFMNWJ6Y2d4UVBWZ0U0Y1JoNmNYazF1ME9GQkJiSEc0WEZfLXhFY3Bwd3Rrc2FJWm1lLW0yVlljdFNBQjQzempr?oc=5",
+            "date": "2026-10-07",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Le procureur général du Texas, Ken Paxton, enquête sur Fruit of the Loom et Hanes pour l’utilisation potentielle de produits chimiques toxiques dans les sous-vêtements pour enfants - Zonebourse Suisse",
+            "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQ2NWWVd0cnB4cGZUVHpzZVFuSzVha2JRb19ORmFnTUNCOFRLUFhmN2VvSVVIZjNIXzJZUjRIdjZxdTJ6S01zYWxQYVRTZ0JYQ29Yd3lQOWNuWnliU2ZSa0w0eWRMNHY1SjhGQzczU2VVUFNFRHRJQWVJcGYyY1QzX1ltdlBXblVDNnZ5ZWczTlBWZFh6a1hHeWNaVkpkNTk4UEI4RXdjWHJQRURJRGpVQ29PaG1yOVBwTVVKeFpIb1lpRHJSLTB1WlA4TnRKQ0JfQ3VMX1YxVEdVUU9Zc214elk1bWw0VlZMTVpLMVFEOA?oc=5",
+            "date": "2026-10-06",
+            "source": "Zonebourse Suisse",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Texas AG Paxton probes Fruit of the Loom, Hanes over potential toxic chemicals in children's underwear - Reuters",
+            "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMEpMTzhkV3JnelVPSzgxVlI4b0doZUdIRDhpQlpoUUc5NUlkUlVJYjZSS2hzd2tBcmFINVpDMWhybDYtZWZxTEFIM3gtcDR2QnlCRHJkYVdsS3RMVGVDSjZJdDQwRE9CNnM4WDJRbmVWQzJhN3lWcUZtbUxPblRrV2VIMk1pelY0RXg4RmppeEI0OUtLN2NnOElGS0FJaFJnTi1yMWxfRkp5cTVSTi02UXRjMm9tRzJTbldENEVVWTA3dkY1dDZIc1FVdjJDdw?oc=5",
+            "date": "2026-10-06",
+            "source": "Reuters",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 26,
       "decision": "sans réponse"
     }
   ]
