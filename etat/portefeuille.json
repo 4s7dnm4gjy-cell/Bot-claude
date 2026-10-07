@@ -18,100 +18,89 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-07",
-    "cree_le": "2026-10-07T12:55+00:00",
-    "liberation": 141.10665024132484,
+    "cree_le": "2026-10-07T13:49+00:00",
+    "liberation": 171.71058201164632,
     "reserve_pct": null,
-    "score": 94.28469188883562,
+    "score": 94.19353112359991,
     "ordres": [
       {
-        "ticker": "AN",
+        "ticker": "IBP",
         "side": "buy",
         "quantity": 1.0,
-        "price": 140.10665024132484,
+        "price": 170.71058201164632,
         "reason": "opportunité radar (score 94)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "AN",
-      "nom": "AutoNation",
-      "isin": "AN",
+      "ticker": "IBP",
+      "nom": "Installed Building Products, Inc.",
+      "isin": "IBP",
       "type": "action",
-      "prix": 157.75999450683594,
-      "score": 94.28469188883562,
-      "baisse": 0.3140273178640428,
-      "perf_5ans": 0.2228509512763106,
+      "prix": 192.22000122070312,
+      "score": 94.19353112359991,
+      "baisse": 0.4348355597157284,
+      "perf_5ans": 0.8681513016099982,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.3429773233892831,
-      "pos_12m": 0.7042857142857143,
-      "n_12m": 700,
-      "base_moy_12m": 0.17633645682128885,
-      "pire_12m": -0.7540887948732432,
-      "vs_marche_3m": -0.20746382527319918,
+      "moy_12m": 0.4951177628298923,
+      "pos_12m": 0.7709163346613546,
+      "n_12m": 502,
+      "base_moy_12m": 0.3050539039253774,
+      "pire_12m": -0.40987671602691655,
+      "vs_marche_3m": -0.15079674746816185,
       "devise": "USD",
-      "prix_eur": 140.10665024132484
+      "prix_eur": 170.71058201164632
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -21% vs marché)",
-      "vs_marche_3m": -0.20746382527319918,
-      "alertes": [
-        {
-          "titre": "It's Time To Shift AutoNation Into Neutral (Downgrade) (NYSE:AN) - Seeking Alpha",
-          "lien": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTXFWdTVNRVVkV3FtVVVYVktVQUhQZERpb2ExRkdqYnFlZFpURUdVTkhIUlg1RHJ5TXA4WXpUSkh3RVBxYTNabkowa21fSElWZ1pIR3JNa0NhRVlFanVZX1B5R0Q4X2FEZFg4bVFwWHFkLWZjcld4VnNOV1ZjczRoeVB0ZnFEc3FHblpCcUthcm9BRmp1Y2NN?oc=5",
-          "date": "2026-09-18",
-          "source": "Seeking Alpha",
-          "gravite": 1,
-          "mots": [
-            "downgrade"
-          ]
-        }
-      ],
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -15% vs marché)",
+      "vs_marche_3m": -0.15079674746816185,
+      "alertes": [],
       "recents": [
         {
-          "titre": "AutoNation stock fell 2.18 percent after Morgan Stanley cut its target - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONzA0WS0xdmlyRFVlRTdkaWZ6VEp4MjFPNlRxaVZycWx2cmw1emZNTmc4RG1RUXNET2VYcE9KRk0tMXIzdUp6eUdHLU9wSXpfTFpDWVdCYVBIcXNPc3MxWUUxT1dGUnpMbnlfR25sT0JiMmY2UEdNX3FoWF9IUDE5VUhqQ1ZZRzRGNkd0UWRUd1o1TDJRNmYydWtDa3pvd2ZZejgxOF9vOUYzMUlMQ3I0bEZfMlVGdGhBbWdNMmtLblJDaVF4bk4wNQ?oc=5",
+          "titre": "Installed Building Products, Inc. : RBC Capital Markets conserve son opinion neutre - Zonebourse",
+          "lien": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNY2RqX0lLb0xzQnNQbHV5TmVzOG9lVE1Kb0VsV2J0M1JMQkd5d1ZBMlBTWkhMRnhyeVBncWhTWGVvNE4xQ2NuWmRERzl6YWN4S296VmpUM1V1RkNvU3Rld2VablZ1Ml91X1pkVzAxYjUzYlBSZF9INzZobG9PdFJNMzJSWFRtTjRkNnhvMnlEWHlTUkl5MS0wZVJCVGdyRlAzZmdlRHBBQnVUdXhHUlc5LUtZa2lqUHU5ejVuRzRnTXlUUi1yVTdZbXBOcVhQODlxTjNDYXJtOA?oc=5",
           "date": "2026-10-07",
-          "source": "AD HOC NEWS",
+          "source": "Zonebourse",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "AutoNation Appoints Ravi Simhambhatla as Chief Technology and AI Officer - Machine Maker",
-          "lien": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWmdYZktZVVFvR0hXdm5xQzlSb0VaRDNCNDFZTzF0M3ByZ1lxVjdpOFBTYTRmNF9EeTgxN2FSc0Y1dzZ1clczUHFKb3JocGw1NXpQaVVOT2R0NTJ5UDdvT0pZZUp4Si1pdEpsTFdyRkRyWkJ3a29kMDBwMTVRZHBKM213ZGlOZmdLZmZ2SjVhc3BSR0hnTTZpaG11SjZEZlNhVXFKYnF1TFRTZw?oc=5",
+          "titre": "RBC Adjusts PT on Installed Building Products to $208 From $288, Keeps Sector Perform Rating - marketscreener.com",
+          "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSWJTT0FFMUNqQUhkVC10ZjJDdU4wdl9kb3ZMbmJNeF9fQWgyRE9tdHczWWg2OFd2ZXpkM0dqYlhRV0ZKbDNONDJjMkVPTGNGS2xPZTRvbkp5UVhUam5RcVdteC1GM2pXdnU3NHJxZGRRTkU2cG9oRXZfU24xVFVLeWJPU3NINGluWUh1UUJMQkN5LVdaOTRtbU1vUkY5bi1wWWNNdEhaeFBKX0VraFFDY3QzVFg3MDlJLVlKN09ZWjgtamRHVjU1LXJBVVprQW5pXzk3cjFNN1NDZw?oc=5",
           "date": "2026-10-07",
-          "source": "Machine Maker",
+          "source": "marketscreener.com",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "TOUR D'HORIZON DE LA RECHERCHE AUX ÉTATS-UNIS-Affiliated Managers Group, Goldman Sachs, Vaxcyte - Boursorama",
-          "lien": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNMHNwRUpiZVI3VEYzdmU0QmxEeHFQYWpQRFBUNGxzcExDa2VmeUV5ZUdfdE02TmNVYVBKc2R2Tkw1elhXWkpYVzBSbHYtajRCTzZHR01rczByOUJPYTVJTkpkRFhtcEdEVVhqbFpHbmdRQXdsN1pWZ1FRZzRLZ2drWFE1NzZGV2c2b2xDYjBKakhGUnQteUlTclc2Y093VXdHVW1ZeGo0bkZWb3BYRFFFdksxWk5xbk1kYjU1TlhOVU5HU2FlYkFTQmFTOW85Q0JDc2poLTQ5dDVWMHFUUDJSUWtLWU5HUmZtYTAydG9oWjQzQ0RLZWZOSWpvNkNha1lldXNfVEJ30gGGAkFVX3lxTE0wc3BFSmJlUjdURjN2ZTRCbER4cVBhalBEUFQ0bHNwTENrZWZ5RXllR190TTZOY1VhUEpzZHZOTDV6WFdaSlhXMFJsdi1qNEJPNkdHTWtzMHI5Qk9hNUlOSmREWG1wR0RVWGpsWkduZ1FBd2w3WlZnUVFnNEtnZ2tYUTU3NkZXZzZvbENiMEpqSEZSdC15SVNyVzZjT3dVd0dVbVl4ajRuRlZvcFhEUUV2SzFaTnFuTWRiNTVOWE5VTkdTYWViQVNCYVM5bzlDQkNzamgtNDl0NVYwcVRQMlJRa0tZTkdSZm1hMDJ0b2haNDNDREtlZk5Jam82Q2FrWWV1c19UQnc?oc=5",
-          "date": "2026-10-06",
-          "source": "Boursorama",
+          "titre": "Installed Building Products stock hits 52-week low at 186.5 USD - Investing.com Canada",
+          "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMkhVTkZGT2pHRkVxZnphZm1ZUGhmd3Z3QzV3b0ZzOEUzWk9fb0NDeThBYmt3d0lxbHVYVWgzTjNuTU1TU2pfT3BwbWdRcGhvaHhoY29HZmpzaGdFcU1ERWNZeWgtdmhRNVFYbE52YVdEbm1ONDJVOGdid0VHWjBrVHhHSmVvTkZPNWNDMWF2M2hZcDItbTdYeUs2ZmlGUDFpa1p1TlNodWFDOVVhbWp2SW1YNjRhcV9hSWMyaEhUNA?oc=5",
+          "date": "2026-10-07",
+          "source": "Investing.com Canada",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "AutoNation, Inc. (AN) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-          "lien": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wMHRnYjU2R1Q0Z05ERkNiaklGV2h6T2FNT04wWThUYkR2d1dqb3dna1ByNnIwbmhTVTNjaXZOY2l5SmlrRzFIYlpTMzdiVlU?oc=5",
-          "date": "2026-10-06",
-          "source": "Yahoo! Finance Canada",
+          "titre": "Matrice des capital-options Dream Finders Homes, Inc. (DFH) - Yahoo Finance France",
+          "lien": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcGo4RWk4ODRmTE1lTldSY01GZEdoMXhodkVDdnMtb1RlcEtweG9lNkxfWFZxY1V6N1lFWlg0SHlmMDd2Z3k3OW1uSkZISzVqYnROY2xUdGNobTBTNEpJXzM1QVdqWFRYMUtxYUpZT3YwY19jaHo0VnpoeWQ1YTRueGh3UQ?oc=5",
+          "date": "2026-10-04",
+          "source": "Yahoo Finance France",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "AutoNation (NYSE:AN) Stock Price Target Cut by JPMorgan Chase & Co. - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSjRiQU9VV2RjT1dpZkRrTFdJd1BZUFZkREpWNTVvRzZBMmg3cnMwNlY3Y19GcGcyZktHUmpPZDVKeExnNV9UWGVWV0FlblQ2ZGdqeFNzTnplQU1HMnRPRFNUeWJ3Zmg1MmRIdVlvXzE2Qm43bW9heWRvZEg1U3V4TTJ0N1hlQ1Y4a0ppTXNIcmVaTWVmSUppVU4wLV92ZzYxWGJhc01PYnYtLTFxUUlTbkpBN3Y1TXhnVy1rNWluRXNGUQ?oc=5",
-          "date": "2026-10-06",
-          "source": "MarketBeat",
+          "titre": "Installed Building Products (NYSE:IBP) - Stock Analysis - Simply Wall Street",
+          "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbEUwR2NycVk3T1BmMmJ2UjgtcDZoQkRqdkdWVi1QNXl6Z0VZZFJxTVF4RzlJQUNLZklmZDZMRFY0ajdtcEJ4VGNqVDZyckMyc3FwSlN0TjN5enpmbkY2eGxjU3J4cFdvVG9IRGdJMm5Wbl8wek1EREhKTFdCXzRTZnBmWXFfOTFYSTNJMG1fQQ?oc=5",
+          "date": "2026-10-04",
+          "source": "Simply Wall Street",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 24
+    "ticket": 25
   },
   "radar_proposes": [
     "MCD",
@@ -138,7 +127,8 @@
     "ADC",
     "CAR.AX",
     "GTY",
-    "AN"
+    "AN",
+    "IBP"
   ],
   "achats": [],
   "historique": [
@@ -2258,6 +2248,105 @@
         ]
       },
       "ticket": 23,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-07",
+      "cree_le": "2026-10-07T12:55+00:00",
+      "liberation": 141.10665024132484,
+      "reserve_pct": null,
+      "score": 94.28469188883562,
+      "ordres": [
+        {
+          "ticker": "AN",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 140.10665024132484,
+          "reason": "opportunité radar (score 94)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "AN",
+        "nom": "AutoNation",
+        "isin": "AN",
+        "type": "action",
+        "prix": 157.75999450683594,
+        "score": 94.28469188883562,
+        "baisse": 0.3140273178640428,
+        "perf_5ans": 0.2228509512763106,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.3429773233892831,
+        "pos_12m": 0.7042857142857143,
+        "n_12m": 700,
+        "base_moy_12m": 0.17633645682128885,
+        "pire_12m": -0.7540887948732432,
+        "vs_marche_3m": -0.20746382527319918,
+        "devise": "USD",
+        "prix_eur": 140.10665024132484
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -21% vs marché)",
+        "vs_marche_3m": -0.20746382527319918,
+        "alertes": [
+          {
+            "titre": "It's Time To Shift AutoNation Into Neutral (Downgrade) (NYSE:AN) - Seeking Alpha",
+            "lien": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTXFWdTVNRVVkV3FtVVVYVktVQUhQZERpb2ExRkdqYnFlZFpURUdVTkhIUlg1RHJ5TXA4WXpUSkh3RVBxYTNabkowa21fSElWZ1pIR3JNa0NhRVlFanVZX1B5R0Q4X2FEZFg4bVFwWHFkLWZjcld4VnNOV1ZjczRoeVB0ZnFEc3FHblpCcUthcm9BRmp1Y2NN?oc=5",
+            "date": "2026-09-18",
+            "source": "Seeking Alpha",
+            "gravite": 1,
+            "mots": [
+              "downgrade"
+            ]
+          }
+        ],
+        "recents": [
+          {
+            "titre": "AutoNation stock fell 2.18 percent after Morgan Stanley cut its target - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONzA0WS0xdmlyRFVlRTdkaWZ6VEp4MjFPNlRxaVZycWx2cmw1emZNTmc4RG1RUXNET2VYcE9KRk0tMXIzdUp6eUdHLU9wSXpfTFpDWVdCYVBIcXNPc3MxWUUxT1dGUnpMbnlfR25sT0JiMmY2UEdNX3FoWF9IUDE5VUhqQ1ZZRzRGNkd0UWRUd1o1TDJRNmYydWtDa3pvd2ZZejgxOF9vOUYzMUlMQ3I0bEZfMlVGdGhBbWdNMmtLblJDaVF4bk4wNQ?oc=5",
+            "date": "2026-10-07",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "AutoNation Appoints Ravi Simhambhatla as Chief Technology and AI Officer - Machine Maker",
+            "lien": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWmdYZktZVVFvR0hXdm5xQzlSb0VaRDNCNDFZTzF0M3ByZ1lxVjdpOFBTYTRmNF9EeTgxN2FSc0Y1dzZ1clczUHFKb3JocGw1NXpQaVVOT2R0NTJ5UDdvT0pZZUp4Si1pdEpsTFdyRkRyWkJ3a29kMDBwMTVRZHBKM213ZGlOZmdLZmZ2SjVhc3BSR0hnTTZpaG11SjZEZlNhVXFKYnF1TFRTZw?oc=5",
+            "date": "2026-10-07",
+            "source": "Machine Maker",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "TOUR D'HORIZON DE LA RECHERCHE AUX ÉTATS-UNIS-Affiliated Managers Group, Goldman Sachs, Vaxcyte - Boursorama",
+            "lien": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNMHNwRUpiZVI3VEYzdmU0QmxEeHFQYWpQRFBUNGxzcExDa2VmeUV5ZUdfdE02TmNVYVBKc2R2Tkw1elhXWkpYVzBSbHYtajRCTzZHR01rczByOUJPYTVJTkpkRFhtcEdEVVhqbFpHbmdRQXdsN1pWZ1FRZzRLZ2drWFE1NzZGV2c2b2xDYjBKakhGUnQteUlTclc2Y093VXdHVW1ZeGo0bkZWb3BYRFFFdksxWk5xbk1kYjU1TlhOVU5HU2FlYkFTQmFTOW85Q0JDc2poLTQ5dDVWMHFUUDJSUWtLWU5HUmZtYTAydG9oWjQzQ0RLZWZOSWpvNkNha1lldXNfVEJ30gGGAkFVX3lxTE0wc3BFSmJlUjdURjN2ZTRCbER4cVBhalBEUFQ0bHNwTENrZWZ5RXllR190TTZOY1VhUEpzZHZOTDV6WFdaSlhXMFJsdi1qNEJPNkdHTWtzMHI5Qk9hNUlOSmREWG1wR0RVWGpsWkduZ1FBd2w3WlZnUVFnNEtnZ2tYUTU3NkZXZzZvbENiMEpqSEZSdC15SVNyVzZjT3dVd0dVbVl4ajRuRlZvcFhEUUV2SzFaTnFuTWRiNTVOWE5VTkdTYWViQVNCYVM5bzlDQkNzamgtNDl0NVYwcVRQMlJRa0tZTkdSZm1hMDJ0b2haNDNDREtlZk5Jam82Q2FrWWV1c19UQnc?oc=5",
+            "date": "2026-10-06",
+            "source": "Boursorama",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "AutoNation, Inc. (AN) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+            "lien": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wMHRnYjU2R1Q0Z05ERkNiaklGV2h6T2FNT04wWThUYkR2d1dqb3dna1ByNnIwbmhTVTNjaXZOY2l5SmlrRzFIYlpTMzdiVlU?oc=5",
+            "date": "2026-10-06",
+            "source": "Yahoo! Finance Canada",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "AutoNation (NYSE:AN) Stock Price Target Cut by JPMorgan Chase & Co. - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSjRiQU9VV2RjT1dpZkRrTFdJd1BZUFZkREpWNTVvRzZBMmg3cnMwNlY3Y19GcGcyZktHUmpPZDVKeExnNV9UWGVWV0FlblQ2ZGdqeFNzTnplQU1HMnRPRFNUeWJ3Zmg1MmRIdVlvXzE2Qm43bW9heWRvZEg1U3V4TTJ0N1hlQ1Y4a0ppTXNIcmVaTWVmSUppVU4wLV92ZzYxWGJhc01PYnYtLTFxUUlTbkpBN3Y1TXhnVy1rNWluRXNGUQ?oc=5",
+            "date": "2026-10-06",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 24,
       "decision": "sans réponse"
     }
   ]
