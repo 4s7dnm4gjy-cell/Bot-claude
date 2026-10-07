@@ -18,100 +18,89 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-07",
-    "cree_le": "2026-10-07T05:19+00:00",
-    "liberation": 146.38428851751505,
+    "cree_le": "2026-10-07T06:22+00:00",
+    "liberation": 119.37484229374478,
     "reserve_pct": null,
-    "score": 95.30940703724782,
+    "score": 95.18129614710355,
     "ordres": [
       {
-        "ticker": "APE.AX",
+        "ticker": "PATK",
         "side": "buy",
-        "quantity": 13.0,
-        "price": 11.183406809039619,
+        "quantity": 2.0,
+        "price": 59.18742114687239,
         "reason": "opportunité radar (score 95)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "APE.AX",
-      "nom": "Eagers Automotive",
-      "isin": "APE.AX",
+      "ticker": "PATK",
+      "nom": "Patrick Industries, Inc.",
+      "isin": "PATK",
       "type": "action",
-      "prix": 18.030000686645508,
-      "score": 95.30940703724782,
-      "baisse": 0.4622524848225582,
-      "perf_5ans": 0.5555351140230238,
+      "prix": 66.6449966430664,
+      "score": 95.18129614710355,
+      "baisse": 0.536169445662759,
+      "perf_5ans": 0.31164277785060257,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.4233956924182234,
-      "pos_12m": 0.6782307025151778,
-      "n_12m": 1153,
-      "base_moy_12m": 0.2871191507345818,
-      "pire_12m": -0.6762260151068462,
-      "vs_marche_3m": -0.19541478694557302,
-      "devise": "AUD",
-      "prix_eur": 11.183406809039619
+      "moy_12m": 0.7891122384587087,
+      "pos_12m": 0.6584992343032159,
+      "n_12m": 653,
+      "base_moy_12m": 0.5127142965742401,
+      "pire_12m": -0.9686369179351028,
+      "vs_marche_3m": -0.2418877449470097,
+      "devise": "USD",
+      "prix_eur": 59.18742114687239
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -20% vs marché)",
-      "vs_marche_3m": -0.19541478694557302,
-      "alertes": [
-        {
-          "titre": "Trading Halt on CitiFirst MINI Series APEKOC Linked to Eagers Automotive After Stop Loss Trigger Event - Kalkine Media",
-          "lien": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPR2tieUVnNk12NHVSaFNHX2JiY2s5cDBOdWROc2hseGIyejlCNHdSSmRpRE5XdjM5OTV2ZWh3cVdtbTdyRWNFNnFEN0h1c3FIdWkySjFDWE1MNC1zTjR5OWlvSlpIQmVsVk9uRHBOTUJtS3FfN19fQ0d2TmxPMlB2TXRtczFhVS1qV2Vid2FUbXB0Z2N5VlFvQlU0Z1B5c3B0clJrSThpcXFvTzdfQW1WYUozY3RmOTB1SUZiRUtzN2pUcFlyYkZIdXJlSUZadjh4cmx6SGtsaEpROTRlV1pGQ2pLVQ?oc=5",
-          "date": "2026-09-29",
-          "source": "Kalkine Media",
-          "gravite": 1,
-          "mots": [
-            "trading halt"
-          ]
-        }
-      ],
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -24% vs marché)",
+      "vs_marche_3m": -0.2418877449470097,
+      "alertes": [],
       "recents": [
         {
-          "titre": "Eagers stock gains 1.05 percent as expansion reshapes growth - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeFctZk1nMVZuVjhCeHVPNlp3WHg2eXNqUi0xQVE2Q3RyTzdxbVN2ZWxob2ZmRlJ4dGl0SXBvSW9QV1RUOG5YRktsODVtdXJETWhJZWNaRF9mdjhTbUR2NldfUS13MXhmczFXT1hsMmMxdUowTEVsVFMtR0RwVUpZRjlyT3VKTVkyOHFGeUk4YnVKalc1aTF5dEJDVEM0aktXalhhOUExbzUwOFUtamVrRVNMT2NVV2l1U2w4?oc=5",
-          "date": "2026-10-07",
+          "titre": "Patrick Industries stock hits 52-week low at 66.13 USD - Investing.com",
+          "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU2t1N3JMLUotb3huV2h2dnVLeXYxREtaY0dwVlBxTU9fdTV1emhoQVUwbTIyZXJ2eGN2emFJUEFRWi1KYldxa2VzaS16T0lYT1pwZk9USHN6ZWkyMWpoTml1aWZ4RkRXcElLcjNoNkVJdFZjX0Ewc29oWV9tdFNxYi1yeElUZFFEMmltWURTSW5qWU1FZFpid21TblhFMmI0Y3NnbG5FTkpSYUc4MkE?oc=5",
+          "date": "2026-10-06",
+          "source": "Investing.com",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Patrick Industries stock faces a key LCI merger test - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUHNPVU13dUpXZmNKa2h4TkJNaFdXaUdhbmZPOXlYdFoyR0hLMTdqUW5QalBMMVZrZGwwc2RYWTU1c0U1bVk1VlJlTkhIU19QWS1rRmE4dy1aSEJlbkhOQ1A3cWxTczhCcjlleFd0M1M5Qy1qUVR1X25WcVdad2Z2Qy1rNzltRG00MTFOWG1EUkM2WHViR2ozSWx4aDJBVW5BZGQxQWhVc1p3WDVIWGJtSW00RllDUQ?oc=5",
+          "date": "2026-10-06",
           "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Eagers Automotive Cancels 48,000 Shares Via On-Market Buy-Back - Kalkine",
-          "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRU5HaTMxZjJIdklPWnhsckdSdjNpR2Z3MVRiWGNlUnA1NWZ2Sm05XzVUV3JSSDhVS283YWxFb0NjZzNVbW1NSzB4c09TRE9yZ3pSQ1dELXQ4VGpidlVhTVFOY29SQXJGSTdGTEkwa215TnI4S204Unh6TEpieXJvWTBneUFSYnJVX29rdG45X3puVmlqVUh6d2JKb3ZtMFZHel9pMlpn?oc=5",
-          "date": "2026-10-02",
-          "source": "Kalkine",
+          "titre": "Patrick Industries stock hits 52-week low at 66.13 USD By Investing.com - Investing.com South Africa",
+          "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ0JjMXRCZE1mUk0xYmJjMUFtc1ZHR0g3cEluTE1oOEJBcHEyUU9SbFVSdGtONng2LUowVVlzbGgyTmVsbnpuNTlYc2NXS2dYTmFoZW5OcGdqSXkxQ0R1cWprS0ZhSVVkRjRRSTFtQnFKWkFQbkw3akJpd0ZSQ3lRaml2TTQwV2FpbExXQnRpOHUxVWFkcVZGdFZWR0xsd0dZVWU5M2VES2otVWRUUXF3NkNjaw?oc=5",
+          "date": "2026-10-06",
+          "source": "Investing.com South Africa",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Eagers Automotive Buys Back 20,000 Shares on 1 October 2026 - Kalkine",
-          "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYW9NNk1GSXVaZHI2SXBqX0tDTEg0cWxUU05ZNnZHYmNMUklMMDFHSVFqUUt0LUFMWW1Pb1ZnWHNYZnpqR25MRHRoNHFDSnhVLTNzaVlWOU8xamQ3NjV2T3FKeGVzY0lUTEFOY3hkSnEtSzZRdGVCRWJ3cXRRS3hjeGUxNG4ybzM4TjdBSUpVSWNvVVdNZHdUN3FZcE1hRWpwM0E?oc=5",
-          "date": "2026-10-02",
-          "source": "Kalkine",
+          "titre": "Baird keeps Hold rating on Patrick Industries stock at USD 84 target - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORVNzM28wNlU3dFhIR3hBV1hIZGI1OWs1RnR3WGpHTVZnelBkdFdnODlqeHRHYkJ2eVBFYTRyNVRkdHBDZ0hIN1JNVHkwVkplTW5rcXdoeG5Rc0tHTEdadS1PM25VcFhWcktmX2l3RUR4OExNM3lOY01QbmFHWGoxWjFsOTdneDlPOUZSZktmNTBpZnFETXlYekV6aU9DRnVNMWZkbERIUkVZaHRoYVBJYnVYdzhiTWFBM2lOZW9mTlZPc2E2QkE?oc=5",
+          "date": "2026-10-05",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Eagers Automotive Limited (ASX:APE): CanadaOne Expansion Reshapes the 2026 Earnings Mix - Kalkine",
-          "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcTg3RE9kRTN6TmpWN3hlZm5ScnN4MWxIQ0FzME5LWVF0NDVKTHpvVjRySVlYOEVqc2VUSUVGME1KVWN2Zk1zeU0zbWdtZE80YnBOaUVkV3BfcVdvRVJKVnpTNFpLNnMwWGV3S1E5amZmMUphVGZRYnVjdVdJTG81d3FHSjBTbkZaWThrVjd0NmtwYno1aDZkTU9vdXBDMUIwNVltZjkzaktjRmhSZHI3UG1kLUhFNVl1TWc?oc=5",
-          "date": "2026-10-01",
-          "source": "Kalkine",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Eagers Automotive (ASX:APE) Stock Forecast & Analyst Predictions - Simply Wall Street",
-          "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUVlhUWNTdnUwQ3o1LWxDMHAtcG96bTlmNXFMS3pFV3R0Uy1uSUJGWUF1RFVYTFgwSlBaYlhxMXVyc2hwbW9kVmQ5MTRuVV96YVlISi1uelhYZGYzd0JJNVV6SXRBZ1VZMTFTMVl3NUxseDBmSjV5ODAwejduY2lpWmFkWF8?oc=5",
-          "date": "2026-09-30",
-          "source": "Simply Wall Street",
+          "titre": "Patrick Industries stock faces merger hurdle near yearly low - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNm9YQWNvNHF1VFB4aV9UOVpIa2xYTy16d1Z1aTZ6Zm10aDFNY0d2WWZaTjlWUnZFalJPdmRSNURvX2NjT05oczQzd1A5NzJKdmFqLUVoa3VyeENhYTJ2ZnNYbWd5OWE5VllFeGJXUFVjeEEza0hycllDSUF4UjRYdUtEUUhuc0NJTy1rWWp1bFJuRTJyeUk2QmUwek0yWXJrbXE4WFNwT0dvc2JyWVk2LUdzdmh3eVlvaUQwdWpsaEc?oc=5",
+          "date": "2026-10-05",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 14
+    "ticket": 15
   },
   "radar_proposes": [
     "MCD",
@@ -128,7 +117,8 @@
     "CASY",
     "FER",
     "LVS",
-    "APE.AX"
+    "APE.AX",
+    "PATK"
   ],
   "achats": [],
   "historique": [
@@ -1346,6 +1336,105 @@
         ]
       },
       "ticket": 13,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-07",
+      "cree_le": "2026-10-07T05:19+00:00",
+      "liberation": 146.38428851751505,
+      "reserve_pct": null,
+      "score": 95.30940703724782,
+      "ordres": [
+        {
+          "ticker": "APE.AX",
+          "side": "buy",
+          "quantity": 13.0,
+          "price": 11.183406809039619,
+          "reason": "opportunité radar (score 95)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "APE.AX",
+        "nom": "Eagers Automotive",
+        "isin": "APE.AX",
+        "type": "action",
+        "prix": 18.030000686645508,
+        "score": 95.30940703724782,
+        "baisse": 0.4622524848225582,
+        "perf_5ans": 0.5555351140230238,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.4233956924182234,
+        "pos_12m": 0.6782307025151778,
+        "n_12m": 1153,
+        "base_moy_12m": 0.2871191507345818,
+        "pire_12m": -0.6762260151068462,
+        "vs_marche_3m": -0.19541478694557302,
+        "devise": "AUD",
+        "prix_eur": 11.183406809039619
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -20% vs marché)",
+        "vs_marche_3m": -0.19541478694557302,
+        "alertes": [
+          {
+            "titre": "Trading Halt on CitiFirst MINI Series APEKOC Linked to Eagers Automotive After Stop Loss Trigger Event - Kalkine Media",
+            "lien": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPR2tieUVnNk12NHVSaFNHX2JiY2s5cDBOdWROc2hseGIyejlCNHdSSmRpRE5XdjM5OTV2ZWh3cVdtbTdyRWNFNnFEN0h1c3FIdWkySjFDWE1MNC1zTjR5OWlvSlpIQmVsVk9uRHBOTUJtS3FfN19fQ0d2TmxPMlB2TXRtczFhVS1qV2Vid2FUbXB0Z2N5VlFvQlU0Z1B5c3B0clJrSThpcXFvTzdfQW1WYUozY3RmOTB1SUZiRUtzN2pUcFlyYkZIdXJlSUZadjh4cmx6SGtsaEpROTRlV1pGQ2pLVQ?oc=5",
+            "date": "2026-09-29",
+            "source": "Kalkine Media",
+            "gravite": 1,
+            "mots": [
+              "trading halt"
+            ]
+          }
+        ],
+        "recents": [
+          {
+            "titre": "Eagers stock gains 1.05 percent as expansion reshapes growth - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeFctZk1nMVZuVjhCeHVPNlp3WHg2eXNqUi0xQVE2Q3RyTzdxbVN2ZWxob2ZmRlJ4dGl0SXBvSW9QV1RUOG5YRktsODVtdXJETWhJZWNaRF9mdjhTbUR2NldfUS13MXhmczFXT1hsMmMxdUowTEVsVFMtR0RwVUpZRjlyT3VKTVkyOHFGeUk4YnVKalc1aTF5dEJDVEM0aktXalhhOUExbzUwOFUtamVrRVNMT2NVV2l1U2w4?oc=5",
+            "date": "2026-10-07",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Eagers Automotive Cancels 48,000 Shares Via On-Market Buy-Back - Kalkine",
+            "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRU5HaTMxZjJIdklPWnhsckdSdjNpR2Z3MVRiWGNlUnA1NWZ2Sm05XzVUV3JSSDhVS283YWxFb0NjZzNVbW1NSzB4c09TRE9yZ3pSQ1dELXQ4VGpidlVhTVFOY29SQXJGSTdGTEkwa215TnI4S204Unh6TEpieXJvWTBneUFSYnJVX29rdG45X3puVmlqVUh6d2JKb3ZtMFZHel9pMlpn?oc=5",
+            "date": "2026-10-02",
+            "source": "Kalkine",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Eagers Automotive Buys Back 20,000 Shares on 1 October 2026 - Kalkine",
+            "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYW9NNk1GSXVaZHI2SXBqX0tDTEg0cWxUU05ZNnZHYmNMUklMMDFHSVFqUUt0LUFMWW1Pb1ZnWHNYZnpqR25MRHRoNHFDSnhVLTNzaVlWOU8xamQ3NjV2T3FKeGVzY0lUTEFOY3hkSnEtSzZRdGVCRWJ3cXRRS3hjeGUxNG4ybzM4TjdBSUpVSWNvVVdNZHdUN3FZcE1hRWpwM0E?oc=5",
+            "date": "2026-10-02",
+            "source": "Kalkine",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Eagers Automotive Limited (ASX:APE): CanadaOne Expansion Reshapes the 2026 Earnings Mix - Kalkine",
+            "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcTg3RE9kRTN6TmpWN3hlZm5ScnN4MWxIQ0FzME5LWVF0NDVKTHpvVjRySVlYOEVqc2VUSUVGME1KVWN2Zk1zeU0zbWdtZE80YnBOaUVkV3BfcVdvRVJKVnpTNFpLNnMwWGV3S1E5amZmMUphVGZRYnVjdVdJTG81d3FHSjBTbkZaWThrVjd0NmtwYno1aDZkTU9vdXBDMUIwNVltZjkzaktjRmhSZHI3UG1kLUhFNVl1TWc?oc=5",
+            "date": "2026-10-01",
+            "source": "Kalkine",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Eagers Automotive (ASX:APE) Stock Forecast & Analyst Predictions - Simply Wall Street",
+            "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUVlhUWNTdnUwQ3o1LWxDMHAtcG96bTlmNXFMS3pFV3R0Uy1uSUJGWUF1RFVYTFgwSlBaYlhxMXVyc2hwbW9kVmQ5MTRuVV96YVlISi1uelhYZGYzd0JJNVV6SXRBZ1VZMTFTMVl3NUxseDBmSjV5ODAwejduY2lpWmFkWF8?oc=5",
+            "date": "2026-09-30",
+            "source": "Simply Wall Street",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 14,
       "decision": "sans réponse"
     }
   ]
