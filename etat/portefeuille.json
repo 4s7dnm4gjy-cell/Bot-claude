@@ -18,89 +18,89 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-07",
-    "cree_le": "2026-10-07T17:22+00:00",
-    "liberation": 145.48181477702425,
+    "cree_le": "2026-10-07T18:21+00:00",
+    "liberation": 146.37461470993077,
     "reserve_pct": null,
-    "score": 96.7585200736881,
+    "score": 96.51515700447632,
     "ordres": [
       {
-        "ticker": "CRH",
+        "ticker": "GOLF",
         "side": "buy",
         "quantity": 2.0,
-        "price": 72.24090738851213,
+        "price": 72.68730735496538,
         "reason": "opportunité radar (score 97)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "CRH",
-      "nom": "CRH plc",
-      "isin": "CRH",
+      "ticker": "GOLF",
+      "nom": "Acushnet Company",
+      "isin": "GOLF",
       "type": "action",
-      "prix": 80.91500091552734,
-      "score": 96.7585200736881,
-      "baisse": 0.377211489191433,
-      "perf_5ans": 0.9726642447536451,
+      "prix": 81.41500091552734,
+      "score": 96.51515700447632,
+      "baisse": 0.31109871188334925,
+      "perf_5ans": 0.8664347796277319,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.219921987489209,
-      "pos_12m": 0.7481259370314842,
-      "n_12m": 667,
-      "base_moy_12m": 0.15718338686506067,
-      "pire_12m": -0.51760766682791,
-      "vs_marche_3m": -0.2521044882428285,
+      "moy_12m": 0.36515840206073574,
+      "pos_12m": 0.9432314410480349,
+      "n_12m": 229,
+      "base_moy_12m": 0.23894670087261377,
+      "pire_12m": -0.13787478593696623,
+      "vs_marche_3m": -0.3137109814548562,
       "devise": "USD",
-      "prix_eur": 72.24090738851213
+      "prix_eur": 72.68730735496538
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -25% vs marché)",
-      "vs_marche_3m": -0.2521044882428285,
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -31% vs marché)",
+      "vs_marche_3m": -0.3137109814548562,
       "alertes": [],
       "recents": [
         {
-          "titre": "CRH va acquérir les activités de NCC au Danemark et en Finlande - Zonebourse Suisse",
-          "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONmhPQWNWOHJSYmJtaVdHSi1ZM1FWZVpEd0x4RzlBSnJuX2VuVHAtSG9lYlQxSkJfY1BRb3pYcmM1TTZid3BfV1dHZ2R0VFRQUDJEN1NNRDFNV096RGpOMWM5VmhkMFJZVGJzc25Ka29qcVJnb0tvT3FiczVqZlE5RWlzdkJNWFl5SWFxOGRjTkZkaVFCLWk2ZHpyZEhMMXVuR1NHVXNvT0JENUdNalFVaW85bGpIQkVHbWNManBNSXI?oc=5",
-          "date": "2026-10-07",
-          "source": "Zonebourse Suisse",
+          "titre": "Inside Titleist’s Golf Ball Facilities - GolfWRX",
+          "lien": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1SdjlsZGdabVExQTlPaURHQlNIdmRONDBoTVBYTHVRUEhBTWJESmFoX0FpdVpaODFheDZLcHpia0w1NXk4V1hiZUZHR2pyYXZtSUJkaVNjSWlScXVtc2QxUUU0X0dHRVVoLTd4Q1JTY0pDN1k?oc=5",
+          "date": "2026-10-06",
+          "source": "GolfWRX",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "CRH plc and Heidelberg Materials AG agreed to acquire Industry Business Area of NCC AB from NCC AB (OM:NCC B) for an enterprise value of SEK 8.2 billion. - marketscreener.com",
-          "lien": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObEwtVzZ4RXIzbmJWQVNTMGtBdG9Ed204ek5Ub0FxdmpGUVFxYWtsLXNfZzdfbGszamN2d1d5QjBmalBpcWhBX2RDdEUxVEZtYnZaZTB6R25Ga0gzVllXWjIyVmNqNHVFUURkU2dCU3hMWHdqUk5OX1RLYlFfbWpSTV9JbmtFREpyQVBxZUNXOVpCczloWjB1UEd0eUFTR0xuVDltX3lEbHBremlia3VQN1FuOEF3M3ItWGllMVVfU2NFc3FJN3piZ2Vxaks2UGVaVEZnOFUtdWR6VnVLV2xyNGdXb3ZzNmM?oc=5",
-          "date": "2026-10-07",
-          "source": "marketscreener.com",
+          "titre": "Now on Tour: New Titleist Pro V1 and Pro V1x Begin Global Validation Phase in Japan - Titleist Newsroom",
+          "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPX2VnUlZxRVNRWmp0VU9JS3NicHI4ZXhIZzlJSkEtbkQtcndBRThaRC1vR29jY2s1ZGJaZmtFS1F4NmcyNWNBT0otR2o2OXByLWpacUNtX2dHamFRTGJoOWdZM2Q1X3lPejVGYVJkU2w0QXpvQXFiUzUwcl9FXzFaTTlmandKc3l6VlNfQUhBRTFtYTFVb1V4cEpCNFQ0Rlo5aUNCRWZmdzZ1V0N1ZU0xSWI5Tm91N05IaGVFeHhPZWh0WWhtZ3lLcw?oc=5",
+          "date": "2026-10-04",
+          "source": "Titleist Newsroom",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "CRH to Acquire Finland, Denmark Operations of NCC Industry - marketscreener.com",
-          "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOT2YzTWxGcU04bU5LNEFzYks5aWRjZDJkZ3B6SFVEX3BzT0tSeWdRQ2ZaSHZpMjlXNzdGaEZmTVF5MDJVZjA4eDNZQkRqRGZDUEhkLVZOUkhvM05EaVNkT0VLMUl0VEY5Yjd3VElEWVRzbzVHWkpGNDM5N29HWG1hV0NzaVVxVG1UTGtSNUhKcWMzQjB1T0thY09Qc0UtMXNaVEF0bTNCTTdXUmJYOFk4?oc=5",
-          "date": "2026-10-07",
-          "source": "marketscreener.com",
+          "titre": "Acushnet (NYSE:GOLF) Stock Now Rated \"Hold\" by Sell-Side Brokerages - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaUYxeE1lOFA0Zy01NGZaR3NwWi01SXpvMldoM21DeC1oX2U0U29pRDZjY1QwOE5YRExQdXZlTXBnNVJBT1hOTmhWVGFUOVlDRmZSM3BDaHFuSmh4SzNKaERXTlVsV0FYQjhPc000OU5kWmRqRHdIeFI3X182VXR4VDUweEh6VHBMbUJBUGx2Ml8xNlhHNGV6aF9jV2VXWDV3b0trZHQtV3ZtUzJoLTRCN0hXUmEwQVNGdk5kNU5hcjBzUlJ5Ymc?oc=5",
+          "date": "2026-09-26",
+          "source": "MarketBeat",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "CRH to Acquire Aggregate Operations in Denmark and Finland - www.marketscreener.com",
-          "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTEFLa2JsUU91eC13Sk8wQzMxWW9sZjJOdU5vVzE2YnNpT0tYVEdQSm9NdlcxbTA5U3hQaWduRFR0a2pkVGJQQXpQOTNONi1rbFhlM3NmaV9ORFZ6UmRFUXRPb1NNMlVuMDN4Z2JNWXFiRndqUWZGZWEyMmROakxHd19Cb2NEZGJ0ZjQ4cFRjcTVWRlJnYTUxNXdVbmRlakg0LVVBZThHdE11M2ZXM3c1bQ?oc=5",
-          "date": "2026-10-07",
-          "source": "www.marketscreener.com",
+          "titre": "166,469 Shares in Acushnet $GOLF Bought by Bank of America Corp DE - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSkZkcW1mRU1mN2NRWnhobnc0QVQwLVVvZjRnVDI0dV85RWh5Zjh6VldxelNJdzdwY3JTOS1TektuV0cxYzFWcjZMbVRNaWVWTDUxU1NmZWszRXVaNVB3eTQ5NkdwTGJKU3ZqcDBRNC1YMnkyanZYcnJFTUg0T0h5eGlNTklFM1RvejNBQnFhcEVocTVMZWF1X1FrZDdvWTNHZE5pXzZXWkYzc2tvblpFclE3cUI1TEVvZWtTVjQ5OFBNVlU?oc=5",
+          "date": "2026-09-25",
+          "source": "MarketBeat",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Wells Fargo cuts target for CRH stock to USD 106 - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdGZqa0ZBR20zNGRMUnZWa2g3b0VuRDJzVVd5Q1ZMQUozMUEzcFdadUY4endhT1RISzQ2T25mVk0xRHlsc1ltdFhUOWhrNFZnTDlQcDZsaHJiR2xHX194YkRvWGExWjVVU2J3YjlTb0ZZVjBNSUNUZzd1a04wMmRIM1plcGIwbVlFTEs2M2toR0tYS0c5NFd5NUFpMFNWSHN4YnZsX01zR0tZVkM1NWdHZQ?oc=5",
-          "date": "2026-10-07",
-          "source": "AD HOC NEWS",
+          "titre": "Scotty Cameron® Introduces Limited-Edition Phantom OC Spec III Putters - Titleist Newsroom",
+          "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRThkZXpsa3ljQV9XMzVHZnlmU2RwZVl4N1U4SFkxaGNGUWhOYWFEZkVnd3dyQy1RanhPcVI1R0Jhc0h1REZsMmJqQmVITTZVcEtTSTYxN2lEb0huRnRkckZhRWVMQ0s1TlNPLWpaM3g4MWRtcFE2dzlUWl91aFpSTDFDN1ZxZTVBNWNtQ050akNfbExjQjEyc0l1bTdMZlM4NG43MTF0LUV5MFhiNVo1b1FZRlA2Q0k?oc=5",
+          "date": "2026-09-22",
+          "source": "Titleist Newsroom",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 30
+    "ticket": 31
   },
   "radar_proposes": [
     "MCD",
@@ -134,7 +134,8 @@
     "WINA",
     "GLPI",
     "CW",
-    "CRH"
+    "CRH",
+    "GOLF"
   ],
   "achats": [],
   "historique": [
@@ -2869,6 +2870,94 @@
         ]
       },
       "ticket": 29,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-07",
+      "cree_le": "2026-10-07T17:22+00:00",
+      "liberation": 145.48181477702425,
+      "reserve_pct": null,
+      "score": 96.7585200736881,
+      "ordres": [
+        {
+          "ticker": "CRH",
+          "side": "buy",
+          "quantity": 2.0,
+          "price": 72.24090738851213,
+          "reason": "opportunité radar (score 97)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "CRH",
+        "nom": "CRH plc",
+        "isin": "CRH",
+        "type": "action",
+        "prix": 80.91500091552734,
+        "score": 96.7585200736881,
+        "baisse": 0.377211489191433,
+        "perf_5ans": 0.9726642447536451,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.219921987489209,
+        "pos_12m": 0.7481259370314842,
+        "n_12m": 667,
+        "base_moy_12m": 0.15718338686506067,
+        "pire_12m": -0.51760766682791,
+        "vs_marche_3m": -0.2521044882428285,
+        "devise": "USD",
+        "prix_eur": 72.24090738851213
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -25% vs marché)",
+        "vs_marche_3m": -0.2521044882428285,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "CRH va acquérir les activités de NCC au Danemark et en Finlande - Zonebourse Suisse",
+            "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONmhPQWNWOHJSYmJtaVdHSi1ZM1FWZVpEd0x4RzlBSnJuX2VuVHAtSG9lYlQxSkJfY1BRb3pYcmM1TTZid3BfV1dHZ2R0VFRQUDJEN1NNRDFNV096RGpOMWM5VmhkMFJZVGJzc25Ka29qcVJnb0tvT3FiczVqZlE5RWlzdkJNWFl5SWFxOGRjTkZkaVFCLWk2ZHpyZEhMMXVuR1NHVXNvT0JENUdNalFVaW85bGpIQkVHbWNManBNSXI?oc=5",
+            "date": "2026-10-07",
+            "source": "Zonebourse Suisse",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "CRH plc and Heidelberg Materials AG agreed to acquire Industry Business Area of NCC AB from NCC AB (OM:NCC B) for an enterprise value of SEK 8.2 billion. - marketscreener.com",
+            "lien": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObEwtVzZ4RXIzbmJWQVNTMGtBdG9Ed204ek5Ub0FxdmpGUVFxYWtsLXNfZzdfbGszamN2d1d5QjBmalBpcWhBX2RDdEUxVEZtYnZaZTB6R25Ga0gzVllXWjIyVmNqNHVFUURkU2dCU3hMWHdqUk5OX1RLYlFfbWpSTV9JbmtFREpyQVBxZUNXOVpCczloWjB1UEd0eUFTR0xuVDltX3lEbHBremlia3VQN1FuOEF3M3ItWGllMVVfU2NFc3FJN3piZ2Vxaks2UGVaVEZnOFUtdWR6VnVLV2xyNGdXb3ZzNmM?oc=5",
+            "date": "2026-10-07",
+            "source": "marketscreener.com",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "CRH to Acquire Finland, Denmark Operations of NCC Industry - marketscreener.com",
+            "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOT2YzTWxGcU04bU5LNEFzYks5aWRjZDJkZ3B6SFVEX3BzT0tSeWdRQ2ZaSHZpMjlXNzdGaEZmTVF5MDJVZjA4eDNZQkRqRGZDUEhkLVZOUkhvM05EaVNkT0VLMUl0VEY5Yjd3VElEWVRzbzVHWkpGNDM5N29HWG1hV0NzaVVxVG1UTGtSNUhKcWMzQjB1T0thY09Qc0UtMXNaVEF0bTNCTTdXUmJYOFk4?oc=5",
+            "date": "2026-10-07",
+            "source": "marketscreener.com",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "CRH to Acquire Aggregate Operations in Denmark and Finland - www.marketscreener.com",
+            "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTEFLa2JsUU91eC13Sk8wQzMxWW9sZjJOdU5vVzE2YnNpT0tYVEdQSm9NdlcxbTA5U3hQaWduRFR0a2pkVGJQQXpQOTNONi1rbFhlM3NmaV9ORFZ6UmRFUXRPb1NNMlVuMDN4Z2JNWXFiRndqUWZGZWEyMmROakxHd19Cb2NEZGJ0ZjQ4cFRjcTVWRlJnYTUxNXdVbmRlakg0LVVBZThHdE11M2ZXM3c1bQ?oc=5",
+            "date": "2026-10-07",
+            "source": "www.marketscreener.com",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Wells Fargo cuts target for CRH stock to USD 106 - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdGZqa0ZBR20zNGRMUnZWa2g3b0VuRDJzVVd5Q1ZMQUozMUEzcFdadUY4endhT1RISzQ2T25mVk0xRHlsc1ltdFhUOWhrNFZnTDlQcDZsaHJiR2xHX194YkRvWGExWjVVU2J3YjlTb0ZZVjBNSUNUZzd1a04wMmRIM1plcGIwbVlFTEs2M2toR0tYS0c5NFd5NUFpMFNWSHN4YnZsX01zR0tZVkM1NWdHZQ?oc=5",
+            "date": "2026-10-07",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 30,
       "decision": "sans réponse"
     }
   ]
