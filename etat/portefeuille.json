@@ -18,89 +18,100 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-07",
-    "cree_le": "2026-10-07T12:24+00:00",
-    "liberation": 150.2540862819564,
+    "cree_le": "2026-10-07T12:55+00:00",
+    "liberation": 141.10665024132484,
     "reserve_pct": null,
-    "score": 94.47171860231838,
+    "score": 94.28469188883562,
     "ordres": [
       {
-        "ticker": "GTY",
+        "ticker": "AN",
         "side": "buy",
-        "quantity": 6.0,
-        "price": 24.87568104699273,
+        "quantity": 1.0,
+        "price": 140.10665024132484,
         "reason": "opportunité radar (score 94)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "GTY",
-      "nom": "Getty Realty Corp.",
-      "isin": "GTY",
+      "ticker": "AN",
+      "nom": "AutoNation",
+      "isin": "AN",
       "type": "action",
-      "prix": 28.010000228881836,
-      "score": 94.47171860231838,
-      "baisse": 0.2218541495316545,
-      "perf_5ans": 0.27384081824584205,
+      "prix": 157.75999450683594,
+      "score": 94.28469188883562,
+      "baisse": 0.3140273178640428,
+      "perf_5ans": 0.2228509512763106,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.16992806052737505,
-      "pos_12m": 0.8153310104529616,
-      "n_12m": 1148,
-      "base_moy_12m": 0.10295380909294756,
-      "pire_12m": -0.44353785127640977,
-      "vs_marche_3m": -0.2202013697275763,
+      "moy_12m": 0.3429773233892831,
+      "pos_12m": 0.7042857142857143,
+      "n_12m": 700,
+      "base_moy_12m": 0.17633645682128885,
+      "pire_12m": -0.7540887948732432,
+      "vs_marche_3m": -0.20746382527319918,
       "devise": "USD",
-      "prix_eur": 24.87568104699273
+      "prix_eur": 140.10665024132484
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -22% vs marché)",
-      "vs_marche_3m": -0.2202013697275763,
-      "alertes": [],
+      "resume": "à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -21% vs marché)",
+      "vs_marche_3m": -0.20746382527319918,
+      "alertes": [
+        {
+          "titre": "It's Time To Shift AutoNation Into Neutral (Downgrade) (NYSE:AN) - Seeking Alpha",
+          "lien": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTXFWdTVNRVVkV3FtVVVYVktVQUhQZERpb2ExRkdqYnFlZFpURUdVTkhIUlg1RHJ5TXA4WXpUSkh3RVBxYTNabkowa21fSElWZ1pIR3JNa0NhRVlFanVZX1B5R0Q4X2FEZFg4bVFwWHFkLWZjcld4VnNOV1ZjczRoeVB0ZnFEc3FHblpCcUthcm9BRmp1Y2NN?oc=5",
+          "date": "2026-09-18",
+          "source": "Seeking Alpha",
+          "gravite": 1,
+          "mots": [
+            "downgrade"
+          ]
+        }
+      ],
       "recents": [
         {
-          "titre": "Getty Realty stock fell 1.17 percent after a 41-store deal - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaGtzZEpObTAtbDlVNlFudXN4TnZHQ0FUT0J4V3dyRHd2UzVzc1BucENuMmE2d0lNWWZLNjFmdWJzSlpYSkdxeFJmMmg2UUsyQ2FtVFN2OVJhaEdUN21QWUVJMmZGQU1BNTAzLWctQW9XWHlHZFVaLW5pMTl2NVppSlNaM0FmWkZnM1lJbjZlWUYzaXVSX2NxSlJjbFZXZDVweGpmSnI0ZnA1THBuUERudE9FdGlVWnliMi1OTWV3?oc=5",
-          "date": "2026-10-06",
+          "titre": "AutoNation stock fell 2.18 percent after Morgan Stanley cut its target - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONzA0WS0xdmlyRFVlRTdkaWZ6VEp4MjFPNlRxaVZycWx2cmw1emZNTmc4RG1RUXNET2VYcE9KRk0tMXIzdUp6eUdHLU9wSXpfTFpDWVdCYVBIcXNPc3MxWUUxT1dGUnpMbnlfR25sT0JiMmY2UEdNX3FoWF9IUDE5VUhqQ1ZZRzRGNkd0UWRUd1o1TDJRNmYydWtDa3pvd2ZZejgxOF9vOUYzMUlMQ3I0bEZfMlVGdGhBbWdNMmtLblJDaVF4bk4wNQ?oc=5",
+          "date": "2026-10-07",
           "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Getty Realty Corporation (GTY) Stock Forecasts - Yahoo! Finance Canada",
-          "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdHFoOE53djNHSDNySDBFRF94bVdZUjVCSXZIdmNlLTgwdHlneW5RNU1zQXpMMEhNVy0zV2c0MFRmQ3E0VUJFZEhrNGwzeC1hNVR2OGFFbk9FZjdfWGtqSnlKZjdrbEVaekpyRnVIVDh6ZnNEY3VKNWwzNlIzZktublQxTmxuZU9hdEt0YmthaDBXS3M?oc=5",
-          "date": "2026-10-04",
+          "titre": "AutoNation Appoints Ravi Simhambhatla as Chief Technology and AI Officer - Machine Maker",
+          "lien": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWmdYZktZVVFvR0hXdm5xQzlSb0VaRDNCNDFZTzF0M3ByZ1lxVjdpOFBTYTRmNF9EeTgxN2FSc0Y1dzZ1clczUHFKb3JocGw1NXpQaVVOT2R0NTJ5UDdvT0pZZUp4Si1pdEpsTFdyRkRyWkJ3a29kMDBwMTVRZHBKM213ZGlOZmdLZmZ2SjVhc3BSR0hnTTZpaG11SjZEZlNhVXFKYnF1TFRTZw?oc=5",
+          "date": "2026-10-07",
+          "source": "Machine Maker",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "TOUR D'HORIZON DE LA RECHERCHE AUX ÉTATS-UNIS-Affiliated Managers Group, Goldman Sachs, Vaxcyte - Boursorama",
+          "lien": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNMHNwRUpiZVI3VEYzdmU0QmxEeHFQYWpQRFBUNGxzcExDa2VmeUV5ZUdfdE02TmNVYVBKc2R2Tkw1elhXWkpYVzBSbHYtajRCTzZHR01rczByOUJPYTVJTkpkRFhtcEdEVVhqbFpHbmdRQXdsN1pWZ1FRZzRLZ2drWFE1NzZGV2c2b2xDYjBKakhGUnQteUlTclc2Y093VXdHVW1ZeGo0bkZWb3BYRFFFdksxWk5xbk1kYjU1TlhOVU5HU2FlYkFTQmFTOW85Q0JDc2poLTQ5dDVWMHFUUDJSUWtLWU5HUmZtYTAydG9oWjQzQ0RLZWZOSWpvNkNha1lldXNfVEJ30gGGAkFVX3lxTE0wc3BFSmJlUjdURjN2ZTRCbER4cVBhalBEUFQ0bHNwTENrZWZ5RXllR190TTZOY1VhUEpzZHZOTDV6WFdaSlhXMFJsdi1qNEJPNkdHTWtzMHI5Qk9hNUlOSmREWG1wR0RVWGpsWkduZ1FBd2w3WlZnUVFnNEtnZ2tYUTU3NkZXZzZvbENiMEpqSEZSdC15SVNyVzZjT3dVd0dVbVl4ajRuRlZvcFhEUUV2SzFaTnFuTWRiNTVOWE5VTkdTYWViQVNCYVM5bzlDQkNzamgtNDl0NVYwcVRQMlJRa0tZTkdSZm1hMDJ0b2haNDNDREtlZk5Jam82Q2FrWWV1c19UQnc?oc=5",
+          "date": "2026-10-06",
+          "source": "Boursorama",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "AutoNation, Inc. (AN) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wMHRnYjU2R1Q0Z05ERkNiaklGV2h6T2FNT04wWThUYkR2d1dqb3dna1ByNnIwbmhTVTNjaXZOY2l5SmlrRzFIYlpTMzdiVlU?oc=5",
+          "date": "2026-10-06",
           "source": "Yahoo! Finance Canada",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Getty Realty buys 41 stores and raises outlook for Getty Realty stock - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNmhOTjBPTDVERHJGRWxTSHNYRUE4c0o3akZRMkRueWtUVGczNWRlM2Y3N0lEWGZBbmJWLUZFS3Z4MkVWU282WUZMYTVwMFhWbEt0ZEFlSktuaGlSRHhLMmVMdEpOY096LXdsSjBvVzJ2aDk1cjJwS0ZxNjJqQk90NnZDek8tX3NLUTRxZV9keUR3MUJYdGhCX1JXRkVtYmRDTEcweGNiRjU0aXFJd3RBczhkSEdyUklaRWR5cW1KMmtNTXlSb0Qw?oc=5",
-          "date": "2026-10-01",
-          "source": "AD HOC NEWS",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Getty Realty Corporation (GTY) Stock Forecasts - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWVpiX1hjRE1iLTFWLVZiRjVuQ2g4Q1g1T1hZZWNFYnZEUzJYZUZ3MXhYeExKbTBLenJ5LWtkXzV1eVd4VXdlWHRGMXBZYzl6YnotbWduMENQbVZFNTlXRS12NFpoZFdJZTQ2UmFGQXkzdDNxS1lsTzJWYUFHSXJSVDUwUTJaS19IcVBoZzVlTQ?oc=5",
-          "date": "2026-10-01",
-          "source": "Yahoo Finance",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Getty Realty's (GTY) \"Overweight\" Rating Reaffirmed at KeyCorp - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVnZGc19TZU4yeUFNY1VIamJEYXNmOHdRYVFfNV81Yk1nOUludG9lVF9xN0N4QkliR2duWmN0WEpUanVMcmlRa1dscjY4RVhSUEtmX1J0Z3QtNmFITmFGbzBFeTN2LVVqRTZKV1BFZWdWdzBGM1BFcnJKMmw0dFgyUWd2cUM3aVJhUEk5VWhjR1NfY2V4aDlqdjVVMW9YYjFiSmxaMDM5alBkZXJUcktSMldUa0ZrU0NKM1BPSlAteEc?oc=5",
-          "date": "2026-09-30",
+          "titre": "AutoNation (NYSE:AN) Stock Price Target Cut by JPMorgan Chase & Co. - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSjRiQU9VV2RjT1dpZkRrTFdJd1BZUFZkREpWNTVvRzZBMmg3cnMwNlY3Y19GcGcyZktHUmpPZDVKeExnNV9UWGVWV0FlblQ2ZGdqeFNzTnplQU1HMnRPRFNUeWJ3Zmg1MmRIdVlvXzE2Qm43bW9heWRvZEg1U3V4TTJ0N1hlQ1Y4a0ppTXNIcmVaTWVmSUppVU4wLV92ZzYxWGJhc01PYnYtLTFxUUlTbkpBN3Y1TXhnVy1rNWluRXNGUQ?oc=5",
+          "date": "2026-10-06",
           "source": "MarketBeat",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 23
+    "ticket": 24
   },
   "radar_proposes": [
     "MCD",
@@ -126,7 +137,8 @@
     "WSO",
     "ADC",
     "CAR.AX",
-    "GTY"
+    "GTY",
+    "AN"
   ],
   "achats": [],
   "historique": [
@@ -2158,6 +2170,94 @@
         ]
       },
       "ticket": 22,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-07",
+      "cree_le": "2026-10-07T12:24+00:00",
+      "liberation": 150.2540862819564,
+      "reserve_pct": null,
+      "score": 94.47171860231838,
+      "ordres": [
+        {
+          "ticker": "GTY",
+          "side": "buy",
+          "quantity": 6.0,
+          "price": 24.87568104699273,
+          "reason": "opportunité radar (score 94)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "GTY",
+        "nom": "Getty Realty Corp.",
+        "isin": "GTY",
+        "type": "action",
+        "prix": 28.010000228881836,
+        "score": 94.47171860231838,
+        "baisse": 0.2218541495316545,
+        "perf_5ans": 0.27384081824584205,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.16992806052737505,
+        "pos_12m": 0.8153310104529616,
+        "n_12m": 1148,
+        "base_moy_12m": 0.10295380909294756,
+        "pire_12m": -0.44353785127640977,
+        "vs_marche_3m": -0.2202013697275763,
+        "devise": "USD",
+        "prix_eur": 24.87568104699273
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -22% vs marché)",
+        "vs_marche_3m": -0.2202013697275763,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Getty Realty stock fell 1.17 percent after a 41-store deal - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaGtzZEpObTAtbDlVNlFudXN4TnZHQ0FUT0J4V3dyRHd2UzVzc1BucENuMmE2d0lNWWZLNjFmdWJzSlpYSkdxeFJmMmg2UUsyQ2FtVFN2OVJhaEdUN21QWUVJMmZGQU1BNTAzLWctQW9XWHlHZFVaLW5pMTl2NVppSlNaM0FmWkZnM1lJbjZlWUYzaXVSX2NxSlJjbFZXZDVweGpmSnI0ZnA1THBuUERudE9FdGlVWnliMi1OTWV3?oc=5",
+            "date": "2026-10-06",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Getty Realty Corporation (GTY) Stock Forecasts - Yahoo! Finance Canada",
+            "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdHFoOE53djNHSDNySDBFRF94bVdZUjVCSXZIdmNlLTgwdHlneW5RNU1zQXpMMEhNVy0zV2c0MFRmQ3E0VUJFZEhrNGwzeC1hNVR2OGFFbk9FZjdfWGtqSnlKZjdrbEVaekpyRnVIVDh6ZnNEY3VKNWwzNlIzZktublQxTmxuZU9hdEt0YmthaDBXS3M?oc=5",
+            "date": "2026-10-04",
+            "source": "Yahoo! Finance Canada",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Getty Realty buys 41 stores and raises outlook for Getty Realty stock - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNmhOTjBPTDVERHJGRWxTSHNYRUE4c0o3akZRMkRueWtUVGczNWRlM2Y3N0lEWGZBbmJWLUZFS3Z4MkVWU282WUZMYTVwMFhWbEt0ZEFlSktuaGlSRHhLMmVMdEpOY096LXdsSjBvVzJ2aDk1cjJwS0ZxNjJqQk90NnZDek8tX3NLUTRxZV9keUR3MUJYdGhCX1JXRkVtYmRDTEcweGNiRjU0aXFJd3RBczhkSEdyUklaRWR5cW1KMmtNTXlSb0Qw?oc=5",
+            "date": "2026-10-01",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Getty Realty Corporation (GTY) Stock Forecasts - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWVpiX1hjRE1iLTFWLVZiRjVuQ2g4Q1g1T1hZZWNFYnZEUzJYZUZ3MXhYeExKbTBLenJ5LWtkXzV1eVd4VXdlWHRGMXBZYzl6YnotbWduMENQbVZFNTlXRS12NFpoZFdJZTQ2UmFGQXkzdDNxS1lsTzJWYUFHSXJSVDUwUTJaS19IcVBoZzVlTQ?oc=5",
+            "date": "2026-10-01",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Getty Realty's (GTY) \"Overweight\" Rating Reaffirmed at KeyCorp - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVnZGc19TZU4yeUFNY1VIamJEYXNmOHdRYVFfNV81Yk1nOUludG9lVF9xN0N4QkliR2duWmN0WEpUanVMcmlRa1dscjY4RVhSUEtmX1J0Z3QtNmFITmFGbzBFeTN2LVVqRTZKV1BFZWdWdzBGM1BFcnJKMmw0dFgyUWd2cUM3aVJhUEk5VWhjR1NfY2V4aDlqdjVVMW9YYjFiSmxaMDM5alBkZXJUcktSMldUa0ZrU0NKM1BPSlAteEc?oc=5",
+            "date": "2026-09-30",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 23,
       "decision": "sans réponse"
     }
   ]
