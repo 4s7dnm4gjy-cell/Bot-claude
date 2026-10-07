@@ -18,7 +18,10 @@ proposé (sauf ETF, qui n'ont pas de bénéfices propres).
 
 from __future__ import annotations
 
+import json
 import math
+from datetime import date
+from pathlib import Path
 from typing import Callable
 
 CHAMPS = ("revenueGrowth", "earningsGrowth", "recommendationMean", "numberOfAnalystOpinions",
@@ -145,22 +148,49 @@ def sanction_du_marche(vs_marche_3m: float | None) -> tuple[float, str | None]:
 
 
 def enrichir(candidats: list[dict], lire: Callable[[str], dict] = lire_infos, nb_max: int = 150,
-             poids_fondamental: float = 0.6) -> list[dict]:
-    """Ajoute fondamentaux et score global, puis trie du meilleur au moins bon."""
+             poids_fondamental: float = 0.6, cache: Path | None = None, aujourdhui: date | None = None,
+             jours_frais: int = 7, jours_max: int = 45, lectures_max: int = 100) -> list[dict]:
+    """Ajoute fondamentaux et score global, puis trie du meilleur au moins bon.
+
+    `cache` : fichier où garder les données de chaque titre. Elles ne sont relues
+    chez Yahoo qu'au-delà de `jours_frais` jours ; si Yahoo refuse (ce qui arrive
+    depuis les serveurs GitHub), les dernières données connues (moins de
+    `jours_max` jours) sont réutilisées.
+    """
+    aujourdhui = aujourdhui or date.today()
+    memo = json.loads(cache.read_text(encoding="utf-8")) if cache and cache.exists() else {}
+    lectures = reutilisees = 0
     for c in candidats[:nb_max]:
         if c.get("type", "action") != "action":
             c["fondamental"], c["fondamental_notes"] = None, ["ETF : pas d'analyse d'entreprise"]
         else:
-            c["fondamental"], c["fondamental_notes"] = score_fondamental(lire(c["ticker"]))
+            infos, entree = {}, memo.get(c["ticker"])
+            age = (aujourdhui - date.fromisoformat(entree["date"])).days if entree else None
+            if entree and age <= jours_frais:
+                infos = entree["infos"]
+            elif lectures < lectures_max:
+                lectures += 1
+                infos = lire(c["ticker"])
+                if infos:
+                    memo[c["ticker"]] = {"date": aujourdhui.isoformat(), "infos": infos}
+            if not infos and entree and age <= jours_max:
+                infos, reutilisees = entree["infos"], reutilisees + 1
+            c["fondamental"], c["fondamental_notes"] = score_fondamental(infos)
             malus, note = sanction_du_marche(c.get("vs_marche_3m"))
             if c["fondamental"] is not None and note:
                 c["fondamental"] = max(0.0, c["fondamental"] + malus)
                 c["fondamental_notes"].append(note)
+            if entree and infos is entree["infos"] and age and age > jours_frais:
+                c["fondamental_notes"].append(f"données du {entree['date']} (Yahoo indisponible aujourd'hui)")
         f = c["fondamental"] if c["fondamental"] is not None else 60.0  # ETF / inconnu : neutre
         c["score_global"] = round((1 - poids_fondamental) * c["score"] + poids_fondamental * f, 1)
+    if cache:
+        cache.parent.mkdir(parents=True, exist_ok=True)
+        cache.write_text(json.dumps(memo, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
     analyses = candidats[:nb_max]
     ok = sum(1 for c in analyses if c["fondamental"] is not None)
-    print(f"Fondamentaux : {ok}/{len(analyses)} titres analysés", flush=True)
+    print(f"Fondamentaux : {ok}/{len(analyses)} titres notés ({lectures} lectures Yahoo, "
+          f"{reutilisees} reprises de la mémoire)", flush=True)
     if ERREURS:
         print(f"  {len(ERREURS)} erreur(s), ex. : {ERREURS[:3]}", flush=True)
     return sorted(analyses, key=lambda c: c["score_global"], reverse=True)

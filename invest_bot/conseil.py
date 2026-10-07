@@ -362,7 +362,7 @@ def ecrire_candidats(cfg: Config, opportunites: list[Opportunite], actus: dict, 
     """Liste des titres soldés, classée par score global (baisse + fondamentaux), pour le mode express."""
     seuil = cfg.radar["score_alerte"]
     liste = [asdict(o) for o in opportunites if o.score >= seuil and o.favorable]
-    liste = fondamentaux.enrichir(liste, lire or fondamentaux.lire_infos)
+    liste = fondamentaux.enrichir(liste, lire or fondamentaux.lire_infos, cache=Path("etat/fondamentaux.json"))
     CANDIDATS.parent.mkdir(parents=True, exist_ok=True)
     CANDIDATS.write_text(json.dumps({
         "calcule_le": datetime.now(timezone.utc).isoformat(timespec="minutes"),

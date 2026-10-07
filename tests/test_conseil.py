@@ -458,3 +458,27 @@ def test_express_ecarte_un_avertissement_sur_resultats(cfg_radar, monkeypatch, g
     ])
     assert conseil.lancer_express(cfg_radar, MIDI) is None
     assert "SOLDE" in conseil.charger_etat(cfg_radar)["radar_proposes"]  # écartée définitivement
+
+
+def test_memoire_des_fondamentaux_quand_yahoo_refuse(tmp_path):
+    from invest_bot.fondamentaux import enrichir
+
+    cache = tmp_path / "fond.json"
+    cand = lambda: [{"ticker": "CRH", "type": "action", "score": 96, "vs_marche_3m": -0.05}]  # noqa: E731
+    lectures = []
+
+    def yahoo_ok(t):
+        lectures.append(t)
+        return SAINE
+
+    (r,) = enrichir(cand(), yahoo_ok, cache=cache, aujourdhui=date(2026, 10, 1))
+    assert r["fondamental"] >= 95 and lectures == ["CRH"]
+    # Trois jours plus tard : données fraîches en mémoire, aucune nouvelle lecture.
+    (r,) = enrichir(cand(), yahoo_ok, cache=cache, aujourdhui=date(2026, 10, 4))
+    assert lectures == ["CRH"] and r["fondamental"] >= 95
+    # Dix jours plus tard, Yahoo refuse : on reprend les dernières données connues.
+    (r,) = enrichir(cand(), lambda t: {}, cache=cache, aujourdhui=date(2026, 10, 11))
+    assert r["fondamental"] >= 95 and any("Yahoo indisponible" in n for n in r["fondamental_notes"])
+    # Trop vieilles (plus de 45 jours) : on ne s'y fie plus.
+    (r,) = enrichir(cand(), lambda t: {}, cache=cache, aujourdhui=date(2026, 12, 1))
+    assert r["fondamental"] is None
