@@ -422,8 +422,8 @@ def lancer_express(cfg: Config, maintenant: datetime | None = None, max_actualit
                 break  # on reprendra au prochain passage
             lus += 1
             act = news.verifier(o.nom, o.vs_marche_3m)
-            if act.verdict == "rouge":
-                etat["radar_proposes"].append(o.ticker)  # écarté définitivement
+            if act.verdict == "rouge" or news.avertissement_recent(act):
+                etat["radar_proposes"].append(o.ticker)  # problème sérieux ou perspectives révisées : écarté
                 continue
         qty = float(int(r["montant"] // o.prix_eur)) or (1.0 if o.prix_eur <= 2 * r["montant"] else 0.0)
         if not qty:

@@ -206,3 +206,17 @@ def section_markdown(nom: str, act: Actualites) -> str:
         lignes += [f"- [{a.titre}]({a.lien}) — {a.source}, {a.date}" for a in autres]
     lignes.append("*Lecture automatique par mots-clés : elle peut se tromper. Lisez les titres avant de décider.*")
     return "\n".join(lignes)
+
+
+# Révision à la baisse des perspectives : les chiffres publiés ne le montrent pas encore.
+AVERTISSEMENTS = {"avertissement sur resultats", "profit warning", "abaisse ses previsions", "revoit a la baisse",
+                  "cuts guidance", "lowers guidance", "cuts outlook", "lowers outlook", "guidance cut",
+                  "downgrade", "downgraded"}
+
+
+def avertissement_recent(act: "Actualites") -> Article | None:
+    """Premier article récent annonçant une révision à la baisse (ou None)."""
+    for a in act.alertes:
+        if AVERTISSEMENTS & set(a.mots):
+            return a
+    return None

@@ -83,13 +83,19 @@ Les prix étrangers sont convertis en euros pour chiffrer les achats. Pour les t
 
 | Critère | Points |
 |---|---:|
-| Croissance du chiffre d'affaires | 20 |
-| Croissance des bénéfices | 20 |
-| Avis des analystes et potentiel vers leur objectif de cours | 30 |
+| Croissance du chiffre d'affaires sur un an | 15 |
+| Croissance des bénéfices sur un an | 15 |
+| **Bénéfices attendus sur 12 mois** (tournés vers l'avenir) | 15 |
+| Avis des analystes | 15 |
+| Potentiel vers l'objectif de cours (un écart de plus de 50 % est jugé non crédible) | 10 |
 | Valorisation (P/E sur les bénéfices attendus) | 15 |
 | Santé (marge nette, dette) | 15 |
 
-Les opportunités sont classées par **score global** : 40 % baisse du cours + 60 % fondamentaux. Une action dont le score fondamental est inférieur à 55/100, ou inconnu, n'est jamais proposée.
+**Garde-fous contre les chiffres trop vieux,** car les données publiées regardent le passé :
+- **sanction du marché :** −12 points si le titre a fait 20 % de moins que le marché en 3 mois, −25 points au-delà de 30 % ;
+- **avertissement sur résultats ou dégradation par un analyste,** dans les actualités du mois : le titre est écarté définitivement.
+
+Les opportunités sont classées par **score global** : 40 % baisse du cours + 60 % fondamentaux. Une action sous **70/100** en fondamentaux, ou sans données, n'est jamais proposée.
 
 **⚡ Mode express (toutes les 30 minutes) :**
 - **De 7h à 23h, tous les jours,** le bot propose une nouvelle opportunité du radar, par un ticket dans votre Inbox GitHub.

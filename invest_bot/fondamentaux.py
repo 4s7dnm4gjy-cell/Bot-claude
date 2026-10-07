@@ -22,7 +22,8 @@ import math
 from typing import Callable
 
 CHAMPS = ("revenueGrowth", "earningsGrowth", "recommendationMean", "numberOfAnalystOpinions",
-          "targetMeanPrice", "currentPrice", "forwardPE", "trailingPE", "profitMargins", "debtToEquity")
+          "targetMeanPrice", "currentPrice", "forwardPE", "trailingPE", "profitMargins", "debtToEquity",
+          "forwardEps", "trailingEps")
 
 
 ERREURS: list[str] = []  # pour le journal : pourquoi une lecture a échoué
@@ -57,7 +58,11 @@ def _nombre(x) -> float | None:
 
 
 def score_fondamental(infos: dict) -> tuple[float | None, list[str]]:
-    """Score 0-100 et explications lisibles ; None si aucune donnée exploitable."""
+    """Score 0-100 et explications lisibles ; None si aucune donnée exploitable.
+
+    Barème (100 pts) : passé (CA 15, bénéfices 15), avenir (bénéfices attendus 15),
+    analystes (avis 15, objectif de cours 10), valorisation 15, santé 15.
+    """
     g = {k: _nombre(infos.get(k)) for k in CHAMPS}
     if all(v is None for v in g.values()):
         return None, ["aucune donnée fondamentale disponible"]
@@ -65,30 +70,43 @@ def score_fondamental(infos: dict) -> tuple[float | None, list[str]]:
 
     ca = g["revenueGrowth"]
     if ca is None:
-        pts += 10
+        pts += 7.5
     else:
-        pts += 20 if ca > 0.05 else 10 if ca > 0 else 0
+        pts += 15 if ca > 0.05 else 7.5 if ca > 0 else 0
         notes.append(f"chiffre d'affaires {ca:+.1%} sur un an")
 
     bpa = g["earningsGrowth"]
     if bpa is None:
-        pts += 10
+        pts += 7.5
     else:
-        pts += 20 if bpa > 0.10 else 10 if bpa > 0 else 0
+        pts += 15 if bpa > 0.10 else 7.5 if bpa > 0 else 0
         notes.append(f"bénéfices {bpa:+.1%} sur un an")
+
+    # Regard vers l'avenir : bénéfice par action attendu sur 12 mois vs dernier connu.
+    fe, te = g["forwardEps"], g["trailingEps"]
+    if fe is None or te is None or te <= 0:
+        pts += 7.5 if fe is None or te is None else (15 if fe and fe > 0 else 0)
+    else:
+        attendu = fe / te - 1
+        pts += 15 if attendu > 0.08 else 7.5 if attendu > 0 else 0
+        notes.append(f"bénéfices attendus {attendu:+.0%} sur 12 mois")
 
     reco, n = g["recommendationMean"], g["numberOfAnalystOpinions"] or 0
     if reco is None or n < 3:
-        pts += 10
+        pts += 7.5
     else:
-        pts += 20 if reco <= 1.8 else 15 if reco <= 2.3 else 8 if reco <= 2.8 else 0
+        pts += 15 if reco <= 1.8 else 11 if reco <= 2.3 else 5 if reco <= 2.8 else 0
         avis = "achat fort" if reco <= 1.8 else "achat" if reco <= 2.3 else "conserver" if reco <= 2.8 else "vendre"
         notes.append(f"analystes : « {avis} » ({reco:.1f}/5, {int(n)} avis)")
     cible, cours = g["targetMeanPrice"], g["currentPrice"]
     if cible and cours:
         potentiel = cible / cours - 1
-        pts += 10 if potentiel > 0.15 else 5 if potentiel > 0.05 else 0
-        notes.append(f"objectif moyen des analystes : {potentiel:+.0%}")
+        if potentiel > 0.5:  # écart irréaliste : objectifs pas encore révisés après une chute
+            pts += 3
+            notes.append(f"objectif des analystes {potentiel:+.0%} : peu crédible, probablement pas encore révisé")
+        else:
+            pts += 10 if potentiel > 0.15 else 5 if potentiel > 0.05 else 0
+            notes.append(f"objectif moyen des analystes : {potentiel:+.0%}")
     else:
         pts += 5
 
@@ -105,13 +123,25 @@ def score_fondamental(infos: dict) -> tuple[float | None, list[str]]:
         notes.append(txt)
 
     marge, dette = g["profitMargins"], g["debtToEquity"]
-    pts += 7.5 if marge is None else 10 if marge > 0.08 else 5 if marge > 0 else 0
+    pts += 5 if marge is None else 10 if marge > 0.08 else 5 if marge > 0 else 0
     if marge is not None:
         notes.append(f"marge nette {marge:.0%}")
     pts += 2.5 if dette is None else 5 if dette < 100 else 2 if dette < 200 else 0
     if dette is not None:
         notes.append(f"dette / capitaux propres {dette:.0f} %")
     return round(pts, 1), notes
+
+
+def sanction_du_marche(vs_marche_3m: float | None) -> tuple[float, str | None]:
+    """Quand le cours chute bien plus que le marché, le marché sait souvent quelque chose
+    que les chiffres publiés (passés) ne montrent pas encore."""
+    if vs_marche_3m is None:
+        return 0.0, None
+    if vs_marche_3m < -0.30:
+        return -25.0, f"⚠️ sanction du marché : {vs_marche_3m:+.0%} vs marché en 3 mois (−25 pts)"
+    if vs_marche_3m < -0.20:
+        return -12.0, f"⚠️ sanction du marché : {vs_marche_3m:+.0%} vs marché en 3 mois (−12 pts)"
+    return 0.0, None
 
 
 def enrichir(candidats: list[dict], lire: Callable[[str], dict] = lire_infos, nb_max: int = 150,
@@ -122,6 +152,10 @@ def enrichir(candidats: list[dict], lire: Callable[[str], dict] = lire_infos, nb
             c["fondamental"], c["fondamental_notes"] = None, ["ETF : pas d'analyse d'entreprise"]
         else:
             c["fondamental"], c["fondamental_notes"] = score_fondamental(lire(c["ticker"]))
+            malus, note = sanction_du_marche(c.get("vs_marche_3m"))
+            if c["fondamental"] is not None and note:
+                c["fondamental"] = max(0.0, c["fondamental"] + malus)
+                c["fondamental_notes"].append(note)
         f = c["fondamental"] if c["fondamental"] is not None else 60.0  # ETF / inconnu : neutre
         c["score_global"] = round((1 - poids_fondamental) * c["score"] + poids_fondamental * f, 1)
     analyses = candidats[:nb_max]

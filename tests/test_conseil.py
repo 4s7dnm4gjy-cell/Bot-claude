@@ -239,7 +239,7 @@ def gh(monkeypatch):
 
 SAINE = {"revenueGrowth": 0.06, "earningsGrowth": 0.14, "recommendationMean": 1.6, "numberOfAnalystOpinions": 19,
          "targetMeanPrice": 120, "currentPrice": 100, "forwardPE": 14, "trailingPE": 17,
-         "profitMargins": 0.11, "debtToEquity": 60}
+         "profitMargins": 0.11, "debtToEquity": 60, "forwardEps": 6.0, "trailingEps": 5.0}
 FRAGILE = {"revenueGrowth": -0.04, "earningsGrowth": -0.30, "recommendationMean": 3.0, "numberOfAnalystOpinions": 9,
            "targetMeanPrice": 98, "currentPrice": 100, "forwardPE": 35, "profitMargins": -0.02, "debtToEquity": 250}
 
@@ -410,7 +410,7 @@ def test_score_fondamental_distingue_baisse_et_qualite():
 
     bon, notes = score_fondamental(SAINE)
     mauvais, _ = score_fondamental(FRAGILE)
-    assert bon >= 85 and mauvais <= 25
+    assert bon >= 95 and mauvais <= 25
     assert any("achat fort" in n for n in notes) and any("P/E attendu 14.0" in n for n in notes)
     assert score_fondamental({}) == (None, ["aucune donnée fondamentale disponible"])
     neutre, _ = score_fondamental({"forwardPE": 20})
@@ -433,3 +433,28 @@ def test_express_ecarte_une_action_en_baisse_aux_fondamentaux_faibles(cfg_radar,
     assert "Score global" in corps and "achat fort" in corps
     # La fragile n'est jamais proposée, même quand il n'y a plus d'autre candidat.
     assert conseil.lancer_express(c, MIDI + timedelta(minutes=31)) is None
+
+
+def test_cas_ig_group_baisse_forte_et_objectifs_perimes_ecartee():
+    """Chiffres passés flatteurs mais cours en chute libre : le bot ne doit plus s'y fier."""
+    from invest_bot.fondamentaux import enrichir
+
+    ig = {"revenueGrowth": 0.165, "earningsGrowth": 0.01, "recommendationMean": 1.6, "numberOfAnalystOpinions": 8,
+          "targetMeanPrice": 16.1, "currentPrice": 10.0, "forwardPE": 7.3, "trailingPE": 9.0,
+          "profitMargins": 0.42, "debtToEquity": 33}
+    c = [{"ticker": "IGG.L", "type": "action", "score": 99, "vs_marche_3m": -0.52}]
+    (r,) = enrichir(c, lambda t: ig)
+    assert r["fondamental"] < 70  # sous le seuil : jamais proposée
+    assert any("peu crédible" in n for n in r["fondamental_notes"])
+    assert any("sanction du marché" in n for n in r["fondamental_notes"])
+
+
+def test_express_ecarte_un_avertissement_sur_resultats(cfg_radar, monkeypatch, gh):
+    from invest_bot import news
+
+    preparer_radar(cfg_radar, monkeypatch)
+    monkeypatch.setattr(news, "lire_flux", lambda nom, jours=30: [
+        news.Article(f"{nom} shares plunge after profit warning", "https://ex.com/w", "2026-10-02", "Reuters"),
+    ])
+    assert conseil.lancer_express(cfg_radar, MIDI) is None
+    assert "SOLDE" in conseil.charger_etat(cfg_radar)["radar_proposes"]  # écartée définitivement
