@@ -15,7 +15,105 @@
     "MCD": "2026-10-05",
     "IGG.L": "2026-10-06"
   },
-  "opportunite": null,
+  "opportunite": {
+    "type": "opportunite",
+    "date": "2026-10-08",
+    "cree_le": "2026-10-08T05:18+00:00",
+    "liberation": 81.03046962118634,
+    "reserve_pct": null,
+    "score": 90.9887786999371,
+    "ordres": [
+      {
+        "ticker": "KKR",
+        "side": "buy",
+        "quantity": 1.0,
+        "price": 80.03046962118634,
+        "reason": "opportunité radar (score 91)"
+      }
+    ],
+    "notes": [],
+    "total": 0,
+    "radar": {
+      "ticker": "KKR",
+      "nom": "KKR & Co.",
+      "isin": "KKR",
+      "type": "action",
+      "prix": 89.66999816894531,
+      "score": 90.9887786999371,
+      "baisse": 0.36834995953175065,
+      "perf_5ans": 0.5360370053251877,
+      "tranche": "80-100 (soldé)",
+      "moy_12m": 0.24195280311660372,
+      "pos_12m": 0.625,
+      "n_12m": 456,
+      "base_moy_12m": 0.23330986422332722,
+      "pire_12m": -0.335032288433738,
+      "vs_marche_3m": -0.1015363154085589,
+      "devise": "USD",
+      "prix_eur": 80.03046962118634,
+      "fondamental": 100.0,
+      "fondamental_notes": [
+        "chiffre d'affaires +7.8% sur un an",
+        "bénéfices +40.0% sur un an",
+        "bénéfices attendus +136% sur 12 mois",
+        "analystes : « achat fort » (1.6/5, 21 avis)",
+        "objectif moyen des analystes : +39%",
+        "P/E attendu 12.1 (actuel 28.6)",
+        "marge nette 12%",
+        "dette / capitaux propres 70 %"
+      ],
+      "score_global": 96.4
+    },
+    "actualites": {
+      "verdict": "vert",
+      "resume": "rien d'alarmant dans l'actualité (3 mois : -10% vs marché)",
+      "vs_marche_3m": -0.1015363154085589,
+      "alertes": [],
+      "recents": [
+        {
+          "titre": "KKR & Co. Inc. : Barclays à l'achat - Zonebourse",
+          "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOX0lQVmd3OFhyLUJRdmF6Nmh0em5kSm1JR2xpb2dIa3QtZjRkVXhjdUJpREttTm5BWjJGcW5QY2VZYWlwUzRuVElEN3pPVDN4LVBZc0ZKTzJsV3dSTHZfV2NCREdQLUJkTk5qTFljOGZQQXlaZUR5dkVMaHZBTzdCMGNFY0JkWFpJbXJ3UzJlZW83aUZX?oc=5",
+          "date": "2026-10-07",
+          "source": "Zonebourse",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "KKR & Co. Inc. stock outperforms competitors despite losses on the day - MarketWatch",
+          "lien": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTHc0VmRrblotU1VkTkZZRGZ2LXFmNktwWXdsd3pyZ2t2NkxhOEdMNTgyeDRNVGRLcGZCZjk2aGZOd3E2RFdUSEVzNDRqYWRSMXd3RGs1TTdzSHo1d3luNlZoSWxiVUZSZVB5bW40SktscVBLS0dvMl9Bb3lWM2szMHhFbzdPcWhRVTlucTRGRE9SLURmclUyZXlDNVYtRnU5ZzhqbmpiLVdvTmVmSFJVUFpsWHc5ZTB5ZmpiTjctNUtjVXBveGFwdnlFUHpRLXdud05Mc3AxMnlTREpy?oc=5",
+          "date": "2026-10-07",
+          "source": "MarketWatch",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "KKR & Co. Inc. (KKR) Stock forecasts - Yahoo Finance UK",
+          "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOG1odVplRUp0N0ZXUVg3OEtXcTY1c3FoRndOTkhwS3Q1Rk81TXhkcXBMT09pLUQxMGhvODQ4Z3c3LXNEaGNvbVdwakxrWlk1V3RRWllwaEVwT3pIUjlMSUVCREVSaVl3RVZiYWtwRkpCeVNMSm1ad0UxM2diSlF0blR0S1lDZC1xNl93QWRRaEU?oc=5",
+          "date": "2026-10-07",
+          "source": "Yahoo Finance UK",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Barclays Adjusts KKR & Co Price Target to $130 From $135 - marketscreener.com",
+          "lien": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUUM1UkpjR2tJRFlwOWxQNWU5R1dfQTMtaWtCaUY1X19meV9yeWJGMmFKaG0ydGY1TXFuYk9TRXc2SmtMTDdMRVpndE9pRm45VVBFRnhmM2RlRG9NVnNEUHlVdGxoOWlHZ0pQTGFNUWtIYk1ZYVExZnNGVFlmMVcxYVVwVUNETThvNGh1QkF1N29oY01oWlFoVHNNZWs2WERFVmJmOGFXbEQ?oc=5",
+          "date": "2026-10-07",
+          "source": "marketscreener.com",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "KKR mise 5,1 milliards sur le péage des marchés privés... - Fortuneo",
+          "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOekY5V2xvS1dvTjNCLWhpbmctMl81eURrSWlsSFU0ZjJzY0JTYkloNDVkOXJtZ2tNYmdldm1kTThjOTFwTVNIeDg5RVdHNUk2TzhnTW1la3hlT3dXQzFleHkyVmplWExTVXo2SGE2UWhia1AwTGVqbVFrM08xeWQ0b1F3X2E2S25WdzhncVUxcU03VWtCcmpQN1NGVVpaZV9VUkQ5bWhHVdIBpwFBVV95cUxOekY5V2xvS1dvTjNCLWhpbmctMl81eURrSWlsSFU0ZjJzY0JTYkloNDVkOXJtZ2tNYmdldm1kTThjOTFwTVNIeDg5RVdHNUk2TzhnTW1la3hlT3dXQzFleHkyVmplWExTVXo2SGE2UWhia1AwTGVqbVFrM08xeWQ0b1F3X2E2S25WdzhncVUxcU03VWtCcmpQN1NGVVpaZV9VUkQ5bWhHVQ?oc=5",
+          "date": "2026-10-06",
+          "source": "Fortuneo",
+          "gravite": 0,
+          "mots": []
+        }
+      ]
+    },
+    "ticket": 35
+  },
   "radar_proposes": [
     "MCD",
     "IGG.L",
@@ -52,7 +150,8 @@
     "GOLF",
     "EMA.TO",
     "STN.TO",
-    "RBA"
+    "RBA",
+    "KKR"
   ],
   "achats": [],
   "historique": [
