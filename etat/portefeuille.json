@@ -18,103 +18,102 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-08",
-    "cree_le": "2026-10-08T16:51+00:00",
-    "liberation": 134.7719186431304,
+    "cree_le": "2026-10-08T17:48+00:00",
+    "liberation": 202.8000030517578,
     "reserve_pct": null,
-    "score": 92.93154029711683,
+    "score": 88.2384847223313,
     "ordres": [
       {
-        "ticker": "EPRT",
+        "ticker": "UCB.BR",
         "side": "buy",
-        "quantity": 6.0,
-        "price": 22.295319773855063,
-        "reason": "opportunité radar (score 93)"
+        "quantity": 1.0,
+        "price": 201.8000030517578,
+        "reason": "opportunité radar (score 88)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "EPRT",
-      "nom": "Essential Properties Realty Trust, Inc.",
-      "isin": "EPRT",
+      "ticker": "UCB.BR",
+      "nom": "UCB",
+      "isin": "BE0003739530",
       "type": "action",
-      "prix": 24.950000762939453,
-      "score": 92.93154029711683,
-      "baisse": 0.2545510558704922,
-      "perf_5ans": 0.10900831778323572,
+      "prix": 201.8000030517578,
+      "score": 88.2384847223313,
+      "baisse": 0.2884596864311897,
+      "perf_5ans": 1.02892435290202,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.13451431511940173,
-      "pos_12m": 0.8938053097345132,
-      "n_12m": 113,
-      "base_moy_12m": 0.0860954382953608,
-      "pire_12m": -0.14170900061816527,
-      "vs_marche_3m": -0.21769654833797702,
-      "devise": "USD",
-      "prix_eur": 22.295319773855063,
-      "fondamental": 88.0,
+      "moy_12m": 0.16556416099569232,
+      "pos_12m": 0.7002652519893899,
+      "n_12m": 754,
+      "base_moy_12m": 0.16277076208181554,
+      "pire_12m": -0.5373989473991077,
+      "vs_marche_3m": -0.18171317735485393,
+      "devise": "EUR",
+      "prix_eur": 201.8000030517578,
+      "fondamental": 100.0,
       "fondamental_notes": [
-        "chiffre d'affaires +18.1% sur un an",
-        "bénéfices +7.5% sur un an",
-        "bénéfices attendus +7% sur 12 mois",
-        "analystes : « achat fort » (1.2/5, 20 avis)",
-        "objectif moyen des analystes : +45%",
-        "P/E attendu 18.0 (actuel 19.3)",
-        "marge nette 44%",
-        "dette / capitaux propres 66 %",
-        "🏷️ braderie probable : -22% vs marché en 3 mois, alors que les bénéfices attendus montent (+7%) et que les analystes restent à l'achat (+8 pts)"
+        "chiffre d'affaires +22.5% sur un an",
+        "bénéfices +134.8% sur un an",
+        "bénéfices attendus +22% sur 12 mois",
+        "analystes : « achat fort » (1.6/5, 19 avis)",
+        "objectif moyen des analystes : +41%",
+        "P/E attendu 14.6 (actuel 17.8)",
+        "marge nette 26%",
+        "dette / capitaux propres 31 %"
       ],
-      "score_global": 90.0,
-      "braderie": true
+      "score_global": 95.3,
+      "braderie": false
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -22% vs marché)",
-      "vs_marche_3m": -0.21769654833797702,
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -18% vs marché)",
+      "vs_marche_3m": -0.18171317735485393,
       "alertes": [],
       "recents": [
         {
-          "titre": "L’action Essential Properties Realty Trust atteint un plus bas sur 52 semaines à 25,37$ - Investing.com France",
-          "lien": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNX3gwdGNvY0RYaFdsYldRZGg0U2V2UktfSGktQVpqekgwQmhvS0thb213U05TZEt4b2lETk5icWNvWk9pbjM2M3BuT2FhQmU4UXpKQXJwN3ppZUk2VXNrNDlEcC1ITXZQdnM0aXpBWTF4QWpLeUQwUlVnck91R21jZXhmV1dNMENuMDkyem1lcDV1OVptSzNYUVd3WE9XUUhVNHU2bXIwLXNqeTBzbzZOVXJKTWxDRHJDZWRtcWhKOE9RY0RyM2ZwMnA1cHpScm5FWlgwUEQtdw?oc=5",
-          "date": "2026-10-07",
-          "source": "Investing.com France",
+          "titre": "Pression vendeuse : l’action UCB peut-elle repasser au-dessus de la résistance à 201,63 € ? - Traders Union",
+          "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPODAzRmJEMHlZdlBMNExnREFTenFOQ3FKTjBreVY4OVB0T08tdmg1LWQyRThNVTBWbjFHaExjajhqU3FPbldlRjlIb244bGJyVzh4Q0tmOVROWE9mT2ozNXIzVnR0dnZRaE9VUURvRDF5VzZXTE5GeU5MSnBMbUp6R0VIMk9oNEZqS09zb2lVS2c?oc=5",
+          "date": "2026-10-08",
+          "source": "Traders Union",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Essential Properties Realty Trust stock hits 52-week low at $25.37 - Investing.com",
-          "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZkI5M3hSSUxxNllvcVNORlhDZnRfQzgwS2ZvNkxRZld1WUgyMmdRLTk2UWpxSXNPcDBSbEJXYmItTURWZ0w3UVVVd2JzVmJJWVB6QTQwUnpNMzNyUEZsQ1ZQV0lhV2hyWmRnTGRweEwzbEhpel9lMFNLS0V3MFgxSEs3UUY2QURORnpzQTlmbnhXMkp2Y2JodmxSYl9DNFpFYkpBNGdzQ3F1SXpqWEZLdnRsQUNCNGx1M1JIMA?oc=5",
-          "date": "2026-10-07",
-          "source": "Investing.com",
+          "titre": "Busy Q3 Sets Up United Community Banks For Improved Results (NYSE:UCB) - Seeking Alpha",
+          "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOd05PRVByMlppWlNPZkh1ZFN1RGo0bl9QMnktQVRPOHpIRDBwZnBKLS1Wa2FlOGpoUFRiVGU4WUwteS10eUc5a0g0NGxNcnU0XzdOdy1XeTl0Sk1QUlpYYXFkMlBhYmFOZnhEYUU3LUtQT2kyOUVEMWdzUnFGeUpYRTZ6cElvZDhpQjR6ZUJVd1pCSEVSTWppOElRbGhxeFYzZVE?oc=5",
+          "date": "2026-10-08",
+          "source": "Seeking Alpha",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Essential Properties Realty Tru (EPRT) Stock Forecasts - Yahoo! Finance Canada",
-          "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdFg1TGg2NGFrSGo5QXRSN0tFVFVsakRDWUhKZDE5UWRmbk1WMmQ3dnlNdnpUdVVWcW1qMG5ZV01HUkpfcHpNZzBKc2VlX0xpb0lnYW56ZmMxdkdjeHpial9OMFpCQUNPQ2ZpR0hYczFqX3RoVkJXbFczUkhzS18tcUd3cUxmSjVLemNCenhzRVprLVE?oc=5",
-          "date": "2026-10-07",
-          "source": "Yahoo! Finance Canada",
+          "titre": "UCB SA (CEUX:UCBb) Valuation - GuruFocus",
+          "lien": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1rbWxTNXFrc054NGpBczZlTk5UeldGdjJCYzREMllGMDQ5bEE5b3F6aGJNLTM2MlVyeXBBQzNITUdjc29vOVdvakF5dXFod2cwYkdmNTN6YTdLcmdtZkhxTg?oc=5",
+          "date": "2026-10-08",
+          "source": "GuruFocus",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "EPRT Q2 2026 Earnings: Net Lease REIT Posts Modest EPS Shortfall as Shares Slip - Earnings Preview - www.dars.gov.et",
-          "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLWJCTzRkMkxYM3ZWRmVrNUhVckltekNUTVB5eW9ya0o5cm1QY3pRdTgxMWxvcFg2djVOa3d4ZG9hWjVRSzNaQkw4NzAtV01DNVZOQzg4Tlg1QmU3X0tfVGh0enJfcFJPSlRURFhTSUM2d193VnFNVEJpYVRCTkJHbm1UNFV1Z1RIU3dvdXUtN1p3Z1RHUFhpb0Z2OVpGak82UG5SdUJTR3VYN0YtUGZZUC1TaUdlQ29zRnppRw?oc=5",
-          "date": "2026-10-05",
-          "source": "www.dars.gov.et",
+          "titre": "UCB outlined a decade growth plan. UCB stock sits 29.71 percent below its high. - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZlBfNDVhTVNMckhZNndjYkdNRWpoNzJYeTdZWUhRR2pmVDBjSHl1WmxqUlpnWFJfTXlENm9kS2pBcmlwVHFEdzhsUk83R0RuMWdCV2UzM29XWVpVMnJRLXlGcjNUOUxOYU9RWFoyX3h6YlVlbllXbUJfTm1CUXF1YnlfR1pna1AyX1VDbmlTaHgybUNtUHRIQy1oMmdXUFN6dE9DNnBqU2xQeUw4WDJWQzNLay1zYzZ4dXR6eTBqQk92akRtOWxVTTQ5YWl3ekRY?oc=5",
+          "date": "2026-10-08",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Essential Properties Realty Trust (NYSE:EPRT) - Stock Analysis - Simply Wall Street",
-          "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTHVIeUJEc2txLU5lS1pPMk9BS1QyQmI4MnBqcnZxeGZlNHYwTHoyaWdxZWlwUm5uVXhxTWR2SkowVEQzUWlNZi11d3ZDRXJyNUxHSDNwZTRKbDlHRzZSdWFsbURxOUZFYlJvRmQxNy1pd3RGdU1heHRpYzZjQTVrNnE4dFBjVWFTNjBfRkdrdnE?oc=5",
-          "date": "2026-10-04",
-          "source": "Simply Wall Street",
+          "titre": "UCB stock costs EUR 204.90, 29.2 percent below its 52-week high - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTnFlSzhFSThTSXFqN0VlSW9MTnRLeXJaRWU5ZW1razJEZFp2RWZ4aTdDY2FIekRua1ZWZkpxbk5Qc21zTFB6b2gwS2V0dkFwQlNEVlFoME5kc3JKWVBLdWRPaE5sYzBGZkxTd0REY05DX2hSa1JsSzZSUEVGbjRuTDc0T29GZDdHbFdtRHJEZkx0bl8xTGJYNEpWOWVUQWRJNEpFdjRIdWk3S2ZXYk5XcVdYOXhNVGtrT1IzbEZsMTFWYWM?oc=5",
+          "date": "2026-10-08",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 53
+    "ticket": 54
   },
   "radar_proposes": [
     "MCD",
@@ -177,7 +176,8 @@
     "KAI",
     "HEI.DE",
     "BN.PA",
-    "EPRT"
+    "EPRT",
+    "UCB.BR"
   ],
   "achats": [],
   "historique": [
@@ -5206,6 +5206,108 @@
         ]
       },
       "ticket": 52,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-08",
+      "cree_le": "2026-10-08T16:51+00:00",
+      "liberation": 134.7719186431304,
+      "reserve_pct": null,
+      "score": 92.93154029711683,
+      "ordres": [
+        {
+          "ticker": "EPRT",
+          "side": "buy",
+          "quantity": 6.0,
+          "price": 22.295319773855063,
+          "reason": "opportunité radar (score 93)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "EPRT",
+        "nom": "Essential Properties Realty Trust, Inc.",
+        "isin": "EPRT",
+        "type": "action",
+        "prix": 24.950000762939453,
+        "score": 92.93154029711683,
+        "baisse": 0.2545510558704922,
+        "perf_5ans": 0.10900831778323572,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.13451431511940173,
+        "pos_12m": 0.8938053097345132,
+        "n_12m": 113,
+        "base_moy_12m": 0.0860954382953608,
+        "pire_12m": -0.14170900061816527,
+        "vs_marche_3m": -0.21769654833797702,
+        "devise": "USD",
+        "prix_eur": 22.295319773855063,
+        "fondamental": 88.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +18.1% sur un an",
+          "bénéfices +7.5% sur un an",
+          "bénéfices attendus +7% sur 12 mois",
+          "analystes : « achat fort » (1.2/5, 20 avis)",
+          "objectif moyen des analystes : +45%",
+          "P/E attendu 18.0 (actuel 19.3)",
+          "marge nette 44%",
+          "dette / capitaux propres 66 %",
+          "🏷️ braderie probable : -22% vs marché en 3 mois, alors que les bénéfices attendus montent (+7%) et que les analystes restent à l'achat (+8 pts)"
+        ],
+        "score_global": 90.0,
+        "braderie": true
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -22% vs marché)",
+        "vs_marche_3m": -0.21769654833797702,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "L’action Essential Properties Realty Trust atteint un plus bas sur 52 semaines à 25,37$ - Investing.com France",
+            "lien": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNX3gwdGNvY0RYaFdsYldRZGg0U2V2UktfSGktQVpqekgwQmhvS0thb213U05TZEt4b2lETk5icWNvWk9pbjM2M3BuT2FhQmU4UXpKQXJwN3ppZUk2VXNrNDlEcC1ITXZQdnM0aXpBWTF4QWpLeUQwUlVnck91R21jZXhmV1dNMENuMDkyem1lcDV1OVptSzNYUVd3WE9XUUhVNHU2bXIwLXNqeTBzbzZOVXJKTWxDRHJDZWRtcWhKOE9RY0RyM2ZwMnA1cHpScm5FWlgwUEQtdw?oc=5",
+            "date": "2026-10-07",
+            "source": "Investing.com France",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Essential Properties Realty Trust stock hits 52-week low at $25.37 - Investing.com",
+            "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZkI5M3hSSUxxNllvcVNORlhDZnRfQzgwS2ZvNkxRZld1WUgyMmdRLTk2UWpxSXNPcDBSbEJXYmItTURWZ0w3UVVVd2JzVmJJWVB6QTQwUnpNMzNyUEZsQ1ZQV0lhV2hyWmRnTGRweEwzbEhpel9lMFNLS0V3MFgxSEs3UUY2QURORnpzQTlmbnhXMkp2Y2JodmxSYl9DNFpFYkpBNGdzQ3F1SXpqWEZLdnRsQUNCNGx1M1JIMA?oc=5",
+            "date": "2026-10-07",
+            "source": "Investing.com",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Essential Properties Realty Tru (EPRT) Stock Forecasts - Yahoo! Finance Canada",
+            "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdFg1TGg2NGFrSGo5QXRSN0tFVFVsakRDWUhKZDE5UWRmbk1WMmQ3dnlNdnpUdVVWcW1qMG5ZV01HUkpfcHpNZzBKc2VlX0xpb0lnYW56ZmMxdkdjeHpial9OMFpCQUNPQ2ZpR0hYczFqX3RoVkJXbFczUkhzS18tcUd3cUxmSjVLemNCenhzRVprLVE?oc=5",
+            "date": "2026-10-07",
+            "source": "Yahoo! Finance Canada",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "EPRT Q2 2026 Earnings: Net Lease REIT Posts Modest EPS Shortfall as Shares Slip - Earnings Preview - www.dars.gov.et",
+            "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLWJCTzRkMkxYM3ZWRmVrNUhVckltekNUTVB5eW9ya0o5cm1QY3pRdTgxMWxvcFg2djVOa3d4ZG9hWjVRSzNaQkw4NzAtV01DNVZOQzg4Tlg1QmU3X0tfVGh0enJfcFJPSlRURFhTSUM2d193VnFNVEJpYVRCTkJHbm1UNFV1Z1RIU3dvdXUtN1p3Z1RHUFhpb0Z2OVpGak82UG5SdUJTR3VYN0YtUGZZUC1TaUdlQ29zRnppRw?oc=5",
+            "date": "2026-10-05",
+            "source": "www.dars.gov.et",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Essential Properties Realty Trust (NYSE:EPRT) - Stock Analysis - Simply Wall Street",
+            "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTHVIeUJEc2txLU5lS1pPMk9BS1QyQmI4MnBqcnZxeGZlNHYwTHoyaWdxZWlwUm5uVXhxTWR2SkowVEQzUWlNZi11d3ZDRXJyNUxHSDNwZTRKbDlHRzZSdWFsbURxOUZFYlJvRmQxNy1pd3RGdU1heHRpYzZjQTVrNnE4dFBjVWFTNjBfRkdrdnE?oc=5",
+            "date": "2026-10-04",
+            "source": "Simply Wall Street",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 53,
       "decision": "sans réponse"
     }
   ]
