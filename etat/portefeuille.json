@@ -18,102 +18,103 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-08",
-    "cree_le": "2026-10-08T14:51+00:00",
-    "liberation": 231.423673526868,
+    "cree_le": "2026-10-08T15:50+00:00",
+    "liberation": 140.75,
     "reserve_pct": null,
-    "score": 89.289343199421,
+    "score": 91.73460114115045,
     "ordres": [
       {
-        "ticker": "KAI",
+        "ticker": "HEI.DE",
         "side": "buy",
         "quantity": 1.0,
-        "price": 230.423673526868,
-        "reason": "opportunité radar (score 89)"
+        "price": 139.75,
+        "reason": "opportunité radar (score 92)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "KAI",
-      "nom": "Kadant Inc.",
-      "isin": "KAI",
+      "ticker": "HEI.DE",
+      "nom": "Heidelberg Materials",
+      "isin": "DE0006047004",
       "type": "action",
-      "prix": 257.8599853515625,
-      "score": 89.289343199421,
-      "baisse": 0.2558549896047607,
-      "perf_5ans": 0.294357293707477,
+      "prix": 139.75,
+      "score": 91.73460114115045,
+      "baisse": 0.4035806561940205,
+      "perf_5ans": 1.5001063929540153,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.2564256886255994,
-      "pos_12m": 0.7469586374695864,
-      "n_12m": 411,
-      "base_moy_12m": 0.1905283850352566,
-      "pire_12m": -0.7130434569830635,
-      "vs_marche_3m": -0.13582256259502823,
-      "devise": "USD",
-      "prix_eur": 230.423673526868,
-      "fondamental": 91.0,
+      "moy_12m": 0.26950262437400724,
+      "pos_12m": 0.6807580174927114,
+      "n_12m": 686,
+      "base_moy_12m": 0.17759570049438742,
+      "pire_12m": -0.7172560436066713,
+      "vs_marche_3m": -0.21778398545928435,
+      "devise": "EUR",
+      "prix_eur": 139.75,
+      "fondamental": 89.0,
       "fondamental_notes": [
-        "chiffre d'affaires +22.6% sur un an",
-        "bénéfices +23.9% sur un an",
-        "bénéfices attendus +45% sur 12 mois",
-        "analystes : « achat » (2.2/5, 3 avis)",
-        "objectif moyen des analystes : +40%",
-        "P/E attendu 19.1 (actuel 27.7)",
-        "marge nette 10%",
-        "dette / capitaux propres 49 %"
+        "chiffre d'affaires +1.7% sur un an",
+        "bénéfices +8.8% sur un an",
+        "bénéfices attendus +26% sur 12 mois",
+        "analystes : « achat » (2.0/5, 19 avis)",
+        "objectif moyen des analystes : +46%",
+        "P/E attendu 9.8 (actuel 12.4)",
+        "marge nette 9%",
+        "dette / capitaux propres 50 %",
+        "🏷️ braderie probable : -22% vs marché en 3 mois, alors que les bénéfices attendus montent (+26%) et que les analystes restent à l'achat (+8 pts)"
       ],
-      "score_global": 90.3,
-      "braderie": false
+      "score_global": 90.1,
+      "braderie": true
     },
     "actualites": {
-      "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -14% vs marché)",
-      "vs_marche_3m": -0.13582256259502823,
+      "verdict": "orange",
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -22% vs marché)",
+      "vs_marche_3m": -0.21778398545928435,
       "alertes": [],
       "recents": [
         {
-          "titre": "Kadant stock fell 2.16 percent. Directors received 128 shares - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVmhSNGlKeTdVZjN0ckVPU200UDRMd3NFTDN4WEJtMjVTMEFPS3FETWpVOFdGUnhUWVViS05OODNhaG9KVm1ZaWZHN184bGZ0V196bGQydi1ZOUR5UEhidkpRSXcydHVuai1xUzVtbnZxeWJpN2NxYWZ0ZlJhZFVOSEVHd1ZOR1lIMC1RMDgxeWlyYjRZLXRzenR1M1ZYNFJNTWVCeUVfNUw3cWwzNENkR3Y1ZlRzaFlkX0t3?oc=5",
+          "titre": "NCC to sell Industry unit to Heidelberg Materials and CRH for $820m - World Construction Network",
+          "lien": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKaUhGTVRMRXh0QWtKb0k0czBMSWVETWxZQlVSY091NGpJaVg3Zm43U1N2VFl4RnBxZDI2cmdKOVJQZEJtWkMxQ1VTMUg0Wm1WZkZNS3hsSFFaRzVjdlNSbk5SUzlOVHg3eTlIMVdsY2FrRHQ0Wmd2dXV3TjQ?oc=5",
+          "date": "2026-10-08",
+          "source": "World Construction Network",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Heidelberg Materials Sinks on Nordic Deal as Deutsche Bank Trims Price Target - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOVZFekp0NkFZaXlPamo5Y1U2Z3RVdTYzaDVLcmJOaHJWcXlWbVdrNnFHZmlQc3AzUG5HQ3RUamRRZl9rdnktRnBLTnNiOGFnZUxsREJZQkE0RFk1ZTYyVEl3dnJxZzRHSjBKN0Vja2p5YlBYSmtPU1lTcDFjWG8xd0x5SldtdWZkNUo0S2oyMHowSXFJZlNuWm5iTDBRX2FQWW50R2c1Ti1SQ2xuNVJrdi1yTnZKMjFHdTk2a01NMnhPLWVLNENVX2xnX1pWZ1h4aXFVY2h4d1I4dw?oc=5",
           "date": "2026-10-08",
           "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Kadant Inc (KAI) Stock Forecasts - Yahoo! Finance Canada",
-          "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZjZoenQtaFFYQjNaRVc0cWQzVDRRcTlXaWt2cFJZZ1FlSkRSaGMwRWxEVTA5UWdTT1oydS14THdwS2JSc0QxcDd3ZGRyU1JyZnIxT3E3aHNEVENhZ1BKeDFHZExqQnkwb3hGcjdBOGVRY2FGODc0UG41SEhaaGtHQnBHUE5fakNvNF9uYW5tcG50U2M?oc=5",
-          "date": "2026-10-03",
-          "source": "Yahoo! Finance Canada",
+          "titre": "Heidelberg Materials Bets on Nordic Aggregates as Buyback Chapter Closes - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeTY1MkEtUUJTVFlNYkJkcXBaNllZa0FNOURvSFQzcDJSSHR2eXV4cHJEQzAtMmdxaTlhZTJEdlhsUWo1aG4zU3VGU0t1UTVEb2dveWRqWnJTLVpCQlN4d1RxZlRzaTlzOWtTbmNLMUdLNGlhYklkVWhMUGs3WUhoVW5DY2U2OHliZ3NEWkRIVVYzc21fVkc0SV9ybm54YVVfaDJxdFg4ZDJHTkgwOXVWRlJMdGhDbEhfaTJpWXllZFBvM01ZYlBRUXhxM3d6dWQ4YkJScHpMT3ZYMkN0?oc=5",
+          "date": "2026-10-08",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Should You Investigate Kadant Inc. (NYSE:KAI) At US$267? - Moomoo",
-          "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaEU2alIwVG5oZFJtTU01QVR3dEpUaWhmZVBfWkNPT05Hanp0WlhoZ1gtUEJ1QmlyQkRndk41U2VvYzJuVXB3eFpYamZ1MUM2VFkzc21TUXdjQTdoXzFKejluYXhLWlpPeHNMMVJuc2RHTThxb3NuSDhjNmxpd3JmUmRUd2hVUW5kOFh4SDgxbHoxY21rSjhFeXBSSkU?oc=5",
-          "date": "2026-09-30",
-          "source": "Moomoo",
+          "titre": "Heidelberg Materials stock pre-market at EUR 141.68: minus 0.56 percent - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVnRBN3ZRaEZZcDNIOXR3UF9NeGh1cFlmV2oxTVc1d3hVVW5wOGRnemdTUkhXbXFjRnZuRGpqVUNUem9GeVQ2MlhrZy1aT0pjaEkwTlpGeHUxZ0dpNU5qSk5Cakg1UnZuUGEzSVd1dWNwN0VLbWJhUDd6UWhlck9GQ3hoa295RC1XWVJFdEZBc1Fkc2ExRVJ3SDhxcl9IdVBrb1ZtTXdxb19IbmhUcEl3X0JRR20xZF9EZnJRMDdHVVFSdmczdjd3?oc=5",
+          "date": "2026-10-08",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Kadant: Razor-And-Blades Model Behind EBITDA At Its New High (NYSE:KAI) - Seeking Alpha",
-          "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQXzZjTWMyYkZELTk3VHVUeFlGdl9Bc01ZTVlDSVR0WmxJeTZRYkhjNWl6dUp0TXNxLV8tVVR0MDk1T2xQN3R0RXRLMmlSSW1MVk4xbXg0cHg2Zm1mRXNTa0lxLVpwdGpzTG9RVjhVdUdxOTdUWHlydnVpZ28xMGRKZFRURDVQbXlNYXAwUXZ2Uk9jb2lMUVFkQVF3cnp5R0lnWGc?oc=5",
-          "date": "2026-09-27",
-          "source": "Seeking Alpha",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Why Is Kadant (KAI) Handing the Keys to a 13-Year Insider? - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQT2hJcDVMQUtsdUlFLTlHVVNHX25iWFVjU282NU5lN0haLVhta3k1R0ZfdW8yamtNS3Q1elVEek14QW5jSkJNd0FXQjRNYnVrcWRKRFBrUjdkVzJCM19Bd2hnd1JaM3Qwa0J3TmstanM0aDZYdjB5cnNBTmRHaTMxVFBBT1Q3N3pjYndOckI1bWRiYUIzNXNN?oc=5",
-          "date": "2026-09-25",
-          "source": "Yahoo Finance",
+          "titre": "Heidelberg Materials tightens Akcansa stake. Heidelberg Materials stock loses 1.97 percent - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOWDlwc1AxQXBfUF9sYmRGcHdrTHBHWVpLdkpvMWMwWFAxMWpPVUFHNlVFWmFlZ3RPWXFNNXVMRFJCUGZqRHdRbTZteDJVZkNDZVQ5aG1ZTl9sUjVzRWJqcUxlZl9Pb0Jxb2ZGT05zSEtoa1NKM09nNlhFZGtYdV9Kc2NpUHoyQUV6MDhMTmk4WnR3WkoweXdHWmZzc01VYUhYLTdna2pVVXJJLUlVT3BWemR3ZzFla0haYk5hY3M5QzUySEgtcXRFRVJEUE1RWFJqMUw0TWg2ZTNFNURrX21XQTFvNndEMjg?oc=5",
+          "date": "2026-10-08",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 50
+    "ticket": 51
   },
   "radar_proposes": [
     "MCD",
@@ -173,7 +174,8 @@
     "STE",
     "PLUS.L",
     "CMI",
-    "KAI"
+    "KAI",
+    "HEI.DE"
   ],
   "achats": [],
   "historique": [
@@ -4846,6 +4848,107 @@
         ]
       },
       "ticket": 49,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-08",
+      "cree_le": "2026-10-08T14:51+00:00",
+      "liberation": 231.423673526868,
+      "reserve_pct": null,
+      "score": 89.289343199421,
+      "ordres": [
+        {
+          "ticker": "KAI",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 230.423673526868,
+          "reason": "opportunité radar (score 89)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "KAI",
+        "nom": "Kadant Inc.",
+        "isin": "KAI",
+        "type": "action",
+        "prix": 257.8599853515625,
+        "score": 89.289343199421,
+        "baisse": 0.2558549896047607,
+        "perf_5ans": 0.294357293707477,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.2564256886255994,
+        "pos_12m": 0.7469586374695864,
+        "n_12m": 411,
+        "base_moy_12m": 0.1905283850352566,
+        "pire_12m": -0.7130434569830635,
+        "vs_marche_3m": -0.13582256259502823,
+        "devise": "USD",
+        "prix_eur": 230.423673526868,
+        "fondamental": 91.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +22.6% sur un an",
+          "bénéfices +23.9% sur un an",
+          "bénéfices attendus +45% sur 12 mois",
+          "analystes : « achat » (2.2/5, 3 avis)",
+          "objectif moyen des analystes : +40%",
+          "P/E attendu 19.1 (actuel 27.7)",
+          "marge nette 10%",
+          "dette / capitaux propres 49 %"
+        ],
+        "score_global": 90.3,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -14% vs marché)",
+        "vs_marche_3m": -0.13582256259502823,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Kadant stock fell 2.16 percent. Directors received 128 shares - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVmhSNGlKeTdVZjN0ckVPU200UDRMd3NFTDN4WEJtMjVTMEFPS3FETWpVOFdGUnhUWVViS05OODNhaG9KVm1ZaWZHN184bGZ0V196bGQydi1ZOUR5UEhidkpRSXcydHVuai1xUzVtbnZxeWJpN2NxYWZ0ZlJhZFVOSEVHd1ZOR1lIMC1RMDgxeWlyYjRZLXRzenR1M1ZYNFJNTWVCeUVfNUw3cWwzNENkR3Y1ZlRzaFlkX0t3?oc=5",
+            "date": "2026-10-08",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Kadant Inc (KAI) Stock Forecasts - Yahoo! Finance Canada",
+            "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZjZoenQtaFFYQjNaRVc0cWQzVDRRcTlXaWt2cFJZZ1FlSkRSaGMwRWxEVTA5UWdTT1oydS14THdwS2JSc0QxcDd3ZGRyU1JyZnIxT3E3aHNEVENhZ1BKeDFHZExqQnkwb3hGcjdBOGVRY2FGODc0UG41SEhaaGtHQnBHUE5fakNvNF9uYW5tcG50U2M?oc=5",
+            "date": "2026-10-03",
+            "source": "Yahoo! Finance Canada",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Should You Investigate Kadant Inc. (NYSE:KAI) At US$267? - Moomoo",
+            "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaEU2alIwVG5oZFJtTU01QVR3dEpUaWhmZVBfWkNPT05Hanp0WlhoZ1gtUEJ1QmlyQkRndk41U2VvYzJuVXB3eFpYamZ1MUM2VFkzc21TUXdjQTdoXzFKejluYXhLWlpPeHNMMVJuc2RHTThxb3NuSDhjNmxpd3JmUmRUd2hVUW5kOFh4SDgxbHoxY21rSjhFeXBSSkU?oc=5",
+            "date": "2026-09-30",
+            "source": "Moomoo",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Kadant: Razor-And-Blades Model Behind EBITDA At Its New High (NYSE:KAI) - Seeking Alpha",
+            "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQXzZjTWMyYkZELTk3VHVUeFlGdl9Bc01ZTVlDSVR0WmxJeTZRYkhjNWl6dUp0TXNxLV8tVVR0MDk1T2xQN3R0RXRLMmlSSW1MVk4xbXg0cHg2Zm1mRXNTa0lxLVpwdGpzTG9RVjhVdUdxOTdUWHlydnVpZ28xMGRKZFRURDVQbXlNYXAwUXZ2Uk9jb2lMUVFkQVF3cnp5R0lnWGc?oc=5",
+            "date": "2026-09-27",
+            "source": "Seeking Alpha",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Why Is Kadant (KAI) Handing the Keys to a 13-Year Insider? - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQT2hJcDVMQUtsdUlFLTlHVVNHX25iWFVjU282NU5lN0haLVhta3k1R0ZfdW8yamtNS3Q1elVEek14QW5jSkJNd0FXQjRNYnVrcWRKRFBrUjdkVzJCM19Bd2hnd1JaM3Qwa0J3TmstanM0aDZYdjB5cnNBTmRHaTMxVFBBT1Q3N3pjYndOckI1bWRiYUIzNXNN?oc=5",
+            "date": "2026-09-25",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 50,
       "decision": "sans réponse"
     }
   ]
