@@ -18,103 +18,154 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-08",
-    "cree_le": "2026-10-08T20:19+00:00",
-    "liberation": 127.03511149455178,
+    "cree_le": "2026-10-08T20:50+00:00",
+    "liberation": 140.682972495698,
     "reserve_pct": null,
-    "score": 90.97655749944221,
+    "score": 87.07599345445229,
     "ordres": [
       {
-        "ticker": "BWXT",
+        "ticker": "BKNG",
         "side": "buy",
         "quantity": 1.0,
-        "price": 126.03511149455178,
-        "reason": "opportunité radar (score 91)"
+        "price": 139.682972495698,
+        "reason": "opportunité radar (score 87)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "BWXT",
-      "nom": "BWX Technologies",
-      "isin": "BWXT",
+      "ticker": "BKNG",
+      "nom": "Booking Holdings",
+      "isin": "BKNG",
       "type": "action",
-      "prix": 141.1999969482422,
-      "score": 90.97655749944221,
-      "baisse": 0.4060399983568298,
-      "perf_5ans": 1.710783290585916,
+      "prix": 156.49000549316406,
+      "score": 87.07599345445229,
+      "baisse": 0.28251144699423747,
+      "perf_5ans": 0.6307880113560291,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.2913430685945552,
-      "pos_12m": 0.8269720101781171,
-      "n_12m": 393,
-      "base_moy_12m": 0.23457862250862727,
-      "pire_12m": -0.18770612809226583,
-      "vs_marche_3m": -0.26229147616950654,
+      "moy_12m": 0.7264192025644954,
+      "pos_12m": 0.9567901234567902,
+      "n_12m": 162,
+      "base_moy_12m": 0.3737756338792656,
+      "pire_12m": -0.07917190198096657,
+      "vs_marche_3m": -0.1408288226191845,
       "devise": "USD",
-      "prix_eur": 126.03511149455178,
-      "fondamental": 88.0,
+      "prix_eur": 139.682972495698,
+      "fondamental": 90.5,
       "fondamental_notes": [
-        "chiffre d'affaires +18.0% sur un an",
-        "bénéfices +14.1% sur un an",
-        "bénéfices attendus +35% sur 12 mois",
-        "analystes : « achat fort » (1.6/5, 16 avis)",
-        "objectif des analystes +52% : peu crédible, probablement pas encore révisé",
-        "P/E attendu 27.1 (actuel 36.7)",
-        "marge nette 10%",
-        "dette / capitaux propres 151 %",
-        "🏷️ braderie probable : -26% vs marché en 3 mois, alors que les bénéfices attendus montent (+35%) et que les analystes restent à l'achat (+8 pts)"
+        "chiffre d'affaires +8.1% sur un an",
+        "bénéfices +130.0% sur un an",
+        "bénéfices attendus +37% sur 12 mois",
+        "analystes : « achat fort » (1.5/5, 35 avis)",
+        "objectif des analystes +51% : peu crédible, probablement pas encore révisé",
+        "P/E attendu 12.6 (actuel 17.3)",
+        "marge nette 26%"
       ],
-      "score_global": 89.2,
-      "braderie": true
+      "score_global": 89.1,
+      "braderie": false
     },
     "actualites": {
-      "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -26% vs marché)",
-      "vs_marche_3m": -0.26229147616950654,
-      "alertes": [],
+      "verdict": "vert",
+      "resume": "rien d'alarmant dans l'actualité (17 article(s) mineur(s), courant pour une grande entreprise) (3 mois : -14% vs marché)",
+      "vs_marche_3m": -0.1408288226191845,
+      "alertes": [
+        {
+          "titre": "Booking Holdings pourrait faire l’objet d’une action de la FTC concernant les publicités hôtelières de Priceline.com - Zonebourse Suisse",
+          "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOcUQ2Zy03MkJSRDNISEhnUWRDTWRaeEZEcy1QaWJkR1UyV2hROWV6MUFSSHpQS3YzMVJEelVDUEpsTEZpSW80azZCN0p5T0didC1vQ2JTajFFR2hCeWVBU2dvZHNQRTBqVFZIRGdLTkhpNjFPRjdVa0VsdVhLaWFKUGRWWmdIVHlJcGg0bE9nNVVWOUVqLU9QSGotNmR6ZnRHM2R3NnZzRGV5MU4wWEpSbVFWdVNjQUg5aWlPVGducHpzVDRDMWZsRndRMmV1SHE5dnNTS1FuMlFpdE9rTURCRHRYN1lpTkxqbi0yQWZVMA?oc=5",
+          "date": "2026-10-07",
+          "source": "Zonebourse Suisse",
+          "gravite": 1,
+          "mots": [
+            "ftc"
+          ]
+        },
+        {
+          "titre": "EN EXCLUSIVITÉ-Priceline pourrait faire l'objet d'une action de la FTC pour des publicités trompeuses concerna - Boursorama",
+          "lien": "https://news.google.com/rss/articles/CBMizgJBVV95cUxPLWtiZUwzRno2VXJOQmRmbGpPV0VZcFJ6QjVWdF9wbnBsTVpkOEJIaWdITjFZeXhieUpBS0V4blB5bzIzVkZPYWtsb2tFMk1HWlZRYWhvV1JJVEdyUzZTTGs0eWZING9RVDBYcTNqbnZtVU5qVTctTXc2aVU1U1R4bjB0TkNYbWxadE1PX016TWJQVWpaQWcwbTJzOEFqcVFjUEg4d3NsVURxVDRUNGdHallGMjZYdFZlZjdCdGwyYWdOa1lSUUFSLW1UN3oxZkF4RTFESU5vNFNyMnVPcVJoM3lOdER6bUVlNTZOLThZYm5VRGZLNkxGcGlndHBUb1Bkb3NpTENXMXNncEpQOW9nbV80ZnZ0eldTa0hwT0ZTUGE1RXRGV2tZOExQRWxHQnFDQ3J0SVFYOWJKWlFsWDdxMkZndFp6QlRKWWlKZ0ZB0gHOAkFVX3lxTE8ta2JlTDNGejZVck5CZGZsak9XRVlwUnpCNVZ0X3BucGxNWmQ4QkhpZ0hOMVl5eGJ5SkFLRXhuUHlvMjNWRk9ha2xva0UyTUdaVlFhaG9XUklUR3JTNlNMazR5Zkg0b1FUMFhxM2pudm1VTmpVNy1NdzZpVTVTVHhuMHROQ1htbFp0TU9fTXpNYlBValpBZzBtMnM4QWpxUWNQSDh3c2xVRHFUNFQ0Z0dqWUYyNlh0VmVmN0J0bDJhZ05rWVJRQVItbVQ3ejFmQXhFMURJTm80U3IydU9xUmgzeU50RHptRWU1Nk4tOFliblVEZks2TEZwaWd0cFRvUGRvc2lMQ1cxc2dwSlA5b2dtXzRmdnR6V1NrSHBPRlNQYTVFdEZXa1k4TFBFbEdCcUNDcnRJUVg5YkpaUWxYN3EyRmd0WnpCVEpZaUpnRkE?oc=5",
+          "date": "2026-10-07",
+          "source": "Boursorama",
+          "gravite": 1,
+          "mots": [
+            "ftc"
+          ]
+        },
+        {
+          "titre": "Booking Holdings visée par une enquête de la Federal Trade Commission (FTC) sur ses publicités hôtelières, selon Reuters - Zonebourse Suisse",
+          "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPaVpTNm11bHRoTHk0dFQ4SWpfYlVUdzQycV80VjFRaXhWcHZmZHJWZ1g0UGZWeEdnUTZSZnJsQXFNeENNemxvRmdUVXNSdlNmclJCanJySXJiaGdNTm1oanNxNGdOdnhRUzdmbFdwSUNid3JHR2x6TkxTZTkzalZTbm4tRWVrUUdUc000TFAwTjlBeHRJM2FXQkxrNGZVbDR1WE1vT0dqLTVXUVJ4VXk5cEhQaUxDQUtJNGRFYXY3M1l4SEdGbUNwbWZsSV9EZVlPTXRUd2wwc3JyRF9lUkdfRUIzQklyVlNOWGJzSnlMVQ?oc=5",
+          "date": "2026-10-07",
+          "source": "Zonebourse Suisse",
+          "gravite": 1,
+          "mots": [
+            "ftc"
+          ]
+        },
+        {
+          "titre": "Le propriétaire de Priceline ferait l'objet d'une procédure de la FTC concernant les publicités hôtelières d'u - Boursorama",
+          "lien": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxQcjhlaWNYeDY5QUFvMEp5VFVZWE42LUo0REVVd3pwZndIOVpNUVFMS1dsU2tCd0FNYWNXZ3Utb1FLV0c5SmF5c3hmR3dMMlAzNkxCRzFHUUZPYnpWUHQ1dkxVWktKbW5SZUs0eWtVbTVnb1dMd3hEZndEdFhvT1ZrZFVsQTFXUlZJS1NjZFJQMDFxYkpFUGs4dUxtVU9hR19SOXZ6V3piNkttV2dJMnF2bU5mcmZmZmdYTmRRajh4aHEzdmJPRHY2a0FNX19BOGlUZUpiclQwQWZKdDFkemhna0JjaXI2RlR1LUQtbUVXUVZwUTAwZm1YT3Y4TmpSaGY3akJwTmk2WlVQem9iX2xMV1E5R2s2SGVXcV93dS1ScGdGeFRDZzEtWTIwUVg2bWtjT1J1eFFJZHZNVHhCZmtaUW5KQTdXZHpDbFBjbjZYR0JHTXfSAdMCQVVfeXFMUHI4ZWljWHg2OUFBbzBKeVRVWVhONi1KNERFVXd6cGZ3SDlaTVFRTEtXbFNrQndBTWFjV2d1LW9RS1dHOUpheXN4Zkd3TDJQMzZMQkcxR1FGT2J6VlB0NXZMVVpLSm1uUmVLNHlrVW01Z29XTHd4RGZ3RHRYb09Wa2RVbEExV1JWSUtTY2RSUDAxcWJKRVBrOHVMbVVPYUdfUjl2eld6YjZLbVdnSTJxdm1OZnJmZmZnWE5kUWo4eGhxM3ZiT0R2NmtBTV9fQThpVGVKYnJUMEFmSnQxZHpoZ2tCY2lyNkZUdS1ELW1FV1FWcFEwMGZtWE92OE5qUmhmN2pCcE5pNlpVUHpvYl9sTFdROUdrNkhlV3Ffd3UtUnBnRnhUQ2cxLVkyMFFYNm1rY09SdXhRSWR2TVR4QmZrWlFuSkE3V2R6Q2xQY242WEdCR013?oc=5",
+          "date": "2026-10-07",
+          "source": "Boursorama",
+          "gravite": 1,
+          "mots": [
+            "ftc"
+          ]
+        },
+        {
+          "titre": "EXCLUSIVE: Priceline to face FTC action over deceptive hotel ads, sources say - Reuters",
+          "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY3J6T3RoLWRfTnRxbHlyN3FLZzl6SEFzWEpJWHY2UWZnSXBKZ3o4REE5dmdJZmhlQ0xfYlUyZVhCRVA4NXpWOU5LN0FZYUlWN1RJeG9WTkpnd25qdmJPeGFQR0Y4MTdWeXlOUS0tUVlxUE45ZGJsTi0tV25JSWRXcldqVk04M3VnSGNnTFBvZDBOS1BjdHlYM2xPRW45eERvQTh4TEFROW1LWml2UzFVRA?oc=5",
+          "date": "2026-10-07",
+          "source": "Reuters",
+          "gravite": 1,
+          "mots": [
+            "ftc"
+          ]
+        }
+      ],
       "recents": [
         {
-          "titre": "Did Microreactor Selection Just Shift BWX Technologies' (BWXT) Investment Narrative? - Simply Wall Street",
-          "lien": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPS09aSURPRnQ1a2FGQUlUOWEyaHdXS21jUHpBWENRZXQ2LTc5ZFVUR1dTYjhURnhmbnc0aW1SWFdYXzRnQ2djT1lHXy1HS1pYeVVrbmRWM3ozX3J5OWZPaTVDNDFET1hoeTJpWnQxTWI5MnNRQW1SWEdBY25yNEU2SVdxdEROQ1dGYlBWdVBUd2s2MkZLZHN4U0xLQnZFeURwQnhyU0RkNUJwZWxHT1ZHejl2YzNKWC00T0tFdVZrTEhBSXdGWUcya0dIcmloZmVaRmhn0gHYAUFVX3lxTE1Pa2xkYWRMWElRWUNJOFZLVy1Nb0hwM1ZCU3hsc05xVUhhSnVVNDlMeEZKYlN4b2JWcEIweTQtdGlyM3c5QmNoanpQZzRkXzVtQnNGLXZWVU9zcG5vZ1VMbHNsN1BNVTlOY3hCSjhQRDc0MmhBZk1Fd1cyRHRlS2o2VWFBR1NCVGNUQzJHQ1U2ZWdwRWVVem5uNU5FVzJiOGdHMnlJTFIwaE44WnBDakNQa2JUZXdXV3luMVRYSzA2eDlOQmNNeVZTTW5kVVg2ekhianhLakVNdA?oc=5",
+          "titre": "Booking Holdings Inc. : Evercore ISI optimiste sur le dossier - Zonebourse",
+          "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVVlKRnVxaVFXbWh5TW11bU5nZFVjY2l1d0tiNk1OSUdFTk9sZml0TzJPaUs4eDdOZVRVd3ZrU2t5by1KQUpNUnhGczMxUTlPUzl2VVhDUkRKMUdrMTJ3cEJCU2h0UkxNbk50ODkzUlVqWkhDQzViSlQ2SzRNQUlDR0gxUnlzRElEdlRtcC1WQ09PdnNyOGVSR1JrdEJ1RXViSF9Va2tzMzczUk4wWlEwRTlSQ214ZHA4OUZn?oc=5",
           "date": "2026-10-08",
-          "source": "Simply Wall Street",
+          "source": "Zonebourse",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Is The Nuclear Transformation Story Gaining Momentum for BWX Technologies (BWXT)? - Insider Monkey",
-          "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZTNPUDhBRzlITFhlQVBMVERJSWxhUWdkNE1EZTI1dkxFUy0xS19ON1dSN0NtX0w2eGFhUjBreWdRY3lJX2pTb2N0SkkyZWFpUWRIVjVISjFhcndPZFJMc1FOUDI5OExfX3hRWHpsUk9LdFVFQWlLVzlhc29TTlJnbFZoMEVYZEVMNmZqcEUtUHJ6WHVnM2JWV2VGb2dINnhWM0ttZHktNlNLUXRvN2FiX0dWcEVDMVBOQWdYVW81UdIBxwFBVV95cUxNYURDMnd4S0JRc2c1aDhhYU5YcFBRUGNxNC1aT0FEbFIwQm4xWVNGdTdQbE5La0x1M3NGcnQzc3pCOU9WcTUyR0puLXN1Z2xwazBneEhzRlVpdUpJdi1taVo4MjFVWTVvTV8tZktielY0UGIydi1XckZfLUpNLXFzVE5DaE9ITV95c2VXdkNtUWFfYXY2Wk9OZlRpdFZjV2YydXI4Si1weWFKUTluSi12Z2ZvM2ZSTUdxWTVOZ2RWc0ttWmtDLURR?oc=5",
+          "titre": "Booking Holdings Stock Is Down 14% in Three Months. Should You Buy Before the FTC Decides? - TIKR.com",
+          "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTlhZTDBFdk1taXprZ1lDbm9HYk9xb3pNZXlnNTBySjRtaWE1VmFTWkRpT3kzYU1jcEhmT1BISzdybnRQdFFfNjVZU0V4N3E5UTFHemtTME90Rm45UmxQaFBzT1lGMkpybndiUnQydlMtUmdodW5OVi1fSC1GSUI5LVNaakZVdGNjWDVrVkNrWUc3NDhaTnYxcC15V3NCQk1JQjU1Tm9XbnZ3djFoeEhtYktLc1lkWG14?oc=5",
           "date": "2026-10-08",
-          "source": "Insider Monkey",
+          "source": "TIKR.com",
+          "gravite": 1,
+          "mots": [
+            "ftc"
+          ]
+        },
+        {
+          "titre": "Booking Holdings Inc. : Goldman Sachs maintient sa recommandation à l'achat - Zonebourse",
+          "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOand5bUIxTmFvMmlzckpNbWhsUVdrNmo3Zjh5WTM5bGx5RTJ4YjVUdDIyMU5IcDRxVy1XcDNISHlLRk1jY0VOTHVFanBRWDlJN0lYbWVYNDQ4Rm1KRWVFTHYxN0NKcmhyS2VDcm41OHZnOVp0ZlNQQXZuSjFPLUNhNDZweGJDdHRseHhJMnAzc3REWC1WQTBHSHZLcEhUOHN2ai1QRGdmRnZmTnVFR1FSMlNwQ3VzcV9LLUs5TDNtVkdrM09Rb1BJc2owNlptQQ?oc=5",
+          "date": "2026-10-08",
+          "source": "Zonebourse",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Le microréacteur BANR de BWXT retenu pour une centrale nucléaire transportable canadienne - energynews.pro",
-          "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVk8xYVpFZWN3NFZpVXVsYmJZaDgwTkFxV3ZhT1ZiQXpPaG1ScE95VzZOc0FQdUZWckVzYjJCVjBqamJwc01DZGdMb3VsQXd6X25PSWYyclB6RHYyY1R0ajhBY1UtR2lSODBfN29ZV0d5STdXbERfamxuUkpGS01YSll0QXZsMnYtOWI0VTVLdlJNQnRfY091cUFaME9XTjFGeUh0Mk5hZURkRng4NVdpUmh3?oc=5",
-          "date": "2026-10-07",
-          "source": "energynews.pro",
+          "titre": "Parité tarifaire Booking.com en Europe : Les prix externes n'affectent plus les remises sponsorisées - RSU by PriceLabs",
+          "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdXk0RzZEdEpCb2tZc0VyNXZJWm13ZGE2RkxuV3Rrd0dweURpUHZSX2VTdDhzLUFvN0ZmXzVGdFhqR2FCbXh3dDVxM2lFVDVvOUhGNUNUcTV5V1ZpZzhSU00wdV9rRUZ1MVVzSDJVWGF3Y1E5WmxzOTBrMmxMbDkxZnhvTGxjMWNwSnFSbzN3RUZuWDU0cnIzaFh6Vmk3LW1fc3RhVUd0SWQ1TElzaUlVYlhqMW5aMzBUMm9VOGJ6S001ei1wc0ZmaHl1TQ?oc=5",
+          "date": "2026-10-08",
+          "source": "RSU by PriceLabs",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "BWXT’s BANR selected for Canadian project - American Nuclear Society -- ANS",
-          "lien": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNODdvV2Z5OU1sMnZabDhEVGVEc3hLOVZOamw0dkZYSkZhOFJIMkhXSzJtbHFDaHRqSnZSM2hyUWVwYzhPTjRIN3Z5c0FoQllQd25LNHNGb3duOWxlTjVNSWpscG13R0FiUzNtRjZhTGNhQnRkb1U0emZETHlKcEwyOURDaUNfQQ?oc=5",
-          "date": "2026-10-07",
-          "source": "American Nuclear Society -- ANS",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Northland Securities Maintains BWX Technologies(BWXT.US) With Buy Rating, Maintains Target Price $220 - Moomoo",
-          "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPc3lHSExMT01jZGtkRU5iZDBjZEU1Z0UtSEVXbjVxUmstR0k5dE1PUTlldkQ5MGhJZDVNeXNQUDZvWEpQTGJBelFGbXN6eGRBeXRneUZUQ2p5UkM4cVFMZVpPTUdSNHRwMzNaVmpnZ0N2dnBQbFR6OFpja0VRbTZNWVQta3U5WTdnVFZYUmxXaWE3bnh6NmNVRzNXMUdncnNib1dzbTV4Z0k5LXZQMzFMT0J2aVlHTUE1blo0X18xakdnZw?oc=5",
-          "date": "2026-10-07",
-          "source": "Moomoo",
+          "titre": "What to Expect From Booking Holdings’ Next Quarterly Earnings Report - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPREo0ZW9mTldOMkluWjhfSDNtdWszeUNFSXQ5M3Y4NjhrQi0zYzY3bl82TDJZU0VBMF90OEh5cVM4OUdHeVZxV3UwM2ZXSTk5c2pmV0ZaNW9KZG5LcVIzbGwxSVdDdWdvU1BoY2RrWVlqQXBaZWFFd3BiUGNPcWI5R2N4d0toUmtVcGE2eUJxUU1MbHBRNVlQdjVlUG53czVZa0FtaGJR?oc=5",
+          "date": "2026-10-08",
+          "source": "Yahoo Finance",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 58
+    "ticket": 59
   },
   "radar_proposes": [
     "MCD",
@@ -183,7 +234,9 @@
     "DY",
     "1378.HK",
     "CRS",
-    "BWXT"
+    "BWXT",
+    "RBC",
+    "BKNG"
   ],
   "achats": [],
   "historique": [
@@ -5720,6 +5773,108 @@
         ]
       },
       "ticket": 57,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-08",
+      "cree_le": "2026-10-08T20:19+00:00",
+      "liberation": 127.03511149455178,
+      "reserve_pct": null,
+      "score": 90.97655749944221,
+      "ordres": [
+        {
+          "ticker": "BWXT",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 126.03511149455178,
+          "reason": "opportunité radar (score 91)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "BWXT",
+        "nom": "BWX Technologies",
+        "isin": "BWXT",
+        "type": "action",
+        "prix": 141.1999969482422,
+        "score": 90.97655749944221,
+        "baisse": 0.4060399983568298,
+        "perf_5ans": 1.710783290585916,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.2913430685945552,
+        "pos_12m": 0.8269720101781171,
+        "n_12m": 393,
+        "base_moy_12m": 0.23457862250862727,
+        "pire_12m": -0.18770612809226583,
+        "vs_marche_3m": -0.26229147616950654,
+        "devise": "USD",
+        "prix_eur": 126.03511149455178,
+        "fondamental": 88.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +18.0% sur un an",
+          "bénéfices +14.1% sur un an",
+          "bénéfices attendus +35% sur 12 mois",
+          "analystes : « achat fort » (1.6/5, 16 avis)",
+          "objectif des analystes +52% : peu crédible, probablement pas encore révisé",
+          "P/E attendu 27.1 (actuel 36.7)",
+          "marge nette 10%",
+          "dette / capitaux propres 151 %",
+          "🏷️ braderie probable : -26% vs marché en 3 mois, alors que les bénéfices attendus montent (+35%) et que les analystes restent à l'achat (+8 pts)"
+        ],
+        "score_global": 89.2,
+        "braderie": true
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -26% vs marché)",
+        "vs_marche_3m": -0.26229147616950654,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Did Microreactor Selection Just Shift BWX Technologies' (BWXT) Investment Narrative? - Simply Wall Street",
+            "lien": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPS09aSURPRnQ1a2FGQUlUOWEyaHdXS21jUHpBWENRZXQ2LTc5ZFVUR1dTYjhURnhmbnc0aW1SWFdYXzRnQ2djT1lHXy1HS1pYeVVrbmRWM3ozX3J5OWZPaTVDNDFET1hoeTJpWnQxTWI5MnNRQW1SWEdBY25yNEU2SVdxdEROQ1dGYlBWdVBUd2s2MkZLZHN4U0xLQnZFeURwQnhyU0RkNUJwZWxHT1ZHejl2YzNKWC00T0tFdVZrTEhBSXdGWUcya0dIcmloZmVaRmhn0gHYAUFVX3lxTE1Pa2xkYWRMWElRWUNJOFZLVy1Nb0hwM1ZCU3hsc05xVUhhSnVVNDlMeEZKYlN4b2JWcEIweTQtdGlyM3c5QmNoanpQZzRkXzVtQnNGLXZWVU9zcG5vZ1VMbHNsN1BNVTlOY3hCSjhQRDc0MmhBZk1Fd1cyRHRlS2o2VWFBR1NCVGNUQzJHQ1U2ZWdwRWVVem5uNU5FVzJiOGdHMnlJTFIwaE44WnBDakNQa2JUZXdXV3luMVRYSzA2eDlOQmNNeVZTTW5kVVg2ekhianhLakVNdA?oc=5",
+            "date": "2026-10-08",
+            "source": "Simply Wall Street",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Is The Nuclear Transformation Story Gaining Momentum for BWX Technologies (BWXT)? - Insider Monkey",
+            "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZTNPUDhBRzlITFhlQVBMVERJSWxhUWdkNE1EZTI1dkxFUy0xS19ON1dSN0NtX0w2eGFhUjBreWdRY3lJX2pTb2N0SkkyZWFpUWRIVjVISjFhcndPZFJMc1FOUDI5OExfX3hRWHpsUk9LdFVFQWlLVzlhc29TTlJnbFZoMEVYZEVMNmZqcEUtUHJ6WHVnM2JWV2VGb2dINnhWM0ttZHktNlNLUXRvN2FiX0dWcEVDMVBOQWdYVW81UdIBxwFBVV95cUxNYURDMnd4S0JRc2c1aDhhYU5YcFBRUGNxNC1aT0FEbFIwQm4xWVNGdTdQbE5La0x1M3NGcnQzc3pCOU9WcTUyR0puLXN1Z2xwazBneEhzRlVpdUpJdi1taVo4MjFVWTVvTV8tZktielY0UGIydi1XckZfLUpNLXFzVE5DaE9ITV95c2VXdkNtUWFfYXY2Wk9OZlRpdFZjV2YydXI4Si1weWFKUTluSi12Z2ZvM2ZSTUdxWTVOZ2RWc0ttWmtDLURR?oc=5",
+            "date": "2026-10-08",
+            "source": "Insider Monkey",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Le microréacteur BANR de BWXT retenu pour une centrale nucléaire transportable canadienne - energynews.pro",
+            "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVk8xYVpFZWN3NFZpVXVsYmJZaDgwTkFxV3ZhT1ZiQXpPaG1ScE95VzZOc0FQdUZWckVzYjJCVjBqamJwc01DZGdMb3VsQXd6X25PSWYyclB6RHYyY1R0ajhBY1UtR2lSODBfN29ZV0d5STdXbERfamxuUkpGS01YSll0QXZsMnYtOWI0VTVLdlJNQnRfY091cUFaME9XTjFGeUh0Mk5hZURkRng4NVdpUmh3?oc=5",
+            "date": "2026-10-07",
+            "source": "energynews.pro",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "BWXT’s BANR selected for Canadian project - American Nuclear Society -- ANS",
+            "lien": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNODdvV2Z5OU1sMnZabDhEVGVEc3hLOVZOamw0dkZYSkZhOFJIMkhXSzJtbHFDaHRqSnZSM2hyUWVwYzhPTjRIN3Z5c0FoQllQd25LNHNGb3duOWxlTjVNSWpscG13R0FiUzNtRjZhTGNhQnRkb1U0emZETHlKcEwyOURDaUNfQQ?oc=5",
+            "date": "2026-10-07",
+            "source": "American Nuclear Society -- ANS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Northland Securities Maintains BWX Technologies(BWXT.US) With Buy Rating, Maintains Target Price $220 - Moomoo",
+            "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPc3lHSExMT01jZGtkRU5iZDBjZEU1Z0UtSEVXbjVxUmstR0k5dE1PUTlldkQ5MGhJZDVNeXNQUDZvWEpQTGJBelFGbXN6eGRBeXRneUZUQ2p5UkM4cVFMZVpPTUdSNHRwMzNaVmpnZ0N2dnBQbFR6OFpja0VRbTZNWVQta3U5WTdnVFZYUmxXaWE3bnh6NmNVRzNXMUdncnNib1dzbTV4Z0k5LXZQMzFMT0J2aVlHTUE1blo0X18xakdnZw?oc=5",
+            "date": "2026-10-07",
+            "source": "Moomoo",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 58,
       "decision": "sans réponse"
     }
   ]
