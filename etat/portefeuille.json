@@ -18,102 +18,102 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-08",
-    "cree_le": "2026-10-08T14:21+00:00",
-    "liberation": 188.3700338250156,
+    "cree_le": "2026-10-08T14:51+00:00",
+    "liberation": 231.423673526868,
     "reserve_pct": null,
-    "score": 87.73867712638574,
+    "score": 89.289343199421,
     "ordres": [
       {
-        "ticker": "STE",
+        "ticker": "KAI",
         "side": "buy",
         "quantity": 1.0,
-        "price": 187.3700338250156,
-        "reason": "opportunité radar (score 88)"
+        "price": 230.423673526868,
+        "reason": "opportunité radar (score 89)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "STE",
-      "nom": "Steris",
-      "isin": "STE",
+      "ticker": "KAI",
+      "nom": "Kadant Inc.",
+      "isin": "KAI",
       "type": "action",
-      "prix": 209.67999267578125,
-      "score": 87.73867712638574,
-      "baisse": 0.2127970431170091,
-      "perf_5ans": 0.07496556831023526,
+      "prix": 257.8599853515625,
+      "score": 89.289343199421,
+      "baisse": 0.2558549896047607,
+      "perf_5ans": 0.294357293707477,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.21434761576973888,
-      "pos_12m": 0.913312693498452,
-      "n_12m": 646,
-      "base_moy_12m": 0.13453802778264595,
-      "pire_12m": -0.17785929147027124,
-      "vs_marche_3m": -0.05107639341123038,
+      "moy_12m": 0.2564256886255994,
+      "pos_12m": 0.7469586374695864,
+      "n_12m": 411,
+      "base_moy_12m": 0.1905283850352566,
+      "pire_12m": -0.7130434569830635,
+      "vs_marche_3m": -0.13582256259502823,
       "devise": "USD",
-      "prix_eur": 187.3700338250156,
-      "fondamental": 95.0,
+      "prix_eur": 230.423673526868,
+      "fondamental": 91.0,
       "fondamental_notes": [
-        "chiffre d'affaires +7.3% sur un an",
-        "bénéfices +14.0% sur un an",
-        "bénéfices attendus +50% sur 12 mois",
-        "analystes : « achat fort » (1.8/5, 8 avis)",
-        "objectif moyen des analystes : +25%",
-        "P/E attendu 17.1 (actuel 25.6)",
-        "marge nette 13%",
-        "dette / capitaux propres 28 %"
+        "chiffre d'affaires +22.6% sur un an",
+        "bénéfices +23.9% sur un an",
+        "bénéfices attendus +45% sur 12 mois",
+        "analystes : « achat » (2.2/5, 3 avis)",
+        "objectif moyen des analystes : +40%",
+        "P/E attendu 19.1 (actuel 27.7)",
+        "marge nette 10%",
+        "dette / capitaux propres 49 %"
       ],
-      "score_global": 92.1,
+      "score_global": 90.3,
       "braderie": false
     },
     "actualites": {
       "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -5% vs marché)",
-      "vs_marche_3m": -0.05107639341123038,
+      "resume": "rien d'alarmant dans l'actualité (3 mois : -14% vs marché)",
+      "vs_marche_3m": -0.13582256259502823,
       "alertes": [],
       "recents": [
         {
-          "titre": "Irradiation Sterilization Services Market to Expand at 13% CAGR Until 2030, Steris Holding 13% Market Share - EIN News",
-          "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcUpSc0p6SGRPUUhiS2RacjJXRUNLOFZZSkJkblBZVFpNNzVSc0FDc0xHeHMzQmJCUHN6NDhpWWFBY0ZrNVB2Q0VhRHNMa3ZkZ1hHaUdKZHlfLTBtMGFWNmk0TkE3VlJ4elhRRlVSSUszSlV0amd1dDYxRWEzVzFKT2JVeVFvRUZjQlhzU2tPeDBybEVZN1p6T0VYYW1mc2FqX0dkdzNfNkhzZG9MSG1KTW9IcmNEa3lzeTIzV25NWVRuZVRSc29WUmMzUG5zeklpcFpHYmt5YWdhcjYyS0M4?oc=5",
-          "date": "2026-10-08",
-          "source": "EIN News",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "STERIS plc (Ireland) (STE) Stock Forecasts - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQ2EwTXlQMEtNS084QXI2VlZZVkx4Vm0waDFxS2FISzNfd0VHbG9rdi1NSDBKVDNuQW5ZWDRkbFp2TldteVJ0R25fVGtDbUJaOWJfeWVRQkNibDY0WFJ0WWlxeHBJai1kUUN4WFJpbGVkSDBFTzE4YVZWcV9ZU080aWo0UmJQT1dhUmZIdmt5MA?oc=5",
-          "date": "2026-10-08",
-          "source": "Yahoo Finance",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "STERIS CFO reported 228 shares withheld from STERIS stock - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTDJZZHJhbFJXN0dqTUlSbHQwWFRjVGRMakN5NFVMV1BvYkNMaUR2eDFJbDlVMWZ0Zlpqc3dnZDB2STJqcDVJd0MwXzE1ZUE0TjFJYWQzUU1UZW91NGF0dERCT3hqMmdnNlFqMGdkcnRlVGVTd1h1c2U1dDZPcURCd0lDelBYMWM3MnJPc2R6Y1VERXVHbGFRZUFST2xhUjB0d2FtNGpVM1JMSVdUamxfM040dWd2a3M?oc=5",
+          "titre": "Kadant stock fell 2.16 percent. Directors received 128 shares - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVmhSNGlKeTdVZjN0ckVPU200UDRMd3NFTDN4WEJtMjVTMEFPS3FETWpVOFdGUnhUWVViS05OODNhaG9KVm1ZaWZHN184bGZ0V196bGQydi1ZOUR5UEhidkpRSXcydHVuai1xUzVtbnZxeWJpN2NxYWZ0ZlJhZFVOSEVHd1ZOR1lIMC1RMDgxeWlyYjRZLXRzenR1M1ZYNFJNTWVCeUVfNUw3cWwzNENkR3Y1ZlRzaFlkX0t3?oc=5",
           "date": "2026-10-08",
           "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Price to earnings forward of STERIS plc – LSE:0XI8 - TradingView",
-          "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSFVfQXpUMktselBVR0IxTXpCSzJpV1JOTG1nckFGVFZtY1ZxNkNBMnlTZDFPQjBpclpUN1FmV3VORmJoMm4zcWNzOWEzWGtpdi0tdUJ4Nk5lUWR6RDE3SFdQbFF1Rkp0MmVJTUNOLUhjWFRxb00xOExiVjlhYjlZWVd1VUhmTUl2aE9DT3lBS1Fvc3d2ZjYyN3ZEbGY5QQ?oc=5",
-          "date": "2026-10-07",
-          "source": "TradingView",
+          "titre": "Kadant Inc (KAI) Stock Forecasts - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZjZoenQtaFFYQjNaRVc0cWQzVDRRcTlXaWt2cFJZZ1FlSkRSaGMwRWxEVTA5UWdTT1oydS14THdwS2JSc0QxcDd3ZGRyU1JyZnIxT3E3aHNEVENhZ1BKeDFHZExqQnkwb3hGcjdBOGVRY2FGODc0UG41SEhaaGtHQnBHUE5fakNvNF9uYW5tcG50U2M?oc=5",
+          "date": "2026-10-03",
+          "source": "Yahoo! Finance Canada",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Steris PLC stock outperforms competitors despite losses on the day - MarketWatch",
-          "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcnVYWXVFd3VsMThZbENRWUQtTW1KdlZQNzNWcVNyWUIzVk1CeXp3bGhsRDdqdXRtWURVTHRERlhQZEJSUURvM0d1T1phZVd1dG40WFh0M1hvY3NwTU5zeFg2LWlPM19GRnQ5bFVnM3NLVDF0cTBzNlZpWWhQT0dyaTJxclJMYW9QMks1eGZLZ0NoVjhUblUtTl96RVFGZ2pkeGs0R01XSEx2VDdLSW0xNFFEYm5pZE5qVzF3dm9OMlh0dVdw?oc=5",
-          "date": "2026-10-06",
-          "source": "MarketWatch",
+          "titre": "Should You Investigate Kadant Inc. (NYSE:KAI) At US$267? - Moomoo",
+          "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaEU2alIwVG5oZFJtTU01QVR3dEpUaWhmZVBfWkNPT05Hanp0WlhoZ1gtUEJ1QmlyQkRndk41U2VvYzJuVXB3eFpYamZ1MUM2VFkzc21TUXdjQTdoXzFKejluYXhLWlpPeHNMMVJuc2RHTThxb3NuSDhjNmxpd3JmUmRUd2hVUW5kOFh4SDgxbHoxY21rSjhFeXBSSkU?oc=5",
+          "date": "2026-09-30",
+          "source": "Moomoo",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Kadant: Razor-And-Blades Model Behind EBITDA At Its New High (NYSE:KAI) - Seeking Alpha",
+          "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQXzZjTWMyYkZELTk3VHVUeFlGdl9Bc01ZTVlDSVR0WmxJeTZRYkhjNWl6dUp0TXNxLV8tVVR0MDk1T2xQN3R0RXRLMmlSSW1MVk4xbXg0cHg2Zm1mRXNTa0lxLVpwdGpzTG9RVjhVdUdxOTdUWHlydnVpZ28xMGRKZFRURDVQbXlNYXAwUXZ2Uk9jb2lMUVFkQVF3cnp5R0lnWGc?oc=5",
+          "date": "2026-09-27",
+          "source": "Seeking Alpha",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Why Is Kadant (KAI) Handing the Keys to a 13-Year Insider? - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQT2hJcDVMQUtsdUlFLTlHVVNHX25iWFVjU282NU5lN0haLVhta3k1R0ZfdW8yamtNS3Q1elVEek14QW5jSkJNd0FXQjRNYnVrcWRKRFBrUjdkVzJCM19Bd2hnd1JaM3Qwa0J3TmstanM0aDZYdjB5cnNBTmRHaTMxVFBBT1Q3N3pjYndOckI1bWRiYUIzNXNN?oc=5",
+          "date": "2026-09-25",
+          "source": "Yahoo Finance",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 49
+    "ticket": 50
   },
   "radar_proposes": [
     "MCD",
@@ -170,7 +170,10 @@
     "AZO",
     "SPXC",
     "PIPR",
-    "STE"
+    "STE",
+    "PLUS.L",
+    "CMI",
+    "KAI"
   ],
   "achats": [],
   "historique": [
@@ -4742,6 +4745,107 @@
         ]
       },
       "ticket": 48,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-08",
+      "cree_le": "2026-10-08T14:21+00:00",
+      "liberation": 188.3700338250156,
+      "reserve_pct": null,
+      "score": 87.73867712638574,
+      "ordres": [
+        {
+          "ticker": "STE",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 187.3700338250156,
+          "reason": "opportunité radar (score 88)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "STE",
+        "nom": "Steris",
+        "isin": "STE",
+        "type": "action",
+        "prix": 209.67999267578125,
+        "score": 87.73867712638574,
+        "baisse": 0.2127970431170091,
+        "perf_5ans": 0.07496556831023526,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.21434761576973888,
+        "pos_12m": 0.913312693498452,
+        "n_12m": 646,
+        "base_moy_12m": 0.13453802778264595,
+        "pire_12m": -0.17785929147027124,
+        "vs_marche_3m": -0.05107639341123038,
+        "devise": "USD",
+        "prix_eur": 187.3700338250156,
+        "fondamental": 95.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +7.3% sur un an",
+          "bénéfices +14.0% sur un an",
+          "bénéfices attendus +50% sur 12 mois",
+          "analystes : « achat fort » (1.8/5, 8 avis)",
+          "objectif moyen des analystes : +25%",
+          "P/E attendu 17.1 (actuel 25.6)",
+          "marge nette 13%",
+          "dette / capitaux propres 28 %"
+        ],
+        "score_global": 92.1,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -5% vs marché)",
+        "vs_marche_3m": -0.05107639341123038,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Irradiation Sterilization Services Market to Expand at 13% CAGR Until 2030, Steris Holding 13% Market Share - EIN News",
+            "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcUpSc0p6SGRPUUhiS2RacjJXRUNLOFZZSkJkblBZVFpNNzVSc0FDc0xHeHMzQmJCUHN6NDhpWWFBY0ZrNVB2Q0VhRHNMa3ZkZ1hHaUdKZHlfLTBtMGFWNmk0TkE3VlJ4elhRRlVSSUszSlV0amd1dDYxRWEzVzFKT2JVeVFvRUZjQlhzU2tPeDBybEVZN1p6T0VYYW1mc2FqX0dkdzNfNkhzZG9MSG1KTW9IcmNEa3lzeTIzV25NWVRuZVRSc29WUmMzUG5zeklpcFpHYmt5YWdhcjYyS0M4?oc=5",
+            "date": "2026-10-08",
+            "source": "EIN News",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "STERIS plc (Ireland) (STE) Stock Forecasts - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQ2EwTXlQMEtNS084QXI2VlZZVkx4Vm0waDFxS2FISzNfd0VHbG9rdi1NSDBKVDNuQW5ZWDRkbFp2TldteVJ0R25fVGtDbUJaOWJfeWVRQkNibDY0WFJ0WWlxeHBJai1kUUN4WFJpbGVkSDBFTzE4YVZWcV9ZU080aWo0UmJQT1dhUmZIdmt5MA?oc=5",
+            "date": "2026-10-08",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "STERIS CFO reported 228 shares withheld from STERIS stock - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTDJZZHJhbFJXN0dqTUlSbHQwWFRjVGRMakN5NFVMV1BvYkNMaUR2eDFJbDlVMWZ0Zlpqc3dnZDB2STJqcDVJd0MwXzE1ZUE0TjFJYWQzUU1UZW91NGF0dERCT3hqMmdnNlFqMGdkcnRlVGVTd1h1c2U1dDZPcURCd0lDelBYMWM3MnJPc2R6Y1VERXVHbGFRZUFST2xhUjB0d2FtNGpVM1JMSVdUamxfM040dWd2a3M?oc=5",
+            "date": "2026-10-08",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Price to earnings forward of STERIS plc – LSE:0XI8 - TradingView",
+            "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSFVfQXpUMktselBVR0IxTXpCSzJpV1JOTG1nckFGVFZtY1ZxNkNBMnlTZDFPQjBpclpUN1FmV3VORmJoMm4zcWNzOWEzWGtpdi0tdUJ4Nk5lUWR6RDE3SFdQbFF1Rkp0MmVJTUNOLUhjWFRxb00xOExiVjlhYjlZWVd1VUhmTUl2aE9DT3lBS1Fvc3d2ZjYyN3ZEbGY5QQ?oc=5",
+            "date": "2026-10-07",
+            "source": "TradingView",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Steris PLC stock outperforms competitors despite losses on the day - MarketWatch",
+            "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcnVYWXVFd3VsMThZbENRWUQtTW1KdlZQNzNWcVNyWUIzVk1CeXp3bGhsRDdqdXRtWURVTHRERlhQZEJSUURvM0d1T1phZVd1dG40WFh0M1hvY3NwTU5zeFg2LWlPM19GRnQ5bFVnM3NLVDF0cTBzNlZpWWhQT0dyaTJxclJMYW9QMks1eGZLZ0NoVjhUblUtTl96RVFGZ2pkeGs0R01XSEx2VDdLSW0xNFFEYm5pZE5qVzF3dm9OMlh0dVdw?oc=5",
+            "date": "2026-10-06",
+            "source": "MarketWatch",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 49,
       "decision": "sans réponse"
     }
   ]
