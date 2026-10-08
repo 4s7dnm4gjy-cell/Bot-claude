@@ -18,101 +18,103 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-08",
-    "cree_le": "2026-10-08T11:48+00:00",
-    "liberation": 146.30739545084896,
+    "cree_le": "2026-10-08T12:24+00:00",
+    "liberation": 140.47308395662242,
     "reserve_pct": null,
-    "score": 93.04566307337353,
+    "score": 93.44938315854296,
     "ordres": [
       {
-        "ticker": "SIA.TO",
+        "ticker": "FNF",
         "side": "buy",
-        "quantity": 12.0,
-        "price": 12.10894962090408,
+        "quantity": 4.0,
+        "price": 34.868270989155604,
         "reason": "opportunité radar (score 93)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "SIA.TO",
-      "nom": "Sienna Senior Living Inc.",
-      "isin": "SIA.TO",
+      "ticker": "FNF",
+      "nom": "Fidelity National Financial",
+      "isin": "FNF",
       "type": "action",
-      "prix": 19.329999923706055,
-      "score": 93.04566307337353,
-      "baisse": 0.17119408967275185,
-      "perf_5ans": 0.8510912995857531,
+      "prix": 39.02000045776367,
+      "score": 93.44938315854296,
+      "baisse": 0.29941015809686244,
+      "perf_5ans": 0.13817468713117154,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.17907992878083273,
-      "pos_12m": 0.7109067017082786,
-      "n_12m": 761,
-      "base_moy_12m": 0.14241029745845113,
-      "pire_12m": -0.37868173586787535,
-      "vs_marche_3m": -0.18193911818291064,
-      "devise": "CAD",
-      "prix_eur": 12.10894962090408,
-      "fondamental": 77.0,
+      "moy_12m": 0.34004989009976566,
+      "pos_12m": 0.8254847645429363,
+      "n_12m": 361,
+      "base_moy_12m": 0.17903249545127708,
+      "pire_12m": -0.1710939317038459,
+      "vs_marche_3m": -0.22401943300131233,
+      "devise": "USD",
+      "prix_eur": 34.868270989155604,
+      "fondamental": 95.5,
       "fondamental_notes": [
-        "chiffre d'affaires +13.7% sur un an",
-        "bénéfices +93.2% sur un an",
-        "bénéfices attendus +19% sur 12 mois",
-        "analystes : « achat fort » (1.5/5, 11 avis)",
-        "objectif moyen des analystes : +37%",
-        "P/E attendu 30.7 (actuel 36.5)",
+        "chiffre d'affaires +10.5% sur un an",
+        "bénéfices +5.8% sur un an",
+        "bénéfices attendus +92% sur 12 mois",
+        "analystes : « achat fort » (1.6/5, 5 avis)",
+        "objectif moyen des analystes : +48%",
+        "P/E attendu 7.1 (actuel 13.5)",
         "marge nette 5%",
-        "dette / capitaux propres 149 %"
+        "dette / capitaux propres 54 %",
+        "🏷️ braderie probable : -22% vs marché en 3 mois, alors que les bénéfices attendus montent (+92%) et que les analystes restent à l'achat (+8 pts)"
       ],
-      "score_global": 83.4
+      "score_global": 94.7,
+      "braderie": true
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -18% vs marché)",
-      "vs_marche_3m": -0.18193911818291064,
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -22% vs marché)",
+      "vs_marche_3m": -0.22401943300131233,
       "alertes": [],
       "recents": [
         {
-          "titre": "Sienna Senior Living Inc. Price Target Cut to C$24.25/Share From C$25.75 by Raymond James - Moomoo",
-          "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMlhwU2F4a3A3ejRSVjBZejZRT2V1MVVSTWpXem81WUc5V3JjSGxTU29JMWt6VWl4Y3dCZlVENjd1UlNJZ3JBa210X21NOTBQTUkyakViTmFfQ0VHemJDbzN4WHhKVVcxSFN2em5xUjNwYWN5Y1FhS3psdTJHc1JjSnhxSDRkZGNObFNheWdsWVdFR1RteHhnbg?oc=5",
-          "date": "2026-10-02",
-          "source": "Moomoo",
+          "titre": "Avis d'analystes US : Allstate, Caribou Biosciences, Zscaler - Boursorama",
+          "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVWRSeWQtRkpyWi1jNUNGOWdpemFYVnBPdWVRcFRPSER4cVJILTJPV2g5ZFc4YWd1RmRaSGFodGxMb3NHU1RNUU1janRtLS1yVndOSGUtNmFMSDhIaE41ZTBUejhMZWVkclBwZktMbDNzT3hUcUJlcEJwcXZHZWk5T3dydEdaZFhZNk01OXdKRC1WQkxUUTJyRFVrQ3M5QW9wNmNpOGxHMy1kMnRNU0FBcVZPQy1XYmtTZlYteUxSSEliSl9pSG84eUF0bmttVXNjdm1NWtIB1AFBVV95cUxOVWRSeWQtRkpyWi1jNUNGOWdpemFYVnBPdWVRcFRPSER4cVJILTJPV2g5ZFc4YWd1RmRaSGFodGxMb3NHU1RNUU1janRtLS1yVndOSGUtNmFMSDhIaE41ZTBUejhMZWVkclBwZktMbDNzT3hUcUJlcEJwcXZHZWk5T3dydEdaZFhZNk01OXdKRC1WQkxUUTJyRFVrQ3M5QW9wNmNpOGxHMy1kMnRNU0FBcVZPQy1XYmtTZlYteUxSSEliSl9pSG84eUF0bmttVXNjdm1NWg?oc=5",
+          "date": "2026-10-07",
+          "source": "Boursorama",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "What Is the Fresh Story at Sienna Senior Living Inc. (TSX:SIA)? - Kalkine Media",
-          "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTklYc0hXS09ySTFLOVlWOW1ZNFV3bWpTckVOSWwyT0pzVEdrNVRLTXB5ZWFqc1pEU1NXV3hDbzJLbVZDbW92SjFvYXZyWXJoNjNjMkNhN3V2X1h2Y1dJSTEtOE1iLWdDN20zMlpSUW9raDliZXFNLVQzSzlXaDlwWWUwLXIxY01yTTFKLUVwbzdfZm1mMGtCQmg0R2FMdG5KSXVLcEJxMA?oc=5",
-          "date": "2026-09-30",
-          "source": "Kalkine Media",
+          "titre": "Fidelity National Financial stock hits 52-week low at 38.05 USD - Investing.com",
+          "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbU04U2VFR1VwTVVEVnppZTQxbmNFTFlHTENuVU1fZkxvZGpaa0tIa2cwV0Z5TjFtY0NLSjkxSXhfOVBrbURkbFlBRGxQalg5RFZNby1rZTZFTER4UXpnb3REdURKNG5sZ05Mc2pDU245Y2FvVEgxd3hOeUZmb2Vod3VvazR0RFBpdkpCdkF3alJZa3YyWEdTZVVtOWV5ZEViVldFeU1NQkhrbWhLcUxCVEdiV25PX2F1UGc?oc=5",
+          "date": "2026-10-07",
+          "source": "Investing.com",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Sienna Senior Living Dividend Yield at 4.04%: Can Stable Cash Flows Drive Long-Term Income Growth? - kalkine.ca",
-          "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZVBRcUcweUZmanhDNmk5V1B4TV9hcUNzMEcyLW51LUN3RjNCTFg2T2I0ejJHbVNScW8zd3pOendGdGxfTlg3bzRXZEN4QU9ORHVITUxKcF9nREx6VlJHOVhBd0hBTzlyaGwyWmhIakZmVTNPSVRMNDNZODY5bDRlUGkyRll5THBGSjduTDNzUXFncjR1SmhoUjFpczdnWk92dmt4eVJzVEFTdG9BUFhLdktxNkdqemxSSWRteTNFQXpQRDczRExSVQ?oc=5",
-          "date": "2026-09-25",
-          "source": "kalkine.ca",
+          "titre": "Fidelity National Financial, In (FNF) Stock Forecasts - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdDY3WGVOcWJpTUNBVURLc2xqX2dUczFOMjFpU1l6a1dYZVdUT05OTTJwNjJfdnJPMXBGZVRUbU9PTUJvQUg5OUphLXlrdU5wQzBGQ3pJWlBqbXpnV3VsVnVzUi15ZmI1dmZiUTdPcWdDNTlieldBbkJYT3loOFpleEZTbXhvRDE4V3BsLWhFSQ?oc=5",
+          "date": "2026-10-07",
+          "source": "Yahoo Finance",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Sienna Senior Living (TSX:SIA): Fresh Update Explained - Kalkine Media",
-          "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxON2REUU1pZ1c3djJ1b2lyMlBOa1R5LVBhM0lrQVkzcEVxSTNTSjJkSEFhYmFmbV8wTXRJVVJOQ3Q2Szh2QUlYLW5xQi1PWUFKNm5PS2hIVl9UTTVaYW5fWEk3QU9sWWo0dkRaTEFaeW1OR0YzT1VnQ3pQRlB2TVZLV2wxeWpwLVpNeV9xSWpoRlpzdlZZUWZUVEVwclU?oc=5",
-          "date": "2026-09-21",
-          "source": "Kalkine Media",
+          "titre": "Fidelity National Financial, Inc. (FNF) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1WYXMtajktVTZJaFpNd2ZwdU55VzZBaWdWNzBnYmpDQmxRYklaSW50Z0FxZjRseTl0My0wT2dBTHFZWmo4WW9uelNNWGk1Z2g0?oc=5",
+          "date": "2026-10-06",
+          "source": "Yahoo! Finance Canada",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Sienna Continues Platform Growth in Ontario - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWFRsQXZqall0dF94R2xrd292WmVrYUdNeTlFNHNQYU9iejRWTnJ1d3RqUzRqV3ppYVJ0aHFtVGl4MmIwSWRuNXljazZoTHJxb1pocTY0UDJJbndCc3RTREFWLVBVY3p4TTNxVzZxUnJfQkJYYjFhaTVjMW5FZVpSb19UbTlCQkM0QnJ2cnQ0UnFMb1cyUjBLUzNaa0E2RHNlMUc3UA?oc=5",
-          "date": "2026-09-17",
+          "titre": "Fidelity National Financial (FNF) Stock Gets Fair Value Trim On Mortgage Earnings Caution - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPR0V1WGZVNWRrNVhsa2tMYjBMUXowSHkwQzluSUJKSzJpSlY2Q0dzNllqRldaRnF4NUtoQUJwdjNFVHNNeXFmQ0RrbUVLQ0NVTGVHNHNjQUkydlFNOHlNSjlCRkp2cnRCOXpZU0h4eUhUVzdVbmNNNkIyazhGcElwTXMtUFVheXJfU0dJZWswTmY0aEF4R0tNTldyZHJMbjFLTG9vWg?oc=5",
+          "date": "2026-10-06",
           "source": "Yahoo Finance",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 45
+    "ticket": 46
   },
   "radar_proposes": [
     "MCD",
@@ -164,7 +166,8 @@
     "NHY.OL",
     "DG.PA",
     "TFII.TO",
-    "SIA.TO"
+    "SIA.TO",
+    "FNF"
   ],
   "achats": [],
   "historique": [
@@ -4331,6 +4334,106 @@
         ]
       },
       "ticket": 44,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-08",
+      "cree_le": "2026-10-08T11:48+00:00",
+      "liberation": 146.30739545084896,
+      "reserve_pct": null,
+      "score": 93.04566307337353,
+      "ordres": [
+        {
+          "ticker": "SIA.TO",
+          "side": "buy",
+          "quantity": 12.0,
+          "price": 12.10894962090408,
+          "reason": "opportunité radar (score 93)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "SIA.TO",
+        "nom": "Sienna Senior Living Inc.",
+        "isin": "SIA.TO",
+        "type": "action",
+        "prix": 19.329999923706055,
+        "score": 93.04566307337353,
+        "baisse": 0.17119408967275185,
+        "perf_5ans": 0.8510912995857531,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.17907992878083273,
+        "pos_12m": 0.7109067017082786,
+        "n_12m": 761,
+        "base_moy_12m": 0.14241029745845113,
+        "pire_12m": -0.37868173586787535,
+        "vs_marche_3m": -0.18193911818291064,
+        "devise": "CAD",
+        "prix_eur": 12.10894962090408,
+        "fondamental": 77.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +13.7% sur un an",
+          "bénéfices +93.2% sur un an",
+          "bénéfices attendus +19% sur 12 mois",
+          "analystes : « achat fort » (1.5/5, 11 avis)",
+          "objectif moyen des analystes : +37%",
+          "P/E attendu 30.7 (actuel 36.5)",
+          "marge nette 5%",
+          "dette / capitaux propres 149 %"
+        ],
+        "score_global": 83.4
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -18% vs marché)",
+        "vs_marche_3m": -0.18193911818291064,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Sienna Senior Living Inc. Price Target Cut to C$24.25/Share From C$25.75 by Raymond James - Moomoo",
+            "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMlhwU2F4a3A3ejRSVjBZejZRT2V1MVVSTWpXem81WUc5V3JjSGxTU29JMWt6VWl4Y3dCZlVENjd1UlNJZ3JBa210X21NOTBQTUkyakViTmFfQ0VHemJDbzN4WHhKVVcxSFN2em5xUjNwYWN5Y1FhS3psdTJHc1JjSnhxSDRkZGNObFNheWdsWVdFR1RteHhnbg?oc=5",
+            "date": "2026-10-02",
+            "source": "Moomoo",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "What Is the Fresh Story at Sienna Senior Living Inc. (TSX:SIA)? - Kalkine Media",
+            "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTklYc0hXS09ySTFLOVlWOW1ZNFV3bWpTckVOSWwyT0pzVEdrNVRLTXB5ZWFqc1pEU1NXV3hDbzJLbVZDbW92SjFvYXZyWXJoNjNjMkNhN3V2X1h2Y1dJSTEtOE1iLWdDN20zMlpSUW9raDliZXFNLVQzSzlXaDlwWWUwLXIxY01yTTFKLUVwbzdfZm1mMGtCQmg0R2FMdG5KSXVLcEJxMA?oc=5",
+            "date": "2026-09-30",
+            "source": "Kalkine Media",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Sienna Senior Living Dividend Yield at 4.04%: Can Stable Cash Flows Drive Long-Term Income Growth? - kalkine.ca",
+            "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZVBRcUcweUZmanhDNmk5V1B4TV9hcUNzMEcyLW51LUN3RjNCTFg2T2I0ejJHbVNScW8zd3pOendGdGxfTlg3bzRXZEN4QU9ORHVITUxKcF9nREx6VlJHOVhBd0hBTzlyaGwyWmhIakZmVTNPSVRMNDNZODY5bDRlUGkyRll5THBGSjduTDNzUXFncjR1SmhoUjFpczdnWk92dmt4eVJzVEFTdG9BUFhLdktxNkdqemxSSWRteTNFQXpQRDczRExSVQ?oc=5",
+            "date": "2026-09-25",
+            "source": "kalkine.ca",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Sienna Senior Living (TSX:SIA): Fresh Update Explained - Kalkine Media",
+            "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxON2REUU1pZ1c3djJ1b2lyMlBOa1R5LVBhM0lrQVkzcEVxSTNTSjJkSEFhYmFmbV8wTXRJVVJOQ3Q2Szh2QUlYLW5xQi1PWUFKNm5PS2hIVl9UTTVaYW5fWEk3QU9sWWo0dkRaTEFaeW1OR0YzT1VnQ3pQRlB2TVZLV2wxeWpwLVpNeV9xSWpoRlpzdlZZUWZUVEVwclU?oc=5",
+            "date": "2026-09-21",
+            "source": "Kalkine Media",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Sienna Continues Platform Growth in Ontario - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWFRsQXZqall0dF94R2xrd292WmVrYUdNeTlFNHNQYU9iejRWTnJ1d3RqUzRqV3ppYVJ0aHFtVGl4MmIwSWRuNXljazZoTHJxb1pocTY0UDJJbndCc3RTREFWLVBVY3p4TTNxVzZxUnJfQkJYYjFhaTVjMW5FZVpSb19UbTlCQkM0QnJ2cnQ0UnFMb1cyUjBLUzNaa0E2RHNlMUc3UA?oc=5",
+            "date": "2026-09-17",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 45,
       "decision": "sans réponse"
     }
   ]
