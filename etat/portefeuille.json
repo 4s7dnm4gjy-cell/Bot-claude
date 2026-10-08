@@ -18,60 +18,101 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-08",
-    "cree_le": "2026-10-08T06:24+00:00",
-    "liberation": 292.51726571792045,
+    "cree_le": "2026-10-08T06:54+00:00",
+    "liberation": 161.88203756973746,
     "reserve_pct": null,
-    "score": 90.60301176893465,
+    "score": 90.73536772168183,
     "ordres": [
       {
-        "ticker": "GD",
+        "ticker": "RTX",
         "side": "buy",
         "quantity": 1.0,
-        "price": 291.51726571792045,
+        "price": 160.88203756973746,
         "reason": "opportunité radar (score 91)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "GD",
-      "nom": "General Dynamics",
-      "isin": "GD",
+      "ticker": "RTX",
+      "nom": "RTX Corporation",
+      "isin": "RTX",
       "type": "action",
-      "prix": 326.6300048828125,
-      "score": 90.60301176893465,
-      "baisse": 0.1751142665457689,
-      "perf_5ans": 0.850579409833027,
+      "prix": 180.25999450683594,
+      "score": 90.73536772168183,
+      "baisse": 0.20058543564893982,
+      "perf_5ans": 1.3347503015891338,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.21800815778328703,
-      "pos_12m": 0.7931844888366627,
-      "n_12m": 851,
-      "base_moy_12m": 0.15227048766146042,
-      "pire_12m": -0.5526380241730118,
-      "vs_marche_3m": -0.16372321912518983,
+      "moy_12m": 0.25200228864658397,
+      "pos_12m": 0.7740641711229946,
+      "n_12m": 748,
+      "base_moy_12m": 0.14746716751923378,
+      "pire_12m": -0.44240594327854943,
+      "vs_marche_3m": -0.10831840284064465,
       "devise": "USD",
-      "prix_eur": 291.51726571792045,
-      "fondamental": 91.0,
+      "prix_eur": 160.88203756973746,
+      "fondamental": 86.0,
       "fondamental_notes": [
-        "chiffre d'affaires +8.1% sur un an",
-        "bénéfices +13.4% sur un an",
-        "bénéfices attendus +13% sur 12 mois",
-        "analystes : « achat » (2.1/5, 21 avis)",
-        "objectif moyen des analystes : +27%",
-        "P/E attendu 17.6 (actuel 19.9)",
+        "chiffre d'affaires +14.5% sur un an",
+        "bénéfices +28.7% sur un an",
+        "bénéfices attendus +38% sur 12 mois",
+        "analystes : « achat » (1.8/5, 22 avis)",
+        "objectif moyen des analystes : +28%",
+        "P/E attendu 22.9 (actuel 31.7)",
         "marge nette 8%",
-        "dette / capitaux propres 35 %"
+        "dette / capitaux propres 57 %"
       ],
-      "score_global": 90.8
+      "score_global": 87.9
     },
     "actualites": {
-      "verdict": "inconnu",
-      "resume": "actualités indisponibles (HTTPError)",
-      "vs_marche_3m": -0.16372321912518983,
+      "verdict": "vert",
+      "resume": "rien d'alarmant dans l'actualité (3 mois : -11% vs marché)",
+      "vs_marche_3m": -0.10831840284064465,
       "alertes": [],
-      "recents": []
+      "recents": [
+        {
+          "titre": "Is RTX (RTX) Cheap Following Its Pratt And Whitney A321XLR Engine Milestone? - Simply Wall Street",
+          "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWFFZcmlwaURwaTJpRWhPVHZ0N0hpNHNGVWhBZndsS2I0Y1JqRkpFSEIxRGU0bXRmcWRWc25nUGVQS0FidGp2Z1pZSS0talZXcDcxZDBUbGg4RzIxanlHcVJWN0NhQWlpQmdBMzhtRzI1X3JnLTNpX3c1d0w4a3R0Ni16UEQ1WllaMDFyMjNOTllSb0xzNTQ5cUtMcXJfVGUzU0tXeHIxMlY2QVl5ZmdVc2VtMU4tVU85RVdrZlFrWHFrQdIBxwFBVV95cUxQOUZQRTIwOW1idThtZEdFdl9xUWZUb0tOd0FTS1d1NTl5NzBORW5fal82Smlqc1NvNmdlank0SlZsX2I1VzA0MUFxeFNETzdqRUpRaVNiRXhrMUpjZ3V1TU5hdmpkYkVsaVNNUmtJSUFMZlY1ZUZyWVlKdFhicTA3SlIzOU9hc2ZlRDdYdl9ZYm1FRTRmcXJ5N2hjTWFMbUZvMEFLSTVNZWRrVVdRTFlvaThEMEZ4dHh2bTczOVdBeldPQVcwbk5r?oc=5",
+          "date": "2026-10-08",
+          "source": "Simply Wall Street",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "RTX Corporation stock heads into October 20 earnings with raised guidance - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQMzl3NV9yRHpObC1xOUdva015UWJEQUZHZUFLYVhKNWtuSDc1QVdYQ0x2WEVpZjR5UnBfMEF4Zm1wMVpVekdnQmoxUGJwTFBTc1BPNzVzUl9tODlCUFNmTHVDZFYtcVV3VTgtRm9XZHF6ZG5jd1AyVS13UjN3bGJEa0t4MWdqaXhHQ3dNNFZrOXh3cmlIVWl3SkpLdThLWXBFZVYyaHNWWFJ6MVowcnJROVQxaGp6dGZZZ0RVbkpLOHlCNy0yaHlGZnhONFhYdmpFRFE?oc=5",
+          "date": "2026-10-07",
+          "source": "AD HOC NEWS",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "RTX (RTX) Registers a Bigger Fall Than the Market: Important Facts to Note - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaFR6ay1GNFo5QWVVWlZkTDVNZ1B0bEpMUUV5X09vQkhqNW5LYXU3X3J3aVI0TVVPLWhmRTlrZGR4V21zYkxXc0hDZnI3emZsdUxudTJyc1Bqd1JJUldRenZ5aGhMSklmZU42emt2VXpZY0VraXl1Ti1EbEFtZVZtamhTTEwydEhkak9UX2ZJZm9Mc0JhZUpnZWZB?oc=5",
+          "date": "2026-10-07",
+          "source": "Yahoo Finance",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "RTX Outperforms Industry in the Past 3 Months: Should You Buy? - Zacks Investment Research",
+          "lien": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPREdWNWdqamhDSUo2dWZFdlZ4cXJsN0hzbEZFZnB0Qm5Bbjc4ZG9GejdORjFiR3FQS1FGNVdyUE84N3A3RF9fOXhaR2MzLXZiRHlnT1Fid3Q1YWxSbVpQbDg2LWhvRks4c3plVXdmem50NDZza1pjWmplYWs5REdLeF9oWjdzOUZmazNGM0JqY1VrazJlMG9GTHBIQjdKV0xpcXFz?oc=5",
+          "date": "2026-10-07",
+          "source": "Zacks Investment Research",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "RTX secures USD 24.40 billion contract. 16 analysts rate RTX Corporation stock a Buy - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWm02ZTZpaGd4RUo3RmRlSTd0dW53R2lndDBaTk5wYm1TcXRHRExkSDdMRzVUVjJqWWxEZl9BNGhWNGlubDY1VVJIa05FUzV2a1pqSXVlM1Rob2s5NDA2bEMyY0NjRGJnSUxZcWZpRVZEZThFaTM0SVdKZTlHNmlwcTVDalF0U1ZxU2c2YU1GdXhKdWVhVks5VDY1TUFOdjBQRXNvMmpGQXpUMWpqemlHYUxLbm5vaERtYXJ0a2M0Tm43Njl1ZHNhcnJWak9JYjQ?oc=5",
+          "date": "2026-10-07",
+          "source": "AD HOC NEWS",
+          "gravite": 0,
+          "mots": []
+        }
+      ]
     },
-    "ticket": 37
+    "ticket": 38
   },
   "radar_proposes": [
     "MCD",
@@ -113,7 +154,8 @@
     "KKR",
     "SYK",
     "FAF",
-    "GD"
+    "GD",
+    "RTX"
   ],
   "achats": [],
   "historique": [
@@ -3509,6 +3551,65 @@
         ]
       },
       "ticket": 36,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-08",
+      "cree_le": "2026-10-08T06:24+00:00",
+      "liberation": 292.51726571792045,
+      "reserve_pct": null,
+      "score": 90.60301176893465,
+      "ordres": [
+        {
+          "ticker": "GD",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 291.51726571792045,
+          "reason": "opportunité radar (score 91)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "GD",
+        "nom": "General Dynamics",
+        "isin": "GD",
+        "type": "action",
+        "prix": 326.6300048828125,
+        "score": 90.60301176893465,
+        "baisse": 0.1751142665457689,
+        "perf_5ans": 0.850579409833027,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.21800815778328703,
+        "pos_12m": 0.7931844888366627,
+        "n_12m": 851,
+        "base_moy_12m": 0.15227048766146042,
+        "pire_12m": -0.5526380241730118,
+        "vs_marche_3m": -0.16372321912518983,
+        "devise": "USD",
+        "prix_eur": 291.51726571792045,
+        "fondamental": 91.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +8.1% sur un an",
+          "bénéfices +13.4% sur un an",
+          "bénéfices attendus +13% sur 12 mois",
+          "analystes : « achat » (2.1/5, 21 avis)",
+          "objectif moyen des analystes : +27%",
+          "P/E attendu 17.6 (actuel 19.9)",
+          "marge nette 8%",
+          "dette / capitaux propres 35 %"
+        ],
+        "score_global": 90.8
+      },
+      "actualites": {
+        "verdict": "inconnu",
+        "resume": "actualités indisponibles (HTTPError)",
+        "vs_marche_3m": -0.16372321912518983,
+        "alertes": [],
+        "recents": []
+      },
+      "ticket": 37,
       "decision": "sans réponse"
     }
   ]
