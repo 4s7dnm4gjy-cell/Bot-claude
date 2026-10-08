@@ -18,154 +18,103 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-08",
-    "cree_le": "2026-10-08T16:21+00:00",
-    "liberation": 120.16000366210938,
+    "cree_le": "2026-10-08T16:51+00:00",
+    "liberation": 134.7719186431304,
     "reserve_pct": null,
-    "score": 87.97117209878135,
+    "score": 92.93154029711683,
     "ordres": [
       {
-        "ticker": "BN.PA",
+        "ticker": "EPRT",
         "side": "buy",
-        "quantity": 2.0,
-        "price": 59.58000183105469,
-        "reason": "opportunité radar (score 88)"
+        "quantity": 6.0,
+        "price": 22.295319773855063,
+        "reason": "opportunité radar (score 93)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "BN.PA",
-      "nom": "Danone",
-      "isin": "FR0000120644",
+      "ticker": "EPRT",
+      "nom": "Essential Properties Realty Trust, Inc.",
+      "isin": "EPRT",
       "type": "action",
-      "prix": 59.58000183105469,
-      "score": 87.97117209878135,
-      "baisse": 0.2253932488645396,
-      "perf_5ans": 0.24355759830178814,
+      "prix": 24.950000762939453,
+      "score": 92.93154029711683,
+      "baisse": 0.2545510558704922,
+      "perf_5ans": 0.10900831778323572,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.09002067784256966,
-      "pos_12m": 0.756198347107438,
-      "n_12m": 726,
-      "base_moy_12m": 0.07872743244374017,
-      "pire_12m": -0.32096257203036627,
-      "vs_marche_3m": -0.21415168330380552,
-      "devise": "EUR",
-      "prix_eur": 59.58000183105469,
-      "fondamental": 91.5,
+      "moy_12m": 0.13451431511940173,
+      "pos_12m": 0.8938053097345132,
+      "n_12m": 113,
+      "base_moy_12m": 0.0860954382953608,
+      "pire_12m": -0.14170900061816527,
+      "vs_marche_3m": -0.21769654833797702,
+      "devise": "USD",
+      "prix_eur": 22.295319773855063,
+      "fondamental": 88.0,
       "fondamental_notes": [
-        "chiffre d'affaires +1.4% sur un an",
-        "bénéfices +12.4% sur un an",
-        "bénéfices attendus +40% sur 12 mois",
-        "analystes : « achat » (2.2/5, 22 avis)",
-        "objectif moyen des analystes : +34%",
-        "P/E attendu 13.9 (actuel 19.5)",
-        "marge nette 7%",
-        "dette / capitaux propres 99 %",
-        "🏷️ braderie probable : -21% vs marché en 3 mois, alors que les bénéfices attendus montent (+40%) et que les analystes restent à l'achat (+8 pts)"
+        "chiffre d'affaires +18.1% sur un an",
+        "bénéfices +7.5% sur un an",
+        "bénéfices attendus +7% sur 12 mois",
+        "analystes : « achat fort » (1.2/5, 20 avis)",
+        "objectif moyen des analystes : +45%",
+        "P/E attendu 18.0 (actuel 19.3)",
+        "marge nette 44%",
+        "dette / capitaux propres 66 %",
+        "🏷️ braderie probable : -22% vs marché en 3 mois, alors que les bénéfices attendus montent (+7%) et que les analystes restent à l'achat (+8 pts)"
       ],
-      "score_global": 90.1,
+      "score_global": 90.0,
       "braderie": true
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, 6 article(s) à regarder (3 mois : -21% vs marché)",
-      "vs_marche_3m": -0.21415168330380552,
-      "alertes": [
-        {
-          "titre": "So Delicious Dairy Free® Issues Voluntary Recall of Salted Caramel Cluster Non-Dairy Frozen Dessert Pints Due to Potential Presence of Foreign Material - PR Newswire",
-          "lien": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNUDBOaEtHN2I2X21sb21fTGs4ZldXdlZ0aDM0QXVKemhwVkdGc1lkRTBiSjAyLW1leTJzdC1qQVdrVGxGLUJ4YXkwaUs1S2ZYNUtwYTlreWd2cC1hMXhkTzVRTkRZMWstakZUdW9IMnBqV3VFcE1Ua3pKQkpZNHoybzl6MXRPMWdQMDNWMTJYeWQtQmd1b2M2cmFkNjJ6NGFIRGdna3ZHaHRkdzRYVTFVQlY2UVFlT1hhcTdldkoxOG1ZN3pLY1lRblo3OFpQcTBhbGFnSmpXQ1JISEUwVEs0eFlJaWlvcXhVMG1xWGpiRFk2S29SNE84VUl6Z0liczdsV0lRVWotNk9JdTVjVF85TDdoSW81MzI4bzZPOTBfd2o4SVpka3FLcjF0TUZOU28?oc=5",
-          "date": "2026-09-15",
-          "source": "PR Newswire",
-          "gravite": 1,
-          "mots": [
-            "recall"
-          ]
-        },
-        {
-          "titre": "Danone USA Issues Product Recall for Salted Caramel Cluster Non-Dairy Frozen Dessert - AOL.com",
-          "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVVpqRExtSzIwblNzeDc5amZyT2E0aHFqVEVYOHF4aDRsYTlnQ0UwN1RFeG1USC1CaVc5aVBwYjctVlR5RGpNeTZUby1FSHVrTmh6bXJkUmhwUUl5N0tDV3AwbXNCRHItVUxPYnJVY08yR1ROV1lFck44Mi1sNEZmekNB?oc=5",
-          "date": "2026-09-16",
-          "source": "AOL.com",
-          "gravite": 1,
-          "mots": [
-            "recall"
-          ]
-        },
-        {
-          "titre": "Danone USA Issues Frozen Dairy-Free Pint Recall - TAPinto",
-          "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVzl2NFVfRVkxMks3NkRRSzlXSFF1OGktc21yTHhXbWlqek9EZjRIbmhWb2pIMkYwYi1rTWt6cC1ZLXFuQXg5MW5pRGJjeE1zQUpSQnNlbS1PVlAwWG9FdXktWmdHZ0FJR18xRThqS1NsbnlMYUJzbmtOYnhGeWJxRF9US3ZKVFpBTkd2MjFNc2FzZWJmeFZhLWVNVkVsNmhTYU1OUDV4WEZxV0JrVFNFdE4zLUNzU2VETllqSg?oc=5",
-          "date": "2026-09-18",
-          "source": "TAPinto",
-          "gravite": 1,
-          "mots": [
-            "recall"
-          ]
-        },
-        {
-          "titre": "Target and Walmart List So Delicious Recall; Danone Shares Fall 1.6% - TechStock²",
-          "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTWk5cF91eUFUeEZxVEVjQktCSVplTC1USnNpN0tNRHBVcGwwX2ZJS3ZFTjU4QW5NV1RTSjh3cUduSUVva1dLSUZlMjduU3hGbzRscjBDdmdYUTdTR2RXcy1hMFktc01TWl8xcl80ZGRuVEVhYkgtVi03QzJZOEEyWEVZUmJFcTZ3V0dvekd3eVE?oc=5",
-          "date": "2026-09-18",
-          "source": "TechStock²",
-          "gravite": 1,
-          "mots": [
-            "recall"
-          ]
-        },
-        {
-          "titre": "Check your freezers: Ice cream sold at Walmart and Target part of latest urgent recall - The Independent",
-          "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNWdpYzFXMGw5dUhhd2RPZUppQUNQdzJldlNYSk1oamw5a3VTc01sTlJmZG1DNlUyb1RfY2pKNHZ0NjNvVUtEaXh3YkZzRkktTGRPSDNHdG13TVdWNTQ0aDhuYUcxRXJGTWFOUklnaDNLRUFsQnFjeHpMYVZzS0dWVzFXQWlnZzR3Y0kwZmR0WnFxS3ZEcXZJVmw4VUxyQQ?oc=5",
-          "date": "2026-09-18",
-          "source": "The Independent",
-          "gravite": 1,
-          "mots": [
-            "recall"
-          ]
-        }
-      ],
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -22% vs marché)",
+      "vs_marche_3m": -0.21769654833797702,
+      "alertes": [],
       "recents": [
         {
-          "titre": "Action Danone : parmi les plus fortes hausses du CAC 40, le titre avance de 1,5 % - Ideal Investisseur",
-          "lien": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcDhHUmFGQ3E3dEZlWUl5LTZwenFlVlRpRGI0VF9xd3liRXFEWDNpVU5PX1IzUzc5RTZFSDdGV2FiQXRoU3FQaXBZUlZMMko0YmVKVk16bXVuU29La2VJUXlDYk00bWdIeFFsY01NRVdYOGNYR0JFdjkxYVFacWpHcV92bEtBbjFVX05aNmhwUjhtZXdCQzZud25kWnkyRUVVRUZZUnhBSWcySWQ3SWxTSkRZTGRkdS1UMHFxemVoX1duMF9rbVFSdE9n?oc=5",
-          "date": "2026-10-08",
-          "source": "Ideal Investisseur",
+          "titre": "L’action Essential Properties Realty Trust atteint un plus bas sur 52 semaines à 25,37$ - Investing.com France",
+          "lien": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNX3gwdGNvY0RYaFdsYldRZGg0U2V2UktfSGktQVpqekgwQmhvS0thb213U05TZEt4b2lETk5icWNvWk9pbjM2M3BuT2FhQmU4UXpKQXJwN3ppZUk2VXNrNDlEcC1ITXZQdnM0aXpBWTF4QWpLeUQwUlVnck91R21jZXhmV1dNMENuMDkyem1lcDV1OVptSzNYUVd3WE9XUUhVNHU2bXIwLXNqeTBzbzZOVXJKTWxDRHJDZWRtcWhKOE9RY0RyM2ZwMnA1cHpScm5FWlgwUEQtdw?oc=5",
+          "date": "2026-10-07",
+          "source": "Investing.com France",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Danone se refait une santé mais les investisseurs boudent l'action, on en profitera - Investir Les Echos",
-          "lien": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVUpWcGFmT0xBUjZ5LVhCcXQyVXYyR05RS0FGb05lSmxxcExFVnVmTW5mbDk0VWlSbFZ3bkg3dmkwZWJ2Yng3a3V5TThkU25MQ3h0TmxDNHFXenBBQTVuWnJJa0ZiX2NkaENJOFpfekVmV0dQNnhOWlZLQS1iblJUVmpKeVp0V294SnJUbEk1SGNqN2VQVFM2STNBTjdiN2Q3S3JYdnJqanJDZEd4VV9OcGxmdjRsRVdUc3BsNXJFczRSMHRUUzkwQTZnMEZMZm11V25FaWRfdFdlT1dMdF9EQmZieU15MTA?oc=5",
-          "date": "2026-10-08",
-          "source": "Investir Les Echos",
+          "titre": "Essential Properties Realty Trust stock hits 52-week low at $25.37 - Investing.com",
+          "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZkI5M3hSSUxxNllvcVNORlhDZnRfQzgwS2ZvNkxRZld1WUgyMmdRLTk2UWpxSXNPcDBSbEJXYmItTURWZ0w3UVVVd2JzVmJJWVB6QTQwUnpNMzNyUEZsQ1ZQV0lhV2hyWmRnTGRweEwzbEhpel9lMFNLS0V3MFgxSEs3UUY2QURORnpzQTlmbnhXMkp2Y2JodmxSYl9DNFpFYkpBNGdzQ3F1SXpqWEZLdnRsQUNCNGx1M1JIMA?oc=5",
+          "date": "2026-10-07",
+          "source": "Investing.com",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "L'usine Danone de Steenvoorde détient depuis 2026 la plus grande ligne de production de nutrition médicale de France - Orange Actualités",
-          "lien": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNbVNuR1Y2LTgzX3RRZVFBaWplUjZuZXEtVTBjTW9lNW5vTGhfb1B4bks3dk14dW93Wmd1NGpyelcxOHRIQjZMMWtLemRHNWdqNUc3bmh6eVBRM0wxWFQyck5EREdMREZRYW8zNTlZNzdMNldrWlJSQ1l0aHJnWWoxc2pGd09fRndla1JxMG9lZWtjbmUtRjZLajREenVTbHA5Z0FXVkNXRHJjZ3FxbDNmTU15cWxtRHpIa3VaZmI4bmhCcWIzN21wNmYtV3hpSnlOcVF0aVpfTlgtX0c2WDRNNWxCcThGd1FWQWJnc2Q3WDdSSlFORHRHSVBCTmhSVDBKSkVsNXAwS2NiQQ?oc=5",
-          "date": "2026-10-08",
-          "source": "Orange Actualités",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Électrisé alors qu’il change un néon à Danone Steenvoorde, il est emmené à l’hôpital - La Voix du Nord",
-          "lien": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOXpxT2JnQ1RvVUVlM3FlQzBxUFNnZklKdVh3Z3RucWo3MF9yR3BfUnJYTWJHQnUxLUVHWmpCNHhULTFnR2RZck9rTnJQU0xHaElkVzhRTHRfeUhndmtlNGdKRG5qamxZbXRSQi16bC1fcTBOazhTVnVzR0hYdFFFXzNXbjF4Qk9ZVW5sOUw1YkszWjZzeXhWTk1IODEyZTBPSmRfNWZTTm1Wc0tMdWtVdlNrMnNLdkdqam9lSXRGeDIwSzZaZWhwa3Y5Y09vTnc?oc=5",
-          "date": "2026-10-08",
-          "source": "La Voix du Nord",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Danone S.A. (DANOY) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-          "lien": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaR01ucjhiRnhqUUl0bVMtU2VPVzctell4THR2WXZOcmRWeEVIa2ktemdzLTBnanduMEVoa0ZNd0xaOVZGWnkycWFxV0Z2T20tNmFR?oc=5",
-          "date": "2026-10-08",
+          "titre": "Essential Properties Realty Tru (EPRT) Stock Forecasts - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdFg1TGg2NGFrSGo5QXRSN0tFVFVsakRDWUhKZDE5UWRmbk1WMmQ3dnlNdnpUdVVWcW1qMG5ZV01HUkpfcHpNZzBKc2VlX0xpb0lnYW56ZmMxdkdjeHpial9OMFpCQUNPQ2ZpR0hYczFqX3RoVkJXbFczUkhzS18tcUd3cUxmSjVLemNCenhzRVprLVE?oc=5",
+          "date": "2026-10-07",
           "source": "Yahoo! Finance Canada",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "EPRT Q2 2026 Earnings: Net Lease REIT Posts Modest EPS Shortfall as Shares Slip - Earnings Preview - www.dars.gov.et",
+          "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLWJCTzRkMkxYM3ZWRmVrNUhVckltekNUTVB5eW9ya0o5cm1QY3pRdTgxMWxvcFg2djVOa3d4ZG9hWjVRSzNaQkw4NzAtV01DNVZOQzg4Tlg1QmU3X0tfVGh0enJfcFJPSlRURFhTSUM2d193VnFNVEJpYVRCTkJHbm1UNFV1Z1RIU3dvdXUtN1p3Z1RHUFhpb0Z2OVpGak82UG5SdUJTR3VYN0YtUGZZUC1TaUdlQ29zRnppRw?oc=5",
+          "date": "2026-10-05",
+          "source": "www.dars.gov.et",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Essential Properties Realty Trust (NYSE:EPRT) - Stock Analysis - Simply Wall Street",
+          "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTHVIeUJEc2txLU5lS1pPMk9BS1QyQmI4MnBqcnZxeGZlNHYwTHoyaWdxZWlwUm5uVXhxTWR2SkowVEQzUWlNZi11d3ZDRXJyNUxHSDNwZTRKbDlHRzZSdWFsbURxOUZFYlJvRmQxNy1pd3RGdU1heHRpYzZjQTVrNnE4dFBjVWFTNjBfRkdrdnE?oc=5",
+          "date": "2026-10-04",
+          "source": "Simply Wall Street",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 52
+    "ticket": 53
   },
   "radar_proposes": [
     "MCD",
@@ -227,7 +176,8 @@
     "CMI",
     "KAI",
     "HEI.DE",
-    "BN.PA"
+    "BN.PA",
+    "EPRT"
   ],
   "achats": [],
   "historique": [
@@ -5103,6 +5053,159 @@
         ]
       },
       "ticket": 51,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-08",
+      "cree_le": "2026-10-08T16:21+00:00",
+      "liberation": 120.16000366210938,
+      "reserve_pct": null,
+      "score": 87.97117209878135,
+      "ordres": [
+        {
+          "ticker": "BN.PA",
+          "side": "buy",
+          "quantity": 2.0,
+          "price": 59.58000183105469,
+          "reason": "opportunité radar (score 88)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "BN.PA",
+        "nom": "Danone",
+        "isin": "FR0000120644",
+        "type": "action",
+        "prix": 59.58000183105469,
+        "score": 87.97117209878135,
+        "baisse": 0.2253932488645396,
+        "perf_5ans": 0.24355759830178814,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.09002067784256966,
+        "pos_12m": 0.756198347107438,
+        "n_12m": 726,
+        "base_moy_12m": 0.07872743244374017,
+        "pire_12m": -0.32096257203036627,
+        "vs_marche_3m": -0.21415168330380552,
+        "devise": "EUR",
+        "prix_eur": 59.58000183105469,
+        "fondamental": 91.5,
+        "fondamental_notes": [
+          "chiffre d'affaires +1.4% sur un an",
+          "bénéfices +12.4% sur un an",
+          "bénéfices attendus +40% sur 12 mois",
+          "analystes : « achat » (2.2/5, 22 avis)",
+          "objectif moyen des analystes : +34%",
+          "P/E attendu 13.9 (actuel 19.5)",
+          "marge nette 7%",
+          "dette / capitaux propres 99 %",
+          "🏷️ braderie probable : -21% vs marché en 3 mois, alors que les bénéfices attendus montent (+40%) et que les analystes restent à l'achat (+8 pts)"
+        ],
+        "score_global": 90.1,
+        "braderie": true
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, 6 article(s) à regarder (3 mois : -21% vs marché)",
+        "vs_marche_3m": -0.21415168330380552,
+        "alertes": [
+          {
+            "titre": "So Delicious Dairy Free® Issues Voluntary Recall of Salted Caramel Cluster Non-Dairy Frozen Dessert Pints Due to Potential Presence of Foreign Material - PR Newswire",
+            "lien": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNUDBOaEtHN2I2X21sb21fTGs4ZldXdlZ0aDM0QXVKemhwVkdGc1lkRTBiSjAyLW1leTJzdC1qQVdrVGxGLUJ4YXkwaUs1S2ZYNUtwYTlreWd2cC1hMXhkTzVRTkRZMWstakZUdW9IMnBqV3VFcE1Ua3pKQkpZNHoybzl6MXRPMWdQMDNWMTJYeWQtQmd1b2M2cmFkNjJ6NGFIRGdna3ZHaHRkdzRYVTFVQlY2UVFlT1hhcTdldkoxOG1ZN3pLY1lRblo3OFpQcTBhbGFnSmpXQ1JISEUwVEs0eFlJaWlvcXhVMG1xWGpiRFk2S29SNE84VUl6Z0liczdsV0lRVWotNk9JdTVjVF85TDdoSW81MzI4bzZPOTBfd2o4SVpka3FLcjF0TUZOU28?oc=5",
+            "date": "2026-09-15",
+            "source": "PR Newswire",
+            "gravite": 1,
+            "mots": [
+              "recall"
+            ]
+          },
+          {
+            "titre": "Danone USA Issues Product Recall for Salted Caramel Cluster Non-Dairy Frozen Dessert - AOL.com",
+            "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVVpqRExtSzIwblNzeDc5amZyT2E0aHFqVEVYOHF4aDRsYTlnQ0UwN1RFeG1USC1CaVc5aVBwYjctVlR5RGpNeTZUby1FSHVrTmh6bXJkUmhwUUl5N0tDV3AwbXNCRHItVUxPYnJVY08yR1ROV1lFck44Mi1sNEZmekNB?oc=5",
+            "date": "2026-09-16",
+            "source": "AOL.com",
+            "gravite": 1,
+            "mots": [
+              "recall"
+            ]
+          },
+          {
+            "titre": "Danone USA Issues Frozen Dairy-Free Pint Recall - TAPinto",
+            "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVzl2NFVfRVkxMks3NkRRSzlXSFF1OGktc21yTHhXbWlqek9EZjRIbmhWb2pIMkYwYi1rTWt6cC1ZLXFuQXg5MW5pRGJjeE1zQUpSQnNlbS1PVlAwWG9FdXktWmdHZ0FJR18xRThqS1NsbnlMYUJzbmtOYnhGeWJxRF9US3ZKVFpBTkd2MjFNc2FzZWJmeFZhLWVNVkVsNmhTYU1OUDV4WEZxV0JrVFNFdE4zLUNzU2VETllqSg?oc=5",
+            "date": "2026-09-18",
+            "source": "TAPinto",
+            "gravite": 1,
+            "mots": [
+              "recall"
+            ]
+          },
+          {
+            "titre": "Target and Walmart List So Delicious Recall; Danone Shares Fall 1.6% - TechStock²",
+            "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTWk5cF91eUFUeEZxVEVjQktCSVplTC1USnNpN0tNRHBVcGwwX2ZJS3ZFTjU4QW5NV1RTSjh3cUduSUVva1dLSUZlMjduU3hGbzRscjBDdmdYUTdTR2RXcy1hMFktc01TWl8xcl80ZGRuVEVhYkgtVi03QzJZOEEyWEVZUmJFcTZ3V0dvekd3eVE?oc=5",
+            "date": "2026-09-18",
+            "source": "TechStock²",
+            "gravite": 1,
+            "mots": [
+              "recall"
+            ]
+          },
+          {
+            "titre": "Check your freezers: Ice cream sold at Walmart and Target part of latest urgent recall - The Independent",
+            "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNWdpYzFXMGw5dUhhd2RPZUppQUNQdzJldlNYSk1oamw5a3VTc01sTlJmZG1DNlUyb1RfY2pKNHZ0NjNvVUtEaXh3YkZzRkktTGRPSDNHdG13TVdWNTQ0aDhuYUcxRXJGTWFOUklnaDNLRUFsQnFjeHpMYVZzS0dWVzFXQWlnZzR3Y0kwZmR0WnFxS3ZEcXZJVmw4VUxyQQ?oc=5",
+            "date": "2026-09-18",
+            "source": "The Independent",
+            "gravite": 1,
+            "mots": [
+              "recall"
+            ]
+          }
+        ],
+        "recents": [
+          {
+            "titre": "Action Danone : parmi les plus fortes hausses du CAC 40, le titre avance de 1,5 % - Ideal Investisseur",
+            "lien": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcDhHUmFGQ3E3dEZlWUl5LTZwenFlVlRpRGI0VF9xd3liRXFEWDNpVU5PX1IzUzc5RTZFSDdGV2FiQXRoU3FQaXBZUlZMMko0YmVKVk16bXVuU29La2VJUXlDYk00bWdIeFFsY01NRVdYOGNYR0JFdjkxYVFacWpHcV92bEtBbjFVX05aNmhwUjhtZXdCQzZud25kWnkyRUVVRUZZUnhBSWcySWQ3SWxTSkRZTGRkdS1UMHFxemVoX1duMF9rbVFSdE9n?oc=5",
+            "date": "2026-10-08",
+            "source": "Ideal Investisseur",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Danone se refait une santé mais les investisseurs boudent l'action, on en profitera - Investir Les Echos",
+            "lien": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVUpWcGFmT0xBUjZ5LVhCcXQyVXYyR05RS0FGb05lSmxxcExFVnVmTW5mbDk0VWlSbFZ3bkg3dmkwZWJ2Yng3a3V5TThkU25MQ3h0TmxDNHFXenBBQTVuWnJJa0ZiX2NkaENJOFpfekVmV0dQNnhOWlZLQS1iblJUVmpKeVp0V294SnJUbEk1SGNqN2VQVFM2STNBTjdiN2Q3S3JYdnJqanJDZEd4VV9OcGxmdjRsRVdUc3BsNXJFczRSMHRUUzkwQTZnMEZMZm11V25FaWRfdFdlT1dMdF9EQmZieU15MTA?oc=5",
+            "date": "2026-10-08",
+            "source": "Investir Les Echos",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "L'usine Danone de Steenvoorde détient depuis 2026 la plus grande ligne de production de nutrition médicale de France - Orange Actualités",
+            "lien": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNbVNuR1Y2LTgzX3RRZVFBaWplUjZuZXEtVTBjTW9lNW5vTGhfb1B4bks3dk14dW93Wmd1NGpyelcxOHRIQjZMMWtLemRHNWdqNUc3bmh6eVBRM0wxWFQyck5EREdMREZRYW8zNTlZNzdMNldrWlJSQ1l0aHJnWWoxc2pGd09fRndla1JxMG9lZWtjbmUtRjZLajREenVTbHA5Z0FXVkNXRHJjZ3FxbDNmTU15cWxtRHpIa3VaZmI4bmhCcWIzN21wNmYtV3hpSnlOcVF0aVpfTlgtX0c2WDRNNWxCcThGd1FWQWJnc2Q3WDdSSlFORHRHSVBCTmhSVDBKSkVsNXAwS2NiQQ?oc=5",
+            "date": "2026-10-08",
+            "source": "Orange Actualités",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Électrisé alors qu’il change un néon à Danone Steenvoorde, il est emmené à l’hôpital - La Voix du Nord",
+            "lien": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOXpxT2JnQ1RvVUVlM3FlQzBxUFNnZklKdVh3Z3RucWo3MF9yR3BfUnJYTWJHQnUxLUVHWmpCNHhULTFnR2RZck9rTnJQU0xHaElkVzhRTHRfeUhndmtlNGdKRG5qamxZbXRSQi16bC1fcTBOazhTVnVzR0hYdFFFXzNXbjF4Qk9ZVW5sOUw1YkszWjZzeXhWTk1IODEyZTBPSmRfNWZTTm1Wc0tMdWtVdlNrMnNLdkdqam9lSXRGeDIwSzZaZWhwa3Y5Y09vTnc?oc=5",
+            "date": "2026-10-08",
+            "source": "La Voix du Nord",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Danone S.A. (DANOY) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+            "lien": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaR01ucjhiRnhqUUl0bVMtU2VPVzctell4THR2WXZOcmRWeEVIa2ktemdzLTBnanduMEVoa0ZNd0xaOVZGWnkycWFxV0Z2T20tNmFR?oc=5",
+            "date": "2026-10-08",
+            "source": "Yahoo! Finance Canada",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 52,
       "decision": "sans réponse"
     }
   ]
