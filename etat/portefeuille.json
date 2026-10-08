@@ -18,101 +18,60 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-08",
-    "cree_le": "2026-10-08T05:48+00:00",
-    "liberation": 110.4026465153052,
+    "cree_le": "2026-10-08T06:24+00:00",
+    "liberation": 292.51726571792045,
     "reserve_pct": null,
-    "score": 91.25394323700307,
+    "score": 90.60301176893465,
     "ordres": [
       {
-        "ticker": "FAF",
+        "ticker": "GD",
         "side": "buy",
-        "quantity": 2.0,
-        "price": 54.7013232576526,
+        "quantity": 1.0,
+        "price": 291.51726571792045,
         "reason": "opportunité radar (score 91)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "FAF",
-      "nom": "First American Financial Corporation",
-      "isin": "FAF",
+      "ticker": "GD",
+      "nom": "General Dynamics",
+      "isin": "GD",
       "type": "action",
-      "prix": 61.290000915527344,
-      "score": 91.25394323700307,
-      "baisse": 0.21855234673018065,
-      "perf_5ans": 0.0889533173150141,
+      "prix": 326.6300048828125,
+      "score": 90.60301176893465,
+      "baisse": 0.1751142665457689,
+      "perf_5ans": 0.850579409833027,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.23134492613398164,
-      "pos_12m": 0.8962108731466227,
-      "n_12m": 607,
-      "base_moy_12m": 0.13541287035381744,
-      "pire_12m": -0.30305843822027245,
-      "vs_marche_3m": -0.15510390985579925,
+      "moy_12m": 0.21800815778328703,
+      "pos_12m": 0.7931844888366627,
+      "n_12m": 851,
+      "base_moy_12m": 0.15227048766146042,
+      "pire_12m": -0.5526380241730118,
+      "vs_marche_3m": -0.16372321912518983,
       "devise": "USD",
-      "prix_eur": 54.7013232576526,
-      "fondamental": 92.5,
+      "prix_eur": 291.51726571792045,
+      "fondamental": 91.0,
       "fondamental_notes": [
-        "chiffre d'affaires +15.0% sur un an",
-        "bénéfices +50.4% sur un an",
-        "bénéfices attendus +2% sur 12 mois",
-        "analystes : « achat fort » (1.3/5, 6 avis)",
-        "objectif moyen des analystes : +41%",
-        "P/E attendu 8.4 (actuel 8.5)",
-        "marge nette 9%",
-        "dette / capitaux propres 49 %"
+        "chiffre d'affaires +8.1% sur un an",
+        "bénéfices +13.4% sur un an",
+        "bénéfices attendus +13% sur 12 mois",
+        "analystes : « achat » (2.1/5, 21 avis)",
+        "objectif moyen des analystes : +27%",
+        "P/E attendu 17.6 (actuel 19.9)",
+        "marge nette 8%",
+        "dette / capitaux propres 35 %"
       ],
-      "score_global": 92.0
+      "score_global": 90.8
     },
     "actualites": {
-      "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -16% vs marché)",
-      "vs_marche_3m": -0.15510390985579925,
+      "verdict": "inconnu",
+      "resume": "actualités indisponibles (HTTPError)",
+      "vs_marche_3m": -0.16372321912518983,
       "alertes": [],
-      "recents": [
-        {
-          "titre": "First American Financial stock heads toward October 21 earnings - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVXlxNlY5c2hKMkV6TW45V3VkTEt2N0ZBZGl5Sk1nbWR5eXB1VmYzNXljQTRLb2RVV0d5cUtMaFJtNExSVWtyUEl5SVBrQTZwRjluaTdsWVpCTnNVSTlOQUhxQTFGaUpISE5MM2lZUVd3MVRXc1BWSWc5RkNoTVVfdnI4WHJwNmQyVWZBRWV3Z1R1S3hwTkRtSVZHdmU0bzU1TTVqeG9NOHNaNzdsMDU4V2sycXJjclVoZzEwVDlORQ?oc=5",
-          "date": "2026-10-08",
-          "source": "AD HOC NEWS",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "First American Financial Announces Third Quarter 2026 Earnings Conference Call - FinancialContent",
-          "lien": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNQjR5dnNoY25wanhlMWpDOVJBTlZrNGE2R1dNcmd3VkE3YlZEb0gtQklSd01WNjhDcW5ObFJZTGpfT2R3em9PYjZXRFFnNTJsN0lyNlNkVDNsSUdJbGZXMjk5bXdSQ1VZVEU3OXV0bVZ1MGNRczJZc3FMbFZTQTlWUVdPNjBBakJJTGx0RE82c1VyR3ZsMkVXODFseUI5dDhNcG9kcUsxbWMzNlNTVHBZMUo4NTczYlVwUU1OMTJuVzJCTnNCcWlPb1ZoQnZuaGFFUVFMQWpUZ0NUUmNFOXdMX0h3?oc=5",
-          "date": "2026-10-07",
-          "source": "FinancialContent",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "First American Financial Corporation (FAF) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE81ckd4N2pXQ3k3MW56YW15aVlSVkZ0cWNBVXRyRnBkcGdudF9YTml6emdIei1oQlZIUHlpWGJJX0JBd09MSVZNWDY2Njh4bVZ6?oc=5",
-          "date": "2026-10-06",
-          "source": "Yahoo! Finance Canada",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Barclays cuts target for First American Financial stock from USD 83.00 to USD 79.00 - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOU3Q3MlZyQ1ZMTFFoUEZScFJJZUZ0MUFBaE84bG5GLTFGcWJOaTM2d3BGRFZISXFsRUJLczFJWVlROFh4S3ZVdkxtMkQ1LWtRemhHajdqd09IWHFneXRTYUtrSFkxUXdvM1J3c3JvUEU4czVXRjVvYTNCaGtzR0ZMNzZ0Tm9BQW5FU0xXcVM3aE9oNG5MU1RmeU1KX3lqRU9nOENpZy1CTGlxa2pseXpWeTREUXM5cDBwVlBtczEyZDcyRGYyVURYTGM5TVFWTU5vVTJyUFBrSTl0Zw?oc=5",
-          "date": "2026-10-06",
-          "source": "AD HOC NEWS",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "First American Celebrates a Decade as One of the Best Workplaces in Financial Services & Insurance™, According to Great Place to Work® and Fortune - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZFNLdWFfQXVPYXFTLW1VNjY3ZWZEZFVfcFJiRV8teG5ZbkFMWFBRQkdRWTVOOHowbWpCanJXSzlZZVpwR2p3MEd0N3RteXV6TGZNTnhVeFJFal96ZFpvb2FQWVp0T1V0dTVrY0ZIN3JyRWg0azI2eGx2NFgtQlBvVHhlRnFudGlYWHNDRXJ4WHczeU1GLWt5Y1pjWGlTa00?oc=5",
-          "date": "2026-10-06",
-          "source": "Yahoo Finance",
-          "gravite": 0,
-          "mots": []
-        }
-      ]
+      "recents": []
     },
-    "ticket": 36
+    "ticket": 37
   },
   "radar_proposes": [
     "MCD",
@@ -153,7 +112,8 @@
     "RBA",
     "KKR",
     "SYK",
-    "FAF"
+    "FAF",
+    "GD"
   ],
   "achats": [],
   "historique": [
@@ -3449,6 +3409,106 @@
         ]
       },
       "ticket": 35,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-08",
+      "cree_le": "2026-10-08T05:48+00:00",
+      "liberation": 110.4026465153052,
+      "reserve_pct": null,
+      "score": 91.25394323700307,
+      "ordres": [
+        {
+          "ticker": "FAF",
+          "side": "buy",
+          "quantity": 2.0,
+          "price": 54.7013232576526,
+          "reason": "opportunité radar (score 91)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "FAF",
+        "nom": "First American Financial Corporation",
+        "isin": "FAF",
+        "type": "action",
+        "prix": 61.290000915527344,
+        "score": 91.25394323700307,
+        "baisse": 0.21855234673018065,
+        "perf_5ans": 0.0889533173150141,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.23134492613398164,
+        "pos_12m": 0.8962108731466227,
+        "n_12m": 607,
+        "base_moy_12m": 0.13541287035381744,
+        "pire_12m": -0.30305843822027245,
+        "vs_marche_3m": -0.15510390985579925,
+        "devise": "USD",
+        "prix_eur": 54.7013232576526,
+        "fondamental": 92.5,
+        "fondamental_notes": [
+          "chiffre d'affaires +15.0% sur un an",
+          "bénéfices +50.4% sur un an",
+          "bénéfices attendus +2% sur 12 mois",
+          "analystes : « achat fort » (1.3/5, 6 avis)",
+          "objectif moyen des analystes : +41%",
+          "P/E attendu 8.4 (actuel 8.5)",
+          "marge nette 9%",
+          "dette / capitaux propres 49 %"
+        ],
+        "score_global": 92.0
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -16% vs marché)",
+        "vs_marche_3m": -0.15510390985579925,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "First American Financial stock heads toward October 21 earnings - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVXlxNlY5c2hKMkV6TW45V3VkTEt2N0ZBZGl5Sk1nbWR5eXB1VmYzNXljQTRLb2RVV0d5cUtMaFJtNExSVWtyUEl5SVBrQTZwRjluaTdsWVpCTnNVSTlOQUhxQTFGaUpISE5MM2lZUVd3MVRXc1BWSWc5RkNoTVVfdnI4WHJwNmQyVWZBRWV3Z1R1S3hwTkRtSVZHdmU0bzU1TTVqeG9NOHNaNzdsMDU4V2sycXJjclVoZzEwVDlORQ?oc=5",
+            "date": "2026-10-08",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "First American Financial Announces Third Quarter 2026 Earnings Conference Call - FinancialContent",
+            "lien": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNQjR5dnNoY25wanhlMWpDOVJBTlZrNGE2R1dNcmd3VkE3YlZEb0gtQklSd01WNjhDcW5ObFJZTGpfT2R3em9PYjZXRFFnNTJsN0lyNlNkVDNsSUdJbGZXMjk5bXdSQ1VZVEU3OXV0bVZ1MGNRczJZc3FMbFZTQTlWUVdPNjBBakJJTGx0RE82c1VyR3ZsMkVXODFseUI5dDhNcG9kcUsxbWMzNlNTVHBZMUo4NTczYlVwUU1OMTJuVzJCTnNCcWlPb1ZoQnZuaGFFUVFMQWpUZ0NUUmNFOXdMX0h3?oc=5",
+            "date": "2026-10-07",
+            "source": "FinancialContent",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "First American Financial Corporation (FAF) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+            "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE81ckd4N2pXQ3k3MW56YW15aVlSVkZ0cWNBVXRyRnBkcGdudF9YTml6emdIei1oQlZIUHlpWGJJX0JBd09MSVZNWDY2Njh4bVZ6?oc=5",
+            "date": "2026-10-06",
+            "source": "Yahoo! Finance Canada",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Barclays cuts target for First American Financial stock from USD 83.00 to USD 79.00 - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOU3Q3MlZyQ1ZMTFFoUEZScFJJZUZ0MUFBaE84bG5GLTFGcWJOaTM2d3BGRFZISXFsRUJLczFJWVlROFh4S3ZVdkxtMkQ1LWtRemhHajdqd09IWHFneXRTYUtrSFkxUXdvM1J3c3JvUEU4czVXRjVvYTNCaGtzR0ZMNzZ0Tm9BQW5FU0xXcVM3aE9oNG5MU1RmeU1KX3lqRU9nOENpZy1CTGlxa2pseXpWeTREUXM5cDBwVlBtczEyZDcyRGYyVURYTGM5TVFWTU5vVTJyUFBrSTl0Zw?oc=5",
+            "date": "2026-10-06",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "First American Celebrates a Decade as One of the Best Workplaces in Financial Services & Insurance™, According to Great Place to Work® and Fortune - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZFNLdWFfQXVPYXFTLW1VNjY3ZWZEZFVfcFJiRV8teG5ZbkFMWFBRQkdRWTVOOHowbWpCanJXSzlZZVpwR2p3MEd0N3RteXV6TGZNTnhVeFJFal96ZFpvb2FQWVp0T1V0dTVrY0ZIN3JyRWg0azI2eGx2NFgtQlBvVHhlRnFudGlYWHNDRXJ4WHczeU1GLWt5Y1pjWGlTa00?oc=5",
+            "date": "2026-10-06",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 36,
       "decision": "sans réponse"
     }
   ]
