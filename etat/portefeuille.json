@@ -18,101 +18,101 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-08",
-    "cree_le": "2026-10-08T08:20+00:00",
-    "liberation": 104.3068701663081,
+    "cree_le": "2026-10-08T08:50+00:00",
+    "liberation": 112.97304394371274,
     "reserve_pct": null,
-    "score": 92.34617740222659,
+    "score": 92.16966595008617,
     "ordres": [
       {
-        "ticker": "ARES",
+        "ticker": "WPC",
         "side": "buy",
-        "quantity": 1.0,
-        "price": 103.3068701663081,
+        "quantity": 2.0,
+        "price": 55.98652197185637,
         "reason": "opportunité radar (score 92)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "ARES",
-      "nom": "Ares Management",
-      "isin": "ARES",
+      "ticker": "WPC",
+      "nom": "W. P. Carey",
+      "isin": "WPC",
       "type": "action",
-      "prix": 115.75,
-      "score": 92.34617740222659,
-      "baisse": 0.32388523345717224,
-      "perf_5ans": 0.8410760275304963,
+      "prix": 62.72999954223633,
+      "score": 92.16966595008617,
+      "baisse": 0.1700822191416288,
+      "perf_5ans": 0.16956090612470875,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.408835545938568,
-      "pos_12m": 0.7298850574712644,
-      "n_12m": 174,
-      "base_moy_12m": 0.3436419477490336,
-      "pire_12m": -0.3121130882764349,
-      "vs_marche_3m": -0.07284979371358458,
+      "moy_12m": 0.14730797238903157,
+      "pos_12m": 0.7643630308076603,
+      "n_12m": 1201,
+      "base_moy_12m": 0.12704584503999874,
+      "pire_12m": -0.3746351447698858,
+      "vs_marche_3m": -0.13835899838749788,
       "devise": "USD",
-      "prix_eur": 103.3068701663081,
+      "prix_eur": 55.98652197185637,
       "fondamental": 80.5,
       "fondamental_notes": [
-        "chiffre d'affaires +9.6% sur un an",
-        "bénéfices +6.5% sur un an",
-        "bénéfices attendus +229% sur 12 mois",
-        "analystes : « achat » (1.9/5, 20 avis)",
-        "objectif moyen des analystes : +27%",
-        "P/E attendu 16.2 (actuel 53.3)",
-        "marge nette 12%",
-        "dette / capitaux propres 172 %"
+        "chiffre d'affaires +18.4% sur un an",
+        "bénéfices +256.5% sur un an",
+        "bénéfices attendus +8% sur 12 mois",
+        "analystes : « achat » (2.2/5, 14 avis)",
+        "objectif moyen des analystes : +25%",
+        "P/E attendu 19.9 (actuel 21.5)",
+        "marge nette 36%",
+        "dette / capitaux propres 102 %"
       ],
       "score_global": 85.2
     },
     "actualites": {
       "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -7% vs marché)",
-      "vs_marche_3m": -0.07284979371358458,
+      "resume": "rien d'alarmant dans l'actualité (3 mois : -14% vs marché)",
+      "vs_marche_3m": -0.13835899838749788,
       "alertes": [],
       "recents": [
         {
-          "titre": "Update: Market Chatter: Ares Management to Recoup Only Half of TalkTalk Investment in BT Deal - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWjB2Yi1BVWlQaUNiVGVLbDQxVVF5anNOR2RVMTduZ2RsV3dvRVFvNnRybm4xU0dMQzl2RWlTWnFLc19WU2FBOGFIVThHRU5nT2Z4QjN5X3Y4Y0k4R3cyQ25FcVhOV3k3OVhWSVZHLXAwOGZweTVETjRWUW8yY1BDY01OVGRCaExBVS1uZm9QMXBkZzBZYk5SZUFpeDRmb05XRDhDNQ?oc=5",
+          "titre": "5 Questions With: Rebecca Mallen-Churchill, Senior Director Of Admissions At ASU's W.P. Carey - Poets&Quants",
+          "lien": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPcDY2U0oxbTVwbVplWmV6Tk9GQVJEZTFReDF0cXdka2pkUWVGQUdoTzlPeUJqN3NScU5MNjdKVGRtU1JvYjY1d3c1dlJIS0h2WDVybUpmTHZHS2hxbmtqUU1YYjFBZTBIV21WTmY4bjVZWGh2WGI4c2VGVEU3b0pqRFVhM1pVemxIcEc3cExWajQ3VkdHVFFtbUtKYThETEpMeUxBeXlBNUtpOEV3OHRSYUp1YUNSTlZ1c0RnNW1nenc4UzRUWEhiVy1MVHAybEt5ajlGZWRYYmFZVFI2OHhKNnQ5SEd1eUlCX0RyZk1pblAtRm8?oc=5",
+          "date": "2026-10-08",
+          "source": "Poets&Quants",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "W. P. Carey stock heads into October 27 results at USD 62.73 - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZG8wMno3WVVXRHk0b19KSDdueC1jUlpxZ1prM2ZIUnVWZEh1S1hlbzdyd2hzMVhPTXBVaGVxUEdfeVEycGVMX01ISlB3RDhscWh6Z3dnZ1hiWXFPaFFveHUySi1PQUhNNFJVQkhvZ0VKVTdEQV9XR1dWNHdRMFhVOHJfMGhDaXR4Q0tybGd3QmY1aGpBRlJXdkt5UHV2ZGdNR1I5cFJIYjk2dU5PUll4U2tyb0xfZHQz?oc=5",
+          "date": "2026-10-08",
+          "source": "AD HOC NEWS",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "W P Carey stock hits 52-week low at 63.08 USD - Investing.com",
+          "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPelRwLTFUQmVqUzhQeTNXcXRRREEtRER6Nm1yenozUW5ZdW41VkhCbHk0R0YxQ09hUGI5LXJybVl3M2NOZlRrdkxMR1UxaDhKTTh0T3l0d0YtQ2hld3EweEpYa3NSUXdFWUVnYmpXVUhqX24tekZkQndlZ2M4LUFnRGJSME5UR0NSMlRuQkRtUk5SSzVrRmNyTGUzSVRyRzNuLVE?oc=5",
+          "date": "2026-10-07",
+          "source": "Investing.com",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "W.P. Carey (NYSE:WPC) Reaches New 52-Week Low - Here's Why - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONUhqNkpBX0dqT0ZTRXJHNXBLZ0pWZkY4aTdHLXlpdWNkTUxxUEZjSEFveW1ZcTlZSjhtc1p4d2xJbkFRMzFtT2swSFY5RGh6YTBzUlJxVDBCeWdSbnNlWjRMWnVuZmZOMGJ3SDJxcU9XTmwwcHZzbUZKOGUxY2JGSmMwR1g0cE84R08zWk1LZzVBbUo1SEoxdlU4VWRRd1lDbnNnWEJXMlVnVjNJMWJIOA?oc=5",
+          "date": "2026-10-07",
+          "source": "MarketBeat",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "W. P. Carey Inc. REIT (WPC) Stock Forecasts - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRzJraldZb3cta3o0TTJ4Y1lXa3llNTNRRDNLQnBBR2pOcWRsRGhFYTFXb2wtVDVHRWtHbE1IMzRaNFRFTHNSMkpyZWJ1aFZuVzlveHZjaXg2RjdPN0lJWXFZVlVkOTh5WUUtSDBJWUVweW9URlJSV1VrRVdyb2ppdmFSQmR2enp1VEhNb2tzWQ?oc=5",
           "date": "2026-10-07",
           "source": "Yahoo Finance",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Ares Management to Recoup Only Half of TalkTalk Investment in BT Deal - marketscreener.com",
-          "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcHJDNE54NWdpNndTRkd2cXZEV0ppNmwyRFRGS2pCN0JzemVFanowdGZ3alZYNFl5OUVuTDRnaHFQNWtkQ3NuNTZrZ1JxT1UwMW1McFc0SXItaHM2bEliWlZkRzlrYldsc2k0VmUyWFJwcnAzaGtIRk9vRFo4STRtbGdOYV92R1VlemFlSHFUNEVTdk5YYW5pNGRDMHFiZExFZXBvQ2NTQk8ybUwzNHZKeTdVLWxRNUp5VDhGcWQ5bw?oc=5",
-          "date": "2026-10-07",
-          "source": "marketscreener.com",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Ares Management Corporation : Jefferies & Co. neutre sur le dossier - Zonebourse Suisse",
-          "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOEJsemxnTUt4LWV0TmRJalgtUGg1YU4xSzRETVpvdzh1Z1hyNTBaREdsNUk3VHVwMFo5Z1p5TFZnbWhFa085MmhvU3NJcTk4ZjF5ODEtUV9OSmpTajdvb0Eya1BqTHBiUC1nYW51ZHl4VEtGT2JyOFpfMW5WSndwYTczdXZubHhiX1pZa2tlcUtXYUVIZ3NjdzdXb0ZOYXFtTkhWOXUtMloyS3VsOHdEMmpJYUJ4RWZveVNLQng0cw?oc=5",
-          "date": "2026-10-06",
-          "source": "Zonebourse Suisse",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Ares Management ne récupérera que la moitié de son investissement dans TalkTalk après l’accord avec BT - Zonebourse Suisse",
-          "lien": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNRHFWd2JBREJ1MGdPWFpkd0xweEE0M3JWaVVRT0d2TDNBbUhPVnRzMFk2N0hmOUNwbFo5Y1VJZXRESjhrdnFjaVNLQ0lKUzZCd2RJa3ZHOUFEaXBrT1JOMkhTLVF3UXk4YWRfenM4ZS1VcmpaLWRjQ3NqYTM2OFptVS1UZXNWUktxbFZNUEZaalJRN2wxRmpjY3ZRLTJQdUw3Yk5GZUxoQWhfMlVLNjl4REpfcFlTSGUzbDdYZG5JM2oyTkZPVFBHNTFhNG5ZOHpkUDVnYVlvX2ltblc0OHlfVElmbHJZNlc1ckQ1ZXdDYUQ?oc=5",
-          "date": "2026-10-06",
-          "source": "Zonebourse Suisse",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Ares Faces 50% Loss on Cash Piled Into TalkTalk With BT Deal - Bloomberg.com",
-          "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONmpwNF9pcXZDdUtWMmFXTEN4S3hWVmpCQzFIZTR2RGxzOU5SSzlmUEwxYlR0bVRncXBwZTdSTDI0UzZmRDdYd05Kc0U2RkxIS3hjRUY5dVpTMVhaRkdxM2xwRHBzMG5zeXJobFpFR1Z1Q3U1ckVZRFBnQXRSNlQ5NjV3Q3k5NHFOLTExY0o5UnZZeGhsWVllVEt0OWdZcmVmTHRHOHZ5TTZUT1BOdEd2cG1sVzU?oc=5",
-          "date": "2026-10-06",
-          "source": "Bloomberg.com",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 40
+    "ticket": 41
   },
   "radar_proposes": [
     "MCD",
@@ -159,7 +159,8 @@
     "AKR",
     "TDG",
     "OGS",
-    "ARES"
+    "ARES",
+    "WPC"
   ],
   "achats": [],
   "historique": [
@@ -3814,6 +3815,106 @@
         ]
       },
       "ticket": 39,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-08",
+      "cree_le": "2026-10-08T08:20+00:00",
+      "liberation": 104.3068701663081,
+      "reserve_pct": null,
+      "score": 92.34617740222659,
+      "ordres": [
+        {
+          "ticker": "ARES",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 103.3068701663081,
+          "reason": "opportunité radar (score 92)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "ARES",
+        "nom": "Ares Management",
+        "isin": "ARES",
+        "type": "action",
+        "prix": 115.75,
+        "score": 92.34617740222659,
+        "baisse": 0.32388523345717224,
+        "perf_5ans": 0.8410760275304963,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.408835545938568,
+        "pos_12m": 0.7298850574712644,
+        "n_12m": 174,
+        "base_moy_12m": 0.3436419477490336,
+        "pire_12m": -0.3121130882764349,
+        "vs_marche_3m": -0.07284979371358458,
+        "devise": "USD",
+        "prix_eur": 103.3068701663081,
+        "fondamental": 80.5,
+        "fondamental_notes": [
+          "chiffre d'affaires +9.6% sur un an",
+          "bénéfices +6.5% sur un an",
+          "bénéfices attendus +229% sur 12 mois",
+          "analystes : « achat » (1.9/5, 20 avis)",
+          "objectif moyen des analystes : +27%",
+          "P/E attendu 16.2 (actuel 53.3)",
+          "marge nette 12%",
+          "dette / capitaux propres 172 %"
+        ],
+        "score_global": 85.2
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -7% vs marché)",
+        "vs_marche_3m": -0.07284979371358458,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Update: Market Chatter: Ares Management to Recoup Only Half of TalkTalk Investment in BT Deal - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWjB2Yi1BVWlQaUNiVGVLbDQxVVF5anNOR2RVMTduZ2RsV3dvRVFvNnRybm4xU0dMQzl2RWlTWnFLc19WU2FBOGFIVThHRU5nT2Z4QjN5X3Y4Y0k4R3cyQ25FcVhOV3k3OVhWSVZHLXAwOGZweTVETjRWUW8yY1BDY01OVGRCaExBVS1uZm9QMXBkZzBZYk5SZUFpeDRmb05XRDhDNQ?oc=5",
+            "date": "2026-10-07",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Ares Management to Recoup Only Half of TalkTalk Investment in BT Deal - marketscreener.com",
+            "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcHJDNE54NWdpNndTRkd2cXZEV0ppNmwyRFRGS2pCN0JzemVFanowdGZ3alZYNFl5OUVuTDRnaHFQNWtkQ3NuNTZrZ1JxT1UwMW1McFc0SXItaHM2bEliWlZkRzlrYldsc2k0VmUyWFJwcnAzaGtIRk9vRFo4STRtbGdOYV92R1VlemFlSHFUNEVTdk5YYW5pNGRDMHFiZExFZXBvQ2NTQk8ybUwzNHZKeTdVLWxRNUp5VDhGcWQ5bw?oc=5",
+            "date": "2026-10-07",
+            "source": "marketscreener.com",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Ares Management Corporation : Jefferies & Co. neutre sur le dossier - Zonebourse Suisse",
+            "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOEJsemxnTUt4LWV0TmRJalgtUGg1YU4xSzRETVpvdzh1Z1hyNTBaREdsNUk3VHVwMFo5Z1p5TFZnbWhFa085MmhvU3NJcTk4ZjF5ODEtUV9OSmpTajdvb0Eya1BqTHBiUC1nYW51ZHl4VEtGT2JyOFpfMW5WSndwYTczdXZubHhiX1pZa2tlcUtXYUVIZ3NjdzdXb0ZOYXFtTkhWOXUtMloyS3VsOHdEMmpJYUJ4RWZveVNLQng0cw?oc=5",
+            "date": "2026-10-06",
+            "source": "Zonebourse Suisse",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Ares Management ne récupérera que la moitié de son investissement dans TalkTalk après l’accord avec BT - Zonebourse Suisse",
+            "lien": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNRHFWd2JBREJ1MGdPWFpkd0xweEE0M3JWaVVRT0d2TDNBbUhPVnRzMFk2N0hmOUNwbFo5Y1VJZXRESjhrdnFjaVNLQ0lKUzZCd2RJa3ZHOUFEaXBrT1JOMkhTLVF3UXk4YWRfenM4ZS1VcmpaLWRjQ3NqYTM2OFptVS1UZXNWUktxbFZNUEZaalJRN2wxRmpjY3ZRLTJQdUw3Yk5GZUxoQWhfMlVLNjl4REpfcFlTSGUzbDdYZG5JM2oyTkZPVFBHNTFhNG5ZOHpkUDVnYVlvX2ltblc0OHlfVElmbHJZNlc1ckQ1ZXdDYUQ?oc=5",
+            "date": "2026-10-06",
+            "source": "Zonebourse Suisse",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Ares Faces 50% Loss on Cash Piled Into TalkTalk With BT Deal - Bloomberg.com",
+            "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONmpwNF9pcXZDdUtWMmFXTEN4S3hWVmpCQzFIZTR2RGxzOU5SSzlmUEwxYlR0bVRncXBwZTdSTDI0UzZmRDdYd05Kc0U2RkxIS3hjRUY5dVpTMVhaRkdxM2xwRHBzMG5zeXJobFpFR1Z1Q3U1ckVZRFBnQXRSNlQ5NjV3Q3k5NHFOLTExY0o5UnZZeGhsWVllVEt0OWdZcmVmTHRHOHZ5TTZUT1BOdEd2cG1sVzU?oc=5",
+            "date": "2026-10-06",
+            "source": "Bloomberg.com",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 40,
       "decision": "sans réponse"
     }
   ]
