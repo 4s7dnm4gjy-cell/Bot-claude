@@ -18,102 +18,102 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-08",
-    "cree_le": "2026-10-08T13:49+00:00",
-    "liberation": 115.00548499371128,
+    "cree_le": "2026-10-08T14:21+00:00",
+    "liberation": 188.3700338250156,
     "reserve_pct": null,
-    "score": 87.71403380397854,
+    "score": 87.73867712638574,
     "ordres": [
       {
-        "ticker": "PIPR",
+        "ticker": "STE",
         "side": "buy",
-        "quantity": 2.0,
-        "price": 57.00274249685564,
+        "quantity": 1.0,
+        "price": 187.3700338250156,
         "reason": "opportunité radar (score 88)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "PIPR",
-      "nom": "Piper Sandler Companies",
-      "isin": "PIPR",
+      "ticker": "STE",
+      "nom": "Steris",
+      "isin": "STE",
       "type": "action",
-      "prix": 63.790000915527344,
-      "score": 87.71403380397854,
-      "baisse": 0.30860599615647966,
-      "perf_5ans": 1.1470482328018128,
+      "prix": 209.67999267578125,
+      "score": 87.73867712638574,
+      "baisse": 0.2127970431170091,
+      "perf_5ans": 0.07496556831023526,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.2566038051646401,
-      "pos_12m": 0.6099585062240664,
-      "n_12m": 482,
-      "base_moy_12m": 0.17689833130273372,
-      "pire_12m": -0.5073122294587886,
-      "vs_marche_3m": -0.15538402932654272,
+      "moy_12m": 0.21434761576973888,
+      "pos_12m": 0.913312693498452,
+      "n_12m": 646,
+      "base_moy_12m": 0.13453802778264595,
+      "pire_12m": -0.17785929147027124,
+      "vs_marche_3m": -0.05107639341123038,
       "devise": "USD",
-      "prix_eur": 57.00274249685564,
-      "fondamental": 96.0,
+      "prix_eur": 187.3700338250156,
+      "fondamental": 95.0,
       "fondamental_notes": [
-        "chiffre d'affaires +24.9% sur un an",
-        "bénéfices +61.0% sur un an",
-        "bénéfices attendus +27% sur 12 mois",
-        "analystes : « achat » (2.0/5, 4 avis)",
-        "objectif moyen des analystes : +27%",
-        "P/E attendu 11.6 (actuel 14.8)",
-        "marge nette 15%",
-        "dette / capitaux propres 11 %"
+        "chiffre d'affaires +7.3% sur un an",
+        "bénéfices +14.0% sur un an",
+        "bénéfices attendus +50% sur 12 mois",
+        "analystes : « achat fort » (1.8/5, 8 avis)",
+        "objectif moyen des analystes : +25%",
+        "P/E attendu 17.1 (actuel 25.6)",
+        "marge nette 13%",
+        "dette / capitaux propres 28 %"
       ],
-      "score_global": 92.7,
+      "score_global": 92.1,
       "braderie": false
     },
     "actualites": {
-      "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -16% vs marché)",
-      "vs_marche_3m": -0.15538402932654272,
+      "verdict": "vert",
+      "resume": "rien d'alarmant dans l'actualité (3 mois : -5% vs marché)",
+      "vs_marche_3m": -0.05107639341123038,
       "alertes": [],
       "recents": [
         {
-          "titre": "Piper Sandler Companies (PIPR) Opens London Infrastructure Debt Team Led By Three Veterans - Simply Wall Street",
-          "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOcENLTFJtaDg2SEd1VndvcHZ5UlhjRy02QmtCNFZQa3FndHBQd1hVRVNxOURCamVWSXlTWXQ5M1oxRXQtblczYWNoQk13TnRqRGZjZnhGQUhnUVUzdVFyQXpVMXVaUXk2S19UQ1VNZ3dnbVA5OE10N3REbHlkOTJzZ2tNcmlMdDBNUkFxUDZYUEFma00wX3V3WGNSZnc0V2FmWEUxMUVLeDlLRS1sa0loei1rdVlLSS1MMGJQRGMzWS1YNWxpUVQyWW82UGotTnp0T3ZBSEZjNmZjWkJVOVloZ2hUemJ0bEd4Ykl6NU5zc9IB7wFBVV95cUxOcENLTFJtaDg2SEd1VndvcHZ5UlhjRy02QmtCNFZQa3FndHBQd1hVRVNxOURCamVWSXlTWXQ5M1oxRXQtblczYWNoQk13TnRqRGZjZnhGQUhnUVUzdVFyQXpVMXVaUXk2S19UQ1VNZ3dnbVA5OE10N3REbHlkOTJzZ2tNcmlMdDBNUkFxUDZYUEFma00wX3V3WGNSZnc0V2FmWEUxMUVLeDlLRS1sa0loei1rdVlLSS1MMGJQRGMzWS1YNWxpUVQyWW82UGotTnp0T3ZBSEZjNmZjWkJVOVloZ2hUemJ0bEd4Ykl6NU5zcw?oc=5",
+          "titre": "Irradiation Sterilization Services Market to Expand at 13% CAGR Until 2030, Steris Holding 13% Market Share - EIN News",
+          "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcUpSc0p6SGRPUUhiS2RacjJXRUNLOFZZSkJkblBZVFpNNzVSc0FDc0xHeHMzQmJCUHN6NDhpWWFBY0ZrNVB2Q0VhRHNMa3ZkZ1hHaUdKZHlfLTBtMGFWNmk0TkE3VlJ4elhRRlVSSUszSlV0amd1dDYxRWEzVzFKT2JVeVFvRUZjQlhzU2tPeDBybEVZN1p6T0VYYW1mc2FqX0dkdzNfNkhzZG9MSG1KTW9IcmNEa3lzeTIzV25NWVRuZVRSc29WUmMzUG5zeklpcFpHYmt5YWdhcjYyS0M4?oc=5",
           "date": "2026-10-08",
-          "source": "Simply Wall Street",
+          "source": "EIN News",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "L’action Piper Sandler atteint un plus bas de 52 semaines à 62,88 USD - Investing.com France",
-          "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVHRhblJLRldBd0ZtRVBjSTU4QUpQU0pFaEZvYXR0ejJiMFZ1VzRSdGVWbThkM01HUHJGdmtWTlp0SUdndXF4eEU0SDNybmg5bGFWSWQtMXh2Z0UtRldPMUxET3pMVGQ3VVJydXdvemdNZ2pmZk1VV2xNbk51ckJreVp1UUxtUm1ya1YyUnZSQWpqS1FFTlFMVWlCYVZXR1duSG9EOHQ5NEZKZTIzeXM2QUFXWUNzWEpCUlBwZ0R4S1Q?oc=5",
-          "date": "2026-10-07",
-          "source": "Investing.com France",
+          "titre": "STERIS plc (Ireland) (STE) Stock Forecasts - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQ2EwTXlQMEtNS084QXI2VlZZVkx4Vm0waDFxS2FISzNfd0VHbG9rdi1NSDBKVDNuQW5ZWDRkbFp2TldteVJ0R25fVGtDbUJaOWJfeWVRQkNibDY0WFJ0WWlxeHBJai1kUUN4WFJpbGVkSDBFTzE4YVZWcV9ZU080aWo0UmJQT1dhUmZIdmt5MA?oc=5",
+          "date": "2026-10-08",
+          "source": "Yahoo Finance",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Le fabricant de dispositifs médicaux Centinel Spine dévoile une hausse de son chiffre d’affaires dans son dossier d’introduction en bourse aux États-Unis - Zonebourse Suisse",
-          "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPdGR4OEZ2Y056T1laRVltc0xMeXI2ampSOUs3LUdBOFZkQzY2akFBc2NmbjNEZ2tYTkNSRGFreWQ2Ymp5ZnpDYjRjSnJYR2UzMkdFSE5iMUJ6SUtTZllyZkthXzM3a0tvUFJPUXVyUDV1akRUVkl1RVZIWHdSOGtjWjQ1UVZvclpENUp3eGd6ZFlMYXFxcEJOdkJHcXJzTWNkYnJIb3p1M0lBeHZEX01iUENjbzNlanc3Yy1XWlFZbUVGQlZlRGR1eENlRVpRcFRJbUFBT2RkLV9CUjZsR1ZWcjM4a3RRbElUdzdGejNfRQ?oc=5",
-          "date": "2026-10-07",
-          "source": "Zonebourse Suisse",
+          "titre": "STERIS CFO reported 228 shares withheld from STERIS stock - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTDJZZHJhbFJXN0dqTUlSbHQwWFRjVGRMakN5NFVMV1BvYkNMaUR2eDFJbDlVMWZ0Zlpqc3dnZDB2STJqcDVJd0MwXzE1ZUE0TjFJYWQzUU1UZW91NGF0dERCT3hqMmdnNlFqMGdkcnRlVGVTd1h1c2U1dDZPcURCd0lDelBYMWM3MnJPc2R6Y1VERXVHbGFRZUFST2xhUjB0d2FtNGpVM1JMSVdUamxfM040dWd2a3M?oc=5",
+          "date": "2026-10-08",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Piper Sandler Companies (NYSE:PIPR) Sets New 1-Year Low - What's Next? - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdThUMzNFQlRmb0JXZ0F0LVBLTjZ4Q3RudHl1eFJERV9hY2FJdXgtUEtJU1JDUU1SdTM4TXh1RGtaLWw5MURyb2JCSEE3U2pOOHhZeUpGblFON2lhZHcyVHBRUDhZa3ZmV09pbF9ZTVB2UndtdTZpNXpRQThzTmlnX0ZZZVUtZzQxRElWU1N2VV9Mam1Ma1ItRDRDUzlwcVNrWXVYNnVuQVg5YkJhcm5xM2F5MDM1b3RSbVUtMGJCTjNIUQ?oc=5",
+          "titre": "Price to earnings forward of STERIS plc – LSE:0XI8 - TradingView",
+          "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSFVfQXpUMktselBVR0IxTXpCSzJpV1JOTG1nckFGVFZtY1ZxNkNBMnlTZDFPQjBpclpUN1FmV3VORmJoMm4zcWNzOWEzWGtpdi0tdUJ4Nk5lUWR6RDE3SFdQbFF1Rkp0MmVJTUNOLUhjWFRxb00xOExiVjlhYjlZWVd1VUhmTUl2aE9DT3lBS1Fvc3d2ZjYyN3ZEbGY5QQ?oc=5",
           "date": "2026-10-07",
-          "source": "MarketBeat",
+          "source": "TradingView",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Piper Sandler stock hits 52-week low at 62.88 USD By Investing.com - Investing.com Nigeria",
-          "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSlZiZG9YMGRsMzdlRkptWThONEZUekstVHZiTDd0RFZ6N1hDZ3Itd2EzeGo3aXg5RVIxM1FBVEFHTWhvdzZFLWU1cVFhUEl5QUlsWmhDU3dWNFpqVmwtZS1sbDYta244SFhVcFZpZmNFRnRPRzdUSEFkQnlBNmpINjZra0I3a2RQc1dFWDdZcUp6bnhqVnkwMzNsS2lxOVlMU2p5TGNBNmJHTWdK?oc=5",
-          "date": "2026-10-07",
-          "source": "Investing.com Nigeria",
+          "titre": "Steris PLC stock outperforms competitors despite losses on the day - MarketWatch",
+          "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcnVYWXVFd3VsMThZbENRWUQtTW1KdlZQNzNWcVNyWUIzVk1CeXp3bGhsRDdqdXRtWURVTHRERlhQZEJSUURvM0d1T1phZVd1dG40WFh0M1hvY3NwTU5zeFg2LWlPM19GRnQ5bFVnM3NLVDF0cTBzNlZpWWhQT0dyaTJxclJMYW9QMks1eGZLZ0NoVjhUblUtTl96RVFGZ2pkeGs0R01XSEx2VDdLSW0xNFFEYm5pZE5qVzF3dm9OMlh0dVdw?oc=5",
+          "date": "2026-10-06",
+          "source": "MarketWatch",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 48
+    "ticket": 49
   },
   "radar_proposes": [
     "MCD",
@@ -169,7 +169,8 @@
     "FNF",
     "AZO",
     "SPXC",
-    "PIPR"
+    "PIPR",
+    "STE"
   ],
   "achats": [],
   "historique": [
@@ -4640,6 +4641,107 @@
         ]
       },
       "ticket": 47,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-08",
+      "cree_le": "2026-10-08T13:49+00:00",
+      "liberation": 115.00548499371128,
+      "reserve_pct": null,
+      "score": 87.71403380397854,
+      "ordres": [
+        {
+          "ticker": "PIPR",
+          "side": "buy",
+          "quantity": 2.0,
+          "price": 57.00274249685564,
+          "reason": "opportunité radar (score 88)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "PIPR",
+        "nom": "Piper Sandler Companies",
+        "isin": "PIPR",
+        "type": "action",
+        "prix": 63.790000915527344,
+        "score": 87.71403380397854,
+        "baisse": 0.30860599615647966,
+        "perf_5ans": 1.1470482328018128,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.2566038051646401,
+        "pos_12m": 0.6099585062240664,
+        "n_12m": 482,
+        "base_moy_12m": 0.17689833130273372,
+        "pire_12m": -0.5073122294587886,
+        "vs_marche_3m": -0.15538402932654272,
+        "devise": "USD",
+        "prix_eur": 57.00274249685564,
+        "fondamental": 96.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +24.9% sur un an",
+          "bénéfices +61.0% sur un an",
+          "bénéfices attendus +27% sur 12 mois",
+          "analystes : « achat » (2.0/5, 4 avis)",
+          "objectif moyen des analystes : +27%",
+          "P/E attendu 11.6 (actuel 14.8)",
+          "marge nette 15%",
+          "dette / capitaux propres 11 %"
+        ],
+        "score_global": 92.7,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -16% vs marché)",
+        "vs_marche_3m": -0.15538402932654272,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Piper Sandler Companies (PIPR) Opens London Infrastructure Debt Team Led By Three Veterans - Simply Wall Street",
+            "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOcENLTFJtaDg2SEd1VndvcHZ5UlhjRy02QmtCNFZQa3FndHBQd1hVRVNxOURCamVWSXlTWXQ5M1oxRXQtblczYWNoQk13TnRqRGZjZnhGQUhnUVUzdVFyQXpVMXVaUXk2S19UQ1VNZ3dnbVA5OE10N3REbHlkOTJzZ2tNcmlMdDBNUkFxUDZYUEFma00wX3V3WGNSZnc0V2FmWEUxMUVLeDlLRS1sa0loei1rdVlLSS1MMGJQRGMzWS1YNWxpUVQyWW82UGotTnp0T3ZBSEZjNmZjWkJVOVloZ2hUemJ0bEd4Ykl6NU5zc9IB7wFBVV95cUxOcENLTFJtaDg2SEd1VndvcHZ5UlhjRy02QmtCNFZQa3FndHBQd1hVRVNxOURCamVWSXlTWXQ5M1oxRXQtblczYWNoQk13TnRqRGZjZnhGQUhnUVUzdVFyQXpVMXVaUXk2S19UQ1VNZ3dnbVA5OE10N3REbHlkOTJzZ2tNcmlMdDBNUkFxUDZYUEFma00wX3V3WGNSZnc0V2FmWEUxMUVLeDlLRS1sa0loei1rdVlLSS1MMGJQRGMzWS1YNWxpUVQyWW82UGotTnp0T3ZBSEZjNmZjWkJVOVloZ2hUemJ0bEd4Ykl6NU5zcw?oc=5",
+            "date": "2026-10-08",
+            "source": "Simply Wall Street",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "L’action Piper Sandler atteint un plus bas de 52 semaines à 62,88 USD - Investing.com France",
+            "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVHRhblJLRldBd0ZtRVBjSTU4QUpQU0pFaEZvYXR0ejJiMFZ1VzRSdGVWbThkM01HUHJGdmtWTlp0SUdndXF4eEU0SDNybmg5bGFWSWQtMXh2Z0UtRldPMUxET3pMVGQ3VVJydXdvemdNZ2pmZk1VV2xNbk51ckJreVp1UUxtUm1ya1YyUnZSQWpqS1FFTlFMVWlCYVZXR1duSG9EOHQ5NEZKZTIzeXM2QUFXWUNzWEpCUlBwZ0R4S1Q?oc=5",
+            "date": "2026-10-07",
+            "source": "Investing.com France",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Le fabricant de dispositifs médicaux Centinel Spine dévoile une hausse de son chiffre d’affaires dans son dossier d’introduction en bourse aux États-Unis - Zonebourse Suisse",
+            "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPdGR4OEZ2Y056T1laRVltc0xMeXI2ampSOUs3LUdBOFZkQzY2akFBc2NmbjNEZ2tYTkNSRGFreWQ2Ymp5ZnpDYjRjSnJYR2UzMkdFSE5iMUJ6SUtTZllyZkthXzM3a0tvUFJPUXVyUDV1akRUVkl1RVZIWHdSOGtjWjQ1UVZvclpENUp3eGd6ZFlMYXFxcEJOdkJHcXJzTWNkYnJIb3p1M0lBeHZEX01iUENjbzNlanc3Yy1XWlFZbUVGQlZlRGR1eENlRVpRcFRJbUFBT2RkLV9CUjZsR1ZWcjM4a3RRbElUdzdGejNfRQ?oc=5",
+            "date": "2026-10-07",
+            "source": "Zonebourse Suisse",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Piper Sandler Companies (NYSE:PIPR) Sets New 1-Year Low - What's Next? - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdThUMzNFQlRmb0JXZ0F0LVBLTjZ4Q3RudHl1eFJERV9hY2FJdXgtUEtJU1JDUU1SdTM4TXh1RGtaLWw5MURyb2JCSEE3U2pOOHhZeUpGblFON2lhZHcyVHBRUDhZa3ZmV09pbF9ZTVB2UndtdTZpNXpRQThzTmlnX0ZZZVUtZzQxRElWU1N2VV9Mam1Ma1ItRDRDUzlwcVNrWXVYNnVuQVg5YkJhcm5xM2F5MDM1b3RSbVUtMGJCTjNIUQ?oc=5",
+            "date": "2026-10-07",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Piper Sandler stock hits 52-week low at 62.88 USD By Investing.com - Investing.com Nigeria",
+            "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSlZiZG9YMGRsMzdlRkptWThONEZUekstVHZiTDd0RFZ6N1hDZ3Itd2EzeGo3aXg5RVIxM1FBVEFHTWhvdzZFLWU1cVFhUEl5QUlsWmhDU3dWNFpqVmwtZS1sbDYta244SFhVcFZpZmNFRnRPRzdUSEFkQnlBNmpINjZra0I3a2RQc1dFWDdZcUp6bnhqVnkwMzNsS2lxOVlMU2p5TGNBNmJHTWdK?oc=5",
+            "date": "2026-10-07",
+            "source": "Investing.com Nigeria",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 48,
       "decision": "sans réponse"
     }
   ]
