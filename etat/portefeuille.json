@@ -18,103 +18,154 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-08",
-    "cree_le": "2026-10-08T15:50+00:00",
-    "liberation": 140.75,
+    "cree_le": "2026-10-08T16:21+00:00",
+    "liberation": 120.16000366210938,
     "reserve_pct": null,
-    "score": 91.73460114115045,
+    "score": 87.97117209878135,
     "ordres": [
       {
-        "ticker": "HEI.DE",
+        "ticker": "BN.PA",
         "side": "buy",
-        "quantity": 1.0,
-        "price": 139.75,
-        "reason": "opportunité radar (score 92)"
+        "quantity": 2.0,
+        "price": 59.58000183105469,
+        "reason": "opportunité radar (score 88)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "HEI.DE",
-      "nom": "Heidelberg Materials",
-      "isin": "DE0006047004",
+      "ticker": "BN.PA",
+      "nom": "Danone",
+      "isin": "FR0000120644",
       "type": "action",
-      "prix": 139.75,
-      "score": 91.73460114115045,
-      "baisse": 0.4035806561940205,
-      "perf_5ans": 1.5001063929540153,
+      "prix": 59.58000183105469,
+      "score": 87.97117209878135,
+      "baisse": 0.2253932488645396,
+      "perf_5ans": 0.24355759830178814,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.26950262437400724,
-      "pos_12m": 0.6807580174927114,
-      "n_12m": 686,
-      "base_moy_12m": 0.17759570049438742,
-      "pire_12m": -0.7172560436066713,
-      "vs_marche_3m": -0.21778398545928435,
+      "moy_12m": 0.09002067784256966,
+      "pos_12m": 0.756198347107438,
+      "n_12m": 726,
+      "base_moy_12m": 0.07872743244374017,
+      "pire_12m": -0.32096257203036627,
+      "vs_marche_3m": -0.21415168330380552,
       "devise": "EUR",
-      "prix_eur": 139.75,
-      "fondamental": 89.0,
+      "prix_eur": 59.58000183105469,
+      "fondamental": 91.5,
       "fondamental_notes": [
-        "chiffre d'affaires +1.7% sur un an",
-        "bénéfices +8.8% sur un an",
-        "bénéfices attendus +26% sur 12 mois",
-        "analystes : « achat » (2.0/5, 19 avis)",
-        "objectif moyen des analystes : +46%",
-        "P/E attendu 9.8 (actuel 12.4)",
-        "marge nette 9%",
-        "dette / capitaux propres 50 %",
-        "🏷️ braderie probable : -22% vs marché en 3 mois, alors que les bénéfices attendus montent (+26%) et que les analystes restent à l'achat (+8 pts)"
+        "chiffre d'affaires +1.4% sur un an",
+        "bénéfices +12.4% sur un an",
+        "bénéfices attendus +40% sur 12 mois",
+        "analystes : « achat » (2.2/5, 22 avis)",
+        "objectif moyen des analystes : +34%",
+        "P/E attendu 13.9 (actuel 19.5)",
+        "marge nette 7%",
+        "dette / capitaux propres 99 %",
+        "🏷️ braderie probable : -21% vs marché en 3 mois, alors que les bénéfices attendus montent (+40%) et que les analystes restent à l'achat (+8 pts)"
       ],
       "score_global": 90.1,
       "braderie": true
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -22% vs marché)",
-      "vs_marche_3m": -0.21778398545928435,
-      "alertes": [],
+      "resume": "à vérifier : baisse bien plus forte que le marché, 6 article(s) à regarder (3 mois : -21% vs marché)",
+      "vs_marche_3m": -0.21415168330380552,
+      "alertes": [
+        {
+          "titre": "So Delicious Dairy Free® Issues Voluntary Recall of Salted Caramel Cluster Non-Dairy Frozen Dessert Pints Due to Potential Presence of Foreign Material - PR Newswire",
+          "lien": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNUDBOaEtHN2I2X21sb21fTGs4ZldXdlZ0aDM0QXVKemhwVkdGc1lkRTBiSjAyLW1leTJzdC1qQVdrVGxGLUJ4YXkwaUs1S2ZYNUtwYTlreWd2cC1hMXhkTzVRTkRZMWstakZUdW9IMnBqV3VFcE1Ua3pKQkpZNHoybzl6MXRPMWdQMDNWMTJYeWQtQmd1b2M2cmFkNjJ6NGFIRGdna3ZHaHRkdzRYVTFVQlY2UVFlT1hhcTdldkoxOG1ZN3pLY1lRblo3OFpQcTBhbGFnSmpXQ1JISEUwVEs0eFlJaWlvcXhVMG1xWGpiRFk2S29SNE84VUl6Z0liczdsV0lRVWotNk9JdTVjVF85TDdoSW81MzI4bzZPOTBfd2o4SVpka3FLcjF0TUZOU28?oc=5",
+          "date": "2026-09-15",
+          "source": "PR Newswire",
+          "gravite": 1,
+          "mots": [
+            "recall"
+          ]
+        },
+        {
+          "titre": "Danone USA Issues Product Recall for Salted Caramel Cluster Non-Dairy Frozen Dessert - AOL.com",
+          "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVVpqRExtSzIwblNzeDc5amZyT2E0aHFqVEVYOHF4aDRsYTlnQ0UwN1RFeG1USC1CaVc5aVBwYjctVlR5RGpNeTZUby1FSHVrTmh6bXJkUmhwUUl5N0tDV3AwbXNCRHItVUxPYnJVY08yR1ROV1lFck44Mi1sNEZmekNB?oc=5",
+          "date": "2026-09-16",
+          "source": "AOL.com",
+          "gravite": 1,
+          "mots": [
+            "recall"
+          ]
+        },
+        {
+          "titre": "Danone USA Issues Frozen Dairy-Free Pint Recall - TAPinto",
+          "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVzl2NFVfRVkxMks3NkRRSzlXSFF1OGktc21yTHhXbWlqek9EZjRIbmhWb2pIMkYwYi1rTWt6cC1ZLXFuQXg5MW5pRGJjeE1zQUpSQnNlbS1PVlAwWG9FdXktWmdHZ0FJR18xRThqS1NsbnlMYUJzbmtOYnhGeWJxRF9US3ZKVFpBTkd2MjFNc2FzZWJmeFZhLWVNVkVsNmhTYU1OUDV4WEZxV0JrVFNFdE4zLUNzU2VETllqSg?oc=5",
+          "date": "2026-09-18",
+          "source": "TAPinto",
+          "gravite": 1,
+          "mots": [
+            "recall"
+          ]
+        },
+        {
+          "titre": "Target and Walmart List So Delicious Recall; Danone Shares Fall 1.6% - TechStock²",
+          "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTWk5cF91eUFUeEZxVEVjQktCSVplTC1USnNpN0tNRHBVcGwwX2ZJS3ZFTjU4QW5NV1RTSjh3cUduSUVva1dLSUZlMjduU3hGbzRscjBDdmdYUTdTR2RXcy1hMFktc01TWl8xcl80ZGRuVEVhYkgtVi03QzJZOEEyWEVZUmJFcTZ3V0dvekd3eVE?oc=5",
+          "date": "2026-09-18",
+          "source": "TechStock²",
+          "gravite": 1,
+          "mots": [
+            "recall"
+          ]
+        },
+        {
+          "titre": "Check your freezers: Ice cream sold at Walmart and Target part of latest urgent recall - The Independent",
+          "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNWdpYzFXMGw5dUhhd2RPZUppQUNQdzJldlNYSk1oamw5a3VTc01sTlJmZG1DNlUyb1RfY2pKNHZ0NjNvVUtEaXh3YkZzRkktTGRPSDNHdG13TVdWNTQ0aDhuYUcxRXJGTWFOUklnaDNLRUFsQnFjeHpMYVZzS0dWVzFXQWlnZzR3Y0kwZmR0WnFxS3ZEcXZJVmw4VUxyQQ?oc=5",
+          "date": "2026-09-18",
+          "source": "The Independent",
+          "gravite": 1,
+          "mots": [
+            "recall"
+          ]
+        }
+      ],
       "recents": [
         {
-          "titre": "NCC to sell Industry unit to Heidelberg Materials and CRH for $820m - World Construction Network",
-          "lien": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKaUhGTVRMRXh0QWtKb0k0czBMSWVETWxZQlVSY091NGpJaVg3Zm43U1N2VFl4RnBxZDI2cmdKOVJQZEJtWkMxQ1VTMUg0Wm1WZkZNS3hsSFFaRzVjdlNSbk5SUzlOVHg3eTlIMVdsY2FrRHQ0Wmd2dXV3TjQ?oc=5",
+          "titre": "Action Danone : parmi les plus fortes hausses du CAC 40, le titre avance de 1,5 % - Ideal Investisseur",
+          "lien": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcDhHUmFGQ3E3dEZlWUl5LTZwenFlVlRpRGI0VF9xd3liRXFEWDNpVU5PX1IzUzc5RTZFSDdGV2FiQXRoU3FQaXBZUlZMMko0YmVKVk16bXVuU29La2VJUXlDYk00bWdIeFFsY01NRVdYOGNYR0JFdjkxYVFacWpHcV92bEtBbjFVX05aNmhwUjhtZXdCQzZud25kWnkyRUVVRUZZUnhBSWcySWQ3SWxTSkRZTGRkdS1UMHFxemVoX1duMF9rbVFSdE9n?oc=5",
           "date": "2026-10-08",
-          "source": "World Construction Network",
+          "source": "Ideal Investisseur",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Heidelberg Materials Sinks on Nordic Deal as Deutsche Bank Trims Price Target - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOVZFekp0NkFZaXlPamo5Y1U2Z3RVdTYzaDVLcmJOaHJWcXlWbVdrNnFHZmlQc3AzUG5HQ3RUamRRZl9rdnktRnBLTnNiOGFnZUxsREJZQkE0RFk1ZTYyVEl3dnJxZzRHSjBKN0Vja2p5YlBYSmtPU1lTcDFjWG8xd0x5SldtdWZkNUo0S2oyMHowSXFJZlNuWm5iTDBRX2FQWW50R2c1Ti1SQ2xuNVJrdi1yTnZKMjFHdTk2a01NMnhPLWVLNENVX2xnX1pWZ1h4aXFVY2h4d1I4dw?oc=5",
+          "titre": "Danone se refait une santé mais les investisseurs boudent l'action, on en profitera - Investir Les Echos",
+          "lien": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVUpWcGFmT0xBUjZ5LVhCcXQyVXYyR05RS0FGb05lSmxxcExFVnVmTW5mbDk0VWlSbFZ3bkg3dmkwZWJ2Yng3a3V5TThkU25MQ3h0TmxDNHFXenBBQTVuWnJJa0ZiX2NkaENJOFpfekVmV0dQNnhOWlZLQS1iblJUVmpKeVp0V294SnJUbEk1SGNqN2VQVFM2STNBTjdiN2Q3S3JYdnJqanJDZEd4VV9OcGxmdjRsRVdUc3BsNXJFczRSMHRUUzkwQTZnMEZMZm11V25FaWRfdFdlT1dMdF9EQmZieU15MTA?oc=5",
           "date": "2026-10-08",
-          "source": "AD HOC NEWS",
+          "source": "Investir Les Echos",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Heidelberg Materials Bets on Nordic Aggregates as Buyback Chapter Closes - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeTY1MkEtUUJTVFlNYkJkcXBaNllZa0FNOURvSFQzcDJSSHR2eXV4cHJEQzAtMmdxaTlhZTJEdlhsUWo1aG4zU3VGU0t1UTVEb2dveWRqWnJTLVpCQlN4d1RxZlRzaTlzOWtTbmNLMUdLNGlhYklkVWhMUGs3WUhoVW5DY2U2OHliZ3NEWkRIVVYzc21fVkc0SV9ybm54YVVfaDJxdFg4ZDJHTkgwOXVWRlJMdGhDbEhfaTJpWXllZFBvM01ZYlBRUXhxM3d6dWQ4YkJScHpMT3ZYMkN0?oc=5",
+          "titre": "L'usine Danone de Steenvoorde détient depuis 2026 la plus grande ligne de production de nutrition médicale de France - Orange Actualités",
+          "lien": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNbVNuR1Y2LTgzX3RRZVFBaWplUjZuZXEtVTBjTW9lNW5vTGhfb1B4bks3dk14dW93Wmd1NGpyelcxOHRIQjZMMWtLemRHNWdqNUc3bmh6eVBRM0wxWFQyck5EREdMREZRYW8zNTlZNzdMNldrWlJSQ1l0aHJnWWoxc2pGd09fRndla1JxMG9lZWtjbmUtRjZLajREenVTbHA5Z0FXVkNXRHJjZ3FxbDNmTU15cWxtRHpIa3VaZmI4bmhCcWIzN21wNmYtV3hpSnlOcVF0aVpfTlgtX0c2WDRNNWxCcThGd1FWQWJnc2Q3WDdSSlFORHRHSVBCTmhSVDBKSkVsNXAwS2NiQQ?oc=5",
           "date": "2026-10-08",
-          "source": "AD HOC NEWS",
+          "source": "Orange Actualités",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Heidelberg Materials stock pre-market at EUR 141.68: minus 0.56 percent - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVnRBN3ZRaEZZcDNIOXR3UF9NeGh1cFlmV2oxTVc1d3hVVW5wOGRnemdTUkhXbXFjRnZuRGpqVUNUem9GeVQ2MlhrZy1aT0pjaEkwTlpGeHUxZ0dpNU5qSk5Cakg1UnZuUGEzSVd1dWNwN0VLbWJhUDd6UWhlck9GQ3hoa295RC1XWVJFdEZBc1Fkc2ExRVJ3SDhxcl9IdVBrb1ZtTXdxb19IbmhUcEl3X0JRR20xZF9EZnJRMDdHVVFSdmczdjd3?oc=5",
+          "titre": "Électrisé alors qu’il change un néon à Danone Steenvoorde, il est emmené à l’hôpital - La Voix du Nord",
+          "lien": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOXpxT2JnQ1RvVUVlM3FlQzBxUFNnZklKdVh3Z3RucWo3MF9yR3BfUnJYTWJHQnUxLUVHWmpCNHhULTFnR2RZck9rTnJQU0xHaElkVzhRTHRfeUhndmtlNGdKRG5qamxZbXRSQi16bC1fcTBOazhTVnVzR0hYdFFFXzNXbjF4Qk9ZVW5sOUw1YkszWjZzeXhWTk1IODEyZTBPSmRfNWZTTm1Wc0tMdWtVdlNrMnNLdkdqam9lSXRGeDIwSzZaZWhwa3Y5Y09vTnc?oc=5",
           "date": "2026-10-08",
-          "source": "AD HOC NEWS",
+          "source": "La Voix du Nord",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Heidelberg Materials tightens Akcansa stake. Heidelberg Materials stock loses 1.97 percent - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOWDlwc1AxQXBfUF9sYmRGcHdrTHBHWVpLdkpvMWMwWFAxMWpPVUFHNlVFWmFlZ3RPWXFNNXVMRFJCUGZqRHdRbTZteDJVZkNDZVQ5aG1ZTl9sUjVzRWJqcUxlZl9Pb0Jxb2ZGT05zSEtoa1NKM09nNlhFZGtYdV9Kc2NpUHoyQUV6MDhMTmk4WnR3WkoweXdHWmZzc01VYUhYLTdna2pVVXJJLUlVT3BWemR3ZzFla0haYk5hY3M5QzUySEgtcXRFRVJEUE1RWFJqMUw0TWg2ZTNFNURrX21XQTFvNndEMjg?oc=5",
+          "titre": "Danone S.A. (DANOY) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaR01ucjhiRnhqUUl0bVMtU2VPVzctell4THR2WXZOcmRWeEVIa2ktemdzLTBnanduMEVoa0ZNd0xaOVZGWnkycWFxV0Z2T20tNmFR?oc=5",
           "date": "2026-10-08",
-          "source": "AD HOC NEWS",
+          "source": "Yahoo! Finance Canada",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 51
+    "ticket": 52
   },
   "radar_proposes": [
     "MCD",
@@ -175,7 +226,8 @@
     "PLUS.L",
     "CMI",
     "KAI",
-    "HEI.DE"
+    "HEI.DE",
+    "BN.PA"
   ],
   "achats": [],
   "historique": [
@@ -4949,6 +5001,108 @@
         ]
       },
       "ticket": 50,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-08",
+      "cree_le": "2026-10-08T15:50+00:00",
+      "liberation": 140.75,
+      "reserve_pct": null,
+      "score": 91.73460114115045,
+      "ordres": [
+        {
+          "ticker": "HEI.DE",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 139.75,
+          "reason": "opportunité radar (score 92)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "HEI.DE",
+        "nom": "Heidelberg Materials",
+        "isin": "DE0006047004",
+        "type": "action",
+        "prix": 139.75,
+        "score": 91.73460114115045,
+        "baisse": 0.4035806561940205,
+        "perf_5ans": 1.5001063929540153,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.26950262437400724,
+        "pos_12m": 0.6807580174927114,
+        "n_12m": 686,
+        "base_moy_12m": 0.17759570049438742,
+        "pire_12m": -0.7172560436066713,
+        "vs_marche_3m": -0.21778398545928435,
+        "devise": "EUR",
+        "prix_eur": 139.75,
+        "fondamental": 89.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +1.7% sur un an",
+          "bénéfices +8.8% sur un an",
+          "bénéfices attendus +26% sur 12 mois",
+          "analystes : « achat » (2.0/5, 19 avis)",
+          "objectif moyen des analystes : +46%",
+          "P/E attendu 9.8 (actuel 12.4)",
+          "marge nette 9%",
+          "dette / capitaux propres 50 %",
+          "🏷️ braderie probable : -22% vs marché en 3 mois, alors que les bénéfices attendus montent (+26%) et que les analystes restent à l'achat (+8 pts)"
+        ],
+        "score_global": 90.1,
+        "braderie": true
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -22% vs marché)",
+        "vs_marche_3m": -0.21778398545928435,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "NCC to sell Industry unit to Heidelberg Materials and CRH for $820m - World Construction Network",
+            "lien": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKaUhGTVRMRXh0QWtKb0k0czBMSWVETWxZQlVSY091NGpJaVg3Zm43U1N2VFl4RnBxZDI2cmdKOVJQZEJtWkMxQ1VTMUg0Wm1WZkZNS3hsSFFaRzVjdlNSbk5SUzlOVHg3eTlIMVdsY2FrRHQ0Wmd2dXV3TjQ?oc=5",
+            "date": "2026-10-08",
+            "source": "World Construction Network",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Heidelberg Materials Sinks on Nordic Deal as Deutsche Bank Trims Price Target - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOVZFekp0NkFZaXlPamo5Y1U2Z3RVdTYzaDVLcmJOaHJWcXlWbVdrNnFHZmlQc3AzUG5HQ3RUamRRZl9rdnktRnBLTnNiOGFnZUxsREJZQkE0RFk1ZTYyVEl3dnJxZzRHSjBKN0Vja2p5YlBYSmtPU1lTcDFjWG8xd0x5SldtdWZkNUo0S2oyMHowSXFJZlNuWm5iTDBRX2FQWW50R2c1Ti1SQ2xuNVJrdi1yTnZKMjFHdTk2a01NMnhPLWVLNENVX2xnX1pWZ1h4aXFVY2h4d1I4dw?oc=5",
+            "date": "2026-10-08",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Heidelberg Materials Bets on Nordic Aggregates as Buyback Chapter Closes - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeTY1MkEtUUJTVFlNYkJkcXBaNllZa0FNOURvSFQzcDJSSHR2eXV4cHJEQzAtMmdxaTlhZTJEdlhsUWo1aG4zU3VGU0t1UTVEb2dveWRqWnJTLVpCQlN4d1RxZlRzaTlzOWtTbmNLMUdLNGlhYklkVWhMUGs3WUhoVW5DY2U2OHliZ3NEWkRIVVYzc21fVkc0SV9ybm54YVVfaDJxdFg4ZDJHTkgwOXVWRlJMdGhDbEhfaTJpWXllZFBvM01ZYlBRUXhxM3d6dWQ4YkJScHpMT3ZYMkN0?oc=5",
+            "date": "2026-10-08",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Heidelberg Materials stock pre-market at EUR 141.68: minus 0.56 percent - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVnRBN3ZRaEZZcDNIOXR3UF9NeGh1cFlmV2oxTVc1d3hVVW5wOGRnemdTUkhXbXFjRnZuRGpqVUNUem9GeVQ2MlhrZy1aT0pjaEkwTlpGeHUxZ0dpNU5qSk5Cakg1UnZuUGEzSVd1dWNwN0VLbWJhUDd6UWhlck9GQ3hoa295RC1XWVJFdEZBc1Fkc2ExRVJ3SDhxcl9IdVBrb1ZtTXdxb19IbmhUcEl3X0JRR20xZF9EZnJRMDdHVVFSdmczdjd3?oc=5",
+            "date": "2026-10-08",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Heidelberg Materials tightens Akcansa stake. Heidelberg Materials stock loses 1.97 percent - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOWDlwc1AxQXBfUF9sYmRGcHdrTHBHWVpLdkpvMWMwWFAxMWpPVUFHNlVFWmFlZ3RPWXFNNXVMRFJCUGZqRHdRbTZteDJVZkNDZVQ5aG1ZTl9sUjVzRWJqcUxlZl9Pb0Jxb2ZGT05zSEtoa1NKM09nNlhFZGtYdV9Kc2NpUHoyQUV6MDhMTmk4WnR3WkoweXdHWmZzc01VYUhYLTdna2pVVXJJLUlVT3BWemR3ZzFla0haYk5hY3M5QzUySEgtcXRFRVJEUE1RWFJqMUw0TWg2ZTNFNURrX21XQTFvNndEMjg?oc=5",
+            "date": "2026-10-08",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 51,
       "decision": "sans réponse"
     }
   ]
