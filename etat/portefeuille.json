@@ -18,103 +18,102 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-08",
-    "cree_le": "2026-10-08T12:55+00:00",
-    "liberation": 153.4660214280137,
+    "cree_le": "2026-10-08T13:49+00:00",
+    "liberation": 115.00548499371128,
     "reserve_pct": null,
-    "score": 88.0605364082632,
+    "score": 87.71403380397854,
     "ordres": [
       {
-        "ticker": "SPXC",
+        "ticker": "PIPR",
         "side": "buy",
-        "quantity": 1.0,
-        "price": 152.4660214280137,
+        "quantity": 2.0,
+        "price": 57.00274249685564,
         "reason": "opportunité radar (score 88)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "SPXC",
-      "nom": "SPX Technologies",
-      "isin": "SPXC",
+      "ticker": "PIPR",
+      "nom": "Piper Sandler Companies",
+      "isin": "PIPR",
       "type": "action",
-      "prix": 170.6199951171875,
-      "score": 88.0605364082632,
-      "baisse": 0.3075768329959897,
-      "perf_5ans": 2.19214205204446,
+      "prix": 63.790000915527344,
+      "score": 87.71403380397854,
+      "baisse": 0.30860599615647966,
+      "perf_5ans": 1.1470482328018128,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.4709766159563139,
-      "pos_12m": 0.8322147651006712,
-      "n_12m": 596,
-      "base_moy_12m": 0.21712815723686527,
-      "pire_12m": -0.6126620296541568,
-      "vs_marche_3m": -0.23995546637682252,
+      "moy_12m": 0.2566038051646401,
+      "pos_12m": 0.6099585062240664,
+      "n_12m": 482,
+      "base_moy_12m": 0.17689833130273372,
+      "pire_12m": -0.5073122294587886,
+      "vs_marche_3m": -0.15538402932654272,
       "devise": "USD",
-      "prix_eur": 152.4660214280137,
+      "prix_eur": 57.00274249685564,
       "fondamental": 96.0,
       "fondamental_notes": [
-        "chiffre d'affaires +22.9% sur un an",
-        "bénéfices +41.0% sur un an",
-        "bénéfices attendus +71% sur 12 mois",
-        "analystes : « achat fort » (1.2/5, 14 avis)",
-        "objectif des analystes +51% : peu crédible, probablement pas encore révisé",
-        "P/E attendu 17.6 (actuel 30.1)",
-        "marge nette 11%",
-        "dette / capitaux propres 26 %",
-        "🏷️ braderie probable : -24% vs marché en 3 mois, alors que les bénéfices attendus montent (+71%) et que les analystes restent à l'achat (+8 pts)"
+        "chiffre d'affaires +24.9% sur un an",
+        "bénéfices +61.0% sur un an",
+        "bénéfices attendus +27% sur 12 mois",
+        "analystes : « achat » (2.0/5, 4 avis)",
+        "objectif moyen des analystes : +27%",
+        "P/E attendu 11.6 (actuel 14.8)",
+        "marge nette 15%",
+        "dette / capitaux propres 11 %"
       ],
-      "score_global": 92.8,
-      "braderie": true
+      "score_global": 92.7,
+      "braderie": false
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -24% vs marché)",
-      "vs_marche_3m": -0.23995546637682252,
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -16% vs marché)",
+      "vs_marche_3m": -0.15538402932654272,
       "alertes": [],
       "recents": [
         {
-          "titre": "SPX Technologies (SPXC) Draws Fresh Earnings Optimism, Is It A Bargain? - Simply Wall Street",
-          "lien": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUElGNmU5anhiMDdVazdKYXpMbUgwRlJJeVUwV2hlaktTd2djVFNwdjNsNm13Zk16dGRvMjRhYkRFVG52OXZabmhobUpuendyQkpTMXR4MEtLOXFZdGlma1NILUsxVFRDU2VXaWhkZS10LVhWVklMZXFFRXhZWl9Cc05FN2hKajVleFRjZVRLSHhhM2lNMk1CNy1BR01JaWdrc25BNXpuUS1xbzdsMXVZMjNRVXRIWjRtQ3gtZGlFeTZLZ0tKSV9MOXRmeFVxUVFPdEFz0gHYAUFVX3lxTFB3WTBOZVQxNnhVS0VhckJWTUVFbVpPVlVNYXRpS0lMdFI5SzZsVlA2OVg3bWM4UFZWNHB2bFo1dlgzWkVIZHRoRlQ0UGJvQVF0MUVra1dYOExrSF9HOTZrOUtBd21wSUd1WHFYRmppa1B6SEhvaXNJMXJZeUpvbWxxX21Ua09YMTAwajhGQmg3QnpKcjRQa2lEWWdwN3BuZFlrMERsT1dUbHg3NC1jRDVDM2RESkFUdHRWdU56SWpYZVN3cTVOd2ZhTjZwT0hFcU03VFl5bFBuZQ?oc=5",
+          "titre": "Piper Sandler Companies (PIPR) Opens London Infrastructure Debt Team Led By Three Veterans - Simply Wall Street",
+          "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOcENLTFJtaDg2SEd1VndvcHZ5UlhjRy02QmtCNFZQa3FndHBQd1hVRVNxOURCamVWSXlTWXQ5M1oxRXQtblczYWNoQk13TnRqRGZjZnhGQUhnUVUzdVFyQXpVMXVaUXk2S19UQ1VNZ3dnbVA5OE10N3REbHlkOTJzZ2tNcmlMdDBNUkFxUDZYUEFma00wX3V3WGNSZnc0V2FmWEUxMUVLeDlLRS1sa0loei1rdVlLSS1MMGJQRGMzWS1YNWxpUVQyWW82UGotTnp0T3ZBSEZjNmZjWkJVOVloZ2hUemJ0bEd4Ykl6NU5zc9IB7wFBVV95cUxOcENLTFJtaDg2SEd1VndvcHZ5UlhjRy02QmtCNFZQa3FndHBQd1hVRVNxOURCamVWSXlTWXQ5M1oxRXQtblczYWNoQk13TnRqRGZjZnhGQUhnUVUzdVFyQXpVMXVaUXk2S19UQ1VNZ3dnbVA5OE10N3REbHlkOTJzZ2tNcmlMdDBNUkFxUDZYUEFma00wX3V3WGNSZnc0V2FmWEUxMUVLeDlLRS1sa0loei1rdVlLSS1MMGJQRGMzWS1YNWxpUVQyWW82UGotTnp0T3ZBSEZjNmZjWkJVOVloZ2hUemJ0bEd4Ykl6NU5zcw?oc=5",
           "date": "2026-10-08",
           "source": "Simply Wall Street",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "$100 Invested In SPX Technologies 5 Years Ago Would Be Worth This Much Today - Benzinga",
-          "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWkNIZmNiWnZTcjhFUnl0RXQxb2I1bDRJNGxMVmh6STItSkM1anhBZWhvR0d0cTdhYXdFc3FvNG04ZUFTZTIwa2VXdFVOX0w0MDdUbHIxb3R2UndCRVFsam9WZ1gtRVRLQS1idzFuQzhnYTN3dHBQbEJxUzhqN1JjYmY5NnpVLVZRdVZUdDJqTGFha2I5NzctUmR1RUVCb0xSaVRXX0g0OWlKQjZQVVVVa3BB?oc=5",
+          "titre": "L’action Piper Sandler atteint un plus bas de 52 semaines à 62,88 USD - Investing.com France",
+          "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVHRhblJLRldBd0ZtRVBjSTU4QUpQU0pFaEZvYXR0ejJiMFZ1VzRSdGVWbThkM01HUHJGdmtWTlp0SUdndXF4eEU0SDNybmg5bGFWSWQtMXh2Z0UtRldPMUxET3pMVGQ3VVJydXdvemdNZ2pmZk1VV2xNbk51ckJreVp1UUxtUm1ya1YyUnZSQWpqS1FFTlFMVWlCYVZXR1duSG9EOHQ5NEZKZTIzeXM2QUFXWUNzWEpCUlBwZ0R4S1Q?oc=5",
           "date": "2026-10-07",
-          "source": "Benzinga",
+          "source": "Investing.com France",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "SPX Technologies to Report Third Quarter 2026 Financial Results - StreetInsider",
-          "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOGRNN3JaUHlReFczdHNOcVN5c0VkdFB6QUh0RUxrZG9rMGVEMHptRURKZldyOUphVjk1cDZwU2d4WGJiVGp3MnJwaHBrZWVBWnd2QTNxblo1ZmtyZ0NYTEN2SGkzMC1aSFAzQkNGYWV0elhPWjlaSUlPMl83Zk9ueDVRQXNDTWFYc0dwaXlhT3VJUnRqeUNYMExTZlRySlBvODdRbmF1akdmR0RXQ0tfYk5yeEl0ZENhWjBMb0pPTQ?oc=5",
+          "titre": "Le fabricant de dispositifs médicaux Centinel Spine dévoile une hausse de son chiffre d’affaires dans son dossier d’introduction en bourse aux États-Unis - Zonebourse Suisse",
+          "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPdGR4OEZ2Y056T1laRVltc0xMeXI2ampSOUs3LUdBOFZkQzY2akFBc2NmbjNEZ2tYTkNSRGFreWQ2Ymp5ZnpDYjRjSnJYR2UzMkdFSE5iMUJ6SUtTZllyZkthXzM3a0tvUFJPUXVyUDV1akRUVkl1RVZIWHdSOGtjWjQ1UVZvclpENUp3eGd6ZFlMYXFxcEJOdkJHcXJzTWNkYnJIb3p1M0lBeHZEX01iUENjbzNlanc3Yy1XWlFZbUVGQlZlRGR1eENlRVpRcFRJbUFBT2RkLV9CUjZsR1ZWcjM4a3RRbElUdzdGejNfRQ?oc=5",
           "date": "2026-10-07",
-          "source": "StreetInsider",
+          "source": "Zonebourse Suisse",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "SPX Technologies (SPXC) Stock Gets Fair Value Trim As Analysts Weigh HVAC Growth Risks - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVW03TkRrVlR2eEt6cXBSOGUzdmMzd1RiOENxRk1RNWJFNHptcklmc0hCdWhLQkNUZXVnSGd2azFidzdxQm4wSmx0ckpjMUlwVzVMQ1pDTkFNNzVnVUFfVG1zalBNRjJDQVk1VDFFZVgxMzZJSk1xS2sxTm9EeGFfZ3ZMYVpRbEZMSkVpYmlqWlZKbDRycGg3M2xkSjdiUQ?oc=5",
+          "titre": "Piper Sandler Companies (NYSE:PIPR) Sets New 1-Year Low - What's Next? - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdThUMzNFQlRmb0JXZ0F0LVBLTjZ4Q3RudHl1eFJERV9hY2FJdXgtUEtJU1JDUU1SdTM4TXh1RGtaLWw5MURyb2JCSEE3U2pOOHhZeUpGblFON2lhZHcyVHBRUDhZa3ZmV09pbF9ZTVB2UndtdTZpNXpRQThzTmlnX0ZZZVUtZzQxRElWU1N2VV9Mam1Ma1ItRDRDUzlwcVNrWXVYNnVuQVg5YkJhcm5xM2F5MDM1b3RSbVUtMGJCTjNIUQ?oc=5",
           "date": "2026-10-07",
-          "source": "Yahoo Finance",
+          "source": "MarketBeat",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Why SPX Technologies (SPXC) Could Beat Earnings Estimates Again - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3ZTMDNWamY3NngtczJDMVpNMWpqUFdmSEJEV0NsdERkVlBwdTJGamZ3czJydllHQ0FEQUJlenh2N1dNaXBDbTZxbTY2MnlNdHgtaWY3M2tIWWlmUktIRHRIemJnOEhZNThLZVBOd1JVQUhTR2RUSVdsdXFmRnE5SU5mempjVzVpWklpeE1YMEJCWjB5NlRRV1lSM3c?oc=5",
+          "titre": "Piper Sandler stock hits 52-week low at 62.88 USD By Investing.com - Investing.com Nigeria",
+          "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSlZiZG9YMGRsMzdlRkptWThONEZUekstVHZiTDd0RFZ6N1hDZ3Itd2EzeGo3aXg5RVIxM1FBVEFHTWhvdzZFLWU1cVFhUEl5QUlsWmhDU3dWNFpqVmwtZS1sbDYta244SFhVcFZpZmNFRnRPRzdUSEFkQnlBNmpINjZra0I3a2RQc1dFWDdZcUp6bnhqVnkwMzNsS2lxOVlMU2p5TGNBNmJHTWdK?oc=5",
           "date": "2026-10-07",
-          "source": "Yahoo Finance",
+          "source": "Investing.com Nigeria",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 47
+    "ticket": 48
   },
   "radar_proposes": [
     "MCD",
@@ -169,7 +168,8 @@
     "SIA.TO",
     "FNF",
     "AZO",
-    "SPXC"
+    "SPXC",
+    "PIPR"
   ],
   "achats": [],
   "historique": [
@@ -4538,6 +4538,108 @@
         ]
       },
       "ticket": 46,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-08",
+      "cree_le": "2026-10-08T12:55+00:00",
+      "liberation": 153.4660214280137,
+      "reserve_pct": null,
+      "score": 88.0605364082632,
+      "ordres": [
+        {
+          "ticker": "SPXC",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 152.4660214280137,
+          "reason": "opportunité radar (score 88)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "SPXC",
+        "nom": "SPX Technologies",
+        "isin": "SPXC",
+        "type": "action",
+        "prix": 170.6199951171875,
+        "score": 88.0605364082632,
+        "baisse": 0.3075768329959897,
+        "perf_5ans": 2.19214205204446,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.4709766159563139,
+        "pos_12m": 0.8322147651006712,
+        "n_12m": 596,
+        "base_moy_12m": 0.21712815723686527,
+        "pire_12m": -0.6126620296541568,
+        "vs_marche_3m": -0.23995546637682252,
+        "devise": "USD",
+        "prix_eur": 152.4660214280137,
+        "fondamental": 96.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +22.9% sur un an",
+          "bénéfices +41.0% sur un an",
+          "bénéfices attendus +71% sur 12 mois",
+          "analystes : « achat fort » (1.2/5, 14 avis)",
+          "objectif des analystes +51% : peu crédible, probablement pas encore révisé",
+          "P/E attendu 17.6 (actuel 30.1)",
+          "marge nette 11%",
+          "dette / capitaux propres 26 %",
+          "🏷️ braderie probable : -24% vs marché en 3 mois, alors que les bénéfices attendus montent (+71%) et que les analystes restent à l'achat (+8 pts)"
+        ],
+        "score_global": 92.8,
+        "braderie": true
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -24% vs marché)",
+        "vs_marche_3m": -0.23995546637682252,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "SPX Technologies (SPXC) Draws Fresh Earnings Optimism, Is It A Bargain? - Simply Wall Street",
+            "lien": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUElGNmU5anhiMDdVazdKYXpMbUgwRlJJeVUwV2hlaktTd2djVFNwdjNsNm13Zk16dGRvMjRhYkRFVG52OXZabmhobUpuendyQkpTMXR4MEtLOXFZdGlma1NILUsxVFRDU2VXaWhkZS10LVhWVklMZXFFRXhZWl9Cc05FN2hKajVleFRjZVRLSHhhM2lNMk1CNy1BR01JaWdrc25BNXpuUS1xbzdsMXVZMjNRVXRIWjRtQ3gtZGlFeTZLZ0tKSV9MOXRmeFVxUVFPdEFz0gHYAUFVX3lxTFB3WTBOZVQxNnhVS0VhckJWTUVFbVpPVlVNYXRpS0lMdFI5SzZsVlA2OVg3bWM4UFZWNHB2bFo1dlgzWkVIZHRoRlQ0UGJvQVF0MUVra1dYOExrSF9HOTZrOUtBd21wSUd1WHFYRmppa1B6SEhvaXNJMXJZeUpvbWxxX21Ua09YMTAwajhGQmg3QnpKcjRQa2lEWWdwN3BuZFlrMERsT1dUbHg3NC1jRDVDM2RESkFUdHRWdU56SWpYZVN3cTVOd2ZhTjZwT0hFcU03VFl5bFBuZQ?oc=5",
+            "date": "2026-10-08",
+            "source": "Simply Wall Street",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "$100 Invested In SPX Technologies 5 Years Ago Would Be Worth This Much Today - Benzinga",
+            "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWkNIZmNiWnZTcjhFUnl0RXQxb2I1bDRJNGxMVmh6STItSkM1anhBZWhvR0d0cTdhYXdFc3FvNG04ZUFTZTIwa2VXdFVOX0w0MDdUbHIxb3R2UndCRVFsam9WZ1gtRVRLQS1idzFuQzhnYTN3dHBQbEJxUzhqN1JjYmY5NnpVLVZRdVZUdDJqTGFha2I5NzctUmR1RUVCb0xSaVRXX0g0OWlKQjZQVVVVa3BB?oc=5",
+            "date": "2026-10-07",
+            "source": "Benzinga",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "SPX Technologies to Report Third Quarter 2026 Financial Results - StreetInsider",
+            "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOGRNN3JaUHlReFczdHNOcVN5c0VkdFB6QUh0RUxrZG9rMGVEMHptRURKZldyOUphVjk1cDZwU2d4WGJiVGp3MnJwaHBrZWVBWnd2QTNxblo1ZmtyZ0NYTEN2SGkzMC1aSFAzQkNGYWV0elhPWjlaSUlPMl83Zk9ueDVRQXNDTWFYc0dwaXlhT3VJUnRqeUNYMExTZlRySlBvODdRbmF1akdmR0RXQ0tfYk5yeEl0ZENhWjBMb0pPTQ?oc=5",
+            "date": "2026-10-07",
+            "source": "StreetInsider",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "SPX Technologies (SPXC) Stock Gets Fair Value Trim As Analysts Weigh HVAC Growth Risks - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVW03TkRrVlR2eEt6cXBSOGUzdmMzd1RiOENxRk1RNWJFNHptcklmc0hCdWhLQkNUZXVnSGd2azFidzdxQm4wSmx0ckpjMUlwVzVMQ1pDTkFNNzVnVUFfVG1zalBNRjJDQVk1VDFFZVgxMzZJSk1xS2sxTm9EeGFfZ3ZMYVpRbEZMSkVpYmlqWlZKbDRycGg3M2xkSjdiUQ?oc=5",
+            "date": "2026-10-07",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Why SPX Technologies (SPXC) Could Beat Earnings Estimates Again - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3ZTMDNWamY3NngtczJDMVpNMWpqUFdmSEJEV0NsdERkVlBwdTJGamZ3czJydllHQ0FEQUJlenh2N1dNaXBDbTZxbTY2MnlNdHgtaWY3M2tIWWlmUktIRHRIemJnOEhZNThLZVBOd1JVQUhTR2RUSVdsdXFmRnE5SU5mempjVzVpWklpeE1YMEJCWjB5NlRRV1lSM3c?oc=5",
+            "date": "2026-10-07",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 47,
       "decision": "sans réponse"
     }
   ]
