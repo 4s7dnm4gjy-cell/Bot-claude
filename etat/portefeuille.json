@@ -18,101 +18,101 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-08",
-    "cree_le": "2026-10-08T06:54+00:00",
-    "liberation": 161.88203756973746,
+    "cree_le": "2026-10-08T07:49+00:00",
+    "liberation": 146.2275925920212,
     "reserve_pct": null,
-    "score": 90.73536772168183,
+    "score": 91.4021975181214,
     "ordres": [
       {
-        "ticker": "RTX",
+        "ticker": "AKR",
         "side": "buy",
-        "quantity": 1.0,
-        "price": 160.88203756973746,
+        "quantity": 9.0,
+        "price": 16.136399176891246,
         "reason": "opportunité radar (score 91)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "RTX",
-      "nom": "RTX Corporation",
-      "isin": "RTX",
+      "ticker": "AKR",
+      "nom": "Acadia Realty Trust",
+      "isin": "AKR",
       "type": "action",
-      "prix": 180.25999450683594,
-      "score": 90.73536772168183,
-      "baisse": 0.20058543564893982,
-      "perf_5ans": 1.3347503015891338,
+      "prix": 18.079999923706055,
+      "score": 91.4021975181214,
+      "baisse": 0.19584872114173535,
+      "perf_5ans": 0.09270571359044166,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.25200228864658397,
-      "pos_12m": 0.7740641711229946,
-      "n_12m": 748,
-      "base_moy_12m": 0.14746716751923378,
-      "pire_12m": -0.44240594327854943,
-      "vs_marche_3m": -0.10831840284064465,
+      "moy_12m": 0.15421385495978615,
+      "pos_12m": 0.6662234042553191,
+      "n_12m": 1504,
+      "base_moy_12m": 0.129166677608642,
+      "pire_12m": -0.5957579237519819,
+      "vs_marche_3m": -0.17606915282684055,
       "devise": "USD",
-      "prix_eur": 160.88203756973746,
-      "fondamental": 86.0,
+      "prix_eur": 16.136399176891246,
+      "fondamental": 85.0,
       "fondamental_notes": [
-        "chiffre d'affaires +14.5% sur un an",
-        "bénéfices +28.7% sur un an",
-        "bénéfices attendus +38% sur 12 mois",
-        "analystes : « achat » (1.8/5, 22 avis)",
-        "objectif moyen des analystes : +28%",
-        "P/E attendu 22.9 (actuel 31.7)",
-        "marge nette 8%",
-        "dette / capitaux propres 57 %"
+        "chiffre d'affaires +13.4% sur un an",
+        "bénéfices +400.1% sur un an",
+        "bénéfices attendus +10% sur 12 mois",
+        "analystes : « achat fort » (1.3/5, 7 avis)",
+        "objectif moyen des analystes : +33%",
+        "P/E attendu 48.2 (actuel 53.2)",
+        "marge nette 13%",
+        "dette / capitaux propres 63 %"
       ],
-      "score_global": 87.9
+      "score_global": 87.6
     },
     "actualites": {
-      "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -11% vs marché)",
-      "vs_marche_3m": -0.10831840284064465,
+      "verdict": "orange",
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -18% vs marché)",
+      "vs_marche_3m": -0.17606915282684055,
       "alertes": [],
       "recents": [
         {
-          "titre": "Is RTX (RTX) Cheap Following Its Pratt And Whitney A321XLR Engine Milestone? - Simply Wall Street",
-          "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWFFZcmlwaURwaTJpRWhPVHZ0N0hpNHNGVWhBZndsS2I0Y1JqRkpFSEIxRGU0bXRmcWRWc25nUGVQS0FidGp2Z1pZSS0talZXcDcxZDBUbGg4RzIxanlHcVJWN0NhQWlpQmdBMzhtRzI1X3JnLTNpX3c1d0w4a3R0Ni16UEQ1WllaMDFyMjNOTllSb0xzNTQ5cUtMcXJfVGUzU0tXeHIxMlY2QVl5ZmdVc2VtMU4tVU85RVdrZlFrWHFrQdIBxwFBVV95cUxQOUZQRTIwOW1idThtZEdFdl9xUWZUb0tOd0FTS1d1NTl5NzBORW5fal82Smlqc1NvNmdlank0SlZsX2I1VzA0MUFxeFNETzdqRUpRaVNiRXhrMUpjZ3V1TU5hdmpkYkVsaVNNUmtJSUFMZlY1ZUZyWVlKdFhicTA3SlIzOU9hc2ZlRDdYdl9ZYm1FRTRmcXJ5N2hjTWFMbUZvMEFLSTVNZWRrVVdRTFlvaThEMEZ4dHh2bTczOVdBeldPQVcwbk5r?oc=5",
-          "date": "2026-10-08",
+          "titre": "Acadia Realty Trust (NYSE:AKR) Sets New 12-Month Low - Time to Sell? - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOT0RyeDY2SnFHYWdoOFZ3eVhRTkNiaERtRzFINjhibTA4SF9EVkpkU1ZObjc2dFVCcXg4MXdrWnNUZWRTQThOT21UUnRwWFItdXpaZ2g5TVhZbGo1SkVCSC1sMXJ1UHVaTW5DVWttMlZvWjdpUDdKck9qYnFSUm4yY3lMdzlaY01UbWJOTGpDZGFsSWY4WkliM3BJZ3VmRktfTmRQdEl1WWlUQnJaamlJZnh1SzR0Y0t0a1JSMmtfb3o?oc=5",
+          "date": "2026-10-07",
+          "source": "MarketBeat",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Wall Street Zen upgrades Acadia Realty Trust stock to Hold - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdDVncDFsNFRVLWRob0hGREtZOUUyT0J5WWFYLVRTeGItWG9zTDZqZmZvMll0Y0dJX3llek1aOFhmSEZOakdNR1llbU11bXh4NlQ1SXBvWlJEcTNtckpkYXRrcG5NM0tScTRuOWJrODY2UjFYUUMwTm5kU3hNNFhKVm45dTNoT2dpaUlMdFA3Rk5WelJLeEVTYlZpSEdhWFROZG52U1lMY24xMi1nSHpUdVE1OG9oSkdx?oc=5",
+          "date": "2026-10-06",
+          "source": "AD HOC NEWS",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Acadia buys USD 60 million. Acadia Realty Trust stock yields 4.20 percent - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPT3R4TGVMQzk1OURoZXdQREVuakZLVkVLZlpCeklCLVZGdnRUU2JtYVl3M0FEWEJhTUwweUxPRHVCaFdBUWEteE9qYURQQVVXUjhNYTNPWXpqU0dTSDRDZ2hUeUFxdk5Ma3FQLWlMTjU2M1VBc2lMZFpjZjhkTXBwcWhwQnpWV09WSDVxMVZ4UjJaVzd2TktvckQtX0dhaHVaV1k0aURrWmFGNzBSMDl2UUxrcUQ3V2plQW5tdjlOWXdrYml6QktLZS1BOA?oc=5",
+          "date": "2026-10-05",
+          "source": "AD HOC NEWS",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Acadia Realty Trust stock gets a Hold upgrade from Wall Street Zen - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZnZLNnE5elNpOC1JTElFTVRBVVlYN0ZMMjhXUGVVYURydHRwLTlvM3NOLVI5ZnhBX2RaUWJNbE41ZzdVTGQ0V1NjZS1oWnNtZDJtendINVh2R0I0c2RjbUNRU1hLTENlYldkQUZKSTdzMFh3Z2I0VTJYbnY5N3BiUDRMaF8zd29LUExweW1jZkt6cDNhU2hQUjFscG9yNElBSWVKV3U4bzBfdVI4cXloSWhHbmNCZFo2blRSUDRuaTZzYWlpX2NXSA?oc=5",
+          "date": "2026-10-04",
+          "source": "AD HOC NEWS",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Acadia Realty Trust (AKR) Slides As Its Urban Retail Story Still Points To Undervaluation - Simply Wall Street",
+          "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOajlNZ3Y0dld0bnBFakdSZFNVb1BZejUxR0N1T3lVT3h2MjF0ZjY5V2hfTGxJZFYtRHlGSktLYTU3N1p2bnc1eFJqYTNrUlVVbzEyc044RTdBZDd5ZkowdTFyV2tBYl9RMUx2Z1NmYWU2czNxLXRCZWwxRS1PTEVqTmJFYVlmd2VaTk9wYmFkOVNFR3JNZ21iNkQzckN4UkwzY3F2bVE3eWw2N2tIOUQ4c3dDLVR1cWVVREdGRVd3ZnFlMEEtMTdkRHhmZy1aVTFjSlg5R9IB2gFBVV95cUxOTnRNbTZsUjk5VGpjV2J2TGFSVTJIeHRjR1NNMTJJWkQ1QnUxaEZRM240TGtmLWFWbWR3OWw5MnNSRzBmZXBGNUtpNnJlZ3RseVpnbnZYelNJS2E0SzBSUlJtdzFKSjc5ZG1zVENNZmIwdldWdVJQMW9pOWtUdVRTRUZpT1dVc0MxZkk0TXhBU1VacUNVWmlGSlJQSWRUdjFOQkNLdk9TQWJIekl3U08wTEltNzJ0OG1IUkRWanE1UllMVzNZd0ZFM21INXo1ZERENTdlQXV2Y0NMQQ?oc=5",
+          "date": "2026-10-03",
           "source": "Simply Wall Street",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "RTX Corporation stock heads into October 20 earnings with raised guidance - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQMzl3NV9yRHpObC1xOUdva015UWJEQUZHZUFLYVhKNWtuSDc1QVdYQ0x2WEVpZjR5UnBfMEF4Zm1wMVpVekdnQmoxUGJwTFBTc1BPNzVzUl9tODlCUFNmTHVDZFYtcVV3VTgtRm9XZHF6ZG5jd1AyVS13UjN3bGJEa0t4MWdqaXhHQ3dNNFZrOXh3cmlIVWl3SkpLdThLWXBFZVYyaHNWWFJ6MVowcnJROVQxaGp6dGZZZ0RVbkpLOHlCNy0yaHlGZnhONFhYdmpFRFE?oc=5",
-          "date": "2026-10-07",
-          "source": "AD HOC NEWS",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "RTX (RTX) Registers a Bigger Fall Than the Market: Important Facts to Note - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaFR6ay1GNFo5QWVVWlZkTDVNZ1B0bEpMUUV5X09vQkhqNW5LYXU3X3J3aVI0TVVPLWhmRTlrZGR4V21zYkxXc0hDZnI3emZsdUxudTJyc1Bqd1JJUldRenZ5aGhMSklmZU42emt2VXpZY0VraXl1Ti1EbEFtZVZtamhTTEwydEhkak9UX2ZJZm9Mc0JhZUpnZWZB?oc=5",
-          "date": "2026-10-07",
-          "source": "Yahoo Finance",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "RTX Outperforms Industry in the Past 3 Months: Should You Buy? - Zacks Investment Research",
-          "lien": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPREdWNWdqamhDSUo2dWZFdlZ4cXJsN0hzbEZFZnB0Qm5Bbjc4ZG9GejdORjFiR3FQS1FGNVdyUE84N3A3RF9fOXhaR2MzLXZiRHlnT1Fid3Q1YWxSbVpQbDg2LWhvRks4c3plVXdmem50NDZza1pjWmplYWs5REdLeF9oWjdzOUZmazNGM0JqY1VrazJlMG9GTHBIQjdKV0xpcXFz?oc=5",
-          "date": "2026-10-07",
-          "source": "Zacks Investment Research",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "RTX secures USD 24.40 billion contract. 16 analysts rate RTX Corporation stock a Buy - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWm02ZTZpaGd4RUo3RmRlSTd0dW53R2lndDBaTk5wYm1TcXRHRExkSDdMRzVUVjJqWWxEZl9BNGhWNGlubDY1VVJIa05FUzV2a1pqSXVlM1Rob2s5NDA2bEMyY0NjRGJnSUxZcWZpRVZEZThFaTM0SVdKZTlHNmlwcTVDalF0U1ZxU2c2YU1GdXhKdWVhVks5VDY1TUFOdjBQRXNvMmpGQXpUMWpqemlHYUxLbm5vaERtYXJ0a2M0Tm43Njl1ZHNhcnJWak9JYjQ?oc=5",
-          "date": "2026-10-07",
-          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 38
+    "ticket": 39
   },
   "radar_proposes": [
     "MCD",
@@ -155,7 +155,8 @@
     "SYK",
     "FAF",
     "GD",
-    "RTX"
+    "RTX",
+    "AKR"
   ],
   "achats": [],
   "historique": [
@@ -3610,6 +3611,106 @@
         "recents": []
       },
       "ticket": 37,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-08",
+      "cree_le": "2026-10-08T06:54+00:00",
+      "liberation": 161.88203756973746,
+      "reserve_pct": null,
+      "score": 90.73536772168183,
+      "ordres": [
+        {
+          "ticker": "RTX",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 160.88203756973746,
+          "reason": "opportunité radar (score 91)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "RTX",
+        "nom": "RTX Corporation",
+        "isin": "RTX",
+        "type": "action",
+        "prix": 180.25999450683594,
+        "score": 90.73536772168183,
+        "baisse": 0.20058543564893982,
+        "perf_5ans": 1.3347503015891338,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.25200228864658397,
+        "pos_12m": 0.7740641711229946,
+        "n_12m": 748,
+        "base_moy_12m": 0.14746716751923378,
+        "pire_12m": -0.44240594327854943,
+        "vs_marche_3m": -0.10831840284064465,
+        "devise": "USD",
+        "prix_eur": 160.88203756973746,
+        "fondamental": 86.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +14.5% sur un an",
+          "bénéfices +28.7% sur un an",
+          "bénéfices attendus +38% sur 12 mois",
+          "analystes : « achat » (1.8/5, 22 avis)",
+          "objectif moyen des analystes : +28%",
+          "P/E attendu 22.9 (actuel 31.7)",
+          "marge nette 8%",
+          "dette / capitaux propres 57 %"
+        ],
+        "score_global": 87.9
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -11% vs marché)",
+        "vs_marche_3m": -0.10831840284064465,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Is RTX (RTX) Cheap Following Its Pratt And Whitney A321XLR Engine Milestone? - Simply Wall Street",
+            "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWFFZcmlwaURwaTJpRWhPVHZ0N0hpNHNGVWhBZndsS2I0Y1JqRkpFSEIxRGU0bXRmcWRWc25nUGVQS0FidGp2Z1pZSS0talZXcDcxZDBUbGg4RzIxanlHcVJWN0NhQWlpQmdBMzhtRzI1X3JnLTNpX3c1d0w4a3R0Ni16UEQ1WllaMDFyMjNOTllSb0xzNTQ5cUtMcXJfVGUzU0tXeHIxMlY2QVl5ZmdVc2VtMU4tVU85RVdrZlFrWHFrQdIBxwFBVV95cUxQOUZQRTIwOW1idThtZEdFdl9xUWZUb0tOd0FTS1d1NTl5NzBORW5fal82Smlqc1NvNmdlank0SlZsX2I1VzA0MUFxeFNETzdqRUpRaVNiRXhrMUpjZ3V1TU5hdmpkYkVsaVNNUmtJSUFMZlY1ZUZyWVlKdFhicTA3SlIzOU9hc2ZlRDdYdl9ZYm1FRTRmcXJ5N2hjTWFMbUZvMEFLSTVNZWRrVVdRTFlvaThEMEZ4dHh2bTczOVdBeldPQVcwbk5r?oc=5",
+            "date": "2026-10-08",
+            "source": "Simply Wall Street",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "RTX Corporation stock heads into October 20 earnings with raised guidance - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQMzl3NV9yRHpObC1xOUdva015UWJEQUZHZUFLYVhKNWtuSDc1QVdYQ0x2WEVpZjR5UnBfMEF4Zm1wMVpVekdnQmoxUGJwTFBTc1BPNzVzUl9tODlCUFNmTHVDZFYtcVV3VTgtRm9XZHF6ZG5jd1AyVS13UjN3bGJEa0t4MWdqaXhHQ3dNNFZrOXh3cmlIVWl3SkpLdThLWXBFZVYyaHNWWFJ6MVowcnJROVQxaGp6dGZZZ0RVbkpLOHlCNy0yaHlGZnhONFhYdmpFRFE?oc=5",
+            "date": "2026-10-07",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "RTX (RTX) Registers a Bigger Fall Than the Market: Important Facts to Note - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaFR6ay1GNFo5QWVVWlZkTDVNZ1B0bEpMUUV5X09vQkhqNW5LYXU3X3J3aVI0TVVPLWhmRTlrZGR4V21zYkxXc0hDZnI3emZsdUxudTJyc1Bqd1JJUldRenZ5aGhMSklmZU42emt2VXpZY0VraXl1Ti1EbEFtZVZtamhTTEwydEhkak9UX2ZJZm9Mc0JhZUpnZWZB?oc=5",
+            "date": "2026-10-07",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "RTX Outperforms Industry in the Past 3 Months: Should You Buy? - Zacks Investment Research",
+            "lien": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPREdWNWdqamhDSUo2dWZFdlZ4cXJsN0hzbEZFZnB0Qm5Bbjc4ZG9GejdORjFiR3FQS1FGNVdyUE84N3A3RF9fOXhaR2MzLXZiRHlnT1Fid3Q1YWxSbVpQbDg2LWhvRks4c3plVXdmem50NDZza1pjWmplYWs5REdLeF9oWjdzOUZmazNGM0JqY1VrazJlMG9GTHBIQjdKV0xpcXFz?oc=5",
+            "date": "2026-10-07",
+            "source": "Zacks Investment Research",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "RTX secures USD 24.40 billion contract. 16 analysts rate RTX Corporation stock a Buy - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWm02ZTZpaGd4RUo3RmRlSTd0dW53R2lndDBaTk5wYm1TcXRHRExkSDdMRzVUVjJqWWxEZl9BNGhWNGlubDY1VVJIa05FUzV2a1pqSXVlM1Rob2s5NDA2bEMyY0NjRGJnSUxZcWZpRVZEZThFaTM0SVdKZTlHNmlwcTVDalF0U1ZxU2c2YU1GdXhKdWVhVks5VDY1TUFOdjBQRXNvMmpGQXpUMWpqemlHYUxLbm5vaERtYXJ0a2M0Tm43Njl1ZHNhcnJWak9JYjQ?oc=5",
+            "date": "2026-10-07",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 38,
       "decision": "sans réponse"
     }
   ]
