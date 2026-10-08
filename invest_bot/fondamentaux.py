@@ -11,6 +11,9 @@ Finance :
   * valorisation : P/E sur les bénéfices attendus               15 pts
   * santé : marge nette et endettement                          15 pts
 
+Forte baisse face au marché (plus de 20 % en 3 mois) : voir `sanction_du_marche`,
+qui distingue une braderie (perspectives intactes, bonus) d'une vraie dégradation.
+
 Une donnée manquante compte pour la moitié des points de son critère (ni bonus
 ni pénalité). Sans aucune donnée, le score est inconnu et le titre n'est pas
 proposé (sauf ETF, qui n'ont pas de bénéfices propres).
@@ -135,16 +138,40 @@ def score_fondamental(infos: dict) -> tuple[float | None, list[str]]:
     return round(pts, 1), notes
 
 
-def sanction_du_marche(vs_marche_3m: float | None) -> tuple[float, str | None]:
-    """Quand le cours chute bien plus que le marché, le marché sait souvent quelque chose
-    que les chiffres publiés (passés) ne montrent pas encore."""
-    if vs_marche_3m is None:
-        return 0.0, None
-    if vs_marche_3m < -0.30:
-        return -25.0, f"⚠️ sanction du marché : {vs_marche_3m:+.0%} vs marché en 3 mois (−25 pts)"
-    if vs_marche_3m < -0.20:
-        return -12.0, f"⚠️ sanction du marché : {vs_marche_3m:+.0%} vs marché en 3 mois (−12 pts)"
-    return 0.0, None
+def sanction_du_marche(vs_marche_3m: float | None, infos: dict | None = None) -> tuple[float, str | None, bool]:
+    """Forte baisse face au marché : vraie mauvaise nouvelle, ou braderie ?
+
+    Une chute de 20-30 % de plus que le marché n'est pas forcément méritée. On
+    regarde ce que disent les prévisions les plus récentes :
+      * braderie : bénéfices attendus en hausse, bénéfices du dernier trimestre en
+        hausse, analystes à l'achat -> le prix a baissé, pas l'entreprise (bonus ;
+        jamais au-delà de −45 % : une chute pareille cache trop souvent un vrai problème) ;
+      * dégradation : bénéfices attendus en baisse, bénéfices qui reculent ou
+        analystes à la vente -> le marché a sans doute raison (malus complet) ;
+      * doute : pas assez d'éléments pour trancher (demi-malus, complet au-delà de −40 %).
+    Retourne (points, explication, braderie).
+    """
+    if vs_marche_3m is None or vs_marche_3m >= -0.20:
+        return 0.0, None, False
+    g = {k: _nombre((infos or {}).get(k)) for k in CHAMPS}
+    fe, te, bpa = g["forwardEps"], g["trailingEps"], g["earningsGrowth"]
+    reco, n = g["recommendationMean"], g["numberOfAnalystOpinions"] or 0
+    attendu = fe / te - 1 if fe is not None and te and te > 0 else None
+    chute = f"{vs_marche_3m:+.0%} vs marché en 3 mois"
+    plein = -25.0 if vs_marche_3m < -0.30 else -12.0
+
+    degrade = ((attendu is not None and attendu < 0) or (fe is not None and fe <= 0)
+               or (bpa is not None and bpa < 0) or (reco is not None and n >= 3 and reco > 2.8))
+    if degrade:
+        return plein, f"⚠️ sanction du marché méritée : {chute}, et les perspectives se dégradent ({plein:+.0f} pts)", False
+    braderie = (vs_marche_3m >= -0.45 and attendu is not None and attendu >= 0.05 and (bpa is None or bpa >= 0)
+                and reco is not None and n >= 3 and reco <= 2.3)
+    if braderie:
+        bonus = 8.0
+        return bonus, (f"🏷️ braderie probable : {chute}, alors que les bénéfices attendus montent "
+                       f"({attendu:+.0%}) et que les analystes restent à l'achat ({bonus:+.0f} pts)"), True
+    demi = plein / 2 if vs_marche_3m >= -0.40 else plein  # chute extrême inexpliquée : prudence maximale
+    return demi, f"⚠️ chute de {chute} sans explication claire dans les chiffres ({demi:+.0f} pts)", False
 
 
 def enrichir(candidats: list[dict], lire: Callable[[str], dict] = lire_infos, nb_max: int = 150,
@@ -176,9 +203,10 @@ def enrichir(candidats: list[dict], lire: Callable[[str], dict] = lire_infos, nb
             if not infos and entree and age <= jours_max:
                 infos, reutilisees = entree["infos"], reutilisees + 1
             c["fondamental"], c["fondamental_notes"] = score_fondamental(infos)
-            malus, note = sanction_du_marche(c.get("vs_marche_3m"))
+            ajust, note, braderie = sanction_du_marche(c.get("vs_marche_3m"), infos)
+            c["braderie"] = braderie and c["fondamental"] is not None
             if c["fondamental"] is not None and note:
-                c["fondamental"] = max(0.0, c["fondamental"] + malus)
+                c["fondamental"] = min(100.0, max(0.0, c["fondamental"] + ajust))
                 c["fondamental_notes"].append(note)
             if entree and infos is entree["infos"] and age and age > jours_frais:
                 c["fondamental_notes"].append(f"données du {entree['date']} (Yahoo indisponible aujourd'hui)")

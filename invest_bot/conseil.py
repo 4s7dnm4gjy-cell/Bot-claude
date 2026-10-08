@@ -523,7 +523,8 @@ def titre_ticket(prop: dict) -> str:
     f = radar.get("fondamental")
     qualite = (f"score global {radar['score_global']:.0f}/100, fondamentaux {f:.0f}/100" if f is not None
                and radar.get("score_global") is not None else f"baisse {prop['score']:.0f}/100")
-    return TITRES[prop["type"]].format(montant=montant, score=prop["score"], nom=radar.get("nom", ""), qualite=qualite)
+    titre = TITRES[prop["type"]].format(montant=montant, score=prop["score"], nom=radar.get("nom", ""), qualite=qualite)
+    return titre.replace("🔎 Opportunité", "🏷️ Braderie", 1) if radar.get("braderie") else titre
 
 
 # --------------------------------------------------------------------------- commandes

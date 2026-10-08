@@ -92,7 +92,15 @@ Les prix étrangers sont convertis en euros pour chiffrer les achats. Pour les t
 | Santé (marge nette, dette) | 15 |
 
 **Garde-fous contre les chiffres trop vieux,** car les données publiées regardent le passé :
-- **sanction du marché :** −12 points si le titre a fait 20 % de moins que le marché en 3 mois, −25 points au-delà de 30 % ;
+- **🏷️ braderie ou vraie mauvaise nouvelle ?** Quand un titre a fait plus de 20 % de moins que le marché en 3 mois, le bot regarde les prévisions les plus récentes :
+
+  | Ce que disent les chiffres | Verdict | Points |
+  |---|---|---:|
+  | Bénéfices attendus en hausse (+5 % ou plus), bénéfices qui progressent, analystes à l'achat | 🏷️ **Braderie** : le prix a baissé, pas l'entreprise | **+8** |
+  | Bénéfices attendus en baisse, bénéfices qui reculent, ou analystes à la vente | ⚠️ Sanction méritée | −12 (−25 au-delà de −30 %) |
+  | Pas assez d'éléments pour trancher | ⚠️ Doute | −6 (−12 au-delà de −30 %, −25 au-delà de −40 %) |
+
+  Une chute de plus de 45 % n'est jamais considérée comme une braderie : elle cache trop souvent un vrai problème. Les tickets de braderie s'intitulent « 🏷️ Braderie ».
 - **avertissement sur résultats ou dégradation par un analyste,** dans les actualités du mois : le titre est écarté définitivement.
 
 Les opportunités sont classées par **score global** : 40 % baisse du cours + 60 % fondamentaux. Une action sous **70/100** en fondamentaux, ou sans données, n'est jamais proposée.

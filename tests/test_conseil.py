@@ -446,7 +446,7 @@ def test_cas_ig_group_baisse_forte_et_objectifs_perimes_ecartee():
     (r,) = enrichir(c, lambda t: ig)
     assert r["fondamental"] < 70  # sous le seuil : jamais proposée
     assert any("peu crédible" in n for n in r["fondamental_notes"])
-    assert any("sanction du marché" in n for n in r["fondamental_notes"])
+    assert any("sans explication claire" in n for n in r["fondamental_notes"])
 
 
 def test_express_ecarte_un_avertissement_sur_resultats(cfg_radar, monkeypatch, gh):
@@ -482,3 +482,35 @@ def test_memoire_des_fondamentaux_quand_yahoo_refuse(tmp_path):
     # Trop vieilles (plus de 45 jours) : on ne s'y fie plus.
     (r,) = enrichir(cand(), lambda t: {}, cache=cache, aujourdhui=date(2026, 12, 1))
     assert r["fondamental"] is None
+
+
+def test_braderie_ou_sanction_meritee():
+    """Une chute de 25 % face au marché n'a pas le même sens selon les perspectives."""
+    from invest_bot.fondamentaux import enrichir
+
+    degradee = {**SAINE, "forwardEps": 4.0, "trailingEps": 5.0}  # bénéfices attendus en baisse
+    floue = {k: v for k, v in SAINE.items() if k not in ("forwardEps", "trailingEps")}
+    c = [{"ticker": t, "type": "action", "score": 95, "vs_marche_3m": -0.25} for t in ("B", "D", "F")]
+    infos = {"B": SAINE, "D": degradee, "F": floue}
+    r = {x["ticker"]: x for x in enrichir(c, lambda t: infos[t])}
+    base = {t: enrichir([{"ticker": t, "type": "action", "score": 95, "vs_marche_3m": 0.0}],
+                        lambda t: infos[t])[0]["fondamental"] for t in infos}
+    assert r["B"]["braderie"] and r["B"]["fondamental"] == min(100, base["B"] + 8)
+    assert any("braderie probable" in n for n in r["B"]["fondamental_notes"])
+    assert not r["D"]["braderie"] and r["D"]["fondamental"] == base["D"] - 12
+    assert any("méritée" in n for n in r["D"]["fondamental_notes"])
+    assert r["F"]["fondamental"] == base["F"] - 6
+    assert [x["ticker"] for x in enrichir([dict(x) for x in c], lambda t: infos[t])][0] == "B"
+
+
+def test_titre_du_ticket_braderie():
+    prop = {"type": "opportunite", "score": 90, "ordres": [{"side": "buy", "quantity": 1, "price": 100.0}],
+            "radar": {"nom": "CRH", "fondamental": 90, "score_global": 92, "braderie": True}}
+    assert conseil.titre_ticket(prop).startswith("🏷️ Braderie : CRH")
+
+
+def test_chute_extreme_jamais_braderie():
+    from invest_bot.fondamentaux import enrichir
+
+    (r,) = enrichir([{"ticker": "X", "type": "action", "score": 99, "vs_marche_3m": -0.52}], lambda t: SAINE)
+    assert not r["braderie"] and r["fondamental"] < 80
