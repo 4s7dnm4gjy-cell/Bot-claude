@@ -18,101 +18,101 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-08",
-    "cree_le": "2026-10-08T07:49+00:00",
-    "liberation": 146.2275925920212,
+    "cree_le": "2026-10-08T08:20+00:00",
+    "liberation": 104.3068701663081,
     "reserve_pct": null,
-    "score": 91.4021975181214,
+    "score": 92.34617740222659,
     "ordres": [
       {
-        "ticker": "AKR",
+        "ticker": "ARES",
         "side": "buy",
-        "quantity": 9.0,
-        "price": 16.136399176891246,
-        "reason": "opportunité radar (score 91)"
+        "quantity": 1.0,
+        "price": 103.3068701663081,
+        "reason": "opportunité radar (score 92)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "AKR",
-      "nom": "Acadia Realty Trust",
-      "isin": "AKR",
+      "ticker": "ARES",
+      "nom": "Ares Management",
+      "isin": "ARES",
       "type": "action",
-      "prix": 18.079999923706055,
-      "score": 91.4021975181214,
-      "baisse": 0.19584872114173535,
-      "perf_5ans": 0.09270571359044166,
+      "prix": 115.75,
+      "score": 92.34617740222659,
+      "baisse": 0.32388523345717224,
+      "perf_5ans": 0.8410760275304963,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.15421385495978615,
-      "pos_12m": 0.6662234042553191,
-      "n_12m": 1504,
-      "base_moy_12m": 0.129166677608642,
-      "pire_12m": -0.5957579237519819,
-      "vs_marche_3m": -0.17606915282684055,
+      "moy_12m": 0.408835545938568,
+      "pos_12m": 0.7298850574712644,
+      "n_12m": 174,
+      "base_moy_12m": 0.3436419477490336,
+      "pire_12m": -0.3121130882764349,
+      "vs_marche_3m": -0.07284979371358458,
       "devise": "USD",
-      "prix_eur": 16.136399176891246,
-      "fondamental": 85.0,
+      "prix_eur": 103.3068701663081,
+      "fondamental": 80.5,
       "fondamental_notes": [
-        "chiffre d'affaires +13.4% sur un an",
-        "bénéfices +400.1% sur un an",
-        "bénéfices attendus +10% sur 12 mois",
-        "analystes : « achat fort » (1.3/5, 7 avis)",
-        "objectif moyen des analystes : +33%",
-        "P/E attendu 48.2 (actuel 53.2)",
-        "marge nette 13%",
-        "dette / capitaux propres 63 %"
+        "chiffre d'affaires +9.6% sur un an",
+        "bénéfices +6.5% sur un an",
+        "bénéfices attendus +229% sur 12 mois",
+        "analystes : « achat » (1.9/5, 20 avis)",
+        "objectif moyen des analystes : +27%",
+        "P/E attendu 16.2 (actuel 53.3)",
+        "marge nette 12%",
+        "dette / capitaux propres 172 %"
       ],
-      "score_global": 87.6
+      "score_global": 85.2
     },
     "actualites": {
-      "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -18% vs marché)",
-      "vs_marche_3m": -0.17606915282684055,
+      "verdict": "vert",
+      "resume": "rien d'alarmant dans l'actualité (3 mois : -7% vs marché)",
+      "vs_marche_3m": -0.07284979371358458,
       "alertes": [],
       "recents": [
         {
-          "titre": "Acadia Realty Trust (NYSE:AKR) Sets New 12-Month Low - Time to Sell? - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOT0RyeDY2SnFHYWdoOFZ3eVhRTkNiaERtRzFINjhibTA4SF9EVkpkU1ZObjc2dFVCcXg4MXdrWnNUZWRTQThOT21UUnRwWFItdXpaZ2g5TVhZbGo1SkVCSC1sMXJ1UHVaTW5DVWttMlZvWjdpUDdKck9qYnFSUm4yY3lMdzlaY01UbWJOTGpDZGFsSWY4WkliM3BJZ3VmRktfTmRQdEl1WWlUQnJaamlJZnh1SzR0Y0t0a1JSMmtfb3o?oc=5",
+          "titre": "Update: Market Chatter: Ares Management to Recoup Only Half of TalkTalk Investment in BT Deal - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWjB2Yi1BVWlQaUNiVGVLbDQxVVF5anNOR2RVMTduZ2RsV3dvRVFvNnRybm4xU0dMQzl2RWlTWnFLc19WU2FBOGFIVThHRU5nT2Z4QjN5X3Y4Y0k4R3cyQ25FcVhOV3k3OVhWSVZHLXAwOGZweTVETjRWUW8yY1BDY01OVGRCaExBVS1uZm9QMXBkZzBZYk5SZUFpeDRmb05XRDhDNQ?oc=5",
           "date": "2026-10-07",
-          "source": "MarketBeat",
+          "source": "Yahoo Finance",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Wall Street Zen upgrades Acadia Realty Trust stock to Hold - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdDVncDFsNFRVLWRob0hGREtZOUUyT0J5WWFYLVRTeGItWG9zTDZqZmZvMll0Y0dJX3llek1aOFhmSEZOakdNR1llbU11bXh4NlQ1SXBvWlJEcTNtckpkYXRrcG5NM0tScTRuOWJrODY2UjFYUUMwTm5kU3hNNFhKVm45dTNoT2dpaUlMdFA3Rk5WelJLeEVTYlZpSEdhWFROZG52U1lMY24xMi1nSHpUdVE1OG9oSkdx?oc=5",
+          "titre": "Ares Management to Recoup Only Half of TalkTalk Investment in BT Deal - marketscreener.com",
+          "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcHJDNE54NWdpNndTRkd2cXZEV0ppNmwyRFRGS2pCN0JzemVFanowdGZ3alZYNFl5OUVuTDRnaHFQNWtkQ3NuNTZrZ1JxT1UwMW1McFc0SXItaHM2bEliWlZkRzlrYldsc2k0VmUyWFJwcnAzaGtIRk9vRFo4STRtbGdOYV92R1VlemFlSHFUNEVTdk5YYW5pNGRDMHFiZExFZXBvQ2NTQk8ybUwzNHZKeTdVLWxRNUp5VDhGcWQ5bw?oc=5",
+          "date": "2026-10-07",
+          "source": "marketscreener.com",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Ares Management Corporation : Jefferies & Co. neutre sur le dossier - Zonebourse Suisse",
+          "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOEJsemxnTUt4LWV0TmRJalgtUGg1YU4xSzRETVpvdzh1Z1hyNTBaREdsNUk3VHVwMFo5Z1p5TFZnbWhFa085MmhvU3NJcTk4ZjF5ODEtUV9OSmpTajdvb0Eya1BqTHBiUC1nYW51ZHl4VEtGT2JyOFpfMW5WSndwYTczdXZubHhiX1pZa2tlcUtXYUVIZ3NjdzdXb0ZOYXFtTkhWOXUtMloyS3VsOHdEMmpJYUJ4RWZveVNLQng0cw?oc=5",
           "date": "2026-10-06",
-          "source": "AD HOC NEWS",
+          "source": "Zonebourse Suisse",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Acadia buys USD 60 million. Acadia Realty Trust stock yields 4.20 percent - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPT3R4TGVMQzk1OURoZXdQREVuakZLVkVLZlpCeklCLVZGdnRUU2JtYVl3M0FEWEJhTUwweUxPRHVCaFdBUWEteE9qYURQQVVXUjhNYTNPWXpqU0dTSDRDZ2hUeUFxdk5Ma3FQLWlMTjU2M1VBc2lMZFpjZjhkTXBwcWhwQnpWV09WSDVxMVZ4UjJaVzd2TktvckQtX0dhaHVaV1k0aURrWmFGNzBSMDl2UUxrcUQ3V2plQW5tdjlOWXdrYml6QktLZS1BOA?oc=5",
-          "date": "2026-10-05",
-          "source": "AD HOC NEWS",
+          "titre": "Ares Management ne récupérera que la moitié de son investissement dans TalkTalk après l’accord avec BT - Zonebourse Suisse",
+          "lien": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNRHFWd2JBREJ1MGdPWFpkd0xweEE0M3JWaVVRT0d2TDNBbUhPVnRzMFk2N0hmOUNwbFo5Y1VJZXRESjhrdnFjaVNLQ0lKUzZCd2RJa3ZHOUFEaXBrT1JOMkhTLVF3UXk4YWRfenM4ZS1VcmpaLWRjQ3NqYTM2OFptVS1UZXNWUktxbFZNUEZaalJRN2wxRmpjY3ZRLTJQdUw3Yk5GZUxoQWhfMlVLNjl4REpfcFlTSGUzbDdYZG5JM2oyTkZPVFBHNTFhNG5ZOHpkUDVnYVlvX2ltblc0OHlfVElmbHJZNlc1ckQ1ZXdDYUQ?oc=5",
+          "date": "2026-10-06",
+          "source": "Zonebourse Suisse",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Acadia Realty Trust stock gets a Hold upgrade from Wall Street Zen - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZnZLNnE5elNpOC1JTElFTVRBVVlYN0ZMMjhXUGVVYURydHRwLTlvM3NOLVI5ZnhBX2RaUWJNbE41ZzdVTGQ0V1NjZS1oWnNtZDJtendINVh2R0I0c2RjbUNRU1hLTENlYldkQUZKSTdzMFh3Z2I0VTJYbnY5N3BiUDRMaF8zd29LUExweW1jZkt6cDNhU2hQUjFscG9yNElBSWVKV3U4bzBfdVI4cXloSWhHbmNCZFo2blRSUDRuaTZzYWlpX2NXSA?oc=5",
-          "date": "2026-10-04",
-          "source": "AD HOC NEWS",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Acadia Realty Trust (AKR) Slides As Its Urban Retail Story Still Points To Undervaluation - Simply Wall Street",
-          "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOajlNZ3Y0dld0bnBFakdSZFNVb1BZejUxR0N1T3lVT3h2MjF0ZjY5V2hfTGxJZFYtRHlGSktLYTU3N1p2bnc1eFJqYTNrUlVVbzEyc044RTdBZDd5ZkowdTFyV2tBYl9RMUx2Z1NmYWU2czNxLXRCZWwxRS1PTEVqTmJFYVlmd2VaTk9wYmFkOVNFR3JNZ21iNkQzckN4UkwzY3F2bVE3eWw2N2tIOUQ4c3dDLVR1cWVVREdGRVd3ZnFlMEEtMTdkRHhmZy1aVTFjSlg5R9IB2gFBVV95cUxOTnRNbTZsUjk5VGpjV2J2TGFSVTJIeHRjR1NNMTJJWkQ1QnUxaEZRM240TGtmLWFWbWR3OWw5MnNSRzBmZXBGNUtpNnJlZ3RseVpnbnZYelNJS2E0SzBSUlJtdzFKSjc5ZG1zVENNZmIwdldWdVJQMW9pOWtUdVRTRUZpT1dVc0MxZkk0TXhBU1VacUNVWmlGSlJQSWRUdjFOQkNLdk9TQWJIekl3U08wTEltNzJ0OG1IUkRWanE1UllMVzNZd0ZFM21INXo1ZERENTdlQXV2Y0NMQQ?oc=5",
-          "date": "2026-10-03",
-          "source": "Simply Wall Street",
+          "titre": "Ares Faces 50% Loss on Cash Piled Into TalkTalk With BT Deal - Bloomberg.com",
+          "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONmpwNF9pcXZDdUtWMmFXTEN4S3hWVmpCQzFIZTR2RGxzOU5SSzlmUEwxYlR0bVRncXBwZTdSTDI0UzZmRDdYd05Kc0U2RkxIS3hjRUY5dVpTMVhaRkdxM2xwRHBzMG5zeXJobFpFR1Z1Q3U1ckVZRFBnQXRSNlQ5NjV3Q3k5NHFOLTExY0o5UnZZeGhsWVllVEt0OWdZcmVmTHRHOHZ5TTZUT1BOdEd2cG1sVzU?oc=5",
+          "date": "2026-10-06",
+          "source": "Bloomberg.com",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 39
+    "ticket": 40
   },
   "radar_proposes": [
     "MCD",
@@ -156,7 +156,10 @@
     "FAF",
     "GD",
     "RTX",
-    "AKR"
+    "AKR",
+    "TDG",
+    "OGS",
+    "ARES"
   ],
   "achats": [],
   "historique": [
@@ -3711,6 +3714,106 @@
         ]
       },
       "ticket": 38,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-08",
+      "cree_le": "2026-10-08T07:49+00:00",
+      "liberation": 146.2275925920212,
+      "reserve_pct": null,
+      "score": 91.4021975181214,
+      "ordres": [
+        {
+          "ticker": "AKR",
+          "side": "buy",
+          "quantity": 9.0,
+          "price": 16.136399176891246,
+          "reason": "opportunité radar (score 91)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "AKR",
+        "nom": "Acadia Realty Trust",
+        "isin": "AKR",
+        "type": "action",
+        "prix": 18.079999923706055,
+        "score": 91.4021975181214,
+        "baisse": 0.19584872114173535,
+        "perf_5ans": 0.09270571359044166,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.15421385495978615,
+        "pos_12m": 0.6662234042553191,
+        "n_12m": 1504,
+        "base_moy_12m": 0.129166677608642,
+        "pire_12m": -0.5957579237519819,
+        "vs_marche_3m": -0.17606915282684055,
+        "devise": "USD",
+        "prix_eur": 16.136399176891246,
+        "fondamental": 85.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +13.4% sur un an",
+          "bénéfices +400.1% sur un an",
+          "bénéfices attendus +10% sur 12 mois",
+          "analystes : « achat fort » (1.3/5, 7 avis)",
+          "objectif moyen des analystes : +33%",
+          "P/E attendu 48.2 (actuel 53.2)",
+          "marge nette 13%",
+          "dette / capitaux propres 63 %"
+        ],
+        "score_global": 87.6
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -18% vs marché)",
+        "vs_marche_3m": -0.17606915282684055,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Acadia Realty Trust (NYSE:AKR) Sets New 12-Month Low - Time to Sell? - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOT0RyeDY2SnFHYWdoOFZ3eVhRTkNiaERtRzFINjhibTA4SF9EVkpkU1ZObjc2dFVCcXg4MXdrWnNUZWRTQThOT21UUnRwWFItdXpaZ2g5TVhZbGo1SkVCSC1sMXJ1UHVaTW5DVWttMlZvWjdpUDdKck9qYnFSUm4yY3lMdzlaY01UbWJOTGpDZGFsSWY4WkliM3BJZ3VmRktfTmRQdEl1WWlUQnJaamlJZnh1SzR0Y0t0a1JSMmtfb3o?oc=5",
+            "date": "2026-10-07",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Wall Street Zen upgrades Acadia Realty Trust stock to Hold - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdDVncDFsNFRVLWRob0hGREtZOUUyT0J5WWFYLVRTeGItWG9zTDZqZmZvMll0Y0dJX3llek1aOFhmSEZOakdNR1llbU11bXh4NlQ1SXBvWlJEcTNtckpkYXRrcG5NM0tScTRuOWJrODY2UjFYUUMwTm5kU3hNNFhKVm45dTNoT2dpaUlMdFA3Rk5WelJLeEVTYlZpSEdhWFROZG52U1lMY24xMi1nSHpUdVE1OG9oSkdx?oc=5",
+            "date": "2026-10-06",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Acadia buys USD 60 million. Acadia Realty Trust stock yields 4.20 percent - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPT3R4TGVMQzk1OURoZXdQREVuakZLVkVLZlpCeklCLVZGdnRUU2JtYVl3M0FEWEJhTUwweUxPRHVCaFdBUWEteE9qYURQQVVXUjhNYTNPWXpqU0dTSDRDZ2hUeUFxdk5Ma3FQLWlMTjU2M1VBc2lMZFpjZjhkTXBwcWhwQnpWV09WSDVxMVZ4UjJaVzd2TktvckQtX0dhaHVaV1k0aURrWmFGNzBSMDl2UUxrcUQ3V2plQW5tdjlOWXdrYml6QktLZS1BOA?oc=5",
+            "date": "2026-10-05",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Acadia Realty Trust stock gets a Hold upgrade from Wall Street Zen - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZnZLNnE5elNpOC1JTElFTVRBVVlYN0ZMMjhXUGVVYURydHRwLTlvM3NOLVI5ZnhBX2RaUWJNbE41ZzdVTGQ0V1NjZS1oWnNtZDJtendINVh2R0I0c2RjbUNRU1hLTENlYldkQUZKSTdzMFh3Z2I0VTJYbnY5N3BiUDRMaF8zd29LUExweW1jZkt6cDNhU2hQUjFscG9yNElBSWVKV3U4bzBfdVI4cXloSWhHbmNCZFo2blRSUDRuaTZzYWlpX2NXSA?oc=5",
+            "date": "2026-10-04",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Acadia Realty Trust (AKR) Slides As Its Urban Retail Story Still Points To Undervaluation - Simply Wall Street",
+            "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOajlNZ3Y0dld0bnBFakdSZFNVb1BZejUxR0N1T3lVT3h2MjF0ZjY5V2hfTGxJZFYtRHlGSktLYTU3N1p2bnc1eFJqYTNrUlVVbzEyc044RTdBZDd5ZkowdTFyV2tBYl9RMUx2Z1NmYWU2czNxLXRCZWwxRS1PTEVqTmJFYVlmd2VaTk9wYmFkOVNFR3JNZ21iNkQzckN4UkwzY3F2bVE3eWw2N2tIOUQ4c3dDLVR1cWVVREdGRVd3ZnFlMEEtMTdkRHhmZy1aVTFjSlg5R9IB2gFBVV95cUxOTnRNbTZsUjk5VGpjV2J2TGFSVTJIeHRjR1NNMTJJWkQ1QnUxaEZRM240TGtmLWFWbWR3OWw5MnNSRzBmZXBGNUtpNnJlZ3RseVpnbnZYelNJS2E0SzBSUlJtdzFKSjc5ZG1zVENNZmIwdldWdVJQMW9pOWtUdVRTRUZpT1dVc0MxZkk0TXhBU1VacUNVWmlGSlJQSWRUdjFOQkNLdk9TQWJIekl3U08wTEltNzJ0OG1IUkRWanE1UllMVzNZd0ZFM21INXo1ZERENTdlQXV2Y0NMQQ?oc=5",
+            "date": "2026-10-03",
+            "source": "Simply Wall Street",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 39,
       "decision": "sans réponse"
     }
   ]
