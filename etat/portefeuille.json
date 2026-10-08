@@ -18,101 +18,101 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-08",
-    "cree_le": "2026-10-08T05:18+00:00",
-    "liberation": 81.03046962118634,
+    "cree_le": "2026-10-08T05:48+00:00",
+    "liberation": 110.4026465153052,
     "reserve_pct": null,
-    "score": 90.9887786999371,
+    "score": 91.25394323700307,
     "ordres": [
       {
-        "ticker": "KKR",
+        "ticker": "FAF",
         "side": "buy",
-        "quantity": 1.0,
-        "price": 80.03046962118634,
+        "quantity": 2.0,
+        "price": 54.7013232576526,
         "reason": "opportunité radar (score 91)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "KKR",
-      "nom": "KKR & Co.",
-      "isin": "KKR",
+      "ticker": "FAF",
+      "nom": "First American Financial Corporation",
+      "isin": "FAF",
       "type": "action",
-      "prix": 89.66999816894531,
-      "score": 90.9887786999371,
-      "baisse": 0.36834995953175065,
-      "perf_5ans": 0.5360370053251877,
+      "prix": 61.290000915527344,
+      "score": 91.25394323700307,
+      "baisse": 0.21855234673018065,
+      "perf_5ans": 0.0889533173150141,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.24195280311660372,
-      "pos_12m": 0.625,
-      "n_12m": 456,
-      "base_moy_12m": 0.23330986422332722,
-      "pire_12m": -0.335032288433738,
-      "vs_marche_3m": -0.1015363154085589,
+      "moy_12m": 0.23134492613398164,
+      "pos_12m": 0.8962108731466227,
+      "n_12m": 607,
+      "base_moy_12m": 0.13541287035381744,
+      "pire_12m": -0.30305843822027245,
+      "vs_marche_3m": -0.15510390985579925,
       "devise": "USD",
-      "prix_eur": 80.03046962118634,
-      "fondamental": 100.0,
+      "prix_eur": 54.7013232576526,
+      "fondamental": 92.5,
       "fondamental_notes": [
-        "chiffre d'affaires +7.8% sur un an",
-        "bénéfices +40.0% sur un an",
-        "bénéfices attendus +136% sur 12 mois",
-        "analystes : « achat fort » (1.6/5, 21 avis)",
-        "objectif moyen des analystes : +39%",
-        "P/E attendu 12.1 (actuel 28.6)",
-        "marge nette 12%",
-        "dette / capitaux propres 70 %"
+        "chiffre d'affaires +15.0% sur un an",
+        "bénéfices +50.4% sur un an",
+        "bénéfices attendus +2% sur 12 mois",
+        "analystes : « achat fort » (1.3/5, 6 avis)",
+        "objectif moyen des analystes : +41%",
+        "P/E attendu 8.4 (actuel 8.5)",
+        "marge nette 9%",
+        "dette / capitaux propres 49 %"
       ],
-      "score_global": 96.4
+      "score_global": 92.0
     },
     "actualites": {
-      "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -10% vs marché)",
-      "vs_marche_3m": -0.1015363154085589,
+      "verdict": "orange",
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -16% vs marché)",
+      "vs_marche_3m": -0.15510390985579925,
       "alertes": [],
       "recents": [
         {
-          "titre": "KKR & Co. Inc. : Barclays à l'achat - Zonebourse",
-          "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOX0lQVmd3OFhyLUJRdmF6Nmh0em5kSm1JR2xpb2dIa3QtZjRkVXhjdUJpREttTm5BWjJGcW5QY2VZYWlwUzRuVElEN3pPVDN4LVBZc0ZKTzJsV3dSTHZfV2NCREdQLUJkTk5qTFljOGZQQXlaZUR5dkVMaHZBTzdCMGNFY0JkWFpJbXJ3UzJlZW83aUZX?oc=5",
-          "date": "2026-10-07",
-          "source": "Zonebourse",
+          "titre": "First American Financial stock heads toward October 21 earnings - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVXlxNlY5c2hKMkV6TW45V3VkTEt2N0ZBZGl5Sk1nbWR5eXB1VmYzNXljQTRLb2RVV0d5cUtMaFJtNExSVWtyUEl5SVBrQTZwRjluaTdsWVpCTnNVSTlOQUhxQTFGaUpISE5MM2lZUVd3MVRXc1BWSWc5RkNoTVVfdnI4WHJwNmQyVWZBRWV3Z1R1S3hwTkRtSVZHdmU0bzU1TTVqeG9NOHNaNzdsMDU4V2sycXJjclVoZzEwVDlORQ?oc=5",
+          "date": "2026-10-08",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "KKR & Co. Inc. stock outperforms competitors despite losses on the day - MarketWatch",
-          "lien": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTHc0VmRrblotU1VkTkZZRGZ2LXFmNktwWXdsd3pyZ2t2NkxhOEdMNTgyeDRNVGRLcGZCZjk2aGZOd3E2RFdUSEVzNDRqYWRSMXd3RGs1TTdzSHo1d3luNlZoSWxiVUZSZVB5bW40SktscVBLS0dvMl9Bb3lWM2szMHhFbzdPcWhRVTlucTRGRE9SLURmclUyZXlDNVYtRnU5ZzhqbmpiLVdvTmVmSFJVUFpsWHc5ZTB5ZmpiTjctNUtjVXBveGFwdnlFUHpRLXdud05Mc3AxMnlTREpy?oc=5",
+          "titre": "First American Financial Announces Third Quarter 2026 Earnings Conference Call - FinancialContent",
+          "lien": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNQjR5dnNoY25wanhlMWpDOVJBTlZrNGE2R1dNcmd3VkE3YlZEb0gtQklSd01WNjhDcW5ObFJZTGpfT2R3em9PYjZXRFFnNTJsN0lyNlNkVDNsSUdJbGZXMjk5bXdSQ1VZVEU3OXV0bVZ1MGNRczJZc3FMbFZTQTlWUVdPNjBBakJJTGx0RE82c1VyR3ZsMkVXODFseUI5dDhNcG9kcUsxbWMzNlNTVHBZMUo4NTczYlVwUU1OMTJuVzJCTnNCcWlPb1ZoQnZuaGFFUVFMQWpUZ0NUUmNFOXdMX0h3?oc=5",
           "date": "2026-10-07",
-          "source": "MarketWatch",
+          "source": "FinancialContent",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "KKR & Co. Inc. (KKR) Stock forecasts - Yahoo Finance UK",
-          "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOG1odVplRUp0N0ZXUVg3OEtXcTY1c3FoRndOTkhwS3Q1Rk81TXhkcXBMT09pLUQxMGhvODQ4Z3c3LXNEaGNvbVdwakxrWlk1V3RRWllwaEVwT3pIUjlMSUVCREVSaVl3RVZiYWtwRkpCeVNMSm1ad0UxM2diSlF0blR0S1lDZC1xNl93QWRRaEU?oc=5",
-          "date": "2026-10-07",
-          "source": "Yahoo Finance UK",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Barclays Adjusts KKR & Co Price Target to $130 From $135 - marketscreener.com",
-          "lien": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUUM1UkpjR2tJRFlwOWxQNWU5R1dfQTMtaWtCaUY1X19meV9yeWJGMmFKaG0ydGY1TXFuYk9TRXc2SmtMTDdMRVpndE9pRm45VVBFRnhmM2RlRG9NVnNEUHlVdGxoOWlHZ0pQTGFNUWtIYk1ZYVExZnNGVFlmMVcxYVVwVUNETThvNGh1QkF1N29oY01oWlFoVHNNZWs2WERFVmJmOGFXbEQ?oc=5",
-          "date": "2026-10-07",
-          "source": "marketscreener.com",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "KKR mise 5,1 milliards sur le péage des marchés privés... - Fortuneo",
-          "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOekY5V2xvS1dvTjNCLWhpbmctMl81eURrSWlsSFU0ZjJzY0JTYkloNDVkOXJtZ2tNYmdldm1kTThjOTFwTVNIeDg5RVdHNUk2TzhnTW1la3hlT3dXQzFleHkyVmplWExTVXo2SGE2UWhia1AwTGVqbVFrM08xeWQ0b1F3X2E2S25WdzhncVUxcU03VWtCcmpQN1NGVVpaZV9VUkQ5bWhHVdIBpwFBVV95cUxOekY5V2xvS1dvTjNCLWhpbmctMl81eURrSWlsSFU0ZjJzY0JTYkloNDVkOXJtZ2tNYmdldm1kTThjOTFwTVNIeDg5RVdHNUk2TzhnTW1la3hlT3dXQzFleHkyVmplWExTVXo2SGE2UWhia1AwTGVqbVFrM08xeWQ0b1F3X2E2S25WdzhncVUxcU03VWtCcmpQN1NGVVpaZV9VUkQ5bWhHVQ?oc=5",
+          "titre": "First American Financial Corporation (FAF) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE81ckd4N2pXQ3k3MW56YW15aVlSVkZ0cWNBVXRyRnBkcGdudF9YTml6emdIei1oQlZIUHlpWGJJX0JBd09MSVZNWDY2Njh4bVZ6?oc=5",
           "date": "2026-10-06",
-          "source": "Fortuneo",
+          "source": "Yahoo! Finance Canada",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Barclays cuts target for First American Financial stock from USD 83.00 to USD 79.00 - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOU3Q3MlZyQ1ZMTFFoUEZScFJJZUZ0MUFBaE84bG5GLTFGcWJOaTM2d3BGRFZISXFsRUJLczFJWVlROFh4S3ZVdkxtMkQ1LWtRemhHajdqd09IWHFneXRTYUtrSFkxUXdvM1J3c3JvUEU4czVXRjVvYTNCaGtzR0ZMNzZ0Tm9BQW5FU0xXcVM3aE9oNG5MU1RmeU1KX3lqRU9nOENpZy1CTGlxa2pseXpWeTREUXM5cDBwVlBtczEyZDcyRGYyVURYTGM5TVFWTU5vVTJyUFBrSTl0Zw?oc=5",
+          "date": "2026-10-06",
+          "source": "AD HOC NEWS",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "First American Celebrates a Decade as One of the Best Workplaces in Financial Services & Insurance™, According to Great Place to Work® and Fortune - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZFNLdWFfQXVPYXFTLW1VNjY3ZWZEZFVfcFJiRV8teG5ZbkFMWFBRQkdRWTVOOHowbWpCanJXSzlZZVpwR2p3MEd0N3RteXV6TGZNTnhVeFJFal96ZFpvb2FQWVp0T1V0dTVrY0ZIN3JyRWg0azI2eGx2NFgtQlBvVHhlRnFudGlYWHNDRXJ4WHczeU1GLWt5Y1pjWGlTa00?oc=5",
+          "date": "2026-10-06",
+          "source": "Yahoo Finance",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 35
+    "ticket": 36
   },
   "radar_proposes": [
     "MCD",
@@ -151,7 +151,9 @@
     "EMA.TO",
     "STN.TO",
     "RBA",
-    "KKR"
+    "KKR",
+    "SYK",
+    "FAF"
   ],
   "achats": [],
   "historique": [
@@ -3347,6 +3349,106 @@
         ]
       },
       "ticket": 34,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-08",
+      "cree_le": "2026-10-08T05:18+00:00",
+      "liberation": 81.03046962118634,
+      "reserve_pct": null,
+      "score": 90.9887786999371,
+      "ordres": [
+        {
+          "ticker": "KKR",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 80.03046962118634,
+          "reason": "opportunité radar (score 91)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "KKR",
+        "nom": "KKR & Co.",
+        "isin": "KKR",
+        "type": "action",
+        "prix": 89.66999816894531,
+        "score": 90.9887786999371,
+        "baisse": 0.36834995953175065,
+        "perf_5ans": 0.5360370053251877,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.24195280311660372,
+        "pos_12m": 0.625,
+        "n_12m": 456,
+        "base_moy_12m": 0.23330986422332722,
+        "pire_12m": -0.335032288433738,
+        "vs_marche_3m": -0.1015363154085589,
+        "devise": "USD",
+        "prix_eur": 80.03046962118634,
+        "fondamental": 100.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +7.8% sur un an",
+          "bénéfices +40.0% sur un an",
+          "bénéfices attendus +136% sur 12 mois",
+          "analystes : « achat fort » (1.6/5, 21 avis)",
+          "objectif moyen des analystes : +39%",
+          "P/E attendu 12.1 (actuel 28.6)",
+          "marge nette 12%",
+          "dette / capitaux propres 70 %"
+        ],
+        "score_global": 96.4
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -10% vs marché)",
+        "vs_marche_3m": -0.1015363154085589,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "KKR & Co. Inc. : Barclays à l'achat - Zonebourse",
+            "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOX0lQVmd3OFhyLUJRdmF6Nmh0em5kSm1JR2xpb2dIa3QtZjRkVXhjdUJpREttTm5BWjJGcW5QY2VZYWlwUzRuVElEN3pPVDN4LVBZc0ZKTzJsV3dSTHZfV2NCREdQLUJkTk5qTFljOGZQQXlaZUR5dkVMaHZBTzdCMGNFY0JkWFpJbXJ3UzJlZW83aUZX?oc=5",
+            "date": "2026-10-07",
+            "source": "Zonebourse",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "KKR & Co. Inc. stock outperforms competitors despite losses on the day - MarketWatch",
+            "lien": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTHc0VmRrblotU1VkTkZZRGZ2LXFmNktwWXdsd3pyZ2t2NkxhOEdMNTgyeDRNVGRLcGZCZjk2aGZOd3E2RFdUSEVzNDRqYWRSMXd3RGs1TTdzSHo1d3luNlZoSWxiVUZSZVB5bW40SktscVBLS0dvMl9Bb3lWM2szMHhFbzdPcWhRVTlucTRGRE9SLURmclUyZXlDNVYtRnU5ZzhqbmpiLVdvTmVmSFJVUFpsWHc5ZTB5ZmpiTjctNUtjVXBveGFwdnlFUHpRLXdud05Mc3AxMnlTREpy?oc=5",
+            "date": "2026-10-07",
+            "source": "MarketWatch",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "KKR & Co. Inc. (KKR) Stock forecasts - Yahoo Finance UK",
+            "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOG1odVplRUp0N0ZXUVg3OEtXcTY1c3FoRndOTkhwS3Q1Rk81TXhkcXBMT09pLUQxMGhvODQ4Z3c3LXNEaGNvbVdwakxrWlk1V3RRWllwaEVwT3pIUjlMSUVCREVSaVl3RVZiYWtwRkpCeVNMSm1ad0UxM2diSlF0blR0S1lDZC1xNl93QWRRaEU?oc=5",
+            "date": "2026-10-07",
+            "source": "Yahoo Finance UK",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Barclays Adjusts KKR & Co Price Target to $130 From $135 - marketscreener.com",
+            "lien": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUUM1UkpjR2tJRFlwOWxQNWU5R1dfQTMtaWtCaUY1X19meV9yeWJGMmFKaG0ydGY1TXFuYk9TRXc2SmtMTDdMRVpndE9pRm45VVBFRnhmM2RlRG9NVnNEUHlVdGxoOWlHZ0pQTGFNUWtIYk1ZYVExZnNGVFlmMVcxYVVwVUNETThvNGh1QkF1N29oY01oWlFoVHNNZWs2WERFVmJmOGFXbEQ?oc=5",
+            "date": "2026-10-07",
+            "source": "marketscreener.com",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "KKR mise 5,1 milliards sur le péage des marchés privés... - Fortuneo",
+            "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOekY5V2xvS1dvTjNCLWhpbmctMl81eURrSWlsSFU0ZjJzY0JTYkloNDVkOXJtZ2tNYmdldm1kTThjOTFwTVNIeDg5RVdHNUk2TzhnTW1la3hlT3dXQzFleHkyVmplWExTVXo2SGE2UWhia1AwTGVqbVFrM08xeWQ0b1F3X2E2S25WdzhncVUxcU03VWtCcmpQN1NGVVpaZV9VUkQ5bWhHVdIBpwFBVV95cUxOekY5V2xvS1dvTjNCLWhpbmctMl81eURrSWlsSFU0ZjJzY0JTYkloNDVkOXJtZ2tNYmdldm1kTThjOTFwTVNIeDg5RVdHNUk2TzhnTW1la3hlT3dXQzFleHkyVmplWExTVXo2SGE2UWhia1AwTGVqbVFrM08xeWQ0b1F3X2E2S25WdzhncVUxcU03VWtCcmpQN1NGVVpaZV9VUkQ5bWhHVQ?oc=5",
+            "date": "2026-10-06",
+            "source": "Fortuneo",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 35,
       "decision": "sans réponse"
     }
   ]
