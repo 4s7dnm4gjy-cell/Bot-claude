@@ -18,102 +18,101 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-08",
-    "cree_le": "2026-10-08T11:18+00:00",
-    "liberation": 101.42974131268076,
+    "cree_le": "2026-10-08T11:48+00:00",
+    "liberation": 146.30739545084896,
     "reserve_pct": null,
-    "score": 90.22877342605292,
+    "score": 93.04566307337353,
     "ordres": [
       {
-        "ticker": "TFII.TO",
+        "ticker": "SIA.TO",
         "side": "buy",
-        "quantity": 1.0,
-        "price": 100.42974131268076,
-        "reason": "opportunité radar (score 90)"
+        "quantity": 12.0,
+        "price": 12.10894962090408,
+        "reason": "opportunité radar (score 93)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "TFII.TO",
-      "nom": "TFI International Inc.",
-      "isin": "TFII.TO",
+      "ticker": "SIA.TO",
+      "nom": "Sienna Senior Living Inc.",
+      "isin": "SIA.TO",
       "type": "action",
-      "prix": 160.32000732421875,
-      "score": 90.22877342605292,
-      "baisse": 0.2914238791320529,
-      "perf_5ans": 0.3269288366217453,
+      "prix": 19.329999923706055,
+      "score": 93.04566307337353,
+      "baisse": 0.17119408967275185,
+      "perf_5ans": 0.8510912995857531,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.31348040665673127,
-      "pos_12m": 0.5950413223140496,
-      "n_12m": 847,
-      "base_moy_12m": 0.2526755173652121,
-      "pire_12m": -0.6048592452625203,
-      "vs_marche_3m": -0.26664321924574697,
+      "moy_12m": 0.17907992878083273,
+      "pos_12m": 0.7109067017082786,
+      "n_12m": 761,
+      "base_moy_12m": 0.14241029745845113,
+      "pire_12m": -0.37868173586787535,
+      "vs_marche_3m": -0.18193911818291064,
       "devise": "CAD",
-      "prix_eur": 100.42974131268076,
-      "fondamental": 80.0,
+      "prix_eur": 12.10894962090408,
+      "fondamental": 77.0,
       "fondamental_notes": [
-        "chiffre d'affaires +12.4% sur un an",
-        "bénéfices +41.0% sur un an",
-        "bénéfices attendus +100% sur 12 mois",
-        "analystes : « achat fort » (1.6/5, 9 avis)",
-        "objectif moyen des analystes : +50%",
-        "P/E attendu 14.3 (actuel 28.6)",
-        "marge nette 4%",
-        "dette / capitaux propres 111 %",
-        "⚠️ sanction du marché : -27% vs marché en 3 mois (−12 pts)"
+        "chiffre d'affaires +13.7% sur un an",
+        "bénéfices +93.2% sur un an",
+        "bénéfices attendus +19% sur 12 mois",
+        "analystes : « achat fort » (1.5/5, 11 avis)",
+        "objectif moyen des analystes : +37%",
+        "P/E attendu 30.7 (actuel 36.5)",
+        "marge nette 5%",
+        "dette / capitaux propres 149 %"
       ],
-      "score_global": 84.1
+      "score_global": 83.4
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -27% vs marché)",
-      "vs_marche_3m": -0.26664321924574697,
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -18% vs marché)",
+      "vs_marche_3m": -0.18193911818291064,
       "alertes": [],
       "recents": [
         {
-          "titre": "TOUR D'HORIZON DE LA RECHERCHE AUX ÉTATS-UNIS-Allstate, Caribou Biosciences, Zscaler - Boursorama",
-          "lien": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNVnYteUVSMjRMdXBzSmxUb3dmTzVHTmk3TlE1WTBpaG5OQkV2Ym5QVW1xb3NVc2ZsN05oWGFvM3pnU0lTMmh2QVI0dmdCc0xSeDNfMFhlNzBMWlBaSXJaUk1icFFhX09KMHFMTDNGMjJ6M1NfUU1Ua3Z5azFqcGlPTlNBWUM1V3BCVkR6b0JtQW1kLXpiNWpNQTBvaHVsQlZpNGhONGxVWEJVWVJjd2JvdmJpOWVpTXNCYTFtNFNoYXkwRXhmZFh2ZVFIZXRHSHp1SXBnVHFmaGVTSWtPQm5nRVZJSDZoZTltQTZTNmthWmhXNy0tT1Jj0gH3AUFVX3lxTE1Wdi15RVIyNEx1cHNKbFRvd2ZPNUdOaTdOUTVZMGlobk5CRXZiblBVbXFvc1VzZmw3TmhYYW8zemdTSVMyaHZBUjR2Z0JzTFJ4M18wWGU3MExaUFpJclpSTWJwUWFfT0owcUxMM0YyMnozU19RTVRrdnlrMWpwaU9OU0FZQzVXcEJWRHpvQm1BbWQtemI1ak1BMG9odWxCVmk0aE40bFVYQlVZUmN3Ym92Ymk5ZWlNc0JhMW00U2hheTBFeGZkWHZlUUhldEdIenVJcGdUcWZoZVNJa09CbmdFVklINmhlOW1BNlM2a2FaaFc3LS1PUmM?oc=5",
-          "date": "2026-10-07",
-          "source": "Boursorama",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "TFI International Inc. (TFII.TO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-          "lien": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOQ3FHQ3pnSEllTVNGbkpkUHpBcUlVMHhVYmk3Qzh5UnExYU52UEQ4STBSaC1qaGg5Qmt3dFlQRmlMYjBQLVJBZjlyTUUyZDBHcmNpdVBn?oc=5",
-          "date": "2026-10-07",
-          "source": "Yahoo! Finance Canada",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "TFI International Inc. Is Maintained at Outperform by National Bank - Moomoo",
-          "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONFMzTWxJajNlWFJXQl9ydGdRZFFPcU9xLUZJRW51WDFWbzdoS19TbmlLaV9BZm9XM19JZWlvZjRjUG1RaURiVHJOczFaNEd5bUtVTkYwTFBOQkFDbERjZXJqS3RGNVBLdnlZX0VpVHJNNVM5RGtWUGxBdjlURTFQbWQzTGhVWlZpMTZ0UUlka3ZjZ2dXVWF2RHY3bzBodEFxRFZqRlhfWTdWMC0wbnhn?oc=5",
-          "date": "2026-10-07",
+          "titre": "Sienna Senior Living Inc. Price Target Cut to C$24.25/Share From C$25.75 by Raymond James - Moomoo",
+          "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMlhwU2F4a3A3ejRSVjBZejZRT2V1MVVSTWpXem81WUc5V3JjSGxTU29JMWt6VWl4Y3dCZlVENjd1UlNJZ3JBa210X21NOTBQTUkyakViTmFfQ0VHemJDbzN4WHhKVVcxSFN2em5xUjNwYWN5Y1FhS3psdTJHc1JjSnhxSDRkZGNObFNheWdsWVdFR1RteHhnbg?oc=5",
+          "date": "2026-10-02",
           "source": "Moomoo",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "TFI International Inc. Stock 12‑Month Price Target Cut to $162.87, Implies 43% Upside - TradingView",
-          "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYjktSE5yR2J0MFJqdlZVVC1BbVJuV2NVdTBWTHpkeGNIS2k1R1lHOHVJdjFQNDQ2M0Q1VTdQWjJUQldjbVZrVVR6ZWdGUE9WZTJkQkVXRkpzLTB1OUdjS0MxZHBrdS04WENkVEdNLU94NnMtcDV0SDR1dVgtVXhnand5R1Jhdi1sUlBPa0NzX092UThLS0VKQTYybng3R3hPaGFoeTBHMTlrbkNmUFRlcmkzSEJ4WHNYMTA3REJzRVF0NkR6X1lPTGI5VzNiaWlra1hfQS1kbnFWN1U?oc=5",
-          "date": "2026-10-07",
-          "source": "TradingView",
+          "titre": "What Is the Fresh Story at Sienna Senior Living Inc. (TSX:SIA)? - Kalkine Media",
+          "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTklYc0hXS09ySTFLOVlWOW1ZNFV3bWpTckVOSWwyT0pzVEdrNVRLTXB5ZWFqc1pEU1NXV3hDbzJLbVZDbW92SjFvYXZyWXJoNjNjMkNhN3V2X1h2Y1dJSTEtOE1iLWdDN20zMlpSUW9raDliZXFNLVQzSzlXaDlwWWUwLXIxY01yTTFKLUVwbzdfZm1mMGtCQmg0R2FMdG5KSXVLcEJxMA?oc=5",
+          "date": "2026-09-30",
+          "source": "Kalkine Media",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Why Is TFI International (TSX:TFII) in Focus Amid Its Freight Cycle Recovery Story? - Kalkine Media",
-          "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQ0JRZllfYy1BckFMTjJlX09OMWhSODgxaXdtVDg0ZUZVUzRLZDNHalhEcUFxb0ZCdG80dlJ4dTQwemZrMlVFZ0xfVFRhanNMcFc3Q2hZRzZLcU1xNGxWYXFWWGlYbjNyNTFJSWVDdDYyX2RBZTRlRzJhM1Nyc3NuUkI5eV9ZS0JQbkQ0cHBQQjAxNnJIMmJyalU2RUhjZTlQeU0tekhpajBHb1BSb29Velh3MnRMMUtyMnNOVlMwVHJEUlE?oc=5",
-          "date": "2026-10-07",
+          "titre": "Sienna Senior Living Dividend Yield at 4.04%: Can Stable Cash Flows Drive Long-Term Income Growth? - kalkine.ca",
+          "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZVBRcUcweUZmanhDNmk5V1B4TV9hcUNzMEcyLW51LUN3RjNCTFg2T2I0ejJHbVNScW8zd3pOendGdGxfTlg3bzRXZEN4QU9ORHVITUxKcF9nREx6VlJHOVhBd0hBTzlyaGwyWmhIakZmVTNPSVRMNDNZODY5bDRlUGkyRll5THBGSjduTDNzUXFncjR1SmhoUjFpczdnWk92dmt4eVJzVEFTdG9BUFhLdktxNkdqemxSSWRteTNFQXpQRDczRExSVQ?oc=5",
+          "date": "2026-09-25",
+          "source": "kalkine.ca",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Sienna Senior Living (TSX:SIA): Fresh Update Explained - Kalkine Media",
+          "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxON2REUU1pZ1c3djJ1b2lyMlBOa1R5LVBhM0lrQVkzcEVxSTNTSjJkSEFhYmFmbV8wTXRJVVJOQ3Q2Szh2QUlYLW5xQi1PWUFKNm5PS2hIVl9UTTVaYW5fWEk3QU9sWWo0dkRaTEFaeW1OR0YzT1VnQ3pQRlB2TVZLV2wxeWpwLVpNeV9xSWpoRlpzdlZZUWZUVEVwclU?oc=5",
+          "date": "2026-09-21",
           "source": "Kalkine Media",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Sienna Continues Platform Growth in Ontario - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWFRsQXZqall0dF94R2xrd292WmVrYUdNeTlFNHNQYU9iejRWTnJ1d3RqUzRqV3ppYVJ0aHFtVGl4MmIwSWRuNXljazZoTHJxb1pocTY0UDJJbndCc3RTREFWLVBVY3p4TTNxVzZxUnJfQkJYYjFhaTVjMW5FZVpSb19UbTlCQkM0QnJ2cnQ0UnFMb1cyUjBLUzNaa0E2RHNlMUc3UA?oc=5",
+          "date": "2026-09-17",
+          "source": "Yahoo Finance",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 44
+    "ticket": 45
   },
   "radar_proposes": [
     "MCD",
@@ -164,7 +163,8 @@
     "WPC",
     "NHY.OL",
     "DG.PA",
-    "TFII.TO"
+    "TFII.TO",
+    "SIA.TO"
   ],
   "achats": [],
   "historique": [
@@ -4230,6 +4230,107 @@
         ]
       },
       "ticket": 43,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-08",
+      "cree_le": "2026-10-08T11:18+00:00",
+      "liberation": 101.42974131268076,
+      "reserve_pct": null,
+      "score": 90.22877342605292,
+      "ordres": [
+        {
+          "ticker": "TFII.TO",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 100.42974131268076,
+          "reason": "opportunité radar (score 90)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "TFII.TO",
+        "nom": "TFI International Inc.",
+        "isin": "TFII.TO",
+        "type": "action",
+        "prix": 160.32000732421875,
+        "score": 90.22877342605292,
+        "baisse": 0.2914238791320529,
+        "perf_5ans": 0.3269288366217453,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.31348040665673127,
+        "pos_12m": 0.5950413223140496,
+        "n_12m": 847,
+        "base_moy_12m": 0.2526755173652121,
+        "pire_12m": -0.6048592452625203,
+        "vs_marche_3m": -0.26664321924574697,
+        "devise": "CAD",
+        "prix_eur": 100.42974131268076,
+        "fondamental": 80.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +12.4% sur un an",
+          "bénéfices +41.0% sur un an",
+          "bénéfices attendus +100% sur 12 mois",
+          "analystes : « achat fort » (1.6/5, 9 avis)",
+          "objectif moyen des analystes : +50%",
+          "P/E attendu 14.3 (actuel 28.6)",
+          "marge nette 4%",
+          "dette / capitaux propres 111 %",
+          "⚠️ sanction du marché : -27% vs marché en 3 mois (−12 pts)"
+        ],
+        "score_global": 84.1
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -27% vs marché)",
+        "vs_marche_3m": -0.26664321924574697,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "TOUR D'HORIZON DE LA RECHERCHE AUX ÉTATS-UNIS-Allstate, Caribou Biosciences, Zscaler - Boursorama",
+            "lien": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNVnYteUVSMjRMdXBzSmxUb3dmTzVHTmk3TlE1WTBpaG5OQkV2Ym5QVW1xb3NVc2ZsN05oWGFvM3pnU0lTMmh2QVI0dmdCc0xSeDNfMFhlNzBMWlBaSXJaUk1icFFhX09KMHFMTDNGMjJ6M1NfUU1Ua3Z5azFqcGlPTlNBWUM1V3BCVkR6b0JtQW1kLXpiNWpNQTBvaHVsQlZpNGhONGxVWEJVWVJjd2JvdmJpOWVpTXNCYTFtNFNoYXkwRXhmZFh2ZVFIZXRHSHp1SXBnVHFmaGVTSWtPQm5nRVZJSDZoZTltQTZTNmthWmhXNy0tT1Jj0gH3AUFVX3lxTE1Wdi15RVIyNEx1cHNKbFRvd2ZPNUdOaTdOUTVZMGlobk5CRXZiblBVbXFvc1VzZmw3TmhYYW8zemdTSVMyaHZBUjR2Z0JzTFJ4M18wWGU3MExaUFpJclpSTWJwUWFfT0owcUxMM0YyMnozU19RTVRrdnlrMWpwaU9OU0FZQzVXcEJWRHpvQm1BbWQtemI1ak1BMG9odWxCVmk0aE40bFVYQlVZUmN3Ym92Ymk5ZWlNc0JhMW00U2hheTBFeGZkWHZlUUhldEdIenVJcGdUcWZoZVNJa09CbmdFVklINmhlOW1BNlM2a2FaaFc3LS1PUmM?oc=5",
+            "date": "2026-10-07",
+            "source": "Boursorama",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "TFI International Inc. (TFII.TO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+            "lien": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOQ3FHQ3pnSEllTVNGbkpkUHpBcUlVMHhVYmk3Qzh5UnExYU52UEQ4STBSaC1qaGg5Qmt3dFlQRmlMYjBQLVJBZjlyTUUyZDBHcmNpdVBn?oc=5",
+            "date": "2026-10-07",
+            "source": "Yahoo! Finance Canada",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "TFI International Inc. Is Maintained at Outperform by National Bank - Moomoo",
+            "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONFMzTWxJajNlWFJXQl9ydGdRZFFPcU9xLUZJRW51WDFWbzdoS19TbmlLaV9BZm9XM19JZWlvZjRjUG1RaURiVHJOczFaNEd5bUtVTkYwTFBOQkFDbERjZXJqS3RGNVBLdnlZX0VpVHJNNVM5RGtWUGxBdjlURTFQbWQzTGhVWlZpMTZ0UUlka3ZjZ2dXVWF2RHY3bzBodEFxRFZqRlhfWTdWMC0wbnhn?oc=5",
+            "date": "2026-10-07",
+            "source": "Moomoo",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "TFI International Inc. Stock 12‑Month Price Target Cut to $162.87, Implies 43% Upside - TradingView",
+            "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYjktSE5yR2J0MFJqdlZVVC1BbVJuV2NVdTBWTHpkeGNIS2k1R1lHOHVJdjFQNDQ2M0Q1VTdQWjJUQldjbVZrVVR6ZWdGUE9WZTJkQkVXRkpzLTB1OUdjS0MxZHBrdS04WENkVEdNLU94NnMtcDV0SDR1dVgtVXhnand5R1Jhdi1sUlBPa0NzX092UThLS0VKQTYybng3R3hPaGFoeTBHMTlrbkNmUFRlcmkzSEJ4WHNYMTA3REJzRVF0NkR6X1lPTGI5VzNiaWlra1hfQS1kbnFWN1U?oc=5",
+            "date": "2026-10-07",
+            "source": "TradingView",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Why Is TFI International (TSX:TFII) in Focus Amid Its Freight Cycle Recovery Story? - Kalkine Media",
+            "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQ0JRZllfYy1BckFMTjJlX09OMWhSODgxaXdtVDg0ZUZVUzRLZDNHalhEcUFxb0ZCdG80dlJ4dTQwemZrMlVFZ0xfVFRhanNMcFc3Q2hZRzZLcU1xNGxWYXFWWGlYbjNyNTFJSWVDdDYyX2RBZTRlRzJhM1Nyc3NuUkI5eV9ZS0JQbkQ0cHBQQjAxNnJIMmJyalU2RUhjZTlQeU0tekhpajBHb1BSb29Velh3MnRMMUtyMnNOVlMwVHJEUlE?oc=5",
+            "date": "2026-10-07",
+            "source": "Kalkine Media",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 44,
       "decision": "sans réponse"
     }
   ]
