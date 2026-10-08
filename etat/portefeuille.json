@@ -18,101 +18,112 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-08",
-    "cree_le": "2026-10-08T09:49+00:00",
-    "liberation": 146.24357997946646,
+    "cree_le": "2026-10-08T10:20+00:00",
+    "liberation": 109.0,
     "reserve_pct": null,
-    "score": 92.26563692223823,
+    "score": 89.89095938273613,
     "ordres": [
       {
-        "ticker": "NHY.OL",
+        "ticker": "DG.PA",
         "side": "buy",
-        "quantity": 20.0,
-        "price": 7.262178998973323,
-        "reason": "opportunité radar (score 92)"
+        "quantity": 1.0,
+        "price": 108.0,
+        "reason": "opportunité radar (score 90)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "NHY.OL",
-      "nom": "Norsk Hydro",
-      "isin": "NO0005052605",
+      "ticker": "DG.PA",
+      "nom": "Vinci",
+      "isin": "FR0000125486",
       "type": "action",
-      "prix": 77.86000061035156,
-      "score": 92.26563692223823,
-      "baisse": 0.3481791326952618,
-      "perf_5ans": 0.5685493532995778,
+      "prix": 108.0,
+      "score": 89.89095938273613,
+      "baisse": 0.21874856507073093,
+      "perf_5ans": 0.3655615854772021,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.21932318192119035,
-      "pos_12m": 0.6105160662122687,
-      "n_12m": 1027,
-      "base_moy_12m": 0.20282495066589726,
-      "pire_12m": -0.680795761303751,
-      "vs_marche_3m": -0.10287750481008706,
-      "devise": "NOK",
-      "prix_eur": 7.262178998973323,
-      "fondamental": 80.0,
+      "moy_12m": 0.18738640844498794,
+      "pos_12m": 0.8159645232815964,
+      "n_12m": 902,
+      "base_moy_12m": 0.1632355178099447,
+      "pire_12m": -0.5312549616444697,
+      "vs_marche_3m": -0.14116028776423828,
+      "devise": "EUR",
+      "prix_eur": 108.0,
+      "fondamental": 80.5,
       "fondamental_notes": [
-        "chiffre d'affaires +6.4% sur un an",
-        "bénéfices +178.6% sur un an",
-        "bénéfices attendus +67% sur 12 mois",
-        "analystes : « vendre » (3.1/5, 17 avis)",
-        "objectif moyen des analystes : +18%",
-        "P/E attendu 9.4 (actuel 15.7)",
-        "marge nette 5%",
-        "dette / capitaux propres 32 %"
+        "chiffre d'affaires +2.3% sur un an",
+        "bénéfices +10.8% sur un an",
+        "bénéfices attendus +12% sur 12 mois",
+        "analystes : « achat » (1.9/5, 20 avis)",
+        "objectif moyen des analystes : +32%",
+        "P/E attendu 10.7 (actuel 12.0)",
+        "marge nette 7%",
+        "dette / capitaux propres 121 %"
       ],
-      "score_global": 84.9
+      "score_global": 84.3
     },
     "actualites": {
       "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -10% vs marché)",
-      "vs_marche_3m": -0.10287750481008706,
-      "alertes": [],
+      "resume": "rien d'alarmant dans l'actualité (1 article(s) mineur(s), courant pour une grande entreprise) (3 mois : -14% vs marché)",
+      "vs_marche_3m": -0.14116028776423828,
+      "alertes": [
+        {
+          "titre": "Incendie dans un collège près de Toulouse : un bâtiment touché, les élèves évacués, le Département va porter plainte - Actu.fr",
+          "lien": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQV2FrOU1IV0J5aUZwYWNpcTBTV1g3ZFhhcUduNkZObVRkRUtUM0ZYZENKTnFiSzNXM21HX25VcF9tOTNZU3dPdzV0bGdpOGFUVGxaS2JnNGUtbTN0eVFGc09mSEk2NzRSYWZJMmlJNmRDYUZJYU4wUXdMV2pubGxzNThrdWtPNWtCcGU1TDl6WVl6eE9VLUJvSV9LUFNheXRIN20ta2xxb1UzaXRZaWJTbkZJS0pHejdieWlKNWFWTkZHbmE4dVpLNlR6R3diY081UHdnRUdsaXdRNzFYa0lhVFQ4RTM?oc=5",
+          "date": "2026-10-06",
+          "source": "Actu.fr",
+          "gravite": 1,
+          "mots": [
+            "plainte"
+          ]
+        }
+      ],
       "recents": [
         {
-          "titre": "Norsk Hydro (OB:NHY) Stock Sees Modest Fair Value Cut After Analyst Caution - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOb0QyZ2FmandYb0JQVFUxNlpFY01GN092T2JzMVdwcjlPSlE4aG9PanJEQ19qNnRSUFUxbE5oWUJMYkNRYkh1VjE4aDhaYVU0dnp6RmtxTjVHandqTWxaWFJ0Zk5uQTIwS3g5akk3dV9hYUs2YkRQazBja3N1cko2bWZ6a0pzeTVrV1lMMFB4UEN2eUU?oc=5",
+          "titre": "VINCI Cours Action DG, Cotation Bourse Euronext Paris - Boursorama",
+          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9oX1NuMnp3Q1Ezd2xRVlIzdFlYNm1xSS1JYVB4YWhHSlBKSUpGZ0stcTF3MEhfWnpVTW52TjhLSlpfYWsxRVdIUzFZSlFIa2Jz?oc=5",
           "date": "2026-10-08",
-          "source": "Yahoo Finance",
+          "source": "Boursorama",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Morgan Stanley abaisse son objectif de cours sur Norsk Hydro à 87 couronnes norvégiennes (92) et maintient sa recommandation « neutre » - BN - Zonebourse Suisse",
-          "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZURuSGpvY2pGN2ZOYUVWUGEzNUlsYzN4Wm9BMHkwMXUyVi16MVZEMXR2VWpFekRCVjRJbUNMX2V4Q0VEMU9OWEJyRE1vWVNtN2s4Vm4taG9ubmFNaF9lV2FOYnJxUkc4SjRBblNGcWtuZHIxVkY3Nnd2Z2hNQkd6RW4zZmV3LVo4Q2RyU1h5ZzROOUNXRGxwTlA4S3NKcndDOWlTd284SS1TcUxGTURMRVR6aVlfcUlvb2F2RHB1YmRfME11a2hneUttSGdGMnFBMFJpb3BTVXAta0h5a1p5ZlBSSHZWWEExRTlNeEE4VQ?oc=5",
-          "date": "2026-10-07",
-          "source": "Zonebourse Suisse",
+          "titre": "Piedmont Rockdale adds second da Vinci surgical system - Rockdale Citizen",
+          "lien": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQS3ZpcnZ2R2ZZWkl0bFdRTVJTOWZNdnBlUUpXa2tuaUN2dFF4U3Y1cWJIcDRScEdjWGRHcW9vTE05bXFFeXZRYnc3UW1wSkc2elZpaW13cllGYl9nb0JyazVuSmxkOXZwY09TeE1aMlZxUHlMbmI2amxFUmZ3UjhJSTlicTVkMTZIMDJfNmhSRDVwb2VYUV91ZXg4LTF4MUtDTG1wdGFyekR4MHdndEtWX2h4WFg5eVNwMUFmV3ZaaXFxcm5RY1YxamZCWGFMRG9Yb0R2RU12MXQ?oc=5",
+          "date": "2026-10-08",
+          "source": "Rockdale Citizen",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Deutsche Bank abaisse l’objectif de cours de Norsk Hydro à 100 couronnes norvégiennes (102), recommande de conserver - Zonebourse Suisse",
-          "lien": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOd2w4WGtwOGdIdUs0ajV1d2VqVUtsa0NYcjlqY0NodkRfbS1JNzRITmVsU193cFh0Z3F2VHhxaTAtSmkybEVlSk5pOG5qcnlKc1RTa21oV0RIeEFuY1plY0J2NzZnZFZwSDJZR1Zqdi1aMDNDWUVGT1c5NlBZTlZJV1FqY24tU3VhNTJOUEduekY3bXMzYm40aEpHNVlvOUJwVy00VVdETzR1T1FGX2lXN2tVWWR3R0NWMUpnSENaejJFakM1T0RYRW9EWUUtYzdjVHFBVFFoYktuN2xsaTFJTVRMSG5XZG9CdVRsMg?oc=5",
+          "titre": "Baisse pour Vinci - Boursier.com",
+          "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV2FOOWNqZzUtbDVndG0tekg3NTR6NXJNbWJMQmFvSDJLWGJXTGRQMldVRF90UElITjQ2N2xXRnBqRDZxRktaM3RQSnRGanFOV1BFZUM4THhmWXNyMXpjUkVvWGs3Q0p6dWswUjRFWGZsR1ZXUTNXZlJkTWFaekVxbU1tRXRCQmtjUnY2cW5hbTNoZw?oc=5",
           "date": "2026-10-07",
-          "source": "Zonebourse Suisse",
+          "source": "Boursier.com",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Norsk Hydro forecasts impact of US$210 million due to dispute over gas supply in Brazil - BNamericas",
-          "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObG1LQVRkdXV4MkNJbV9fckRyazB1R01VeU9JNU9oMUtrNGIyT0phSlZKRU4wVkFDS3pOejVaMWlHa04yLXNKeHc2YnJKYWtGRy1ZSlNTOW45SC1wSm1UOWNhblBRbTJTdHdzVlVFbUpzanc3LW0zbzdjM2VMMVNDWmxLeWVfc0ktWHdKMVZOeW9jUzU2NkZ5OF9pTldJbXh0UXhzY2F6X2pvMEJGaEpPZGJFeWxqNmxmQ0ZVeTBB?oc=5",
+          "titre": "VINCI signe une convention avec la Garde nationale pour renforcer son soutien à ses collaborateurs réservistes - Vinci",
+          "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRkh6XzFHdDVGR0R3ZEdsTE5qcm5TUFZFbmNiRTVKT1FCZVlVTjEtU3BmR2xBZWV6bTJndkNJdkVRLUw5STNBQUZmUmkyUzNiTVM0MjFMVHRxWUJjYzNUakUzUWZSelpVVEwtcG5iY0E5a0ZJRVFIbkJQNU5KQkYzN0lqVXk3Qmd2VXhFNmxiSGtPSXN3QWNZdWlDSTRNakYxaFBoR05BcmZkTWNCY2FVdWQzNlI3Yzc4UEtj?oc=5",
           "date": "2026-10-07",
-          "source": "BNamericas",
+          "source": "Vinci",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Morgan Stanley cuts price target for Norsk Hydro to NOK 87 (92), reiterates equal-weight - BN - www.marketscreener.com",
-          "lien": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTVVQMDBQcTlaYXlMajhleDlsWXRUZmdHVUtPVkpJeWwxTXN6cFhhck56MnNUX05VbnlueUp4TW1BcXE4THBJLVRjR2xJdnBBWFVjVXBVbUowNThBS2I2cWJxMVB4WUNxY25ZZW42eWc1ZXJsMXdkbTEzU1Mwd3hsQmxQWm5fbGh4cWNfRUVqdHBOcHoyYU5GbEhHRDlydVhDOEpvdEtjSUhoeE5idnpNZmdOVFRxTGowQWNQdXFUZHFDVTlaWjd6c1FRMjlwU1ZHclpFSDhwc2w?oc=5",
+          "titre": "VINCI : La tendance baissière peut reprendre - Boursorama",
+          "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdTdQeU5mQzZKQUlUbEpFdEJhclRqQjU1YmcxQzhQOEZSRGZCMC1qMm9SdFlFR3I1MU1Ta2tfeUdkMHpwV2RNd2duT3oxdmtOOU03WDN0eWVSdXVjWEdOYXRPZEN5dU16NkZVSG1XTW01TXVNMkJHeUNqT0dYT2wwU0lfQkFUR0t4LUZ0eEs1OHQtSXdsTjJVMGZBanJEUlJrVFpQSXVSc3U1T1ZLdWhGaTU1LVY2R3RrNDQ4OFNpVzhDUdIBwgFBVV95cUxPdTdQeU5mQzZKQUlUbEpFdEJhclRqQjU1YmcxQzhQOEZSRGZCMC1qMm9SdFlFR3I1MU1Ta2tfeUdkMHpwV2RNd2duT3oxdmtOOU03WDN0eWVSdXVjWEdOYXRPZEN5dU16NkZVSG1XTW01TXVNMkJHeUNqT0dYT2wwU0lfQkFUR0t4LUZ0eEs1OHQtSXdsTjJVMGZBanJEUlJrVFpQSXVSc3U1T1ZLdWhGaTU1LVY2R3RrNDQ4OFNpVzhDUQ?oc=5",
           "date": "2026-10-07",
-          "source": "www.marketscreener.com",
+          "source": "Boursorama",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 42
+    "ticket": 43
   },
   "radar_proposes": [
     "MCD",
@@ -161,7 +172,8 @@
     "OGS",
     "ARES",
     "WPC",
-    "NHY.OL"
+    "NHY.OL",
+    "DG.PA"
   ],
   "achats": [],
   "historique": [
@@ -4016,6 +4028,106 @@
         ]
       },
       "ticket": 41,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-08",
+      "cree_le": "2026-10-08T09:49+00:00",
+      "liberation": 146.24357997946646,
+      "reserve_pct": null,
+      "score": 92.26563692223823,
+      "ordres": [
+        {
+          "ticker": "NHY.OL",
+          "side": "buy",
+          "quantity": 20.0,
+          "price": 7.262178998973323,
+          "reason": "opportunité radar (score 92)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "NHY.OL",
+        "nom": "Norsk Hydro",
+        "isin": "NO0005052605",
+        "type": "action",
+        "prix": 77.86000061035156,
+        "score": 92.26563692223823,
+        "baisse": 0.3481791326952618,
+        "perf_5ans": 0.5685493532995778,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.21932318192119035,
+        "pos_12m": 0.6105160662122687,
+        "n_12m": 1027,
+        "base_moy_12m": 0.20282495066589726,
+        "pire_12m": -0.680795761303751,
+        "vs_marche_3m": -0.10287750481008706,
+        "devise": "NOK",
+        "prix_eur": 7.262178998973323,
+        "fondamental": 80.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +6.4% sur un an",
+          "bénéfices +178.6% sur un an",
+          "bénéfices attendus +67% sur 12 mois",
+          "analystes : « vendre » (3.1/5, 17 avis)",
+          "objectif moyen des analystes : +18%",
+          "P/E attendu 9.4 (actuel 15.7)",
+          "marge nette 5%",
+          "dette / capitaux propres 32 %"
+        ],
+        "score_global": 84.9
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -10% vs marché)",
+        "vs_marche_3m": -0.10287750481008706,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Norsk Hydro (OB:NHY) Stock Sees Modest Fair Value Cut After Analyst Caution - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOb0QyZ2FmandYb0JQVFUxNlpFY01GN092T2JzMVdwcjlPSlE4aG9PanJEQ19qNnRSUFUxbE5oWUJMYkNRYkh1VjE4aDhaYVU0dnp6RmtxTjVHandqTWxaWFJ0Zk5uQTIwS3g5akk3dV9hYUs2YkRQazBja3N1cko2bWZ6a0pzeTVrV1lMMFB4UEN2eUU?oc=5",
+            "date": "2026-10-08",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Morgan Stanley abaisse son objectif de cours sur Norsk Hydro à 87 couronnes norvégiennes (92) et maintient sa recommandation « neutre » - BN - Zonebourse Suisse",
+            "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZURuSGpvY2pGN2ZOYUVWUGEzNUlsYzN4Wm9BMHkwMXUyVi16MVZEMXR2VWpFekRCVjRJbUNMX2V4Q0VEMU9OWEJyRE1vWVNtN2s4Vm4taG9ubmFNaF9lV2FOYnJxUkc4SjRBblNGcWtuZHIxVkY3Nnd2Z2hNQkd6RW4zZmV3LVo4Q2RyU1h5ZzROOUNXRGxwTlA4S3NKcndDOWlTd284SS1TcUxGTURMRVR6aVlfcUlvb2F2RHB1YmRfME11a2hneUttSGdGMnFBMFJpb3BTVXAta0h5a1p5ZlBSSHZWWEExRTlNeEE4VQ?oc=5",
+            "date": "2026-10-07",
+            "source": "Zonebourse Suisse",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Deutsche Bank abaisse l’objectif de cours de Norsk Hydro à 100 couronnes norvégiennes (102), recommande de conserver - Zonebourse Suisse",
+            "lien": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOd2w4WGtwOGdIdUs0ajV1d2VqVUtsa0NYcjlqY0NodkRfbS1JNzRITmVsU193cFh0Z3F2VHhxaTAtSmkybEVlSk5pOG5qcnlKc1RTa21oV0RIeEFuY1plY0J2NzZnZFZwSDJZR1Zqdi1aMDNDWUVGT1c5NlBZTlZJV1FqY24tU3VhNTJOUEduekY3bXMzYm40aEpHNVlvOUJwVy00VVdETzR1T1FGX2lXN2tVWWR3R0NWMUpnSENaejJFakM1T0RYRW9EWUUtYzdjVHFBVFFoYktuN2xsaTFJTVRMSG5XZG9CdVRsMg?oc=5",
+            "date": "2026-10-07",
+            "source": "Zonebourse Suisse",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Norsk Hydro forecasts impact of US$210 million due to dispute over gas supply in Brazil - BNamericas",
+            "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObG1LQVRkdXV4MkNJbV9fckRyazB1R01VeU9JNU9oMUtrNGIyT0phSlZKRU4wVkFDS3pOejVaMWlHa04yLXNKeHc2YnJKYWtGRy1ZSlNTOW45SC1wSm1UOWNhblBRbTJTdHdzVlVFbUpzanc3LW0zbzdjM2VMMVNDWmxLeWVfc0ktWHdKMVZOeW9jUzU2NkZ5OF9pTldJbXh0UXhzY2F6X2pvMEJGaEpPZGJFeWxqNmxmQ0ZVeTBB?oc=5",
+            "date": "2026-10-07",
+            "source": "BNamericas",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Morgan Stanley cuts price target for Norsk Hydro to NOK 87 (92), reiterates equal-weight - BN - www.marketscreener.com",
+            "lien": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTVVQMDBQcTlaYXlMajhleDlsWXRUZmdHVUtPVkpJeWwxTXN6cFhhck56MnNUX05VbnlueUp4TW1BcXE4THBJLVRjR2xJdnBBWFVjVXBVbUowNThBS2I2cWJxMVB4WUNxY25ZZW42eWc1ZXJsMXdkbTEzU1Mwd3hsQmxQWm5fbGh4cWNfRUVqdHBOcHoyYU5GbEhHRDlydVhDOEpvdEtjSUhoeE5idnpNZmdOVFRxTGowQWNQdXFUZHFDVTlaWjd6c1FRMjlwU1ZHclpFSDhwc2w?oc=5",
+            "date": "2026-10-07",
+            "source": "www.marketscreener.com",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 42,
       "decision": "sans réponse"
     }
   ]
