@@ -18,61 +18,143 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-09",
-    "cree_le": "2026-10-09T17:47+00:00",
-    "liberation": 112.5374412855943,
+    "cree_le": "2026-10-09T18:20+00:00",
+    "liberation": 139.69999885559082,
     "reserve_pct": null,
-    "score": 85.29190332911779,
+    "score": 86.93697248345616,
     "ordres": [
       {
-        "ticker": "WMS",
+        "ticker": "ORA.PA",
         "side": "buy",
-        "quantity": 1.0,
-        "price": 111.5374412855943,
-        "reason": "opportunité radar (score 85)"
+        "quantity": 10.0,
+        "price": 13.869999885559082,
+        "reason": "opportunité radar (score 87)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "WMS",
-      "nom": "Advanced Drainage Systems",
-      "isin": "WMS",
+      "ticker": "ORA.PA",
+      "nom": "Orange",
+      "isin": "FR0000133308",
       "type": "action",
-      "prix": 124.86000061035156,
-      "score": 85.29190332911779,
-      "baisse": 0.28523261445978354,
-      "perf_5ans": 0.175737928546279,
+      "prix": 13.869999885559082,
+      "score": 86.93697248345616,
+      "baisse": 0.24091591255392464,
+      "perf_5ans": 0.9684872826407529,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.5605022909230957,
-      "pos_12m": 0.9006211180124224,
-      "n_12m": 322,
-      "base_moy_12m": 0.3501326622977413,
-      "pire_12m": -0.2652587906571845,
-      "vs_marche_3m": -0.1793204052667774,
-      "devise": "USD",
-      "prix_eur": 111.5374412855943,
-      "fondamental": 95.0,
+      "moy_12m": 0.33121964039700386,
+      "pos_12m": 0.8561643835616438,
+      "n_12m": 146,
+      "base_moy_12m": 0.08021198690708202,
+      "pire_12m": -0.1845601256948366,
+      "vs_marche_3m": -0.20014300767147009,
+      "devise": "EUR",
+      "prix_eur": 13.869999885559082,
+      "fondamental": 86.0,
       "fondamental_notes": [
-        "chiffre d'affaires +20.6% sur un an",
-        "bénéfices +18.8% sur un an",
-        "bénéfices attendus +25% sur 12 mois",
-        "analystes : « achat fort » (1.2/5, 11 avis)",
-        "objectif moyen des analystes : +46%",
-        "P/E attendu 17.0 (actuel 21.3)",
-        "marge nette 14%",
-        "dette / capitaux propres 97 %"
+        "chiffre d'affaires +5.5% sur un an",
+        "bénéfices attendus +7% sur 12 mois",
+        "analystes : « achat » (2.0/5, 16 avis)",
+        "objectif moyen des analystes : +37%",
+        "P/E attendu 12.1 (actuel 13.0)",
+        "marge nette 10%",
+        "dette / capitaux propres 161 %",
+        "🏷️ braderie probable : -20% vs marché en 3 mois, alors que les bénéfices attendus montent (+7%) et que les analystes restent à l'achat (+8 pts)"
       ],
-      "score_global": 91.1,
-      "braderie": false
+      "score_global": 86.4,
+      "braderie": true
     },
     "actualites": {
-      "verdict": "inconnu",
-      "resume": "actualités indisponibles (HTTPError)",
-      "vs_marche_3m": -0.1793204052667774,
-      "alertes": [],
-      "recents": []
+      "verdict": "orange",
+      "resume": "à vérifier : baisse bien plus forte que le marché, 4 article(s) à regarder (3 mois : -20% vs marché)",
+      "vs_marche_3m": -0.20014300767147009,
+      "alertes": [
+        {
+          "titre": "6 arrested in Los Angeles, Orange County organized vehicle theft ring investigation - CBS News",
+          "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOFpTTDVwclQ3bUVmeVVYcUg4dnB1RFhINTJGdlV4OTd6Y05sUThQbjVkZFktV2JsZkpHU0p2SzJQSFFybmU1UHlXZ1JDUkZrZkwySkJTQnRxNlVUOVBIUFpocmFqMDk5RkxNajZIYzFWcDBnTnhwazJ4ZXFxUkZTUkpsZDFPLVg2QW9kME04Y0h6eVQzM09VMWhyQS1YSndSTy1ibGdR?oc=5",
+          "date": "2026-09-30",
+          "source": "CBS News",
+          "gravite": 1,
+          "mots": [
+            "investigation"
+          ]
+        },
+        {
+          "titre": "Sheriff to review video, interview witnesses in Olentangy Orange soccer hazing probe - WSYX",
+          "lien": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQLWlPWEZwcGFVSTlOZjRnZkZZdlhfRDZLYkRJMU5oZWJ0amg1QTdydGRha2hkU2J3X0MwcHpFeTY0SkhPTUVDMG5xSVRQdmV6N1ZIOWVUMzhtcUJYQW9aSjYzb0RRSlpWYjRTSm56VHRlZjZQUTZOcW1qZnB4YVNBSVU4d1dQdktmR25aRmk2cm5YQjVqU3Y4NXFQUTBWNlRtTlU1UDhtcjJ0ZEVPU1dwMG0ydVRYV3h2dWhiY0VfT2hTcnNKSGVqZEo2dzBlRWFSdzVUbGZMWkxfN1kwMXNmWEJWUUttTFpDMW54cXBteGd6dw?oc=5",
+          "date": "2026-10-02",
+          "source": "WSYX",
+          "gravite": 1,
+          "mots": [
+            "probe"
+          ]
+        },
+        {
+          "titre": "Olentangy Orange girls' soccer coaches placed on paid leave amid alleged hazing investigation - 10TV",
+          "lien": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNLUo0OTFGTnNwVHE5NlJmZVp4UVoxRVZkbENmTlB3UHZzVF90dHZIUW1NVFpITFl4VWkySHN6SWZGWVVOYjRYMElfSmhRdWpkeWpPYlloWEROY3lqOHZYUnlGRHR3dENTS0pQM1dtNV80Q2piMkR3YWdmaE9Xc1lKVGZnU3I0eGRjNVJlQTVMT2lHalVINl9WbGhLdXpQRS1CMFNvczcyUXdKdklRZHhocW1jcXJZdnN1bkVvaExacmdCeG1FMTFrTElIdkJMZXZPN3JublF4QVptUlVTRVllRFhyTV9zcGxsMU83aUhqVklCbk43TEp3Qk9WcXFfWTQ?oc=5",
+          "date": "2026-10-03",
+          "source": "10TV",
+          "gravite": 1,
+          "mots": [
+            "investigation"
+          ]
+        },
+        {
+          "titre": "Judge dismisses Trump administration lawsuit over West Orange synagogue protest - New Jersey Monitor",
+          "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVFdYWV82Rm1yNG9PekZjOEhmd1Fnc05RY3FWaXJjdUlGLUIwZUVjSlhiTU5sMWdJZVR5WVVsZmpVczRTY3JKSy1feEtVWElaaHhjQkVKUFRWNEJ3YW5EcEJQU3BYZnl4bDlDN3Rfa3ljdktkNmNiaDJVNWV5enpBSl9JS3NxMVJUVFpnZm5uclVXbGdadUw5UHAySXFvYkwtMVd3LTRrclFCMlhZUWFUa1dUQ1kybk9jLWxIZg?oc=5",
+          "date": "2026-10-05",
+          "source": "New Jersey Monitor",
+          "gravite": 1,
+          "mots": [
+            "lawsuit"
+          ]
+        }
+      ],
+      "recents": [
+        {
+          "titre": "Orange : Avec l'achat de fréquences mobiles, SpaceX va marcher sur les plates-bandes des opérateurs télécoms, Deutsche Telekom plonge de 6%, Orange est lanterne rouge du CAC 40 - BFM Bourse",
+          "lien": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxQUi1JOGY3ZmVoTEgtRzJ4ZzlXTWwtdGwzQmE0QU52ODk3MjlyNjZ2VV84UFJDczVTRVBLUjRwbm90QnBuTHBJRktFNkR6YV9hc2lTYjFIWTJuV3BsUnpYQmhrX21ONWp0WmlfRE5GbjMyVUt2MUw5dkxvWnNjb1FyVEFrbXJkRHBkMlphcUZvR3dtUVlhUkprbWFiRXdtcFJpLTBndVJuSmoxYXZVZ0ljX2ttUG9RT2g3VkQwM3hNY3Z2Wmk0OFZDVUdDMFh2bDRBdmdwYks0NlpURGJxcXU5RTB4TWtCRjFzMlVWUVRsUnlJVVUxMF9SeFRuc2ZCM2dMMEt5UnY1OExOOXF4UVhkM2s1T1ZoNUw0a3FPT29ja0NBZkVhSzhUbVpZMEp1dlhJaFhybFdXSEFPNHB4TVRWYlpjU3pOVnNGTDlaVUV6UzB2aTRBRHN2SXc4bENBQQ?oc=5",
+          "date": "2026-10-09",
+          "source": "BFM Bourse",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Un mariage La Poste–Orange est‑il possible après l’acquisition de l’opérateur italien de télécommunication TIM - Boursorama",
+          "lien": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOWlc0VTZxZVFhVkJMVHlycWRNb3pydFJVNXJiMU1oM3RIelFlZkpTRXNBSEJRYVljb3ZLa2tEOHZiNjdPam1vU2tjZ3RieDcwekctY0tKblpNQzhHNE9NQ2RqV3NqazgzT3Q2c2xFM3hUWnd4ZWxCNjZuVFlybEc4c1RTUGo4a0VQX3NIeUJYWVdLZ0lGd2FpMzlqS24zbm9aRVZvcmxFZzRDQUVXczA2cHJzajVOQXEwaUZoZkcxOXVyWGNPRVJXTkUxOGlPSXVwZEhKem9wMldrUXFMRUdxLVJ6RkVMSG0xdHM2TjVGVHdBTzhhVEl4TVNXRy0tTzBUS3NRTHg3VGVRZGQ1Yk5VZmVuUHRDcERveGVwVlB6THVqbEtCa2JIemF0SlVHLVgxVER5bERR0gG2AkFVX3lxTE5aVzRVNnFlUWFWQkxUeXJxZE1venJ0UlU1cmIxTWgzdEh6UWVmSlNFc0FIQlFhWWNvdktra0Q4dmI2N09qbW9Ta2NndGJ4NzB6Ry1jS0puWk1DOEc0T01DZGpXc2prODNPdDZzbEUzeFRad3hlbEI2Nm5UWXJsRzhzVFNQajhrRVBfc0h5QlhZV0tnSUZ3YWkzOWpLbjNub1pFVm9ybEVnNENBRVdzMDZwcnNqNU5BcTBpRmhmRzE5dXJYY09FUldORTE4aU9JdXBkSEp6b3AyV2tRcUxFR3EtUnpGRUxIbTF0czZONUZUd0FPOGFUSXhNU1dHLS1PMFRLc1FMeDdUZVFkZDViTlVmZW5QdENwRG94ZXBWUHpMdWpsS0JrYkh6YXRKVUctWDFURHlsRFE?oc=5",
+          "date": "2026-10-09",
+          "source": "Boursorama",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Tennis de table : Félix Lebrun a pris 6 centimètres depuis les Jeux de Paris : Sports - Orange - Sports - Orange",
+          "lien": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNLTMtaEFBNnF4QURTZjlCajRRTnV3akQwQlR1M05mendyZU9BOXpFbVpTWE1ETVV2OGtuUjFfaVBuS01ORnpsT1Q1NXI2bmxjanlNdmpyODNUcWZsSTFZaXhRNEd0bHF3VmdEa0tjeWhiQkVlOUpacTk5QVJiSlhzeUQ2OFIzdlhEUFZDcjNqcUxjaUF0YmI1dzBwNkkwUy1telRGdm81WC1XQTlsd0RzQVB1OW9tYXdZSy0xMTNoR1VtQW9kY2V1UmRHaUsyWkNUa0tJSWRlMy1KT3RQNkxSbdIB3wFBVV95cUxPRVhVd1hkbU9qUkhXVWozRlJ3LTFSQUFkUE1mdHI5em5tY2FHTHRxd2p6YldpTmZwSjg1VFdmUmZ6empCSVNrYjZWbElJQzMycGdYSmZmMU1KOVBjT05fWElvNVZYaEotVjNyd3RxNGV2OWZnNDN2U2JVRzFEVy1tUEpabC1LNy1iY2RadWVBb2NIaVByQkJuQWRCN0owNjItYU1jbC1ObDZFNnNRX3hpdUV3Zm04LU1MaF9UUk5ISmtqdTRKTExfMFpKR1NDVmRZS19pUUVaXzNsNV9VeFlj?oc=5",
+          "date": "2026-10-09",
+          "source": "Sports - Orange",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "PSG : La belle attention de Vitinha pour un enfant : Sports - Orange - Sports - Orange",
+          "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbVdRaG9rYndLcDVybzV3S1IxSU5Rdzg1eDRRZ1MtRlFzYnU4cF81NHd3bDJOLXhUQVVRZE9hMjNZY1VndXFoUUs3TmtpWTJCX1p4bTlMekU0OXM3UFppMy1pUmx0TWRpRmVheWVvRmwzLTVFWHowZmNaQXBFQ1Jzbmw2Q2U3X01pU2IySEppaWVrWXVFcXRHWkpyRVBKN24tNWVnQU9BUFVXcnJNbGxLa2hWZV9EaEhmTE1kc2J1U2JCd9IBwAFBVV95cUxQcmNQQXZ2bnBlZFE2ajNIb0tYWE1hRUowa0FxbnpjcG1zUHllYnd3aThkbU9TRzA3ZGEySjI2WXYzMGFsU2ltZVVUbnJMTm84OS01TE02RWZMNC1ocFFlalRYTjEwSDR0OGJ1Mi1JRU1vS0NmVnJuODR3NldaLVMzaElybTk5ZmxmVy1UUnc2TWpac0JkN29VXzRmZC15aUxsdDBlQ1QxVXZSQ2RadnQ5NW9PZS01T3hJcmR2TlRIWDE?oc=5",
+          "date": "2026-10-09",
+          "source": "Sports - Orange",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Victime d'une fracture de la mâchoire, Kolbe dévoile des images frappantes : Sports - Orange - Sports - Orange",
+          "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUVQtNzltSXZsMlRPWG9lRHRsbG1WYnF6cy1yV3hrYkdIamQwMWxxUGVCNEFqTVAtQ2YtWE4xeEtmNGhWNzJFZmtLMGxtRmhxbV9ONTU2SE9PV2ZMTEJjWml5aHRDUVhFclE1NEZtN2wyYlZtNHpWa1VNQzJudmFnY2pFemtVeTQyUGxmODlob3k3cTA0TVRoaW5CTnllSDZIaWkwLUZRNnFmcHUtQU15a2w0LWZTMFhkUlZhZWxyX210LTZkLU54b3Q3Q2lCaGJtYmctbNIB0wFBVV95cUxPTGs5V2Y4SEl2RUQ5dU1KSnoxc2lQRGpQNjdFNjVVSUpwRW9iSEstUDQ3cjlaT2hoUnk0WWxmSHo3SUVpdGp0OG1GMEVPQ251XzlGT2E1X2s4dXRza0pmaUJpRUloVzRUbmFtd3BaSDRQVWpyYUxCLXFKOUJQRFE1OS1EdFlkcXk2Z2dCYlZGcmRSQ3RCaEl3TnQtOVpNTXhhanItODFWbkRSWWFVdnFQd0xfTkgydFk1c2tEbmNwaXRadHJiWmJsLTRWenhiNEFEdnc0?oc=5",
+          "date": "2026-10-09",
+          "source": "Sports - Orange",
+          "gravite": 0,
+          "mots": []
+        }
+      ]
     },
-    "ticket": 78
+    "ticket": 79
   },
   "radar_proposes": [
     "MCD",
@@ -169,7 +251,9 @@
     "GSK.L",
     "TAH.AX",
     "ALG",
-    "WMS"
+    "WMS",
+    "TMUS",
+    "ORA.PA"
   ],
   "achats": [],
   "historique": [
@@ -7818,6 +7902,66 @@
         ]
       },
       "ticket": 77,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-09",
+      "cree_le": "2026-10-09T17:47+00:00",
+      "liberation": 112.5374412855943,
+      "reserve_pct": null,
+      "score": 85.29190332911779,
+      "ordres": [
+        {
+          "ticker": "WMS",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 111.5374412855943,
+          "reason": "opportunité radar (score 85)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "WMS",
+        "nom": "Advanced Drainage Systems",
+        "isin": "WMS",
+        "type": "action",
+        "prix": 124.86000061035156,
+        "score": 85.29190332911779,
+        "baisse": 0.28523261445978354,
+        "perf_5ans": 0.175737928546279,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.5605022909230957,
+        "pos_12m": 0.9006211180124224,
+        "n_12m": 322,
+        "base_moy_12m": 0.3501326622977413,
+        "pire_12m": -0.2652587906571845,
+        "vs_marche_3m": -0.1793204052667774,
+        "devise": "USD",
+        "prix_eur": 111.5374412855943,
+        "fondamental": 95.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +20.6% sur un an",
+          "bénéfices +18.8% sur un an",
+          "bénéfices attendus +25% sur 12 mois",
+          "analystes : « achat fort » (1.2/5, 11 avis)",
+          "objectif moyen des analystes : +46%",
+          "P/E attendu 17.0 (actuel 21.3)",
+          "marge nette 14%",
+          "dette / capitaux propres 97 %"
+        ],
+        "score_global": 91.1,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "inconnu",
+        "resume": "actualités indisponibles (HTTPError)",
+        "vs_marche_3m": -0.1793204052667774,
+        "alertes": [],
+        "recents": []
+      },
+      "ticket": 78,
       "decision": "sans réponse"
     }
   ]
