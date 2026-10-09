@@ -15,7 +15,106 @@
     "MCD": "2026-10-05",
     "IGG.L": "2026-10-06"
   },
-  "opportunite": null,
+  "opportunite": {
+    "type": "opportunite",
+    "date": "2026-10-09",
+    "cree_le": "2026-10-09T05:18+00:00",
+    "liberation": 141.40970717826775,
+    "reserve_pct": null,
+    "score": 92.96690714262242,
+    "ordres": [
+      {
+        "ticker": "0700.HK",
+        "side": "buy",
+        "quantity": 3.0,
+        "price": 46.80323572608925,
+        "reason": "opportunité radar (score 93)"
+      }
+    ],
+    "notes": [],
+    "total": 0,
+    "radar": {
+      "ticker": "0700.HK",
+      "nom": "Tencent",
+      "isin": "KYG875721634",
+      "type": "action",
+      "prix": 411.3999938964844,
+      "score": 92.96690714262242,
+      "baisse": 0.3856927002324576,
+      "perf_5ans": 0.07170744279803642,
+      "tranche": "80-100 (soldé)",
+      "moy_12m": 0.4119476946421979,
+      "pos_12m": 0.7332738626226584,
+      "n_12m": 1121,
+      "base_moy_12m": 0.3480077624272867,
+      "pire_12m": -0.5304469432190867,
+      "vs_marche_3m": -0.12712333233736417,
+      "devise": "HKD",
+      "prix_eur": 46.80323572608925,
+      "fondamental": 85.5,
+      "fondamental_notes": [
+        "chiffre d'affaires +11.0% sur un an",
+        "bénéfices +1.8% sur un an",
+        "bénéfices attendus +27% sur 12 mois",
+        "analystes : « achat fort » (1.4/5, 41 avis)",
+        "objectif des analystes +61% : peu crédible, probablement pas encore révisé",
+        "P/E attendu 11.4 (actuel 14.5)",
+        "marge nette 30%",
+        "dette / capitaux propres 39 %"
+      ],
+      "score_global": 88.5,
+      "braderie": false
+    },
+    "actualites": {
+      "verdict": "vert",
+      "resume": "rien d'alarmant dans l'actualité (3 mois : -13% vs marché)",
+      "vs_marche_3m": -0.12712333233736417,
+      "alertes": [],
+      "recents": [
+        {
+          "titre": "Key facts: Tencent Holdings (700) eyes $5bn bond; bought 241k shares - TradingView",
+          "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOY1l1bWFrME9ibm5lamcxRTFnbHVMLXlyaE9RZk1KUTJQQWUxVTdSWnZMOXNJY1dvZGJxM0hyUTJ5NnRGNXlXZVhIYjhXXzlMamlEcW13Qk1KVlJIdGM1UHdCQUtzRTg3Wlllem14bWlnZFRxdHpsdVdVdWRlYWFUMzVCV1l6RmtuZVFpQzVQQWN3TTlaVk1vNkVoeUlaNUFJdnkxUUtiQld4SjJTelFpZGFtYUVxb01kc2hPdF9aMkxUU0E?oc=5",
+          "date": "2026-10-09",
+          "source": "TradingView",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Tencent envisage une vente d'obligations offshore de 5 milliards de dollars pour financer les dépenses en IA. - Quartz en Français",
+          "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNXzBPaHMweGdaZTc3Wl9hUS1qVmhGVFByZ2tnRDFrUW1HMnZvdnJ1Zmo1Y25INDIzbnlrdnJWTlJ1OWpRZWtVSEcwRVV0WjJnY1dtcVRacndBZW92TVlLb0wxWUpiMGtfYmNZZklFLTkwVndYdkM3OGpVZEszZE5HbEJncWI?oc=5",
+          "date": "2026-10-08",
+          "source": "Quartz en Français",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Tencent envisage une émission obligataire de 5 milliards de dollars pour soutenir ses ambitions dans l’intelligence artificielle, rapporte Bloomberg News - Zonebourse Suisse",
+          "lien": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNcVdZQ0ZCVEtGMVNjVGNTZWg4NlF6R3BJRmZZZ3BDOXhSQTNnOFVWYjRNSDhBU3J4RUU1d0Y5WnZGQkVDRXByQjBEUTNBQVY3VW5JYVFrMkFGcWJ2dXZXdDIxaUc1MF92YmZNOXJwUFZoei1fQ0JuWTJqWE1YTXBUdlB5alItY3VnYWNzXzQ0VmRuOUJBVUwwNTNERzJLZEpZRTJONWY5a00zSnc0d3RSNk9YOHRfaUxzTUU3aXRQOWx2WFFsN3YyVk5QTTh4SlVEdU8yNW1SMEdlR0xjTE0yUFVMU1NITml3M2xrT1RLZmEzQQ?oc=5",
+          "date": "2026-10-08",
+          "source": "Zonebourse Suisse",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Pourquoi l’action Tencent chute-t-elle aujourd’hui ? - Investing.com France",
+          "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeGVFdmRiMHNjNEFxQzBGSEtfZVhQNDFHRTJ1b09oSUFNN0lscmRzdGs2aEhnbzBzUFBsQWZ0WEJBUHRvS1BfQnByVW5xdHJ4Smp5Q1RiMDJjNmd4QUFQUUZNVEMwcW9ERnlvRXJ6ZjdUQ0duWWY5VHNzeDljeTVjeDFidi13VmRRbS1MV1JtWHBOZlBwTmRUb2RlSWRkZUJnWUw3UEw1N1dRMFM0?oc=5",
+          "date": "2026-10-08",
+          "source": "Investing.com France",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Les actions Tencent chutent avant une possible émission obligataire de 5 milliards $ - Investing.com France",
+          "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSGZfYkM4R3NqelJkSVRuM1p5M1pQZHNOZGVVY2ctUF9wVzhDZUlGUGlCLU5GNlQ5UjRoV3pjaHNUeGp2WjhBNC1YN3pVSGxaZ2lBWk8tcUwxdm4tMlJfV3FWTWs3Y1l0QmFXQzBrT1JWZVpMNkNyWWJkc2V0U25Nd0wyeHhYTF9FcWJTOVdZdER4bFh2dEd4T2x6ckhPU2lpU0FfeERMNkIwV0xpeVl2Q1NXbHNxd091b0JvTjRVRS04M3ZUY0xuWlRTcWpSMVNNV2Y0aVlB?oc=5",
+          "date": "2026-10-08",
+          "source": "Investing.com France",
+          "gravite": 0,
+          "mots": []
+        }
+      ]
+    },
+    "ticket": 60
+  },
   "radar_proposes": [
     "MCD",
     "IGG.L",
@@ -85,7 +184,9 @@
     "CRS",
     "BWXT",
     "RBC",
-    "BKNG"
+    "BKNG",
+    "JBHT",
+    "0700.HK"
   ],
   "achats": [],
   "historique": [
