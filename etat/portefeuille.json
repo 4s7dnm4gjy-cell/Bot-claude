@@ -18,102 +18,101 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-09",
-    "cree_le": "2026-10-09T05:18+00:00",
-    "liberation": 141.40970717826775,
+    "cree_le": "2026-10-09T05:48+00:00",
+    "liberation": 143.8874030799064,
     "reserve_pct": null,
-    "score": 92.96690714262242,
+    "score": 87.29265840130148,
     "ordres": [
       {
-        "ticker": "0700.HK",
+        "ticker": "GATX",
         "side": "buy",
-        "quantity": 3.0,
-        "price": 46.80323572608925,
-        "reason": "opportunité radar (score 93)"
+        "quantity": 1.0,
+        "price": 142.8874030799064,
+        "reason": "opportunité radar (score 87)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "0700.HK",
-      "nom": "Tencent",
-      "isin": "KYG875721634",
+      "ticker": "GATX",
+      "nom": "GATX",
+      "isin": "GATX",
       "type": "action",
-      "prix": 411.3999938964844,
-      "score": 92.96690714262242,
-      "baisse": 0.3856927002324576,
-      "perf_5ans": 0.07170744279803642,
+      "prix": 160.0800018310547,
+      "score": 87.29265840130148,
+      "baisse": 0.19659279166809296,
+      "perf_5ans": 0.9060255717302932,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.4119476946421979,
-      "pos_12m": 0.7332738626226584,
-      "n_12m": 1121,
-      "base_moy_12m": 0.3480077624272867,
-      "pire_12m": -0.5304469432190867,
-      "vs_marche_3m": -0.12712333233736417,
-      "devise": "HKD",
-      "prix_eur": 46.80323572608925,
-      "fondamental": 85.5,
+      "moy_12m": 0.2277774877843984,
+      "pos_12m": 0.6869565217391305,
+      "n_12m": 460,
+      "base_moy_12m": 0.15714529412389763,
+      "pire_12m": -0.5899462532925313,
+      "vs_marche_3m": -0.12793793441419343,
+      "devise": "USD",
+      "prix_eur": 142.8874030799064,
+      "fondamental": 87.5,
       "fondamental_notes": [
-        "chiffre d'affaires +11.0% sur un an",
-        "bénéfices +1.8% sur un an",
-        "bénéfices attendus +27% sur 12 mois",
-        "analystes : « achat fort » (1.4/5, 41 avis)",
-        "objectif des analystes +61% : peu crédible, probablement pas encore révisé",
-        "P/E attendu 11.4 (actuel 14.5)",
-        "marge nette 30%",
-        "dette / capitaux propres 39 %"
+        "chiffre d'affaires +34.8% sur un an",
+        "bénéfices +37.9% sur un an",
+        "bénéfices attendus +11% sur 12 mois",
+        "objectif moyen des analystes : +37%",
+        "P/E attendu 14.2 (actuel 15.9)",
+        "marge nette 18%",
+        "dette / capitaux propres 348 %"
       ],
-      "score_global": 88.5,
+      "score_global": 87.4,
       "braderie": false
     },
     "actualites": {
       "verdict": "vert",
       "resume": "rien d'alarmant dans l'actualité (3 mois : -13% vs marché)",
-      "vs_marche_3m": -0.12712333233736417,
+      "vs_marche_3m": -0.12793793441419343,
       "alertes": [],
       "recents": [
         {
-          "titre": "Key facts: Tencent Holdings (700) eyes $5bn bond; bought 241k shares - TradingView",
-          "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOY1l1bWFrME9ibm5lamcxRTFnbHVMLXlyaE9RZk1KUTJQQWUxVTdSWnZMOXNJY1dvZGJxM0hyUTJ5NnRGNXlXZVhIYjhXXzlMamlEcW13Qk1KVlJIdGM1UHdCQUtzRTg3Wlllem14bWlnZFRxdHpsdVdVdWRlYWFUMzVCV1l6RmtuZVFpQzVQQWN3TTlaVk1vNkVoeUlaNUFJdnkxUUtiQld4SjJTelFpZGFtYUVxb01kc2hPdF9aMkxUU0E?oc=5",
-          "date": "2026-10-09",
-          "source": "TradingView",
+          "titre": "GATX Corporation Sets Date for 2026 Third-Quarter Earnings Release and Conference Call - Business Wire",
+          "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbVVudWpQZm5YQmFWOTA4bUhRQ1ViS0RmeWtTckRmbU05bm9oNzVxU0xNNEN3VEJqcVgtZ3U5bG5CMHltSTJ5azdlckc0bkRFX01BTnE0ZTFuWXlRN1prZmJNWVpmOXpySE1vZElSNlM2dm11cHFYdHFsWWFMRlpkS1pYLTRaak5UMG9XdTNNU2xHQ3hJeUNZVV9VVmZFM1Itc2pNNFgtR2ZSMzBNYXhUV2xEX0ZIM0ptN2pSVU1VZHI1ZmNoRW9yZnp1aXF1WVp4aXdKeFBOSWRRUXM?oc=5",
+          "date": "2026-10-08",
+          "source": "Business Wire",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Tencent envisage une vente d'obligations offshore de 5 milliards de dollars pour financer les dépenses en IA. - Quartz en Français",
-          "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNXzBPaHMweGdaZTc3Wl9hUS1qVmhGVFByZ2tnRDFrUW1HMnZvdnJ1Zmo1Y25INDIzbnlrdnJWTlJ1OWpRZWtVSEcwRVV0WjJnY1dtcVRacndBZW92TVlLb0wxWUpiMGtfYmNZZklFLTkwVndYdkM3OGpVZEszZE5HbEJncWI?oc=5",
+          "titre": "GATX Maintained by Citigroup -- Price Target Raised to $216 - GuruFocus",
+          "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMFhJYnN1V2haWllzcHdDQktPZkFqMldLWXc1Vk1DWXhfeWxPS2xaUWtPWHp4M1RnVEdtSUhDeWswVWhIcm9hMUNsLVBRckpmamVTaHJlYWxKTFkyOWVWa1RWaUJVUGx3VjYtckhzaU9lN1Fnb2xYZ2JwQ3FnRkRvcjhoazNRM1BiSm1vYUR0b05QOHBWaTVWdGFB?oc=5",
           "date": "2026-10-08",
-          "source": "Quartz en Français",
+          "source": "GuruFocus",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Tencent envisage une émission obligataire de 5 milliards de dollars pour soutenir ses ambitions dans l’intelligence artificielle, rapporte Bloomberg News - Zonebourse Suisse",
-          "lien": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNcVdZQ0ZCVEtGMVNjVGNTZWg4NlF6R3BJRmZZZ3BDOXhSQTNnOFVWYjRNSDhBU3J4RUU1d0Y5WnZGQkVDRXByQjBEUTNBQVY3VW5JYVFrMkFGcWJ2dXZXdDIxaUc1MF92YmZNOXJwUFZoei1fQ0JuWTJqWE1YTXBUdlB5alItY3VnYWNzXzQ0VmRuOUJBVUwwNTNERzJLZEpZRTJONWY5a00zSnc0d3RSNk9YOHRfaUxzTUU3aXRQOWx2WFFsN3YyVk5QTTh4SlVEdU8yNW1SMEdlR0xjTE0yUFVMU1NITml3M2xrT1RLZmEzQQ?oc=5",
+          "titre": "GATX stock fell 5.1 percent while analysts kept Buy ratings - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYlIyaU14S2szclpiVGI1WVNZYlg0MlQxdExzejJEQ0s2QVpNQkxKM2l3UnNjOXpTOXRCQlNPWHQ4TDJXTUdPTFk4UktGLXZWTjhVdW40T0tUNm1WVEl0OGktck51b2JJQS1ubWpKWE5ydVYxMXJJVktXTkM4eG44SDZrZ01EbG1HUE1pXzdseTFfODhfMnJGQmREN2dfU21KT3VMbW1WV3k4bHhQQm5FX2h3V1NacWhEclE?oc=5",
           "date": "2026-10-08",
-          "source": "Zonebourse Suisse",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Pourquoi l’action Tencent chute-t-elle aujourd’hui ? - Investing.com France",
-          "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeGVFdmRiMHNjNEFxQzBGSEtfZVhQNDFHRTJ1b09oSUFNN0lscmRzdGs2aEhnbzBzUFBsQWZ0WEJBUHRvS1BfQnByVW5xdHJ4Smp5Q1RiMDJjNmd4QUFQUUZNVEMwcW9ERnlvRXJ6ZjdUQ0duWWY5VHNzeDljeTVjeDFidi13VmRRbS1MV1JtWHBOZlBwTmRUb2RlSWRkZUJnWUw3UEw1N1dRMFM0?oc=5",
-          "date": "2026-10-08",
-          "source": "Investing.com France",
+          "titre": "Is GATX Corp (GATX) a Bargain After 4.4% Drop? GF Value Says Und - GuruFocus",
+          "lien": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMHM0NFc5NmY2cnVpNmMyeUVoaUt6SjlxcWdPTGhkRkVuTVpSX3Y2bVc3bVpHaWFQRml3WlE2Yk82WXdmSzdBbzk2WjI2cWhfaDIyeTBuc2lHdUtPaTNmak1EcllxNnZ6cVpuY3RSYUhKeXgzTDQtb3hLTTllczFONXdjSEI5cEswVzMtbVdVbXdXdXVxbmdwMnJmRjhTTFcwUFNEVW1BSldOQQ?oc=5",
+          "date": "2026-10-07",
+          "source": "GuruFocus",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Les actions Tencent chutent avant une possible émission obligataire de 5 milliards $ - Investing.com France",
-          "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSGZfYkM4R3NqelJkSVRuM1p5M1pQZHNOZGVVY2ctUF9wVzhDZUlGUGlCLU5GNlQ5UjRoV3pjaHNUeGp2WjhBNC1YN3pVSGxaZ2lBWk8tcUwxdm4tMlJfV3FWTWs3Y1l0QmFXQzBrT1JWZVpMNkNyWWJkc2V0U25Nd0wyeHhYTF9FcWJTOVdZdER4bFh2dEd4T2x6ckhPU2lpU0FfeERMNkIwV0xpeVl2Q1NXbHNxd091b0JvTjRVRS04M3ZUY0xuWlRTcWpSMVNNV2Y0aVlB?oc=5",
-          "date": "2026-10-08",
-          "source": "Investing.com France",
+          "titre": "GATX: Strong Demand And Utilization But Fairly Valued - Seeking Alpha",
+          "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeVR2b2lzUXdKUzN4eU1XSFVPX2hkYlpZS0JqWlhGQ3p3d0dFbTJWMDUwaXBuZTZNaFpES2xrS0lHa01nd2hyWUh4aGZTWTEzdGZoWmxpck8yRmQ5R3dTWF9CQmJ2U0lOZHNoTDg1YjhteHEwQU9DZ19hQ2VrUUJIcjF2cmFmaG5MdlYxVU1aOEE0VkMyYWhQeg?oc=5",
+          "date": "2026-10-06",
+          "source": "Seeking Alpha",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 60
+    "ticket": 61
   },
   "radar_proposes": [
     "MCD",
@@ -186,7 +185,10 @@
     "RBC",
     "BKNG",
     "JBHT",
-    "0700.HK"
+    "0700.HK",
+    "ORCL",
+    "ALNY",
+    "GATX"
   ],
   "achats": [],
   "historique": [
@@ -5978,6 +5980,107 @@
         ]
       },
       "ticket": 59,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-09",
+      "cree_le": "2026-10-09T05:18+00:00",
+      "liberation": 141.40970717826775,
+      "reserve_pct": null,
+      "score": 92.96690714262242,
+      "ordres": [
+        {
+          "ticker": "0700.HK",
+          "side": "buy",
+          "quantity": 3.0,
+          "price": 46.80323572608925,
+          "reason": "opportunité radar (score 93)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "0700.HK",
+        "nom": "Tencent",
+        "isin": "KYG875721634",
+        "type": "action",
+        "prix": 411.3999938964844,
+        "score": 92.96690714262242,
+        "baisse": 0.3856927002324576,
+        "perf_5ans": 0.07170744279803642,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.4119476946421979,
+        "pos_12m": 0.7332738626226584,
+        "n_12m": 1121,
+        "base_moy_12m": 0.3480077624272867,
+        "pire_12m": -0.5304469432190867,
+        "vs_marche_3m": -0.12712333233736417,
+        "devise": "HKD",
+        "prix_eur": 46.80323572608925,
+        "fondamental": 85.5,
+        "fondamental_notes": [
+          "chiffre d'affaires +11.0% sur un an",
+          "bénéfices +1.8% sur un an",
+          "bénéfices attendus +27% sur 12 mois",
+          "analystes : « achat fort » (1.4/5, 41 avis)",
+          "objectif des analystes +61% : peu crédible, probablement pas encore révisé",
+          "P/E attendu 11.4 (actuel 14.5)",
+          "marge nette 30%",
+          "dette / capitaux propres 39 %"
+        ],
+        "score_global": 88.5,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -13% vs marché)",
+        "vs_marche_3m": -0.12712333233736417,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Key facts: Tencent Holdings (700) eyes $5bn bond; bought 241k shares - TradingView",
+            "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOY1l1bWFrME9ibm5lamcxRTFnbHVMLXlyaE9RZk1KUTJQQWUxVTdSWnZMOXNJY1dvZGJxM0hyUTJ5NnRGNXlXZVhIYjhXXzlMamlEcW13Qk1KVlJIdGM1UHdCQUtzRTg3Wlllem14bWlnZFRxdHpsdVdVdWRlYWFUMzVCV1l6RmtuZVFpQzVQQWN3TTlaVk1vNkVoeUlaNUFJdnkxUUtiQld4SjJTelFpZGFtYUVxb01kc2hPdF9aMkxUU0E?oc=5",
+            "date": "2026-10-09",
+            "source": "TradingView",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Tencent envisage une vente d'obligations offshore de 5 milliards de dollars pour financer les dépenses en IA. - Quartz en Français",
+            "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNXzBPaHMweGdaZTc3Wl9hUS1qVmhGVFByZ2tnRDFrUW1HMnZvdnJ1Zmo1Y25INDIzbnlrdnJWTlJ1OWpRZWtVSEcwRVV0WjJnY1dtcVRacndBZW92TVlLb0wxWUpiMGtfYmNZZklFLTkwVndYdkM3OGpVZEszZE5HbEJncWI?oc=5",
+            "date": "2026-10-08",
+            "source": "Quartz en Français",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Tencent envisage une émission obligataire de 5 milliards de dollars pour soutenir ses ambitions dans l’intelligence artificielle, rapporte Bloomberg News - Zonebourse Suisse",
+            "lien": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNcVdZQ0ZCVEtGMVNjVGNTZWg4NlF6R3BJRmZZZ3BDOXhSQTNnOFVWYjRNSDhBU3J4RUU1d0Y5WnZGQkVDRXByQjBEUTNBQVY3VW5JYVFrMkFGcWJ2dXZXdDIxaUc1MF92YmZNOXJwUFZoei1fQ0JuWTJqWE1YTXBUdlB5alItY3VnYWNzXzQ0VmRuOUJBVUwwNTNERzJLZEpZRTJONWY5a00zSnc0d3RSNk9YOHRfaUxzTUU3aXRQOWx2WFFsN3YyVk5QTTh4SlVEdU8yNW1SMEdlR0xjTE0yUFVMU1NITml3M2xrT1RLZmEzQQ?oc=5",
+            "date": "2026-10-08",
+            "source": "Zonebourse Suisse",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Pourquoi l’action Tencent chute-t-elle aujourd’hui ? - Investing.com France",
+            "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeGVFdmRiMHNjNEFxQzBGSEtfZVhQNDFHRTJ1b09oSUFNN0lscmRzdGs2aEhnbzBzUFBsQWZ0WEJBUHRvS1BfQnByVW5xdHJ4Smp5Q1RiMDJjNmd4QUFQUUZNVEMwcW9ERnlvRXJ6ZjdUQ0duWWY5VHNzeDljeTVjeDFidi13VmRRbS1MV1JtWHBOZlBwTmRUb2RlSWRkZUJnWUw3UEw1N1dRMFM0?oc=5",
+            "date": "2026-10-08",
+            "source": "Investing.com France",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Les actions Tencent chutent avant une possible émission obligataire de 5 milliards $ - Investing.com France",
+            "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSGZfYkM4R3NqelJkSVRuM1p5M1pQZHNOZGVVY2ctUF9wVzhDZUlGUGlCLU5GNlQ5UjRoV3pjaHNUeGp2WjhBNC1YN3pVSGxaZ2lBWk8tcUwxdm4tMlJfV3FWTWs3Y1l0QmFXQzBrT1JWZVpMNkNyWWJkc2V0U25Nd0wyeHhYTF9FcWJTOVdZdER4bFh2dEd4T2x6ckhPU2lpU0FfeERMNkIwV0xpeVl2Q1NXbHNxd091b0JvTjRVRS04M3ZUY0xuWlRTcWpSMVNNV2Y0aVlB?oc=5",
+            "date": "2026-10-08",
+            "source": "Investing.com France",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 60,
       "decision": "sans réponse"
     }
   ]
