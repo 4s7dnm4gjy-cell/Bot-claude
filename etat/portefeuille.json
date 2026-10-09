@@ -18,101 +18,102 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-09",
-    "cree_le": "2026-10-09T09:49+00:00",
-    "liberation": 167.7510635300387,
+    "cree_le": "2026-10-09T10:19+00:00",
+    "liberation": 139.4990201802591,
     "reserve_pct": null,
-    "score": 91.10405263718307,
+    "score": 93.9849570794852,
     "ordres": [
       {
-        "ticker": "LOW",
+        "ticker": "GJF.OL",
         "side": "buy",
-        "quantity": 1.0,
-        "price": 166.7510635300387,
-        "reason": "opportunité radar (score 91)"
+        "quantity": 6.0,
+        "price": 23.08317003004318,
+        "reason": "opportunité radar (score 94)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "LOW",
-      "nom": "Lowe's",
-      "isin": "LOW",
+      "ticker": "GJF.OL",
+      "nom": "Gjensidige Forsikring",
+      "isin": "GJF.OL",
       "type": "action",
-      "prix": 186.81500244140625,
-      "score": 91.10405263718307,
-      "baisse": 0.3428030835753001,
-      "perf_5ans": 0.010366918487306531,
+      "prix": 247.60000610351562,
+      "score": 93.9849570794852,
+      "baisse": 0.13547482060000504,
+      "perf_5ans": 0.6670982342645633,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.19227322933598834,
-      "pos_12m": 0.7725190839694657,
-      "n_12m": 655,
-      "base_moy_12m": 0.14957720422303247,
-      "pire_12m": -0.39839679436824726,
-      "vs_marche_3m": -0.1318019615797139,
-      "devise": "USD",
-      "prix_eur": 166.7510635300387,
-      "fondamental": 77.5,
+      "moy_12m": 0.18050431111695384,
+      "pos_12m": 0.8273572377158035,
+      "n_12m": 753,
+      "base_moy_12m": 0.1506148551141823,
+      "pire_12m": -0.21213176888043916,
+      "vs_marche_3m": -0.11081678023477792,
+      "devise": "NOK",
+      "prix_eur": 23.08317003004318,
+      "fondamental": 75.0,
       "fondamental_notes": [
-        "chiffre d'affaires +8.3% sur un an",
-        "bénéfices +0.0% sur un an",
-        "bénéfices attendus +10% sur 12 mois",
-        "analystes : « achat fort » (1.8/5, 33 avis)",
-        "objectif moyen des analystes : +34%",
-        "P/E attendu 14.3 (actuel 15.8)",
-        "marge nette 7%"
+        "chiffre d'affaires +6.0% sur un an",
+        "bénéfices -7.7% sur un an",
+        "bénéfices attendus +36% sur 12 mois",
+        "analystes : « conserver » (2.5/5, 16 avis)",
+        "objectif moyen des analystes : +16%",
+        "P/E attendu 14.3 (actuel 19.4)",
+        "marge nette 14%",
+        "dette / capitaux propres 23 %"
       ],
-      "score_global": 82.9,
+      "score_global": 82.6,
       "braderie": false
     },
     "actualites": {
       "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -13% vs marché)",
-      "vs_marche_3m": -0.1318019615797139,
+      "resume": "rien d'alarmant dans l'actualité (3 mois : -11% vs marché)",
+      "vs_marche_3m": -0.11081678023477792,
       "alertes": [],
       "recents": [
         {
-          "titre": "Lowe's is now delivering by drone, and it's aimed squarely at DIYers mid-project - Cleveland.com",
-          "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYlhib05hZkJMS215TEVSelMtZWNsN2pkekk1QzF5UEVBNjlxOWtsRThBa09NaldGWTFoMUR1cE9jdnpWU2tGcFFqbExSWXM5cnhWbzhXeU5Tak9NTVNTMHF0T2VmNTl1OTh0TjZ5RjZKZ0R1T0ZnaHl4bHl5SDBJUUNoRk5za1Bma3p1YmJ5T1UxSlh3WkJtblQtTEh1OXo4WkxIb2gwU09yRjlRR0lrTW53dG4xcE5ob1p5OUpDNTJDSWUzOVNHNXN6eW0?oc=5",
+          "titre": "Gjensidige schedules Q3 2026 results release and investor webcast - TipRanks",
+          "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc0FJV2gxUC1lSWd6b3hJTllVV0xUZlJRanFfRUpENV9hUVdrYm5qM3lCdVdEMWFhRmdyYl9ER09BM3JpMDFac0YzYnB0azI4a1l5TG02dVc3YjRMVEtJbHJuZ1FvYlF3d0w0aHQ4cmc4akUxRktCaFVpNkEwZE51MGd0enJRTjBDT09BY21sVWFLVkgzWFB0N2RBeVQ4eEZmVVV1RkxhWVd3U1pFMnFJREY1VlVMZEJV?oc=5",
           "date": "2026-10-09",
-          "source": "Cleveland.com",
+          "source": "TipRanks",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Police investigating death in Lowe's parking lot in Hickory - WCNC",
-          "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTVlaZFNhaWpoQjdJay1Ba2VuNU9xSXpJYnhCVkItVV84QVM0VGhhWGVPTXJ3SXBVQmxScVdaS0xxZUlsXzhRb1I4UFVjNGNVMEtxR0JnemRhaFlLS01qVHotRm1kbGxnNmZ0dXpmc2dfUHJBRVZWb1B2azY3NDBfek0xdk14cmJyb29CSkx1SGtqZzN5NUE2dzRJNzRMRVllT01XSTB1N1BOQ3ZCM2RtaDdhcnN5cUEwQk1qX2pnZnlFdjc5NFpPeHhuYWVpZw?oc=5",
+          "titre": "Gjensidige recrute deux nouveaux Account Managers - Zonebourse Suisse",
+          "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY2NaQmEwVy1yU0c5VmtpWUljekxaV1llMEtfa2x4S2V5RnFiX2g3T2o3SXZjZmpfS0pNOHA1OEM1YUF6R21xOWdHRng1aHFmdzIyOTFGclJrcWp4S2hMUHNnSjNGNHA2bmQzeVdNVkROc3I2YXdHdzBTaXBNQUQtWXkxWHR0MFNTaV9yYndSQUVsdnFKSlFzY0ljTzEtN2ZXTlAwc0RWMlBQU0FqcHc?oc=5",
           "date": "2026-10-08",
-          "source": "WCNC",
+          "source": "Zonebourse Suisse",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Great People, Great Place to Work: Lowe’s Earns Third Consecutive Certification - Lowe’s Corporate",
-          "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMEZobDA2TTc1WWd6WDFFZTh1UVp1RU56aVN5RDBkb2hZRUpxLUwyczB3MUFic3QtNVVwZlZOZGJLa2RNcV9EUzNpbXpTRjhJMW1hdnVybVgtRFAyMmtpWklSZlN6d1dRanQyUXBTVXdyQ3FwTWxxd1l0N0dHbU9nVUN2RTg1dXVNbzhsSmF0ZmhZQ2F1UmZ2aWNncEE3NnJLUkJCc0FiSjI5MFkxTXRLbXJRRFNkYjRzaWc?oc=5",
+          "titre": "Gjensidige stock stood at NOK 247.80 as Q3 date nears - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcncySWxfaFh0b2NFcVpiLUk3NzhWVV9yaC04QXozMVFTRmlXZnY0TUdPWDl2MEE3Yk1RM0paNVg1NkRiZ2owSnZGb25oU2NsNFF2NFlyYTJkSUNFRHRnbUlFZzhLT3RFNExuT2lUb09sSzEwRHZVTzJPcnpnRm9oMFlSSUJ6R0dlbkt1bHlYR0xNUzExNEpITV9wc1ItT0RMZGJWVVFZaWR5LWh3NEdYZ3lR?oc=5",
           "date": "2026-10-08",
-          "source": "Lowe’s Corporate",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Person found dead in Lowe’s parking lot - WSOC TV",
-          "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV1J3eWZDUG9HTWNMN1hNYkpkQ01xR1NMVDJOMlNFc2EzWWlRdU50UzdpMGpTcVlXUVJXbVIxU0FKNlhVQ2xtYWNEVWZqQW1HdjhqanBXRkxmbzk0VEdHeXJiYV9USlBhY1plamZNeVozVEhjTWFVQWtsUVJMWUp2NXBmbzVUYXBhY2dtYlRoVkhSVS1Ddm9FZmZpekR5d9IBsgFBVV95cUxNVThaTmh3RWVwU2dYWjhNWDNsbGpBblRaaXZtODlsRFBRZ09mcW1rY1JOSjh4bU9pYWhPSU81N3VPa0s4dnlITWc5ZzA2T3BLZkRUZ0tPdFdEdTFTamxRbnFiS1EwSWNvNm1hY0RmS294R2xjdzFHNXdZSXVZb1d3YlNjbENOTzVPYzhYcTRGenl5SkNFNlZ3R28yRVZfeHFsNW8tOUxLUGFiU09XZ2NkalRR?oc=5",
+          "titre": "Nordea lifts Gjensidige target to NOK 316 for Gjensidige stock - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTGprVnBwTXJOcDRxcDdwV21DZzNxRlZuLTlQRWdWd19ianNhS21yMXNPRVNHS05LYUdEVFE0SEhyMlViX2Z0ejIyUXliemxlbGMzSXBMTVlyT3prUDBhN3pRbVliYWJ1UXNzVkp6djZWQ0U2MEt6dV9zVFYyNVBzSXlVMzRzWUxBS3kwUGhXMm5oN2VsMXRabVhUQ05xV2FOblFFcWJzNWpHUzVvRFpodzQ3MWRhLXpxRUhTMm9B?oc=5",
           "date": "2026-10-08",
-          "source": "WSOC TV",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Lowe's: Patience Can Be Rewarded With Environment Unlikely To Worsen (Upgrade) (NYSE:LOW) - Seeking Alpha",
-          "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNmZBSVJkYm1fbV9QQnNtNzNLVlhoR2hhLWktdUhhZ2gyQUdSZFp2ZExYWkNmVGZrdHAySFFmakw5bWQ1eGhTZmpTMWdHdTlRV21hZE05MHZuU2E3SjZ5RTFNLTU5UHJyVjQ0TzlUWC1tTGpPZHQ2TGJxZVc2YWZoaWdKTVI4M0NsV1ZaU21xcTg0RlVkUmloNk1fMU9Sb2pnVm1zVHNXcGUtSGtnVUhpYTdwck5vZw?oc=5",
-          "date": "2026-10-08",
-          "source": "Seeking Alpha",
+          "titre": "Jefferies abaisse Gjensidige Forsikring à « conserver » (« acheter »), objectif de cours de 272 couronnes norvégiennes - Zonebourse Suisse",
+          "lien": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbGhqNzBYenVDRnBycGtIQWRoenJWczZVSm1IXzhyYjd3aDhubWNVeVd1QW51R1RqUEdNS0xWbC1ucHNSa0I0V0YtOW1BTll3TU5mZkRaN3hadHo1cnV5Q2pPYXVDaVVpQzN1S0FaUHplbmZNLV9vNmVNT1ZGMjVPcGplSm5rVmtRdkVFelJaQ0Y4RExoRlZucmIzMm50M2lJeElISjcweGo1NGc5a2hEY1RrSERBZ1Zkc3JBRGdiREJjWWZ0NGJtcjQxQWJZOHRiN0FQT3lVSXlMTF8yNGdoWTRJWQ?oc=5",
+          "date": "2026-10-06",
+          "source": "Zonebourse Suisse",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 67
+    "ticket": 68
   },
   "radar_proposes": [
     "MCD",
@@ -195,7 +196,9 @@
     "RBA.TO",
     "KRN.DE",
     "JEF",
-    "LOW"
+    "LOW",
+    "MLM",
+    "GJF.OL"
   ],
   "achats": [],
   "historique": [
@@ -6693,6 +6696,106 @@
         ]
       },
       "ticket": 66,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-09",
+      "cree_le": "2026-10-09T09:49+00:00",
+      "liberation": 167.7510635300387,
+      "reserve_pct": null,
+      "score": 91.10405263718307,
+      "ordres": [
+        {
+          "ticker": "LOW",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 166.7510635300387,
+          "reason": "opportunité radar (score 91)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "LOW",
+        "nom": "Lowe's",
+        "isin": "LOW",
+        "type": "action",
+        "prix": 186.81500244140625,
+        "score": 91.10405263718307,
+        "baisse": 0.3428030835753001,
+        "perf_5ans": 0.010366918487306531,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.19227322933598834,
+        "pos_12m": 0.7725190839694657,
+        "n_12m": 655,
+        "base_moy_12m": 0.14957720422303247,
+        "pire_12m": -0.39839679436824726,
+        "vs_marche_3m": -0.1318019615797139,
+        "devise": "USD",
+        "prix_eur": 166.7510635300387,
+        "fondamental": 77.5,
+        "fondamental_notes": [
+          "chiffre d'affaires +8.3% sur un an",
+          "bénéfices +0.0% sur un an",
+          "bénéfices attendus +10% sur 12 mois",
+          "analystes : « achat fort » (1.8/5, 33 avis)",
+          "objectif moyen des analystes : +34%",
+          "P/E attendu 14.3 (actuel 15.8)",
+          "marge nette 7%"
+        ],
+        "score_global": 82.9,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -13% vs marché)",
+        "vs_marche_3m": -0.1318019615797139,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Lowe's is now delivering by drone, and it's aimed squarely at DIYers mid-project - Cleveland.com",
+            "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYlhib05hZkJMS215TEVSelMtZWNsN2pkekk1QzF5UEVBNjlxOWtsRThBa09NaldGWTFoMUR1cE9jdnpWU2tGcFFqbExSWXM5cnhWbzhXeU5Tak9NTVNTMHF0T2VmNTl1OTh0TjZ5RjZKZ0R1T0ZnaHl4bHl5SDBJUUNoRk5za1Bma3p1YmJ5T1UxSlh3WkJtblQtTEh1OXo4WkxIb2gwU09yRjlRR0lrTW53dG4xcE5ob1p5OUpDNTJDSWUzOVNHNXN6eW0?oc=5",
+            "date": "2026-10-09",
+            "source": "Cleveland.com",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Police investigating death in Lowe's parking lot in Hickory - WCNC",
+            "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTVlaZFNhaWpoQjdJay1Ba2VuNU9xSXpJYnhCVkItVV84QVM0VGhhWGVPTXJ3SXBVQmxScVdaS0xxZUlsXzhRb1I4UFVjNGNVMEtxR0JnemRhaFlLS01qVHotRm1kbGxnNmZ0dXpmc2dfUHJBRVZWb1B2azY3NDBfek0xdk14cmJyb29CSkx1SGtqZzN5NUE2dzRJNzRMRVllT01XSTB1N1BOQ3ZCM2RtaDdhcnN5cUEwQk1qX2pnZnlFdjc5NFpPeHhuYWVpZw?oc=5",
+            "date": "2026-10-08",
+            "source": "WCNC",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Great People, Great Place to Work: Lowe’s Earns Third Consecutive Certification - Lowe’s Corporate",
+            "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMEZobDA2TTc1WWd6WDFFZTh1UVp1RU56aVN5RDBkb2hZRUpxLUwyczB3MUFic3QtNVVwZlZOZGJLa2RNcV9EUzNpbXpTRjhJMW1hdnVybVgtRFAyMmtpWklSZlN6d1dRanQyUXBTVXdyQ3FwTWxxd1l0N0dHbU9nVUN2RTg1dXVNbzhsSmF0ZmhZQ2F1UmZ2aWNncEE3NnJLUkJCc0FiSjI5MFkxTXRLbXJRRFNkYjRzaWc?oc=5",
+            "date": "2026-10-08",
+            "source": "Lowe’s Corporate",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Person found dead in Lowe’s parking lot - WSOC TV",
+            "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV1J3eWZDUG9HTWNMN1hNYkpkQ01xR1NMVDJOMlNFc2EzWWlRdU50UzdpMGpTcVlXUVJXbVIxU0FKNlhVQ2xtYWNEVWZqQW1HdjhqanBXRkxmbzk0VEdHeXJiYV9USlBhY1plamZNeVozVEhjTWFVQWtsUVJMWUp2NXBmbzVUYXBhY2dtYlRoVkhSVS1Ddm9FZmZpekR5d9IBsgFBVV95cUxNVThaTmh3RWVwU2dYWjhNWDNsbGpBblRaaXZtODlsRFBRZ09mcW1rY1JOSjh4bU9pYWhPSU81N3VPa0s4dnlITWc5ZzA2T3BLZkRUZ0tPdFdEdTFTamxRbnFiS1EwSWNvNm1hY0RmS294R2xjdzFHNXdZSXVZb1d3YlNjbENOTzVPYzhYcTRGenl5SkNFNlZ3R28yRVZfeHFsNW8tOUxLUGFiU09XZ2NkalRR?oc=5",
+            "date": "2026-10-08",
+            "source": "WSOC TV",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Lowe's: Patience Can Be Rewarded With Environment Unlikely To Worsen (Upgrade) (NYSE:LOW) - Seeking Alpha",
+            "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNmZBSVJkYm1fbV9QQnNtNzNLVlhoR2hhLWktdUhhZ2gyQUdSZFp2ZExYWkNmVGZrdHAySFFmakw5bWQ1eGhTZmpTMWdHdTlRV21hZE05MHZuU2E3SjZ5RTFNLTU5UHJyVjQ0TzlUWC1tTGpPZHQ2TGJxZVc2YWZoaWdKTVI4M0NsV1ZaU21xcTg0RlVkUmloNk1fMU9Sb2pnVm1zVHNXcGUtSGtnVUhpYTdwck5vZw?oc=5",
+            "date": "2026-10-08",
+            "source": "Seeking Alpha",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 67,
       "decision": "sans réponse"
     }
   ]
