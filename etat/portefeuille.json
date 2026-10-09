@@ -18,102 +18,102 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-09",
-    "cree_le": "2026-10-09T07:49+00:00",
-    "liberation": 143.31613965091103,
+    "cree_le": "2026-10-09T08:20+00:00",
+    "liberation": 147.13343931242773,
     "reserve_pct": null,
-    "score": 87.37697728277584,
+    "score": 87.5702876911289,
     "ordres": [
       {
-        "ticker": "SRE",
+        "ticker": "RBA.TO",
         "side": "buy",
         "quantity": 2.0,
-        "price": 71.15806982545551,
-        "reason": "opportunité radar (score 87)"
+        "price": 73.06671965621386,
+        "reason": "opportunité radar (score 88)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "SRE",
-      "nom": "Sempra",
-      "isin": "SRE",
+      "ticker": "RBA.TO",
+      "nom": "RB Global, Inc.",
+      "isin": "RBA.TO",
       "type": "action",
-      "prix": 79.72000122070312,
-      "score": 87.37697728277584,
-      "baisse": 0.1883299781287684,
-      "perf_5ans": 0.4848775068354918,
+      "prix": 116.51000213623047,
+      "score": 87.5702876911289,
+      "baisse": 0.29157138191649457,
+      "perf_5ans": 0.6445747724160449,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.1604166340382099,
-      "pos_12m": 0.8421621621621621,
-      "n_12m": 925,
-      "base_moy_12m": 0.13733434162782168,
-      "pire_12m": -0.2753435336949991,
-      "vs_marche_3m": -0.1673235554878727,
-      "devise": "USD",
-      "prix_eur": 71.15806982545551,
-      "fondamental": 85.0,
+      "moy_12m": 0.15018374129511108,
+      "pos_12m": 0.8052434456928839,
+      "n_12m": 801,
+      "base_moy_12m": 0.14309759439275713,
+      "pire_12m": -0.2192574433097607,
+      "vs_marche_3m": -0.2861548896197057,
+      "devise": "CAD",
+      "prix_eur": 73.06671965621386,
+      "fondamental": 81.5,
       "fondamental_notes": [
-        "chiffre d'affaires -0.1% sur un an",
-        "bénéfices +71.3% sur un an",
-        "bénéfices attendus +60% sur 12 mois",
-        "analystes : « achat fort » (1.6/5, 18 avis)",
-        "objectif moyen des analystes : +25%",
-        "P/E attendu 14.4 (actuel 23.0)",
-        "marge nette 17%",
-        "dette / capitaux propres 85 %"
+        "chiffre d'affaires +11.1% sur un an",
+        "bénéfices +34.0% sur un an",
+        "bénéfices attendus +116% sur 12 mois",
+        "objectif moyen des analystes : +31%",
+        "P/E attendu 16.5 (actuel 35.7)",
+        "marge nette 10%",
+        "dette / capitaux propres 78 %",
+        "⚠️ chute de -29% vs marché en 3 mois sans explication claire dans les chiffres (-6 pts)"
       ],
-      "score_global": 86.0,
+      "score_global": 83.9,
       "braderie": false
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -17% vs marché)",
-      "vs_marche_3m": -0.1673235554878727,
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -29% vs marché)",
+      "vs_marche_3m": -0.2861548896197057,
       "alertes": [],
       "recents": [
         {
-          "titre": "Sempra stock pre-market at EUR 71.37: minus 0.57 percent - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYmdudzdaR1pyYlZxMFJMbGt0UnY5aTFJX09rdS1JWS10aEUxdG1XNkM1WkJSOFduSzNvcmVEbVA0MjlPSzF5bm9iLXI5Tk5rUURqSHdWaS00S1hsTTBCdkx5dnh1ZTRPWWR2ZkNjNkJFWGRIajBxWDl6TDRWVlVJNHlJb2loQS1PSDRmM0xMNUI3eDBQLXQ4RGs1MVN3YlFOVy1QNG9zeUZWN1hyWGFDYk80dw?oc=5",
-          "date": "2026-10-09",
-          "source": "AD HOC NEWS",
+          "titre": "RB Global nomme Steve Steinberg directeur financier ; anticipe des résultats financiers pour l’exercice 2026 dans le haut de sa fourchette de prévisions - Zonebourse Suisse",
+          "lien": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNdUV0d0tMMGJjTFZ3TmJBT09KZnNfdVFWTXFZWjhvaDdBc0tnX0E4a2lsOGRCTklGN3NtQkJCZ010bFNLcXlJZldmc2hCTmVNcmg1bElMTDZQOXJnTkhSSVJNQXJaRlRrNE9RZ1NiTVNIelEtQ0FqbVowNzVRVndnNzFCa0xnQU5uWncyRjROb0k2Q0tIYVhIRlM2dGZ0d1NPcnFvVmVhVW8wemx1RF9YZ1VjX2xGTUdaMDQ4ekp3SFZGV1NncGl0SlBMWk9GNlNrUUQ3ZFhleG0yRE5nOVNLYm9FbGRWelFxM0FoT3hB?oc=5",
+          "date": "2026-10-08",
+          "source": "Zonebourse Suisse",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Sempra Begins Permitting Process for Major LNG Expansion in Texas - EnergyNow.com",
-          "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVWlwWU5WXzJOd2ZaXzdudHk0cWJXLWhnWng0aFV5MndTSlFId0hGVWc5RzQ1QURtb0NCemlyYU9kWWxqSHBXU0VkWVdlQUJvSWF5a1BsSjZ1MmE5YUNYSlBFQWdvSmRHaUhvTEVTbFhDZFFMeUd2cXJkVk16ZE5EeHJ0TmZIWVZJZV9zTG5mRlF4b3VCSGZBY1JueGs?oc=5",
+          "titre": "Les contrats à terme canadiens reculent, pénalisés par la hausse des rendements obligataires - Zonebourse",
+          "lien": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPbE1IMGxCcTlQa1hNckxxdDB1Tm1tcnd0N1JuNUtZdGJBRjdYcHFkbU9Ud3NZUHZ6X2gxaElUMjBaNUVPWjMxclI2VnNaa0tFUmVvWlpqVGhNVWEzMjZpYmJsaDRfd2lsXzBDbG1IQkNjMm9GNWg3TGNHWWxGXzAxNjBwcWpJX1hGS0U0NGY5YUpNdlYwek5nVnhENUM1cy01N1pGQV9XamFLa0RCQ3dXd3N4dS1VVFhPQkxqY3I4Tk1QdHJvSnNHb3U3WUU0MTIxRl90X3hOVHF2Q09VaERrSl9aQ0lUazQ?oc=5",
           "date": "2026-10-08",
-          "source": "EnergyNow.com",
+          "source": "Zonebourse",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Does New Headquarters Opening Change The Bull Case For Sempra (SRE)? - Simply Wall Street",
-          "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPX0dMUl9wWlBXYWc0MnVkN2xuNlpXMXdrajVrLUhvWjhmT3VGU25BYnNZZmNmTTU0Tm5qWlE4ZWR0THFmODFJT3MzSkc5R3Bvekp1QndvOHJOVUppNDNETUxVanNXeEF6aUlRZjE0SGp2V0RQTHQwNWREbFhaSnc5R1I1NUpKMzA1aWdUVTBjcjRvS1JjalB3Z0FwUnBWZGZPN09tRHZ1MmNCTXBZYTRVNWUyeFZQUXY0eldHMUowUDjSAcYBQVVfeXFMTkwwVjVKeGhCcGVMbHZnNmRPVHhiVlBkaURrUWhZNHRyeFppc1ZaR2UxUTJoNzczMHJmV3FJV2pNdXB6U2RsalFFa0tBZXhuZlYtazM1NlZ5N3EtLWpJZUFrZmRzUlU3bUJwb091bTJ2TEhwQklZQ2tXMElTX3Jpc0NoSEZ4Y1BoZzdGV3p1cjVBR2tHWnRLOWJnY19YWjk2ZG1yVVFWVnZKVXBNdEY0Y1N5Q1lHV3NKRWJTWWxYOC1FRV8zOHV3?oc=5",
+          "titre": "Le TSX rebondit après avoir atteint son plus bas niveau en deux mois et demi, porté par la hausse du pétrole - Zonebourse",
+          "lien": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNR0NTUEpzVTNkRVl2aFFTSnZHLU56N2U1bGtncGthXzZBdkhKemVGTEpIcEdPejVfbkdWWFh5X1hLRHoydE5sTHJkaW53SUprd2ctNnVxSGhkRUFlUUdCclF5QURUQVJPLUlMRHd3azRjTkcwR0JTcDRrWUNGSUhlQzRmQXlEUDdaMlFYZmY1MDNQS19HSzA3djVpTnMyUWRKMEFRbzExSTJfUURsXzg0ZlE2YXMzSngtSHl0THVwekZNcXhLN2VvbV9sWm00WnJ2dGRBWi1DLUVib05pR0U2bjloXzRXM3dfTE5WZzh5bV8?oc=5",
           "date": "2026-10-08",
-          "source": "Simply Wall Street",
+          "source": "Zonebourse",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Morgan Stanley cut target for Sempra stock to USD 100.00 - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZzRoSS01ZTYtelMtY1BBYUJQelQ2RmY0MXQyc0o4c3Z0U1BhaFJ3dXhTbkFYcDZxZDJiUHZmNmNYcUVLbnUtVkc4bWhqTjRZdzhFNGRCOGFTSHhoWXZFTVU1bGdfekFHbEl5dlBNZV9lNXpsamRpQTZNQy1WTEp1YmU5U1NSaldkWUJMb2lfNXExT3Q1WUVsQjlIMGZEaTdNU25RQ3EtOVViejVFT3c4Y1F5X2lyMTc2dXJv?oc=5",
+          "titre": "RB Global, Inc. (RBA) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1IWU9NaV80X2dyY3hWZmx5QTdmNDVWOU5aUEJKb2RNTW9xMFctNE9LcEUxSG1jdENSY0dnNGdhdVg3dDVHYUNNbEoxZVNiWURv?oc=5",
           "date": "2026-10-08",
-          "source": "AD HOC NEWS",
+          "source": "Yahoo! Finance Canada",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Sempra stock trades at EUR 71.29 as volume runs 78.7 percent below average - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWFhPbWFtZF9ZM1ZVVHhsNWMxdll1R3pKSkNoSHVZamxQR0xRZjBBMVpQaktkRjdESnpHeElEOS1ON05XQzUxN1loZkF4NVM4OFFKQmJXekpEUTIwU3NyZkJDTVdqQVN2Y2JFNGNhOFE1Q3RBVThWcjY1bG80bkpUWnhnekJiTlhsaGUzbTBZaFJ1M2F1aUJfcWJ6MEllRXBDNEhhcDd1Yk52NFlTd0Q5cVhGTGctU080TFM3TVlXQWd4cW1Dd1c4SnhxM2dBd1hFM0NJ?oc=5",
+          "titre": "[Form 4] RB GLOBAL INC. Insider Trading Activity - Stock Titan",
+          "lien": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQnJyamNYakJmYmdQN0VRWGljbjZZT3VUWjdRY3RvR0pGVmNxOUdfeXJIWjNFM3V2TkY1LTdIb1U4Wi1FM0N2ZVNUSlZTVUZncG45VURRakxvZXhtMGg2dF9XVE5hN3FDNUNTMFNXZmZQR2FRck5TeGtxdnAzM1Fjdk0yRHhsNmw0YnhhYVFMMjA2ay1nbzdUZ2lUdEFEdGRMOHk0R01SdUNTdw?oc=5",
           "date": "2026-10-08",
-          "source": "AD HOC NEWS",
+          "source": "Stock Titan",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 64
+    "ticket": 65
   },
   "radar_proposes": [
     "MCD",
@@ -192,7 +192,8 @@
     "GATX",
     "TXT",
     "MWA",
-    "SRE"
+    "SRE",
+    "RBA.TO"
   ],
   "achats": [],
   "historique": [
@@ -6387,6 +6388,107 @@
         ]
       },
       "ticket": 63,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-09",
+      "cree_le": "2026-10-09T07:49+00:00",
+      "liberation": 143.31613965091103,
+      "reserve_pct": null,
+      "score": 87.37697728277584,
+      "ordres": [
+        {
+          "ticker": "SRE",
+          "side": "buy",
+          "quantity": 2.0,
+          "price": 71.15806982545551,
+          "reason": "opportunité radar (score 87)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "SRE",
+        "nom": "Sempra",
+        "isin": "SRE",
+        "type": "action",
+        "prix": 79.72000122070312,
+        "score": 87.37697728277584,
+        "baisse": 0.1883299781287684,
+        "perf_5ans": 0.4848775068354918,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.1604166340382099,
+        "pos_12m": 0.8421621621621621,
+        "n_12m": 925,
+        "base_moy_12m": 0.13733434162782168,
+        "pire_12m": -0.2753435336949991,
+        "vs_marche_3m": -0.1673235554878727,
+        "devise": "USD",
+        "prix_eur": 71.15806982545551,
+        "fondamental": 85.0,
+        "fondamental_notes": [
+          "chiffre d'affaires -0.1% sur un an",
+          "bénéfices +71.3% sur un an",
+          "bénéfices attendus +60% sur 12 mois",
+          "analystes : « achat fort » (1.6/5, 18 avis)",
+          "objectif moyen des analystes : +25%",
+          "P/E attendu 14.4 (actuel 23.0)",
+          "marge nette 17%",
+          "dette / capitaux propres 85 %"
+        ],
+        "score_global": 86.0,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -17% vs marché)",
+        "vs_marche_3m": -0.1673235554878727,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Sempra stock pre-market at EUR 71.37: minus 0.57 percent - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYmdudzdaR1pyYlZxMFJMbGt0UnY5aTFJX09rdS1JWS10aEUxdG1XNkM1WkJSOFduSzNvcmVEbVA0MjlPSzF5bm9iLXI5Tk5rUURqSHdWaS00S1hsTTBCdkx5dnh1ZTRPWWR2ZkNjNkJFWGRIajBxWDl6TDRWVlVJNHlJb2loQS1PSDRmM0xMNUI3eDBQLXQ4RGs1MVN3YlFOVy1QNG9zeUZWN1hyWGFDYk80dw?oc=5",
+            "date": "2026-10-09",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Sempra Begins Permitting Process for Major LNG Expansion in Texas - EnergyNow.com",
+            "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVWlwWU5WXzJOd2ZaXzdudHk0cWJXLWhnWng0aFV5MndTSlFId0hGVWc5RzQ1QURtb0NCemlyYU9kWWxqSHBXU0VkWVdlQUJvSWF5a1BsSjZ1MmE5YUNYSlBFQWdvSmRHaUhvTEVTbFhDZFFMeUd2cXJkVk16ZE5EeHJ0TmZIWVZJZV9zTG5mRlF4b3VCSGZBY1JueGs?oc=5",
+            "date": "2026-10-08",
+            "source": "EnergyNow.com",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Does New Headquarters Opening Change The Bull Case For Sempra (SRE)? - Simply Wall Street",
+            "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPX0dMUl9wWlBXYWc0MnVkN2xuNlpXMXdrajVrLUhvWjhmT3VGU25BYnNZZmNmTTU0Tm5qWlE4ZWR0THFmODFJT3MzSkc5R3Bvekp1QndvOHJOVUppNDNETUxVanNXeEF6aUlRZjE0SGp2V0RQTHQwNWREbFhaSnc5R1I1NUpKMzA1aWdUVTBjcjRvS1JjalB3Z0FwUnBWZGZPN09tRHZ1MmNCTXBZYTRVNWUyeFZQUXY0eldHMUowUDjSAcYBQVVfeXFMTkwwVjVKeGhCcGVMbHZnNmRPVHhiVlBkaURrUWhZNHRyeFppc1ZaR2UxUTJoNzczMHJmV3FJV2pNdXB6U2RsalFFa0tBZXhuZlYtazM1NlZ5N3EtLWpJZUFrZmRzUlU3bUJwb091bTJ2TEhwQklZQ2tXMElTX3Jpc0NoSEZ4Y1BoZzdGV3p1cjVBR2tHWnRLOWJnY19YWjk2ZG1yVVFWVnZKVXBNdEY0Y1N5Q1lHV3NKRWJTWWxYOC1FRV8zOHV3?oc=5",
+            "date": "2026-10-08",
+            "source": "Simply Wall Street",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Morgan Stanley cut target for Sempra stock to USD 100.00 - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZzRoSS01ZTYtelMtY1BBYUJQelQ2RmY0MXQyc0o4c3Z0U1BhaFJ3dXhTbkFYcDZxZDJiUHZmNmNYcUVLbnUtVkc4bWhqTjRZdzhFNGRCOGFTSHhoWXZFTVU1bGdfekFHbEl5dlBNZV9lNXpsamRpQTZNQy1WTEp1YmU5U1NSaldkWUJMb2lfNXExT3Q1WUVsQjlIMGZEaTdNU25RQ3EtOVViejVFT3c4Y1F5X2lyMTc2dXJv?oc=5",
+            "date": "2026-10-08",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Sempra stock trades at EUR 71.29 as volume runs 78.7 percent below average - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWFhPbWFtZF9ZM1ZVVHhsNWMxdll1R3pKSkNoSHVZamxQR0xRZjBBMVpQaktkRjdESnpHeElEOS1ON05XQzUxN1loZkF4NVM4OFFKQmJXekpEUTIwU3NyZkJDTVdqQVN2Y2JFNGNhOFE1Q3RBVThWcjY1bG80bkpUWnhnekJiTlhsaGUzbTBZaFJ1M2F1aUJfcWJ6MEllRXBDNEhhcDd1Yk52NFlTd0Q5cVhGTGctU080TFM3TVlXQWd4cW1Dd1c4SnhxM2dBd1hFM0NJ?oc=5",
+            "date": "2026-10-08",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 64,
       "decision": "sans réponse"
     }
   ]
