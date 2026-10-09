@@ -18,102 +18,102 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-09",
-    "cree_le": "2026-10-09T14:21+00:00",
-    "liberation": 145.40929019824327,
+    "cree_le": "2026-10-09T14:51+00:00",
+    "liberation": 144.37050782861832,
     "reserve_pct": null,
-    "score": 90.7626531590068,
+    "score": 91.2702099845121,
     "ordres": [
       {
-        "ticker": "RITM",
+        "ticker": "GSK.L",
         "side": "buy",
-        "quantity": 19.0,
-        "price": 7.600488957802278,
+        "quantity": 7.0,
+        "price": 20.481501118374045,
         "reason": "opportunité radar (score 91)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "RITM",
-      "nom": "Rithm Capital",
-      "isin": "RITM",
+      "ticker": "GSK.L",
+      "nom": "GSK plc",
+      "isin": "GSK.L",
       "type": "action",
-      "prix": 8.515000343322754,
-      "score": 90.7626531590068,
-      "baisse": 0.23378613848981133,
-      "perf_5ans": 0.29440310600206243,
+      "prix": 1735.5,
+      "score": 91.2702099845121,
+      "baisse": 0.234589050498912,
+      "perf_5ans": 0.22879915035495224,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.3517305372710437,
-      "pos_12m": 0.8338870431893688,
-      "n_12m": 301,
-      "base_moy_12m": 0.12101063462650206,
-      "pire_12m": -0.48925827512843834,
-      "vs_marche_3m": -0.06436798787999187,
-      "devise": "USD",
-      "prix_eur": 7.600488957802278,
-      "fondamental": 73.0,
+      "moy_12m": 0.11334956084374803,
+      "pos_12m": 0.7567185289957568,
+      "n_12m": 707,
+      "base_moy_12m": 0.030479988314790738,
+      "pire_12m": -0.2372333992931861,
+      "vs_marche_3m": -0.14819706818622336,
+      "devise": "GBp",
+      "prix_eur": 20.481501118374045,
+      "fondamental": 72.0,
       "fondamental_notes": [
-        "chiffre d'affaires +9.7% sur un an",
-        "bénéfices -93.2% sur un an",
-        "bénéfices attendus +292% sur 12 mois",
-        "analystes : « achat fort » (1.4/5, 10 avis)",
-        "objectif des analystes +54% : peu crédible, probablement pas encore révisé",
-        "P/E attendu 3.6 (actuel 14.2)",
-        "marge nette 11%",
-        "dette / capitaux propres 388 %"
+        "chiffre d'affaires +5.3% sur un an",
+        "bénéfices -69.5% sur un an",
+        "bénéfices attendus +61% sur 12 mois",
+        "analystes : « conserver » (2.5/5, 21 avis)",
+        "objectif moyen des analystes : +24%",
+        "P/E attendu 9.2 (actuel 14.9)",
+        "marge nette 15%",
+        "dette / capitaux propres 106 %"
       ],
-      "score_global": 80.1,
+      "score_global": 79.7,
       "braderie": false
     },
     "actualites": {
       "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -6% vs marché)",
-      "vs_marche_3m": -0.06436798787999187,
+      "resume": "rien d'alarmant dans l'actualité (3 mois : -15% vs marché)",
+      "vs_marche_3m": -0.14819706818622336,
       "alertes": [],
       "recents": [
         {
-          "titre": "Rithm Capital Corp. (RITM) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-          "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE04Ujc4RlN0M2YxaGdVUVltLUtsRFIyanRWN0lERHI3WFFBNTdoMFc4Rld1Q2tCY05KMFF1SXE0MTVYYXB2WWd5WnQyOXhKUGpaU2c?oc=5",
+          "titre": "GSK stock trades at EUR 20.81 with USD 93.2 billion value - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUXl4dmprZW9XaEwwTF9Fdm1jTWhoWm9lX3I1Q0xNMDV4RG9DWlQwSTk0YTNrT2Y1VW9xQS1McG1rWkNnYmRJRlpPcFB3QktHQ3ZTbVczcndlNWZzNUVWS05ZUkhLUERIMzZIclJDQ2JsT2k1dG00dm9jdTdjWk1fTXlDUk1MaVhERmFkeFVNUzNsU1FLaVFfckdhYmZsQTFRTjRWVkRnVWNhZDg1ekkxcFRRdWdxcHhod0V3SQ?oc=5",
           "date": "2026-10-09",
-          "source": "Yahoo! Finance Canada",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Rithm Capital (RITM) Closes DRA Venture Following New York Tower Deal Is It A Bargain - Simply Wall Street",
-          "lien": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNSDIxRlpVX19sdFBwckFSM2pTZGlNMjQ1Zmd2LTNsUnVCWmZhVGxXX0hITnI1OVBYbk5KdVp6Wm90SmJrR29MekZzeGhlcldleFdxbVE0anNvRVVZaVJzbHpOWTdTN0haNXdPTlRDcVBIakszb1RXeXJqQThlcjdFS2JCNlp6YzZ0WHBnOE8ycGRmYXFNODlTU1V3eHhRcVlEUUhFSlE5bDUyZ0Y1TmlXV2dsLTlNVW5yRVRwZmVrazM5OURTaDdOSnZuNmswVmgyYl9UVnhVWU1PN2h40gHiAUFVX3lxTE9fdTJMTEJpZTFJSWZIWDdjaFhsV19OU1J4MEdMemxfRjZKREtwOWRnbzNYWGFXZlV2alY3Q19XeTZrajZzSEtJMHFUMS1xNmprZlJrYVFDUWY2c0J4WEYtZXl1bkt1S3BVUktXWVFnN2U0anBJTXRRRzdRWTRxS0taWHJ4aHdjeU1qQWRWYkdQSlRpOGwzMVJMSm8tQjBTcU45MDJxMGI2Z0JfQ0M2ZC1QTDg3YmhGdXBpcEtlTDRaM3d6MHRmdVNKMDJPQ080aVpVa2VEeWdNTXlRbmJwYzNrcHc?oc=5",
+          "titre": "GSK (LSE:GSK) Back In Focus: Does The Nuvalent Agreement Strengthen Its Cancer Pipeline Today? - Kalkine Media",
+          "lien": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSFZEb2xvS2RMaDdNLVE0QkdtVEFUTWxxdzNzLWdtOWhsZmJYN2NNakJzR2VPNjFXUlRJbktzQkZ2Q0pvU3dyN0hyYU9oMnRmbHRpSHpnQWd0RHNEekxzZjNvUDhGS1dxaU5fLUtNRHdzQ1NWZ0ZXUmpJY2ZhdWtXZGZiVlRIckJKU3ZwREh0cEdxQXhCRWZraTJacVd1VHdZUFlKbkNONkk0YU5obTQ4aFhQRTJucVlaMGtsMnpLYzRZenp2QzYyQmdpTUU3M1hr?oc=5",
           "date": "2026-10-09",
-          "source": "Simply Wall Street",
+          "source": "Kalkine Media",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "L’action Rithm Capital Corp atteint un plus bas de 52 semaines à 8,43 USD - Investing.com France",
-          "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdmVybFhkc2dMSmdFeFM2S3NVZkIzUGR0MDI2UWJVb3FuLVBFcUtEY1JtdjJITGVoeEFJakgxT0Q5Z2FzX09ONGVmR2NkeXpUR3d5akJwN0YxNG9VOHJobFFjNTR2TW1kc1BKSU9VUGhOTTFPVjFaZ1NyS2hsdFZSdnBFVUVaWFVWRlkxQlZvQnhDNEoyS2lqcFFIUG01ZEI3c3l0M290VFFxUHBLdjRxT0hqU0NWU0VQSVpGMVhUTGx6QUZxS3c?oc=5",
-          "date": "2026-10-07",
-          "source": "Investing.com France",
+          "titre": "GSK secures USD 750 million cancer rights. Goldman keeps GBp 1,860 target for GSK stock - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUTNJaVc3U2I5cDRzUzdOdGV1Q0hXQU5OcEhSbTdnNm9vcmF5WWlGOW9haFZzb0pLa01nZHNwdldubW9SWkRSZmZlM0UzM25RUU1xNTVEYmhjcmNZR3VKWGJwbEMtMDg0OGE3aVJBVF9zQkdDb1d3cmxfcGp3Q3E4MHBBbVROcGV5WC1QNTA2OFVXblZXSGFOc3BoeFc0NHg4SFkyRHJxcy0tZ0V1VC1iTXRFRFJZM1JmaUVpVWJ3V2p6cFktN2tKbFZLUXB4eU1U?oc=5",
+          "date": "2026-10-09",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "TOUR D'HORIZON DE LA RECHERCHE AUX ÉTATS-UNIS-Allstate, Caribou Biosciences, Zscaler - Boursorama",
-          "lien": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNM2VidHZfYU9QcFZhR0JsZ3dsU0lPYi1GTkJEVG1iRHBDa2dxUHRnenAtbXJjNXBXd0ZidlNZdDBOanhkOXM2UjhDUzRTWnZJNnBLaUJzZTNPU3Zia0YydV96QlJXcHJmY3J2eHFNUnlETXhZRzdUalFPdlJQUTRsdjRpSXd3ekM4aHBuVVlqSllWUFVCRmIxTFV3eGowR1FhREh0WTZWZldKZUhYdkFDTC1mT3gxSVFKRFlwV0dWdVRjOHNkRWkzRm16ckFYbDI4dEY1ZlRJNU5GRV96VWFSaUJCRUMxbkw1XzB2dE1ZeTdNTjl2UFpr0gH3AUFVX3lxTE0zZWJ0dl9hT1BwVmFHQmxnd2xTSU9iLUZOQkRUbWJEcENrZ3FQdGd6cC1tcmM1cFd3RmJ2U1l0ME5qeGQ5czZSOENTNFNadkk2cEtpQnNlM09TdmJrRjJ1X3pCUldwcmZjcnZ4cU1SeURNeFlHN1RqUU92UlBRNGx2NGlJd3d6QzhocG5VWWpKWVZQVUJGYjFMVXd4ajBHUWFESHRZNlZmV0plSFh2QUNMLWZPeDFJUUpEWXBXR1Z1VGM4c2RFaTNGbXpyQVhsMjh0RjVmVEk1TkZFX3pVYVJpQkJFQzFuTDVfMHZ0TVl5N01OOXZQWms?oc=5",
-          "date": "2026-10-07",
-          "source": "Boursorama",
+          "titre": "GSK plc : JP Morgan maintient son opinion vendeuse - Zonebourse",
+          "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORTc1MzZPYUxEWmxnRVVNZUN1bWVqLTFrOXFWdmlZYzEwY0RnQXRWUjhOZFZCNXE1cFdwZ1JXeGxmWEFDb1FLZmFkZ0RDYnFUMkpjeV9XQTBkSmVUVUVCMXNQc2FkdThlcGNsdWk3UG1GN0hUcGFUajg1RnlMRVFCcEEzenhBdVBRZW1kNnZiSy1QZzc3NHAtMTFVbmNEb09JSHRWOGdBMFA4MWRsQWc?oc=5",
+          "date": "2026-10-08",
+          "source": "Zonebourse",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Rithm Capital (NYSE:RITM) Hits New 12-Month Low - Should You Sell? - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUFdhOW5QVVZvMTlhOFlOVUZxdVFsQXJzeTdqcGdPQkh6dFlteHlvSl9PNm5hSUNtRXJWeV8tOGJqVHlTTnZpZ2pSeUZyWF9MTzQ5cS1oNW45eV91U1RQVUU4NEVNNldCLUxSSUItaDRVQ1FvX2x2SnRUQ0NHa05sV2dNdF9QaWlzWU1SSG9EOXhkd2VxUndMcE9ZN05UODNoc1FwelN4WTdEdlVQY1VwMXE0QlBpTmJmSkVQZXJn?oc=5",
-          "date": "2026-10-07",
-          "source": "MarketBeat",
+          "titre": "Viola Davis partners with GSK to educate adults 50 and older about their shingles risk - GSK US",
+          "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSTB0T1Q4WmlNQU5aYTJyNk9rOGZJVU1fb1JXcTNxTUh2dUQ3QXNudnpqUkJ3SVZXS0laQ3BoZGdhUlIyNXFQdUpsX1R3ampGOVBSUEtsNDFvOGJ4dWp6YmRvclhaejdpM19tdkFpUGQ1Z2FUN0pjb0hhclRpRUVoZWNoLTE1ZDBnVEZVNURPbGk0ckh4RHBlZXVRU0dGeUh3aURJRjR5ZDVzc2lLV1VyTXhvZy15Qy1ONGFoZVFXcVBGYnRMNE9LVDF1UlRHdw?oc=5",
+          "date": "2026-10-08",
+          "source": "GSK US",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 74
+    "ticket": 75
   },
   "radar_proposes": [
     "MCD",
@@ -206,7 +206,8 @@
     "NEE",
     "OSK",
     "CQR.AX",
-    "RITM"
+    "RITM",
+    "GSK.L"
   ],
   "achats": [],
   "historique": [
@@ -7441,6 +7442,107 @@
         ]
       },
       "ticket": 73,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-09",
+      "cree_le": "2026-10-09T14:21+00:00",
+      "liberation": 145.40929019824327,
+      "reserve_pct": null,
+      "score": 90.7626531590068,
+      "ordres": [
+        {
+          "ticker": "RITM",
+          "side": "buy",
+          "quantity": 19.0,
+          "price": 7.600488957802278,
+          "reason": "opportunité radar (score 91)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "RITM",
+        "nom": "Rithm Capital",
+        "isin": "RITM",
+        "type": "action",
+        "prix": 8.515000343322754,
+        "score": 90.7626531590068,
+        "baisse": 0.23378613848981133,
+        "perf_5ans": 0.29440310600206243,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.3517305372710437,
+        "pos_12m": 0.8338870431893688,
+        "n_12m": 301,
+        "base_moy_12m": 0.12101063462650206,
+        "pire_12m": -0.48925827512843834,
+        "vs_marche_3m": -0.06436798787999187,
+        "devise": "USD",
+        "prix_eur": 7.600488957802278,
+        "fondamental": 73.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +9.7% sur un an",
+          "bénéfices -93.2% sur un an",
+          "bénéfices attendus +292% sur 12 mois",
+          "analystes : « achat fort » (1.4/5, 10 avis)",
+          "objectif des analystes +54% : peu crédible, probablement pas encore révisé",
+          "P/E attendu 3.6 (actuel 14.2)",
+          "marge nette 11%",
+          "dette / capitaux propres 388 %"
+        ],
+        "score_global": 80.1,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -6% vs marché)",
+        "vs_marche_3m": -0.06436798787999187,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Rithm Capital Corp. (RITM) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+            "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE04Ujc4RlN0M2YxaGdVUVltLUtsRFIyanRWN0lERHI3WFFBNTdoMFc4Rld1Q2tCY05KMFF1SXE0MTVYYXB2WWd5WnQyOXhKUGpaU2c?oc=5",
+            "date": "2026-10-09",
+            "source": "Yahoo! Finance Canada",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Rithm Capital (RITM) Closes DRA Venture Following New York Tower Deal Is It A Bargain - Simply Wall Street",
+            "lien": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNSDIxRlpVX19sdFBwckFSM2pTZGlNMjQ1Zmd2LTNsUnVCWmZhVGxXX0hITnI1OVBYbk5KdVp6Wm90SmJrR29MekZzeGhlcldleFdxbVE0anNvRVVZaVJzbHpOWTdTN0haNXdPTlRDcVBIakszb1RXeXJqQThlcjdFS2JCNlp6YzZ0WHBnOE8ycGRmYXFNODlTU1V3eHhRcVlEUUhFSlE5bDUyZ0Y1TmlXV2dsLTlNVW5yRVRwZmVrazM5OURTaDdOSnZuNmswVmgyYl9UVnhVWU1PN2h40gHiAUFVX3lxTE9fdTJMTEJpZTFJSWZIWDdjaFhsV19OU1J4MEdMemxfRjZKREtwOWRnbzNYWGFXZlV2alY3Q19XeTZrajZzSEtJMHFUMS1xNmprZlJrYVFDUWY2c0J4WEYtZXl1bkt1S3BVUktXWVFnN2U0anBJTXRRRzdRWTRxS0taWHJ4aHdjeU1qQWRWYkdQSlRpOGwzMVJMSm8tQjBTcU45MDJxMGI2Z0JfQ0M2ZC1QTDg3YmhGdXBpcEtlTDRaM3d6MHRmdVNKMDJPQ080aVpVa2VEeWdNTXlRbmJwYzNrcHc?oc=5",
+            "date": "2026-10-09",
+            "source": "Simply Wall Street",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "L’action Rithm Capital Corp atteint un plus bas de 52 semaines à 8,43 USD - Investing.com France",
+            "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdmVybFhkc2dMSmdFeFM2S3NVZkIzUGR0MDI2UWJVb3FuLVBFcUtEY1JtdjJITGVoeEFJakgxT0Q5Z2FzX09ONGVmR2NkeXpUR3d5akJwN0YxNG9VOHJobFFjNTR2TW1kc1BKSU9VUGhOTTFPVjFaZ1NyS2hsdFZSdnBFVUVaWFVWRlkxQlZvQnhDNEoyS2lqcFFIUG01ZEI3c3l0M290VFFxUHBLdjRxT0hqU0NWU0VQSVpGMVhUTGx6QUZxS3c?oc=5",
+            "date": "2026-10-07",
+            "source": "Investing.com France",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "TOUR D'HORIZON DE LA RECHERCHE AUX ÉTATS-UNIS-Allstate, Caribou Biosciences, Zscaler - Boursorama",
+            "lien": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNM2VidHZfYU9QcFZhR0JsZ3dsU0lPYi1GTkJEVG1iRHBDa2dxUHRnenAtbXJjNXBXd0ZidlNZdDBOanhkOXM2UjhDUzRTWnZJNnBLaUJzZTNPU3Zia0YydV96QlJXcHJmY3J2eHFNUnlETXhZRzdUalFPdlJQUTRsdjRpSXd3ekM4aHBuVVlqSllWUFVCRmIxTFV3eGowR1FhREh0WTZWZldKZUhYdkFDTC1mT3gxSVFKRFlwV0dWdVRjOHNkRWkzRm16ckFYbDI4dEY1ZlRJNU5GRV96VWFSaUJCRUMxbkw1XzB2dE1ZeTdNTjl2UFpr0gH3AUFVX3lxTE0zZWJ0dl9hT1BwVmFHQmxnd2xTSU9iLUZOQkRUbWJEcENrZ3FQdGd6cC1tcmM1cFd3RmJ2U1l0ME5qeGQ5czZSOENTNFNadkk2cEtpQnNlM09TdmJrRjJ1X3pCUldwcmZjcnZ4cU1SeURNeFlHN1RqUU92UlBRNGx2NGlJd3d6QzhocG5VWWpKWVZQVUJGYjFMVXd4ajBHUWFESHRZNlZmV0plSFh2QUNMLWZPeDFJUUpEWXBXR1Z1VGM4c2RFaTNGbXpyQVhsMjh0RjVmVEk1TkZFX3pVYVJpQkJFQzFuTDVfMHZ0TVl5N01OOXZQWms?oc=5",
+            "date": "2026-10-07",
+            "source": "Boursorama",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Rithm Capital (NYSE:RITM) Hits New 12-Month Low - Should You Sell? - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUFdhOW5QVVZvMTlhOFlOVUZxdVFsQXJzeTdqcGdPQkh6dFlteHlvSl9PNm5hSUNtRXJWeV8tOGJqVHlTTnZpZ2pSeUZyWF9MTzQ5cS1oNW45eV91U1RQVUU4NEVNNldCLUxSSUItaDRVQ1FvX2x2SnRUQ0NHa05sV2dNdF9QaWlzWU1SSG9EOXhkd2VxUndMcE9ZN05UODNoc1FwelN4WTdEdlVQY1VwMXE0QlBpTmJmSkVQZXJn?oc=5",
+            "date": "2026-10-07",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 74,
       "decision": "sans réponse"
     }
   ]
