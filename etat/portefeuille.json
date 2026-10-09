@@ -18,102 +18,102 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-09",
-    "cree_le": "2026-10-09T20:17+00:00",
-    "liberation": 108.95084224270208,
+    "cree_le": "2026-10-09T20:48+00:00",
+    "liberation": 261.361216763645,
     "reserve_pct": null,
-    "score": 85.4337088200914,
+    "score": 85.02003724455733,
     "ordres": [
       {
-        "ticker": "ATR",
+        "ticker": "HD",
         "side": "buy",
         "quantity": 1.0,
-        "price": 107.95084224270208,
+        "price": 260.361216763645,
         "reason": "opportunité radar (score 85)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "ATR",
-      "nom": "AptarGroup",
-      "isin": "ATR",
+      "ticker": "HD",
+      "nom": "Home Depot (The)",
+      "isin": "HD",
       "type": "action",
-      "prix": 120.84500122070312,
-      "score": 85.4337088200914,
-      "baisse": 0.16448534871301568,
-      "perf_5ans": 0.05537533683015261,
+      "prix": 291.4599914550781,
+      "score": 85.02003724455733,
+      "baisse": 0.2384918559295276,
+      "perf_5ans": 0.013377064793645532,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.13786064578101367,
-      "pos_12m": 0.6693227091633466,
-      "n_12m": 753,
-      "base_moy_12m": 0.12281865316777212,
-      "pire_12m": -0.2878904748667743,
-      "vs_marche_3m": -0.05303036442811748,
+      "moy_12m": 0.19911401493207492,
+      "pos_12m": 0.6915167095115681,
+      "n_12m": 389,
+      "base_moy_12m": 0.16328670277694543,
+      "pire_12m": -0.3762728898464255,
+      "vs_marche_3m": -0.15498520484899314,
       "devise": "USD",
-      "prix_eur": 107.95084224270208,
-      "fondamental": 80.0,
+      "prix_eur": 260.361216763645,
+      "fondamental": 78.5,
       "fondamental_notes": [
-        "chiffre d'affaires +6.3% sur un an",
-        "bénéfices -18.6% sur un an",
-        "bénéfices attendus +13% sur 12 mois",
-        "analystes : « achat fort » (1.4/5, 8 avis)",
-        "objectif moyen des analystes : +37%",
-        "P/E attendu 19.2 (actuel 21.7)",
-        "marge nette 9%",
-        "dette / capitaux propres 53 %"
+        "chiffre d'affaires +5.7% sur un an",
+        "bénéfices +4.6% sur un an",
+        "bénéfices attendus +12% sur 12 mois",
+        "analystes : « achat » (1.9/5, 32 avis)",
+        "objectif moyen des analystes : +30%",
+        "P/E attendu 18.3 (actuel 20.4)",
+        "marge nette 8%",
+        "dette / capitaux propres 380 %"
       ],
-      "score_global": 82.2,
+      "score_global": 81.1,
       "braderie": false
     },
     "actualites": {
-      "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -5% vs marché)",
-      "vs_marche_3m": -0.05303036442811748,
+      "verdict": "orange",
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -15% vs marché)",
+      "vs_marche_3m": -0.15498520484899314,
       "alertes": [],
       "recents": [
         {
-          "titre": "AptarGroup, Inc. : UBS n'est plus positif - Zonebourse Suisse",
-          "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSUt2aVN2cVpka2FPaWUtdEwyR2ZSQ01ZM2RmSkJ3Rk5vdTdxNEZ4eUU1VmpXMTNDUXJwSWRkOVh4RGM3RFRBU2MtSEdyYy1BelNicnBIaWFzTEp6Xy1OSWNfeDJ3S2k0eEw0VXlnX3ZWSFFvdFFjMEZGQ2liUVl2ek12VDVQczRxd1hEbTlpTHZqcHhVOWl4TEtBOW1wQQ?oc=5",
+          "titre": "Is Trending Stock The Home Depot, Inc. (HD) a Buy Now? - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTFR3cTFtOGJ3bld2N2J5cUtHOC1rcXFMUEZPSUp1cDlOM1pqU3N6V1F6SlNrWFoyQjJYa0UzSWp1bUpHYVFRamd1TmtzMllody1NRmhZcG9vUEtjMXB1cFc0eDRDQ3liV0oyODhMbkh0N1ZVVnZnTWFBdWNBek5MRFQtSm02ckRFYzBtbzE2bm5YenIwS3d3VmhB?oc=5",
           "date": "2026-10-09",
-          "source": "Zonebourse Suisse",
+          "source": "Yahoo Finance",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "17,482 Shares in AptarGroup, Inc. $ATR Acquired by Diversified Management Inc. - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVHQ5dXFlZ1REb0Q3UnJ4Q1Y0eG1xTXpIWTY4T2xxS0xKNjJRRnhDV1BlOFE5cm5ZdlpacFNocHlHRWI3UF9WMGliT3VCcGZhdE1DWXFfMzlaUG1mS0NKUWFxME9CeFk4QzlIeGdZRmtvQTVhbEN6X2FmanBacVczT1hONDZlVzg2VzE1WkIxZERxSnpvcVprZnhCRzloUVJQaUJHRTlmeUZ2WUI2aTgxSjREWkhHOElyWWVjZkxmMHFVUXNIMmRLMldONVZ0Tmc?oc=5",
+          "titre": "Strength Seen in Home Depot (HD): Can Its 3.4% Jump Turn into More Strength? - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaU1aVWxDeHFLSnBuWWhPY1pMYVRoc1hOa0ZHYWRubzdXUGtYakM4cnlucXBpNDFQU053VHI0cE1DUGJzR2xiUEw2cVpCdEZXcFFMWFRGNmhqcXpOWkx1WGZncndTa29ZUEZFSHBfSERBSmEwNDRrWlIxV1NzZ2VTQzFHOWtoWUdVQm4xaGhNNk5hLTE3eEo4?oc=5",
           "date": "2026-10-09",
-          "source": "MarketBeat",
+          "source": "Yahoo Finance",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "How Aptargroup Inc. (ATR) Affects Rotational Strategy Timing - Stock Traders Daily",
-          "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbHQ0Wk1pc1hkd2FUdUtZcVdkdlFrMlRZRTdRbUhXeUFTTXRfMTNqRGFGSFRGY3UtOVFTS3ZMaGZGdzRuRm9odXp5ZkkwazZWODcweDV4dmZGX2t6SUozb1lJSHJ4UXFQVHRDaVRRT0FJcUFWWGs1MV92YW9PMkhqOGZ2R2w1c3NLdkFJZGpLRDRNbnB3OHVybGtYX0ZpVlZnN2VaRHR4b0ZUb0hpYnBza0tORXVpVTBnd0x2ZVhXY3RCUjNuaXNRNHcyaFQ3aXFOVEVXNQ?oc=5",
+          "titre": "Home Depot Tokenized Stock price today, HDX to USD chart, marketcap and volume - CryptoSlate",
+          "lien": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTLXdVQk8wdkN5TlFvcWVVaDFJNlpRMW1KVEo4ajRNWHJGcm9QUzdkQUJuMl9kVFJYVk1qQ21pSUlfQjY1WUdVVzNpd2c0NzhDbHBsNC0xODkyazRCUHNzNGZ4NHhZVnhq?oc=5",
           "date": "2026-10-09",
-          "source": "Stock Traders Daily",
+          "source": "CryptoSlate",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "ATR Initiates Coverage On AptarGroup -- Neutral Rating by UBS - GuruFocus",
-          "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMzBocDdQakNxeEdzOHFiOTFSODhnUkJoaVROc2QycVdpbDV2LTFJMlM3MUc1OTI0cDZvX1U2NVp1emhmdFVVNzE2RmtSMXJoRnFuREdRdXNISDdaRlloT3FpWllINVdRV0Y0c294Sl9JQW45Nm9tMC1aVndhVVZHOFVWbElvcHFpbFdiNXF2NDhYQXNRNTd0SnBObEJmQQ?oc=5",
+          "titre": "4 Innovative Makita Tools Available at Home Depot - Pro Tool Reviews",
+          "lien": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE90eWIzUkFyRlJtcTJzTkk1LWJTeDdoWGxDUGM0aXJmeG9uZVNKVGRoOVIxUHpkVVlrTGYwVWVRUEpqampBdmplUHk1TkpSaXVkUVoySTkwRDFMYmZnMmZqVEhEQ0U?oc=5",
           "date": "2026-10-09",
-          "source": "GuruFocus",
+          "source": "Pro Tool Reviews",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "AptarGroup initiated with a Neutral at UBS - TipRanks",
-          "lien": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWERERVVTWmNpR0NyNy1KUU1fd1lmTWZPdV9kb0k0YXRUQ2dseDlKUmxDd3dkc3JZUHAtQ1VsVm15RExaaERjaTcwdFRzNnMzVlhpYnIzQ3gweTJvVU5pNjM3bDE0MjVDVjRtcllVTVNhd3RvWnFuN2Y3WGtyUUVabHo0eEpFX1dFcm5xdnpUMTlGS3RiMkNv?oc=5",
-          "date": "2026-10-09",
-          "source": "TipRanks",
+          "titre": "Learn Why The Bull Case For Home Depot Stock Could Change Following Earnings Estimate Upgrades - Simply Wall Street",
+          "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMjJWTVM1bzZMRDlINndlNnd3VEdHZnk2ZDdhdkZWRWlkY3lqRGRKS2RfYWdocjN3blpVcktzbThBOGdndjNVbGppdzc0U0xabm1yeU1ra0txanVpSzQ1Snc4Yk9MRzE4NnZlRnNwTUpxU0I5ejN6d3hsLXJReV9VNm5kd2h2TnRKVGtRSEJnbHZsLUVXLVI2T2V2eGlNbTd2UUdscDJIb1R2Zm9vQmdwbklqdEdWVUVibnpKRGQ1VG3SAcYBQVVfeXFMTUFxdnZEdF8yVGNpdGVvNlpmb0c1aEVsV280WGppYkdTX1FxTE41Y0F1eWhXV1pjaVRscEthUi1yTEJjVGd6cXd5enlRT2RLLWk0MWtIYkJhVnphVGt1N0JzR3ZMdk5oeDkyV0JEN1pONllNaVdPLUNtaHM3NVBIQUZiN3dNb2lCalY0NUt4SzZRZlJJZkRTcUpBMjJlTHdxRm5MM1hQNEIybHBtMUphaHpfOGdzckYxbTNrMjFJYmJTUlhEZF93?oc=5",
+          "date": "2026-10-08",
+          "source": "Simply Wall Street",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 82
+    "ticket": 83
   },
   "radar_proposes": [
     "MCD",
@@ -215,7 +215,8 @@
     "ORA.PA",
     "CRUS",
     "NLY",
-    "ATR"
+    "ATR",
+    "HD"
   ],
   "achats": [],
   "historique": [
@@ -8227,6 +8228,107 @@
         "recents": []
       },
       "ticket": 81,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-09",
+      "cree_le": "2026-10-09T20:17+00:00",
+      "liberation": 108.95084224270208,
+      "reserve_pct": null,
+      "score": 85.4337088200914,
+      "ordres": [
+        {
+          "ticker": "ATR",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 107.95084224270208,
+          "reason": "opportunité radar (score 85)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "ATR",
+        "nom": "AptarGroup",
+        "isin": "ATR",
+        "type": "action",
+        "prix": 120.84500122070312,
+        "score": 85.4337088200914,
+        "baisse": 0.16448534871301568,
+        "perf_5ans": 0.05537533683015261,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.13786064578101367,
+        "pos_12m": 0.6693227091633466,
+        "n_12m": 753,
+        "base_moy_12m": 0.12281865316777212,
+        "pire_12m": -0.2878904748667743,
+        "vs_marche_3m": -0.05303036442811748,
+        "devise": "USD",
+        "prix_eur": 107.95084224270208,
+        "fondamental": 80.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +6.3% sur un an",
+          "bénéfices -18.6% sur un an",
+          "bénéfices attendus +13% sur 12 mois",
+          "analystes : « achat fort » (1.4/5, 8 avis)",
+          "objectif moyen des analystes : +37%",
+          "P/E attendu 19.2 (actuel 21.7)",
+          "marge nette 9%",
+          "dette / capitaux propres 53 %"
+        ],
+        "score_global": 82.2,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -5% vs marché)",
+        "vs_marche_3m": -0.05303036442811748,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "AptarGroup, Inc. : UBS n'est plus positif - Zonebourse Suisse",
+            "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSUt2aVN2cVpka2FPaWUtdEwyR2ZSQ01ZM2RmSkJ3Rk5vdTdxNEZ4eUU1VmpXMTNDUXJwSWRkOVh4RGM3RFRBU2MtSEdyYy1BelNicnBIaWFzTEp6Xy1OSWNfeDJ3S2k0eEw0VXlnX3ZWSFFvdFFjMEZGQ2liUVl2ek12VDVQczRxd1hEbTlpTHZqcHhVOWl4TEtBOW1wQQ?oc=5",
+            "date": "2026-10-09",
+            "source": "Zonebourse Suisse",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "17,482 Shares in AptarGroup, Inc. $ATR Acquired by Diversified Management Inc. - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVHQ5dXFlZ1REb0Q3UnJ4Q1Y0eG1xTXpIWTY4T2xxS0xKNjJRRnhDV1BlOFE5cm5ZdlpacFNocHlHRWI3UF9WMGliT3VCcGZhdE1DWXFfMzlaUG1mS0NKUWFxME9CeFk4QzlIeGdZRmtvQTVhbEN6X2FmanBacVczT1hONDZlVzg2VzE1WkIxZERxSnpvcVprZnhCRzloUVJQaUJHRTlmeUZ2WUI2aTgxSjREWkhHOElyWWVjZkxmMHFVUXNIMmRLMldONVZ0Tmc?oc=5",
+            "date": "2026-10-09",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "How Aptargroup Inc. (ATR) Affects Rotational Strategy Timing - Stock Traders Daily",
+            "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbHQ0Wk1pc1hkd2FUdUtZcVdkdlFrMlRZRTdRbUhXeUFTTXRfMTNqRGFGSFRGY3UtOVFTS3ZMaGZGdzRuRm9odXp5ZkkwazZWODcweDV4dmZGX2t6SUozb1lJSHJ4UXFQVHRDaVRRT0FJcUFWWGs1MV92YW9PMkhqOGZ2R2w1c3NLdkFJZGpLRDRNbnB3OHVybGtYX0ZpVlZnN2VaRHR4b0ZUb0hpYnBza0tORXVpVTBnd0x2ZVhXY3RCUjNuaXNRNHcyaFQ3aXFOVEVXNQ?oc=5",
+            "date": "2026-10-09",
+            "source": "Stock Traders Daily",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "ATR Initiates Coverage On AptarGroup -- Neutral Rating by UBS - GuruFocus",
+            "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMzBocDdQakNxeEdzOHFiOTFSODhnUkJoaVROc2QycVdpbDV2LTFJMlM3MUc1OTI0cDZvX1U2NVp1emhmdFVVNzE2RmtSMXJoRnFuREdRdXNISDdaRlloT3FpWllINVdRV0Y0c294Sl9JQW45Nm9tMC1aVndhVVZHOFVWbElvcHFpbFdiNXF2NDhYQXNRNTd0SnBObEJmQQ?oc=5",
+            "date": "2026-10-09",
+            "source": "GuruFocus",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "AptarGroup initiated with a Neutral at UBS - TipRanks",
+            "lien": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWERERVVTWmNpR0NyNy1KUU1fd1lmTWZPdV9kb0k0YXRUQ2dseDlKUmxDd3dkc3JZUHAtQ1VsVm15RExaaERjaTcwdFRzNnMzVlhpYnIzQ3gweTJvVU5pNjM3bDE0MjVDVjRtcllVTVNhd3RvWnFuN2Y3WGtyUUVabHo0eEpFX1dFcm5xdnpUMTlGS3RiMkNv?oc=5",
+            "date": "2026-10-09",
+            "source": "TipRanks",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 82,
       "decision": "sans réponse"
     }
   ]
