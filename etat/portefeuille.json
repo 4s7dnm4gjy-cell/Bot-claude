@@ -18,102 +18,102 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-09",
-    "cree_le": "2026-10-09T11:47+00:00",
-    "liberation": 145.77078783581268,
+    "cree_le": "2026-10-09T12:22+00:00",
+    "liberation": 97.1731850399683,
     "reserve_pct": null,
-    "score": 90.48233989777921,
+    "score": 89.9423375370931,
     "ordres": [
       {
-        "ticker": "EFC",
+        "ticker": "ALSN",
         "side": "buy",
-        "quantity": 14.0,
-        "price": 10.340770559700905,
+        "quantity": 1.0,
+        "price": 96.1731850399683,
         "reason": "opportunité radar (score 90)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "EFC",
-      "nom": "Ellington Financial, Inc.",
-      "isin": "EFC",
+      "ticker": "ALSN",
+      "nom": "Allison Transmission",
+      "isin": "ALSN",
       "type": "action",
-      "prix": 11.585000038146973,
-      "score": 90.48233989777921,
-      "baisse": 0.1376185834053656,
-      "perf_5ans": 0.16753204963707535,
+      "prix": 107.74500274658203,
+      "score": 89.9423375370931,
+      "baisse": 0.20400083013615178,
+      "perf_5ans": 2.2362163476400525,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.26512107188247064,
-      "pos_12m": 0.6997518610421837,
-      "n_12m": 403,
-      "base_moy_12m": 0.09982217543908257,
-      "pire_12m": -0.15836352347160176,
-      "vs_marche_3m": -0.14107904708011232,
+      "moy_12m": 0.18356179327882102,
+      "pos_12m": 0.7565217391304347,
+      "n_12m": 575,
+      "base_moy_12m": 0.1802866965367471,
+      "pire_12m": -0.3884732838012618,
+      "vs_marche_3m": -0.07330594908167498,
       "devise": "USD",
-      "prix_eur": 10.340770559700905,
+      "prix_eur": 96.1731850399683,
       "fondamental": 76.0,
       "fondamental_notes": [
-        "chiffre d'affaires +33.8% sur un an",
-        "bénéfices -3.3% sur un an",
-        "bénéfices attendus +23% sur 12 mois",
-        "analystes : « achat » (2.0/5, 7 avis)",
-        "objectif moyen des analystes : +28%",
-        "P/E attendu 5.9 (actuel 7.2)",
-        "marge nette 52%",
-        "dette / capitaux propres 929 %"
+        "chiffre d'affaires +92.4% sur un an",
+        "bénéfices -6.1% sur un an",
+        "bénéfices attendus +79% sur 12 mois",
+        "analystes : « achat » (2.3/5, 11 avis)",
+        "objectif moyen des analystes : +31%",
+        "P/E attendu 9.5 (actuel 17.1)",
+        "marge nette 12%",
+        "dette / capitaux propres 212 %"
       ],
-      "score_global": 81.8,
+      "score_global": 81.6,
       "braderie": false
     },
     "actualites": {
       "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -14% vs marché)",
-      "vs_marche_3m": -0.14107904708011232,
+      "resume": "rien d'alarmant dans l'actualité (3 mois : -7% vs marché)",
+      "vs_marche_3m": -0.07330594908167498,
       "alertes": [],
       "recents": [
         {
-          "titre": "Ellington Financial Inc. annonce un dividende mensuel ordinaire, payable le 30 novembre 2026 - Zonebourse",
-          "lien": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPLTVKYjNnOHYzb3ZxYTBYRHBXVXpiaE8zeFZsNGtGd3RzWWZKN1F5eENfWXdzQk9LYUN6eVRUYzNhU20zbkViWlNVUHI5c19CQnBKbGUxVzktRy1qbE4yanZwUVJKZnVNSWx0ajBnWjFnYm9YUlZaSEVFbDRILUtXXy1GRG1wZVZoN0RhRFJvMUtuUHdyVGtQQ2Y5WlBkQUZubndLY2Fldm15SU10RXFEVUtUd0NDcHhaamh4YXFCM3JHRFBMaFQwWHZFcDNDdXpiRFNSMmFrVWdKRDF1SlhrM01RUHJnZw?oc=5",
-          "date": "2026-10-07",
-          "source": "Zonebourse",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Avis d'analystes US : Allstate, Caribou Biosciences, Zscaler - Boursorama",
-          "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVWRSeWQtRkpyWi1jNUNGOWdpemFYVnBPdWVRcFRPSER4cVJILTJPV2g5ZFc4YWd1RmRaSGFodGxMb3NHU1RNUU1janRtLS1yVndOSGUtNmFMSDhIaE41ZTBUejhMZWVkclBwZktMbDNzT3hUcUJlcEJwcXZHZWk5T3dydEdaZFhZNk01OXdKRC1WQkxUUTJyRFVrQ3M5QW9wNmNpOGxHMy1kMnRNU0FBcVZPQy1XYmtTZlYteUxSSEliSl9pSG84eUF0bmttVXNjdm1NWtIB1AFBVV95cUxOVWRSeWQtRkpyWi1jNUNGOWdpemFYVnBPdWVRcFRPSER4cVJILTJPV2g5ZFc4YWd1RmRaSGFodGxMb3NHU1RNUU1janRtLS1yVndOSGUtNmFMSDhIaE41ZTBUejhMZWVkclBwZktMbDNzT3hUcUJlcEJwcXZHZWk5T3dydEdaZFhZNk01OXdKRC1WQkxUUTJyRFVrQ3M5QW9wNmNpOGxHMy1kMnRNU0FBcVZPQy1XYmtTZlYteUxSSEliSl9pSG84eUF0bmttVXNjdm1NWg?oc=5",
-          "date": "2026-10-07",
+          "titre": "TOUR D'HORIZON DE LA RECHERCHE AUX ÉTATS-UNIS-BlackRock, Evercore, Goldman Sachs - Boursorama",
+          "lien": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxONW9WZ3hpMUlzUDRESW1ZWFdsdlZFa3RfaUx4bGpfVkEwS1Awd25jemJtRVRuOVlJUWpER0lvQlNQeXZuRFJMc19PNkc1dHpLSjJibUVuckNNQmc1bVd5NEZ6cThwWE80c1NYQUxSVWVLRncxdi1HOVhtTWlyQ3Y1U21SaUpBcFlJSGJTaURlRXRLZ2dpZndnNEswLWZGdVlraFJBWXVvU1N5VGlObTYzR0t4TnBXaGVBUDV6RHRjOEw5cTJHVnRqNS0zSEVJWXZ4S1VkQnJTLVZUQkJWR2ZqQ1Jzb1JuZmljWGV4LXRSS1c0d9IB8gFBVV95cUxONW9WZ3hpMUlzUDRESW1ZWFdsdlZFa3RfaUx4bGpfVkEwS1Awd25jemJtRVRuOVlJUWpER0lvQlNQeXZuRFJMc19PNkc1dHpLSjJibUVuckNNQmc1bVd5NEZ6cThwWE80c1NYQUxSVWVLRncxdi1HOVhtTWlyQ3Y1U21SaUpBcFlJSGJTaURlRXRLZ2dpZndnNEswLWZGdVlraFJBWXVvU1N5VGlObTYzR0t4TnBXaGVBUDV6RHRjOEw5cTJHVnRqNS0zSEVJWXZ4S1VkQnJTLVZUQkJWR2ZqQ1Jzb1JuZmljWGV4LXRSS1c0dw?oc=5",
+          "date": "2026-10-08",
           "source": "Boursorama",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Ellington Financial Inc. (EFC) stock price, news, quote and history - Yahoo Finance Australia",
-          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB5OFBQcjd5b2hxdEFsZ054RExnaXR3MGFRUEJMOW52YVU0T1NVZ1VPc0Z4RWE5X1NqM2lGc1Z3TUJJMTg0bkJRRmQ4QWhlaUFl?oc=5",
-          "date": "2026-10-07",
-          "source": "Yahoo Finance Australia",
+          "titre": "Terex, ESAB, Allison Transmission, Rocket Lab, and Bloom Energy Stocks Trade Down, What You Need To Know - TradingView",
+          "lien": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNWWdKbnFCY3RsNWh6c0pqeWRlbW5wTldlUGxoZEhrOGhaT25vN1dITlNFMzktNS1mcElwV2hFY2F3V2lmelRXRWNNMzdITXctRlJQTGZSOFpKZlUxUWlSeUxuZE95X2FBM0Y0RVc1X2ZCVXR0QlBWMkhDY2FnNjFKeGJyTms4aW5ma2ptMkIxUUhMR0lQaXZQUUp6bzRJV0dyWmVnSF9PUnRYOEpSRGItWTFBQmxHanZZalJDZ09oUHhUclBHMV84NGJpWjY1Nk1vcGw1M2ItMmNkYXVvNkNqNDNPbWZ4YnJoOGt3UlJrUk5NUQ?oc=5",
+          "date": "2026-10-08",
+          "source": "TradingView",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Ellington Financial Inc. Declares Monthly Common Dividend, Payable on November 30, 2026 - www.marketscreener.com",
-          "lien": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSUVaWXdaUElpZ2ZiLUt3a2diVlFmRDlicng2bjVLUW1FOEpxejU2bUhrMGRVcEczZjh0aVNpaGJrV2UwanIzMFhpT2F0VDI3VUdNdnhuV1lvbGRaZXF4bDVSb0lmbVhHVldIeks5SDZEWEFmczhqQ002X0h6Rm1GNmd0eTRfWF9ILUplMWZPZGJIUURfSWdCajR6SkhlNjd1QnRXWDJqbVNlOXR1dmU4TjRoNEhkOEpKZkRONkUxcnVOU0ljMjhLZVlQLTQ0SVRtWTVJ?oc=5",
-          "date": "2026-10-07",
-          "source": "www.marketscreener.com",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Ellington Financial Inc. (NYSE:EFC) Shareholders to Collect $0.13 Monthly Dividend - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWGJTcVBBeU9aemEtbVNsTmZlWW5kZWhmNDFXdV9oUXE4WG5KQmZzX0xDTzVBVmtzRGhJSUFnR1Y5eWZxUUhSaF8wNGZwdEFIbWs5NkdTWXpGblpuLWJYX1haREZxblRPSUl6Y2hIRWh3S2ZOazE3dzBuQVhOT0d3Tl85dDhUMzAzckNCdHJjcTlTUWF0YUg5NUREZTZNaUxoaUdlMHEyZkJZV2J3MDZmeF90NkY1azJNdEJfOVE4emdNM1ZILVNLd3V3bm9CbGZTVkhwSm95cw?oc=5",
-          "date": "2026-10-07",
+          "titre": "Allison Transmission (NYSE:ALSN) Price Target Cut to $142.00 by Analysts at JPMorgan Chase & Co. - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQVDlXNmYwMHgySFNKQkVwQlFDcnhVZHd5b2NicnlqT09pXzVGeE55bUlmS1doQVBjMUw2QU8wUm5YYTVKbHRfTlpWQnJfaVBfZlFoTDV4aFZaYW5RMFRsaGhmU054Q1RvQmtfYWZYV2NPZWVTR094VUtheXFxTVhCQVEzVU14OGdldVJnaXFUZmFlMmhjQ2pweFJXME9wRngwVDFfaWRjNHZiMUpVVGtNNlp1cVRpc0lqM0gzMmVCOGctVWtCNHlMVFpZTmdKaVR6bExkLUNDYWVGN09qcUJOTUMxMVgwQQ?oc=5",
+          "date": "2026-10-08",
           "source": "MarketBeat",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Zacks upgrades Allison Transmission stock to Strong Buy - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeWI2b0JHN2tsVzdLYVJzUjA0M0tEUm1SX2tEV3EtYm43RndESlVuUmFSS1M0WTJBNk9xU1BjdF9IeENlQmtBS0t4bTV5dnFfX3lBTFF5Zmk4Q2pyVkh2aldyMmFxS0FTaGRWLXpydldlMFRzUTcySVlhVXBPbVZRa19iLUctU0VId3NyMHZ0ZXlTN28wUkZ1QjI3aldINnJVZ09wZ2JBQXJxaGlBSTh3MmNBcXo?oc=5",
+          "date": "2026-10-08",
+          "source": "AD HOC NEWS",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Is Allison Transmission Holdings Inc (ALSN) a Bargain After 3.5% Drop? GF Value Says Undervalued - GuruFocus",
+          "lien": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOX1kwTEFxLTFzZ0pRS1NGcXEtMmN0NGNmZy1NcUw5ckhGc1oxMFRTbjNUb1dkbk5zSXlwNGxlR3B4UjN3M0d0SHlHTmRMR2FIaDZYeTloVFJPRkdEbm1vV2k4M2xtTWtZdnNHU0hPM3plV1NyQnpPZzliWnBFUHJ5dXJRMnNJTWhmb2pTMlNRRHVTRDEyNFRUWjR4WU1EXzlzZDdmeFZyN3RJVWRCOGc1anRCUm1YNmJJTmNJR01wY18zcjlkQ2ROdkxR?oc=5",
+          "date": "2026-10-07",
+          "source": "GuruFocus",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 70
+    "ticket": 71
   },
   "radar_proposes": [
     "MCD",
@@ -201,7 +201,8 @@
     "GJF.OL",
     "NBHC",
     "O",
-    "EFC"
+    "EFC",
+    "ALSN"
   ],
   "achats": [],
   "historique": [
@@ -7000,6 +7001,107 @@
         ]
       },
       "ticket": 69,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-09",
+      "cree_le": "2026-10-09T11:47+00:00",
+      "liberation": 145.77078783581268,
+      "reserve_pct": null,
+      "score": 90.48233989777921,
+      "ordres": [
+        {
+          "ticker": "EFC",
+          "side": "buy",
+          "quantity": 14.0,
+          "price": 10.340770559700905,
+          "reason": "opportunité radar (score 90)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "EFC",
+        "nom": "Ellington Financial, Inc.",
+        "isin": "EFC",
+        "type": "action",
+        "prix": 11.585000038146973,
+        "score": 90.48233989777921,
+        "baisse": 0.1376185834053656,
+        "perf_5ans": 0.16753204963707535,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.26512107188247064,
+        "pos_12m": 0.6997518610421837,
+        "n_12m": 403,
+        "base_moy_12m": 0.09982217543908257,
+        "pire_12m": -0.15836352347160176,
+        "vs_marche_3m": -0.14107904708011232,
+        "devise": "USD",
+        "prix_eur": 10.340770559700905,
+        "fondamental": 76.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +33.8% sur un an",
+          "bénéfices -3.3% sur un an",
+          "bénéfices attendus +23% sur 12 mois",
+          "analystes : « achat » (2.0/5, 7 avis)",
+          "objectif moyen des analystes : +28%",
+          "P/E attendu 5.9 (actuel 7.2)",
+          "marge nette 52%",
+          "dette / capitaux propres 929 %"
+        ],
+        "score_global": 81.8,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -14% vs marché)",
+        "vs_marche_3m": -0.14107904708011232,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Ellington Financial Inc. annonce un dividende mensuel ordinaire, payable le 30 novembre 2026 - Zonebourse",
+            "lien": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPLTVKYjNnOHYzb3ZxYTBYRHBXVXpiaE8zeFZsNGtGd3RzWWZKN1F5eENfWXdzQk9LYUN6eVRUYzNhU20zbkViWlNVUHI5c19CQnBKbGUxVzktRy1qbE4yanZwUVJKZnVNSWx0ajBnWjFnYm9YUlZaSEVFbDRILUtXXy1GRG1wZVZoN0RhRFJvMUtuUHdyVGtQQ2Y5WlBkQUZubndLY2Fldm15SU10RXFEVUtUd0NDcHhaamh4YXFCM3JHRFBMaFQwWHZFcDNDdXpiRFNSMmFrVWdKRDF1SlhrM01RUHJnZw?oc=5",
+            "date": "2026-10-07",
+            "source": "Zonebourse",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Avis d'analystes US : Allstate, Caribou Biosciences, Zscaler - Boursorama",
+            "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVWRSeWQtRkpyWi1jNUNGOWdpemFYVnBPdWVRcFRPSER4cVJILTJPV2g5ZFc4YWd1RmRaSGFodGxMb3NHU1RNUU1janRtLS1yVndOSGUtNmFMSDhIaE41ZTBUejhMZWVkclBwZktMbDNzT3hUcUJlcEJwcXZHZWk5T3dydEdaZFhZNk01OXdKRC1WQkxUUTJyRFVrQ3M5QW9wNmNpOGxHMy1kMnRNU0FBcVZPQy1XYmtTZlYteUxSSEliSl9pSG84eUF0bmttVXNjdm1NWtIB1AFBVV95cUxOVWRSeWQtRkpyWi1jNUNGOWdpemFYVnBPdWVRcFRPSER4cVJILTJPV2g5ZFc4YWd1RmRaSGFodGxMb3NHU1RNUU1janRtLS1yVndOSGUtNmFMSDhIaE41ZTBUejhMZWVkclBwZktMbDNzT3hUcUJlcEJwcXZHZWk5T3dydEdaZFhZNk01OXdKRC1WQkxUUTJyRFVrQ3M5QW9wNmNpOGxHMy1kMnRNU0FBcVZPQy1XYmtTZlYteUxSSEliSl9pSG84eUF0bmttVXNjdm1NWg?oc=5",
+            "date": "2026-10-07",
+            "source": "Boursorama",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Ellington Financial Inc. (EFC) stock price, news, quote and history - Yahoo Finance Australia",
+            "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB5OFBQcjd5b2hxdEFsZ054RExnaXR3MGFRUEJMOW52YVU0T1NVZ1VPc0Z4RWE5X1NqM2lGc1Z3TUJJMTg0bkJRRmQ4QWhlaUFl?oc=5",
+            "date": "2026-10-07",
+            "source": "Yahoo Finance Australia",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Ellington Financial Inc. Declares Monthly Common Dividend, Payable on November 30, 2026 - www.marketscreener.com",
+            "lien": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSUVaWXdaUElpZ2ZiLUt3a2diVlFmRDlicng2bjVLUW1FOEpxejU2bUhrMGRVcEczZjh0aVNpaGJrV2UwanIzMFhpT2F0VDI3VUdNdnhuV1lvbGRaZXF4bDVSb0lmbVhHVldIeks5SDZEWEFmczhqQ002X0h6Rm1GNmd0eTRfWF9ILUplMWZPZGJIUURfSWdCajR6SkhlNjd1QnRXWDJqbVNlOXR1dmU4TjRoNEhkOEpKZkRONkUxcnVOU0ljMjhLZVlQLTQ0SVRtWTVJ?oc=5",
+            "date": "2026-10-07",
+            "source": "www.marketscreener.com",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Ellington Financial Inc. (NYSE:EFC) Shareholders to Collect $0.13 Monthly Dividend - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWGJTcVBBeU9aemEtbVNsTmZlWW5kZWhmNDFXdV9oUXE4WG5KQmZzX0xDTzVBVmtzRGhJSUFnR1Y5eWZxUUhSaF8wNGZwdEFIbWs5NkdTWXpGblpuLWJYX1haREZxblRPSUl6Y2hIRWh3S2ZOazE3dzBuQVhOT0d3Tl85dDhUMzAzckNCdHJjcTlTUWF0YUg5NUREZTZNaUxoaUdlMHEyZkJZV2J3MDZmeF90NkY1azJNdEJfOVE4emdNM1ZILVNLd3V3bm9CbGZTVkhwSm95cw?oc=5",
+            "date": "2026-10-07",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 70,
       "decision": "sans réponse"
     }
   ]
