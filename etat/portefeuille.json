@@ -18,102 +18,101 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-09",
-    "cree_le": "2026-10-09T08:50+00:00",
-    "liberation": 105.0,
+    "cree_le": "2026-10-09T09:49+00:00",
+    "liberation": 167.7510635300387,
     "reserve_pct": null,
-    "score": 89.25322819696527,
+    "score": 91.10405263718307,
     "ordres": [
       {
-        "ticker": "KRN.DE",
+        "ticker": "LOW",
         "side": "buy",
         "quantity": 1.0,
-        "price": 104.0,
-        "reason": "opportunité radar (score 89)"
+        "price": 166.7510635300387,
+        "reason": "opportunité radar (score 91)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "KRN.DE",
-      "nom": "Krones",
-      "isin": "KRN.DE",
+      "ticker": "LOW",
+      "nom": "Lowe's",
+      "isin": "LOW",
       "type": "action",
-      "prix": 104.0,
-      "score": 89.25322819696527,
-      "baisse": 0.2521902180919492,
-      "perf_5ans": 0.2803634445136687,
+      "prix": 186.81500244140625,
+      "score": 91.10405263718307,
+      "baisse": 0.3428030835753001,
+      "perf_5ans": 0.010366918487306531,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.17235211005720893,
-      "pos_12m": 0.6934720908230843,
-      "n_12m": 1057,
-      "base_moy_12m": 0.15342094167775072,
-      "pire_12m": -0.5548767303237586,
-      "vs_marche_3m": -0.07350016179842722,
-      "devise": "EUR",
-      "prix_eur": 104.0,
-      "fondamental": 80.0,
+      "moy_12m": 0.19227322933598834,
+      "pos_12m": 0.7725190839694657,
+      "n_12m": 655,
+      "base_moy_12m": 0.14957720422303247,
+      "pire_12m": -0.39839679436824726,
+      "vs_marche_3m": -0.1318019615797139,
+      "devise": "USD",
+      "prix_eur": 166.7510635300387,
+      "fondamental": 77.5,
       "fondamental_notes": [
-        "chiffre d'affaires +1.1% sur un an",
-        "bénéfices +0.9% sur un an",
-        "bénéfices attendus +20% sur 12 mois",
-        "analystes : « achat fort » (1.7/5, 10 avis)",
-        "objectif moyen des analystes : +42%",
-        "P/E attendu 9.4 (actuel 11.3)",
-        "marge nette 5%",
-        "dette / capitaux propres 2 %"
+        "chiffre d'affaires +8.3% sur un an",
+        "bénéfices +0.0% sur un an",
+        "bénéfices attendus +10% sur 12 mois",
+        "analystes : « achat fort » (1.8/5, 33 avis)",
+        "objectif moyen des analystes : +34%",
+        "P/E attendu 14.3 (actuel 15.8)",
+        "marge nette 7%"
       ],
-      "score_global": 83.7,
+      "score_global": 82.9,
       "braderie": false
     },
     "actualites": {
       "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -7% vs marché)",
-      "vs_marche_3m": -0.07350016179842722,
+      "resume": "rien d'alarmant dans l'actualité (3 mois : -13% vs marché)",
+      "vs_marche_3m": -0.1318019615797139,
       "alertes": [],
       "recents": [
         {
-          "titre": "Krones stock gains 0.10 percent pre-market to EUR 104.90 - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNmxyclpFUjVZak96ZGtqQkJqUDVkbWxJX2hSd194eEhSZjJsekE4S0JmMmlickN5bWxJQTRYMHRzT3M1ZkpNT3FWWHc2VHIwZ2xpc21nN1J4VFpWaHB1aVhWT3AwY2ptNFVNOVBkU0oyZ1FZbUZtUTBDdFY3Z2JKSnQwSXFrYzZGeTdCV1pMLXBrcFJPUHN1UFdDSjRVQmEzUkh4WUExYkk4aGxmVnU0a2lSbEQ?oc=5",
+          "titre": "Lowe's is now delivering by drone, and it's aimed squarely at DIYers mid-project - Cleveland.com",
+          "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYlhib05hZkJMS215TEVSelMtZWNsN2pkekk1QzF5UEVBNjlxOWtsRThBa09NaldGWTFoMUR1cE9jdnpWU2tGcFFqbExSWXM5cnhWbzhXeU5Tak9NTVNTMHF0T2VmNTl1OTh0TjZ5RjZKZ0R1T0ZnaHl4bHl5SDBJUUNoRk5za1Bma3p1YmJ5T1UxSlh3WkJtblQtTEh1OXo4WkxIb2gwU09yRjlRR0lrTW53dG4xcE5ob1p5OUpDNTJDSWUzOVNHNXN6eW0?oc=5",
           "date": "2026-10-09",
-          "source": "AD HOC NEWS",
+          "source": "Cleveland.com",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Gian Luca Krones - Transfermarkt",
-          "lien": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9XSjdpOXczVnZaZ0ZTcm1VV3FmVmhmMHg0ZlVSRlJ2bjdWRUdJTTItMlU4ZWpjZ24zOXdacWdya3JWYXVGbkpyT2R1U0gxYldDeGNNbDdvWlVJc3otdDBRamNVRXVRbUNDZjVaOTJHTVhSQnhZMlpURUNnM1l4QQ?oc=5",
+          "titre": "Police investigating death in Lowe's parking lot in Hickory - WCNC",
+          "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTVlaZFNhaWpoQjdJay1Ba2VuNU9xSXpJYnhCVkItVV84QVM0VGhhWGVPTXJ3SXBVQmxScVdaS0xxZUlsXzhRb1I4UFVjNGNVMEtxR0JnemRhaFlLS01qVHotRm1kbGxnNmZ0dXpmc2dfUHJBRVZWb1B2azY3NDBfek0xdk14cmJyb29CSkx1SGtqZzN5NUE2dzRJNzRMRVllT01XSTB1N1BOQ3ZCM2RtaDdhcnN5cUEwQk1qX2pnZnlFdjc5NFpPeHhuYWVpZw?oc=5",
           "date": "2026-10-08",
-          "source": "Transfermarkt",
+          "source": "WCNC",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Krones presented Contipure D as Krones stock sits above its low - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMm1XTzdJR3VxQ0I3OTZUcWZVV0xMWFZpX25aLTl4S2xPMkN3QnE0S2FzUkhja3BtLVp1bHNZSEd4akxiTmY1RWJuTC02cW1oZG5VZVZacEVfZl84cm9hNHNLVXhUQkxva1YtRkw0TmlUM0lDaEVicjlkSXZ3QWwyTzVKZUFMVWYxZ2MxaXhGMmFmVEY4LW5wcXBIQnVaVWthNlljWHdyUThiYV9qa0ZIbmo0eWxabk5wNHJFVk13NjlZQjZ0?oc=5",
+          "titre": "Great People, Great Place to Work: Lowe’s Earns Third Consecutive Certification - Lowe’s Corporate",
+          "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMEZobDA2TTc1WWd6WDFFZTh1UVp1RU56aVN5RDBkb2hZRUpxLUwyczB3MUFic3QtNVVwZlZOZGJLa2RNcV9EUzNpbXpTRjhJMW1hdnVybVgtRFAyMmtpWklSZlN6d1dRanQyUXBTVXdyQ3FwTWxxd1l0N0dHbU9nVUN2RTg1dXVNbzhsSmF0ZmhZQ2F1UmZ2aWNncEE3NnJLUkJCc0FiSjI5MFkxTXRLbXJRRFNkYjRzaWc?oc=5",
           "date": "2026-10-08",
-          "source": "AD HOC NEWS",
+          "source": "Lowe’s Corporate",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Krones stock pre-market at EUR 104.50 - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd2tuT3JnVld0ZnZiNHExMnEtSmpZTGROWHdtRDVZOHdFUlVRblliNl9jX25HRlREaHN5M3I0S3FYNzRCelQ1S3hHb3lzS1lOang1ZndRTFgtWkItWnFOT0U0WjNsQlVwUnVwdlBEeEZ4elo4d0JzSGRDRXd5SHNpcEdXTE5IREZUQ1FXTk9VQndrdnhCbVh6Sm0zUQ?oc=5",
+          "titre": "Person found dead in Lowe’s parking lot - WSOC TV",
+          "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV1J3eWZDUG9HTWNMN1hNYkpkQ01xR1NMVDJOMlNFc2EzWWlRdU50UzdpMGpTcVlXUVJXbVIxU0FKNlhVQ2xtYWNEVWZqQW1HdjhqanBXRkxmbzk0VEdHeXJiYV9USlBhY1plamZNeVozVEhjTWFVQWtsUVJMWUp2NXBmbzVUYXBhY2dtYlRoVkhSVS1Ddm9FZmZpekR5d9IBsgFBVV95cUxNVThaTmh3RWVwU2dYWjhNWDNsbGpBblRaaXZtODlsRFBRZ09mcW1rY1JOSjh4bU9pYWhPSU81N3VPa0s4dnlITWc5ZzA2T3BLZkRUZ0tPdFdEdTFTamxRbnFiS1EwSWNvNm1hY0RmS294R2xjdzFHNXdZSXVZb1d3YlNjbENOTzVPYzhYcTRGenl5SkNFNlZ3R28yRVZfeHFsNW8tOUxLUGFiU09XZ2NkalRR?oc=5",
           "date": "2026-10-08",
-          "source": "AD HOC NEWS",
+          "source": "WSOC TV",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Krones stock at EUR 104.20, 27.7 percent below its 52-week high - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPM2s4REowazRzYmxJVW5KVGY3Yy01UnpKU09MUTk2aXJNTm9NZnRNRlp6bG0wVEF5MmlINlptbFZzc3o5YjRMU2licXUxckJ4S0NWWElER2NIeGtUM2FSaDdxaTBRN1QzMlIxTmx1c2tVLThEcUN4UEUteDk1TjdQWFNCT3Rxc213UFhYVGNvYUVzTGVqSUphcDk2M04xekJtTVNnM0ZOQXp2eU1ERmM1Znp3WG03LUFyWU9GSE9TQmc4R1k?oc=5",
+          "titre": "Lowe's: Patience Can Be Rewarded With Environment Unlikely To Worsen (Upgrade) (NYSE:LOW) - Seeking Alpha",
+          "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNmZBSVJkYm1fbV9QQnNtNzNLVlhoR2hhLWktdUhhZ2gyQUdSZFp2ZExYWkNmVGZrdHAySFFmakw5bWQ1eGhTZmpTMWdHdTlRV21hZE05MHZuU2E3SjZ5RTFNLTU5UHJyVjQ0TzlUWC1tTGpPZHQ2TGJxZVc2YWZoaWdKTVI4M0NsV1ZaU21xcTg0RlVkUmloNk1fMU9Sb2pnVm1zVHNXcGUtSGtnVUhpYTdwck5vZw?oc=5",
           "date": "2026-10-08",
-          "source": "AD HOC NEWS",
+          "source": "Seeking Alpha",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 66
+    "ticket": 67
   },
   "radar_proposes": [
     "MCD",
@@ -194,7 +193,9 @@
     "MWA",
     "SRE",
     "RBA.TO",
-    "KRN.DE"
+    "KRN.DE",
+    "JEF",
+    "LOW"
   ],
   "achats": [],
   "historique": [
@@ -6591,6 +6592,107 @@
         ]
       },
       "ticket": 65,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-09",
+      "cree_le": "2026-10-09T08:50+00:00",
+      "liberation": 105.0,
+      "reserve_pct": null,
+      "score": 89.25322819696527,
+      "ordres": [
+        {
+          "ticker": "KRN.DE",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 104.0,
+          "reason": "opportunité radar (score 89)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "KRN.DE",
+        "nom": "Krones",
+        "isin": "KRN.DE",
+        "type": "action",
+        "prix": 104.0,
+        "score": 89.25322819696527,
+        "baisse": 0.2521902180919492,
+        "perf_5ans": 0.2803634445136687,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.17235211005720893,
+        "pos_12m": 0.6934720908230843,
+        "n_12m": 1057,
+        "base_moy_12m": 0.15342094167775072,
+        "pire_12m": -0.5548767303237586,
+        "vs_marche_3m": -0.07350016179842722,
+        "devise": "EUR",
+        "prix_eur": 104.0,
+        "fondamental": 80.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +1.1% sur un an",
+          "bénéfices +0.9% sur un an",
+          "bénéfices attendus +20% sur 12 mois",
+          "analystes : « achat fort » (1.7/5, 10 avis)",
+          "objectif moyen des analystes : +42%",
+          "P/E attendu 9.4 (actuel 11.3)",
+          "marge nette 5%",
+          "dette / capitaux propres 2 %"
+        ],
+        "score_global": 83.7,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -7% vs marché)",
+        "vs_marche_3m": -0.07350016179842722,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Krones stock gains 0.10 percent pre-market to EUR 104.90 - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNmxyclpFUjVZak96ZGtqQkJqUDVkbWxJX2hSd194eEhSZjJsekE4S0JmMmlickN5bWxJQTRYMHRzT3M1ZkpNT3FWWHc2VHIwZ2xpc21nN1J4VFpWaHB1aVhWT3AwY2ptNFVNOVBkU0oyZ1FZbUZtUTBDdFY3Z2JKSnQwSXFrYzZGeTdCV1pMLXBrcFJPUHN1UFdDSjRVQmEzUkh4WUExYkk4aGxmVnU0a2lSbEQ?oc=5",
+            "date": "2026-10-09",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Gian Luca Krones - Transfermarkt",
+            "lien": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9XSjdpOXczVnZaZ0ZTcm1VV3FmVmhmMHg0ZlVSRlJ2bjdWRUdJTTItMlU4ZWpjZ24zOXdacWdya3JWYXVGbkpyT2R1U0gxYldDeGNNbDdvWlVJc3otdDBRamNVRXVRbUNDZjVaOTJHTVhSQnhZMlpURUNnM1l4QQ?oc=5",
+            "date": "2026-10-08",
+            "source": "Transfermarkt",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Krones presented Contipure D as Krones stock sits above its low - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMm1XTzdJR3VxQ0I3OTZUcWZVV0xMWFZpX25aLTl4S2xPMkN3QnE0S2FzUkhja3BtLVp1bHNZSEd4akxiTmY1RWJuTC02cW1oZG5VZVZacEVfZl84cm9hNHNLVXhUQkxva1YtRkw0TmlUM0lDaEVicjlkSXZ3QWwyTzVKZUFMVWYxZ2MxaXhGMmFmVEY4LW5wcXBIQnVaVWthNlljWHdyUThiYV9qa0ZIbmo0eWxabk5wNHJFVk13NjlZQjZ0?oc=5",
+            "date": "2026-10-08",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Krones stock pre-market at EUR 104.50 - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd2tuT3JnVld0ZnZiNHExMnEtSmpZTGROWHdtRDVZOHdFUlVRblliNl9jX25HRlREaHN5M3I0S3FYNzRCelQ1S3hHb3lzS1lOang1ZndRTFgtWkItWnFOT0U0WjNsQlVwUnVwdlBEeEZ4elo4d0JzSGRDRXd5SHNpcEdXTE5IREZUQ1FXTk9VQndrdnhCbVh6Sm0zUQ?oc=5",
+            "date": "2026-10-08",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Krones stock at EUR 104.20, 27.7 percent below its 52-week high - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPM2s4REowazRzYmxJVW5KVGY3Yy01UnpKU09MUTk2aXJNTm9NZnRNRlp6bG0wVEF5MmlINlptbFZzc3o5YjRMU2licXUxckJ4S0NWWElER2NIeGtUM2FSaDdxaTBRN1QzMlIxTmx1c2tVLThEcUN4UEUteDk1TjdQWFNCT3Rxc213UFhYVGNvYUVzTGVqSUphcDk2M04xekJtTVNnM0ZOQXp2eU1ERmM1Znp3WG03LUFyWU9GSE9TQmc4R1k?oc=5",
+            "date": "2026-10-08",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 66,
       "decision": "sans réponse"
     }
   ]
