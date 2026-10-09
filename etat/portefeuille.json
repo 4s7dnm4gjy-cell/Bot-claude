@@ -18,102 +18,123 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-09",
-    "cree_le": "2026-10-09T12:22+00:00",
-    "liberation": 97.1731850399683,
+    "cree_le": "2026-10-09T12:54+00:00",
+    "liberation": 138.29079752303375,
     "reserve_pct": null,
-    "score": 89.9423375370931,
+    "score": 92.8951171660649,
     "ordres": [
       {
-        "ticker": "ALSN",
+        "ticker": "NEE",
         "side": "buy",
-        "quantity": 1.0,
-        "price": 96.1731850399683,
-        "reason": "opportunité radar (score 90)"
+        "quantity": 2.0,
+        "price": 68.64539876151687,
+        "reason": "opportunité radar (score 93)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "ALSN",
-      "nom": "Allison Transmission",
-      "isin": "ALSN",
+      "ticker": "NEE",
+      "nom": "NextEra Energy",
+      "isin": "NEE",
       "type": "action",
-      "prix": 107.74500274658203,
-      "score": 89.9423375370931,
-      "baisse": 0.20400083013615178,
-      "perf_5ans": 2.2362163476400525,
+      "prix": 76.90499877929688,
+      "score": 92.8951171660649,
+      "baisse": 0.202586381138239,
+      "perf_5ans": 0.11053746107232643,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.18356179327882102,
-      "pos_12m": 0.7565217391304347,
-      "n_12m": 575,
-      "base_moy_12m": 0.1802866965367471,
-      "pire_12m": -0.3884732838012618,
-      "vs_marche_3m": -0.07330594908167498,
+      "moy_12m": 0.18682330973357206,
+      "pos_12m": 0.8141695702671312,
+      "n_12m": 861,
+      "base_moy_12m": 0.15990982253905273,
+      "pire_12m": -0.36086518533058787,
+      "vs_marche_3m": -0.1392584523270698,
       "devise": "USD",
-      "prix_eur": 96.1731850399683,
-      "fondamental": 76.0,
+      "prix_eur": 68.64539876151687,
+      "fondamental": 73.0,
       "fondamental_notes": [
-        "chiffre d'affaires +92.4% sur un an",
-        "bénéfices -6.1% sur un an",
-        "bénéfices attendus +79% sur 12 mois",
-        "analystes : « achat » (2.3/5, 11 avis)",
-        "objectif moyen des analystes : +31%",
-        "P/E attendu 9.5 (actuel 17.1)",
-        "marge nette 12%",
-        "dette / capitaux propres 212 %"
+        "chiffre d'affaires +12.4% sur un an",
+        "bénéfices +53.1% sur un an",
+        "bénéfices attendus -1% sur 12 mois",
+        "analystes : « achat » (1.9/5, 19 avis)",
+        "objectif moyen des analystes : +26%",
+        "P/E attendu 17.6 (actuel 17.3)",
+        "marge nette 32%",
+        "dette / capitaux propres 162 %"
       ],
-      "score_global": 81.6,
+      "score_global": 81.0,
       "braderie": false
     },
     "actualites": {
       "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -7% vs marché)",
-      "vs_marche_3m": -0.07330594908167498,
-      "alertes": [],
+      "resume": "rien d'alarmant dans l'actualité (2 article(s) mineur(s), courant pour une grande entreprise) (3 mois : -14% vs marché)",
+      "vs_marche_3m": -0.1392584523270698,
+      "alertes": [
+        {
+          "titre": "Virginia hearing examiner tells Dominion to release memo on FPL investigation - Utility Dive",
+          "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQM1FWUklLLUNkOWlSQmtvQjQ5cW00WUFtVmtwR2pCSENEVno1Y3Nnb3dLRU1wY3ZvWWp4VXlSdU1QVkI1bUppNzl1RFY3OTF2VWh1WGJsT2dwTWliVC1zYlJUMmtxVldpT2lVRS00cy1EaUtnY3NFakVUR1JkaWpaZnBFY0xTS3k4SVFrQkVpMmZ1Z3ctTklnS09LQzhRNDBjNm1oMGtUN2hnZG5uYkhuazJyNlNOQ3M?oc=5",
+          "date": "2026-10-06",
+          "source": "Utility Dive",
+          "gravite": 1,
+          "mots": [
+            "investigation"
+          ]
+        },
+        {
+          "titre": "NextEra Energy settles shareholder lawsuit with $15.5M payment and governance reforms. - Pluang",
+          "lien": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORkFjMXQxNTVMb21XRXJSTnRZWkRuRi1VaEpZRmYtelpXSENaQU9jd3l6b0lPTFJuT3VzUFRjTXlXWDloS0hIczVrWEdEWVJoODBaRGxHTFVSY3JHZDdMcExIUnVUZlRaNUw0djAzMWFORU1Kei1EMWN3QXRBTVRZM3U5TkN4ZDhsalJnTEVUNFRzN29Yb2c?oc=5",
+          "date": "2026-10-06",
+          "source": "Pluang",
+          "gravite": 1,
+          "mots": [
+            "lawsuit"
+          ]
+        }
+      ],
       "recents": [
         {
-          "titre": "TOUR D'HORIZON DE LA RECHERCHE AUX ÉTATS-UNIS-BlackRock, Evercore, Goldman Sachs - Boursorama",
-          "lien": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxONW9WZ3hpMUlzUDRESW1ZWFdsdlZFa3RfaUx4bGpfVkEwS1Awd25jemJtRVRuOVlJUWpER0lvQlNQeXZuRFJMc19PNkc1dHpLSjJibUVuckNNQmc1bVd5NEZ6cThwWE80c1NYQUxSVWVLRncxdi1HOVhtTWlyQ3Y1U21SaUpBcFlJSGJTaURlRXRLZ2dpZndnNEswLWZGdVlraFJBWXVvU1N5VGlObTYzR0t4TnBXaGVBUDV6RHRjOEw5cTJHVnRqNS0zSEVJWXZ4S1VkQnJTLVZUQkJWR2ZqQ1Jzb1JuZmljWGV4LXRSS1c0d9IB8gFBVV95cUxONW9WZ3hpMUlzUDRESW1ZWFdsdlZFa3RfaUx4bGpfVkEwS1Awd25jemJtRVRuOVlJUWpER0lvQlNQeXZuRFJMc19PNkc1dHpLSjJibUVuckNNQmc1bVd5NEZ6cThwWE80c1NYQUxSVWVLRncxdi1HOVhtTWlyQ3Y1U21SaUpBcFlJSGJTaURlRXRLZ2dpZndnNEswLWZGdVlraFJBWXVvU1N5VGlObTYzR0t4TnBXaGVBUDV6RHRjOEw5cTJHVnRqNS0zSEVJWXZ4S1VkQnJTLVZUQkJWR2ZqQ1Jzb1JuZmljWGV4LXRSS1c0dw?oc=5",
-          "date": "2026-10-08",
-          "source": "Boursorama",
+          "titre": "NextEra Energy (NEE) Stock May Be Above Fair Value Following Merger Scrutiny - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQb1I5a3FNVEVlSlhLMjJZLVZhRDQ5R2g1b2djRDlMRVYwbk1DQUk0d3F2WUptNloxMTA1SVBTZUp4cms4UVByazc1UkxrVmUtWFNmenlhbm5HX0NOWW9iVThoaVdoR1FsLXZSZk5CMzZ4ZUxwdDJlV3hnQ0FITzM0Wko4VWx6aXhsLTdpSmhtTW9qZXVKVW5BQQ?oc=5",
+          "date": "2026-10-09",
+          "source": "Yahoo Finance",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Terex, ESAB, Allison Transmission, Rocket Lab, and Bloom Energy Stocks Trade Down, What You Need To Know - TradingView",
-          "lien": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNWWdKbnFCY3RsNWh6c0pqeWRlbW5wTldlUGxoZEhrOGhaT25vN1dITlNFMzktNS1mcElwV2hFY2F3V2lmelRXRWNNMzdITXctRlJQTGZSOFpKZlUxUWlSeUxuZE95X2FBM0Y0RVc1X2ZCVXR0QlBWMkhDY2FnNjFKeGJyTms4aW5ma2ptMkIxUUhMR0lQaXZQUUp6bzRJV0dyWmVnSF9PUnRYOEpSRGItWTFBQmxHanZZalJDZ09oUHhUclBHMV84NGJpWjY1Nk1vcGw1M2ItMmNkYXVvNkNqNDNPbWZ4YnJoOGt3UlJrUk5NUQ?oc=5",
+          "titre": "Jefferies abaisse l’objectif de cours de NextEra Energy face à l’incertitude réglementaire - Investing.com France",
+          "lien": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOMHdELWVPWG1NeS1iczlIOUdHc2ZCNEdQR012a3l3empza0tWWkxXS1paU1N2aUNhZUhFN09Bd2Y3cnduNXFSUUZxOFFuYXVhb1ZqRmY1N1RJX1RnVDZuX3pTREJyR3cxU2FNSHByY2xVd0k1TFNlcTFIbEVYSVYzak5JMUVsQ2dNMHozV0UxQ3FBTVlhbS14YnJTYU1SWm5qa3VXT0NGVVplSkJTX3d4dE1wbV9wdVRqZGFRTGRkQW12YWVUTjZGSkFsYXdla09YLVBpTUVkejlkYjRjb0FnUA?oc=5",
           "date": "2026-10-08",
-          "source": "TradingView",
+          "source": "Investing.com France",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Allison Transmission (NYSE:ALSN) Price Target Cut to $142.00 by Analysts at JPMorgan Chase & Co. - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQVDlXNmYwMHgySFNKQkVwQlFDcnhVZHd5b2NicnlqT09pXzVGeE55bUlmS1doQVBjMUw2QU8wUm5YYTVKbHRfTlpWQnJfaVBfZlFoTDV4aFZaYW5RMFRsaGhmU054Q1RvQmtfYWZYV2NPZWVTR094VUtheXFxTVhCQVEzVU14OGdldVJnaXFUZmFlMmhjQ2pweFJXME9wRngwVDFfaWRjNHZiMUpVVGtNNlp1cVRpc0lqM0gzMmVCOGctVWtCNHlMVFpZTmdKaVR6bExkLUNDYWVGN09qcUJOTUMxMVgwQQ?oc=5",
+          "titre": "NextEra Energy (NEE) Faces Governance Reforms, Is The Stock Cheap Or Fully Valued? - Simply Wall Street",
+          "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRkFwY1VRU2x2X2NFWmlzWUpWV0R1NUJWb3pQaTYzMkYzTS1kTC1WMS1YQmJmeTBoTTM3N2pDSUFqa3JXMHh0aF9zMTVNUHFuZ2E4bFQ0SDhSZkJKcjJVOVRYQ3c0WnpiTWtPSjdpeS14emdZeTVwR011LUxtLWp2eGFGc2hlWUJGN1hjT2xjQllERGFpNWpsZ2tSU1RuS2RuRFRQaVhOdVRHOXZPMmRUMFNRTEJLWk9kbGN1anlraWJ4YTRLbzRDS1ZLQdIB0AFBVV95cUxNS04xNGIzeFhnUERERTlqVTctaEl1S1JZYUhQZXdyXzhBVmdZUVlDRGJnY2ZmQW5JRjZhVENXbVl0Q1NLaFI1eE56R25Sc1NMZHBwVF9VOEQ2cml0UjBQMHdodDFPcDdESFh4eDdCcjdGd25BSTd1MERraVQ2WTQ1U2szSkhDZ1FhejhBSDJZV211dUUzZEpHQ0VQX05mTVNqZUh0UkMtMXNzNFBKd3ItZlF6M1cxaDQ0bjJHV1d6dlZmckJiYnJfd3RfWUUzNG1P?oc=5",
           "date": "2026-10-08",
-          "source": "MarketBeat",
+          "source": "Simply Wall Street",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Zacks upgrades Allison Transmission stock to Strong Buy - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeWI2b0JHN2tsVzdLYVJzUjA0M0tEUm1SX2tEV3EtYm43RndESlVuUmFSS1M0WTJBNk9xU1BjdF9IeENlQmtBS0t4bTV5dnFfX3lBTFF5Zmk4Q2pyVkh2aldyMmFxS0FTaGRWLXpydldlMFRzUTcySVlhVXBPbVZRa19iLUctU0VId3NyMHZ0ZXlTN28wUkZ1QjI3aldINnJVZ09wZ2JBQXJxaGlBSTh3MmNBcXo?oc=5",
+          "titre": "Jefferies lowers NextEra Energy stock price target on regulatory uncertainty - Investing.com",
+          "lien": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOck9vMW1sLU9FY0FNUUZHTzk0TEQ0LWhPekJQTUwwVExJTy1PVGNOVGF1YzQ4S2JvVlZzTGY5eUd6akxIOVNad0xJaWFfQ1I1elc1XzQxeEJXME9aaXZTcHNBck5zOWxPYWlaVFl0M0ZkMnEyR2FRZm1BYnFYMFRLc1pOaXVDM3F4QUkxSFpITFpDZEtjSmEyampoWkk4TnR2ZDJiVk94TGJwZ3k1RHZfdkFoRmowazFLak81OXR5algzSmNFbmFpazNGN2JDc1dnWXc?oc=5",
           "date": "2026-10-08",
-          "source": "AD HOC NEWS",
+          "source": "Investing.com",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Is Allison Transmission Holdings Inc (ALSN) a Bargain After 3.5% Drop? GF Value Says Undervalued - GuruFocus",
-          "lien": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOX1kwTEFxLTFzZ0pRS1NGcXEtMmN0NGNmZy1NcUw5ckhGc1oxMFRTbjNUb1dkbk5zSXlwNGxlR3B4UjN3M0d0SHlHTmRMR2FIaDZYeTloVFJPRkdEbm1vV2k4M2xtTWtZdnNHU0hPM3plV1NyQnpPZzliWnBFUHJ5dXJRMnNJTWhmb2pTMlNRRHVTRDEyNFRUWjR4WU1EXzlzZDdmeFZyN3RJVWRCOGc1anRCUm1YNmJJTmNJR01wY18zcjlkQ2ROdkxR?oc=5",
-          "date": "2026-10-07",
-          "source": "GuruFocus",
+          "titre": "Valley Farms Energy Center Supports Emergency Preparedness in Coolidge - SRP Newsroom",
+          "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR2xaRVdMQWNfNzljM0Y2bTdGUE5XUTRyekt1QV9qSFBjV2VmR3dzeWxPNXNpZ2tZb2NpQ3N6LV92ZFpSb0h4azhVZlB4ajVLNzdDSGZnX2stMXJVSFVzQUxnMWJSaWhaaDE0UjlINDRzTkMxLUNHalJnbk9OMTJKME5qMk14T1h6UEtPRFVnd0hXMnJRR2QwUlVka2g?oc=5",
+          "date": "2026-10-08",
+          "source": "SRP Newsroom",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 71
+    "ticket": 72
   },
   "radar_proposes": [
     "MCD",
@@ -202,7 +223,8 @@
     "NBHC",
     "O",
     "EFC",
-    "ALSN"
+    "ALSN",
+    "NEE"
   ],
   "achats": [],
   "historique": [
@@ -7102,6 +7124,107 @@
         ]
       },
       "ticket": 70,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-09",
+      "cree_le": "2026-10-09T12:22+00:00",
+      "liberation": 97.1731850399683,
+      "reserve_pct": null,
+      "score": 89.9423375370931,
+      "ordres": [
+        {
+          "ticker": "ALSN",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 96.1731850399683,
+          "reason": "opportunité radar (score 90)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "ALSN",
+        "nom": "Allison Transmission",
+        "isin": "ALSN",
+        "type": "action",
+        "prix": 107.74500274658203,
+        "score": 89.9423375370931,
+        "baisse": 0.20400083013615178,
+        "perf_5ans": 2.2362163476400525,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.18356179327882102,
+        "pos_12m": 0.7565217391304347,
+        "n_12m": 575,
+        "base_moy_12m": 0.1802866965367471,
+        "pire_12m": -0.3884732838012618,
+        "vs_marche_3m": -0.07330594908167498,
+        "devise": "USD",
+        "prix_eur": 96.1731850399683,
+        "fondamental": 76.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +92.4% sur un an",
+          "bénéfices -6.1% sur un an",
+          "bénéfices attendus +79% sur 12 mois",
+          "analystes : « achat » (2.3/5, 11 avis)",
+          "objectif moyen des analystes : +31%",
+          "P/E attendu 9.5 (actuel 17.1)",
+          "marge nette 12%",
+          "dette / capitaux propres 212 %"
+        ],
+        "score_global": 81.6,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -7% vs marché)",
+        "vs_marche_3m": -0.07330594908167498,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "TOUR D'HORIZON DE LA RECHERCHE AUX ÉTATS-UNIS-BlackRock, Evercore, Goldman Sachs - Boursorama",
+            "lien": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxONW9WZ3hpMUlzUDRESW1ZWFdsdlZFa3RfaUx4bGpfVkEwS1Awd25jemJtRVRuOVlJUWpER0lvQlNQeXZuRFJMc19PNkc1dHpLSjJibUVuckNNQmc1bVd5NEZ6cThwWE80c1NYQUxSVWVLRncxdi1HOVhtTWlyQ3Y1U21SaUpBcFlJSGJTaURlRXRLZ2dpZndnNEswLWZGdVlraFJBWXVvU1N5VGlObTYzR0t4TnBXaGVBUDV6RHRjOEw5cTJHVnRqNS0zSEVJWXZ4S1VkQnJTLVZUQkJWR2ZqQ1Jzb1JuZmljWGV4LXRSS1c0d9IB8gFBVV95cUxONW9WZ3hpMUlzUDRESW1ZWFdsdlZFa3RfaUx4bGpfVkEwS1Awd25jemJtRVRuOVlJUWpER0lvQlNQeXZuRFJMc19PNkc1dHpLSjJibUVuckNNQmc1bVd5NEZ6cThwWE80c1NYQUxSVWVLRncxdi1HOVhtTWlyQ3Y1U21SaUpBcFlJSGJTaURlRXRLZ2dpZndnNEswLWZGdVlraFJBWXVvU1N5VGlObTYzR0t4TnBXaGVBUDV6RHRjOEw5cTJHVnRqNS0zSEVJWXZ4S1VkQnJTLVZUQkJWR2ZqQ1Jzb1JuZmljWGV4LXRSS1c0dw?oc=5",
+            "date": "2026-10-08",
+            "source": "Boursorama",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Terex, ESAB, Allison Transmission, Rocket Lab, and Bloom Energy Stocks Trade Down, What You Need To Know - TradingView",
+            "lien": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNWWdKbnFCY3RsNWh6c0pqeWRlbW5wTldlUGxoZEhrOGhaT25vN1dITlNFMzktNS1mcElwV2hFY2F3V2lmelRXRWNNMzdITXctRlJQTGZSOFpKZlUxUWlSeUxuZE95X2FBM0Y0RVc1X2ZCVXR0QlBWMkhDY2FnNjFKeGJyTms4aW5ma2ptMkIxUUhMR0lQaXZQUUp6bzRJV0dyWmVnSF9PUnRYOEpSRGItWTFBQmxHanZZalJDZ09oUHhUclBHMV84NGJpWjY1Nk1vcGw1M2ItMmNkYXVvNkNqNDNPbWZ4YnJoOGt3UlJrUk5NUQ?oc=5",
+            "date": "2026-10-08",
+            "source": "TradingView",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Allison Transmission (NYSE:ALSN) Price Target Cut to $142.00 by Analysts at JPMorgan Chase & Co. - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQVDlXNmYwMHgySFNKQkVwQlFDcnhVZHd5b2NicnlqT09pXzVGeE55bUlmS1doQVBjMUw2QU8wUm5YYTVKbHRfTlpWQnJfaVBfZlFoTDV4aFZaYW5RMFRsaGhmU054Q1RvQmtfYWZYV2NPZWVTR094VUtheXFxTVhCQVEzVU14OGdldVJnaXFUZmFlMmhjQ2pweFJXME9wRngwVDFfaWRjNHZiMUpVVGtNNlp1cVRpc0lqM0gzMmVCOGctVWtCNHlMVFpZTmdKaVR6bExkLUNDYWVGN09qcUJOTUMxMVgwQQ?oc=5",
+            "date": "2026-10-08",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Zacks upgrades Allison Transmission stock to Strong Buy - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeWI2b0JHN2tsVzdLYVJzUjA0M0tEUm1SX2tEV3EtYm43RndESlVuUmFSS1M0WTJBNk9xU1BjdF9IeENlQmtBS0t4bTV5dnFfX3lBTFF5Zmk4Q2pyVkh2aldyMmFxS0FTaGRWLXpydldlMFRzUTcySVlhVXBPbVZRa19iLUctU0VId3NyMHZ0ZXlTN28wUkZ1QjI3aldINnJVZ09wZ2JBQXJxaGlBSTh3MmNBcXo?oc=5",
+            "date": "2026-10-08",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Is Allison Transmission Holdings Inc (ALSN) a Bargain After 3.5% Drop? GF Value Says Undervalued - GuruFocus",
+            "lien": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOX1kwTEFxLTFzZ0pRS1NGcXEtMmN0NGNmZy1NcUw5ckhGc1oxMFRTbjNUb1dkbk5zSXlwNGxlR3B4UjN3M0d0SHlHTmRMR2FIaDZYeTloVFJPRkdEbm1vV2k4M2xtTWtZdnNHU0hPM3plV1NyQnpPZzliWnBFUHJ5dXJRMnNJTWhmb2pTMlNRRHVTRDEyNFRUWjR4WU1EXzlzZDdmeFZyN3RJVWRCOGc1anRCUm1YNmJJTmNJR01wY18zcjlkQ2ROdkxR?oc=5",
+            "date": "2026-10-07",
+            "source": "GuruFocus",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 71,
       "decision": "sans réponse"
     }
   ]
