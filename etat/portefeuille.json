@@ -18,123 +18,113 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-09",
-    "cree_le": "2026-10-09T12:54+00:00",
-    "liberation": 138.29079752303375,
+    "cree_le": "2026-10-09T13:50+00:00",
+    "liberation": 113.8558736439061,
     "reserve_pct": null,
-    "score": 92.8951171660649,
+    "score": 87.87943934397028,
     "ordres": [
       {
-        "ticker": "NEE",
+        "ticker": "OSK",
         "side": "buy",
-        "quantity": 2.0,
-        "price": 68.64539876151687,
-        "reason": "opportunité radar (score 93)"
+        "quantity": 1.0,
+        "price": 112.8558736439061,
+        "reason": "opportunité radar (score 88)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "NEE",
-      "nom": "NextEra Energy",
-      "isin": "NEE",
+      "ticker": "OSK",
+      "nom": "Oshkosh",
+      "isin": "OSK",
       "type": "action",
-      "prix": 76.90499877929688,
-      "score": 92.8951171660649,
-      "baisse": 0.202586381138239,
-      "perf_5ans": 0.11053746107232643,
+      "prix": 126.43499755859375,
+      "score": 87.87943934397028,
+      "baisse": 0.28366276515943,
+      "perf_5ans": 0.3063909627739676,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.18682330973357206,
-      "pos_12m": 0.8141695702671312,
-      "n_12m": 861,
-      "base_moy_12m": 0.15990982253905273,
-      "pire_12m": -0.36086518533058787,
-      "vs_marche_3m": -0.1392584523270698,
+      "moy_12m": 0.547853009408927,
+      "pos_12m": 0.6375838926174496,
+      "n_12m": 1043,
+      "base_moy_12m": 0.2674596176959996,
+      "pire_12m": -0.9136609347667786,
+      "vs_marche_3m": -0.1532767474063037,
       "devise": "USD",
-      "prix_eur": 68.64539876151687,
-      "fondamental": 73.0,
+      "prix_eur": 112.8558736439061,
+      "fondamental": 76.0,
       "fondamental_notes": [
-        "chiffre d'affaires +12.4% sur un an",
-        "bénéfices +53.1% sur un an",
-        "bénéfices attendus -1% sur 12 mois",
-        "analystes : « achat » (1.9/5, 19 avis)",
-        "objectif moyen des analystes : +26%",
-        "P/E attendu 17.6 (actuel 17.3)",
-        "marge nette 32%",
-        "dette / capitaux propres 162 %"
+        "chiffre d'affaires +6.7% sur un an",
+        "bénéfices -7.6% sur un an",
+        "bénéfices attendus +61% sur 12 mois",
+        "analystes : « achat » (1.9/5, 17 avis)",
+        "objectif moyen des analystes : +33%",
+        "P/E attendu 9.0 (actuel 14.5)",
+        "marge nette 5%",
+        "dette / capitaux propres 24 %"
       ],
-      "score_global": 81.0,
+      "score_global": 80.8,
       "braderie": false
     },
     "actualites": {
-      "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (2 article(s) mineur(s), courant pour une grande entreprise) (3 mois : -14% vs marché)",
-      "vs_marche_3m": -0.1392584523270698,
+      "verdict": "orange",
+      "resume": "à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -15% vs marché)",
+      "vs_marche_3m": -0.1532767474063037,
       "alertes": [
         {
-          "titre": "Virginia hearing examiner tells Dominion to release memo on FPL investigation - Utility Dive",
-          "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQM1FWUklLLUNkOWlSQmtvQjQ5cW00WUFtVmtwR2pCSENEVno1Y3Nnb3dLRU1wY3ZvWWp4VXlSdU1QVkI1bUppNzl1RFY3OTF2VWh1WGJsT2dwTWliVC1zYlJUMmtxVldpT2lVRS00cy1EaUtnY3NFakVUR1JkaWpaZnBFY0xTS3k4SVFrQkVpMmZ1Z3ctTklnS09LQzhRNDBjNm1oMGtUN2hnZG5uYkhuazJyNlNOQ3M?oc=5",
+          "titre": "Oshkosh police make arrests in investigation tied to stolen firearms from vehicles - WBAY",
+          "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMkdod2g5Z245VEh0NTljUWdNRWxqYkFJWjVYZVpQM0wzMnFZUVM0Y3E5NGZwN0NVT2ZCRTl5ZVVkQ0Y0RTNUM2FncTNWSEV6b3hzQm9KdnlRSDVGd2QzUGVjX0NjaU9JdGRNbHhjdVFnUHkwb0FMYV9qQm5VMTdTX0pBRkZZM1M0MlJna1RUcFVWRG9OelZva2Z4RUl3Slh1ODl5Z19pc9IBuwFBVV95cUxNdXlxMDdGRTROWUxmTEs0Q1YwdThTcnBhTHlvelZHLVV5WndnUERUWmFwQ3pRV0doSENwYU84RkExXzNZU3lMY3Bvb2dabzAwQXZ3WEJKQUVRRk82Rmc2WFRFM0NTRGNXWEJPamFjd1RIYlJVenJsMzFSbVp4LTFPM3VOWFJjeUhyY3I0ZFFSMzFobDF0UlJEUERORzY3Z0xWbm9yeGw3NjN4R2psNlNvdktxQ3FLczhGOEJv?oc=5",
           "date": "2026-10-06",
-          "source": "Utility Dive",
+          "source": "WBAY",
           "gravite": 1,
           "mots": [
             "investigation"
-          ]
-        },
-        {
-          "titre": "NextEra Energy settles shareholder lawsuit with $15.5M payment and governance reforms. - Pluang",
-          "lien": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORkFjMXQxNTVMb21XRXJSTnRZWkRuRi1VaEpZRmYtelpXSENaQU9jd3l6b0lPTFJuT3VzUFRjTXlXWDloS0hIczVrWEdEWVJoODBaRGxHTFVSY3JHZDdMcExIUnVUZlRaNUw0djAzMWFORU1Kei1EMWN3QXRBTVRZM3U5TkN4ZDhsalJnTEVUNFRzN29Yb2c?oc=5",
-          "date": "2026-10-06",
-          "source": "Pluang",
-          "gravite": 1,
-          "mots": [
-            "lawsuit"
           ]
         }
       ],
       "recents": [
         {
-          "titre": "NextEra Energy (NEE) Stock May Be Above Fair Value Following Merger Scrutiny - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQb1I5a3FNVEVlSlhLMjJZLVZhRDQ5R2g1b2djRDlMRVYwbk1DQUk0d3F2WUptNloxMTA1SVBTZUp4cms4UVByazc1UkxrVmUtWFNmenlhbm5HX0NOWW9iVThoaVdoR1FsLXZSZk5CMzZ4ZUxwdDJlV3hnQ0FITzM0Wko4VWx6aXhsLTdpSmhtTW9qZXVKVW5BQQ?oc=5",
+          "titre": "Carol Fairbairn Obituary - Oshkosh Northwestern",
+          "lien": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4xWURsb285U1JlUHdwV0xkQVh2U3lKSGRjNnBVbXc3Q29NLUpNUmF4cmNjSERSVS1WYUhKQjJYVzNBZWt6QS1LQU5IQWZNcnpEVlBlMF9yd3JSMHdBZUFqWkgwbk0?oc=5",
           "date": "2026-10-09",
-          "source": "Yahoo Finance",
+          "source": "Oshkosh Northwestern",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Jefferies abaisse l’objectif de cours de NextEra Energy face à l’incertitude réglementaire - Investing.com France",
-          "lien": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOMHdELWVPWG1NeS1iczlIOUdHc2ZCNEdQR012a3l3empza0tWWkxXS1paU1N2aUNhZUhFN09Bd2Y3cnduNXFSUUZxOFFuYXVhb1ZqRmY1N1RJX1RnVDZuX3pTREJyR3cxU2FNSHByY2xVd0k1TFNlcTFIbEVYSVYzak5JMUVsQ2dNMHozV0UxQ3FBTVlhbS14YnJTYU1SWm5qa3VXT0NGVVplSkJTX3d4dE1wbV9wdVRqZGFRTGRkQW12YWVUTjZGSkFsYXdla09YLVBpTUVkejlkYjRjb0FnUA?oc=5",
-          "date": "2026-10-08",
-          "source": "Investing.com France",
+          "titre": "Illusionist Leon Etienne brings magic to Oshkosh this month - Oshkosh Northwestern",
+          "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdmVoUnBHczktTGpSQXh2ZE51dS1UTm4yOFB2V3RLaEwzSGtWU1p6dnNUVE5PeDJSeUVXYWtxSUpNUHhfZ3hldkpHbUdxdlZZTHZzS09Od2I2dTJDWWdfZFctd2l4MmdHejBiNi03QXhXRU42c3c1NG9VOUhTX05hOUE0M1NhV2FCXzJvTWVraEJVY2RNRmlfaTBreEpRczJWNFhfcnMtRTlUOWhxTlltUldmZU9SMjZZTFNjczBoWQ?oc=5",
+          "date": "2026-10-09",
+          "source": "Oshkosh Northwestern",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "NextEra Energy (NEE) Faces Governance Reforms, Is The Stock Cheap Or Fully Valued? - Simply Wall Street",
-          "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRkFwY1VRU2x2X2NFWmlzWUpWV0R1NUJWb3pQaTYzMkYzTS1kTC1WMS1YQmJmeTBoTTM3N2pDSUFqa3JXMHh0aF9zMTVNUHFuZ2E4bFQ0SDhSZkJKcjJVOVRYQ3c0WnpiTWtPSjdpeS14emdZeTVwR011LUxtLWp2eGFGc2hlWUJGN1hjT2xjQllERGFpNWpsZ2tSU1RuS2RuRFRQaVhOdVRHOXZPMmRUMFNRTEJLWk9kbGN1anlraWJ4YTRLbzRDS1ZLQdIB0AFBVV95cUxNS04xNGIzeFhnUERERTlqVTctaEl1S1JZYUhQZXdyXzhBVmdZUVlDRGJnY2ZmQW5JRjZhVENXbVl0Q1NLaFI1eE56R25Sc1NMZHBwVF9VOEQ2cml0UjBQMHdodDFPcDdESFh4eDdCcjdGd25BSTd1MERraVQ2WTQ1U2szSkhDZ1FhejhBSDJZV211dUUzZEpHQ0VQX05mTVNqZUh0UkMtMXNzNFBKd3ItZlF6M1cxaDQ0bjJHV1d6dlZmckJiYnJfd3RfWUUzNG1P?oc=5",
+          "titre": "Titans Drop One-Goal Decision To Pointers - University of Wisconsin–Oshkosh Athletics",
+          "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeVBlQXZZTHU5SWdZeEhBMlpXOUhXNkhGM3FzcEFkSmNhNDU0LWp3QnRBMVVYUmY3WDhDMjhsaFlDb0tKeVVVekx6bGRxNWlLN1MzamU3aV9TTmZ4NUFRSFN0aVdTaEVQNzlVVUMxaVBRQ1I4OVhJSUs3S2gwdEUyejFnMlN2LTRXbkp6MFpQSE9XMk5TR09JQWlaR21qdWRsODRwSHpn?oc=5",
           "date": "2026-10-08",
-          "source": "Simply Wall Street",
+          "source": "University of Wisconsin–Oshkosh Athletics",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Jefferies lowers NextEra Energy stock price target on regulatory uncertainty - Investing.com",
-          "lien": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOck9vMW1sLU9FY0FNUUZHTzk0TEQ0LWhPekJQTUwwVExJTy1PVGNOVGF1YzQ4S2JvVlZzTGY5eUd6akxIOVNad0xJaWFfQ1I1elc1XzQxeEJXME9aaXZTcHNBck5zOWxPYWlaVFl0M0ZkMnEyR2FRZm1BYnFYMFRLc1pOaXVDM3F4QUkxSFpITFpDZEtjSmEyampoWkk4TnR2ZDJiVk94TGJwZ3k1RHZfdkFoRmowazFLak81OXR5algzSmNFbmFpazNGN2JDc1dnWXc?oc=5",
+          "titre": "Oshkosh officers warn pub crawl partiers, discourage participation as weekend nears - WLUK",
+          "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTTUyN1RCNno0a0M5dlRmME1nai1Oa3RuU1F2enFjNURXUW5TaExpZWpYRkc4QUZoN0YtOS0tOFZldDRvM25iTFRaQkROQkYwbHotdlV6UnhlTVpBaDZiZkc2M0JmbklrMkFzYzlqbkpFejRZZTFHWVczQmtwX2ozVUJTN1Uta1NraWpKUHVoazBfamg4b3NhWW1sa2NRMjVselRnUmpqaThIeU5FamZZQU15blhuY1RF?oc=5",
           "date": "2026-10-08",
-          "source": "Investing.com",
+          "source": "WLUK",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Valley Farms Energy Center Supports Emergency Preparedness in Coolidge - SRP Newsroom",
-          "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR2xaRVdMQWNfNzljM0Y2bTdGUE5XUTRyekt1QV9qSFBjV2VmR3dzeWxPNXNpZ2tZb2NpQ3N6LV92ZFpSb0h4azhVZlB4ajVLNzdDSGZnX2stMXJVSFVzQUxnMWJSaWhaaDE0UjlINDRzTkMxLUNHalJnbk9OMTJKME5qMk14T1h6UEtPRFVnd0hXMnJRR2QwUlVka2g?oc=5",
+          "titre": "Oshkosh pub crawl returns under new ordinance this weekend - NBC26",
+          "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQczhVWEI5QnVaXzh4SW9aajZreXRsZGRwUkZyVDZ6VDZGMkVtM0tSVnFjcTdlaFJmWHpmWFVKSWR5bE40OWRpR2FYSXFiQ0M2blRCX3RJN09wNVdDcFFKSFVYOTVYX2JCeVNsOWhORVRfYjI2MlBZcEF2ZE9NZWw1Ymd3dXJzNm1xNW9KZU5FV0ZrZw?oc=5",
           "date": "2026-10-08",
-          "source": "SRP Newsroom",
+          "source": "NBC26",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 72
+    "ticket": 73
   },
   "radar_proposes": [
     "MCD",
@@ -224,7 +214,8 @@
     "O",
     "EFC",
     "ALSN",
-    "NEE"
+    "NEE",
+    "OSK"
   ],
   "achats": [],
   "historique": [
@@ -7225,6 +7216,128 @@
         ]
       },
       "ticket": 71,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-09",
+      "cree_le": "2026-10-09T12:54+00:00",
+      "liberation": 138.29079752303375,
+      "reserve_pct": null,
+      "score": 92.8951171660649,
+      "ordres": [
+        {
+          "ticker": "NEE",
+          "side": "buy",
+          "quantity": 2.0,
+          "price": 68.64539876151687,
+          "reason": "opportunité radar (score 93)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "NEE",
+        "nom": "NextEra Energy",
+        "isin": "NEE",
+        "type": "action",
+        "prix": 76.90499877929688,
+        "score": 92.8951171660649,
+        "baisse": 0.202586381138239,
+        "perf_5ans": 0.11053746107232643,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.18682330973357206,
+        "pos_12m": 0.8141695702671312,
+        "n_12m": 861,
+        "base_moy_12m": 0.15990982253905273,
+        "pire_12m": -0.36086518533058787,
+        "vs_marche_3m": -0.1392584523270698,
+        "devise": "USD",
+        "prix_eur": 68.64539876151687,
+        "fondamental": 73.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +12.4% sur un an",
+          "bénéfices +53.1% sur un an",
+          "bénéfices attendus -1% sur 12 mois",
+          "analystes : « achat » (1.9/5, 19 avis)",
+          "objectif moyen des analystes : +26%",
+          "P/E attendu 17.6 (actuel 17.3)",
+          "marge nette 32%",
+          "dette / capitaux propres 162 %"
+        ],
+        "score_global": 81.0,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (2 article(s) mineur(s), courant pour une grande entreprise) (3 mois : -14% vs marché)",
+        "vs_marche_3m": -0.1392584523270698,
+        "alertes": [
+          {
+            "titre": "Virginia hearing examiner tells Dominion to release memo on FPL investigation - Utility Dive",
+            "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQM1FWUklLLUNkOWlSQmtvQjQ5cW00WUFtVmtwR2pCSENEVno1Y3Nnb3dLRU1wY3ZvWWp4VXlSdU1QVkI1bUppNzl1RFY3OTF2VWh1WGJsT2dwTWliVC1zYlJUMmtxVldpT2lVRS00cy1EaUtnY3NFakVUR1JkaWpaZnBFY0xTS3k4SVFrQkVpMmZ1Z3ctTklnS09LQzhRNDBjNm1oMGtUN2hnZG5uYkhuazJyNlNOQ3M?oc=5",
+            "date": "2026-10-06",
+            "source": "Utility Dive",
+            "gravite": 1,
+            "mots": [
+              "investigation"
+            ]
+          },
+          {
+            "titre": "NextEra Energy settles shareholder lawsuit with $15.5M payment and governance reforms. - Pluang",
+            "lien": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORkFjMXQxNTVMb21XRXJSTnRZWkRuRi1VaEpZRmYtelpXSENaQU9jd3l6b0lPTFJuT3VzUFRjTXlXWDloS0hIczVrWEdEWVJoODBaRGxHTFVSY3JHZDdMcExIUnVUZlRaNUw0djAzMWFORU1Kei1EMWN3QXRBTVRZM3U5TkN4ZDhsalJnTEVUNFRzN29Yb2c?oc=5",
+            "date": "2026-10-06",
+            "source": "Pluang",
+            "gravite": 1,
+            "mots": [
+              "lawsuit"
+            ]
+          }
+        ],
+        "recents": [
+          {
+            "titre": "NextEra Energy (NEE) Stock May Be Above Fair Value Following Merger Scrutiny - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQb1I5a3FNVEVlSlhLMjJZLVZhRDQ5R2g1b2djRDlMRVYwbk1DQUk0d3F2WUptNloxMTA1SVBTZUp4cms4UVByazc1UkxrVmUtWFNmenlhbm5HX0NOWW9iVThoaVdoR1FsLXZSZk5CMzZ4ZUxwdDJlV3hnQ0FITzM0Wko4VWx6aXhsLTdpSmhtTW9qZXVKVW5BQQ?oc=5",
+            "date": "2026-10-09",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Jefferies abaisse l’objectif de cours de NextEra Energy face à l’incertitude réglementaire - Investing.com France",
+            "lien": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOMHdELWVPWG1NeS1iczlIOUdHc2ZCNEdQR012a3l3empza0tWWkxXS1paU1N2aUNhZUhFN09Bd2Y3cnduNXFSUUZxOFFuYXVhb1ZqRmY1N1RJX1RnVDZuX3pTREJyR3cxU2FNSHByY2xVd0k1TFNlcTFIbEVYSVYzak5JMUVsQ2dNMHozV0UxQ3FBTVlhbS14YnJTYU1SWm5qa3VXT0NGVVplSkJTX3d4dE1wbV9wdVRqZGFRTGRkQW12YWVUTjZGSkFsYXdla09YLVBpTUVkejlkYjRjb0FnUA?oc=5",
+            "date": "2026-10-08",
+            "source": "Investing.com France",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "NextEra Energy (NEE) Faces Governance Reforms, Is The Stock Cheap Or Fully Valued? - Simply Wall Street",
+            "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRkFwY1VRU2x2X2NFWmlzWUpWV0R1NUJWb3pQaTYzMkYzTS1kTC1WMS1YQmJmeTBoTTM3N2pDSUFqa3JXMHh0aF9zMTVNUHFuZ2E4bFQ0SDhSZkJKcjJVOVRYQ3c0WnpiTWtPSjdpeS14emdZeTVwR011LUxtLWp2eGFGc2hlWUJGN1hjT2xjQllERGFpNWpsZ2tSU1RuS2RuRFRQaVhOdVRHOXZPMmRUMFNRTEJLWk9kbGN1anlraWJ4YTRLbzRDS1ZLQdIB0AFBVV95cUxNS04xNGIzeFhnUERERTlqVTctaEl1S1JZYUhQZXdyXzhBVmdZUVlDRGJnY2ZmQW5JRjZhVENXbVl0Q1NLaFI1eE56R25Sc1NMZHBwVF9VOEQ2cml0UjBQMHdodDFPcDdESFh4eDdCcjdGd25BSTd1MERraVQ2WTQ1U2szSkhDZ1FhejhBSDJZV211dUUzZEpHQ0VQX05mTVNqZUh0UkMtMXNzNFBKd3ItZlF6M1cxaDQ0bjJHV1d6dlZmckJiYnJfd3RfWUUzNG1P?oc=5",
+            "date": "2026-10-08",
+            "source": "Simply Wall Street",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Jefferies lowers NextEra Energy stock price target on regulatory uncertainty - Investing.com",
+            "lien": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOck9vMW1sLU9FY0FNUUZHTzk0TEQ0LWhPekJQTUwwVExJTy1PVGNOVGF1YzQ4S2JvVlZzTGY5eUd6akxIOVNad0xJaWFfQ1I1elc1XzQxeEJXME9aaXZTcHNBck5zOWxPYWlaVFl0M0ZkMnEyR2FRZm1BYnFYMFRLc1pOaXVDM3F4QUkxSFpITFpDZEtjSmEyampoWkk4TnR2ZDJiVk94TGJwZ3k1RHZfdkFoRmowazFLak81OXR5algzSmNFbmFpazNGN2JDc1dnWXc?oc=5",
+            "date": "2026-10-08",
+            "source": "Investing.com",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Valley Farms Energy Center Supports Emergency Preparedness in Coolidge - SRP Newsroom",
+            "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR2xaRVdMQWNfNzljM0Y2bTdGUE5XUTRyekt1QV9qSFBjV2VmR3dzeWxPNXNpZ2tZb2NpQ3N6LV92ZFpSb0h4azhVZlB4ajVLNzdDSGZnX2stMXJVSFVzQUxnMWJSaWhaaDE0UjlINDRzTkMxLUNHalJnbk9OMTJKME5qMk14T1h6UEtPRFVnd0hXMnJRR2QwUlVka2g?oc=5",
+            "date": "2026-10-08",
+            "source": "SRP Newsroom",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 72,
       "decision": "sans réponse"
     }
   ]
