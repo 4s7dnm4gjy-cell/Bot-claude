@@ -18,113 +18,102 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-09",
-    "cree_le": "2026-10-09T13:50+00:00",
-    "liberation": 113.8558736439061,
+    "cree_le": "2026-10-09T14:21+00:00",
+    "liberation": 145.40929019824327,
     "reserve_pct": null,
-    "score": 87.87943934397028,
+    "score": 90.7626531590068,
     "ordres": [
       {
-        "ticker": "OSK",
+        "ticker": "RITM",
         "side": "buy",
-        "quantity": 1.0,
-        "price": 112.8558736439061,
-        "reason": "opportunité radar (score 88)"
+        "quantity": 19.0,
+        "price": 7.600488957802278,
+        "reason": "opportunité radar (score 91)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "OSK",
-      "nom": "Oshkosh",
-      "isin": "OSK",
+      "ticker": "RITM",
+      "nom": "Rithm Capital",
+      "isin": "RITM",
       "type": "action",
-      "prix": 126.43499755859375,
-      "score": 87.87943934397028,
-      "baisse": 0.28366276515943,
-      "perf_5ans": 0.3063909627739676,
+      "prix": 8.515000343322754,
+      "score": 90.7626531590068,
+      "baisse": 0.23378613848981133,
+      "perf_5ans": 0.29440310600206243,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.547853009408927,
-      "pos_12m": 0.6375838926174496,
-      "n_12m": 1043,
-      "base_moy_12m": 0.2674596176959996,
-      "pire_12m": -0.9136609347667786,
-      "vs_marche_3m": -0.1532767474063037,
+      "moy_12m": 0.3517305372710437,
+      "pos_12m": 0.8338870431893688,
+      "n_12m": 301,
+      "base_moy_12m": 0.12101063462650206,
+      "pire_12m": -0.48925827512843834,
+      "vs_marche_3m": -0.06436798787999187,
       "devise": "USD",
-      "prix_eur": 112.8558736439061,
-      "fondamental": 76.0,
+      "prix_eur": 7.600488957802278,
+      "fondamental": 73.0,
       "fondamental_notes": [
-        "chiffre d'affaires +6.7% sur un an",
-        "bénéfices -7.6% sur un an",
-        "bénéfices attendus +61% sur 12 mois",
-        "analystes : « achat » (1.9/5, 17 avis)",
-        "objectif moyen des analystes : +33%",
-        "P/E attendu 9.0 (actuel 14.5)",
-        "marge nette 5%",
-        "dette / capitaux propres 24 %"
+        "chiffre d'affaires +9.7% sur un an",
+        "bénéfices -93.2% sur un an",
+        "bénéfices attendus +292% sur 12 mois",
+        "analystes : « achat fort » (1.4/5, 10 avis)",
+        "objectif des analystes +54% : peu crédible, probablement pas encore révisé",
+        "P/E attendu 3.6 (actuel 14.2)",
+        "marge nette 11%",
+        "dette / capitaux propres 388 %"
       ],
-      "score_global": 80.8,
+      "score_global": 80.1,
       "braderie": false
     },
     "actualites": {
-      "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -15% vs marché)",
-      "vs_marche_3m": -0.1532767474063037,
-      "alertes": [
-        {
-          "titre": "Oshkosh police make arrests in investigation tied to stolen firearms from vehicles - WBAY",
-          "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMkdod2g5Z245VEh0NTljUWdNRWxqYkFJWjVYZVpQM0wzMnFZUVM0Y3E5NGZwN0NVT2ZCRTl5ZVVkQ0Y0RTNUM2FncTNWSEV6b3hzQm9KdnlRSDVGd2QzUGVjX0NjaU9JdGRNbHhjdVFnUHkwb0FMYV9qQm5VMTdTX0pBRkZZM1M0MlJna1RUcFVWRG9OelZva2Z4RUl3Slh1ODl5Z19pc9IBuwFBVV95cUxNdXlxMDdGRTROWUxmTEs0Q1YwdThTcnBhTHlvelZHLVV5WndnUERUWmFwQ3pRV0doSENwYU84RkExXzNZU3lMY3Bvb2dabzAwQXZ3WEJKQUVRRk82Rmc2WFRFM0NTRGNXWEJPamFjd1RIYlJVenJsMzFSbVp4LTFPM3VOWFJjeUhyY3I0ZFFSMzFobDF0UlJEUERORzY3Z0xWbm9yeGw3NjN4R2psNlNvdktxQ3FLczhGOEJv?oc=5",
-          "date": "2026-10-06",
-          "source": "WBAY",
-          "gravite": 1,
-          "mots": [
-            "investigation"
-          ]
-        }
-      ],
+      "verdict": "vert",
+      "resume": "rien d'alarmant dans l'actualité (3 mois : -6% vs marché)",
+      "vs_marche_3m": -0.06436798787999187,
+      "alertes": [],
       "recents": [
         {
-          "titre": "Carol Fairbairn Obituary - Oshkosh Northwestern",
-          "lien": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4xWURsb285U1JlUHdwV0xkQVh2U3lKSGRjNnBVbXc3Q29NLUpNUmF4cmNjSERSVS1WYUhKQjJYVzNBZWt6QS1LQU5IQWZNcnpEVlBlMF9yd3JSMHdBZUFqWkgwbk0?oc=5",
+          "titre": "Rithm Capital Corp. (RITM) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE04Ujc4RlN0M2YxaGdVUVltLUtsRFIyanRWN0lERHI3WFFBNTdoMFc4Rld1Q2tCY05KMFF1SXE0MTVYYXB2WWd5WnQyOXhKUGpaU2c?oc=5",
           "date": "2026-10-09",
-          "source": "Oshkosh Northwestern",
+          "source": "Yahoo! Finance Canada",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Illusionist Leon Etienne brings magic to Oshkosh this month - Oshkosh Northwestern",
-          "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdmVoUnBHczktTGpSQXh2ZE51dS1UTm4yOFB2V3RLaEwzSGtWU1p6dnNUVE5PeDJSeUVXYWtxSUpNUHhfZ3hldkpHbUdxdlZZTHZzS09Od2I2dTJDWWdfZFctd2l4MmdHejBiNi03QXhXRU42c3c1NG9VOUhTX05hOUE0M1NhV2FCXzJvTWVraEJVY2RNRmlfaTBreEpRczJWNFhfcnMtRTlUOWhxTlltUldmZU9SMjZZTFNjczBoWQ?oc=5",
+          "titre": "Rithm Capital (RITM) Closes DRA Venture Following New York Tower Deal Is It A Bargain - Simply Wall Street",
+          "lien": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNSDIxRlpVX19sdFBwckFSM2pTZGlNMjQ1Zmd2LTNsUnVCWmZhVGxXX0hITnI1OVBYbk5KdVp6Wm90SmJrR29MekZzeGhlcldleFdxbVE0anNvRVVZaVJzbHpOWTdTN0haNXdPTlRDcVBIakszb1RXeXJqQThlcjdFS2JCNlp6YzZ0WHBnOE8ycGRmYXFNODlTU1V3eHhRcVlEUUhFSlE5bDUyZ0Y1TmlXV2dsLTlNVW5yRVRwZmVrazM5OURTaDdOSnZuNmswVmgyYl9UVnhVWU1PN2h40gHiAUFVX3lxTE9fdTJMTEJpZTFJSWZIWDdjaFhsV19OU1J4MEdMemxfRjZKREtwOWRnbzNYWGFXZlV2alY3Q19XeTZrajZzSEtJMHFUMS1xNmprZlJrYVFDUWY2c0J4WEYtZXl1bkt1S3BVUktXWVFnN2U0anBJTXRRRzdRWTRxS0taWHJ4aHdjeU1qQWRWYkdQSlRpOGwzMVJMSm8tQjBTcU45MDJxMGI2Z0JfQ0M2ZC1QTDg3YmhGdXBpcEtlTDRaM3d6MHRmdVNKMDJPQ080aVpVa2VEeWdNTXlRbmJwYzNrcHc?oc=5",
           "date": "2026-10-09",
-          "source": "Oshkosh Northwestern",
+          "source": "Simply Wall Street",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Titans Drop One-Goal Decision To Pointers - University of Wisconsin–Oshkosh Athletics",
-          "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeVBlQXZZTHU5SWdZeEhBMlpXOUhXNkhGM3FzcEFkSmNhNDU0LWp3QnRBMVVYUmY3WDhDMjhsaFlDb0tKeVVVekx6bGRxNWlLN1MzamU3aV9TTmZ4NUFRSFN0aVdTaEVQNzlVVUMxaVBRQ1I4OVhJSUs3S2gwdEUyejFnMlN2LTRXbkp6MFpQSE9XMk5TR09JQWlaR21qdWRsODRwSHpn?oc=5",
-          "date": "2026-10-08",
-          "source": "University of Wisconsin–Oshkosh Athletics",
+          "titre": "L’action Rithm Capital Corp atteint un plus bas de 52 semaines à 8,43 USD - Investing.com France",
+          "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdmVybFhkc2dMSmdFeFM2S3NVZkIzUGR0MDI2UWJVb3FuLVBFcUtEY1JtdjJITGVoeEFJakgxT0Q5Z2FzX09ONGVmR2NkeXpUR3d5akJwN0YxNG9VOHJobFFjNTR2TW1kc1BKSU9VUGhOTTFPVjFaZ1NyS2hsdFZSdnBFVUVaWFVWRlkxQlZvQnhDNEoyS2lqcFFIUG01ZEI3c3l0M290VFFxUHBLdjRxT0hqU0NWU0VQSVpGMVhUTGx6QUZxS3c?oc=5",
+          "date": "2026-10-07",
+          "source": "Investing.com France",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Oshkosh officers warn pub crawl partiers, discourage participation as weekend nears - WLUK",
-          "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTTUyN1RCNno0a0M5dlRmME1nai1Oa3RuU1F2enFjNURXUW5TaExpZWpYRkc4QUZoN0YtOS0tOFZldDRvM25iTFRaQkROQkYwbHotdlV6UnhlTVpBaDZiZkc2M0JmbklrMkFzYzlqbkpFejRZZTFHWVczQmtwX2ozVUJTN1Uta1NraWpKUHVoazBfamg4b3NhWW1sa2NRMjVselRnUmpqaThIeU5FamZZQU15blhuY1RF?oc=5",
-          "date": "2026-10-08",
-          "source": "WLUK",
+          "titre": "TOUR D'HORIZON DE LA RECHERCHE AUX ÉTATS-UNIS-Allstate, Caribou Biosciences, Zscaler - Boursorama",
+          "lien": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNM2VidHZfYU9QcFZhR0JsZ3dsU0lPYi1GTkJEVG1iRHBDa2dxUHRnenAtbXJjNXBXd0ZidlNZdDBOanhkOXM2UjhDUzRTWnZJNnBLaUJzZTNPU3Zia0YydV96QlJXcHJmY3J2eHFNUnlETXhZRzdUalFPdlJQUTRsdjRpSXd3ekM4aHBuVVlqSllWUFVCRmIxTFV3eGowR1FhREh0WTZWZldKZUhYdkFDTC1mT3gxSVFKRFlwV0dWdVRjOHNkRWkzRm16ckFYbDI4dEY1ZlRJNU5GRV96VWFSaUJCRUMxbkw1XzB2dE1ZeTdNTjl2UFpr0gH3AUFVX3lxTE0zZWJ0dl9hT1BwVmFHQmxnd2xTSU9iLUZOQkRUbWJEcENrZ3FQdGd6cC1tcmM1cFd3RmJ2U1l0ME5qeGQ5czZSOENTNFNadkk2cEtpQnNlM09TdmJrRjJ1X3pCUldwcmZjcnZ4cU1SeURNeFlHN1RqUU92UlBRNGx2NGlJd3d6QzhocG5VWWpKWVZQVUJGYjFMVXd4ajBHUWFESHRZNlZmV0plSFh2QUNMLWZPeDFJUUpEWXBXR1Z1VGM4c2RFaTNGbXpyQVhsMjh0RjVmVEk1TkZFX3pVYVJpQkJFQzFuTDVfMHZ0TVl5N01OOXZQWms?oc=5",
+          "date": "2026-10-07",
+          "source": "Boursorama",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Oshkosh pub crawl returns under new ordinance this weekend - NBC26",
-          "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQczhVWEI5QnVaXzh4SW9aajZreXRsZGRwUkZyVDZ6VDZGMkVtM0tSVnFjcTdlaFJmWHpmWFVKSWR5bE40OWRpR2FYSXFiQ0M2blRCX3RJN09wNVdDcFFKSFVYOTVYX2JCeVNsOWhORVRfYjI2MlBZcEF2ZE9NZWw1Ymd3dXJzNm1xNW9KZU5FV0ZrZw?oc=5",
-          "date": "2026-10-08",
-          "source": "NBC26",
+          "titre": "Rithm Capital (NYSE:RITM) Hits New 12-Month Low - Should You Sell? - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUFdhOW5QVVZvMTlhOFlOVUZxdVFsQXJzeTdqcGdPQkh6dFlteHlvSl9PNm5hSUNtRXJWeV8tOGJqVHlTTnZpZ2pSeUZyWF9MTzQ5cS1oNW45eV91U1RQVUU4NEVNNldCLUxSSUItaDRVQ1FvX2x2SnRUQ0NHa05sV2dNdF9QaWlzWU1SSG9EOXhkd2VxUndMcE9ZN05UODNoc1FwelN4WTdEdlVQY1VwMXE0QlBpTmJmSkVQZXJn?oc=5",
+          "date": "2026-10-07",
+          "source": "MarketBeat",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 73
+    "ticket": 74
   },
   "radar_proposes": [
     "MCD",
@@ -215,7 +204,9 @@
     "EFC",
     "ALSN",
     "NEE",
-    "OSK"
+    "OSK",
+    "CQR.AX",
+    "RITM"
   ],
   "achats": [],
   "historique": [
@@ -7338,6 +7329,118 @@
         ]
       },
       "ticket": 72,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-09",
+      "cree_le": "2026-10-09T13:50+00:00",
+      "liberation": 113.8558736439061,
+      "reserve_pct": null,
+      "score": 87.87943934397028,
+      "ordres": [
+        {
+          "ticker": "OSK",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 112.8558736439061,
+          "reason": "opportunité radar (score 88)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "OSK",
+        "nom": "Oshkosh",
+        "isin": "OSK",
+        "type": "action",
+        "prix": 126.43499755859375,
+        "score": 87.87943934397028,
+        "baisse": 0.28366276515943,
+        "perf_5ans": 0.3063909627739676,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.547853009408927,
+        "pos_12m": 0.6375838926174496,
+        "n_12m": 1043,
+        "base_moy_12m": 0.2674596176959996,
+        "pire_12m": -0.9136609347667786,
+        "vs_marche_3m": -0.1532767474063037,
+        "devise": "USD",
+        "prix_eur": 112.8558736439061,
+        "fondamental": 76.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +6.7% sur un an",
+          "bénéfices -7.6% sur un an",
+          "bénéfices attendus +61% sur 12 mois",
+          "analystes : « achat » (1.9/5, 17 avis)",
+          "objectif moyen des analystes : +33%",
+          "P/E attendu 9.0 (actuel 14.5)",
+          "marge nette 5%",
+          "dette / capitaux propres 24 %"
+        ],
+        "score_global": 80.8,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -15% vs marché)",
+        "vs_marche_3m": -0.1532767474063037,
+        "alertes": [
+          {
+            "titre": "Oshkosh police make arrests in investigation tied to stolen firearms from vehicles - WBAY",
+            "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMkdod2g5Z245VEh0NTljUWdNRWxqYkFJWjVYZVpQM0wzMnFZUVM0Y3E5NGZwN0NVT2ZCRTl5ZVVkQ0Y0RTNUM2FncTNWSEV6b3hzQm9KdnlRSDVGd2QzUGVjX0NjaU9JdGRNbHhjdVFnUHkwb0FMYV9qQm5VMTdTX0pBRkZZM1M0MlJna1RUcFVWRG9OelZva2Z4RUl3Slh1ODl5Z19pc9IBuwFBVV95cUxNdXlxMDdGRTROWUxmTEs0Q1YwdThTcnBhTHlvelZHLVV5WndnUERUWmFwQ3pRV0doSENwYU84RkExXzNZU3lMY3Bvb2dabzAwQXZ3WEJKQUVRRk82Rmc2WFRFM0NTRGNXWEJPamFjd1RIYlJVenJsMzFSbVp4LTFPM3VOWFJjeUhyY3I0ZFFSMzFobDF0UlJEUERORzY3Z0xWbm9yeGw3NjN4R2psNlNvdktxQ3FLczhGOEJv?oc=5",
+            "date": "2026-10-06",
+            "source": "WBAY",
+            "gravite": 1,
+            "mots": [
+              "investigation"
+            ]
+          }
+        ],
+        "recents": [
+          {
+            "titre": "Carol Fairbairn Obituary - Oshkosh Northwestern",
+            "lien": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4xWURsb285U1JlUHdwV0xkQVh2U3lKSGRjNnBVbXc3Q29NLUpNUmF4cmNjSERSVS1WYUhKQjJYVzNBZWt6QS1LQU5IQWZNcnpEVlBlMF9yd3JSMHdBZUFqWkgwbk0?oc=5",
+            "date": "2026-10-09",
+            "source": "Oshkosh Northwestern",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Illusionist Leon Etienne brings magic to Oshkosh this month - Oshkosh Northwestern",
+            "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdmVoUnBHczktTGpSQXh2ZE51dS1UTm4yOFB2V3RLaEwzSGtWU1p6dnNUVE5PeDJSeUVXYWtxSUpNUHhfZ3hldkpHbUdxdlZZTHZzS09Od2I2dTJDWWdfZFctd2l4MmdHejBiNi03QXhXRU42c3c1NG9VOUhTX05hOUE0M1NhV2FCXzJvTWVraEJVY2RNRmlfaTBreEpRczJWNFhfcnMtRTlUOWhxTlltUldmZU9SMjZZTFNjczBoWQ?oc=5",
+            "date": "2026-10-09",
+            "source": "Oshkosh Northwestern",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Titans Drop One-Goal Decision To Pointers - University of Wisconsin–Oshkosh Athletics",
+            "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeVBlQXZZTHU5SWdZeEhBMlpXOUhXNkhGM3FzcEFkSmNhNDU0LWp3QnRBMVVYUmY3WDhDMjhsaFlDb0tKeVVVekx6bGRxNWlLN1MzamU3aV9TTmZ4NUFRSFN0aVdTaEVQNzlVVUMxaVBRQ1I4OVhJSUs3S2gwdEUyejFnMlN2LTRXbkp6MFpQSE9XMk5TR09JQWlaR21qdWRsODRwSHpn?oc=5",
+            "date": "2026-10-08",
+            "source": "University of Wisconsin–Oshkosh Athletics",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Oshkosh officers warn pub crawl partiers, discourage participation as weekend nears - WLUK",
+            "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTTUyN1RCNno0a0M5dlRmME1nai1Oa3RuU1F2enFjNURXUW5TaExpZWpYRkc4QUZoN0YtOS0tOFZldDRvM25iTFRaQkROQkYwbHotdlV6UnhlTVpBaDZiZkc2M0JmbklrMkFzYzlqbkpFejRZZTFHWVczQmtwX2ozVUJTN1Uta1NraWpKUHVoazBfamg4b3NhWW1sa2NRMjVselRnUmpqaThIeU5FamZZQU15blhuY1RF?oc=5",
+            "date": "2026-10-08",
+            "source": "WLUK",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Oshkosh pub crawl returns under new ordinance this weekend - NBC26",
+            "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQczhVWEI5QnVaXzh4SW9aajZreXRsZGRwUkZyVDZ6VDZGMkVtM0tSVnFjcTdlaFJmWHpmWFVKSWR5bE40OWRpR2FYSXFiQ0M2blRCX3RJN09wNVdDcFFKSFVYOTVYX2JCeVNsOWhORVRfYjI2MlBZcEF2ZE9NZWw1Ymd3dXJzNm1xNW9KZU5FV0ZrZw?oc=5",
+            "date": "2026-10-08",
+            "source": "NBC26",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 73,
       "decision": "sans réponse"
     }
   ]
