@@ -18,102 +18,101 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-09",
-    "cree_le": "2026-10-09T10:19+00:00",
-    "liberation": 139.4990201802591,
+    "cree_le": "2026-10-09T10:49+00:00",
+    "liberation": 136.71089178190815,
     "reserve_pct": null,
-    "score": 93.9849570794852,
+    "score": 88.76052337563452,
     "ordres": [
       {
-        "ticker": "GJF.OL",
+        "ticker": "NBHC",
         "side": "buy",
-        "quantity": 6.0,
-        "price": 23.08317003004318,
-        "reason": "opportunité radar (score 94)"
+        "quantity": 4.0,
+        "price": 33.927722945477036,
+        "reason": "opportunité radar (score 89)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "GJF.OL",
-      "nom": "Gjensidige Forsikring",
-      "isin": "GJF.OL",
+      "ticker": "NBHC",
+      "nom": "National Bank Holdings Corporation",
+      "isin": "NBHC",
       "type": "action",
-      "prix": 247.60000610351562,
-      "score": 93.9849570794852,
-      "baisse": 0.13547482060000504,
-      "perf_5ans": 0.6670982342645633,
+      "prix": 38.0099983215332,
+      "score": 88.76052337563452,
+      "baisse": 0.18633112747615888,
+      "perf_5ans": 0.05628043708230579,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.18050431111695384,
-      "pos_12m": 0.8273572377158035,
-      "n_12m": 753,
-      "base_moy_12m": 0.1506148551141823,
-      "pire_12m": -0.21213176888043916,
-      "vs_marche_3m": -0.11081678023477792,
-      "devise": "NOK",
-      "prix_eur": 23.08317003004318,
-      "fondamental": 75.0,
+      "moy_12m": 0.20711215262721827,
+      "pos_12m": 0.7461406518010292,
+      "n_12m": 583,
+      "base_moy_12m": 0.11905932434337649,
+      "pire_12m": -0.34674661023716014,
+      "vs_marche_3m": -0.15635054063362386,
+      "devise": "USD",
+      "prix_eur": 33.927722945477036,
+      "fondamental": 78.5,
       "fondamental_notes": [
-        "chiffre d'affaires +6.0% sur un an",
-        "bénéfices -7.7% sur un an",
-        "bénéfices attendus +36% sur 12 mois",
-        "analystes : « conserver » (2.5/5, 16 avis)",
-        "objectif moyen des analystes : +16%",
-        "P/E attendu 14.3 (actuel 19.4)",
-        "marge nette 14%",
-        "dette / capitaux propres 23 %"
+        "chiffre d'affaires +22.1% sur un an",
+        "bénéfices -34.1% sur un an",
+        "bénéfices attendus +66% sur 12 mois",
+        "analystes : « achat » (2.2/5, 4 avis)",
+        "objectif moyen des analystes : +22%",
+        "P/E attendu 9.5 (actuel 15.8)",
+        "marge nette 22%"
       ],
       "score_global": 82.6,
       "braderie": false
     },
     "actualites": {
-      "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -11% vs marché)",
-      "vs_marche_3m": -0.11081678023477792,
+      "verdict": "orange",
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -16% vs marché)",
+      "vs_marche_3m": -0.15635054063362386,
       "alertes": [],
       "recents": [
         {
-          "titre": "Gjensidige schedules Q3 2026 results release and investor webcast - TipRanks",
-          "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc0FJV2gxUC1lSWd6b3hJTllVV0xUZlJRanFfRUpENV9hUVdrYm5qM3lCdVdEMWFhRmdyYl9ER09BM3JpMDFac0YzYnB0azI4a1l5TG02dVc3YjRMVEtJbHJuZ1FvYlF3d0w0aHQ4cmc4akUxRktCaFVpNkEwZE51MGd0enJRTjBDT09BY21sVWFLVkgzWFB0N2RBeVQ4eEZmVVV1RkxhWVd3U1pFMnFJREY1VlVMZEJV?oc=5",
-          "date": "2026-10-09",
-          "source": "TipRanks",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Gjensidige recrute deux nouveaux Account Managers - Zonebourse Suisse",
-          "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY2NaQmEwVy1yU0c5VmtpWUljekxaV1llMEtfa2x4S2V5RnFiX2g3T2o3SXZjZmpfS0pNOHA1OEM1YUF6R21xOWdHRng1aHFmdzIyOTFGclJrcWp4S2hMUHNnSjNGNHA2bmQzeVdNVkROc3I2YXdHdzBTaXBNQUQtWXkxWHR0MFNTaV9yYndSQUVsdnFKSlFzY0ljTzEtN2ZXTlAwc0RWMlBQU0FqcHc?oc=5",
-          "date": "2026-10-08",
-          "source": "Zonebourse Suisse",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Gjensidige stock stood at NOK 247.80 as Q3 date nears - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcncySWxfaFh0b2NFcVpiLUk3NzhWVV9yaC04QXozMVFTRmlXZnY0TUdPWDl2MEE3Yk1RM0paNVg1NkRiZ2owSnZGb25oU2NsNFF2NFlyYTJkSUNFRHRnbUlFZzhLT3RFNExuT2lUb09sSzEwRHZVTzJPcnpnRm9oMFlSSUJ6R0dlbkt1bHlYR0xNUzExNEpITV9wc1ItT0RMZGJWVVFZaWR5LWh3NEdYZ3lR?oc=5",
+          "titre": "National Bank Holdings stock gets a Zacks rating upgrade - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTkN4QTVIMW5odW9hekM1UTNfMmNoUjd2RVFrZDJFVnphTkcxV3pwa0VDb0VvYXBtbGo2UE1HVkNNUEQyZnMySUdtT2Z5OHlMX1JsSnVqWjJ3dzBRSGx2WmZOQUlhVF84TDJzZUxLM1pWd0RZOG1JSy1Gbmg2RzVZZ1dvdzBGZjJMS1h5S0gzbHNMNllyZXpqMFNuWEhNd2NzYkhFSWFGYW5DN2R5X01Hb3VxcHJjQQ?oc=5",
           "date": "2026-10-08",
           "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Nordea lifts Gjensidige target to NOK 316 for Gjensidige stock - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTGprVnBwTXJOcDRxcDdwV21DZzNxRlZuLTlQRWdWd19ianNhS21yMXNPRVNHS05LYUdEVFE0SEhyMlViX2Z0ejIyUXliemxlbGMzSXBMTVlyT3prUDBhN3pRbVliYWJ1UXNzVkp6djZWQ0U2MEt6dV9zVFYyNVBzSXlVMzRzWUxBS3kwUGhXMm5oN2VsMXRabVhUQ05xV2FOblFFcWJzNWpHUzVvRFpodzQ3MWRhLXpxRUhTMm9B?oc=5",
-          "date": "2026-10-08",
+          "titre": "Will Lower Earnings Guidance Change National Bank Holdings' Narrative - Simply Wall Street",
+          "lien": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTVVDd1o3Q3dCQ19UdDRZNVp3SmN5QVpJd0lvRDhRd0g5MGwxQkR0YmlCZnJMSXJDdHFkQ3NjZFlCbkMybl9yZ2ZtS0YzcmNNSDFPQi11bjBMQ3RNOVBPN0lyZnVDQzF0Q2tvR212cXU1ZVMyTTUyRFpSblZQZHZqaWNEY0FNZm90NTJRQTZoYnVKaUlMb2VIODZibGNvXzlhX1dHMVpod3N0MDc5aGwtMHNWOHNKdWItM2lpQWRXMzhWQlhpZmxTLVRta0E5TkhBQXfSAdcBQVVfeXFMTnJxX1ZUbnVqNThYbE1KVUpMcTkwR1hkY2dVNk5kYXRaNVB0b3FyYXhjdmNaWFM5QlNqYjhrekQ5QUxGbEZVZ21ENXpsb3piRFZrcGRuWmNndTBOcUVyYW1INXpKY2JQd25GTmY3U01rQzA5Tk5jRFdYUUFXRGRoNjZpVk1JNEtBSTZVelRZLTRNQ2hYS3piQTZBYzVmMnBiaE1iYTRkT2E0a29WZmRIdGNvdTBjSXIwQ2J0MldteDlDUlJRWVNiMFNVZ1lIYVZHVnhhOGtFZTA?oc=5",
+          "date": "2026-10-07",
+          "source": "Simply Wall Street",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "National Bank Holdings stock sets an October 27 earnings date - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSmdYOGFvc3pmdTNrb3Rkck9xbVZoY1dLU3VidmZOUU95N0w3bmtXRHBJUV9HT21IWUV1STZlLVVqNTZ3anRoclJnX0RpbElWWUlaT1hXRVU3UHNjd1JqdjZuQ2hhNmtJZ04xTGRFTEFPemtWWjBnNm1zV0Vab3Z4XzRfdE54cEN0RHpqMVJPZlB0WV80ZFdUMXdGRWhNUGU2OVJhZV9BWlJ5SFNXN054aF8xUHZKYTBZQTBqXw?oc=5",
+          "date": "2026-10-07",
           "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Jefferies abaisse Gjensidige Forsikring à « conserver » (« acheter »), objectif de cours de 272 couronnes norvégiennes - Zonebourse Suisse",
-          "lien": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbGhqNzBYenVDRnBycGtIQWRoenJWczZVSm1IXzhyYjd3aDhubWNVeVd1QW51R1RqUEdNS0xWbC1ucHNSa0I0V0YtOW1BTll3TU5mZkRaN3hadHo1cnV5Q2pPYXVDaVVpQzN1S0FaUHplbmZNLV9vNmVNT1ZGMjVPcGplSm5rVmtRdkVFelJaQ0Y4RExoRlZucmIzMm50M2lJeElISjcweGo1NGc5a2hEY1RrSERBZ1Zkc3JBRGdiREJjWWZ0NGJtcjQxQWJZOHRiN0FQT3lVSXlMTF8yNGdoWTRJWQ?oc=5",
+          "titre": "National Bank (NYSE:NBHC) Stock Rating Upgraded by Zacks Research - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcU9qWlBUdEZwX1ZsWEdUTXBoMXBtSHMyQ25RM0pzZ0tKaWkxRGFCeHNLaXVhLVprdlZzN2N3VmhfNGFtZF9nZ3poN292djBDczBmMUc3M2lVUU1jUldtSTd5OVFhNVpyTVVDeXFsYURQYmRyWFBBVC1NOGI1dUlQd1RhbUtDU1VOMl9DOHZFaUtwT3c0NXB6WjhSY3lINXVpZ1ZaN2diakw3ZTZscWJSRzJUYzllUy1zQXFjOXd2RzdRekE?oc=5",
+          "date": "2026-10-07",
+          "source": "MarketBeat",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Third-quarter results are expected Oct. 27; National Bank Holdings' call follows Oct. 28. - Stock Titan",
+          "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQTVIQmxmbnNtYVRiWDZFVmZKMVg2Yjh3eGh0X01fajVyOVFmVFdia2tENjc5THZGeXNERVlNVFNsaVZPcGp0YlZoTU5Za0tZY2lBQ3BOVUNQdjdiZmQwNm5lbUE4ZWZyZmRrdnJ5ZGFpWk01Y0RkT3d6dHJ3d25qbUZGOENlUnVLdUgtbDBwVGpJdVRudGJocmI0VW9Ebm1hXzhhMjB0bFkybDJaTWRwV29BUEhrVXd0U0F3?oc=5",
           "date": "2026-10-06",
-          "source": "Zonebourse Suisse",
+          "source": "Stock Titan",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 68
+    "ticket": 69
   },
   "radar_proposes": [
     "MCD",
@@ -198,7 +197,8 @@
     "JEF",
     "LOW",
     "MLM",
-    "GJF.OL"
+    "GJF.OL",
+    "NBHC"
   ],
   "achats": [],
   "historique": [
@@ -6796,6 +6796,107 @@
         ]
       },
       "ticket": 67,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-09",
+      "cree_le": "2026-10-09T10:19+00:00",
+      "liberation": 139.4990201802591,
+      "reserve_pct": null,
+      "score": 93.9849570794852,
+      "ordres": [
+        {
+          "ticker": "GJF.OL",
+          "side": "buy",
+          "quantity": 6.0,
+          "price": 23.08317003004318,
+          "reason": "opportunité radar (score 94)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "GJF.OL",
+        "nom": "Gjensidige Forsikring",
+        "isin": "GJF.OL",
+        "type": "action",
+        "prix": 247.60000610351562,
+        "score": 93.9849570794852,
+        "baisse": 0.13547482060000504,
+        "perf_5ans": 0.6670982342645633,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.18050431111695384,
+        "pos_12m": 0.8273572377158035,
+        "n_12m": 753,
+        "base_moy_12m": 0.1506148551141823,
+        "pire_12m": -0.21213176888043916,
+        "vs_marche_3m": -0.11081678023477792,
+        "devise": "NOK",
+        "prix_eur": 23.08317003004318,
+        "fondamental": 75.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +6.0% sur un an",
+          "bénéfices -7.7% sur un an",
+          "bénéfices attendus +36% sur 12 mois",
+          "analystes : « conserver » (2.5/5, 16 avis)",
+          "objectif moyen des analystes : +16%",
+          "P/E attendu 14.3 (actuel 19.4)",
+          "marge nette 14%",
+          "dette / capitaux propres 23 %"
+        ],
+        "score_global": 82.6,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -11% vs marché)",
+        "vs_marche_3m": -0.11081678023477792,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Gjensidige schedules Q3 2026 results release and investor webcast - TipRanks",
+            "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc0FJV2gxUC1lSWd6b3hJTllVV0xUZlJRanFfRUpENV9hUVdrYm5qM3lCdVdEMWFhRmdyYl9ER09BM3JpMDFac0YzYnB0azI4a1l5TG02dVc3YjRMVEtJbHJuZ1FvYlF3d0w0aHQ4cmc4akUxRktCaFVpNkEwZE51MGd0enJRTjBDT09BY21sVWFLVkgzWFB0N2RBeVQ4eEZmVVV1RkxhWVd3U1pFMnFJREY1VlVMZEJV?oc=5",
+            "date": "2026-10-09",
+            "source": "TipRanks",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Gjensidige recrute deux nouveaux Account Managers - Zonebourse Suisse",
+            "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY2NaQmEwVy1yU0c5VmtpWUljekxaV1llMEtfa2x4S2V5RnFiX2g3T2o3SXZjZmpfS0pNOHA1OEM1YUF6R21xOWdHRng1aHFmdzIyOTFGclJrcWp4S2hMUHNnSjNGNHA2bmQzeVdNVkROc3I2YXdHdzBTaXBNQUQtWXkxWHR0MFNTaV9yYndSQUVsdnFKSlFzY0ljTzEtN2ZXTlAwc0RWMlBQU0FqcHc?oc=5",
+            "date": "2026-10-08",
+            "source": "Zonebourse Suisse",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Gjensidige stock stood at NOK 247.80 as Q3 date nears - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcncySWxfaFh0b2NFcVpiLUk3NzhWVV9yaC04QXozMVFTRmlXZnY0TUdPWDl2MEE3Yk1RM0paNVg1NkRiZ2owSnZGb25oU2NsNFF2NFlyYTJkSUNFRHRnbUlFZzhLT3RFNExuT2lUb09sSzEwRHZVTzJPcnpnRm9oMFlSSUJ6R0dlbkt1bHlYR0xNUzExNEpITV9wc1ItT0RMZGJWVVFZaWR5LWh3NEdYZ3lR?oc=5",
+            "date": "2026-10-08",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Nordea lifts Gjensidige target to NOK 316 for Gjensidige stock - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTGprVnBwTXJOcDRxcDdwV21DZzNxRlZuLTlQRWdWd19ianNhS21yMXNPRVNHS05LYUdEVFE0SEhyMlViX2Z0ejIyUXliemxlbGMzSXBMTVlyT3prUDBhN3pRbVliYWJ1UXNzVkp6djZWQ0U2MEt6dV9zVFYyNVBzSXlVMzRzWUxBS3kwUGhXMm5oN2VsMXRabVhUQ05xV2FOblFFcWJzNWpHUzVvRFpodzQ3MWRhLXpxRUhTMm9B?oc=5",
+            "date": "2026-10-08",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Jefferies abaisse Gjensidige Forsikring à « conserver » (« acheter »), objectif de cours de 272 couronnes norvégiennes - Zonebourse Suisse",
+            "lien": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbGhqNzBYenVDRnBycGtIQWRoenJWczZVSm1IXzhyYjd3aDhubWNVeVd1QW51R1RqUEdNS0xWbC1ucHNSa0I0V0YtOW1BTll3TU5mZkRaN3hadHo1cnV5Q2pPYXVDaVVpQzN1S0FaUHplbmZNLV9vNmVNT1ZGMjVPcGplSm5rVmtRdkVFelJaQ0Y4RExoRlZucmIzMm50M2lJeElISjcweGo1NGc5a2hEY1RrSERBZ1Zkc3JBRGdiREJjWWZ0NGJtcjQxQWJZOHRiN0FQT3lVSXlMTF8yNGdoWTRJWQ?oc=5",
+            "date": "2026-10-06",
+            "source": "Zonebourse Suisse",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 68,
       "decision": "sans réponse"
     }
   ]
