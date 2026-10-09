@@ -18,101 +18,103 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-09",
-    "cree_le": "2026-10-09T05:48+00:00",
-    "liberation": 143.8874030799064,
+    "cree_le": "2026-10-09T06:24+00:00",
+    "liberation": 131.3285151184067,
     "reserve_pct": null,
-    "score": 87.29265840130148,
+    "score": 90.91568190023486,
     "ordres": [
       {
-        "ticker": "GATX",
+        "ticker": "TXT",
         "side": "buy",
-        "quantity": 1.0,
-        "price": 142.8874030799064,
-        "reason": "opportunité radar (score 87)"
+        "quantity": 2.0,
+        "price": 65.16425755920335,
+        "reason": "opportunité radar (score 91)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "GATX",
-      "nom": "GATX",
-      "isin": "GATX",
+      "ticker": "TXT",
+      "nom": "Textron",
+      "isin": "TXT",
       "type": "action",
-      "prix": 160.0800018310547,
-      "score": 87.29265840130148,
-      "baisse": 0.19659279166809296,
-      "perf_5ans": 0.9060255717302932,
+      "prix": 73.00499725341797,
+      "score": 90.91568190023486,
+      "baisse": 0.2750323564046512,
+      "perf_5ans": 0.03311282087768874,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.2277774877843984,
-      "pos_12m": 0.6869565217391305,
-      "n_12m": 460,
-      "base_moy_12m": 0.15714529412389763,
-      "pire_12m": -0.5899462532925313,
-      "vs_marche_3m": -0.12793793441419343,
+      "moy_12m": 0.3388541924218411,
+      "pos_12m": 0.6399394856278366,
+      "n_12m": 661,
+      "base_moy_12m": 0.16169630187440545,
+      "pire_12m": -0.9299181338166103,
+      "vs_marche_3m": -0.2184965469685144,
       "devise": "USD",
-      "prix_eur": 142.8874030799064,
-      "fondamental": 87.5,
+      "prix_eur": 65.16425755920335,
+      "fondamental": 84.0,
       "fondamental_notes": [
-        "chiffre d'affaires +34.8% sur un an",
-        "bénéfices +37.9% sur un an",
-        "bénéfices attendus +11% sur 12 mois",
-        "objectif moyen des analystes : +37%",
-        "P/E attendu 14.2 (actuel 15.9)",
-        "marge nette 18%",
-        "dette / capitaux propres 348 %"
+        "chiffre d'affaires +3.0% sur un an",
+        "bénéfices +5.2% sur un an",
+        "bénéfices attendus +37% sur 12 mois",
+        "analystes : « achat » (2.2/5, 15 avis)",
+        "objectif moyen des analystes : +39%",
+        "P/E attendu 10.1 (actuel 13.8)",
+        "marge nette 6%",
+        "dette / capitaux propres 52 %",
+        "🏷️ braderie probable : -22% vs marché en 3 mois, alors que les bénéfices attendus montent (+37%) et que les analystes restent à l'achat (+8 pts)"
       ],
-      "score_global": 87.4,
-      "braderie": false
+      "score_global": 86.8,
+      "braderie": true
     },
     "actualites": {
-      "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -13% vs marché)",
-      "vs_marche_3m": -0.12793793441419343,
+      "verdict": "orange",
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -22% vs marché)",
+      "vs_marche_3m": -0.2184965469685144,
       "alertes": [],
       "recents": [
         {
-          "titre": "GATX Corporation Sets Date for 2026 Third-Quarter Earnings Release and Conference Call - Business Wire",
-          "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbVVudWpQZm5YQmFWOTA4bUhRQ1ViS0RmeWtTckRmbU05bm9oNzVxU0xNNEN3VEJqcVgtZ3U5bG5CMHltSTJ5azdlckc0bkRFX01BTnE0ZTFuWXlRN1prZmJNWVpmOXpySE1vZElSNlM2dm11cHFYdHFsWWFMRlpkS1pYLTRaak5UMG9XdTNNU2xHQ3hJeUNZVV9VVmZFM1Itc2pNNFgtR2ZSMzBNYXhUV2xEX0ZIM0ptN2pSVU1VZHI1ZmNoRW9yZnp1aXF1WVp4aXdKeFBOSWRRUXM?oc=5",
+          "titre": "Textron Aviation Has Launched Paid Youth Apprenticeship Cohorts in Kansas - Aviation International News",
+          "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPeS1mR1IwTU1vVm16M2ZiZUlxZ3VPTlR2RzV0OExOcUxyUkNHdWdKcmU0ZXlJdEZkdVUzSlVJWDF3bU80M3ltS1k0Q3g5VnBPZElpblpvaDBMdElzUkRlUkJBZjd5dDBzSUE0eFJvV1pnbTluYTlHR21LZHRFN3E5SkR1WVRhemw1Q0Zsb1pJcGdnMzdUUFQ0b2xQSDdNVkVYSFFWa1VaejNzYWtCZmFObms0a2lobzhMQkRDTmpn?oc=5",
           "date": "2026-10-08",
-          "source": "Business Wire",
+          "source": "Aviation International News",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "GATX Maintained by Citigroup -- Price Target Raised to $216 - GuruFocus",
-          "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMFhJYnN1V2haWllzcHdDQktPZkFqMldLWXc1Vk1DWXhfeWxPS2xaUWtPWHp4M1RnVEdtSUhDeWswVWhIcm9hMUNsLVBRckpmamVTaHJlYWxKTFkyOWVWa1RWaUJVUGx3VjYtckhzaU9lN1Fnb2xYZ2JwQ3FnRkRvcjhoazNRM1BiSm1vYUR0b05QOHBWaTVWdGFB?oc=5",
+          "titre": "Textron wins $230m US Navy order for two Ship-to-Shore Connectors - Naval Technology",
+          "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkMmpiN2RRV3NMVW53Z09fMXl1WkZ4VVR3Wkd0WkFDUWt0OEFEcFFJWlFDRExQZm5lNHRseDk0M0JnYlNDSnR2Ylh1U2t4aFF6cE16cTJDWWk3Sk9kYTE0NHpNN29tcUJNcmJYWlBQenBPUQ?oc=5",
           "date": "2026-10-08",
-          "source": "GuruFocus",
+          "source": "Naval Technology",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "GATX stock fell 5.1 percent while analysts kept Buy ratings - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYlIyaU14S2szclpiVGI1WVNZYlg0MlQxdExzejJEQ0s2QVpNQkxKM2l3UnNjOXpTOXRCQlNPWHQ4TDJXTUdPTFk4UktGLXZWTjhVdW40T0tUNm1WVEl0OGktck51b2JJQS1ubWpKWE5ydVYxMXJJVktXTkM4eG44SDZrZ01EbG1HUE1pXzdseTFfODhfMnJGQmREN2dfU21KT3VMbW1WV3k4bHhQQm5FX2h3V1NacWhEclE?oc=5",
+          "titre": "Paraguayan air force becomes first South American operator of Cessna SkyCourier - FlightGlobal",
+          "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQTNuRGZiSVB0M19YTll1Ymk2cnBNejQwb19pcGRYZm9RUmJTUXhGcEx6TGM3Q0RmbDZWMzlFeElCR2NpRm1RYlFOalgzak1nNVo3d2tBQTh3aGZxbXQ0cHdrVWhQS0xOd3JKSWVBQmM4WVVGY09ndFJoNVBTV2RqS01uUll5MWlFTWhRakdRX29iOHQ4dzZTeHJvX1Jmc3c1a2xaQV9HcU8xamtlUlJoYnF3RDJRbXJsOVRFZEd5RTRtUXc?oc=5",
+          "date": "2026-10-08",
+          "source": "FlightGlobal",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Textron Is Maintained at Neutral by Citigroup - Moomoo",
+          "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbWlSZ0Y4WnJmclphdGxrcXJOOUs1ekFjOEVLNHh6T2NPUDZiR0VINzdJdHA1ODZnYVpxNGp6TXY2V01KNWI2RWpwNE85RTFLTmstNGhGcHRKSzhYX2JHZENRZDI5bVZDbks3NUVtZHJxN2d3TVIwMVZqLVNlVUZVYzgtRW9wazZSeGJYNVJuNFJVMFU?oc=5",
+          "date": "2026-10-08",
+          "source": "Moomoo",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Citi cuts target for Textron stock from USD 99 to USD 86 - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOa01NVVRBemY2UFJJenJLeG5vRUROUE9DX050VE5XTEg3bjdRMG5NTjRCcVA4MW1UMVZhVHFnS3BpX1BHdC1hc0FOSC05QmFCV0poUnJJUlJITWZXTHhOS0lvUkkyWTZnSHNtZm4wbDJYOEZQVkh2ZEZtaEk2bGpCTDNBcUVTWWp4VFBvWFVCWU1DUVFVdEtqWUNyR193VTFocERpbzJtb21kbkk5UGF2WXRscTBTdw?oc=5",
           "date": "2026-10-08",
           "source": "AD HOC NEWS",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Is GATX Corp (GATX) a Bargain After 4.4% Drop? GF Value Says Und - GuruFocus",
-          "lien": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMHM0NFc5NmY2cnVpNmMyeUVoaUt6SjlxcWdPTGhkRkVuTVpSX3Y2bVc3bVpHaWFQRml3WlE2Yk82WXdmSzdBbzk2WjI2cWhfaDIyeTBuc2lHdUtPaTNmak1EcllxNnZ6cVpuY3RSYUhKeXgzTDQtb3hLTTllczFONXdjSEI5cEswVzMtbVdVbXdXdXVxbmdwMnJmRjhTTFcwUFNEVW1BSldOQQ?oc=5",
-          "date": "2026-10-07",
-          "source": "GuruFocus",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "GATX: Strong Demand And Utilization But Fairly Valued - Seeking Alpha",
-          "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeVR2b2lzUXdKUzN4eU1XSFVPX2hkYlpZS0JqWlhGQ3p3d0dFbTJWMDUwaXBuZTZNaFpES2xrS0lHa01nd2hyWUh4aGZTWTEzdGZoWmxpck8yRmQ5R3dTWF9CQmJ2U0lOZHNoTDg1YjhteHEwQU9DZ19hQ2VrUUJIcjF2cmFmaG5MdlYxVU1aOEE0VkMyYWhQeg?oc=5",
-          "date": "2026-10-06",
-          "source": "Seeking Alpha",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 61
+    "ticket": 62
   },
   "radar_proposes": [
     "MCD",
@@ -188,7 +190,8 @@
     "0700.HK",
     "ORCL",
     "ALNY",
-    "GATX"
+    "GATX",
+    "TXT"
   ],
   "achats": [],
   "historique": [
@@ -6081,6 +6084,106 @@
         ]
       },
       "ticket": 60,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-09",
+      "cree_le": "2026-10-09T05:48+00:00",
+      "liberation": 143.8874030799064,
+      "reserve_pct": null,
+      "score": 87.29265840130148,
+      "ordres": [
+        {
+          "ticker": "GATX",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 142.8874030799064,
+          "reason": "opportunité radar (score 87)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "GATX",
+        "nom": "GATX",
+        "isin": "GATX",
+        "type": "action",
+        "prix": 160.0800018310547,
+        "score": 87.29265840130148,
+        "baisse": 0.19659279166809296,
+        "perf_5ans": 0.9060255717302932,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.2277774877843984,
+        "pos_12m": 0.6869565217391305,
+        "n_12m": 460,
+        "base_moy_12m": 0.15714529412389763,
+        "pire_12m": -0.5899462532925313,
+        "vs_marche_3m": -0.12793793441419343,
+        "devise": "USD",
+        "prix_eur": 142.8874030799064,
+        "fondamental": 87.5,
+        "fondamental_notes": [
+          "chiffre d'affaires +34.8% sur un an",
+          "bénéfices +37.9% sur un an",
+          "bénéfices attendus +11% sur 12 mois",
+          "objectif moyen des analystes : +37%",
+          "P/E attendu 14.2 (actuel 15.9)",
+          "marge nette 18%",
+          "dette / capitaux propres 348 %"
+        ],
+        "score_global": 87.4,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -13% vs marché)",
+        "vs_marche_3m": -0.12793793441419343,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "GATX Corporation Sets Date for 2026 Third-Quarter Earnings Release and Conference Call - Business Wire",
+            "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbVVudWpQZm5YQmFWOTA4bUhRQ1ViS0RmeWtTckRmbU05bm9oNzVxU0xNNEN3VEJqcVgtZ3U5bG5CMHltSTJ5azdlckc0bkRFX01BTnE0ZTFuWXlRN1prZmJNWVpmOXpySE1vZElSNlM2dm11cHFYdHFsWWFMRlpkS1pYLTRaak5UMG9XdTNNU2xHQ3hJeUNZVV9VVmZFM1Itc2pNNFgtR2ZSMzBNYXhUV2xEX0ZIM0ptN2pSVU1VZHI1ZmNoRW9yZnp1aXF1WVp4aXdKeFBOSWRRUXM?oc=5",
+            "date": "2026-10-08",
+            "source": "Business Wire",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "GATX Maintained by Citigroup -- Price Target Raised to $216 - GuruFocus",
+            "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMFhJYnN1V2haWllzcHdDQktPZkFqMldLWXc1Vk1DWXhfeWxPS2xaUWtPWHp4M1RnVEdtSUhDeWswVWhIcm9hMUNsLVBRckpmamVTaHJlYWxKTFkyOWVWa1RWaUJVUGx3VjYtckhzaU9lN1Fnb2xYZ2JwQ3FnRkRvcjhoazNRM1BiSm1vYUR0b05QOHBWaTVWdGFB?oc=5",
+            "date": "2026-10-08",
+            "source": "GuruFocus",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "GATX stock fell 5.1 percent while analysts kept Buy ratings - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYlIyaU14S2szclpiVGI1WVNZYlg0MlQxdExzejJEQ0s2QVpNQkxKM2l3UnNjOXpTOXRCQlNPWHQ4TDJXTUdPTFk4UktGLXZWTjhVdW40T0tUNm1WVEl0OGktck51b2JJQS1ubWpKWE5ydVYxMXJJVktXTkM4eG44SDZrZ01EbG1HUE1pXzdseTFfODhfMnJGQmREN2dfU21KT3VMbW1WV3k4bHhQQm5FX2h3V1NacWhEclE?oc=5",
+            "date": "2026-10-08",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Is GATX Corp (GATX) a Bargain After 4.4% Drop? GF Value Says Und - GuruFocus",
+            "lien": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMHM0NFc5NmY2cnVpNmMyeUVoaUt6SjlxcWdPTGhkRkVuTVpSX3Y2bVc3bVpHaWFQRml3WlE2Yk82WXdmSzdBbzk2WjI2cWhfaDIyeTBuc2lHdUtPaTNmak1EcllxNnZ6cVpuY3RSYUhKeXgzTDQtb3hLTTllczFONXdjSEI5cEswVzMtbVdVbXdXdXVxbmdwMnJmRjhTTFcwUFNEVW1BSldOQQ?oc=5",
+            "date": "2026-10-07",
+            "source": "GuruFocus",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "GATX: Strong Demand And Utilization But Fairly Valued - Seeking Alpha",
+            "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeVR2b2lzUXdKUzN4eU1XSFVPX2hkYlpZS0JqWlhGQ3p3d0dFbTJWMDUwaXBuZTZNaFpES2xrS0lHa01nd2hyWUh4aGZTWTEzdGZoWmxpck8yRmQ5R3dTWF9CQmJ2U0lOZHNoTDg1YjhteHEwQU9DZ19hQ2VrUUJIcjF2cmFmaG5MdlYxVU1aOEE0VkMyYWhQeg?oc=5",
+            "date": "2026-10-06",
+            "source": "Seeking Alpha",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 61,
       "decision": "sans réponse"
     }
   ]
