@@ -18,101 +18,102 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-09",
-    "cree_le": "2026-10-09T06:55+00:00",
-    "liberation": 134.18038022768374,
+    "cree_le": "2026-10-09T07:49+00:00",
+    "liberation": 143.31613965091103,
     "reserve_pct": null,
-    "score": 87.52051539370336,
+    "score": 87.37697728277584,
     "ordres": [
       {
-        "ticker": "MWA",
+        "ticker": "SRE",
         "side": "buy",
-        "quantity": 7.0,
-        "price": 19.02576860395482,
-        "reason": "opportunité radar (score 88)"
+        "quantity": 2.0,
+        "price": 71.15806982545551,
+        "reason": "opportunité radar (score 87)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "MWA",
-      "nom": "Mueller Water Products",
-      "isin": "MWA",
+      "ticker": "SRE",
+      "nom": "Sempra",
+      "isin": "SRE",
       "type": "action",
-      "prix": 21.315000534057617,
-      "score": 87.52051539370336,
-      "baisse": 0.2944347901411788,
-      "perf_5ans": 0.49905665072306893,
+      "prix": 79.72000122070312,
+      "score": 87.37697728277584,
+      "baisse": 0.1883299781287684,
+      "perf_5ans": 0.4848775068354918,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.4378880597644766,
-      "pos_12m": 0.819672131147541,
-      "n_12m": 183,
-      "base_moy_12m": 0.18231196307486602,
-      "pire_12m": -0.32251914138855775,
-      "vs_marche_3m": -0.16304014236375253,
+      "moy_12m": 0.1604166340382099,
+      "pos_12m": 0.8421621621621621,
+      "n_12m": 925,
+      "base_moy_12m": 0.13733434162782168,
+      "pire_12m": -0.2753435336949991,
+      "vs_marche_3m": -0.1673235554878727,
       "devise": "USD",
-      "prix_eur": 19.02576860395482,
+      "prix_eur": 71.15806982545551,
       "fondamental": 85.0,
       "fondamental_notes": [
-        "chiffre d'affaires +4.1% sur un an",
-        "bénéfices +30.3% sur un an",
-        "bénéfices attendus +12% sur 12 mois",
-        "objectif moyen des analystes : +38%",
-        "P/E attendu 13.5 (actuel 15.1)",
-        "marge nette 15%",
-        "dette / capitaux propres 40 %"
+        "chiffre d'affaires -0.1% sur un an",
+        "bénéfices +71.3% sur un an",
+        "bénéfices attendus +60% sur 12 mois",
+        "analystes : « achat fort » (1.6/5, 18 avis)",
+        "objectif moyen des analystes : +25%",
+        "P/E attendu 14.4 (actuel 23.0)",
+        "marge nette 17%",
+        "dette / capitaux propres 85 %"
       ],
       "score_global": 86.0,
       "braderie": false
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -16% vs marché)",
-      "vs_marche_3m": -0.16304014236375253,
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -17% vs marché)",
+      "vs_marche_3m": -0.1673235554878727,
       "alertes": [],
       "recents": [
         {
-          "titre": "Mueller Water Products, Inc. (MWA) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE83R3lDRFZMdEp0UklVdTAxQ1hKZEdwaVh0a3Z6S3ZoT0JEa1Fzek02dkZiU25WRmVfQ09VSmFHdUhodzM5Y29UVl9uR2dSUjZh?oc=5",
-          "date": "2026-10-07",
-          "source": "Yahoo! Finance Canada",
+          "titre": "Sempra stock pre-market at EUR 71.37: minus 0.57 percent - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYmdudzdaR1pyYlZxMFJMbGt0UnY5aTFJX09rdS1JWS10aEUxdG1XNkM1WkJSOFduSzNvcmVEbVA0MjlPSzF5bm9iLXI5Tk5rUURqSHdWaS00S1hsTTBCdkx5dnh1ZTRPWWR2ZkNjNkJFWGRIajBxWDl6TDRWVlVJNHlJb2loQS1PSDRmM0xMNUI3eDBQLXQ4RGs1MVN3YlFOVy1QNG9zeUZWN1hyWGFDYk80dw?oc=5",
+          "date": "2026-10-09",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Mueller Water Products, Inc. (MWA) stock price, news, quote and history - Yahoo Finance UK",
-          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5uSThlSU9hRnBpNmxDeEd6MmFET3dGVUZTNWJlREV5TUFzUVFzczJhTzNBQTJOc2ZlM0xjTVV3STBmX3RXRS1rUnBLcDR5dmlu?oc=5",
-          "date": "2026-10-06",
-          "source": "Yahoo Finance UK",
+          "titre": "Sempra Begins Permitting Process for Major LNG Expansion in Texas - EnergyNow.com",
+          "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVWlwWU5WXzJOd2ZaXzdudHk0cWJXLWhnWng0aFV5MndTSlFId0hGVWc5RzQ1QURtb0NCemlyYU9kWWxqSHBXU0VkWVdlQUJvSWF5a1BsSjZ1MmE5YUNYSlBFQWdvSmRHaUhvTEVTbFhDZFFMeUd2cXJkVk16ZE5EeHJ0TmZIWVZJZV9zTG5mRlF4b3VCSGZBY1JueGs?oc=5",
+          "date": "2026-10-08",
+          "source": "EnergyNow.com",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Mueller Water Products (MWA) Stock Looks Below Fair Value As Shares Rose 76% - Simply Wall Street",
-          "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQWll0bUN3NWZuU19Wcy15eGs0R2RtaWw1SW9PWWFmeEVfNGR2UmdpZnpEanl6WDVyUGZUa1BfVmRhV0pZNmxHams2ZWpHNGlfOEQ0d20tRDZoZ1BzMXNyNnN6WllrUGVtUmlNSTdFZ1JMSGVNUzg5YXA1YTl6em5hcElqN2Q0c3o4RWYxdHpyOGdqTTcyTkZmSHNqSG5GUnVaMWc2Rks5YjhySXY3Wm15ckQ0Y3ZsQlF5QjdjX0thUFR1eVRmUmI5TjBWSHRiRnRydkhSY2tQM3pFTWvSAeABQVVfeXFMTk1rRmpXTzZGNkVCa2JDbVFDNHNNYXh5N0xoSUItaDBXUDRYTVlIVE53OEh6bTBSWHZGSTNpSGNXRnU1LWNkTl95RFltTHQyelRfaWNSZFdTcUMxa0g1Q2l6U21sVTRPcEZyQ21VdmVIX1lhYXh3cE55MWtHa0tYOW9hNjZDLVVSUDdETHZleHFiMzNuWV9kUnlPRW9VOERVTWMtU2xUMVFQQVh1SG9oc2NvRHgyWElSOTgtV2ZBYnJQUTVkQ2hOU2xTNm1IeDNoOUEza3ZQbUJFaGVLUUItMHc?oc=5",
-          "date": "2026-10-06",
+          "titre": "Does New Headquarters Opening Change The Bull Case For Sempra (SRE)? - Simply Wall Street",
+          "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPX0dMUl9wWlBXYWc0MnVkN2xuNlpXMXdrajVrLUhvWjhmT3VGU25BYnNZZmNmTTU0Tm5qWlE4ZWR0THFmODFJT3MzSkc5R3Bvekp1QndvOHJOVUppNDNETUxVanNXeEF6aUlRZjE0SGp2V0RQTHQwNWREbFhaSnc5R1I1NUpKMzA1aWdUVTBjcjRvS1JjalB3Z0FwUnBWZGZPN09tRHZ1MmNCTXBZYTRVNWUyeFZQUXY0eldHMUowUDjSAcYBQVVfeXFMTkwwVjVKeGhCcGVMbHZnNmRPVHhiVlBkaURrUWhZNHRyeFppc1ZaR2UxUTJoNzczMHJmV3FJV2pNdXB6U2RsalFFa0tBZXhuZlYtazM1NlZ5N3EtLWpJZUFrZmRzUlU3bUJwb091bTJ2TEhwQklZQ2tXMElTX3Jpc0NoSEZ4Y1BoZzdGV3p1cjVBR2tHWnRLOWJnY19YWjk2ZG1yVVFWVnZKVXBNdEY0Y1N5Q1lHV3NKRWJTWWxYOC1FRV8zOHV3?oc=5",
+          "date": "2026-10-08",
           "source": "Simply Wall Street",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "MUELLER WATER PRODUCTS (MWA) Stock forecasts - Yahoo Finance UK",
-          "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQjFuS2dCOUFMN0hDMkl1NWFCT3hObWxBbkxEa3hUWXpCRkR2U2N2QjVKRnNBY3A2Ynh1aVZLb1NhT3hxaVZ6V2ZPeDZhNHRaT3ZsaUxTT19SSlJ1MmZTOS1XcExDcXE3clpmanozU2xMbzNCcE5BczdjR1lUUUhmQU13S0tPRFVJMDFhWk5Ecm55bEk?oc=5",
-          "date": "2026-10-06",
-          "source": "Yahoo Finance UK",
+          "titre": "Morgan Stanley cut target for Sempra stock to USD 100.00 - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZzRoSS01ZTYtelMtY1BBYUJQelQ2RmY0MXQyc0o4c3Z0U1BhaFJ3dXhTbkFYcDZxZDJiUHZmNmNYcUVLbnUtVkc4bWhqTjRZdzhFNGRCOGFTSHhoWXZFTVU1bGdfekFHbEl5dlBNZV9lNXpsamRpQTZNQy1WTEp1YmU5U1NSaldkWUJMb2lfNXExT3Q1WUVsQjlIMGZEaTdNU25RQ3EtOVViejVFT3c4Y1F5X2lyMTc2dXJv?oc=5",
+          "date": "2026-10-08",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "MWA: Municipal Demand Looks Durable, Free Cash Flow Is The Real Constraint - Simply Wall Street",
-          "lien": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxQYjdCZFFfVFN1SkRXYTVVNFhqMW1mNEVibm9YV1YwWmRUVmEyQlpFd3hXSjA4ZU9Hem51azFub0tkSkY0UG9hNkhjVm1HdGVpSVdUeGhtSFNnQXpNVmFjTGdnT2I3QW9Ed1FSd1Q0eEpNdnJPWERqZF9pdXB1RUlvbENMNWtONnQ5Z0tlNDdVT2dLam1IcU1nbnhPeUtoNHB1Z042R0FtclJjQXBWNGRzaVhiUnBiYUJMVmJObEpKeGJKZVA4WlBxLXNreEFWdkNMUVZZTWdJVmJoZXFOcXhtUmxtTXRqRnBCZy15SVdSM0E3SzlvNnpsVjEtOVczTnk5a1FpMm42OWlfVUNfT0dQbDJ0bVhJWVNtdWRRb1BHMkdQWjlHSEtBemEyODhJb1JOMVkxamlOV2pfYUlqX1lodVJHNUFtRFZiMXJSU3pSRXdlVFpkUERodWliVWhuTHhfTVE?oc=5",
-          "date": "2026-10-04",
-          "source": "Simply Wall Street",
+          "titre": "Sempra stock trades at EUR 71.29 as volume runs 78.7 percent below average - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWFhPbWFtZF9ZM1ZVVHhsNWMxdll1R3pKSkNoSHVZamxQR0xRZjBBMVpQaktkRjdESnpHeElEOS1ON05XQzUxN1loZkF4NVM4OFFKQmJXekpEUTIwU3NyZkJDTVdqQVN2Y2JFNGNhOFE1Q3RBVThWcjY1bG80bkpUWnhnekJiTlhsaGUzbTBZaFJ1M2F1aUJfcWJ6MEllRXBDNEhhcDd1Yk52NFlTd0Q5cVhGTGctU080TFM3TVlXQWd4cW1Dd1c4SnhxM2dBd1hFM0NJ?oc=5",
+          "date": "2026-10-08",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 63
+    "ticket": 64
   },
   "radar_proposes": [
     "MCD",
@@ -190,7 +191,8 @@
     "ALNY",
     "GATX",
     "TXT",
-    "MWA"
+    "MWA",
+    "SRE"
   ],
   "achats": [],
   "historique": [
@@ -6285,6 +6287,106 @@
         ]
       },
       "ticket": 62,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-09",
+      "cree_le": "2026-10-09T06:55+00:00",
+      "liberation": 134.18038022768374,
+      "reserve_pct": null,
+      "score": 87.52051539370336,
+      "ordres": [
+        {
+          "ticker": "MWA",
+          "side": "buy",
+          "quantity": 7.0,
+          "price": 19.02576860395482,
+          "reason": "opportunité radar (score 88)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "MWA",
+        "nom": "Mueller Water Products",
+        "isin": "MWA",
+        "type": "action",
+        "prix": 21.315000534057617,
+        "score": 87.52051539370336,
+        "baisse": 0.2944347901411788,
+        "perf_5ans": 0.49905665072306893,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.4378880597644766,
+        "pos_12m": 0.819672131147541,
+        "n_12m": 183,
+        "base_moy_12m": 0.18231196307486602,
+        "pire_12m": -0.32251914138855775,
+        "vs_marche_3m": -0.16304014236375253,
+        "devise": "USD",
+        "prix_eur": 19.02576860395482,
+        "fondamental": 85.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +4.1% sur un an",
+          "bénéfices +30.3% sur un an",
+          "bénéfices attendus +12% sur 12 mois",
+          "objectif moyen des analystes : +38%",
+          "P/E attendu 13.5 (actuel 15.1)",
+          "marge nette 15%",
+          "dette / capitaux propres 40 %"
+        ],
+        "score_global": 86.0,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -16% vs marché)",
+        "vs_marche_3m": -0.16304014236375253,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Mueller Water Products, Inc. (MWA) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+            "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE83R3lDRFZMdEp0UklVdTAxQ1hKZEdwaVh0a3Z6S3ZoT0JEa1Fzek02dkZiU25WRmVfQ09VSmFHdUhodzM5Y29UVl9uR2dSUjZh?oc=5",
+            "date": "2026-10-07",
+            "source": "Yahoo! Finance Canada",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Mueller Water Products, Inc. (MWA) stock price, news, quote and history - Yahoo Finance UK",
+            "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5uSThlSU9hRnBpNmxDeEd6MmFET3dGVUZTNWJlREV5TUFzUVFzczJhTzNBQTJOc2ZlM0xjTVV3STBmX3RXRS1rUnBLcDR5dmlu?oc=5",
+            "date": "2026-10-06",
+            "source": "Yahoo Finance UK",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Mueller Water Products (MWA) Stock Looks Below Fair Value As Shares Rose 76% - Simply Wall Street",
+            "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQWll0bUN3NWZuU19Wcy15eGs0R2RtaWw1SW9PWWFmeEVfNGR2UmdpZnpEanl6WDVyUGZUa1BfVmRhV0pZNmxHams2ZWpHNGlfOEQ0d20tRDZoZ1BzMXNyNnN6WllrUGVtUmlNSTdFZ1JMSGVNUzg5YXA1YTl6em5hcElqN2Q0c3o4RWYxdHpyOGdqTTcyTkZmSHNqSG5GUnVaMWc2Rks5YjhySXY3Wm15ckQ0Y3ZsQlF5QjdjX0thUFR1eVRmUmI5TjBWSHRiRnRydkhSY2tQM3pFTWvSAeABQVVfeXFMTk1rRmpXTzZGNkVCa2JDbVFDNHNNYXh5N0xoSUItaDBXUDRYTVlIVE53OEh6bTBSWHZGSTNpSGNXRnU1LWNkTl95RFltTHQyelRfaWNSZFdTcUMxa0g1Q2l6U21sVTRPcEZyQ21VdmVIX1lhYXh3cE55MWtHa0tYOW9hNjZDLVVSUDdETHZleHFiMzNuWV9kUnlPRW9VOERVTWMtU2xUMVFQQVh1SG9oc2NvRHgyWElSOTgtV2ZBYnJQUTVkQ2hOU2xTNm1IeDNoOUEza3ZQbUJFaGVLUUItMHc?oc=5",
+            "date": "2026-10-06",
+            "source": "Simply Wall Street",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "MUELLER WATER PRODUCTS (MWA) Stock forecasts - Yahoo Finance UK",
+            "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQjFuS2dCOUFMN0hDMkl1NWFCT3hObWxBbkxEa3hUWXpCRkR2U2N2QjVKRnNBY3A2Ynh1aVZLb1NhT3hxaVZ6V2ZPeDZhNHRaT3ZsaUxTT19SSlJ1MmZTOS1XcExDcXE3clpmanozU2xMbzNCcE5BczdjR1lUUUhmQU13S0tPRFVJMDFhWk5Ecm55bEk?oc=5",
+            "date": "2026-10-06",
+            "source": "Yahoo Finance UK",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "MWA: Municipal Demand Looks Durable, Free Cash Flow Is The Real Constraint - Simply Wall Street",
+            "lien": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxQYjdCZFFfVFN1SkRXYTVVNFhqMW1mNEVibm9YV1YwWmRUVmEyQlpFd3hXSjA4ZU9Hem51azFub0tkSkY0UG9hNkhjVm1HdGVpSVdUeGhtSFNnQXpNVmFjTGdnT2I3QW9Ed1FSd1Q0eEpNdnJPWERqZF9pdXB1RUlvbENMNWtONnQ5Z0tlNDdVT2dLam1IcU1nbnhPeUtoNHB1Z042R0FtclJjQXBWNGRzaVhiUnBiYUJMVmJObEpKeGJKZVA4WlBxLXNreEFWdkNMUVZZTWdJVmJoZXFOcXhtUmxtTXRqRnBCZy15SVdSM0E3SzlvNnpsVjEtOVczTnk5a1FpMm42OWlfVUNfT0dQbDJ0bVhJWVNtdWRRb1BHMkdQWjlHSEtBemEyODhJb1JOMVkxamlOV2pfYUlqX1lodVJHNUFtRFZiMXJSU3pSRXdlVFpkUERodWliVWhuTHhfTVE?oc=5",
+            "date": "2026-10-04",
+            "source": "Simply Wall Street",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 63,
       "decision": "sans réponse"
     }
   ]
