@@ -18,101 +18,61 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-09",
-    "cree_le": "2026-10-09T16:49+00:00",
-    "liberation": 138.1212013516142,
+    "cree_le": "2026-10-09T17:47+00:00",
+    "liberation": 112.5374412855943,
     "reserve_pct": null,
-    "score": 89.02564791331245,
+    "score": 85.29190332911779,
     "ordres": [
       {
-        "ticker": "ALG",
+        "ticker": "WMS",
         "side": "buy",
         "quantity": 1.0,
-        "price": 137.1212013516142,
-        "reason": "opportunité radar (score 89)"
+        "price": 111.5374412855943,
+        "reason": "opportunité radar (score 85)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "ALG",
-      "nom": "Alamo Group",
-      "isin": "ALG",
+      "ticker": "WMS",
+      "nom": "Advanced Drainage Systems",
+      "isin": "WMS",
       "type": "action",
-      "prix": 153.6199951171875,
-      "score": 89.02564791331245,
-      "baisse": 0.2940007270621975,
-      "perf_5ans": 0.11180647514596287,
+      "prix": 124.86000061035156,
+      "score": 85.29190332911779,
+      "baisse": 0.28523261445978354,
+      "perf_5ans": 0.175737928546279,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.3013936426246012,
-      "pos_12m": 0.8597701149425288,
-      "n_12m": 870,
-      "base_moy_12m": 0.1677474683005248,
-      "pire_12m": -0.5001371280261735,
-      "vs_marche_3m": -0.06534600323277862,
+      "moy_12m": 0.5605022909230957,
+      "pos_12m": 0.9006211180124224,
+      "n_12m": 322,
+      "base_moy_12m": 0.3501326622977413,
+      "pire_12m": -0.2652587906571845,
+      "vs_marche_3m": -0.1793204052667774,
       "devise": "USD",
-      "prix_eur": 137.1212013516142,
-      "fondamental": 72.5,
+      "prix_eur": 111.5374412855943,
+      "fondamental": 95.0,
       "fondamental_notes": [
-        "chiffre d'affaires +7.6% sur un an",
-        "bénéfices -0.8% sur un an",
-        "bénéfices attendus +46% sur 12 mois",
-        "objectif moyen des analystes : +33%",
-        "P/E attendu 12.7 (actuel 18.5)",
-        "marge nette 6%",
-        "dette / capitaux propres 23 %"
+        "chiffre d'affaires +20.6% sur un an",
+        "bénéfices +18.8% sur un an",
+        "bénéfices attendus +25% sur 12 mois",
+        "analystes : « achat fort » (1.2/5, 11 avis)",
+        "objectif moyen des analystes : +46%",
+        "P/E attendu 17.0 (actuel 21.3)",
+        "marge nette 14%",
+        "dette / capitaux propres 97 %"
       ],
-      "score_global": 79.1,
+      "score_global": 91.1,
       "braderie": false
     },
     "actualites": {
-      "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -7% vs marché)",
-      "vs_marche_3m": -0.06534600323277862,
+      "verdict": "inconnu",
+      "resume": "actualités indisponibles (HTTPError)",
+      "vs_marche_3m": -0.1793204052667774,
       "alertes": [],
-      "recents": [
-        {
-          "titre": "Alamo Group (ALG) Could Be 21% Undervalued After Reaffirming Its Dividend - Simply Wall Street",
-          "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPanBQV053UDUxclVDX3hiWm5CR0xGRXZURXVmckVSMkU1cUozZ1lhZjRvR0x4SkZ6Vkh5QUFqVUctWjNraTBBMjZqVHBWemRsUnB6b1FabVJ4LXBUcTlpcGsxX2dRRFZUZk4xSUg0X2VBWmhlb0E1N0gtNDR1ZWVHVklpQTd1aUdEYXlWQUFPbHVfUEhqMGRUcGY4MGxIa0tPQlhlVGJROFRUTVExNks1ck1SRGVRb0ZkQWdRWXN4NlN0dnpESGVQcEliWDPSAdIBQVVfeXFMUFJWczZheVRTR1VVZGRTNDNRd19ueTc3cVBKZXc2cXZ3c0ZCMnNmMnNlQ1U5T0dhTVUtd2xYTV83dDlyenczaFY0RVJEbnp1R2tCOGF5SzNwMW9ZSXVCUWw2WUNndWViMUJCUUZMWVI1cFRtd0EwajctUUVHZUtEQUtHVFF0d3R6N0w5YVhpT3hZRzkyYllNUzcwOW1SQ1pyWVMwcENzRnRhMDBMUTRyeWR4R3BYelp0dUFfXy0wekZsRjlicS1mQmZOUEItSU1XUjFn?oc=5",
-          "date": "2026-10-07",
-          "source": "Simply Wall Street",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "An investment manager reports 484,355 Alamo Group (ALG) shares held for clients. - Stock Titan",
-          "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYURXSHY3SzVCUk1tLXNwZUVwMV9lUGJ3UGdQYmZveDZzcWxqNVFkSmVBREp2eGFvTVNXeHdHclh0cFh3aDVQMXN0dTRBVnlvUlJ0ZXNERVBjUnhDN1pMSm51ZUpyY3N3d3dWU09QcllVQXctR0tOS1JiWFAtaDlrclRLTkVLQlpsQUFmYl9tc0R1WGxVZWtVR196cFFuTHpWQzFCWU9SUVQ4Uzdzc1d1eV9IUFhSS2JwYlBNM1RGTVhpQk9xVUtYYQ?oc=5",
-          "date": "2026-10-07",
-          "source": "Stock Titan",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Alamo Group, Inc. (ALG) Stock forecasts - Yahoo Finance UK",
-          "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVmtWMFRmR1VjTkxmWVBBQTJsbGV2QWYwMGVQRHh0bFFZVDItb0VXZkdZVmVBYkhCRVBicEZoWHNTbmoyanBPazVnYmFWRWs5VTZ3ZEZ1dlVBWjZ0c29yYTgxTE51ZTJ0NnJmRmpNRXNvQjhTLVJiY0Y3RGRGMFhjZFB2a1FneEpjczBZYkY3NE9DNlE?oc=5",
-          "date": "2026-10-07",
-          "source": "Yahoo Finance UK",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Alamo Group (NYSE:ALG) - Stock Analysis - Simply Wall Street",
-          "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kM0dJWElJNzNvVTRoU0pOd2QyUFFNU2FwWkNqRDFsUjNyUndVckZ2eEJiNVFreGxMVzBTamtvVHc0OWtmQUFBc0pPc2hYbmdTbjJmcDIzSjlVb2duTGFtaXM5cGdOVHFtXzRLbDVSR2h4MWhl?oc=5",
-          "date": "2026-10-06",
-          "source": "Simply Wall Street",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Alamo Group Inc. (ALG) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9NNndySU5saUxtb3MzQnh3YmV4TS1HYzZtbmU3M2NPcnR1cXNFWkUxYUROVWxNaTZXVlJuVFFYdW1zWlVhYUhrWkc5REZLNUFN?oc=5",
-          "date": "2026-10-06",
-          "source": "Yahoo! Finance Canada",
-          "gravite": 0,
-          "mots": []
-        }
-      ]
+      "recents": []
     },
-    "ticket": 77
+    "ticket": 78
   },
   "radar_proposes": [
     "MCD",
@@ -208,7 +168,8 @@
     "RITM",
     "GSK.L",
     "TAH.AX",
-    "ALG"
+    "ALG",
+    "WMS"
   ],
   "achats": [],
   "historique": [
@@ -7757,6 +7718,106 @@
         ]
       },
       "ticket": 76,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-09",
+      "cree_le": "2026-10-09T16:49+00:00",
+      "liberation": 138.1212013516142,
+      "reserve_pct": null,
+      "score": 89.02564791331245,
+      "ordres": [
+        {
+          "ticker": "ALG",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 137.1212013516142,
+          "reason": "opportunité radar (score 89)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "ALG",
+        "nom": "Alamo Group",
+        "isin": "ALG",
+        "type": "action",
+        "prix": 153.6199951171875,
+        "score": 89.02564791331245,
+        "baisse": 0.2940007270621975,
+        "perf_5ans": 0.11180647514596287,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.3013936426246012,
+        "pos_12m": 0.8597701149425288,
+        "n_12m": 870,
+        "base_moy_12m": 0.1677474683005248,
+        "pire_12m": -0.5001371280261735,
+        "vs_marche_3m": -0.06534600323277862,
+        "devise": "USD",
+        "prix_eur": 137.1212013516142,
+        "fondamental": 72.5,
+        "fondamental_notes": [
+          "chiffre d'affaires +7.6% sur un an",
+          "bénéfices -0.8% sur un an",
+          "bénéfices attendus +46% sur 12 mois",
+          "objectif moyen des analystes : +33%",
+          "P/E attendu 12.7 (actuel 18.5)",
+          "marge nette 6%",
+          "dette / capitaux propres 23 %"
+        ],
+        "score_global": 79.1,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -7% vs marché)",
+        "vs_marche_3m": -0.06534600323277862,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Alamo Group (ALG) Could Be 21% Undervalued After Reaffirming Its Dividend - Simply Wall Street",
+            "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPanBQV053UDUxclVDX3hiWm5CR0xGRXZURXVmckVSMkU1cUozZ1lhZjRvR0x4SkZ6Vkh5QUFqVUctWjNraTBBMjZqVHBWemRsUnB6b1FabVJ4LXBUcTlpcGsxX2dRRFZUZk4xSUg0X2VBWmhlb0E1N0gtNDR1ZWVHVklpQTd1aUdEYXlWQUFPbHVfUEhqMGRUcGY4MGxIa0tPQlhlVGJROFRUTVExNks1ck1SRGVRb0ZkQWdRWXN4NlN0dnpESGVQcEliWDPSAdIBQVVfeXFMUFJWczZheVRTR1VVZGRTNDNRd19ueTc3cVBKZXc2cXZ3c0ZCMnNmMnNlQ1U5T0dhTVUtd2xYTV83dDlyenczaFY0RVJEbnp1R2tCOGF5SzNwMW9ZSXVCUWw2WUNndWViMUJCUUZMWVI1cFRtd0EwajctUUVHZUtEQUtHVFF0d3R6N0w5YVhpT3hZRzkyYllNUzcwOW1SQ1pyWVMwcENzRnRhMDBMUTRyeWR4R3BYelp0dUFfXy0wekZsRjlicS1mQmZOUEItSU1XUjFn?oc=5",
+            "date": "2026-10-07",
+            "source": "Simply Wall Street",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "An investment manager reports 484,355 Alamo Group (ALG) shares held for clients. - Stock Titan",
+            "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYURXSHY3SzVCUk1tLXNwZUVwMV9lUGJ3UGdQYmZveDZzcWxqNVFkSmVBREp2eGFvTVNXeHdHclh0cFh3aDVQMXN0dTRBVnlvUlJ0ZXNERVBjUnhDN1pMSm51ZUpyY3N3d3dWU09QcllVQXctR0tOS1JiWFAtaDlrclRLTkVLQlpsQUFmYl9tc0R1WGxVZWtVR196cFFuTHpWQzFCWU9SUVQ4Uzdzc1d1eV9IUFhSS2JwYlBNM1RGTVhpQk9xVUtYYQ?oc=5",
+            "date": "2026-10-07",
+            "source": "Stock Titan",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Alamo Group, Inc. (ALG) Stock forecasts - Yahoo Finance UK",
+            "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVmtWMFRmR1VjTkxmWVBBQTJsbGV2QWYwMGVQRHh0bFFZVDItb0VXZkdZVmVBYkhCRVBicEZoWHNTbmoyanBPazVnYmFWRWs5VTZ3ZEZ1dlVBWjZ0c29yYTgxTE51ZTJ0NnJmRmpNRXNvQjhTLVJiY0Y3RGRGMFhjZFB2a1FneEpjczBZYkY3NE9DNlE?oc=5",
+            "date": "2026-10-07",
+            "source": "Yahoo Finance UK",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Alamo Group (NYSE:ALG) - Stock Analysis - Simply Wall Street",
+            "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kM0dJWElJNzNvVTRoU0pOd2QyUFFNU2FwWkNqRDFsUjNyUndVckZ2eEJiNVFreGxMVzBTamtvVHc0OWtmQUFBc0pPc2hYbmdTbjJmcDIzSjlVb2duTGFtaXM5cGdOVHFtXzRLbDVSR2h4MWhl?oc=5",
+            "date": "2026-10-06",
+            "source": "Simply Wall Street",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Alamo Group Inc. (ALG) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+            "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9NNndySU5saUxtb3MzQnh3YmV4TS1HYzZtbmU3M2NPcnR1cXNFWkUxYUROVWxNaTZXVlJuVFFYdW1zWlVhYUhrWkc5REZLNUFN?oc=5",
+            "date": "2026-10-06",
+            "source": "Yahoo! Finance Canada",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 77,
       "decision": "sans réponse"
     }
   ]
