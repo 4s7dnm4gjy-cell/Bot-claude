@@ -18,102 +18,61 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-09",
-    "cree_le": "2026-10-09T18:51+00:00",
-    "liberation": 97.15481381720389,
+    "cree_le": "2026-10-09T19:46+00:00",
+    "liberation": 147.2823426404942,
     "reserve_pct": null,
-    "score": 88.09763613846471,
+    "score": 92.07141268312435,
     "ordres": [
       {
-        "ticker": "CRUS",
+        "ticker": "NLY",
         "side": "buy",
-        "quantity": 1.0,
-        "price": 96.15481381720389,
-        "reason": "opportunité radar (score 88)"
+        "quantity": 9.0,
+        "price": 16.253593626721578,
+        "reason": "opportunité radar (score 92)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "CRUS",
-      "nom": "Cirrus Logic",
-      "isin": "CRUS",
+      "ticker": "NLY",
+      "nom": "Annaly Capital Management",
+      "isin": "NLY",
       "type": "action",
-      "prix": 107.63999938964844,
-      "score": 88.09763613846471,
-      "baisse": 0.3983230684069704,
-      "perf_5ans": 0.36876907712460305,
+      "prix": 18.19499969482422,
+      "score": 92.07141268312435,
+      "baisse": 0.20419947944474104,
+      "perf_5ans": 0.06504338529326814,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.7679750051391783,
-      "pos_12m": 0.7755905511811023,
-      "n_12m": 254,
-      "base_moy_12m": 0.2939879940694078,
-      "pire_12m": -0.5401174475084887,
-      "vs_marche_3m": -0.2938032099289548,
+      "moy_12m": 0.14686353049900103,
+      "pos_12m": 0.7304761904761905,
+      "n_12m": 1050,
+      "base_moy_12m": 0.08585700621241554,
+      "pire_12m": -0.31232280112928,
+      "vs_marche_3m": -0.18800904188486856,
       "devise": "USD",
-      "prix_eur": 96.15481381720389,
-      "fondamental": 79.5,
+      "prix_eur": 16.253593626721578,
+      "fondamental": 76.0,
       "fondamental_notes": [
-        "chiffre d'affaires +12.9% sur un an",
-        "bénéfices +28.9% sur un an",
-        "bénéfices attendus +9% sur 12 mois",
-        "objectif des analystes +54% : peu crédible, probablement pas encore révisé",
-        "P/E attendu 12.1 (actuel 13.1)",
-        "marge nette 21%",
-        "dette / capitaux propres 6 %",
-        "⚠️ chute de -29% vs marché en 3 mois sans explication claire dans les chiffres (-6 pts)"
+        "chiffre d'affaires +479.4% sur un an",
+        "bénéfices +3426.0% sur un an",
+        "bénéfices attendus -24% sur 12 mois",
+        "analystes : « achat » (1.9/5, 11 avis)",
+        "objectif moyen des analystes : +34%",
+        "P/E attendu 5.8 (actuel 4.4)",
+        "marge nette 91%",
+        "dette / capitaux propres 738 %"
       ],
-      "score_global": 82.9,
+      "score_global": 82.4,
       "braderie": false
     },
     "actualites": {
-      "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -29% vs marché)",
-      "vs_marche_3m": -0.2938032099289548,
+      "verdict": "inconnu",
+      "resume": "actualités indisponibles (HTTPError)",
+      "vs_marche_3m": -0.18800904188486856,
       "alertes": [],
-      "recents": [
-        {
-          "titre": "Cirrus Logic (NASDAQ:CRUS) Stock Falls 5.6% - Time to Sell? - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcURvZTJQck9GM3MwQzJHY0RZanEtOTZTRTQ3S21VZVdUZU51VjlFR01TSDByUjJjekZ1QmtHUXFnbnNTeHlGNktxenVXY2p1NHAzZUpNWl9BRlF2aUd4VzMwcFJja2FPMGo1ejZXZ09vdnlGcWZmOUZqMTBFWlkyc0JkN1dFS3dnQmxoSTJNUFJUZkRQQ1lSTHJjVEtBRjlhUHo2UzF1RlNWaHR1M3IyRUpR?oc=5",
-          "date": "2026-10-09",
-          "source": "MarketBeat",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Stifel Maintains Cirrus Logic(CRUS.US) With Buy Rating, Maintains Target Price $160 - Moomoo",
-          "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdUVBVmxYN3g1OWdvdTVCQ3FmcjlBWXRDZUx1X3plbUNzczU4cVdYejBXVmJBQkJoX0pzTGZydzVpMWlMTm03QVh3Z1RpaExwWGJvak1IMXRkZWNHOFRMcTJvQ05yMHdKdTd5ekRTTTM3dzN0XzdUZkU4c1ZPa3QyMm1sRUpkTjN1dVBXZWMyTmVfN1gyb25jcXJ2N1FPZzlyMWFIMHZtaTE3MU15T0Vla3F6QQ?oc=5",
-          "date": "2026-10-09",
-          "source": "Moomoo",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Why is Cirrus Logic stock down 4.6% today? - Traders Union",
-          "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTW4tYWhGZGlRV0JRSXVzYklWNVhmMEIzeWxaTWpSWDcxUXVQTlZWNUp2anZEdEhJWDloaW5xNEtLVXdxN29RZk5scW1rY1RtQ3RwSHNiejFMUmNfd0RFTUxqcmF5aU94ai15dXRuVl9NTHhUU0tzVTY2djM4QUxlOFN2YXNTYXdXanFmMUt3ejJIZw?oc=5",
-          "date": "2026-10-09",
-          "source": "Traders Union",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Cirrus Logic (CRUS) Stock Still Looks Like A Bargain As 56% Run Holds - Yahoo Finance Singapore",
-          "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVkNzNEJXc3locDgtNTItZk5LQ0RGdmVGTnNBcm9sVGtvX0pSbF9iMGhSVmY5QjJPbm1hZFZrVHg3VEdqY2pOMWtvZ1owYjNnWWYtSWtJVFB4SFV5cUpuM2Q1Y29SUEdUX2syRGF1WEduMVl3ZWRyX2tpeUdIcHBwOGJoclk?oc=5",
-          "date": "2026-10-08",
-          "source": "Yahoo Finance Singapore",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Top 3 Tech Stocks That Could Lead To Your Biggest Gains This Quarter - Benzinga",
-          "lien": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQUpwV0cxSzB6ZW1YNkk0alpVQWMteDNXTlhlTTdNLS1jeF92bW4zeGtLMkRwWkZtYk5JZWVtZjFEQmVHWlloVVNNbWdEekR6UG8wZjlPTVBWTWRDeDBjdGRuVEtMZ0NmN05xcDdBNjluMTFhclR4cjVRcElKLUlvYUVCMDFYalNMemF0TC1xMWNxemhETWxRM0Q2aUFURWg0X001MXFvVk9JaVVFeHFmdzQ5TVEwU0NEYUVGS1dCdWdtUE5pQldaOVh1THdNY0lF?oc=5",
-          "date": "2026-10-08",
-          "source": "Benzinga",
-          "gravite": 0,
-          "mots": []
-        }
-      ]
+      "recents": []
     },
-    "ticket": 80
+    "ticket": 81
   },
   "radar_proposes": [
     "MCD",
@@ -213,7 +172,8 @@
     "WMS",
     "TMUS",
     "ORA.PA",
-    "CRUS"
+    "CRUS",
+    "NLY"
   ],
   "achats": [],
   "historique": [
@@ -8064,6 +8024,107 @@
         ]
       },
       "ticket": 79,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-09",
+      "cree_le": "2026-10-09T18:51+00:00",
+      "liberation": 97.15481381720389,
+      "reserve_pct": null,
+      "score": 88.09763613846471,
+      "ordres": [
+        {
+          "ticker": "CRUS",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 96.15481381720389,
+          "reason": "opportunité radar (score 88)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "CRUS",
+        "nom": "Cirrus Logic",
+        "isin": "CRUS",
+        "type": "action",
+        "prix": 107.63999938964844,
+        "score": 88.09763613846471,
+        "baisse": 0.3983230684069704,
+        "perf_5ans": 0.36876907712460305,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.7679750051391783,
+        "pos_12m": 0.7755905511811023,
+        "n_12m": 254,
+        "base_moy_12m": 0.2939879940694078,
+        "pire_12m": -0.5401174475084887,
+        "vs_marche_3m": -0.2938032099289548,
+        "devise": "USD",
+        "prix_eur": 96.15481381720389,
+        "fondamental": 79.5,
+        "fondamental_notes": [
+          "chiffre d'affaires +12.9% sur un an",
+          "bénéfices +28.9% sur un an",
+          "bénéfices attendus +9% sur 12 mois",
+          "objectif des analystes +54% : peu crédible, probablement pas encore révisé",
+          "P/E attendu 12.1 (actuel 13.1)",
+          "marge nette 21%",
+          "dette / capitaux propres 6 %",
+          "⚠️ chute de -29% vs marché en 3 mois sans explication claire dans les chiffres (-6 pts)"
+        ],
+        "score_global": 82.9,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -29% vs marché)",
+        "vs_marche_3m": -0.2938032099289548,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Cirrus Logic (NASDAQ:CRUS) Stock Falls 5.6% - Time to Sell? - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcURvZTJQck9GM3MwQzJHY0RZanEtOTZTRTQ3S21VZVdUZU51VjlFR01TSDByUjJjekZ1QmtHUXFnbnNTeHlGNktxenVXY2p1NHAzZUpNWl9BRlF2aUd4VzMwcFJja2FPMGo1ejZXZ09vdnlGcWZmOUZqMTBFWlkyc0JkN1dFS3dnQmxoSTJNUFJUZkRQQ1lSTHJjVEtBRjlhUHo2UzF1RlNWaHR1M3IyRUpR?oc=5",
+            "date": "2026-10-09",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Stifel Maintains Cirrus Logic(CRUS.US) With Buy Rating, Maintains Target Price $160 - Moomoo",
+            "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdUVBVmxYN3g1OWdvdTVCQ3FmcjlBWXRDZUx1X3plbUNzczU4cVdYejBXVmJBQkJoX0pzTGZydzVpMWlMTm03QVh3Z1RpaExwWGJvak1IMXRkZWNHOFRMcTJvQ05yMHdKdTd5ekRTTTM3dzN0XzdUZkU4c1ZPa3QyMm1sRUpkTjN1dVBXZWMyTmVfN1gyb25jcXJ2N1FPZzlyMWFIMHZtaTE3MU15T0Vla3F6QQ?oc=5",
+            "date": "2026-10-09",
+            "source": "Moomoo",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Why is Cirrus Logic stock down 4.6% today? - Traders Union",
+            "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTW4tYWhGZGlRV0JRSXVzYklWNVhmMEIzeWxaTWpSWDcxUXVQTlZWNUp2anZEdEhJWDloaW5xNEtLVXdxN29RZk5scW1rY1RtQ3RwSHNiejFMUmNfd0RFTUxqcmF5aU94ai15dXRuVl9NTHhUU0tzVTY2djM4QUxlOFN2YXNTYXdXanFmMUt3ejJIZw?oc=5",
+            "date": "2026-10-09",
+            "source": "Traders Union",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Cirrus Logic (CRUS) Stock Still Looks Like A Bargain As 56% Run Holds - Yahoo Finance Singapore",
+            "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVkNzNEJXc3locDgtNTItZk5LQ0RGdmVGTnNBcm9sVGtvX0pSbF9iMGhSVmY5QjJPbm1hZFZrVHg3VEdqY2pOMWtvZ1owYjNnWWYtSWtJVFB4SFV5cUpuM2Q1Y29SUEdUX2syRGF1WEduMVl3ZWRyX2tpeUdIcHBwOGJoclk?oc=5",
+            "date": "2026-10-08",
+            "source": "Yahoo Finance Singapore",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Top 3 Tech Stocks That Could Lead To Your Biggest Gains This Quarter - Benzinga",
+            "lien": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQUpwV0cxSzB6ZW1YNkk0alpVQWMteDNXTlhlTTdNLS1jeF92bW4zeGtLMkRwWkZtYk5JZWVtZjFEQmVHWlloVVNNbWdEekR6UG8wZjlPTVBWTWRDeDBjdGRuVEtMZ0NmN05xcDdBNjluMTFhclR4cjVRcElKLUlvYUVCMDFYalNMemF0TC1xMWNxemhETWxRM0Q2aUFURWg0X001MXFvVk9JaVVFeHFmdzQ5TVEwU0NEYUVGS1dCdWdtUE5pQldaOVh1THdNY0lF?oc=5",
+            "date": "2026-10-08",
+            "source": "Benzinga",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 80,
       "decision": "sans réponse"
     }
   ]
