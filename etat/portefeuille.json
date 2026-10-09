@@ -18,113 +18,101 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-09",
-    "cree_le": "2026-10-09T15:50+00:00",
-    "liberation": 150.84447094247116,
+    "cree_le": "2026-10-09T16:49+00:00",
+    "liberation": 138.1212013516142,
     "reserve_pct": null,
-    "score": 89.87135536602112,
+    "score": 89.02564791331245,
     "ordres": [
       {
-        "ticker": "TAH.AX",
+        "ticker": "ALG",
         "side": "buy",
-        "quantity": 279.0,
-        "price": 0.5370769567830508,
-        "reason": "opportunité radar (score 90)"
+        "quantity": 1.0,
+        "price": 137.1212013516142,
+        "reason": "opportunité radar (score 89)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "TAH.AX",
-      "nom": "Tabcorp",
-      "isin": "TAH.AX",
+      "ticker": "ALG",
+      "nom": "Alamo Group",
+      "isin": "ALG",
       "type": "action",
-      "prix": 0.8650000095367432,
-      "score": 89.87135536602112,
-      "baisse": 0.24520424116778783,
-      "perf_5ans": 0.5542543483064035,
+      "prix": 153.6199951171875,
+      "score": 89.02564791331245,
+      "baisse": 0.2940007270621975,
+      "perf_5ans": 0.11180647514596287,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 1.970108821760652,
-      "pos_12m": 0.8443526170798898,
-      "n_12m": 1452,
-      "base_moy_12m": 1.8781963111113607,
-      "pire_12m": -0.6252013008066204,
-      "vs_marche_3m": 0.04233447943085311,
-      "devise": "AUD",
-      "prix_eur": 0.5370769567830508,
+      "moy_12m": 0.3013936426246012,
+      "pos_12m": 0.8597701149425288,
+      "n_12m": 870,
+      "base_moy_12m": 0.1677474683005248,
+      "pire_12m": -0.5001371280261735,
+      "vs_marche_3m": -0.06534600323277862,
+      "devise": "USD",
+      "prix_eur": 137.1212013516142,
       "fondamental": 72.5,
       "fondamental_notes": [
-        "chiffre d'affaires +0.5% sur un an",
-        "bénéfices +122.5% sur un an",
-        "bénéfices attendus +121% sur 12 mois",
-        "analystes : « conserver » (2.5/5, 11 avis)",
-        "objectif moyen des analystes : +17%",
-        "P/E attendu 19.5 (actuel 43.2)",
-        "marge nette 2%",
-        "dette / capitaux propres 66 %"
+        "chiffre d'affaires +7.6% sur un an",
+        "bénéfices -0.8% sur un an",
+        "bénéfices attendus +46% sur 12 mois",
+        "objectif moyen des analystes : +33%",
+        "P/E attendu 12.7 (actuel 18.5)",
+        "marge nette 6%",
+        "dette / capitaux propres 23 %"
       ],
-      "score_global": 79.4,
+      "score_global": 79.1,
       "braderie": false
     },
     "actualites": {
       "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (1 article(s) mineur(s), courant pour une grande entreprise) (3 mois : +4% vs marché)",
-      "vs_marche_3m": 0.04233447943085311,
-      "alertes": [
-        {
-          "titre": "Tabcorp fined $350k over multi-factor authentication failings - InterGame Online",
-          "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSWFRWTh0OGRzODhybE40QjhCWG1PTGVFQl8wdEEyWFdKc20yWGhzbVloVmJrZUlwZ0E0dDh5OGptV2xRMTNtMER5MjZDOV9IZjlBRlJyVkN2TVJ6QkRpZm94RU5qRHJYUzl6Q0U3cDF5ajlweW8xWGNWdlZ5Rjc3Z01UWXFhQjZPZjlRV3A0UXZWWC1XS1FUWmFNNV9NZFdCdHc?oc=5",
-          "date": "2026-09-24",
-          "source": "InterGame Online",
-          "gravite": 1,
-          "mots": [
-            "fined"
-          ]
-        }
-      ],
+      "resume": "rien d'alarmant dans l'actualité (3 mois : -7% vs marché)",
+      "vs_marche_3m": -0.06534600323277862,
+      "alertes": [],
       "recents": [
         {
-          "titre": "Tabcorp Holdings Ltd (THL.HM) recent insider transactions - Yahoo Finance UK",
-          "lien": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XS0EzMjFSOGxhOVBhUjl6TUVLMHI2Q2hCY3NrYm9KLXNBWFlwYVJwTjBQd0RabDRrdWtSTEV0VE5DMnZSeVhOa3hwQ29VTkw0UWxJZ2NzV092RHdvWmcybHVIdWwtc1BFR3R2ZVV0WUs?oc=5",
-          "date": "2026-10-08",
+          "titre": "Alamo Group (ALG) Could Be 21% Undervalued After Reaffirming Its Dividend - Simply Wall Street",
+          "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPanBQV053UDUxclVDX3hiWm5CR0xGRXZURXVmckVSMkU1cUozZ1lhZjRvR0x4SkZ6Vkh5QUFqVUctWjNraTBBMjZqVHBWemRsUnB6b1FabVJ4LXBUcTlpcGsxX2dRRFZUZk4xSUg0X2VBWmhlb0E1N0gtNDR1ZWVHVklpQTd1aUdEYXlWQUFPbHVfUEhqMGRUcGY4MGxIa0tPQlhlVGJROFRUTVExNks1ck1SRGVRb0ZkQWdRWXN4NlN0dnpESGVQcEliWDPSAdIBQVVfeXFMUFJWczZheVRTR1VVZGRTNDNRd19ueTc3cVBKZXc2cXZ3c0ZCMnNmMnNlQ1U5T0dhTVUtd2xYTV83dDlyenczaFY0RVJEbnp1R2tCOGF5SzNwMW9ZSXVCUWw2WUNndWViMUJCUUZMWVI1cFRtd0EwajctUUVHZUtEQUtHVFF0d3R6N0w5YVhpT3hZRzkyYllNUzcwOW1SQ1pyWVMwcENzRnRhMDBMUTRyeWR4R3BYelp0dUFfXy0wekZsRjlicS1mQmZOUEItSU1XUjFn?oc=5",
+          "date": "2026-10-07",
+          "source": "Simply Wall Street",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "An investment manager reports 484,355 Alamo Group (ALG) shares held for clients. - Stock Titan",
+          "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYURXSHY3SzVCUk1tLXNwZUVwMV9lUGJ3UGdQYmZveDZzcWxqNVFkSmVBREp2eGFvTVNXeHdHclh0cFh3aDVQMXN0dTRBVnlvUlJ0ZXNERVBjUnhDN1pMSm51ZUpyY3N3d3dWU09QcllVQXctR0tOS1JiWFAtaDlrclRLTkVLQlpsQUFmYl9tc0R1WGxVZWtVR196cFFuTHpWQzFCWU9SUVQ4Uzdzc1d1eV9IUFhSS2JwYlBNM1RGTVhpQk9xVUtYYQ?oc=5",
+          "date": "2026-10-07",
+          "source": "Stock Titan",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Alamo Group, Inc. (ALG) Stock forecasts - Yahoo Finance UK",
+          "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVmtWMFRmR1VjTkxmWVBBQTJsbGV2QWYwMGVQRHh0bFFZVDItb0VXZkdZVmVBYkhCRVBicEZoWHNTbmoyanBPazVnYmFWRWs5VTZ3ZEZ1dlVBWjZ0c29yYTgxTE51ZTJ0NnJmRmpNRXNvQjhTLVJiY0Y3RGRGMFhjZFB2a1FneEpjczBZYkY3NE9DNlE?oc=5",
+          "date": "2026-10-07",
           "source": "Yahoo Finance UK",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Tabcorp stock faces tighter account rules before October 30 - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOd3NjYkE4Qk1xdkpwUTFjZGN0N1RrLTd6TENhXzZ4M0JPSHF6Nm80Z1VYb29GbjZlWDI1akU1dVdNNGpUalhIcTNFaEx6Z1pZSlQ4VUcxNEQ5ak1UcV9rU3h4MVNqQVNtVVpZcHJmWkFObWZTc0o1b3dlZ215eG0xUE1iWmlQSXdDWUNFcGxsWVMwdDBlc19qNWFmU2dfcy13enRLMndlbzBLeXpmUUtzNE03dXhJdHlONWc?oc=5",
-          "date": "2026-10-08",
-          "source": "AD HOC NEWS",
+          "titre": "Alamo Group (NYSE:ALG) - Stock Analysis - Simply Wall Street",
+          "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kM0dJWElJNzNvVTRoU0pOd2QyUFFNU2FwWkNqRDFsUjNyUndVckZ2eEJiNVFreGxMVzBTamtvVHc0OWtmQUFBc0pPc2hYbmdTbjJmcDIzSjlVb2duTGFtaXM5cGdOVHFtXzRLbDVSR2h4MWhl?oc=5",
+          "date": "2026-10-06",
+          "source": "Simply Wall Street",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Tabcorp (ASX:TAH): What Is the Analyst Verdict Following FY26? - Kalkine",
-          "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVUdKM2JRNFROLWZWUE1XR25QQmZJZ1VmUGYzbzRyOU1lcVJfclFtam5nRXlGWUZnYVRIdXJSR1BiM19NTC0xMzFoSUhQaExpYkZtX0MzSWUxV0c1dnJIWURpMGk3MjNraUY3Qm01UlVyeGdHYkVKaGtLYnBaSkRQRlNFb241VWFvcW1QOXlPcTNZdTBSdXZiR3VsalVFZkx3RFBBY0pVYw?oc=5",
-          "date": "2026-10-07",
-          "source": "Kalkine",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Tabcorp stock launches One Pool as tote strategy enters test - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxON2pYZ0xBbW96bVVNNVFYYjFEN1E2SXBLcU1BejVlX3FtTWpSV3RDVnhDb1BWQ3JKVHRZbVZwMEswSVM3RmdGYzF2d09jd1pnU1B6NVFIOU1kOUhOLTZITjNmUi1OUV84Q3hQb0xoSm0wSlFDbGp2eUYtM2NUbFdQVzV5WHNCN1ozSVJYN2NJM3lCU2NYcjlkaHlSZE00T3J1MDhkY0Zadl9OMVNOOEJlTE5ET1lKNWdwY2I0?oc=5",
-          "date": "2026-10-07",
-          "source": "AD HOC NEWS",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Tabcorp Holdings (ASX:TAH) BetMakers Deal Adds a New Test to the Wagering Turnaround - Kalkine",
-          "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTXNETGtrUy1lcEZLZTFEOHBTS09ubkpiTkt3WEhaaGF2V181ekYxWGpzekNMSXpwbzVLWDVvbGJTOC1CUm5mZVNIWGlVeWNCX0FldWRQekJRRDJ2dF8zX09MbVhUOWJwV3BBZHdzN3pzeWM1Njd2VFl4b3hBaVpEeWxjeHBqVlhHeVdSeThtVk9YVkEtZDZ0QWZxbVFRcFgwV05VSmJGWktnZXFBTmcyOVZjcWNIVkluUlE?oc=5",
-          "date": "2026-10-07",
-          "source": "Kalkine",
+          "titre": "Alamo Group Inc. (ALG) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9NNndySU5saUxtb3MzQnh3YmV4TS1HYzZtbmU3M2NPcnR1cXNFWkUxYUROVWxNaTZXVlJuVFFYdW1zWlVhYUhrWkc5REZLNUFN?oc=5",
+          "date": "2026-10-06",
+          "source": "Yahoo! Finance Canada",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 76
+    "ticket": 77
   },
   "radar_proposes": [
     "MCD",
@@ -219,7 +207,8 @@
     "CQR.AX",
     "RITM",
     "GSK.L",
-    "TAH.AX"
+    "TAH.AX",
+    "ALG"
   ],
   "achats": [],
   "historique": [
@@ -7656,6 +7645,118 @@
         ]
       },
       "ticket": 75,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-09",
+      "cree_le": "2026-10-09T15:50+00:00",
+      "liberation": 150.84447094247116,
+      "reserve_pct": null,
+      "score": 89.87135536602112,
+      "ordres": [
+        {
+          "ticker": "TAH.AX",
+          "side": "buy",
+          "quantity": 279.0,
+          "price": 0.5370769567830508,
+          "reason": "opportunité radar (score 90)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "TAH.AX",
+        "nom": "Tabcorp",
+        "isin": "TAH.AX",
+        "type": "action",
+        "prix": 0.8650000095367432,
+        "score": 89.87135536602112,
+        "baisse": 0.24520424116778783,
+        "perf_5ans": 0.5542543483064035,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 1.970108821760652,
+        "pos_12m": 0.8443526170798898,
+        "n_12m": 1452,
+        "base_moy_12m": 1.8781963111113607,
+        "pire_12m": -0.6252013008066204,
+        "vs_marche_3m": 0.04233447943085311,
+        "devise": "AUD",
+        "prix_eur": 0.5370769567830508,
+        "fondamental": 72.5,
+        "fondamental_notes": [
+          "chiffre d'affaires +0.5% sur un an",
+          "bénéfices +122.5% sur un an",
+          "bénéfices attendus +121% sur 12 mois",
+          "analystes : « conserver » (2.5/5, 11 avis)",
+          "objectif moyen des analystes : +17%",
+          "P/E attendu 19.5 (actuel 43.2)",
+          "marge nette 2%",
+          "dette / capitaux propres 66 %"
+        ],
+        "score_global": 79.4,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (1 article(s) mineur(s), courant pour une grande entreprise) (3 mois : +4% vs marché)",
+        "vs_marche_3m": 0.04233447943085311,
+        "alertes": [
+          {
+            "titre": "Tabcorp fined $350k over multi-factor authentication failings - InterGame Online",
+            "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSWFRWTh0OGRzODhybE40QjhCWG1PTGVFQl8wdEEyWFdKc20yWGhzbVloVmJrZUlwZ0E0dDh5OGptV2xRMTNtMER5MjZDOV9IZjlBRlJyVkN2TVJ6QkRpZm94RU5qRHJYUzl6Q0U3cDF5ajlweW8xWGNWdlZ5Rjc3Z01UWXFhQjZPZjlRV3A0UXZWWC1XS1FUWmFNNV9NZFdCdHc?oc=5",
+            "date": "2026-09-24",
+            "source": "InterGame Online",
+            "gravite": 1,
+            "mots": [
+              "fined"
+            ]
+          }
+        ],
+        "recents": [
+          {
+            "titre": "Tabcorp Holdings Ltd (THL.HM) recent insider transactions - Yahoo Finance UK",
+            "lien": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XS0EzMjFSOGxhOVBhUjl6TUVLMHI2Q2hCY3NrYm9KLXNBWFlwYVJwTjBQd0RabDRrdWtSTEV0VE5DMnZSeVhOa3hwQ29VTkw0UWxJZ2NzV092RHdvWmcybHVIdWwtc1BFR3R2ZVV0WUs?oc=5",
+            "date": "2026-10-08",
+            "source": "Yahoo Finance UK",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Tabcorp stock faces tighter account rules before October 30 - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOd3NjYkE4Qk1xdkpwUTFjZGN0N1RrLTd6TENhXzZ4M0JPSHF6Nm80Z1VYb29GbjZlWDI1akU1dVdNNGpUalhIcTNFaEx6Z1pZSlQ4VUcxNEQ5ak1UcV9rU3h4MVNqQVNtVVpZcHJmWkFObWZTc0o1b3dlZ215eG0xUE1iWmlQSXdDWUNFcGxsWVMwdDBlc19qNWFmU2dfcy13enRLMndlbzBLeXpmUUtzNE03dXhJdHlONWc?oc=5",
+            "date": "2026-10-08",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Tabcorp (ASX:TAH): What Is the Analyst Verdict Following FY26? - Kalkine",
+            "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVUdKM2JRNFROLWZWUE1XR25QQmZJZ1VmUGYzbzRyOU1lcVJfclFtam5nRXlGWUZnYVRIdXJSR1BiM19NTC0xMzFoSUhQaExpYkZtX0MzSWUxV0c1dnJIWURpMGk3MjNraUY3Qm01UlVyeGdHYkVKaGtLYnBaSkRQRlNFb241VWFvcW1QOXlPcTNZdTBSdXZiR3VsalVFZkx3RFBBY0pVYw?oc=5",
+            "date": "2026-10-07",
+            "source": "Kalkine",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Tabcorp stock launches One Pool as tote strategy enters test - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxON2pYZ0xBbW96bVVNNVFYYjFEN1E2SXBLcU1BejVlX3FtTWpSV3RDVnhDb1BWQ3JKVHRZbVZwMEswSVM3RmdGYzF2d09jd1pnU1B6NVFIOU1kOUhOLTZITjNmUi1OUV84Q3hQb0xoSm0wSlFDbGp2eUYtM2NUbFdQVzV5WHNCN1ozSVJYN2NJM3lCU2NYcjlkaHlSZE00T3J1MDhkY0Zadl9OMVNOOEJlTE5ET1lKNWdwY2I0?oc=5",
+            "date": "2026-10-07",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Tabcorp Holdings (ASX:TAH) BetMakers Deal Adds a New Test to the Wagering Turnaround - Kalkine",
+            "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTXNETGtrUy1lcEZLZTFEOHBTS09ubkpiTkt3WEhaaGF2V181ekYxWGpzekNMSXpwbzVLWDVvbGJTOC1CUm5mZVNIWGlVeWNCX0FldWRQekJRRDJ2dF8zX09MbVhUOWJwV3BBZHdzN3pzeWM1Njd2VFl4b3hBaVpEeWxjeHBqVlhHeVdSeThtVk9YVkEtZDZ0QWZxbVFRcFgwV05VSmJGWktnZXFBTmcyOVZjcWNIVkluUlE?oc=5",
+            "date": "2026-10-07",
+            "source": "Kalkine",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 76,
       "decision": "sans réponse"
     }
   ]
