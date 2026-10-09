@@ -15,106 +15,7 @@
     "MCD": "2026-10-05",
     "IGG.L": "2026-10-06"
   },
-  "opportunite": {
-    "type": "opportunite",
-    "date": "2026-10-09",
-    "cree_le": "2026-10-09T20:48+00:00",
-    "liberation": 261.361216763645,
-    "reserve_pct": null,
-    "score": 85.02003724455733,
-    "ordres": [
-      {
-        "ticker": "HD",
-        "side": "buy",
-        "quantity": 1.0,
-        "price": 260.361216763645,
-        "reason": "opportunité radar (score 85)"
-      }
-    ],
-    "notes": [],
-    "total": 0,
-    "radar": {
-      "ticker": "HD",
-      "nom": "Home Depot (The)",
-      "isin": "HD",
-      "type": "action",
-      "prix": 291.4599914550781,
-      "score": 85.02003724455733,
-      "baisse": 0.2384918559295276,
-      "perf_5ans": 0.013377064793645532,
-      "tranche": "80-100 (soldé)",
-      "moy_12m": 0.19911401493207492,
-      "pos_12m": 0.6915167095115681,
-      "n_12m": 389,
-      "base_moy_12m": 0.16328670277694543,
-      "pire_12m": -0.3762728898464255,
-      "vs_marche_3m": -0.15498520484899314,
-      "devise": "USD",
-      "prix_eur": 260.361216763645,
-      "fondamental": 78.5,
-      "fondamental_notes": [
-        "chiffre d'affaires +5.7% sur un an",
-        "bénéfices +4.6% sur un an",
-        "bénéfices attendus +12% sur 12 mois",
-        "analystes : « achat » (1.9/5, 32 avis)",
-        "objectif moyen des analystes : +30%",
-        "P/E attendu 18.3 (actuel 20.4)",
-        "marge nette 8%",
-        "dette / capitaux propres 380 %"
-      ],
-      "score_global": 81.1,
-      "braderie": false
-    },
-    "actualites": {
-      "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -15% vs marché)",
-      "vs_marche_3m": -0.15498520484899314,
-      "alertes": [],
-      "recents": [
-        {
-          "titre": "Is Trending Stock The Home Depot, Inc. (HD) a Buy Now? - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTFR3cTFtOGJ3bld2N2J5cUtHOC1rcXFMUEZPSUp1cDlOM1pqU3N6V1F6SlNrWFoyQjJYa0UzSWp1bUpHYVFRamd1TmtzMllody1NRmhZcG9vUEtjMXB1cFc0eDRDQ3liV0oyODhMbkh0N1ZVVnZnTWFBdWNBek5MRFQtSm02ckRFYzBtbzE2bm5YenIwS3d3VmhB?oc=5",
-          "date": "2026-10-09",
-          "source": "Yahoo Finance",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Strength Seen in Home Depot (HD): Can Its 3.4% Jump Turn into More Strength? - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaU1aVWxDeHFLSnBuWWhPY1pMYVRoc1hOa0ZHYWRubzdXUGtYakM4cnlucXBpNDFQU053VHI0cE1DUGJzR2xiUEw2cVpCdEZXcFFMWFRGNmhqcXpOWkx1WGZncndTa29ZUEZFSHBfSERBSmEwNDRrWlIxV1NzZ2VTQzFHOWtoWUdVQm4xaGhNNk5hLTE3eEo4?oc=5",
-          "date": "2026-10-09",
-          "source": "Yahoo Finance",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Home Depot Tokenized Stock price today, HDX to USD chart, marketcap and volume - CryptoSlate",
-          "lien": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTLXdVQk8wdkN5TlFvcWVVaDFJNlpRMW1KVEo4ajRNWHJGcm9QUzdkQUJuMl9kVFJYVk1qQ21pSUlfQjY1WUdVVzNpd2c0NzhDbHBsNC0xODkyazRCUHNzNGZ4NHhZVnhq?oc=5",
-          "date": "2026-10-09",
-          "source": "CryptoSlate",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "4 Innovative Makita Tools Available at Home Depot - Pro Tool Reviews",
-          "lien": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE90eWIzUkFyRlJtcTJzTkk1LWJTeDdoWGxDUGM0aXJmeG9uZVNKVGRoOVIxUHpkVVlrTGYwVWVRUEpqampBdmplUHk1TkpSaXVkUVoySTkwRDFMYmZnMmZqVEhEQ0U?oc=5",
-          "date": "2026-10-09",
-          "source": "Pro Tool Reviews",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Learn Why The Bull Case For Home Depot Stock Could Change Following Earnings Estimate Upgrades - Simply Wall Street",
-          "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMjJWTVM1bzZMRDlINndlNnd3VEdHZnk2ZDdhdkZWRWlkY3lqRGRKS2RfYWdocjN3blpVcktzbThBOGdndjNVbGppdzc0U0xabm1yeU1ra0txanVpSzQ1Snc4Yk9MRzE4NnZlRnNwTUpxU0I5ejN6d3hsLXJReV9VNm5kd2h2TnRKVGtRSEJnbHZsLUVXLVI2T2V2eGlNbTd2UUdscDJIb1R2Zm9vQmdwbklqdEdWVUVibnpKRGQ1VG3SAcYBQVVfeXFMTUFxdnZEdF8yVGNpdGVvNlpmb0c1aEVsV280WGppYkdTX1FxTE41Y0F1eWhXV1pjaVRscEthUi1yTEJjVGd6cXd5enlRT2RLLWk0MWtIYkJhVnphVGt1N0JzR3ZMdk5oeDkyV0JEN1pONllNaVdPLUNtaHM3NVBIQUZiN3dNb2lCalY0NUt4SzZRZlJJZkRTcUpBMjJlTHdxRm5MM1hQNEIybHBtMUphaHpfOGdzckYxbTNrMjFJYmJTUlhEZF93?oc=5",
-          "date": "2026-10-08",
-          "source": "Simply Wall Street",
-          "gravite": 0,
-          "mots": []
-        }
-      ]
-    },
-    "ticket": 83
-  },
+  "opportunite": null,
   "radar_proposes": [
     "MCD",
     "IGG.L",
@@ -8329,6 +8230,107 @@
         ]
       },
       "ticket": 82,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-09",
+      "cree_le": "2026-10-09T20:48+00:00",
+      "liberation": 261.361216763645,
+      "reserve_pct": null,
+      "score": 85.02003724455733,
+      "ordres": [
+        {
+          "ticker": "HD",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 260.361216763645,
+          "reason": "opportunité radar (score 85)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "HD",
+        "nom": "Home Depot (The)",
+        "isin": "HD",
+        "type": "action",
+        "prix": 291.4599914550781,
+        "score": 85.02003724455733,
+        "baisse": 0.2384918559295276,
+        "perf_5ans": 0.013377064793645532,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.19911401493207492,
+        "pos_12m": 0.6915167095115681,
+        "n_12m": 389,
+        "base_moy_12m": 0.16328670277694543,
+        "pire_12m": -0.3762728898464255,
+        "vs_marche_3m": -0.15498520484899314,
+        "devise": "USD",
+        "prix_eur": 260.361216763645,
+        "fondamental": 78.5,
+        "fondamental_notes": [
+          "chiffre d'affaires +5.7% sur un an",
+          "bénéfices +4.6% sur un an",
+          "bénéfices attendus +12% sur 12 mois",
+          "analystes : « achat » (1.9/5, 32 avis)",
+          "objectif moyen des analystes : +30%",
+          "P/E attendu 18.3 (actuel 20.4)",
+          "marge nette 8%",
+          "dette / capitaux propres 380 %"
+        ],
+        "score_global": 81.1,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -15% vs marché)",
+        "vs_marche_3m": -0.15498520484899314,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Is Trending Stock The Home Depot, Inc. (HD) a Buy Now? - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTFR3cTFtOGJ3bld2N2J5cUtHOC1rcXFMUEZPSUp1cDlOM1pqU3N6V1F6SlNrWFoyQjJYa0UzSWp1bUpHYVFRamd1TmtzMllody1NRmhZcG9vUEtjMXB1cFc0eDRDQ3liV0oyODhMbkh0N1ZVVnZnTWFBdWNBek5MRFQtSm02ckRFYzBtbzE2bm5YenIwS3d3VmhB?oc=5",
+            "date": "2026-10-09",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Strength Seen in Home Depot (HD): Can Its 3.4% Jump Turn into More Strength? - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaU1aVWxDeHFLSnBuWWhPY1pMYVRoc1hOa0ZHYWRubzdXUGtYakM4cnlucXBpNDFQU053VHI0cE1DUGJzR2xiUEw2cVpCdEZXcFFMWFRGNmhqcXpOWkx1WGZncndTa29ZUEZFSHBfSERBSmEwNDRrWlIxV1NzZ2VTQzFHOWtoWUdVQm4xaGhNNk5hLTE3eEo4?oc=5",
+            "date": "2026-10-09",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Home Depot Tokenized Stock price today, HDX to USD chart, marketcap and volume - CryptoSlate",
+            "lien": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTLXdVQk8wdkN5TlFvcWVVaDFJNlpRMW1KVEo4ajRNWHJGcm9QUzdkQUJuMl9kVFJYVk1qQ21pSUlfQjY1WUdVVzNpd2c0NzhDbHBsNC0xODkyazRCUHNzNGZ4NHhZVnhq?oc=5",
+            "date": "2026-10-09",
+            "source": "CryptoSlate",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "4 Innovative Makita Tools Available at Home Depot - Pro Tool Reviews",
+            "lien": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE90eWIzUkFyRlJtcTJzTkk1LWJTeDdoWGxDUGM0aXJmeG9uZVNKVGRoOVIxUHpkVVlrTGYwVWVRUEpqampBdmplUHk1TkpSaXVkUVoySTkwRDFMYmZnMmZqVEhEQ0U?oc=5",
+            "date": "2026-10-09",
+            "source": "Pro Tool Reviews",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Learn Why The Bull Case For Home Depot Stock Could Change Following Earnings Estimate Upgrades - Simply Wall Street",
+            "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMjJWTVM1bzZMRDlINndlNnd3VEdHZnk2ZDdhdkZWRWlkY3lqRGRKS2RfYWdocjN3blpVcktzbThBOGdndjNVbGppdzc0U0xabm1yeU1ra0txanVpSzQ1Snc4Yk9MRzE4NnZlRnNwTUpxU0I5ejN6d3hsLXJReV9VNm5kd2h2TnRKVGtRSEJnbHZsLUVXLVI2T2V2eGlNbTd2UUdscDJIb1R2Zm9vQmdwbklqdEdWVUVibnpKRGQ1VG3SAcYBQVVfeXFMTUFxdnZEdF8yVGNpdGVvNlpmb0c1aEVsV280WGppYkdTX1FxTE41Y0F1eWhXV1pjaVRscEthUi1yTEJjVGd6cXd5enlRT2RLLWk0MWtIYkJhVnphVGt1N0JzR3ZMdk5oeDkyV0JEN1pONllNaVdPLUNtaHM3NVBIQUZiN3dNb2lCalY0NUt4SzZRZlJJZkRTcUpBMjJlTHdxRm5MM1hQNEIybHBtMUphaHpfOGdzckYxbTNrMjFJYmJTUlhEZF93?oc=5",
+            "date": "2026-10-08",
+            "source": "Simply Wall Street",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 83,
       "decision": "sans réponse"
     }
   ]
