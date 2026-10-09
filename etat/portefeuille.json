@@ -18,101 +18,102 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-09",
-    "cree_le": "2026-10-09T10:49+00:00",
-    "liberation": 136.71089178190815,
+    "cree_le": "2026-10-09T11:47+00:00",
+    "liberation": 145.77078783581268,
     "reserve_pct": null,
-    "score": 88.76052337563452,
+    "score": 90.48233989777921,
     "ordres": [
       {
-        "ticker": "NBHC",
+        "ticker": "EFC",
         "side": "buy",
-        "quantity": 4.0,
-        "price": 33.927722945477036,
-        "reason": "opportunité radar (score 89)"
+        "quantity": 14.0,
+        "price": 10.340770559700905,
+        "reason": "opportunité radar (score 90)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "NBHC",
-      "nom": "National Bank Holdings Corporation",
-      "isin": "NBHC",
+      "ticker": "EFC",
+      "nom": "Ellington Financial, Inc.",
+      "isin": "EFC",
       "type": "action",
-      "prix": 38.0099983215332,
-      "score": 88.76052337563452,
-      "baisse": 0.18633112747615888,
-      "perf_5ans": 0.05628043708230579,
+      "prix": 11.585000038146973,
+      "score": 90.48233989777921,
+      "baisse": 0.1376185834053656,
+      "perf_5ans": 0.16753204963707535,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.20711215262721827,
-      "pos_12m": 0.7461406518010292,
-      "n_12m": 583,
-      "base_moy_12m": 0.11905932434337649,
-      "pire_12m": -0.34674661023716014,
-      "vs_marche_3m": -0.15635054063362386,
+      "moy_12m": 0.26512107188247064,
+      "pos_12m": 0.6997518610421837,
+      "n_12m": 403,
+      "base_moy_12m": 0.09982217543908257,
+      "pire_12m": -0.15836352347160176,
+      "vs_marche_3m": -0.14107904708011232,
       "devise": "USD",
-      "prix_eur": 33.927722945477036,
-      "fondamental": 78.5,
+      "prix_eur": 10.340770559700905,
+      "fondamental": 76.0,
       "fondamental_notes": [
-        "chiffre d'affaires +22.1% sur un an",
-        "bénéfices -34.1% sur un an",
-        "bénéfices attendus +66% sur 12 mois",
-        "analystes : « achat » (2.2/5, 4 avis)",
-        "objectif moyen des analystes : +22%",
-        "P/E attendu 9.5 (actuel 15.8)",
-        "marge nette 22%"
+        "chiffre d'affaires +33.8% sur un an",
+        "bénéfices -3.3% sur un an",
+        "bénéfices attendus +23% sur 12 mois",
+        "analystes : « achat » (2.0/5, 7 avis)",
+        "objectif moyen des analystes : +28%",
+        "P/E attendu 5.9 (actuel 7.2)",
+        "marge nette 52%",
+        "dette / capitaux propres 929 %"
       ],
-      "score_global": 82.6,
+      "score_global": 81.8,
       "braderie": false
     },
     "actualites": {
-      "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -16% vs marché)",
-      "vs_marche_3m": -0.15635054063362386,
+      "verdict": "vert",
+      "resume": "rien d'alarmant dans l'actualité (3 mois : -14% vs marché)",
+      "vs_marche_3m": -0.14107904708011232,
       "alertes": [],
       "recents": [
         {
-          "titre": "National Bank Holdings stock gets a Zacks rating upgrade - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTkN4QTVIMW5odW9hekM1UTNfMmNoUjd2RVFrZDJFVnphTkcxV3pwa0VDb0VvYXBtbGo2UE1HVkNNUEQyZnMySUdtT2Z5OHlMX1JsSnVqWjJ3dzBRSGx2WmZOQUlhVF84TDJzZUxLM1pWd0RZOG1JSy1Gbmg2RzVZZ1dvdzBGZjJMS1h5S0gzbHNMNllyZXpqMFNuWEhNd2NzYkhFSWFGYW5DN2R5X01Hb3VxcHJjQQ?oc=5",
-          "date": "2026-10-08",
-          "source": "AD HOC NEWS",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Will Lower Earnings Guidance Change National Bank Holdings' Narrative - Simply Wall Street",
-          "lien": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTVVDd1o3Q3dCQ19UdDRZNVp3SmN5QVpJd0lvRDhRd0g5MGwxQkR0YmlCZnJMSXJDdHFkQ3NjZFlCbkMybl9yZ2ZtS0YzcmNNSDFPQi11bjBMQ3RNOVBPN0lyZnVDQzF0Q2tvR212cXU1ZVMyTTUyRFpSblZQZHZqaWNEY0FNZm90NTJRQTZoYnVKaUlMb2VIODZibGNvXzlhX1dHMVpod3N0MDc5aGwtMHNWOHNKdWItM2lpQWRXMzhWQlhpZmxTLVRta0E5TkhBQXfSAdcBQVVfeXFMTnJxX1ZUbnVqNThYbE1KVUpMcTkwR1hkY2dVNk5kYXRaNVB0b3FyYXhjdmNaWFM5QlNqYjhrekQ5QUxGbEZVZ21ENXpsb3piRFZrcGRuWmNndTBOcUVyYW1INXpKY2JQd25GTmY3U01rQzA5Tk5jRFdYUUFXRGRoNjZpVk1JNEtBSTZVelRZLTRNQ2hYS3piQTZBYzVmMnBiaE1iYTRkT2E0a29WZmRIdGNvdTBjSXIwQ2J0MldteDlDUlJRWVNiMFNVZ1lIYVZHVnhhOGtFZTA?oc=5",
+          "titre": "Ellington Financial Inc. annonce un dividende mensuel ordinaire, payable le 30 novembre 2026 - Zonebourse",
+          "lien": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPLTVKYjNnOHYzb3ZxYTBYRHBXVXpiaE8zeFZsNGtGd3RzWWZKN1F5eENfWXdzQk9LYUN6eVRUYzNhU20zbkViWlNVUHI5c19CQnBKbGUxVzktRy1qbE4yanZwUVJKZnVNSWx0ajBnWjFnYm9YUlZaSEVFbDRILUtXXy1GRG1wZVZoN0RhRFJvMUtuUHdyVGtQQ2Y5WlBkQUZubndLY2Fldm15SU10RXFEVUtUd0NDcHhaamh4YXFCM3JHRFBMaFQwWHZFcDNDdXpiRFNSMmFrVWdKRDF1SlhrM01RUHJnZw?oc=5",
           "date": "2026-10-07",
-          "source": "Simply Wall Street",
+          "source": "Zonebourse",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "National Bank Holdings stock sets an October 27 earnings date - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSmdYOGFvc3pmdTNrb3Rkck9xbVZoY1dLU3VidmZOUU95N0w3bmtXRHBJUV9HT21IWUV1STZlLVVqNTZ3anRoclJnX0RpbElWWUlaT1hXRVU3UHNjd1JqdjZuQ2hhNmtJZ04xTGRFTEFPemtWWjBnNm1zV0Vab3Z4XzRfdE54cEN0RHpqMVJPZlB0WV80ZFdUMXdGRWhNUGU2OVJhZV9BWlJ5SFNXN054aF8xUHZKYTBZQTBqXw?oc=5",
+          "titre": "Avis d'analystes US : Allstate, Caribou Biosciences, Zscaler - Boursorama",
+          "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVWRSeWQtRkpyWi1jNUNGOWdpemFYVnBPdWVRcFRPSER4cVJILTJPV2g5ZFc4YWd1RmRaSGFodGxMb3NHU1RNUU1janRtLS1yVndOSGUtNmFMSDhIaE41ZTBUejhMZWVkclBwZktMbDNzT3hUcUJlcEJwcXZHZWk5T3dydEdaZFhZNk01OXdKRC1WQkxUUTJyRFVrQ3M5QW9wNmNpOGxHMy1kMnRNU0FBcVZPQy1XYmtTZlYteUxSSEliSl9pSG84eUF0bmttVXNjdm1NWtIB1AFBVV95cUxOVWRSeWQtRkpyWi1jNUNGOWdpemFYVnBPdWVRcFRPSER4cVJILTJPV2g5ZFc4YWd1RmRaSGFodGxMb3NHU1RNUU1janRtLS1yVndOSGUtNmFMSDhIaE41ZTBUejhMZWVkclBwZktMbDNzT3hUcUJlcEJwcXZHZWk5T3dydEdaZFhZNk01OXdKRC1WQkxUUTJyRFVrQ3M5QW9wNmNpOGxHMy1kMnRNU0FBcVZPQy1XYmtTZlYteUxSSEliSl9pSG84eUF0bmttVXNjdm1NWg?oc=5",
           "date": "2026-10-07",
-          "source": "AD HOC NEWS",
+          "source": "Boursorama",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "National Bank (NYSE:NBHC) Stock Rating Upgraded by Zacks Research - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcU9qWlBUdEZwX1ZsWEdUTXBoMXBtSHMyQ25RM0pzZ0tKaWkxRGFCeHNLaXVhLVprdlZzN2N3VmhfNGFtZF9nZ3poN292djBDczBmMUc3M2lVUU1jUldtSTd5OVFhNVpyTVVDeXFsYURQYmRyWFBBVC1NOGI1dUlQd1RhbUtDU1VOMl9DOHZFaUtwT3c0NXB6WjhSY3lINXVpZ1ZaN2diakw3ZTZscWJSRzJUYzllUy1zQXFjOXd2RzdRekE?oc=5",
+          "titre": "Ellington Financial Inc. (EFC) stock price, news, quote and history - Yahoo Finance Australia",
+          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB5OFBQcjd5b2hxdEFsZ054RExnaXR3MGFRUEJMOW52YVU0T1NVZ1VPc0Z4RWE5X1NqM2lGc1Z3TUJJMTg0bkJRRmQ4QWhlaUFl?oc=5",
+          "date": "2026-10-07",
+          "source": "Yahoo Finance Australia",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Ellington Financial Inc. Declares Monthly Common Dividend, Payable on November 30, 2026 - www.marketscreener.com",
+          "lien": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSUVaWXdaUElpZ2ZiLUt3a2diVlFmRDlicng2bjVLUW1FOEpxejU2bUhrMGRVcEczZjh0aVNpaGJrV2UwanIzMFhpT2F0VDI3VUdNdnhuV1lvbGRaZXF4bDVSb0lmbVhHVldIeks5SDZEWEFmczhqQ002X0h6Rm1GNmd0eTRfWF9ILUplMWZPZGJIUURfSWdCajR6SkhlNjd1QnRXWDJqbVNlOXR1dmU4TjRoNEhkOEpKZkRONkUxcnVOU0ljMjhLZVlQLTQ0SVRtWTVJ?oc=5",
+          "date": "2026-10-07",
+          "source": "www.marketscreener.com",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Ellington Financial Inc. (NYSE:EFC) Shareholders to Collect $0.13 Monthly Dividend - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWGJTcVBBeU9aemEtbVNsTmZlWW5kZWhmNDFXdV9oUXE4WG5KQmZzX0xDTzVBVmtzRGhJSUFnR1Y5eWZxUUhSaF8wNGZwdEFIbWs5NkdTWXpGblpuLWJYX1haREZxblRPSUl6Y2hIRWh3S2ZOazE3dzBuQVhOT0d3Tl85dDhUMzAzckNCdHJjcTlTUWF0YUg5NUREZTZNaUxoaUdlMHEyZkJZV2J3MDZmeF90NkY1azJNdEJfOVE4emdNM1ZILVNLd3V3bm9CbGZTVkhwSm95cw?oc=5",
           "date": "2026-10-07",
           "source": "MarketBeat",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Third-quarter results are expected Oct. 27; National Bank Holdings' call follows Oct. 28. - Stock Titan",
-          "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQTVIQmxmbnNtYVRiWDZFVmZKMVg2Yjh3eGh0X01fajVyOVFmVFdia2tENjc5THZGeXNERVlNVFNsaVZPcGp0YlZoTU5Za0tZY2lBQ3BOVUNQdjdiZmQwNm5lbUE4ZWZyZmRrdnJ5ZGFpWk01Y0RkT3d6dHJ3d25qbUZGOENlUnVLdUgtbDBwVGpJdVRudGJocmI0VW9Ebm1hXzhhMjB0bFkybDJaTWRwV29BUEhrVXd0U0F3?oc=5",
-          "date": "2026-10-06",
-          "source": "Stock Titan",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 69
+    "ticket": 70
   },
   "radar_proposes": [
     "MCD",
@@ -198,7 +199,9 @@
     "LOW",
     "MLM",
     "GJF.OL",
-    "NBHC"
+    "NBHC",
+    "O",
+    "EFC"
   ],
   "achats": [],
   "historique": [
@@ -6897,6 +6900,106 @@
         ]
       },
       "ticket": 68,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-09",
+      "cree_le": "2026-10-09T10:49+00:00",
+      "liberation": 136.71089178190815,
+      "reserve_pct": null,
+      "score": 88.76052337563452,
+      "ordres": [
+        {
+          "ticker": "NBHC",
+          "side": "buy",
+          "quantity": 4.0,
+          "price": 33.927722945477036,
+          "reason": "opportunité radar (score 89)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "NBHC",
+        "nom": "National Bank Holdings Corporation",
+        "isin": "NBHC",
+        "type": "action",
+        "prix": 38.0099983215332,
+        "score": 88.76052337563452,
+        "baisse": 0.18633112747615888,
+        "perf_5ans": 0.05628043708230579,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.20711215262721827,
+        "pos_12m": 0.7461406518010292,
+        "n_12m": 583,
+        "base_moy_12m": 0.11905932434337649,
+        "pire_12m": -0.34674661023716014,
+        "vs_marche_3m": -0.15635054063362386,
+        "devise": "USD",
+        "prix_eur": 33.927722945477036,
+        "fondamental": 78.5,
+        "fondamental_notes": [
+          "chiffre d'affaires +22.1% sur un an",
+          "bénéfices -34.1% sur un an",
+          "bénéfices attendus +66% sur 12 mois",
+          "analystes : « achat » (2.2/5, 4 avis)",
+          "objectif moyen des analystes : +22%",
+          "P/E attendu 9.5 (actuel 15.8)",
+          "marge nette 22%"
+        ],
+        "score_global": 82.6,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -16% vs marché)",
+        "vs_marche_3m": -0.15635054063362386,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "National Bank Holdings stock gets a Zacks rating upgrade - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTkN4QTVIMW5odW9hekM1UTNfMmNoUjd2RVFrZDJFVnphTkcxV3pwa0VDb0VvYXBtbGo2UE1HVkNNUEQyZnMySUdtT2Z5OHlMX1JsSnVqWjJ3dzBRSGx2WmZOQUlhVF84TDJzZUxLM1pWd0RZOG1JSy1Gbmg2RzVZZ1dvdzBGZjJMS1h5S0gzbHNMNllyZXpqMFNuWEhNd2NzYkhFSWFGYW5DN2R5X01Hb3VxcHJjQQ?oc=5",
+            "date": "2026-10-08",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Will Lower Earnings Guidance Change National Bank Holdings' Narrative - Simply Wall Street",
+            "lien": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTVVDd1o3Q3dCQ19UdDRZNVp3SmN5QVpJd0lvRDhRd0g5MGwxQkR0YmlCZnJMSXJDdHFkQ3NjZFlCbkMybl9yZ2ZtS0YzcmNNSDFPQi11bjBMQ3RNOVBPN0lyZnVDQzF0Q2tvR212cXU1ZVMyTTUyRFpSblZQZHZqaWNEY0FNZm90NTJRQTZoYnVKaUlMb2VIODZibGNvXzlhX1dHMVpod3N0MDc5aGwtMHNWOHNKdWItM2lpQWRXMzhWQlhpZmxTLVRta0E5TkhBQXfSAdcBQVVfeXFMTnJxX1ZUbnVqNThYbE1KVUpMcTkwR1hkY2dVNk5kYXRaNVB0b3FyYXhjdmNaWFM5QlNqYjhrekQ5QUxGbEZVZ21ENXpsb3piRFZrcGRuWmNndTBOcUVyYW1INXpKY2JQd25GTmY3U01rQzA5Tk5jRFdYUUFXRGRoNjZpVk1JNEtBSTZVelRZLTRNQ2hYS3piQTZBYzVmMnBiaE1iYTRkT2E0a29WZmRIdGNvdTBjSXIwQ2J0MldteDlDUlJRWVNiMFNVZ1lIYVZHVnhhOGtFZTA?oc=5",
+            "date": "2026-10-07",
+            "source": "Simply Wall Street",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "National Bank Holdings stock sets an October 27 earnings date - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSmdYOGFvc3pmdTNrb3Rkck9xbVZoY1dLU3VidmZOUU95N0w3bmtXRHBJUV9HT21IWUV1STZlLVVqNTZ3anRoclJnX0RpbElWWUlaT1hXRVU3UHNjd1JqdjZuQ2hhNmtJZ04xTGRFTEFPemtWWjBnNm1zV0Vab3Z4XzRfdE54cEN0RHpqMVJPZlB0WV80ZFdUMXdGRWhNUGU2OVJhZV9BWlJ5SFNXN054aF8xUHZKYTBZQTBqXw?oc=5",
+            "date": "2026-10-07",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "National Bank (NYSE:NBHC) Stock Rating Upgraded by Zacks Research - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcU9qWlBUdEZwX1ZsWEdUTXBoMXBtSHMyQ25RM0pzZ0tKaWkxRGFCeHNLaXVhLVprdlZzN2N3VmhfNGFtZF9nZ3poN292djBDczBmMUc3M2lVUU1jUldtSTd5OVFhNVpyTVVDeXFsYURQYmRyWFBBVC1NOGI1dUlQd1RhbUtDU1VOMl9DOHZFaUtwT3c0NXB6WjhSY3lINXVpZ1ZaN2diakw3ZTZscWJSRzJUYzllUy1zQXFjOXd2RzdRekE?oc=5",
+            "date": "2026-10-07",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Third-quarter results are expected Oct. 27; National Bank Holdings' call follows Oct. 28. - Stock Titan",
+            "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQTVIQmxmbnNtYVRiWDZFVmZKMVg2Yjh3eGh0X01fajVyOVFmVFdia2tENjc5THZGeXNERVlNVFNsaVZPcGp0YlZoTU5Za0tZY2lBQ3BOVUNQdjdiZmQwNm5lbUE4ZWZyZmRrdnJ5ZGFpWk01Y0RkT3d6dHJ3d25qbUZGOENlUnVLdUgtbDBwVGpJdVRudGJocmI0VW9Ebm1hXzhhMjB0bFkybDJaTWRwV29BUEhrVXd0U0F3?oc=5",
+            "date": "2026-10-06",
+            "source": "Stock Titan",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 69,
       "decision": "sans réponse"
     }
   ]
