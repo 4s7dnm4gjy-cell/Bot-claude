@@ -18,102 +18,113 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-10",
-    "cree_le": "2026-10-10T06:52+00:00",
-    "liberation": 121.89999771118164,
+    "cree_le": "2026-10-10T07:46+00:00",
+    "liberation": 146.84462753803464,
     "reserve_pct": null,
-    "score": 87.64865084032282,
+    "score": 87.52813495144129,
     "ordres": [
       {
-        "ticker": "EN.PA",
+        "ticker": "TXRH",
         "side": "buy",
-        "quantity": 3.0,
-        "price": 40.29999923706055,
+        "quantity": 1.0,
+        "price": 145.84462753803464,
         "reason": "opportunité radar (score 88)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "EN.PA",
-      "nom": "Bouygues",
-      "isin": "EN.PA",
+      "ticker": "TXRH",
+      "nom": "Texas Roadhouse",
+      "isin": "TXRH",
       "type": "action",
-      "prix": 40.29999923706055,
-      "score": 87.64865084032282,
-      "baisse": 0.23962265590451803,
-      "perf_5ans": 0.5682385614914145,
+      "prix": 163.26499938964844,
+      "score": 87.52813495144129,
+      "baisse": 0.2351436192813775,
+      "perf_5ans": 0.8980535510933636,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.2118739242439987,
-      "pos_12m": 0.7685459940652819,
-      "n_12m": 337,
-      "base_moy_12m": 0.11869128671723711,
-      "pire_12m": -0.5052106881931171,
-      "vs_marche_3m": -0.19009166426254243,
-      "devise": "EUR",
-      "prix_eur": 40.29999923706055,
-      "fondamental": 73.0,
+      "moy_12m": 0.2914184344398002,
+      "pos_12m": 0.7215189873417721,
+      "n_12m": 474,
+      "base_moy_12m": 0.21442293934161044,
+      "pire_12m": -0.4082541347224278,
+      "vs_marche_3m": -0.17279042492873686,
+      "devise": "USD",
+      "prix_eur": 145.84462753803464,
+      "fondamental": 71.0,
       "fondamental_notes": [
-        "chiffre d'affaires -1.0% sur un an",
-        "bénéfices +12.6% sur un an",
-        "bénéfices attendus +18% sur 12 mois",
-        "analystes : « achat » (1.9/5, 10 avis)",
-        "objectif moyen des analystes : +47%",
-        "P/E attendu 10.5 (actuel 12.4)",
-        "marge nette 2%",
-        "dette / capitaux propres 103 %"
+        "chiffre d'affaires +11.1% sur un an",
+        "bénéfices -0.5% sur un an",
+        "bénéfices attendus +24% sur 12 mois",
+        "analystes : « achat » (1.9/5, 24 avis)",
+        "objectif moyen des analystes : +32%",
+        "P/E attendu 20.9 (actuel 26.0)",
+        "marge nette 7%",
+        "dette / capitaux propres 69 %"
       ],
-      "score_global": 78.9,
+      "score_global": 77.6,
       "braderie": false
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -19% vs marché)",
-      "vs_marche_3m": -0.19009166426254243,
-      "alertes": [],
+      "resume": "à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -17% vs marché)",
+      "vs_marche_3m": -0.17279042492873686,
+      "alertes": [
+        {
+          "titre": "LMDC officer, union ask for restraining order amid Bevin jail probe - The Courier-Journal",
+          "lien": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNc1lkVVJ6UTdTR0dDUFZzbVA1NWdtNnVDV3FjUFVvRDBNRjMxQ3M4bllUQzdlY3hUWXVQYzBFSnM0dXBMSWg3M3k0RFpZcm5PTTBuZU9nLWRWTkpTSl9JSlZaSUFMNm5mUGpONTA4RDAwa2Q0cFRRN2dzMjB6alh6bU9BZld2eXNPMWFRMVFUMzRnM0tOUnNmT3dZSkZJTU5UQlRpOGYxUkpJa2tuVmI5TDVvX3pOVFFvWmpkUnZQVGI1MDVEVkIzLUxQSlcxYUxwY3gyN0xBel9rRVdqV1gyRnhTd2c3QQ?oc=5",
+          "date": "2026-10-06",
+          "source": "The Courier-Journal",
+          "gravite": 1,
+          "mots": [
+            "probe"
+          ]
+        }
+      ],
       "recents": [
         {
-          "titre": "Bouygues Telecom quitte le site historique de Mérignac pour s’installer Bordeaux - Sud Ouest",
-          "lien": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPZEFIUUpMb1FFQktGN3piUVhiWHVZQ0RvZFR4ZzRNbGdfQjNPdU56azc5ZkJTQXRnTjA5djBuQXVpR3ZZdzIyb1dCaGdWNkVIZllqNzNqZzZ5ZW9jSHFfbjZvMElKOW1NSWpNQk9idXhvenZBa2wwcXl6b1RyR1VGaTJRamo0Ul9jdzBnRUZJRkhuU1Y2VHFEbVRCaUcwUEhRWXlkczhSWmo5MFhHV3Yzb0M2eWNrN2sxOGxwZUNIaElsWk4xeGRmeHN6Yld1OEFiN1I4Z2tWeVQ4cVhtT01lQ0FCaw?oc=5",
+          "titre": "14 Changes I Wish Texas Roadhouse Would Make - Tasting Table",
+          "lien": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBDbHlvU2RaVHVPRUhVR3VjUlBOeF9BbkxRSDlBZHZ2Y2FiV0R5SUE1MTZGNUFVMFYtVm5lRWJYU2dZYjFkN2dVNEU3dXp0QzJEaVhPaGdTeWtEdi1HN3U0b0xzSDB2ajYxVGtCVnp5VTJTejR2VkEyeWw4MllFZw?oc=5",
           "date": "2026-10-10",
-          "source": "Sud Ouest",
+          "source": "Tasting Table",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "BOUYGUES Cours Action EN, Cotation Bourse Euronext Paris - Boursorama",
-          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1FRnRQY2lqUkxRT3htOEdjOEJvZDUzVk11MnVaWG4xQVU1aHczaFBQcXIyMFZyNF81T0YxYWtLSzZDVVZ2UC00bmVLOV9tUXlp?oc=5",
+          "titre": "Texas Roadhouse meat-cutting challenge in Houston - FOX 26 Houston",
+          "lien": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBRNjZRUTRKaDNvSE13V1pGRjZxVUh4WnkxX1RGcjJ6SHR0ZHljQ0ZyS0lwTmdtUEdkZmpFQWIybF8yeV9OM0RMNFFEQTEyNEhnalpNaHhxeVpkazIwQTh0YlVYM2RCd9IBa0FVX3lxTE5Gdm40WHZDRmsxYS1uazhod2ZqY0VMbEpzNmFTYXpONmV4WERKNkluYVhacXdOdnRSaVc5bkVPeUtiYlpRZzd4NzhwMk1CaG9YTng3Tzd1d2trMktna2JlQXptS0RjWXJMVkFz?oc=5",
           "date": "2026-10-09",
-          "source": "Boursorama",
+          "source": "FOX 26 Houston",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Bouygues Telecom lance trois assurances avec AXA, à partir de 1,99 € par mois - Ideal Investisseur",
-          "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTm9WVk8yejlTVl9wTjZUODQxQ0M2MjZMVnVTT3pWb2VpWmdsOEJuMGY5WHNBa0x6Qm1sbWJIMGZZY0ZlOUQ3Z2JPTlQ5aVJtRE5USDA2bGVYNUVJbDNHQ3JIMzJkcGhwelVtOUFueEhMX24xbkV2dmE4QzMwZ2VGVHFYLVBsQ3FvS3BVcnFuYlZlalBYZDdsd0tsQkltalY2QzlGLWdKUUlXLUw3T0VKNFZqZU56eFZqcTFWR2U0ZERJRFF5b0xv?oc=5",
-          "date": "2026-10-09",
-          "source": "Ideal Investisseur",
+          "titre": "Texas Roadhouse, Inc. (TXRH) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBYa0YwNDRmOFcxNElLVjRpMG9XVFVFd3dqOEw2ZjZTRVp0Q2JIc0t2a19XVU5KNFZfQVZleHY4QU9HN3VwajRYRWdndUFZRVJGYXc?oc=5",
+          "date": "2026-10-08",
+          "source": "Yahoo! Finance Canada",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Bouygues Telecom devient le 1er opérateur à proposer une assurance Urgence habitation - Frandroid",
-          "lien": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQaTBkbjV0MXBPTjdSbFFrcTYzOUlDTzM1WlZYRTh3c2JydElqVWJlMGgyU2VQcjZCOWU0ZHRyRXQ0ZHB4SjhwZkowNjRrQXF1R3gtNWs5UGkyWlZ5bGEyNjMzdXF5b3lrQUkwdmpGUllQcUZWTkM3emtLYjZPVU9sajRDVGRiMFBZV19MMEdBUjZqcTZOYWVNc0lsMl9vWVR6SW1xcUIyNDVSV2VhVnpjYlBDVGtMRFRpNlNmWjlQM0h2Y1lxU25GcG90TEJtZkp0c3lhMER1NWNzbnl1SUE?oc=5",
-          "date": "2026-10-09",
-          "source": "Frandroid",
+          "titre": "Texas Roadhouse Has 3 Ribeye Cuts — Which Should You Choose? - Chowhound",
+          "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTGRsTHdPbG1Ua2t4aHhRT2VRc042N3p6WDhRMG51QWl3U1RrbEExNkJqNkVNOEViNVA2cC1paGdLdXFUZ0xXajNIMXRVUkFjOUkwbmhzUE5HZE5ud0JwUzVVQWJNNS0zZjIzRmxRa0NrV2ZzdWJ3VHBoY21Xb2NhQnZEb1pnYmlUUFZXa0psWFZWRkk?oc=5",
+          "date": "2026-10-08",
+          "source": "Chowhound",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Une eSIM de voyage dans son espace bancaire : le Crédit Mutuel-CIC s’allie à Bouygues autour de l’InternationalSIM - Frandroid",
-          "lien": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNS2hoZWNweHRpeFNyUmhsUUJaNEdLR0ZPQVpuS2I3QlVzckJKaEtNMEtUZUJQRmU5bzRRamttb0sxcWxCMjU3eThldDBtUzJGWFdySkYzWUZYbGlFLWRHWDd1ckE2Wm1zYU1MR3VKenpXc2xBZzRSRnlpck5GU2FJRF9ENGhaOW4tZi05Vk9mUEVwZS13R1ZCTVhPbmdYdzlrZFhNbTJmRHdVdHdlRHIxcEdHeU43ZklCdHJWQlh0NndIS0hmZnRXRC1YT0swNERTb1Nna0pOMVJrQzdnUmxWREplX1RWMEpoQkZYUTRxOGxSSjdQbENlMzFKSDRqUQ?oc=5",
-          "date": "2026-10-09",
-          "source": "Frandroid",
+          "titre": "Texas Roadhouse, Inc. to Announce Third Quarter Earnings on November 5, 2026 - GlobeNewswire",
+          "lien": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOcnltUUplRjRvQ3Z3Q3ZvZE42NDY1U3BpbGloLWlLdno4aG1UTGp2LWNtRzQ4cnd3WlJweG5xV3gySmRRR051UC1TTkFZM2RrOGJpWTNteHA2b0w0RjNiOTJPTlhXYmxmMDZCcXNZLVVaTnpxWkhjWkhFQjBVWHFCSmxxUXVYaWlzckxQU3RyWlRYa20tZFZTV2hmOTFObEg4WE1EV0g1WEEwT0R2YUgtMnBMbF8zUWkxRWpjc2VCWWFKaHQ1TWtoR2kyd3Mtekc3cGxEM3RLMkVMRHhhVnc?oc=5",
+          "date": "2026-10-08",
+          "source": "GlobeNewswire",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 87
+    "ticket": 88
   },
   "radar_proposes": [
     "MCD",
@@ -220,7 +231,8 @@
     "MFI.TO",
     "BOH",
     "REG.AX",
-    "EN.PA"
+    "EN.PA",
+    "TXRH"
   ],
   "achats": [],
   "historique": [
@@ -8737,6 +8749,107 @@
         ]
       },
       "ticket": 86,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-10",
+      "cree_le": "2026-10-10T06:52+00:00",
+      "liberation": 121.89999771118164,
+      "reserve_pct": null,
+      "score": 87.64865084032282,
+      "ordres": [
+        {
+          "ticker": "EN.PA",
+          "side": "buy",
+          "quantity": 3.0,
+          "price": 40.29999923706055,
+          "reason": "opportunité radar (score 88)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "EN.PA",
+        "nom": "Bouygues",
+        "isin": "EN.PA",
+        "type": "action",
+        "prix": 40.29999923706055,
+        "score": 87.64865084032282,
+        "baisse": 0.23962265590451803,
+        "perf_5ans": 0.5682385614914145,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.2118739242439987,
+        "pos_12m": 0.7685459940652819,
+        "n_12m": 337,
+        "base_moy_12m": 0.11869128671723711,
+        "pire_12m": -0.5052106881931171,
+        "vs_marche_3m": -0.19009166426254243,
+        "devise": "EUR",
+        "prix_eur": 40.29999923706055,
+        "fondamental": 73.0,
+        "fondamental_notes": [
+          "chiffre d'affaires -1.0% sur un an",
+          "bénéfices +12.6% sur un an",
+          "bénéfices attendus +18% sur 12 mois",
+          "analystes : « achat » (1.9/5, 10 avis)",
+          "objectif moyen des analystes : +47%",
+          "P/E attendu 10.5 (actuel 12.4)",
+          "marge nette 2%",
+          "dette / capitaux propres 103 %"
+        ],
+        "score_global": 78.9,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -19% vs marché)",
+        "vs_marche_3m": -0.19009166426254243,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Bouygues Telecom quitte le site historique de Mérignac pour s’installer Bordeaux - Sud Ouest",
+            "lien": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPZEFIUUpMb1FFQktGN3piUVhiWHVZQ0RvZFR4ZzRNbGdfQjNPdU56azc5ZkJTQXRnTjA5djBuQXVpR3ZZdzIyb1dCaGdWNkVIZllqNzNqZzZ5ZW9jSHFfbjZvMElKOW1NSWpNQk9idXhvenZBa2wwcXl6b1RyR1VGaTJRamo0Ul9jdzBnRUZJRkhuU1Y2VHFEbVRCaUcwUEhRWXlkczhSWmo5MFhHV3Yzb0M2eWNrN2sxOGxwZUNIaElsWk4xeGRmeHN6Yld1OEFiN1I4Z2tWeVQ4cVhtT01lQ0FCaw?oc=5",
+            "date": "2026-10-10",
+            "source": "Sud Ouest",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "BOUYGUES Cours Action EN, Cotation Bourse Euronext Paris - Boursorama",
+            "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1FRnRQY2lqUkxRT3htOEdjOEJvZDUzVk11MnVaWG4xQVU1aHczaFBQcXIyMFZyNF81T0YxYWtLSzZDVVZ2UC00bmVLOV9tUXlp?oc=5",
+            "date": "2026-10-09",
+            "source": "Boursorama",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Bouygues Telecom lance trois assurances avec AXA, à partir de 1,99 € par mois - Ideal Investisseur",
+            "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTm9WVk8yejlTVl9wTjZUODQxQ0M2MjZMVnVTT3pWb2VpWmdsOEJuMGY5WHNBa0x6Qm1sbWJIMGZZY0ZlOUQ3Z2JPTlQ5aVJtRE5USDA2bGVYNUVJbDNHQ3JIMzJkcGhwelVtOUFueEhMX24xbkV2dmE4QzMwZ2VGVHFYLVBsQ3FvS3BVcnFuYlZlalBYZDdsd0tsQkltalY2QzlGLWdKUUlXLUw3T0VKNFZqZU56eFZqcTFWR2U0ZERJRFF5b0xv?oc=5",
+            "date": "2026-10-09",
+            "source": "Ideal Investisseur",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Bouygues Telecom devient le 1er opérateur à proposer une assurance Urgence habitation - Frandroid",
+            "lien": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQaTBkbjV0MXBPTjdSbFFrcTYzOUlDTzM1WlZYRTh3c2JydElqVWJlMGgyU2VQcjZCOWU0ZHRyRXQ0ZHB4SjhwZkowNjRrQXF1R3gtNWs5UGkyWlZ5bGEyNjMzdXF5b3lrQUkwdmpGUllQcUZWTkM3emtLYjZPVU9sajRDVGRiMFBZV19MMEdBUjZqcTZOYWVNc0lsMl9vWVR6SW1xcUIyNDVSV2VhVnpjYlBDVGtMRFRpNlNmWjlQM0h2Y1lxU25GcG90TEJtZkp0c3lhMER1NWNzbnl1SUE?oc=5",
+            "date": "2026-10-09",
+            "source": "Frandroid",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Une eSIM de voyage dans son espace bancaire : le Crédit Mutuel-CIC s’allie à Bouygues autour de l’InternationalSIM - Frandroid",
+            "lien": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNS2hoZWNweHRpeFNyUmhsUUJaNEdLR0ZPQVpuS2I3QlVzckJKaEtNMEtUZUJQRmU5bzRRamttb0sxcWxCMjU3eThldDBtUzJGWFdySkYzWUZYbGlFLWRHWDd1ckE2Wm1zYU1MR3VKenpXc2xBZzRSRnlpck5GU2FJRF9ENGhaOW4tZi05Vk9mUEVwZS13R1ZCTVhPbmdYdzlrZFhNbTJmRHdVdHdlRHIxcEdHeU43ZklCdHJWQlh0NndIS0hmZnRXRC1YT0swNERTb1Nna0pOMVJrQzdnUmxWREplX1RWMEpoQkZYUTRxOGxSSjdQbENlMzFKSDRqUQ?oc=5",
+            "date": "2026-10-09",
+            "source": "Frandroid",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 87,
       "decision": "sans réponse"
     }
   ]
