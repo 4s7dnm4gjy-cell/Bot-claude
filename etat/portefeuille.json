@@ -18,113 +18,113 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-10",
-    "cree_le": "2026-10-10T07:46+00:00",
-    "liberation": 146.84462753803464,
+    "cree_le": "2026-10-10T08:17+00:00",
+    "liberation": 219.3000030517578,
     "reserve_pct": null,
-    "score": 87.52813495144129,
+    "score": 87.31334593518154,
     "ordres": [
       {
-        "ticker": "TXRH",
+        "ticker": "HO.PA",
         "side": "buy",
         "quantity": 1.0,
-        "price": 145.84462753803464,
-        "reason": "opportunité radar (score 88)"
+        "price": 218.3000030517578,
+        "reason": "opportunité radar (score 87)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "TXRH",
-      "nom": "Texas Roadhouse",
-      "isin": "TXRH",
+      "ticker": "HO.PA",
+      "nom": "Thales",
+      "isin": "FR0000121329",
       "type": "action",
-      "prix": 163.26499938964844,
-      "score": 87.52813495144129,
-      "baisse": 0.2351436192813775,
-      "perf_5ans": 0.8980535510933636,
+      "prix": 218.3000030517578,
+      "score": 87.31334593518154,
+      "baisse": 0.19713126902508404,
+      "perf_5ans": 1.8961057508609716,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.2914184344398002,
-      "pos_12m": 0.7215189873417721,
-      "n_12m": 474,
-      "base_moy_12m": 0.21442293934161044,
-      "pire_12m": -0.4082541347224278,
-      "vs_marche_3m": -0.17279042492873686,
-      "devise": "USD",
-      "prix_eur": 145.84462753803464,
+      "moy_12m": 0.18222559861139256,
+      "pos_12m": 0.7308970099667774,
+      "n_12m": 602,
+      "base_moy_12m": 0.15223689652222874,
+      "pire_12m": -0.37473989858775414,
+      "vs_marche_3m": -0.0500075138743441,
+      "devise": "EUR",
+      "prix_eur": 218.3000030517578,
       "fondamental": 71.0,
       "fondamental_notes": [
-        "chiffre d'affaires +11.1% sur un an",
-        "bénéfices -0.5% sur un an",
-        "bénéfices attendus +24% sur 12 mois",
-        "analystes : « achat » (1.9/5, 24 avis)",
-        "objectif moyen des analystes : +32%",
-        "P/E attendu 20.9 (actuel 26.0)",
+        "chiffre d'affaires +6.7% sur un an",
+        "bénéfices -27.0% sur un an",
+        "bénéfices attendus +71% sur 12 mois",
+        "analystes : « achat » (1.9/5, 19 avis)",
+        "objectif moyen des analystes : +35%",
+        "P/E attendu 17.4 (actuel 29.7)",
         "marge nette 7%",
-        "dette / capitaux propres 69 %"
+        "dette / capitaux propres 70 %"
       ],
-      "score_global": 77.6,
+      "score_global": 77.5,
       "braderie": false
     },
     "actualites": {
-      "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -17% vs marché)",
-      "vs_marche_3m": -0.17279042492873686,
+      "verdict": "vert",
+      "resume": "rien d'alarmant dans l'actualité (1 article(s) mineur(s), courant pour une grande entreprise) (3 mois : -5% vs marché)",
+      "vs_marche_3m": -0.0500075138743441,
       "alertes": [
         {
-          "titre": "LMDC officer, union ask for restraining order amid Bevin jail probe - The Courier-Journal",
-          "lien": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNc1lkVVJ6UTdTR0dDUFZzbVA1NWdtNnVDV3FjUFVvRDBNRjMxQ3M4bllUQzdlY3hUWXVQYzBFSnM0dXBMSWg3M3k0RFpZcm5PTTBuZU9nLWRWTkpTSl9JSlZaSUFMNm5mUGpONTA4RDAwa2Q0cFRRN2dzMjB6alh6bU9BZld2eXNPMWFRMVFUMzRnM0tOUnNmT3dZSkZJTU5UQlRpOGYxUkpJa2tuVmI5TDVvX3pOVFFvWmpkUnZQVGI1MDVEVkIzLUxQSlcxYUxwY3gyN0xBel9rRVdqV1gyRnhTd2c3QQ?oc=5",
-          "date": "2026-10-06",
-          "source": "The Courier-Journal",
+          "titre": "French citizen sued by his former employer, Thales, has languished in Azerbaijani prisons since 2022 - Le Monde.fr",
+          "lien": "https://news.google.com/rss/articles/CBMiggJBVV95cUxON0wzY2F5UDVqSHFKV2lBMmNDR1pXZUVtelBad1JpS3NIY2ZpclFFNExaZkdvc25haUZzNlllM1Y5WkFidTJxcjdKWnRGY0p6TmRwVDVuU1lIOEhIQVJkcFJjd2sxYTJsN2hOVnpxUUt3RjVxYnlxVW83dzg1eHlJNXNpVjR5Ulp0dlRST243MWQxVFNvalBnS0VBbHk3ZUQ4X3NLRVhzV2RKR0lCWnFoZlNEM1RTVXRFeW40emJ4cW9yeDJiR1g0OEF3YklfNGdVc1dwWHpjYVY3VFJYX0hHUEc4eWhDRzJRbTI1Zjk0ZDJUamZNR2ZpWVlocTYwbUpZSHc?oc=5",
+          "date": "2026-10-09",
+          "source": "Le Monde.fr",
           "gravite": 1,
           "mots": [
-            "probe"
+            "sued"
           ]
         }
       ],
       "recents": [
         {
-          "titre": "14 Changes I Wish Texas Roadhouse Would Make - Tasting Table",
-          "lien": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBDbHlvU2RaVHVPRUhVR3VjUlBOeF9BbkxRSDlBZHZ2Y2FiV0R5SUE1MTZGNUFVMFYtVm5lRWJYU2dZYjFkN2dVNEU3dXp0QzJEaVhPaGdTeWtEdi1HN3U0b0xzSDB2ajYxVGtCVnp5VTJTejR2VkEyeWw4MllFZw?oc=5",
-          "date": "2026-10-10",
-          "source": "Tasting Table",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Texas Roadhouse meat-cutting challenge in Houston - FOX 26 Houston",
-          "lien": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBRNjZRUTRKaDNvSE13V1pGRjZxVUh4WnkxX1RGcjJ6SHR0ZHljQ0ZyS0lwTmdtUEdkZmpFQWIybF8yeV9OM0RMNFFEQTEyNEhnalpNaHhxeVpkazIwQTh0YlVYM2RCd9IBa0FVX3lxTE5Gdm40WHZDRmsxYS1uazhod2ZqY0VMbEpzNmFTYXpONmV4WERKNkluYVhacXdOdnRSaVc5bkVPeUtiYlpRZzd4NzhwMk1CaG9YTng3Tzd1d2trMktna2JlQXptS0RjWXJMVkFz?oc=5",
+          "titre": "La France enquête sur les contrats de Thales en Azerbaïdjan, dénoncés par un ex-responsable emprisonné - Le Monde.fr",
+          "lien": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNd2lfVDRkUmZFcndKRG9iYVl6RFE2TDFFb09yY1AwUi1qVVo2enVKcTBHRGVrWGstdjJfcGpMV0hjQmpTMTRZdzMtenRmSXdrNWFWZGFSZDZEVUxFYy1ZZ0F2LXZNYWpjc1hidDg2M0l3WlB2eTNpMWxLc09zcWtSZDRSMGpleExvRFI3b0V6T0JTaEdSZFhjc01UaU5CczFNQVNSWlZiS2hFLTBkZVhPMUZPUzJ4QXRIRkQ2alQ3UnZFRXFuamNiVGxOZ2xNWkRFYkRfTDdoa0o3V0FwNjRIVm5DdlphSzhCVmU4cFR3YkEzYkxFZ19UOHA3UDJZVkQzaHI2RVhlaG9hUQ?oc=5",
           "date": "2026-10-09",
-          "source": "FOX 26 Houston",
+          "source": "Le Monde.fr",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Texas Roadhouse, Inc. (TXRH) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-          "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBYa0YwNDRmOFcxNElLVjRpMG9XVFVFd3dqOEw2ZjZTRVp0Q2JIc0t2a19XVU5KNFZfQVZleHY4QU9HN3VwajRYRWdndUFZRVJGYXc?oc=5",
-          "date": "2026-10-08",
-          "source": "Yahoo! Finance Canada",
+          "titre": "Séance en hausse pour Thales - Boursier.com",
+          "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQd2JvcHd1N0Z1WDl2cmp4cDkzWlBXTzRCOXNrV0tnUzVEVGZ1SzZKcGFOeU52ejFxdl9rbEFzYW5oZTlfRHItV04wLVR5OGZQdzdRVklCNHdMeERsX1dJOXo1VXpFMmZkOFV0dlduY3VBSmdRbDdnOXVQNzhiNndmTl9heUdwUzNrWGZ4TVJOeXV5YWs?oc=5",
+          "date": "2026-10-09",
+          "source": "Boursier.com",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Texas Roadhouse Has 3 Ribeye Cuts — Which Should You Choose? - Chowhound",
-          "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTGRsTHdPbG1Ua2t4aHhRT2VRc042N3p6WDhRMG51QWl3U1RrbEExNkJqNkVNOEViNVA2cC1paGdLdXFUZ0xXajNIMXRVUkFjOUkwbmhzUE5HZE5ud0JwUzVVQWJNNS0zZjIzRmxRa0NrV2ZzdWJ3VHBoY21Xb2NhQnZEb1pnYmlUUFZXa0psWFZWRkk?oc=5",
-          "date": "2026-10-08",
-          "source": "Chowhound",
+          "titre": "Machine contre machine : la cybersécurité change de monde - Thales",
+          "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTzFTY2xkNFpmSS1JMGJQbDBfZmpVTlpnSUR1dm9uRU9TQXBmY1hGeERydm9DZlRMZUVPZDUwR2ZTcUp2dlFmWmNtbHZ3WXpSSmhCUWRMYVZEbXNBTVF5ak1vNzViZUlMdU9UWWVNdUNiaWFqN1oyR0V0WDEySkNhODM1YXpwWldzbzEtUkd6aHhXeGY1QkdJa3c0eUdNT2xIRG4xS2RXdHRhREdRMnpzR3cxdm0wN0dKZHJIckdjZUc?oc=5",
+          "date": "2026-10-09",
+          "source": "Thales",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Texas Roadhouse, Inc. to Announce Third Quarter Earnings on November 5, 2026 - GlobeNewswire",
-          "lien": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOcnltUUplRjRvQ3Z3Q3ZvZE42NDY1U3BpbGloLWlLdno4aG1UTGp2LWNtRzQ4cnd3WlJweG5xV3gySmRRR051UC1TTkFZM2RrOGJpWTNteHA2b0w0RjNiOTJPTlhXYmxmMDZCcXNZLVVaTnpxWkhjWkhFQjBVWHFCSmxxUXVYaWlzckxQU3RyWlRYa20tZFZTV2hmOTFObEg4WE1EV0g1WEEwT0R2YUgtMnBMbF8zUWkxRWpjc2VCWWFKaHQ1TWtoR2kyd3Mtekc3cGxEM3RLMkVMRHhhVnc?oc=5",
-          "date": "2026-10-08",
-          "source": "GlobeNewswire",
+          "titre": "« L’objectif est désormais de le faire disparaître » : un ex-employé de Thales accuse l’entreprise d’avoir poussé pour son incarcération en Azerbaïdjan - L'Humanité",
+          "lien": "https://news.google.com/rss/articles/CBMikgJBVV95cUxObDVwVU9sYUlhWlZQRTVaSGRocWxKMGF3VEdod25oSDZyNXF6R0Q3NHJMcWd5Q1VKMTlFZldZWUJFZ3BUc3dyTjVsQ3dkMnV4ai1VZEFMTkRwd3pXNS1BQmZqOTlLR3l0OGFtTWY5UmdpQkRNUnpId0V6c19VLURpZFZkcnE3R2tvdmpzTWl1bUlvdC0yd2F0T3NLXzdOYjlUZDNXUThlb3BaSk84V3ZTMU9Ic3ZRdFFfajREVHlEZFNwUWpFTmdHa2o1bWMyUU11LWkwRzYyZ1ZpZFBzcHZ0Z1VLWUdqOVhkWkw1akhKeEV4RXhRcm0zQjRfVV9WMFprbWhUTElmT2VwYkdKZEJFeFhn?oc=5",
+          "date": "2026-10-09",
+          "source": "L'Humanité",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Cloud Temple, Thales, Bull, Vates et le CEA mobilisent 47 millions d’euros pour développer le cloud et l’IA de confiance - L'Usine Digitale",
+          "lien": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQQm5sQmtULUdMZzA3aUtUZWpvTXJsR1owRkYyOWtiS1JUbm5qR1FoS0NPVEc5Ul9fQVhpbXV5eVcyQUUzM0pFRUpMVnc0d2JfYWdveUc2TjY3ajZtd3VUaHROQ1cxRTNvVVBKQkJpdGtxQ2hIbUdteEJmRE5uQVpocGR3V1Z2NDdRUEtOcmUyT09oeGFCeWI5NFg4ZWRxdkJ6UGs0MEljdzNnaFZXdzVrNXNhSmNOOEs2UEUyMFlscHFOdjRRcVNEcFhzNGtZVThpQURKdW1LSl9oYnp6QlFsSHNOV3dDWmd0WXBUeHoweHJkUFJwTXFOblpxOEtPVjdxUzlPRFdwQWdnendqcGM0aUpnRHVWSVBoYUU3SEpUNXdIQQ?oc=5",
+          "date": "2026-10-09",
+          "source": "L'Usine Digitale",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 88
+    "ticket": 89
   },
   "radar_proposes": [
     "MCD",
@@ -232,7 +232,8 @@
     "BOH",
     "REG.AX",
     "EN.PA",
-    "TXRH"
+    "TXRH",
+    "HO.PA"
   ],
   "achats": [],
   "historique": [
@@ -8850,6 +8851,118 @@
         ]
       },
       "ticket": 87,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-10",
+      "cree_le": "2026-10-10T07:46+00:00",
+      "liberation": 146.84462753803464,
+      "reserve_pct": null,
+      "score": 87.52813495144129,
+      "ordres": [
+        {
+          "ticker": "TXRH",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 145.84462753803464,
+          "reason": "opportunité radar (score 88)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "TXRH",
+        "nom": "Texas Roadhouse",
+        "isin": "TXRH",
+        "type": "action",
+        "prix": 163.26499938964844,
+        "score": 87.52813495144129,
+        "baisse": 0.2351436192813775,
+        "perf_5ans": 0.8980535510933636,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.2914184344398002,
+        "pos_12m": 0.7215189873417721,
+        "n_12m": 474,
+        "base_moy_12m": 0.21442293934161044,
+        "pire_12m": -0.4082541347224278,
+        "vs_marche_3m": -0.17279042492873686,
+        "devise": "USD",
+        "prix_eur": 145.84462753803464,
+        "fondamental": 71.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +11.1% sur un an",
+          "bénéfices -0.5% sur un an",
+          "bénéfices attendus +24% sur 12 mois",
+          "analystes : « achat » (1.9/5, 24 avis)",
+          "objectif moyen des analystes : +32%",
+          "P/E attendu 20.9 (actuel 26.0)",
+          "marge nette 7%",
+          "dette / capitaux propres 69 %"
+        ],
+        "score_global": 77.6,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -17% vs marché)",
+        "vs_marche_3m": -0.17279042492873686,
+        "alertes": [
+          {
+            "titre": "LMDC officer, union ask for restraining order amid Bevin jail probe - The Courier-Journal",
+            "lien": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNc1lkVVJ6UTdTR0dDUFZzbVA1NWdtNnVDV3FjUFVvRDBNRjMxQ3M4bllUQzdlY3hUWXVQYzBFSnM0dXBMSWg3M3k0RFpZcm5PTTBuZU9nLWRWTkpTSl9JSlZaSUFMNm5mUGpONTA4RDAwa2Q0cFRRN2dzMjB6alh6bU9BZld2eXNPMWFRMVFUMzRnM0tOUnNmT3dZSkZJTU5UQlRpOGYxUkpJa2tuVmI5TDVvX3pOVFFvWmpkUnZQVGI1MDVEVkIzLUxQSlcxYUxwY3gyN0xBel9rRVdqV1gyRnhTd2c3QQ?oc=5",
+            "date": "2026-10-06",
+            "source": "The Courier-Journal",
+            "gravite": 1,
+            "mots": [
+              "probe"
+            ]
+          }
+        ],
+        "recents": [
+          {
+            "titre": "14 Changes I Wish Texas Roadhouse Would Make - Tasting Table",
+            "lien": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBDbHlvU2RaVHVPRUhVR3VjUlBOeF9BbkxRSDlBZHZ2Y2FiV0R5SUE1MTZGNUFVMFYtVm5lRWJYU2dZYjFkN2dVNEU3dXp0QzJEaVhPaGdTeWtEdi1HN3U0b0xzSDB2ajYxVGtCVnp5VTJTejR2VkEyeWw4MllFZw?oc=5",
+            "date": "2026-10-10",
+            "source": "Tasting Table",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Texas Roadhouse meat-cutting challenge in Houston - FOX 26 Houston",
+            "lien": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBRNjZRUTRKaDNvSE13V1pGRjZxVUh4WnkxX1RGcjJ6SHR0ZHljQ0ZyS0lwTmdtUEdkZmpFQWIybF8yeV9OM0RMNFFEQTEyNEhnalpNaHhxeVpkazIwQTh0YlVYM2RCd9IBa0FVX3lxTE5Gdm40WHZDRmsxYS1uazhod2ZqY0VMbEpzNmFTYXpONmV4WERKNkluYVhacXdOdnRSaVc5bkVPeUtiYlpRZzd4NzhwMk1CaG9YTng3Tzd1d2trMktna2JlQXptS0RjWXJMVkFz?oc=5",
+            "date": "2026-10-09",
+            "source": "FOX 26 Houston",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Texas Roadhouse, Inc. (TXRH) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+            "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBYa0YwNDRmOFcxNElLVjRpMG9XVFVFd3dqOEw2ZjZTRVp0Q2JIc0t2a19XVU5KNFZfQVZleHY4QU9HN3VwajRYRWdndUFZRVJGYXc?oc=5",
+            "date": "2026-10-08",
+            "source": "Yahoo! Finance Canada",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Texas Roadhouse Has 3 Ribeye Cuts — Which Should You Choose? - Chowhound",
+            "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTGRsTHdPbG1Ua2t4aHhRT2VRc042N3p6WDhRMG51QWl3U1RrbEExNkJqNkVNOEViNVA2cC1paGdLdXFUZ0xXajNIMXRVUkFjOUkwbmhzUE5HZE5ud0JwUzVVQWJNNS0zZjIzRmxRa0NrV2ZzdWJ3VHBoY21Xb2NhQnZEb1pnYmlUUFZXa0psWFZWRkk?oc=5",
+            "date": "2026-10-08",
+            "source": "Chowhound",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Texas Roadhouse, Inc. to Announce Third Quarter Earnings on November 5, 2026 - GlobeNewswire",
+            "lien": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOcnltUUplRjRvQ3Z3Q3ZvZE42NDY1U3BpbGloLWlLdno4aG1UTGp2LWNtRzQ4cnd3WlJweG5xV3gySmRRR051UC1TTkFZM2RrOGJpWTNteHA2b0w0RjNiOTJPTlhXYmxmMDZCcXNZLVVaTnpxWkhjWkhFQjBVWHFCSmxxUXVYaWlzckxQU3RyWlRYa20tZFZTV2hmOTFObEg4WE1EV0g1WEEwT0R2YUgtMnBMbF8zUWkxRWpjc2VCWWFKaHQ1TWtoR2kyd3Mtekc3cGxEM3RLMkVMRHhhVnc?oc=5",
+            "date": "2026-10-08",
+            "source": "GlobeNewswire",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 88,
       "decision": "sans réponse"
     }
   ]
