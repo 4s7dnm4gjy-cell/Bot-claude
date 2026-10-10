@@ -18,102 +18,102 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-10",
-    "cree_le": "2026-10-10T06:21+00:00",
-    "liberation": 148.8003861265572,
+    "cree_le": "2026-10-10T06:52+00:00",
+    "liberation": 121.89999771118164,
     "reserve_pct": null,
-    "score": 91.10360906670041,
+    "score": 87.64865084032282,
     "ordres": [
       {
-        "ticker": "REG.AX",
+        "ticker": "EN.PA",
         "side": "buy",
-        "quantity": 54.0,
-        "price": 2.7370441875288374,
-        "reason": "opportunité radar (score 91)"
+        "quantity": 3.0,
+        "price": 40.29999923706055,
+        "reason": "opportunité radar (score 88)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "REG.AX",
-      "nom": "Regis Healthcare",
-      "isin": "REG.AX",
+      "ticker": "EN.PA",
+      "nom": "Bouygues",
+      "isin": "EN.PA",
       "type": "action",
-      "prix": 4.389999866485596,
-      "score": 91.10360906670041,
-      "baisse": 0.42888787967119957,
-      "perf_5ans": 1.5559658564050056,
+      "prix": 40.29999923706055,
+      "score": 87.64865084032282,
+      "baisse": 0.23962265590451803,
+      "perf_5ans": 0.5682385614914145,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.4039214742158334,
-      "pos_12m": 0.7178770949720671,
-      "n_12m": 358,
-      "base_moy_12m": 0.21926995653218212,
-      "pire_12m": -0.4580760324651981,
-      "vs_marche_3m": -0.2789255920701724,
-      "devise": "AUD",
-      "prix_eur": 2.7370441875288374,
-      "fondamental": 71.5,
+      "moy_12m": 0.2118739242439987,
+      "pos_12m": 0.7685459940652819,
+      "n_12m": 337,
+      "base_moy_12m": 0.11869128671723711,
+      "pire_12m": -0.5052106881931171,
+      "vs_marche_3m": -0.19009166426254243,
+      "devise": "EUR",
+      "prix_eur": 40.29999923706055,
+      "fondamental": 73.0,
       "fondamental_notes": [
-        "chiffre d'affaires +14.4% sur un an",
-        "bénéfices +72.3% sur un an",
-        "bénéfices attendus +26% sur 12 mois",
-        "analystes : « conserver » (2.3/5, 6 avis)",
-        "objectif moyen des analystes : +40%",
-        "P/E attendu 19.2 (actuel 24.2)",
-        "marge nette 4%",
-        "⚠️ chute de -28% vs marché en 3 mois sans explication claire dans les chiffres (-6 pts)"
+        "chiffre d'affaires -1.0% sur un an",
+        "bénéfices +12.6% sur un an",
+        "bénéfices attendus +18% sur 12 mois",
+        "analystes : « achat » (1.9/5, 10 avis)",
+        "objectif moyen des analystes : +47%",
+        "P/E attendu 10.5 (actuel 12.4)",
+        "marge nette 2%",
+        "dette / capitaux propres 103 %"
       ],
-      "score_global": 79.3,
+      "score_global": 78.9,
       "braderie": false
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -28% vs marché)",
-      "vs_marche_3m": -0.2789255920701724,
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -19% vs marché)",
+      "vs_marche_3m": -0.19009166426254243,
       "alertes": [],
       "recents": [
         {
-          "titre": "Regis Healthcare stock heads toward its November 17 AGM - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNXzFmeFVVeGtiV0FtejM5MlkzN3M0N0htckx3TXFMajA4YnA2QV9CQXNUYVU5dE1iODNlMTQ1OFRselotQnNSNDNoSnVjRXVnTmpOVTk2M1hQZENiNmlveE5ENzRoZUJDQW5nYjJoUEM5MjM0Szd1Ynp6SzhESjY2SC1rdG9pQUt1RXVQQ2ZCOGV4WE5FQnFkVXhHUElCZXpnY2tYcDhmZW4yX3pRcnFaSHFOYmk?oc=5",
-          "date": "2026-10-08",
-          "source": "AD HOC NEWS",
+          "titre": "Bouygues Telecom quitte le site historique de Mérignac pour s’installer Bordeaux - Sud Ouest",
+          "lien": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPZEFIUUpMb1FFQktGN3piUVhiWHVZQ0RvZFR4ZzRNbGdfQjNPdU56azc5ZkJTQXRnTjA5djBuQXVpR3ZZdzIyb1dCaGdWNkVIZllqNzNqZzZ5ZW9jSHFfbjZvMElKOW1NSWpNQk9idXhvenZBa2wwcXl6b1RyR1VGaTJRamo0Ul9jdzBnRUZJRkhuU1Y2VHFEbVRCaUcwUEhRWXlkczhSWmo5MFhHV3Yzb0M2eWNrN2sxOGxwZUNIaElsWk4xeGRmeHN6Yld1OEFiN1I4Z2tWeVQ4cVhtT01lQ0FCaw?oc=5",
+          "date": "2026-10-10",
+          "source": "Sud Ouest",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Regis Healthcare (ASX:REG): What Does the Analyst Consensus Show After FY26? - Kalkine",
-          "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUWp5eHc3NlVWVFQxb2Z4NUhmdHdpWVA0eW9fam5vNVFXbWt0YnNXckh1dm9hcjl5Y2xfbUZvVGo2WkM3Q3p5UXlBdmZlV281S1VTSmpRTU1GaVZweHphZFhwaFY3QlpaNmhBWG9XYlVDWDRJUGoxMkVRY0NhdjBOdnMtUklfc0pwNkc3azBNQkZhZ2tSOHBFZ05ybnhOYzlfckZTYW14d3BwT0NYdFVPMXpUeElLQ0E3bW9DUg?oc=5",
-          "date": "2026-10-07",
-          "source": "Kalkine",
+          "titre": "BOUYGUES Cours Action EN, Cotation Bourse Euronext Paris - Boursorama",
+          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1FRnRQY2lqUkxRT3htOEdjOEJvZDUzVk11MnVaWG4xQVU1aHczaFBQcXIyMFZyNF81T0YxYWtLSzZDVVZ2UC00bmVLOV9tUXlp?oc=5",
+          "date": "2026-10-09",
+          "source": "Boursorama",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Regis Healthcare: Opportunity hiding in plain sight - Livewire Markets",
-          "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNODNjSkhUX0dkVzc3RUhJZjNsMXl5UjBYWm5NMmF0NWhsWEhHam9iLTN6Um9UZlRFc1IzZ0gtRnRUdDJRNzk1YkZxRHdVY3VraXBScTV2bXFDald0TEMwazV3TTAzcWIzbXUyeEFGRTB2Y1FsWVBHUzRtbWExT1FKZy1mZzVncU5nNXlUcnV5M01Hdw?oc=5",
-          "date": "2026-10-07",
-          "source": "Livewire Markets",
+          "titre": "Bouygues Telecom lance trois assurances avec AXA, à partir de 1,99 € par mois - Ideal Investisseur",
+          "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTm9WVk8yejlTVl9wTjZUODQxQ0M2MjZMVnVTT3pWb2VpWmdsOEJuMGY5WHNBa0x6Qm1sbWJIMGZZY0ZlOUQ3Z2JPTlQ5aVJtRE5USDA2bGVYNUVJbDNHQ3JIMzJkcGhwelVtOUFueEhMX24xbkV2dmE4QzMwZ2VGVHFYLVBsQ3FvS3BVcnFuYlZlalBYZDdsd0tsQkltalY2QzlGLWdKUUlXLUw3T0VKNFZqZU56eFZqcTFWR2U0ZERJRFF5b0xv?oc=5",
+          "date": "2026-10-09",
+          "source": "Ideal Investisseur",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Fintel cuts target for Regis Healthcare stock to AUD 6.20 - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTWdQWEpPWW1zSVpmYjRYV2hWOXhGMjZocGpOcG1ZSlNJRGVvV0RkRVo5RGV6dURnY0syWlpLdHRTbUloa0IxSnA2VkNQZkRqSVM4VEt6QnYxMVpKbXM3TDREeXktb1VkLW5BMkxWeWp3MmhfdHdTS0ljbTF6WGtFNE9BeUlNSkxPcHM3OENvRkdhTHVNbWxWX2JLR3MzX2RpOFBTMy1oNmNCVzd3b1N5QUQ5M3U3b0E?oc=5",
-          "date": "2026-10-07",
-          "source": "AD HOC NEWS",
+          "titre": "Bouygues Telecom devient le 1er opérateur à proposer une assurance Urgence habitation - Frandroid",
+          "lien": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQaTBkbjV0MXBPTjdSbFFrcTYzOUlDTzM1WlZYRTh3c2JydElqVWJlMGgyU2VQcjZCOWU0ZHRyRXQ0ZHB4SjhwZkowNjRrQXF1R3gtNWs5UGkyWlZ5bGEyNjMzdXF5b3lrQUkwdmpGUllQcUZWTkM3emtLYjZPVU9sajRDVGRiMFBZV19MMEdBUjZqcTZOYWVNc0lsMl9vWVR6SW1xcUIyNDVSV2VhVnpjYlBDVGtMRFRpNlNmWjlQM0h2Y1lxU25GcG90TEJtZkp0c3lhMER1NWNzbnl1SUE?oc=5",
+          "date": "2026-10-09",
+          "source": "Frandroid",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Regis Healthcare stock weighs FY26 growth against funding pressure - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMk5jai01SEFkcFFfZzV3azhqRFVlZXk5TWE2VURNbG1fRUh4cWl1aDYzYWpFNU9laDNuM2RTWGVpb05aZlNWNTlMbFpSQ1dFdGRCNVU2MFdIQ2YtMHpkUmNLbzUyaURtRDdPTWNTRU42bTd6akVKdHdSR2w2R0Q4SFo1ZDd6WGxMS0JYM3Q4N0VtRHlNVWhUbXZxUzFPV3piWEVhNkxYOTljTEVlb2ZTVjBnY1ZrbEhjcTl5MFd4MHZpUHM?oc=5",
-          "date": "2026-10-06",
-          "source": "AD HOC NEWS",
+          "titre": "Une eSIM de voyage dans son espace bancaire : le Crédit Mutuel-CIC s’allie à Bouygues autour de l’InternationalSIM - Frandroid",
+          "lien": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNS2hoZWNweHRpeFNyUmhsUUJaNEdLR0ZPQVpuS2I3QlVzckJKaEtNMEtUZUJQRmU5bzRRamttb0sxcWxCMjU3eThldDBtUzJGWFdySkYzWUZYbGlFLWRHWDd1ckE2Wm1zYU1MR3VKenpXc2xBZzRSRnlpck5GU2FJRF9ENGhaOW4tZi05Vk9mUEVwZS13R1ZCTVhPbmdYdzlrZFhNbTJmRHdVdHdlRHIxcEdHeU43ZklCdHJWQlh0NndIS0hmZnRXRC1YT0swNERTb1Nna0pOMVJrQzdnUmxWREplX1RWMEpoQkZYUTRxOGxSSjdQbENlMzFKSDRqUQ?oc=5",
+          "date": "2026-10-09",
+          "source": "Frandroid",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 86
+    "ticket": 87
   },
   "radar_proposes": [
     "MCD",
@@ -219,7 +219,8 @@
     "HD",
     "MFI.TO",
     "BOH",
-    "REG.AX"
+    "REG.AX",
+    "EN.PA"
   ],
   "achats": [],
   "historique": [
@@ -8635,6 +8636,107 @@
         ]
       },
       "ticket": 85,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-10",
+      "cree_le": "2026-10-10T06:21+00:00",
+      "liberation": 148.8003861265572,
+      "reserve_pct": null,
+      "score": 91.10360906670041,
+      "ordres": [
+        {
+          "ticker": "REG.AX",
+          "side": "buy",
+          "quantity": 54.0,
+          "price": 2.7370441875288374,
+          "reason": "opportunité radar (score 91)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "REG.AX",
+        "nom": "Regis Healthcare",
+        "isin": "REG.AX",
+        "type": "action",
+        "prix": 4.389999866485596,
+        "score": 91.10360906670041,
+        "baisse": 0.42888787967119957,
+        "perf_5ans": 1.5559658564050056,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.4039214742158334,
+        "pos_12m": 0.7178770949720671,
+        "n_12m": 358,
+        "base_moy_12m": 0.21926995653218212,
+        "pire_12m": -0.4580760324651981,
+        "vs_marche_3m": -0.2789255920701724,
+        "devise": "AUD",
+        "prix_eur": 2.7370441875288374,
+        "fondamental": 71.5,
+        "fondamental_notes": [
+          "chiffre d'affaires +14.4% sur un an",
+          "bénéfices +72.3% sur un an",
+          "bénéfices attendus +26% sur 12 mois",
+          "analystes : « conserver » (2.3/5, 6 avis)",
+          "objectif moyen des analystes : +40%",
+          "P/E attendu 19.2 (actuel 24.2)",
+          "marge nette 4%",
+          "⚠️ chute de -28% vs marché en 3 mois sans explication claire dans les chiffres (-6 pts)"
+        ],
+        "score_global": 79.3,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -28% vs marché)",
+        "vs_marche_3m": -0.2789255920701724,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Regis Healthcare stock heads toward its November 17 AGM - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNXzFmeFVVeGtiV0FtejM5MlkzN3M0N0htckx3TXFMajA4YnA2QV9CQXNUYVU5dE1iODNlMTQ1OFRselotQnNSNDNoSnVjRXVnTmpOVTk2M1hQZENiNmlveE5ENzRoZUJDQW5nYjJoUEM5MjM0Szd1Ynp6SzhESjY2SC1rdG9pQUt1RXVQQ2ZCOGV4WE5FQnFkVXhHUElCZXpnY2tYcDhmZW4yX3pRcnFaSHFOYmk?oc=5",
+            "date": "2026-10-08",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Regis Healthcare (ASX:REG): What Does the Analyst Consensus Show After FY26? - Kalkine",
+            "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUWp5eHc3NlVWVFQxb2Z4NUhmdHdpWVA0eW9fam5vNVFXbWt0YnNXckh1dm9hcjl5Y2xfbUZvVGo2WkM3Q3p5UXlBdmZlV281S1VTSmpRTU1GaVZweHphZFhwaFY3QlpaNmhBWG9XYlVDWDRJUGoxMkVRY0NhdjBOdnMtUklfc0pwNkc3azBNQkZhZ2tSOHBFZ05ybnhOYzlfckZTYW14d3BwT0NYdFVPMXpUeElLQ0E3bW9DUg?oc=5",
+            "date": "2026-10-07",
+            "source": "Kalkine",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Regis Healthcare: Opportunity hiding in plain sight - Livewire Markets",
+            "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNODNjSkhUX0dkVzc3RUhJZjNsMXl5UjBYWm5NMmF0NWhsWEhHam9iLTN6Um9UZlRFc1IzZ0gtRnRUdDJRNzk1YkZxRHdVY3VraXBScTV2bXFDald0TEMwazV3TTAzcWIzbXUyeEFGRTB2Y1FsWVBHUzRtbWExT1FKZy1mZzVncU5nNXlUcnV5M01Hdw?oc=5",
+            "date": "2026-10-07",
+            "source": "Livewire Markets",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Fintel cuts target for Regis Healthcare stock to AUD 6.20 - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTWdQWEpPWW1zSVpmYjRYV2hWOXhGMjZocGpOcG1ZSlNJRGVvV0RkRVo5RGV6dURnY0syWlpLdHRTbUloa0IxSnA2VkNQZkRqSVM4VEt6QnYxMVpKbXM3TDREeXktb1VkLW5BMkxWeWp3MmhfdHdTS0ljbTF6WGtFNE9BeUlNSkxPcHM3OENvRkdhTHVNbWxWX2JLR3MzX2RpOFBTMy1oNmNCVzd3b1N5QUQ5M3U3b0E?oc=5",
+            "date": "2026-10-07",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Regis Healthcare stock weighs FY26 growth against funding pressure - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMk5jai01SEFkcFFfZzV3azhqRFVlZXk5TWE2VURNbG1fRUh4cWl1aDYzYWpFNU9laDNuM2RTWGVpb05aZlNWNTlMbFpSQ1dFdGRCNVU2MFdIQ2YtMHpkUmNLbzUyaURtRDdPTWNTRU42bTd6akVKdHdSR2w2R0Q4SFo1ZDd6WGxMS0JYM3Q4N0VtRHlNVWhUbXZxUzFPV3piWEVhNkxYOTljTEVlb2ZTVjBnY1ZrbEhjcTl5MFd4MHZpUHM?oc=5",
+            "date": "2026-10-06",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 86,
       "decision": "sans réponse"
     }
   ]
