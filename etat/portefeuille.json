@@ -15,7 +15,106 @@
     "MCD": "2026-10-05",
     "IGG.L": "2026-10-06"
   },
-  "opportunite": null,
+  "opportunite": {
+    "type": "opportunite",
+    "date": "2026-10-10",
+    "cree_le": "2026-10-10T05:16+00:00",
+    "liberation": 140.3954891333928,
+    "reserve_pct": null,
+    "score": 85.99813973710741,
+    "ordres": [
+      {
+        "ticker": "MFI.TO",
+        "side": "buy",
+        "quantity": 9.0,
+        "price": 15.48838768148809,
+        "reason": "opportunité radar (score 86)"
+      }
+    ],
+    "notes": [],
+    "total": 0,
+    "radar": {
+      "ticker": "MFI.TO",
+      "nom": "Maple Leaf Foods Inc.",
+      "isin": "MFI.TO",
+      "type": "action",
+      "prix": 24.729999542236328,
+      "score": 85.99813973710741,
+      "baisse": 0.20966512490421507,
+      "perf_5ans": 0.2941364001133875,
+      "tranche": "80-100 (soldé)",
+      "moy_12m": 0.13574675105374703,
+      "pos_12m": 0.7647058823529411,
+      "n_12m": 578,
+      "base_moy_12m": 0.09043570269349906,
+      "pire_12m": -0.45701743492802716,
+      "vs_marche_3m": -0.18545779640660387,
+      "devise": "CAD",
+      "prix_eur": 15.48838768148809,
+      "fondamental": 77.5,
+      "fondamental_notes": [
+        "chiffre d'affaires +1.6% sur un an",
+        "bénéfices -30.4% sur un an",
+        "bénéfices attendus +210% sur 12 mois",
+        "analystes : « achat fort » (1.5/5, 10 avis)",
+        "objectif moyen des analystes : +45%",
+        "P/E attendu 13.6 (actuel 42.2)",
+        "marge nette 13%",
+        "dette / capitaux propres 97 %"
+      ],
+      "score_global": 80.9,
+      "braderie": false
+    },
+    "actualites": {
+      "verdict": "orange",
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -19% vs marché)",
+      "vs_marche_3m": -0.18545779640660387,
+      "alertes": [],
+      "recents": [
+        {
+          "titre": "Maple Leaf Foods Inc. Is Maintained at Buy by Desjardins - Moomoo",
+          "lien": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSFo3WWdxdG1mSjNWb09JV3BicFRoY2xFREtOY0k0ZTBXODktem5rSDluZ016aXBLTnhDaGxERjR3djNrWEtNUk1nRWlsejlTRFpIVFFtNndFeHhQR1BDcUdEOUM1Y3haY3ZSczM2eTY5YldlNEJxZVE5ZUVkcHFWOTBhZ3l0bElrOERfUTZheE9QSVhXZE1QbXZXQVp5cVdy?oc=5",
+          "date": "2026-10-08",
+          "source": "Moomoo",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Why Is Maple Leaf Foods Rising as Margin Improvement and U.S. Restructuring Put TSX:MFI in Focus? [TSX:MFI] - kalkine.ca",
+          "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQa3l5MFM5YVM2YUJGcTFfaDZKUTdQYkNJa1M5MFNadFpsanRWcFhISG5wMDQ5ODZBS3c2WXdCekU1bFJhT1cyWEFxQlFGUV9qV2hRQzZMeVZRd01HZ1BUMnozclVIMENUcU5TMlBwVFExVVBTWnliM1RTanVjUTRkajZQWDd0eXJLQ3h5RnlfQ3lWN2FPbTMydnhmWW1nOW5CUnVEVUlUUFJvSlBHVEg5WTcyUUNSdEhsMklzMzVUTUE4TEpjbUxrdlFyUDlLUQ?oc=5",
+          "date": "2026-10-08",
+          "source": "kalkine.ca",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Maple Leaf Foods Inc. : Desjardins maintient sa recommandation à l'achat - Zonebourse",
+          "lien": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQd3NrQmlpdTFjcmZJSVJPR25xSzdTVXptcHM1YmxUUGxDX3NSeUxLSldsNmVUQThMOUtaMlY1MzVCVE44VnRoQmV2SGZjRnY5QjJzQzlQMW1uLVdTMlRBd3o3MjN0bE9ndUs1MnA0NlZhQ2NoTnQ1b2pyQ1oxdlVUVEZ0cUk5UjB3T0RPS0JyZ190bnRzeU9XVjVaZVlHWkxiN3pMM000TUdxT3RCd3hNS2F1cTV1bEZqOVFLbWFMamNXaDcyMDF4ME1B?oc=5",
+          "date": "2026-10-07",
+          "source": "Zonebourse",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Up to 150 workers will be impacted by a longtime Western Mass. factory closure - MassLive.com",
+          "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQby1SaEViMy1ZUXBuZ0NGUUpCT3ZtRFl0NW1SZVYtYURMSTVDeFk1QkxlV25XaUVaa1NNNElSQVVjb092c01FZ0xyZ0daMDBLT3RQVFNOZFZsQ3E0N3FaU3Z1VjdVajZodDhQUnAwbUFPblg4NEtfMUo0NXdIOUt6UHpKYndJSXh6SlRXQzdoUDJlOS1wOFdVcjZZMFE4ajFOb2RSM19aWHRIOXdHbUVHT3dudmVFaS1jal96MS1pWjZMUjlT?oc=5",
+          "date": "2026-10-07",
+          "source": "MassLive.com",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Desjardins Has Lowered Expectations for Maple Leaf Foods (TSE:MFI) Stock Price - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNa1VSS3ZSUlNFTE1maThCS1JlQ2N1N2lET2ZWOHAwc2V6LWc3b3hjSXp5cmU1M0ttVDhnTzNaeUtFLS1oT1V2RUlIOTlkY2UxZTVSZGR2M3hkQnVxR0wxT1NfNkxROU9mLXVqWkZjRm9nVEhDak1TQWhNMjNlVDBjZ2x2ak9UWjFMdk9nVi04U3l3bXRkeGxyLTh4RUY1S091eFdUTEVUYW4tNkR1MjFkcTVJQ3ZfZ1RZVUJzLTZhaGhyQ1pvWFE1UWhzV1pOc1ozUmdGMQ?oc=5",
+          "date": "2026-10-07",
+          "source": "MarketBeat",
+          "gravite": 0,
+          "mots": []
+        }
+      ]
+    },
+    "ticket": 84
+  },
   "radar_proposes": [
     "MCD",
     "IGG.L",
@@ -117,7 +216,8 @@
     "CRUS",
     "NLY",
     "ATR",
-    "HD"
+    "HD",
+    "MFI.TO"
   ],
   "achats": [],
   "historique": [
