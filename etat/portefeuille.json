@@ -18,102 +18,102 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-10",
-    "cree_le": "2026-10-10T05:46+00:00",
-    "liberation": 120.41634039121959,
+    "cree_le": "2026-10-10T06:21+00:00",
+    "liberation": 148.8003861265572,
     "reserve_pct": null,
-    "score": 92.81814861525785,
+    "score": 91.10360906670041,
     "ordres": [
       {
-        "ticker": "BOH",
+        "ticker": "REG.AX",
         "side": "buy",
-        "quantity": 2.0,
-        "price": 59.708170195609796,
-        "reason": "opportunité radar (score 93)"
+        "quantity": 54.0,
+        "price": 2.7370441875288374,
+        "reason": "opportunité radar (score 91)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "BOH",
-      "nom": "Bank of Hawaii",
-      "isin": "BOH",
+      "ticker": "REG.AX",
+      "nom": "Regis Healthcare",
+      "isin": "REG.AX",
       "type": "action",
-      "prix": 66.83999633789062,
-      "score": 92.81814861525785,
-      "baisse": 0.21431698096760365,
-      "perf_5ans": 0.0012196320532835703,
+      "prix": 4.389999866485596,
+      "score": 91.10360906670041,
+      "baisse": 0.42888787967119957,
+      "perf_5ans": 1.5559658564050056,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.19528819595522406,
-      "pos_12m": 0.797676669893514,
-      "n_12m": 1033,
-      "base_moy_12m": 0.09411440224748276,
-      "pire_12m": -0.5302477385386055,
-      "vs_marche_3m": -0.2081421802404454,
-      "devise": "USD",
-      "prix_eur": 59.708170195609796,
-      "fondamental": 70.5,
+      "moy_12m": 0.4039214742158334,
+      "pos_12m": 0.7178770949720671,
+      "n_12m": 358,
+      "base_moy_12m": 0.21926995653218212,
+      "pire_12m": -0.4580760324651981,
+      "vs_marche_3m": -0.2789255920701724,
+      "devise": "AUD",
+      "prix_eur": 2.7370441875288374,
+      "fondamental": 71.5,
       "fondamental_notes": [
-        "chiffre d'affaires +12.9% sur un an",
-        "bénéfices +38.7% sur un an",
-        "bénéfices attendus +24% sur 12 mois",
-        "analystes : « vendre » (3.0/5, 6 avis)",
-        "objectif moyen des analystes : +26%",
-        "P/E attendu 10.0 (actuel 12.4)",
-        "marge nette 31%",
-        "⚠️ sanction du marché méritée : -21% vs marché en 3 mois, et les perspectives se dégradent (-12 pts)"
+        "chiffre d'affaires +14.4% sur un an",
+        "bénéfices +72.3% sur un an",
+        "bénéfices attendus +26% sur 12 mois",
+        "analystes : « conserver » (2.3/5, 6 avis)",
+        "objectif moyen des analystes : +40%",
+        "P/E attendu 19.2 (actuel 24.2)",
+        "marge nette 4%",
+        "⚠️ chute de -28% vs marché en 3 mois sans explication claire dans les chiffres (-6 pts)"
       ],
-      "score_global": 79.4,
+      "score_global": 79.3,
       "braderie": false
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -21% vs marché)",
-      "vs_marche_3m": -0.2081421802404454,
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -28% vs marché)",
+      "vs_marche_3m": -0.2789255920701724,
       "alertes": [],
       "recents": [
         {
-          "titre": "Bank of Hawaii introduces Hello Kitty debit card designs - Hawaii News Now",
-          "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNc2xWcU1vVi1sMklwSnFfOGpFNElDUWFuLTJZUWVGTVpsWGNJV0Ixd1ZOMjVINDlNS0N2ZjVKcHJHUFpKNDdNWHJtTDB2YjNpQks5UXBSY2h1MjRmZUxvUlR0WGJTWjA1SGgzek1fRGxVX2tTdkpRcHNzdlR6MlVVVEFBWUNncVZrOUNYbk9FTmlZMmhDSk1xMTBsd9IBrwFBVV95cUxQVy1tYmJBYVFoXzhjME84UFF2VDB2T25kOUhSWVc5TXZxRVNlXzg3V2FKcjlia1lkSnJmY0hWSDZFVXFXTTN2cVN1d0ZqdTltYzUtcHlNRmJ6eTNSMDUyVXJoUE5DenFZQ2gyWXB6eDVIYUV4UzZqN0JneUVlLTVqakRUdG52WE1aRy1TQXF4Wko1R0Nsb19CemRMc0JDc0xmWUtydUZsZlNjNUtUdG1V?oc=5",
-          "date": "2026-10-10",
-          "source": "Hawaii News Now",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "How Bank Of Hawaii Corporation (BOH) Affects Rotational Strategy Timing - Stock Traders Daily",
-          "lien": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVjliVFVYUXZEN09FUmp5N3BzRXdmcmdDRmduSXZ6c0VWWFh3aWNid3NLd1dmUUFyemdvSDNMdVpNSHRBMFM0clhoSG15R3k5blRKT3Fad196YWJuLXV6d2VkaUw0T20xMHVKaWFxc2xWMVVOYzRWWkU1RnZYNDN5dG1lVlV1Q0V0aWVSWmJMZHNKOE1wTV83QjlnTVRRSllDZUM0TDN3Z21UbV81Zk9WYlE2UHdna3JtSFV6VWpHUWdaRmVIX2pFcng0YU9mbGd6eGVBWmRGUC1adjV2MmU5SHAxbHU?oc=5",
-          "date": "2026-10-09",
-          "source": "Stock Traders Daily",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Are Options Traders Betting on a Big Move in Bank of Hawaii Stock? - Zacks Investment Research",
-          "lien": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZkU2bFUyNjRqTmZGbkxKeGgzTXV0NEhvVFdDQ1dUaThNdkR3TFZHMVVyWlRqeEQ1ZnVvU0l1Nnp1eDdjOVNWTU1TUlhJTy1vZXNPUmRnSVIwNDZMMTI1aVpKQWRkcWU4bUNTdGQwXy1GVUM2bUdHcmdTY2syZHM5di1oTGhNakVlRWlqT2lUV1ZUT2pWRzNab1AzRkZnNWNQUmtMaFFkV01GZw?oc=5",
-          "date": "2026-10-09",
-          "source": "Zacks Investment Research",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Bank of Hawaii to demolish former Hawaii Kai Outback Steakhouse for new branch - The Business Journals",
-          "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRE5HUkJpQmthSG9vcXBaWEhfU0ZvM3lCUGg5T3hsOFgxYjlNYkdEZWJrZ1dfakJxMGVVbjFScFE0Z1pGUE1QM0xkbkdsUkJKcDZPSEtsS25OdWtfMmdoUWxqQ0lwUEVPdk94a3k3blZoakNpdEZSZ0FsbWFhUlE3ZXAtaHpGZ2xZZGdTZzhldGhJMndfblBfSA?oc=5",
+          "titre": "Regis Healthcare stock heads toward its November 17 AGM - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNXzFmeFVVeGtiV0FtejM5MlkzN3M0N0htckx3TXFMajA4YnA2QV9CQXNUYVU5dE1iODNlMTQ1OFRselotQnNSNDNoSnVjRXVnTmpOVTk2M1hQZENiNmlveE5ENzRoZUJDQW5nYjJoUEM5MjM0Szd1Ynp6SzhESjY2SC1rdG9pQUt1RXVQQ2ZCOGV4WE5FQnFkVXhHUElCZXpnY2tYcDhmZW4yX3pRcnFaSHFOYmk?oc=5",
           "date": "2026-10-08",
-          "source": "The Business Journals",
+          "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Piper Sandler cut target for Bank of Hawaii stock to USD 78.00 - AD HOC NEWS",
-          "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQ0FPZDhmX2cyQ25iaE9IMndyZVRQYjAwc0xCUHpqeUZXbzhGTmhFdUNaMXB6YmZ1eHVsNjNPRlBOSkpnNkZuTms4NkNqODBHNmhBemhfb2hfeFE5VzJ1S2ZQV1FrUkNCUXRvc0p4SGV5MDltRmgwZHMxTnpRM1NXYWVEU1I1T1pPQVk5ZmJndjdfV1JLYUF0U0NWQmdFZDhzX1hfQzhTOEc4UExtVDZDWmUxeDFGVFlwWWtfRVdR?oc=5",
-          "date": "2026-10-08",
+          "titre": "Regis Healthcare (ASX:REG): What Does the Analyst Consensus Show After FY26? - Kalkine",
+          "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUWp5eHc3NlVWVFQxb2Z4NUhmdHdpWVA0eW9fam5vNVFXbWt0YnNXckh1dm9hcjl5Y2xfbUZvVGo2WkM3Q3p5UXlBdmZlV281S1VTSmpRTU1GaVZweHphZFhwaFY3QlpaNmhBWG9XYlVDWDRJUGoxMkVRY0NhdjBOdnMtUklfc0pwNkc3azBNQkZhZ2tSOHBFZ05ybnhOYzlfckZTYW14d3BwT0NYdFVPMXpUeElLQ0E3bW9DUg?oc=5",
+          "date": "2026-10-07",
+          "source": "Kalkine",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Regis Healthcare: Opportunity hiding in plain sight - Livewire Markets",
+          "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNODNjSkhUX0dkVzc3RUhJZjNsMXl5UjBYWm5NMmF0NWhsWEhHam9iLTN6Um9UZlRFc1IzZ0gtRnRUdDJRNzk1YkZxRHdVY3VraXBScTV2bXFDald0TEMwazV3TTAzcWIzbXUyeEFGRTB2Y1FsWVBHUzRtbWExT1FKZy1mZzVncU5nNXlUcnV5M01Hdw?oc=5",
+          "date": "2026-10-07",
+          "source": "Livewire Markets",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Fintel cuts target for Regis Healthcare stock to AUD 6.20 - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTWdQWEpPWW1zSVpmYjRYV2hWOXhGMjZocGpOcG1ZSlNJRGVvV0RkRVo5RGV6dURnY0syWlpLdHRTbUloa0IxSnA2VkNQZkRqSVM4VEt6QnYxMVpKbXM3TDREeXktb1VkLW5BMkxWeWp3MmhfdHdTS0ljbTF6WGtFNE9BeUlNSkxPcHM3OENvRkdhTHVNbWxWX2JLR3MzX2RpOFBTMy1oNmNCVzd3b1N5QUQ5M3U3b0E?oc=5",
+          "date": "2026-10-07",
+          "source": "AD HOC NEWS",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Regis Healthcare stock weighs FY26 growth against funding pressure - AD HOC NEWS",
+          "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMk5jai01SEFkcFFfZzV3azhqRFVlZXk5TWE2VURNbG1fRUh4cWl1aDYzYWpFNU9laDNuM2RTWGVpb05aZlNWNTlMbFpSQ1dFdGRCNVU2MFdIQ2YtMHpkUmNLbzUyaURtRDdPTWNTRU42bTd6akVKdHdSR2w2R0Q4SFo1ZDd6WGxMS0JYM3Q4N0VtRHlNVWhUbXZxUzFPV3piWEVhNkxYOTljTEVlb2ZTVjBnY1ZrbEhjcTl5MFd4MHZpUHM?oc=5",
+          "date": "2026-10-06",
           "source": "AD HOC NEWS",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 85
+    "ticket": 86
   },
   "radar_proposes": [
     "MCD",
@@ -218,7 +218,8 @@
     "ATR",
     "HD",
     "MFI.TO",
-    "BOH"
+    "BOH",
+    "REG.AX"
   ],
   "achats": [],
   "historique": [
@@ -8533,6 +8534,107 @@
         ]
       },
       "ticket": 84,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-10",
+      "cree_le": "2026-10-10T05:46+00:00",
+      "liberation": 120.41634039121959,
+      "reserve_pct": null,
+      "score": 92.81814861525785,
+      "ordres": [
+        {
+          "ticker": "BOH",
+          "side": "buy",
+          "quantity": 2.0,
+          "price": 59.708170195609796,
+          "reason": "opportunité radar (score 93)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "BOH",
+        "nom": "Bank of Hawaii",
+        "isin": "BOH",
+        "type": "action",
+        "prix": 66.83999633789062,
+        "score": 92.81814861525785,
+        "baisse": 0.21431698096760365,
+        "perf_5ans": 0.0012196320532835703,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.19528819595522406,
+        "pos_12m": 0.797676669893514,
+        "n_12m": 1033,
+        "base_moy_12m": 0.09411440224748276,
+        "pire_12m": -0.5302477385386055,
+        "vs_marche_3m": -0.2081421802404454,
+        "devise": "USD",
+        "prix_eur": 59.708170195609796,
+        "fondamental": 70.5,
+        "fondamental_notes": [
+          "chiffre d'affaires +12.9% sur un an",
+          "bénéfices +38.7% sur un an",
+          "bénéfices attendus +24% sur 12 mois",
+          "analystes : « vendre » (3.0/5, 6 avis)",
+          "objectif moyen des analystes : +26%",
+          "P/E attendu 10.0 (actuel 12.4)",
+          "marge nette 31%",
+          "⚠️ sanction du marché méritée : -21% vs marché en 3 mois, et les perspectives se dégradent (-12 pts)"
+        ],
+        "score_global": 79.4,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -21% vs marché)",
+        "vs_marche_3m": -0.2081421802404454,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Bank of Hawaii introduces Hello Kitty debit card designs - Hawaii News Now",
+            "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNc2xWcU1vVi1sMklwSnFfOGpFNElDUWFuLTJZUWVGTVpsWGNJV0Ixd1ZOMjVINDlNS0N2ZjVKcHJHUFpKNDdNWHJtTDB2YjNpQks5UXBSY2h1MjRmZUxvUlR0WGJTWjA1SGgzek1fRGxVX2tTdkpRcHNzdlR6MlVVVEFBWUNncVZrOUNYbk9FTmlZMmhDSk1xMTBsd9IBrwFBVV95cUxQVy1tYmJBYVFoXzhjME84UFF2VDB2T25kOUhSWVc5TXZxRVNlXzg3V2FKcjlia1lkSnJmY0hWSDZFVXFXTTN2cVN1d0ZqdTltYzUtcHlNRmJ6eTNSMDUyVXJoUE5DenFZQ2gyWXB6eDVIYUV4UzZqN0JneUVlLTVqakRUdG52WE1aRy1TQXF4Wko1R0Nsb19CemRMc0JDc0xmWUtydUZsZlNjNUtUdG1V?oc=5",
+            "date": "2026-10-10",
+            "source": "Hawaii News Now",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "How Bank Of Hawaii Corporation (BOH) Affects Rotational Strategy Timing - Stock Traders Daily",
+            "lien": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVjliVFVYUXZEN09FUmp5N3BzRXdmcmdDRmduSXZ6c0VWWFh3aWNid3NLd1dmUUFyemdvSDNMdVpNSHRBMFM0clhoSG15R3k5blRKT3Fad196YWJuLXV6d2VkaUw0T20xMHVKaWFxc2xWMVVOYzRWWkU1RnZYNDN5dG1lVlV1Q0V0aWVSWmJMZHNKOE1wTV83QjlnTVRRSllDZUM0TDN3Z21UbV81Zk9WYlE2UHdna3JtSFV6VWpHUWdaRmVIX2pFcng0YU9mbGd6eGVBWmRGUC1adjV2MmU5SHAxbHU?oc=5",
+            "date": "2026-10-09",
+            "source": "Stock Traders Daily",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Are Options Traders Betting on a Big Move in Bank of Hawaii Stock? - Zacks Investment Research",
+            "lien": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZkU2bFUyNjRqTmZGbkxKeGgzTXV0NEhvVFdDQ1dUaThNdkR3TFZHMVVyWlRqeEQ1ZnVvU0l1Nnp1eDdjOVNWTU1TUlhJTy1vZXNPUmRnSVIwNDZMMTI1aVpKQWRkcWU4bUNTdGQwXy1GVUM2bUdHcmdTY2syZHM5di1oTGhNakVlRWlqT2lUV1ZUT2pWRzNab1AzRkZnNWNQUmtMaFFkV01GZw?oc=5",
+            "date": "2026-10-09",
+            "source": "Zacks Investment Research",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Bank of Hawaii to demolish former Hawaii Kai Outback Steakhouse for new branch - The Business Journals",
+            "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRE5HUkJpQmthSG9vcXBaWEhfU0ZvM3lCUGg5T3hsOFgxYjlNYkdEZWJrZ1dfakJxMGVVbjFScFE0Z1pGUE1QM0xkbkdsUkJKcDZPSEtsS25OdWtfMmdoUWxqQ0lwUEVPdk94a3k3blZoakNpdEZSZ0FsbWFhUlE3ZXAtaHpGZ2xZZGdTZzhldGhJMndfblBfSA?oc=5",
+            "date": "2026-10-08",
+            "source": "The Business Journals",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Piper Sandler cut target for Bank of Hawaii stock to USD 78.00 - AD HOC NEWS",
+            "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQ0FPZDhmX2cyQ25iaE9IMndyZVRQYjAwc0xCUHpqeUZXbzhGTmhFdUNaMXB6YmZ1eHVsNjNPRlBOSkpnNkZuTms4NkNqODBHNmhBemhfb2hfeFE5VzJ1S2ZQV1FrUkNCUXRvc0p4SGV5MDltRmgwZHMxTnpRM1NXYWVEU1I1T1pPQVk5ZmJndjdfV1JLYUF0U0NWQmdFZDhzX1hfQzhTOEc4UExtVDZDWmUxeDFGVFlwWWtfRVdR?oc=5",
+            "date": "2026-10-08",
+            "source": "AD HOC NEWS",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 85,
       "decision": "sans réponse"
     }
   ]
