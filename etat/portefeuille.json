@@ -18,113 +18,95 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-10",
-    "cree_le": "2026-10-10T09:17+00:00",
-    "liberation": 186.5741514664212,
+    "cree_le": "2026-10-10T10:16+00:00",
+    "liberation": 145.77999687194824,
     "reserve_pct": null,
-    "score": 86.04192782693211,
+    "score": 85.6866799638878,
     "ordres": [
       {
-        "ticker": "WM",
+        "ticker": "QDV5.DE",
         "side": "buy",
-        "quantity": 1.0,
-        "price": 185.5741514664212,
+        "quantity": 20.0,
+        "price": 7.238999843597412,
         "reason": "opportunité radar (score 86)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "WM",
-      "nom": "Waste Management",
-      "isin": "WM",
-      "type": "action",
-      "prix": 207.74000549316406,
-      "score": 86.04192782693211,
-      "baisse": 0.14650273255560275,
-      "perf_5ans": 0.5103907216653822,
+      "ticker": "QDV5.DE",
+      "nom": "iShares MSCI India",
+      "isin": "IE00BZCQB185",
+      "type": "ETF",
+      "prix": 7.238999843597412,
+      "score": 85.6866799638878,
+      "baisse": 0.1633148998928604,
+      "perf_5ans": 0.07069955274918382,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.21878064073548603,
-      "pos_12m": 0.9159663865546218,
-      "n_12m": 476,
-      "base_moy_12m": 0.14137516200257488,
-      "pire_12m": -0.23373159027477042,
-      "vs_marche_3m": -0.1442505484083687,
-      "devise": "USD",
-      "prix_eur": 185.5741514664212,
-      "fondamental": 70.0,
+      "moy_12m": 0.07646265720744479,
+      "pos_12m": 0.5137614678899083,
+      "n_12m": 218,
+      "base_moy_12m": 0.057853604571462616,
+      "pire_12m": -0.12761810429703913,
+      "vs_marche_3m": -0.09538687873904184,
+      "devise": "EUR",
+      "prix_eur": 7.238999843597412,
+      "fondamental": null,
       "fondamental_notes": [
-        "chiffre d'affaires +4.0% sur un an",
-        "bénéfices +8.3% sur un an",
-        "bénéfices attendus +29% sur 12 mois",
-        "analystes : « achat fort » (1.8/5, 25 avis)",
-        "objectif moyen des analystes : +23%",
-        "P/E attendu 22.9 (actuel 29.4)",
-        "marge nette 11%",
-        "dette / capitaux propres 235 %"
+        "ETF : pas d'analyse d'entreprise"
       ],
-      "score_global": 76.4,
+      "score_global": 70.3,
       "braderie": false
     },
     "actualites": {
       "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (1 article(s) mineur(s), courant pour une grande entreprise) (3 mois : -14% vs marché)",
-      "vs_marche_3m": -0.1442505484083687,
-      "alertes": [
-        {
-          "titre": "SPAK and BKH Launch Operation in Elbasan Over Waste Management Investigation - Albanian Daily News",
-          "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbVlJZjNFSG5YcXlyTzhpSjlZTXp3T3ZQazBZSk1sOVN6cHVIdy05ekdOd1M4RUYtU2JXekxQS0FhVXQwVE01ZlJvNHhaWmRTRWRFQVc2NTNydElCV2lfazgzMmtON18ydkhybEgwWmF3Nnc3ZTJFd1dTMUhQb3Z2QWwteWp1WkxUbEtHcmJGOUdXVHdVQjhJN0lQR0ZWYjBObGhsdm9RT1RJVFNsWkRxXw?oc=5",
-          "date": "2026-10-05",
-          "source": "Albanian Daily News",
-          "gravite": 1,
-          "mots": [
-            "investigation"
-          ]
-        }
-      ],
+      "resume": "rien d'alarmant dans l'actualité (3 mois : -10% vs marché)",
+      "vs_marche_3m": -0.09538687873904184,
+      "alertes": [],
       "recents": [
         {
-          "titre": "MPWT reviews plans for waste management infrastructure - Khmer Times",
-          "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYzA5STVlbFc5RThVTEc3eWxha2RrR0xZbTFXdVh0UEIwMDVoell1eVNNcUg3eEtMWjl4cnVqM1pQdkVNVFJGMTVWX3Rlc2N0cE15LWlSbjg5WXNxc0otQWMzRkdBREU4bWpXd01qM0E2ZjB0eGZCZTVZWUt0QTIzRzB1c3U1UXVkdk9MR1EtZjZVb3RsMUE3WTBB?oc=5",
-          "date": "2026-10-10",
-          "source": "Khmer Times",
+          "titre": "iShares MSCI India UCITS ETF Overview (NDIAUS) - Barron's",
+          "lien": "https://news.google.com/rss/articles/CBMicEFVX3lxTE56SzdBbW1CYk85c3VDYmFSN0FBYkxiUW00MnhoYTdIdlFpcHVfREJ5UzEzSUlYNF9DazdieFIwbWUzV3psM3lXVVB0anJROTBPNUN1bjVLcTJSOG5TUGQ4YXJhYVdNQnE3anp6TjZPMFE?oc=5",
+          "date": "2026-10-07",
+          "source": "Barron's",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Waste Management (WM) Stock May Be 14% Undervalued On Cash Flow - Simply Wall Street",
-          "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQV0dtRThlSUR2clhkcThaTzVkQ2tiVlB6REJET0F4cm92V2Vvbk1CQkt0dzZPbXhuTFAtUDFfaFl6Z1NMTnNBd1lOMzE3MDl5QUhXWXNUaG9VSldZaGVyaFRoZE9OTEQ1ckFURDg0X0hvY3pwOEtNbm5TbWpoSkRHYWUzeS1OTE1hMU9ubzdtYWdsNzRKbUVhcGpON2lYTUtwUC0teDhITHpXQ3kxYi1UMkxsdHRBNnl2SjFoWW4yTktDMVg2LVZOSFRybnNmOFJxd2lSZWFjblBmUdIB3wFBVV95cUxOMU9qVXRORW1qNFNRSVJCRkoyOFA0SlZQUlNvZVhJQ1lKaDFIUjg4ODhJOFVuZHN3VFhtcGd4Y0hBS1BrNnRONnNILVRoTXNGTnduaEl6X3JHTVRKeVlYYkNjNlpQUHpIUDVGd29MNWhSTGxhQllnRkMxZTFoZE5BS01KRWVSOWtOT05JVGZMSGpSazRpdEktZW13QjJPaWhaNXRyUzZiWmNSTEl2dDU4QnNUTGM0U0xSeGcxT21OaTNZUDl1Qm43djZEbTlZRG9nTWJoT1FISXJpNkNZbEsw?oc=5",
-          "date": "2026-10-09",
-          "source": "Simply Wall Street",
+          "titre": "Indian Energy Exchange Ltd (IEX) Share Price - Business Today",
+          "lien": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVkRRQ0NmV0x1UktEOW5qZ3JDbFZHd0hlUFUwUExVTXVlLWpaMnl6TGpXRXdGbFFpNkp6dC0tbGs5Z3Jra3ZYVk5NUUU2UWJORnJyNUR5REQ0cTItR0RsQUZVSmFIaTVFaXNESUh3X2hCcnFXaGhXaDlSSzFjR3k3VWJPeEdmSVRWQ21XVkJn?oc=5",
+          "date": "2026-10-06",
+          "source": "Business Today",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Unpacking Q2 Earnings: Onterris (NYSE:ONT) In The Context Of Other Waste Management Stocks - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRFkxR2lEMmc1dzhjLTZ4TW5uaW5VLThTblQ5ZDd0aUFiSnRUQmhRVEtJcjFOUzZYdlZueHg5eWpQUVlYYXI0d1FseVFDODJIMlN3X2ROOVhyYzBlNjF4akpkUnZycXBTUzhUc3F1ZDBWQjNfTF9kbFdqUjNPZW5ta3JucTU2Ylk4X2c3NDRaSHZVM2V2TjdWV2tlXzM4UEJkb0E?oc=5",
-          "date": "2026-10-09",
-          "source": "Yahoo Finance",
+          "titre": "iShares MSCI India ETF (INDA) Options Chain - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNa1gxaHVacHBiNzg0S0tSZGpVZGRTZ25valFOQVVINmRVMmhiMlh6ZERjVTRaZ3RSaXpPT3RfQnBMU1RTMUpLekNPSUNVbTk2UXE3NDZRV2gxZDJaRHJZbWFpVkE4X2JEeWo2Mlhmakl5VVNiLVh6NGlVeGJKUWd6YU1CTmM0S3o2QkdmN1JpMi02Zw?oc=5",
+          "date": "2026-10-05",
+          "source": "Yahoo! Finance Canada",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Italy, Uganda and UNDP strengthen cooperation on sustainable waste management - United Nations Development Programme",
-          "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVS16aFFHNUhySkhBelEtYTJrclFzQUxzTUZXUUtRNnFTdHJrQnpyNUswWEh3YWNXOVIxY0tubnBHYXJYQmZqeldQa2VETXVSTkdJRm44NGNuUm9yX3lWLWFoak0yWlhoeTdTTlpuTWN3eEJfVjVnb2NjZThFVGpQaW1sQVc3anFPZkYyOVJuRm1sQld1LWY0QnBOSkc2WEhsUjFhNnNTdUxfMHBwdUZ2Z1B1WmFOWTgyWUFRYw?oc=5",
-          "date": "2026-10-09",
-          "source": "United Nations Development Programme",
+          "titre": "Trading Systems Reacting to (SMIN) Volatility - Stock Traders Daily",
+          "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMDIzVmlhd1BVOFcyX3FrTDZ6VUZ3aFJZR0NZbWd0MUxkSVEtX1ZOWVFNNkxRenE3ZE9OY05oeG9KLV9tTVNCczNraml2NFhkWUJmWGd5NkI0cV9KTmVhV2ZWTVU5MVJmVWxxc0gtcEVxZmJUQVo4ZkpsblBReGlJVGlQOG1BWDV2UmhQMTNNZGMxaVZXME9NemM4TWVmRnZ6dTA2WjRYdHhocXZpZDdXR3ludlMwdGotWEJoZHRwdw?oc=5",
+          "date": "2026-10-05",
+          "source": "Stock Traders Daily",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Waste Management Price Target Cut to $235.00/Share From $270.00 by JP Morgan - Moomoo",
-          "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQR1lNQjRMbHUxcEotTDdEMm9QUEEyeG9NSnZEWVhJTlhoZjFucFFrQzc2cG80NmprTWVuNjBLdnF1eHcxdlh6eEZ2N2U3cjRvS1p2aTBsSHA2OGdvQnpYbTdhZnZmM3dXajl6WmxjVzZBMmpWcVNJeFN6YTQweDR3dm82Tk1lcy1GTU5oWmVKUnFWLW9XellabndWazFKWEE?oc=5",
-          "date": "2026-10-09",
-          "source": "Moomoo",
+          "titre": "iShares MSCI Australia UCITS ETF USD (Acc) (IAUS.L) stock price, news, quote and history - Yahoo Finance Australia",
+          "lien": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE95NUFadGZ6di1QcjJoVFBkNkpkVmNjZnhoNTJsRjRfSUpCMUJqelE5Sm9QZzI3anpLSlg3V0NnbEluZ09FRWZ2Qmg4Ul9YSHp2ejRILQ?oc=5",
+          "date": "2026-10-05",
+          "source": "Yahoo Finance Australia",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 91
+    "ticket": 92
   },
   "radar_proposes": [
     "MCD",
@@ -235,7 +217,9 @@
     "TXRH",
     "HO.PA",
     "8031.T",
-    "WM"
+    "WM",
+    "SNA",
+    "QDV5.DE"
   ],
   "achats": [],
   "historique": [
@@ -9146,6 +9130,118 @@
         ]
       },
       "ticket": 90,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-10",
+      "cree_le": "2026-10-10T09:17+00:00",
+      "liberation": 186.5741514664212,
+      "reserve_pct": null,
+      "score": 86.04192782693211,
+      "ordres": [
+        {
+          "ticker": "WM",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 185.5741514664212,
+          "reason": "opportunité radar (score 86)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "WM",
+        "nom": "Waste Management",
+        "isin": "WM",
+        "type": "action",
+        "prix": 207.74000549316406,
+        "score": 86.04192782693211,
+        "baisse": 0.14650273255560275,
+        "perf_5ans": 0.5103907216653822,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.21878064073548603,
+        "pos_12m": 0.9159663865546218,
+        "n_12m": 476,
+        "base_moy_12m": 0.14137516200257488,
+        "pire_12m": -0.23373159027477042,
+        "vs_marche_3m": -0.1442505484083687,
+        "devise": "USD",
+        "prix_eur": 185.5741514664212,
+        "fondamental": 70.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +4.0% sur un an",
+          "bénéfices +8.3% sur un an",
+          "bénéfices attendus +29% sur 12 mois",
+          "analystes : « achat fort » (1.8/5, 25 avis)",
+          "objectif moyen des analystes : +23%",
+          "P/E attendu 22.9 (actuel 29.4)",
+          "marge nette 11%",
+          "dette / capitaux propres 235 %"
+        ],
+        "score_global": 76.4,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (1 article(s) mineur(s), courant pour une grande entreprise) (3 mois : -14% vs marché)",
+        "vs_marche_3m": -0.1442505484083687,
+        "alertes": [
+          {
+            "titre": "SPAK and BKH Launch Operation in Elbasan Over Waste Management Investigation - Albanian Daily News",
+            "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbVlJZjNFSG5YcXlyTzhpSjlZTXp3T3ZQazBZSk1sOVN6cHVIdy05ekdOd1M4RUYtU2JXekxQS0FhVXQwVE01ZlJvNHhaWmRTRWRFQVc2NTNydElCV2lfazgzMmtON18ydkhybEgwWmF3Nnc3ZTJFd1dTMUhQb3Z2QWwteWp1WkxUbEtHcmJGOUdXVHdVQjhJN0lQR0ZWYjBObGhsdm9RT1RJVFNsWkRxXw?oc=5",
+            "date": "2026-10-05",
+            "source": "Albanian Daily News",
+            "gravite": 1,
+            "mots": [
+              "investigation"
+            ]
+          }
+        ],
+        "recents": [
+          {
+            "titre": "MPWT reviews plans for waste management infrastructure - Khmer Times",
+            "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYzA5STVlbFc5RThVTEc3eWxha2RrR0xZbTFXdVh0UEIwMDVoell1eVNNcUg3eEtMWjl4cnVqM1pQdkVNVFJGMTVWX3Rlc2N0cE15LWlSbjg5WXNxc0otQWMzRkdBREU4bWpXd01qM0E2ZjB0eGZCZTVZWUt0QTIzRzB1c3U1UXVkdk9MR1EtZjZVb3RsMUE3WTBB?oc=5",
+            "date": "2026-10-10",
+            "source": "Khmer Times",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Waste Management (WM) Stock May Be 14% Undervalued On Cash Flow - Simply Wall Street",
+            "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQV0dtRThlSUR2clhkcThaTzVkQ2tiVlB6REJET0F4cm92V2Vvbk1CQkt0dzZPbXhuTFAtUDFfaFl6Z1NMTnNBd1lOMzE3MDl5QUhXWXNUaG9VSldZaGVyaFRoZE9OTEQ1ckFURDg0X0hvY3pwOEtNbm5TbWpoSkRHYWUzeS1OTE1hMU9ubzdtYWdsNzRKbUVhcGpON2lYTUtwUC0teDhITHpXQ3kxYi1UMkxsdHRBNnl2SjFoWW4yTktDMVg2LVZOSFRybnNmOFJxd2lSZWFjblBmUdIB3wFBVV95cUxOMU9qVXRORW1qNFNRSVJCRkoyOFA0SlZQUlNvZVhJQ1lKaDFIUjg4ODhJOFVuZHN3VFhtcGd4Y0hBS1BrNnRONnNILVRoTXNGTnduaEl6X3JHTVRKeVlYYkNjNlpQUHpIUDVGd29MNWhSTGxhQllnRkMxZTFoZE5BS01KRWVSOWtOT05JVGZMSGpSazRpdEktZW13QjJPaWhaNXRyUzZiWmNSTEl2dDU4QnNUTGM0U0xSeGcxT21OaTNZUDl1Qm43djZEbTlZRG9nTWJoT1FISXJpNkNZbEsw?oc=5",
+            "date": "2026-10-09",
+            "source": "Simply Wall Street",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Unpacking Q2 Earnings: Onterris (NYSE:ONT) In The Context Of Other Waste Management Stocks - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRFkxR2lEMmc1dzhjLTZ4TW5uaW5VLThTblQ5ZDd0aUFiSnRUQmhRVEtJcjFOUzZYdlZueHg5eWpQUVlYYXI0d1FseVFDODJIMlN3X2ROOVhyYzBlNjF4akpkUnZycXBTUzhUc3F1ZDBWQjNfTF9kbFdqUjNPZW5ta3JucTU2Ylk4X2c3NDRaSHZVM2V2TjdWV2tlXzM4UEJkb0E?oc=5",
+            "date": "2026-10-09",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Italy, Uganda and UNDP strengthen cooperation on sustainable waste management - United Nations Development Programme",
+            "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVS16aFFHNUhySkhBelEtYTJrclFzQUxzTUZXUUtRNnFTdHJrQnpyNUswWEh3YWNXOVIxY0tubnBHYXJYQmZqeldQa2VETXVSTkdJRm44NGNuUm9yX3lWLWFoak0yWlhoeTdTTlpuTWN3eEJfVjVnb2NjZThFVGpQaW1sQVc3anFPZkYyOVJuRm1sQld1LWY0QnBOSkc2WEhsUjFhNnNTdUxfMHBwdUZ2Z1B1WmFOWTgyWUFRYw?oc=5",
+            "date": "2026-10-09",
+            "source": "United Nations Development Programme",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Waste Management Price Target Cut to $235.00/Share From $270.00 by JP Morgan - Moomoo",
+            "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQR1lNQjRMbHUxcEotTDdEMm9QUEEyeG9NSnZEWVhJTlhoZjFucFFrQzc2cG80NmprTWVuNjBLdnF1eHcxdlh6eEZ2N2U3cjRvS1p2aTBsSHA2OGdvQnpYbTdhZnZmM3dXajl6WmxjVzZBMmpWcVNJeFN6YTQweDR3dm82Tk1lcy1GTU5oWmVKUnFWLW9XellabndWazFKWEE?oc=5",
+            "date": "2026-10-09",
+            "source": "Moomoo",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 91,
       "decision": "sans réponse"
     }
   ]
