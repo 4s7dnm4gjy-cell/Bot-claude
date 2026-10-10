@@ -18,113 +18,70 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-10",
-    "cree_le": "2026-10-10T08:17+00:00",
-    "liberation": 219.3000030517578,
+    "cree_le": "2026-10-10T08:47+00:00",
+    "liberation": 135.5397826668889,
     "reserve_pct": null,
-    "score": 87.31334593518154,
+    "score": 85.8504501309854,
     "ordres": [
       {
-        "ticker": "HO.PA",
+        "ticker": "8031.T",
         "side": "buy",
-        "quantity": 1.0,
-        "price": 218.3000030517578,
-        "reason": "opportunité radar (score 87)"
+        "quantity": 5.0,
+        "price": 26.90795653337778,
+        "reason": "opportunité radar (score 86)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "HO.PA",
-      "nom": "Thales",
-      "isin": "FR0000121329",
+      "ticker": "8031.T",
+      "nom": "Mitsui &amp; Co., Ltd.",
+      "isin": "8031.T",
       "type": "action",
-      "prix": 218.3000030517578,
-      "score": 87.31334593518154,
-      "baisse": 0.19713126902508404,
-      "perf_5ans": 1.8961057508609716,
+      "prix": 4764.0,
+      "score": 85.8504501309854,
+      "baisse": 0.2677442703209485,
+      "perf_5ans": 3.303953499682442,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.18222559861139256,
-      "pos_12m": 0.7308970099667774,
-      "n_12m": 602,
-      "base_moy_12m": 0.15223689652222874,
-      "pire_12m": -0.37473989858775414,
-      "vs_marche_3m": -0.0500075138743441,
-      "devise": "EUR",
-      "prix_eur": 218.3000030517578,
+      "moy_12m": 0.3261967429594393,
+      "pos_12m": 0.8038277511961722,
+      "n_12m": 627,
+      "base_moy_12m": 0.21481612887979573,
+      "pire_12m": -0.6786667048511683,
+      "vs_marche_3m": 0.03737431638288902,
+      "devise": "JPY",
+      "prix_eur": 26.90795653337778,
       "fondamental": 71.0,
       "fondamental_notes": [
-        "chiffre d'affaires +6.7% sur un an",
-        "bénéfices -27.0% sur un an",
-        "bénéfices attendus +71% sur 12 mois",
-        "analystes : « achat » (1.9/5, 19 avis)",
-        "objectif moyen des analystes : +35%",
-        "P/E attendu 17.4 (actuel 29.7)",
-        "marge nette 7%",
-        "dette / capitaux propres 70 %"
+        "chiffre d'affaires +31.7% sur un an",
+        "bénéfices +55.6% sur un an",
+        "bénéfices attendus -10% sur 12 mois",
+        "analystes : « achat » (2.1/5, 12 avis)",
+        "objectif moyen des analystes : +30%",
+        "P/E attendu 16.2 (actuel 14.6)",
+        "marge nette 6%",
+        "dette / capitaux propres 64 %"
       ],
-      "score_global": 77.5,
+      "score_global": 76.9,
       "braderie": false
     },
     "actualites": {
       "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (1 article(s) mineur(s), courant pour une grande entreprise) (3 mois : -5% vs marché)",
-      "vs_marche_3m": -0.0500075138743441,
-      "alertes": [
-        {
-          "titre": "French citizen sued by his former employer, Thales, has languished in Azerbaijani prisons since 2022 - Le Monde.fr",
-          "lien": "https://news.google.com/rss/articles/CBMiggJBVV95cUxON0wzY2F5UDVqSHFKV2lBMmNDR1pXZUVtelBad1JpS3NIY2ZpclFFNExaZkdvc25haUZzNlllM1Y5WkFidTJxcjdKWnRGY0p6TmRwVDVuU1lIOEhIQVJkcFJjd2sxYTJsN2hOVnpxUUt3RjVxYnlxVW83dzg1eHlJNXNpVjR5Ulp0dlRST243MWQxVFNvalBnS0VBbHk3ZUQ4X3NLRVhzV2RKR0lCWnFoZlNEM1RTVXRFeW40emJ4cW9yeDJiR1g0OEF3YklfNGdVc1dwWHpjYVY3VFJYX0hHUEc4eWhDRzJRbTI1Zjk0ZDJUamZNR2ZpWVlocTYwbUpZSHc?oc=5",
-          "date": "2026-10-09",
-          "source": "Le Monde.fr",
-          "gravite": 1,
-          "mots": [
-            "sued"
-          ]
-        }
-      ],
+      "resume": "rien d'alarmant dans l'actualité (3 mois : +4% vs marché)",
+      "vs_marche_3m": 0.03737431638288902,
+      "alertes": [],
       "recents": [
         {
-          "titre": "La France enquête sur les contrats de Thales en Azerbaïdjan, dénoncés par un ex-responsable emprisonné - Le Monde.fr",
-          "lien": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNd2lfVDRkUmZFcndKRG9iYVl6RFE2TDFFb09yY1AwUi1qVVo2enVKcTBHRGVrWGstdjJfcGpMV0hjQmpTMTRZdzMtenRmSXdrNWFWZGFSZDZEVUxFYy1ZZ0F2LXZNYWpjc1hidDg2M0l3WlB2eTNpMWxLc09zcWtSZDRSMGpleExvRFI3b0V6T0JTaEdSZFhjc01UaU5CczFNQVNSWlZiS2hFLTBkZVhPMUZPUzJ4QXRIRkQ2alQ3UnZFRXFuamNiVGxOZ2xNWkRFYkRfTDdoa0o3V0FwNjRIVm5DdlphSzhCVmU4cFR3YkEzYkxFZ19UOHA3UDJZVkQzaHI2RVhlaG9hUQ?oc=5",
+          "titre": "FM Sitharaman to hold high-level meetings with Singapore leadership, top CEOs - Punjab News Express",
+          "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRXVYTkJ2cHpyNGVMVVFqb2pzUTRqSlEwaWlaTTBLRE4wOWU1RWVhWEdqMk9zalBDYnktM05VVTRmMkgtaHhNQTFYUWI5bWRDcTExUGxVVXpfa2xjUXhPUjZoaEpHUm0wUGFxd3g2MzFDUTB0NmotOXVNZUlkX3lqaUh4eTFDdG1DRlZUX2NUaldOTkRpWG5CNEh5R1JwbG54OGNEeUNFX3FvT0o5WHV5VVNUQ3dxRlZqRUROUmxYWVRTeU1UVHc?oc=5",
           "date": "2026-10-09",
-          "source": "Le Monde.fr",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Séance en hausse pour Thales - Boursier.com",
-          "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQd2JvcHd1N0Z1WDl2cmp4cDkzWlBXTzRCOXNrV0tnUzVEVGZ1SzZKcGFOeU52ejFxdl9rbEFzYW5oZTlfRHItV04wLVR5OGZQdzdRVklCNHdMeERsX1dJOXo1VXpFMmZkOFV0dlduY3VBSmdRbDdnOXVQNzhiNndmTl9heUdwUzNrWGZ4TVJOeXV5YWs?oc=5",
-          "date": "2026-10-09",
-          "source": "Boursier.com",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Machine contre machine : la cybersécurité change de monde - Thales",
-          "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTzFTY2xkNFpmSS1JMGJQbDBfZmpVTlpnSUR1dm9uRU9TQXBmY1hGeERydm9DZlRMZUVPZDUwR2ZTcUp2dlFmWmNtbHZ3WXpSSmhCUWRMYVZEbXNBTVF5ak1vNzViZUlMdU9UWWVNdUNiaWFqN1oyR0V0WDEySkNhODM1YXpwWldzbzEtUkd6aHhXeGY1QkdJa3c0eUdNT2xIRG4xS2RXdHRhREdRMnpzR3cxdm0wN0dKZHJIckdjZUc?oc=5",
-          "date": "2026-10-09",
-          "source": "Thales",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "« L’objectif est désormais de le faire disparaître » : un ex-employé de Thales accuse l’entreprise d’avoir poussé pour son incarcération en Azerbaïdjan - L'Humanité",
-          "lien": "https://news.google.com/rss/articles/CBMikgJBVV95cUxObDVwVU9sYUlhWlZQRTVaSGRocWxKMGF3VEdod25oSDZyNXF6R0Q3NHJMcWd5Q1VKMTlFZldZWUJFZ3BUc3dyTjVsQ3dkMnV4ai1VZEFMTkRwd3pXNS1BQmZqOTlLR3l0OGFtTWY5UmdpQkRNUnpId0V6c19VLURpZFZkcnE3R2tvdmpzTWl1bUlvdC0yd2F0T3NLXzdOYjlUZDNXUThlb3BaSk84V3ZTMU9Ic3ZRdFFfajREVHlEZFNwUWpFTmdHa2o1bWMyUU11LWkwRzYyZ1ZpZFBzcHZ0Z1VLWUdqOVhkWkw1akhKeEV4RXhRcm0zQjRfVV9WMFprbWhUTElmT2VwYkdKZEJFeFhn?oc=5",
-          "date": "2026-10-09",
-          "source": "L'Humanité",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Cloud Temple, Thales, Bull, Vates et le CEA mobilisent 47 millions d’euros pour développer le cloud et l’IA de confiance - L'Usine Digitale",
-          "lien": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQQm5sQmtULUdMZzA3aUtUZWpvTXJsR1owRkYyOWtiS1JUbm5qR1FoS0NPVEc5Ul9fQVhpbXV5eVcyQUUzM0pFRUpMVnc0d2JfYWdveUc2TjY3ajZtd3VUaHROQ1cxRTNvVVBKQkJpdGtxQ2hIbUdteEJmRE5uQVpocGR3V1Z2NDdRUEtOcmUyT09oeGFCeWI5NFg4ZWRxdkJ6UGs0MEljdzNnaFZXdzVrNXNhSmNOOEs2UEUyMFlscHFOdjRRcVNEcFhzNGtZVThpQURKdW1LSl9oYnp6QlFsSHNOV3dDWmd0WXBUeHoweHJkUFJwTXFOblpxOEtPVjdxUzlPRFdwQWdnendqcGM0aUpnRHVWSVBoYUU3SEpUNXdIQQ?oc=5",
-          "date": "2026-10-09",
-          "source": "L'Usine Digitale",
+          "source": "Punjab News Express",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 89
+    "ticket": 90
   },
   "radar_proposes": [
     "MCD",
@@ -233,7 +190,8 @@
     "REG.AX",
     "EN.PA",
     "TXRH",
-    "HO.PA"
+    "HO.PA",
+    "8031.T"
   ],
   "achats": [],
   "historique": [
@@ -8963,6 +8921,118 @@
         ]
       },
       "ticket": 88,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-10",
+      "cree_le": "2026-10-10T08:17+00:00",
+      "liberation": 219.3000030517578,
+      "reserve_pct": null,
+      "score": 87.31334593518154,
+      "ordres": [
+        {
+          "ticker": "HO.PA",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 218.3000030517578,
+          "reason": "opportunité radar (score 87)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "HO.PA",
+        "nom": "Thales",
+        "isin": "FR0000121329",
+        "type": "action",
+        "prix": 218.3000030517578,
+        "score": 87.31334593518154,
+        "baisse": 0.19713126902508404,
+        "perf_5ans": 1.8961057508609716,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.18222559861139256,
+        "pos_12m": 0.7308970099667774,
+        "n_12m": 602,
+        "base_moy_12m": 0.15223689652222874,
+        "pire_12m": -0.37473989858775414,
+        "vs_marche_3m": -0.0500075138743441,
+        "devise": "EUR",
+        "prix_eur": 218.3000030517578,
+        "fondamental": 71.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +6.7% sur un an",
+          "bénéfices -27.0% sur un an",
+          "bénéfices attendus +71% sur 12 mois",
+          "analystes : « achat » (1.9/5, 19 avis)",
+          "objectif moyen des analystes : +35%",
+          "P/E attendu 17.4 (actuel 29.7)",
+          "marge nette 7%",
+          "dette / capitaux propres 70 %"
+        ],
+        "score_global": 77.5,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (1 article(s) mineur(s), courant pour une grande entreprise) (3 mois : -5% vs marché)",
+        "vs_marche_3m": -0.0500075138743441,
+        "alertes": [
+          {
+            "titre": "French citizen sued by his former employer, Thales, has languished in Azerbaijani prisons since 2022 - Le Monde.fr",
+            "lien": "https://news.google.com/rss/articles/CBMiggJBVV95cUxON0wzY2F5UDVqSHFKV2lBMmNDR1pXZUVtelBad1JpS3NIY2ZpclFFNExaZkdvc25haUZzNlllM1Y5WkFidTJxcjdKWnRGY0p6TmRwVDVuU1lIOEhIQVJkcFJjd2sxYTJsN2hOVnpxUUt3RjVxYnlxVW83dzg1eHlJNXNpVjR5Ulp0dlRST243MWQxVFNvalBnS0VBbHk3ZUQ4X3NLRVhzV2RKR0lCWnFoZlNEM1RTVXRFeW40emJ4cW9yeDJiR1g0OEF3YklfNGdVc1dwWHpjYVY3VFJYX0hHUEc4eWhDRzJRbTI1Zjk0ZDJUamZNR2ZpWVlocTYwbUpZSHc?oc=5",
+            "date": "2026-10-09",
+            "source": "Le Monde.fr",
+            "gravite": 1,
+            "mots": [
+              "sued"
+            ]
+          }
+        ],
+        "recents": [
+          {
+            "titre": "La France enquête sur les contrats de Thales en Azerbaïdjan, dénoncés par un ex-responsable emprisonné - Le Monde.fr",
+            "lien": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNd2lfVDRkUmZFcndKRG9iYVl6RFE2TDFFb09yY1AwUi1qVVo2enVKcTBHRGVrWGstdjJfcGpMV0hjQmpTMTRZdzMtenRmSXdrNWFWZGFSZDZEVUxFYy1ZZ0F2LXZNYWpjc1hidDg2M0l3WlB2eTNpMWxLc09zcWtSZDRSMGpleExvRFI3b0V6T0JTaEdSZFhjc01UaU5CczFNQVNSWlZiS2hFLTBkZVhPMUZPUzJ4QXRIRkQ2alQ3UnZFRXFuamNiVGxOZ2xNWkRFYkRfTDdoa0o3V0FwNjRIVm5DdlphSzhCVmU4cFR3YkEzYkxFZ19UOHA3UDJZVkQzaHI2RVhlaG9hUQ?oc=5",
+            "date": "2026-10-09",
+            "source": "Le Monde.fr",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Séance en hausse pour Thales - Boursier.com",
+            "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQd2JvcHd1N0Z1WDl2cmp4cDkzWlBXTzRCOXNrV0tnUzVEVGZ1SzZKcGFOeU52ejFxdl9rbEFzYW5oZTlfRHItV04wLVR5OGZQdzdRVklCNHdMeERsX1dJOXo1VXpFMmZkOFV0dlduY3VBSmdRbDdnOXVQNzhiNndmTl9heUdwUzNrWGZ4TVJOeXV5YWs?oc=5",
+            "date": "2026-10-09",
+            "source": "Boursier.com",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Machine contre machine : la cybersécurité change de monde - Thales",
+            "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTzFTY2xkNFpmSS1JMGJQbDBfZmpVTlpnSUR1dm9uRU9TQXBmY1hGeERydm9DZlRMZUVPZDUwR2ZTcUp2dlFmWmNtbHZ3WXpSSmhCUWRMYVZEbXNBTVF5ak1vNzViZUlMdU9UWWVNdUNiaWFqN1oyR0V0WDEySkNhODM1YXpwWldzbzEtUkd6aHhXeGY1QkdJa3c0eUdNT2xIRG4xS2RXdHRhREdRMnpzR3cxdm0wN0dKZHJIckdjZUc?oc=5",
+            "date": "2026-10-09",
+            "source": "Thales",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "« L’objectif est désormais de le faire disparaître » : un ex-employé de Thales accuse l’entreprise d’avoir poussé pour son incarcération en Azerbaïdjan - L'Humanité",
+            "lien": "https://news.google.com/rss/articles/CBMikgJBVV95cUxObDVwVU9sYUlhWlZQRTVaSGRocWxKMGF3VEdod25oSDZyNXF6R0Q3NHJMcWd5Q1VKMTlFZldZWUJFZ3BUc3dyTjVsQ3dkMnV4ai1VZEFMTkRwd3pXNS1BQmZqOTlLR3l0OGFtTWY5UmdpQkRNUnpId0V6c19VLURpZFZkcnE3R2tvdmpzTWl1bUlvdC0yd2F0T3NLXzdOYjlUZDNXUThlb3BaSk84V3ZTMU9Ic3ZRdFFfajREVHlEZFNwUWpFTmdHa2o1bWMyUU11LWkwRzYyZ1ZpZFBzcHZ0Z1VLWUdqOVhkWkw1akhKeEV4RXhRcm0zQjRfVV9WMFprbWhUTElmT2VwYkdKZEJFeFhn?oc=5",
+            "date": "2026-10-09",
+            "source": "L'Humanité",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Cloud Temple, Thales, Bull, Vates et le CEA mobilisent 47 millions d’euros pour développer le cloud et l’IA de confiance - L'Usine Digitale",
+            "lien": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQQm5sQmtULUdMZzA3aUtUZWpvTXJsR1owRkYyOWtiS1JUbm5qR1FoS0NPVEc5Ul9fQVhpbXV5eVcyQUUzM0pFRUpMVnc0d2JfYWdveUc2TjY3ajZtd3VUaHROQ1cxRTNvVVBKQkJpdGtxQ2hIbUdteEJmRE5uQVpocGR3V1Z2NDdRUEtOcmUyT09oeGFCeWI5NFg4ZWRxdkJ6UGs0MEljdzNnaFZXdzVrNXNhSmNOOEs2UEUyMFlscHFOdjRRcVNEcFhzNGtZVThpQURKdW1LSl9oYnp6QlFsSHNOV3dDWmd0WXBUeHoweHJkUFJwTXFOblpxOEtPVjdxUzlPRFdwQWdnendqcGM0aUpnRHVWSVBoYUU3SEpUNXdIQQ?oc=5",
+            "date": "2026-10-09",
+            "source": "L'Usine Digitale",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 89,
       "decision": "sans réponse"
     }
   ]
