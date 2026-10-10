@@ -18,70 +18,113 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-10",
-    "cree_le": "2026-10-10T08:47+00:00",
-    "liberation": 135.5397826668889,
+    "cree_le": "2026-10-10T09:17+00:00",
+    "liberation": 186.5741514664212,
     "reserve_pct": null,
-    "score": 85.8504501309854,
+    "score": 86.04192782693211,
     "ordres": [
       {
-        "ticker": "8031.T",
+        "ticker": "WM",
         "side": "buy",
-        "quantity": 5.0,
-        "price": 26.90795653337778,
+        "quantity": 1.0,
+        "price": 185.5741514664212,
         "reason": "opportunité radar (score 86)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "8031.T",
-      "nom": "Mitsui &amp; Co., Ltd.",
-      "isin": "8031.T",
+      "ticker": "WM",
+      "nom": "Waste Management",
+      "isin": "WM",
       "type": "action",
-      "prix": 4764.0,
-      "score": 85.8504501309854,
-      "baisse": 0.2677442703209485,
-      "perf_5ans": 3.303953499682442,
+      "prix": 207.74000549316406,
+      "score": 86.04192782693211,
+      "baisse": 0.14650273255560275,
+      "perf_5ans": 0.5103907216653822,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.3261967429594393,
-      "pos_12m": 0.8038277511961722,
-      "n_12m": 627,
-      "base_moy_12m": 0.21481612887979573,
-      "pire_12m": -0.6786667048511683,
-      "vs_marche_3m": 0.03737431638288902,
-      "devise": "JPY",
-      "prix_eur": 26.90795653337778,
-      "fondamental": 71.0,
+      "moy_12m": 0.21878064073548603,
+      "pos_12m": 0.9159663865546218,
+      "n_12m": 476,
+      "base_moy_12m": 0.14137516200257488,
+      "pire_12m": -0.23373159027477042,
+      "vs_marche_3m": -0.1442505484083687,
+      "devise": "USD",
+      "prix_eur": 185.5741514664212,
+      "fondamental": 70.0,
       "fondamental_notes": [
-        "chiffre d'affaires +31.7% sur un an",
-        "bénéfices +55.6% sur un an",
-        "bénéfices attendus -10% sur 12 mois",
-        "analystes : « achat » (2.1/5, 12 avis)",
-        "objectif moyen des analystes : +30%",
-        "P/E attendu 16.2 (actuel 14.6)",
-        "marge nette 6%",
-        "dette / capitaux propres 64 %"
+        "chiffre d'affaires +4.0% sur un an",
+        "bénéfices +8.3% sur un an",
+        "bénéfices attendus +29% sur 12 mois",
+        "analystes : « achat fort » (1.8/5, 25 avis)",
+        "objectif moyen des analystes : +23%",
+        "P/E attendu 22.9 (actuel 29.4)",
+        "marge nette 11%",
+        "dette / capitaux propres 235 %"
       ],
-      "score_global": 76.9,
+      "score_global": 76.4,
       "braderie": false
     },
     "actualites": {
       "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : +4% vs marché)",
-      "vs_marche_3m": 0.03737431638288902,
-      "alertes": [],
+      "resume": "rien d'alarmant dans l'actualité (1 article(s) mineur(s), courant pour une grande entreprise) (3 mois : -14% vs marché)",
+      "vs_marche_3m": -0.1442505484083687,
+      "alertes": [
+        {
+          "titre": "SPAK and BKH Launch Operation in Elbasan Over Waste Management Investigation - Albanian Daily News",
+          "lien": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbVlJZjNFSG5YcXlyTzhpSjlZTXp3T3ZQazBZSk1sOVN6cHVIdy05ekdOd1M4RUYtU2JXekxQS0FhVXQwVE01ZlJvNHhaWmRTRWRFQVc2NTNydElCV2lfazgzMmtON18ydkhybEgwWmF3Nnc3ZTJFd1dTMUhQb3Z2QWwteWp1WkxUbEtHcmJGOUdXVHdVQjhJN0lQR0ZWYjBObGhsdm9RT1RJVFNsWkRxXw?oc=5",
+          "date": "2026-10-05",
+          "source": "Albanian Daily News",
+          "gravite": 1,
+          "mots": [
+            "investigation"
+          ]
+        }
+      ],
       "recents": [
         {
-          "titre": "FM Sitharaman to hold high-level meetings with Singapore leadership, top CEOs - Punjab News Express",
-          "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRXVYTkJ2cHpyNGVMVVFqb2pzUTRqSlEwaWlaTTBLRE4wOWU1RWVhWEdqMk9zalBDYnktM05VVTRmMkgtaHhNQTFYUWI5bWRDcTExUGxVVXpfa2xjUXhPUjZoaEpHUm0wUGFxd3g2MzFDUTB0NmotOXVNZUlkX3lqaUh4eTFDdG1DRlZUX2NUaldOTkRpWG5CNEh5R1JwbG54OGNEeUNFX3FvT0o5WHV5VVNUQ3dxRlZqRUROUmxYWVRTeU1UVHc?oc=5",
+          "titre": "MPWT reviews plans for waste management infrastructure - Khmer Times",
+          "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYzA5STVlbFc5RThVTEc3eWxha2RrR0xZbTFXdVh0UEIwMDVoell1eVNNcUg3eEtMWjl4cnVqM1pQdkVNVFJGMTVWX3Rlc2N0cE15LWlSbjg5WXNxc0otQWMzRkdBREU4bWpXd01qM0E2ZjB0eGZCZTVZWUt0QTIzRzB1c3U1UXVkdk9MR1EtZjZVb3RsMUE3WTBB?oc=5",
+          "date": "2026-10-10",
+          "source": "Khmer Times",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Waste Management (WM) Stock May Be 14% Undervalued On Cash Flow - Simply Wall Street",
+          "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQV0dtRThlSUR2clhkcThaTzVkQ2tiVlB6REJET0F4cm92V2Vvbk1CQkt0dzZPbXhuTFAtUDFfaFl6Z1NMTnNBd1lOMzE3MDl5QUhXWXNUaG9VSldZaGVyaFRoZE9OTEQ1ckFURDg0X0hvY3pwOEtNbm5TbWpoSkRHYWUzeS1OTE1hMU9ubzdtYWdsNzRKbUVhcGpON2lYTUtwUC0teDhITHpXQ3kxYi1UMkxsdHRBNnl2SjFoWW4yTktDMVg2LVZOSFRybnNmOFJxd2lSZWFjblBmUdIB3wFBVV95cUxOMU9qVXRORW1qNFNRSVJCRkoyOFA0SlZQUlNvZVhJQ1lKaDFIUjg4ODhJOFVuZHN3VFhtcGd4Y0hBS1BrNnRONnNILVRoTXNGTnduaEl6X3JHTVRKeVlYYkNjNlpQUHpIUDVGd29MNWhSTGxhQllnRkMxZTFoZE5BS01KRWVSOWtOT05JVGZMSGpSazRpdEktZW13QjJPaWhaNXRyUzZiWmNSTEl2dDU4QnNUTGM0U0xSeGcxT21OaTNZUDl1Qm43djZEbTlZRG9nTWJoT1FISXJpNkNZbEsw?oc=5",
           "date": "2026-10-09",
-          "source": "Punjab News Express",
+          "source": "Simply Wall Street",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Unpacking Q2 Earnings: Onterris (NYSE:ONT) In The Context Of Other Waste Management Stocks - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRFkxR2lEMmc1dzhjLTZ4TW5uaW5VLThTblQ5ZDd0aUFiSnRUQmhRVEtJcjFOUzZYdlZueHg5eWpQUVlYYXI0d1FseVFDODJIMlN3X2ROOVhyYzBlNjF4akpkUnZycXBTUzhUc3F1ZDBWQjNfTF9kbFdqUjNPZW5ta3JucTU2Ylk4X2c3NDRaSHZVM2V2TjdWV2tlXzM4UEJkb0E?oc=5",
+          "date": "2026-10-09",
+          "source": "Yahoo Finance",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Italy, Uganda and UNDP strengthen cooperation on sustainable waste management - United Nations Development Programme",
+          "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVS16aFFHNUhySkhBelEtYTJrclFzQUxzTUZXUUtRNnFTdHJrQnpyNUswWEh3YWNXOVIxY0tubnBHYXJYQmZqeldQa2VETXVSTkdJRm44NGNuUm9yX3lWLWFoak0yWlhoeTdTTlpuTWN3eEJfVjVnb2NjZThFVGpQaW1sQVc3anFPZkYyOVJuRm1sQld1LWY0QnBOSkc2WEhsUjFhNnNTdUxfMHBwdUZ2Z1B1WmFOWTgyWUFRYw?oc=5",
+          "date": "2026-10-09",
+          "source": "United Nations Development Programme",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Waste Management Price Target Cut to $235.00/Share From $270.00 by JP Morgan - Moomoo",
+          "lien": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQR1lNQjRMbHUxcEotTDdEMm9QUEEyeG9NSnZEWVhJTlhoZjFucFFrQzc2cG80NmprTWVuNjBLdnF1eHcxdlh6eEZ2N2U3cjRvS1p2aTBsSHA2OGdvQnpYbTdhZnZmM3dXajl6WmxjVzZBMmpWcVNJeFN6YTQweDR3dm82Tk1lcy1GTU5oWmVKUnFWLW9XellabndWazFKWEE?oc=5",
+          "date": "2026-10-09",
+          "source": "Moomoo",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 90
+    "ticket": 91
   },
   "radar_proposes": [
     "MCD",
@@ -191,7 +234,8 @@
     "EN.PA",
     "TXRH",
     "HO.PA",
-    "8031.T"
+    "8031.T",
+    "WM"
   ],
   "achats": [],
   "historique": [
@@ -9033,6 +9077,75 @@
         ]
       },
       "ticket": 89,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-10",
+      "cree_le": "2026-10-10T08:47+00:00",
+      "liberation": 135.5397826668889,
+      "reserve_pct": null,
+      "score": 85.8504501309854,
+      "ordres": [
+        {
+          "ticker": "8031.T",
+          "side": "buy",
+          "quantity": 5.0,
+          "price": 26.90795653337778,
+          "reason": "opportunité radar (score 86)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "8031.T",
+        "nom": "Mitsui &amp; Co., Ltd.",
+        "isin": "8031.T",
+        "type": "action",
+        "prix": 4764.0,
+        "score": 85.8504501309854,
+        "baisse": 0.2677442703209485,
+        "perf_5ans": 3.303953499682442,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.3261967429594393,
+        "pos_12m": 0.8038277511961722,
+        "n_12m": 627,
+        "base_moy_12m": 0.21481612887979573,
+        "pire_12m": -0.6786667048511683,
+        "vs_marche_3m": 0.03737431638288902,
+        "devise": "JPY",
+        "prix_eur": 26.90795653337778,
+        "fondamental": 71.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +31.7% sur un an",
+          "bénéfices +55.6% sur un an",
+          "bénéfices attendus -10% sur 12 mois",
+          "analystes : « achat » (2.1/5, 12 avis)",
+          "objectif moyen des analystes : +30%",
+          "P/E attendu 16.2 (actuel 14.6)",
+          "marge nette 6%",
+          "dette / capitaux propres 64 %"
+        ],
+        "score_global": 76.9,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : +4% vs marché)",
+        "vs_marche_3m": 0.03737431638288902,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "FM Sitharaman to hold high-level meetings with Singapore leadership, top CEOs - Punjab News Express",
+            "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRXVYTkJ2cHpyNGVMVVFqb2pzUTRqSlEwaWlaTTBLRE4wOWU1RWVhWEdqMk9zalBDYnktM05VVTRmMkgtaHhNQTFYUWI5bWRDcTExUGxVVXpfa2xjUXhPUjZoaEpHUm0wUGFxd3g2MzFDUTB0NmotOXVNZUlkX3lqaUh4eTFDdG1DRlZUX2NUaldOTkRpWG5CNEh5R1JwbG54OGNEeUNFX3FvT0o5WHV5VVNUQ3dxRlZqRUROUmxYWVRTeU1UVHc?oc=5",
+            "date": "2026-10-09",
+            "source": "Punjab News Express",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 90,
       "decision": "sans réponse"
     }
   ]
