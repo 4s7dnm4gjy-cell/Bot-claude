@@ -1,74 +1,69 @@
 /* =========================================================
    Papiers en Paix — feuille de style unique
-   Mobile d'abord, puis tablette (≥ 700 px), puis ordinateur (≥ 1000 px)
+   Direction : « registre de comptable », papier et encre bleue.
+   Mobile d'abord, puis tablette (≥ 720 px), puis ordinateur (≥ 1040 px).
    ========================================================= */
 
 /* ---------- Polices hébergées localement ---------- */
 @font-face {
   font-family: "Atkinson Hyperlegible";
   src: url("../fonts/atkinson-hyperlegible-latin-400-normal.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+  font-weight: 400; font-style: normal; font-display: swap;
 }
 @font-face {
   font-family: "Atkinson Hyperlegible";
   src: url("../fonts/atkinson-hyperlegible-latin-400-italic.woff2") format("woff2");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
+  font-weight: 400; font-style: italic; font-display: swap;
 }
 @font-face {
   font-family: "Atkinson Hyperlegible";
   src: url("../fonts/atkinson-hyperlegible-latin-700-normal.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
+  font-weight: 700; font-style: normal; font-display: swap;
 }
 @font-face {
-  font-family: "Source Serif 4";
-  src: url("../fonts/source-serif-4-latin-600-normal.woff2") format("woff2");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
+  font-family: "Literata";
+  src: url("../fonts/literata-latin-600-normal.woff2") format("woff2");
+  font-weight: 600; font-style: normal; font-display: swap;
 }
 @font-face {
-  font-family: "Source Serif 4";
-  src: url("../fonts/source-serif-4-latin-400-italic.woff2") format("woff2");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
+  font-family: "Literata";
+  src: url("../fonts/literata-latin-400-italic.woff2") format("woff2");
+  font-weight: 400; font-style: italic; font-display: swap;
 }
 
 /* ---------- Couleurs et mesures ---------- */
 :root {
-  --papier: #faf6ee;        /* fond crème */
-  --papier-fonce: #f1eadc;  /* encadrés */
-  --encre: #1c1a17;         /* texte principal (contraste ≈ 16:1) */
-  --encre-douce: #3b3732;   /* texte secondaire (contraste ≈ 10:1, AAA) */
-  --accent: #1f4d3a;        /* vert sapin (contraste ≈ 9:1 sur le crème) */
-  --accent-fonce: #163a2b;  /* survol */
-  --sur-accent: #ffffff;    /* texte sur fond vert */
-  --filet: #cfc4b0;         /* traits décoratifs */
-  --focus: #b3470f;         /* contour clavier, bien visible */
+  --papier: #f6f2e9;        /* fond : papier ivoire */
+  --papier-2: #ece5d6;      /* encadrés, un ton plus chaud */
+  --carte: #fffdf7;         /* fiches */
+  --encre: #141c2b;         /* texte : encre bleu-noir */
+  --encre-douce: #3a4150;   /* texte secondaire */
+  --accent: #1d3c74;        /* bleu encre, la seule couleur */
+  --accent-fonce: #142b55;
+  --accent-clair: #c4d1ea;  /* même bleu, éclairci, pour le fond sombre */
+  --filet: #cbc0aa;         /* traits de registre */
+  --sombre: #141c2b;        /* bandeau des engagements */
+  --sur-sombre: #f6f2e9;
+  --sur-sombre-doux: #d9d4c8;
+  --filet-sombre: #46506a;
+  --focus: #b3470f;
 
   --texte: 1.25rem;         /* 20 px */
   --interligne: 1.6;
-  --largeur: 40rem;         /* largeur de lecture */
-  --gouttiere: 1rem;
-  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --lecture: 42rem;
+  --page: 72rem;
+  --gouttiere: 1.25rem;
+  --serif: "Literata", Georgia, "Times New Roman", serif;
   --sans: "Atkinson Hyperlegible", Verdana, Arial, sans-serif;
 }
 
 /* ---------- Base ---------- */
-*,
-*::before,
-*::after { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: border-box; }
 
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
-  scroll-padding-top: 4.5rem;
+  scroll-padding-top: 5rem;
 }
 
 body {
@@ -85,412 +80,614 @@ img { max-width: 100%; height: auto; display: block; }
 h1, h2, h3 {
   font-family: var(--serif);
   font-weight: 600;
-  line-height: 1.2;
-  color: var(--encre);
+  line-height: 1.15;
+  letter-spacing: -0.01em;
   margin: 0 0 0.6em;
 }
-h1 { font-size: 2.4rem; }
-h2 { font-size: 2rem; }
-h3 { font-size: 1.5rem; }
+h1 { font-size: 2.6rem; }
+h2 { font-size: 2.1rem; }
+h3 { font-size: 1.45rem; }
 
 p, ul, ol, dl { margin: 0 0 1em; }
 
 a {
   color: var(--accent);
   text-decoration: underline;
-  text-underline-offset: 0.18em;
+  text-underline-offset: 0.2em;
   text-decoration-thickness: 0.08em;
 }
-a:hover { color: var(--accent-fonce); text-decoration-thickness: 0.14em; }
+a:hover { color: var(--accent-fonce); text-decoration-thickness: 0.15em; }
 
-:focus-visible {
-  outline: 3px solid var(--focus);
-  outline-offset: 3px;
-}
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 
 strong { font-weight: 700; }
 
-.sr-only {
-  position: absolute;
-  width: 1px; height: 1px;
-  padding: 0; margin: -1px;
-  overflow: hidden; clip: rect(0 0 0 0);
-  white-space: nowrap; border: 0;
-}
-
 .lien-evitement {
-  position: absolute;
-  left: 0.5rem; top: -10rem;
-  background: var(--encre);
-  color: var(--papier);
+  position: absolute; left: 0.5rem; top: -10rem; z-index: 100;
+  background: var(--encre); color: var(--papier);
   padding: 0.75rem 1rem;
-  z-index: 100;
 }
 .lien-evitement:focus { top: 0.5rem; color: var(--papier); }
 
-/* ---------- Mise en page : une colonne ---------- */
-.colonne {
-  max-width: var(--largeur);
+/* ---------- Conteneurs ---------- */
+.conteneur {
+  max-width: var(--page);
   margin: 0 auto;
   padding: 0 var(--gouttiere);
 }
+.lecture { max-width: var(--lecture); }
 
-.section {
-  padding: 3rem 0;
-  border-top: 1px solid var(--filet);
+/* Chaque section : une étiquette numérotée, puis le contenu */
+.section { padding: 3.5rem 0; }
+.section + .section { border-top: 1px solid var(--filet); }
+
+.etiquette {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.etiquette__num {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  letter-spacing: 0;
+}
+.etiquette::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--filet);
+  transform: translateY(-0.3em);
 }
 
-/* ---------- Barre téléphone fixe (mobile) ---------- */
-.barre-tel {
+.chapeau {
+  font-size: 1.35rem;
+  color: var(--encre-douce);
+}
+
+/* ---------- Barre téléphone ---------- */
+.barre {
   position: sticky;
   top: 0;
   z-index: 50;
   background: var(--papier);
-  border-bottom: 1px solid var(--filet);
+  border-bottom: 2px solid var(--encre);
 }
-.barre-tel .colonne {
+.barre .conteneur {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 0.5rem;
-  min-height: 3.5rem;
+  min-height: 3.75rem;
 }
-.barre-tel__nom {
-  font-family: var(--serif);
-  font-weight: 600;
-  font-size: 1.1rem;
-  color: var(--encre);
-  text-decoration: none;
-  white-space: nowrap;
-  min-height: 48px;
+.marque {
   display: inline-flex;
   align-items: center;
+  gap: 0.6rem;
+  min-height: 48px;
+  color: var(--encre);
+  text-decoration: none;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.2rem;
+  white-space: nowrap;
 }
-.barre-tel__appel {
+.marque:hover { color: var(--encre); }
+.marque__sceau {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border: 2px solid var(--accent);
+  border-radius: 50%;
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.05rem;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+.barre__appel {
   display: inline-flex;
   align-items: center;
   min-height: 48px;
   padding: 0 0.25rem;
   font-weight: 700;
   font-size: 1.05rem;
-  color: var(--accent);
   white-space: nowrap;
 }
+.barre__appel-mot { display: none; }
 
 /* ---------- Boutons ---------- */
 .bouton {
   display: inline-flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 3.5rem;
   min-width: 48px;
   padding: 0.75rem 1.5rem;
   border: 2px solid var(--accent);
-  border-radius: 6px;
+  border-radius: 4px;
   background: var(--accent);
-  color: var(--sur-accent);
+  color: #fff;
   font-family: var(--sans);
   font-size: 1.25rem;
   font-weight: 700;
-  line-height: 1.3;
+  line-height: 1.25;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
 }
-.bouton:hover { background: var(--accent-fonce); border-color: var(--accent-fonce); color: var(--sur-accent); }
-
+.bouton:hover { background: var(--accent-fonce); border-color: var(--accent-fonce); color: #fff; }
 .bouton--grand {
-  font-size: 1.5rem;
-  min-height: 4.25rem;
-  padding: 0.9rem 1.75rem;
   width: 100%;
+  min-height: 4.75rem;
+  font-size: 1.6rem;
+  padding: 0.9rem 2rem;
 }
-.bouton--grand small {
-  display: block;
-  font-size: 1.1rem;
+.bouton__detail {
+  font-size: 1.15rem;
   font-weight: 400;
+  letter-spacing: 0.02em;
 }
-
-.bouton--secondaire {
-  background: transparent;
-  color: var(--accent);
-}
-.bouton--secondaire:hover { background: var(--papier-fonce); color: var(--accent-fonce); }
+.bouton--contour { background: transparent; color: var(--accent); }
+.bouton--contour:hover { background: var(--papier-2); color: var(--accent-fonce); }
 
 /* ---------- En-tête ---------- */
-.entete { padding: 2.5rem 0 3rem; }
+.entete { padding: 2.75rem 0 3.5rem; }
+.entete__grille { display: grid; gap: 2.5rem; }
 .entete__surtitre {
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+.entete h1 { margin-bottom: 0.5em; }
+.entete h1 em {
+  font-style: italic;
+  font-weight: 400;
+  color: var(--accent);
+}
+.entete__accroche { font-size: 1.35rem; margin-bottom: 2rem; }
+.entete__rassurance {
+  margin: 1rem 0 0;
   font-size: 1.1rem;
   color: var(--encre-douce);
-  margin-bottom: 0.5rem;
-}
-.entete__accroche {
-  font-size: 1.4rem;
-  margin-bottom: 1.75rem;
-}
-.entete__infos {
-  margin: 1.25rem 0 0;
-  color: var(--encre-douce);
-  font-size: 1.1rem;
 }
 
-/* ---------- Listes ---------- */
-.liste {
+/* La fiche : comme une fiche cartonnée de registre */
+.fiche {
+  background: var(--carte);
+  border: 1px solid var(--filet);
+  border-top: 6px solid var(--accent);
+  padding: 1.5rem 1.25rem 1.25rem;
+  align-self: start;
+}
+.fiche__titre {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.35rem;
+  margin: 0 0 0.75rem;
+}
+.fiche dl { margin: 0; }
+.fiche__ligne {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0.7rem 0;
+  border-top: 1px solid var(--filet);
+}
+.fiche dt {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--encre-douce);
+}
+.fiche dd { margin: 0; font-size: 1.2rem; }
+
+/* ---------- Le problème : une phrase forte ---------- */
+.citation {
+  margin: 0;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.7rem;
+  line-height: 1.4;
+}
+.citation em { font-style: italic; font-weight: 400; color: var(--accent); }
+
+/* ---------- Ce que je fais : quatre fiches ---------- */
+.services {
   list-style: none;
   padding: 0;
+  margin: 0;
+  display: grid;
+  counter-reset: service;
 }
-.liste li {
-  padding: 0.85rem 0 0.85rem 1.75rem;
-  border-bottom: 1px solid var(--filet);
-  position: relative;
+.services li {
+  counter-increment: service;
+  border-top: 2px solid var(--encre);
+  padding: 1.1rem 0 1.75rem;
 }
-.liste li:last-child { border-bottom: 0; }
-.liste li::before {
-  content: "";
-  position: absolute;
-  left: 0.15rem;
-  top: 1.55rem;
-  width: 0.7rem;
-  height: 2px;
-  background: var(--accent);
+.services h3 { margin-bottom: 0.4rem; }
+.services h3::before {
+  content: counter(service, lower-alpha) ".";
+  font-style: italic;
+  font-weight: 400;
+  color: var(--accent);
+  margin-right: 0.5rem;
 }
-.liste--non li::before {
-  content: "Non";
-  background: none;
-  width: auto; height: auto;
-  top: 0.95rem;
-  font-size: 0.85rem;
+.services p { margin: 0; }
+.services__note {
+  display: block;
+  margin-top: 0.75rem;
+  padding-left: 0.9rem;
+  border-left: 3px solid var(--accent);
   font-weight: 700;
-  color: var(--encre-douce);
-  left: 0;
 }
-.liste--non li { padding-left: 2.75rem; }
 
-/* ---------- Étapes ---------- */
+/* ---------- Ce que je ne fais pas : tableau de renvoi ---------- */
+.renvoi {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 1.25rem;
+}
+.renvoi th, .renvoi td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.85rem 0.75rem 0.85rem 0;
+  border-bottom: 1px solid var(--filet);
+}
+.renvoi thead th {
+  font-size: 1rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--encre-douce);
+  border-bottom: 2px solid var(--encre);
+}
+.renvoi tbody th { font-weight: 700; width: 42%; }
+
+/* ---------- Comment ça se passe ---------- */
 .etapes {
   list-style: none;
   padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 2rem;
   counter-reset: etape;
 }
-.etapes li {
-  counter-increment: etape;
-  display: grid;
-  grid-template-columns: 3rem 1fr;
-  gap: 0.75rem;
-  align-items: start;
-  margin-bottom: 1.25rem;
-}
+.etapes li { counter-increment: etape; }
 .etapes li::before {
   content: counter(etape);
+  display: block;
   font-family: var(--serif);
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: 3.5rem;
   line-height: 1;
   color: var(--accent);
-  border: 2px solid var(--accent);
-  border-radius: 50%;
-  width: 3rem;
-  height: 3rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 2px solid var(--encre);
 }
-.etapes li p { margin: 0.4rem 0 0; }
+.etapes h3 { margin-bottom: 0.3rem; }
+.etapes p { margin: 0; }
 
-/* ---------- Tarif ---------- */
-.tarif {
-  background: var(--papier-fonce);
-  border-left: 4px solid var(--accent);
-  padding: 1.5rem 1.25rem;
-  margin-bottom: 1.5rem;
-}
+/* ---------- Tarif : un vrai livre de comptes ---------- */
 .tarif__prix {
   font-family: var(--serif);
   font-weight: 600;
-  font-size: 2.75rem;
-  line-height: 1.1;
+  font-size: 4rem;
+  line-height: 1;
   margin: 0 0 0.25rem;
 }
-.tarif__prix span { font-size: 1.4rem; }
-.tarif p:last-child { margin-bottom: 0; }
+.tarif__prix span {
+  font-family: var(--sans);
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+.compte {
+  margin: 1.75rem 0 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+.compte li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.45rem 0;
+}
+.compte li::after {
+  content: "";
+  order: 2;
+  flex: 1 1 1.5rem;
+  border-bottom: 2px dotted var(--filet);
+  transform: translateY(-0.3em);
+}
+.compte__montant {
+  order: 3;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.exemple {
+  background: var(--papier-2);
+  padding: 1.25rem;
+}
+.exemple__titre { font-weight: 700; margin-bottom: 0.5rem; }
+.exemple .compte { margin: 0; }
+.compte .compte__total {
+  border-top: 2px solid var(--encre);
+  margin-top: 0.4rem;
+  padding-top: 0.6rem;
+}
+.compte__total .compte__montant { border-bottom: 4px double var(--encre); }
+.sans-engagement { margin: 1.5rem 0 0; font-weight: 700; }
 
-/* ---------- Engagements : lettre signée ---------- */
-.engagements {
-  background: #fffdf8;
-  border: 1px solid var(--filet);
-  border-top: 6px solid var(--accent);
-  padding: 2rem 1.25rem 1.75rem;
+/* ---------- Mes engagements : le bandeau sombre ---------- */
+.section.engagements {
+  background: var(--sombre);
+  color: var(--sur-sombre);
+  padding: 4rem 0;
+  border-top: 0;
 }
-.engagements h2 { margin-bottom: 0.4em; }
-.engagements__intro { color: var(--encre-douce); }
-.engagements ol {
-  padding-left: 1.6rem;
-  margin-bottom: 1.75rem;
+.engagements h2 { color: var(--sur-sombre); font-size: 2.5rem; }
+.engagements .etiquette { color: var(--accent-clair); }
+.engagements .etiquette::after { background: var(--filet-sombre); }
+.engagements .chapeau { color: var(--sur-sombre-doux); }
+.engagements :focus-visible { outline-color: #f0a36f; }
+.articles {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0 2.5rem;
+  counter-reset: article;
 }
-.engagements ol li {
-  padding: 0.5rem 0 0.5rem 0.4rem;
-  font-size: 1.3rem;
+.articles li {
+  counter-increment: article;
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  gap: 0.75rem;
+  padding: 1.1rem 0;
+  border-top: 1px solid var(--filet-sombre);
+  font-size: 1.35rem;
 }
-.engagements ol li::marker {
+.articles li:last-child { border-bottom: 1px solid var(--filet-sombre); }
+.articles li::before {
+  content: "Art. " counter(article);
   font-family: var(--serif);
-  font-weight: 600;
-  color: var(--accent);
+  font-style: italic;
+  color: var(--accent-clair);
+  padding-top: 0.1rem;
 }
 .signature {
-  border-top: 1px solid var(--encre);
-  padding-top: 0.75rem;
-  max-width: 18rem;
-  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+.signature__lieu { margin: 0; color: var(--sur-sombre-doux); font-size: 1.1rem; }
+.signature__bloc {
+  min-width: 14rem;
+  border-top: 1px solid var(--sur-sombre);
+  padding-top: 0.5rem;
   text-align: right;
+  margin-left: auto;
 }
 .signature__nom {
   font-family: var(--serif);
   font-style: italic;
-  font-weight: 400;
-  font-size: 1.75rem;
+  font-size: 2.25rem;
+  line-height: 1.1;
   margin: 0;
 }
-.signature__role { margin: 0; color: var(--encre-douce); font-size: 1.1rem; }
+.signature__role { margin: 0; color: var(--sur-sombre-doux); font-size: 1.05rem; }
 
 /* ---------- Qui suis-je ---------- */
-.portrait {
-  margin: 0 0 1.5rem;
+.qui { display: grid; gap: 2rem; }
+.portrait { margin: 0 0 0 6px; }
+.portrait__cadre,
+.portrait img {
+  width: 100%;
+  max-width: 18rem;
+  border: 1px solid var(--filet);
+  outline: 1px solid var(--filet);
+  outline-offset: 6px;
 }
 .portrait__cadre {
   aspect-ratio: 4 / 5;
-  max-width: 16rem;
-  background: var(--papier-fonce);
-  border: 2px dashed var(--filet);
+  background: var(--papier-2);
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
   padding: 1rem;
+  text-align: center;
   color: var(--encre-douce);
   font-size: 1.05rem;
 }
-.portrait img {
-  max-width: 16rem;
-  border: 1px solid var(--filet);
+.portrait figcaption {
+  margin-top: 1.1rem;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--encre-douce);
 }
 
 /* ---------- Professionnels ---------- */
-.encadre {
-  background: var(--papier-fonce);
-  padding: 1.5rem 1.25rem;
-  margin: 1.5rem 0;
+.pros {
+  border: 2px solid var(--encre);
+  background: var(--carte);
+  padding: 1.75rem 1.25rem;
 }
-.encadre p:last-child { margin-bottom: 0; }
+.pros h3 { font-size: 1.35rem; }
+.pros__liste { padding-left: 1.4rem; }
+.pros__liste li { margin-bottom: 0.5rem; }
+.pros__liste li::marker { color: var(--accent); font-weight: 700; }
+.pros__note {
+  font-size: 1.1rem;
+  color: var(--encre-douce);
+  border-top: 1px solid var(--filet);
+  padding-top: 1rem;
+  margin: 0;
+}
 .actions {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  margin-top: 1.5rem;
 }
 
 /* ---------- Questions fréquentes ---------- */
-details {
-  border-bottom: 1px solid var(--filet);
-}
-details:first-of-type { border-top: 1px solid var(--filet); }
-summary {
+.faq details { border-bottom: 1px solid var(--filet); }
+.faq details:first-of-type { border-top: 2px solid var(--encre); }
+.faq summary {
   cursor: pointer;
   list-style: none;
   min-height: 48px;
-  padding: 1rem 2.5rem 1rem 0;
+  padding: 1.1rem 3rem 1.1rem 0;
   font-weight: 700;
   position: relative;
 }
-summary::-webkit-details-marker { display: none; }
-summary::after {
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after {
   content: "+";
   position: absolute;
-  right: 0.25rem;
-  top: 0.75rem;
-  font-family: var(--serif);
-  font-size: 1.75rem;
+  right: 0;
+  top: 0.9rem;
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid var(--accent);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
   line-height: 1;
   color: var(--accent);
 }
-details[open] summary::after { content: "−"; }
-details > p { padding-bottom: 0.5rem; }
+.faq details[open] summary::after { content: "−"; }
+.faq details > p { margin: 0 0 1.25rem; max-width: 38rem; }
 
 /* ---------- Contact ---------- */
+.section.contact { background: var(--papier-2); border-top: 0; }
 .contact__tel {
-  display: block;
-  font-family: var(--serif);
-  font-weight: 600;
-  font-size: 2.25rem;
-  line-height: 1.2;
-  margin: 0 0 1rem;
-  min-height: 48px;
-}
-.contact dl { margin: 1.5rem 0 0; }
-.contact dt { font-weight: 700; margin-top: 1rem; }
-.contact dd { margin: 0; }
-.contact dd a {
   display: inline-flex;
   align-items: center;
   min-height: 48px;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1.15;
+  margin: 0.25rem 0 1rem;
+  text-decoration-thickness: 0.05em;
 }
+.contact__infos { margin: 2rem 0 0; display: grid; }
+.contact__infos div { border-top: 1px solid var(--filet); padding: 0.85rem 0; }
+.contact__infos dt {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--encre-douce);
+}
+.contact__infos dd { margin: 0; }
+.contact__infos dd a { display: inline-flex; align-items: center; min-height: 48px; }
+.avertissement { font-size: 1.1rem; color: var(--encre-douce); }
 
 /* ---------- Pied de page ---------- */
 .pied {
-  border-top: 1px solid var(--filet);
-  padding: 2rem 0 3rem;
+  background: var(--sombre);
+  color: var(--sur-sombre);
+  padding: 2.5rem 0 3rem;
   font-size: 1.1rem;
-  color: var(--encre-douce);
 }
-.pied ul {
-  list-style: none;
-  padding: 0;
-  margin: 1rem 0 0;
+.pied a { color: var(--sur-sombre); }
+.pied a:hover { color: #fff; }
+.pied :focus-visible { outline-color: #f0a36f; }
+.pied__marque {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin-bottom: 0.25rem;
 }
-.pied li a {
-  display: inline-flex;
-  align-items: center;
-  min-height: 48px;
-}
+.pied ul { list-style: none; padding: 0; margin: 1rem 0 0; }
+.pied li a { display: inline-flex; align-items: center; min-height: 48px; }
 
 /* ---------- Pages légales ---------- */
-.page-legale { padding: 2rem 0 3rem; }
-.page-legale h2 { font-size: 1.6rem; margin-top: 2rem; }
-.retour {
-  display: inline-flex;
-  align-items: center;
-  min-height: 48px;
-  margin-bottom: 1rem;
+.page-legale { padding: 2.5rem 0 3.5rem; }
+.page-legale h2 {
+  font-size: 1.6rem;
+  margin-top: 2.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--filet);
 }
+.page-legale ul { padding-left: 1.4rem; }
+.retour { display: inline-flex; align-items: center; min-height: 48px; margin-bottom: 1rem; }
 
-/* ---------- Flyer A4 (visible uniquement à l'impression) ---------- */
+/* ---------- Flyer : invisible à l'écran ---------- */
 .flyer { display: none; }
 
-/* ---------- Tablette ---------- */
-@media (min-width: 700px) {
-  :root { --gouttiere: 2rem; }
-  h1 { font-size: 3rem; }
-  h2 { font-size: 2.25rem; }
-  .section { padding: 4rem 0; }
-  .entete { padding: 4rem 0; }
+/* =========================================================
+   Tablette
+   ========================================================= */
+@media (min-width: 720px) {
+  :root { --gouttiere: 2.25rem; }
+  h1 { font-size: 3.4rem; }
+  h2 { font-size: 2.4rem; }
+  .section { padding: 5rem 0; }
+  .entete { padding: 4.5rem 0 5rem; }
+  .barre { position: static; }
+  .barre__appel-mot { display: inline; }
   .bouton--grand { width: auto; }
-  .engagements { padding: 2.5rem 2.5rem 2rem; }
+  .citation { font-size: 2.1rem; }
+  .services { grid-template-columns: 1fr 1fr; column-gap: 2.5rem; }
+  .etapes { grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+  .fiche__ligne { grid-template-columns: 8.5rem 1fr; gap: 1rem; align-items: baseline; }
+  .qui { grid-template-columns: 18rem 1fr; gap: 3rem; align-items: start; }
+  .pros { padding: 2.5rem; }
   .actions { flex-direction: row; flex-wrap: wrap; }
-  .barre-tel { position: static; }
-  .qui {
-    display: grid;
-    grid-template-columns: 14rem 1fr;
-    gap: 2rem;
-    align-items: start;
-  }
-  .qui .portrait { margin: 0; }
+  .section.engagements { padding: 5.5rem 0; }
+  .engagements h2 { font-size: 3rem; }
+  .articles li { grid-template-columns: 6.5rem 1fr; font-size: 1.5rem; }
+  .contact__tel { font-size: 3.5rem; }
+  .contact__infos { grid-template-columns: repeat(3, 1fr); column-gap: 2rem; }
+  .pied .conteneur { display: flex; justify-content: space-between; align-items: flex-start; gap: 2rem; }
+  .pied ul { margin: 0; text-align: right; }
 }
 
-/* ---------- Ordinateur ---------- */
-@media (min-width: 1000px) {
-  :root { --largeur: 44rem; }
+/* =========================================================
+   Ordinateur
+   ========================================================= */
+@media (min-width: 1040px) {
   body { font-size: 1.3rem; }
+  h1 { font-size: 4rem; }
+  .entete__grille { grid-template-columns: 1fr 23rem; gap: 4rem; align-items: center; }
+  /* Étiquette à gauche, contenu à droite, comme les colonnes d'un registre */
+  .section > .conteneur {
+    display: grid;
+    grid-template-columns: 11rem 1fr;
+    column-gap: 3rem;
+  }
+  .section > .conteneur > .etiquette {
+    grid-column: 1;
+    grid-row: 1 / span 20;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding-top: 0.5rem;
+    align-self: start;
+  }
+  .section > .conteneur > .etiquette::after { display: none; }
+  .section > .conteneur > .etiquette .etiquette__num { font-size: 2.75rem; line-height: 1; }
+  .section > .conteneur > :not(.etiquette) { grid-column: 2; }
 }
 
-/* ---------- Pas d'animation pour qui n'en veut pas ---------- */
+/* ---------- Pas d'animation ---------- */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation: none !important;
@@ -501,68 +698,69 @@ details > p { padding-bottom: 0.5rem; }
 
 /* =========================================================
    IMPRESSION
-   1. Impression normale de la page : sans barre ni pied de page.
-   2. Bouton « Imprimer le flyer » : seulement le flyer A4.
+   1. Impression de la page : sans barre ni pied de page.
+   2. Bouton « Imprimer le flyer » : uniquement le flyer A4.
    ========================================================= */
 @media print {
-  @page { size: A4; margin: 15mm; }
-
-  body {
-    background: #fff;
-    color: #000;
-    font-size: 12pt;
-  }
-  .barre-tel,
-  .pied,
-  .lien-evitement,
-  .actions,
-  .bouton,
-  .portrait__cadre { display: none !important; }
-  .section { border: 0; padding: 0.75rem 0; }
+  @page { size: A4; margin: 14mm; }
+  body { background: #fff; color: #000; font-size: 12pt; }
+  .barre, .pied, .lien-evitement, .actions, .bouton, .portrait { display: none !important; }
+  .section { padding: 0.75rem 0; border: 0; }
+  .section.engagements, .section.contact { background: #fff; color: #000; }
+  .engagements h2, .engagements .chapeau, .signature__lieu, .signature__role { color: #000; }
   a { color: #000; }
   details > p { display: block; }
 
-  /* Mode flyer : on masque tout sauf le flyer */
   html.impression-flyer body > *:not(.flyer) { display: none !important; }
   html.impression-flyer .flyer {
     display: block;
-    font-size: 13pt;
+    font-size: 12.5pt;
     line-height: 1.45;
     color: #000;
   }
 }
 
-/* Mise en forme du flyer (appliquée à l'impression) */
+/* Mise en forme du flyer (appliquée seulement à l'impression) */
+.flyer__entete {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 12pt;
+  border-bottom: 3pt solid #141c2b;
+  padding-bottom: 8pt;
+  margin-bottom: 10pt;
+}
 .flyer__titre {
   font-family: var(--serif);
   font-weight: 600;
-  font-size: 28pt;
-  line-height: 1.1;
-  margin: 0 0 4pt;
-}
-.flyer__accroche { font-size: 15pt; margin: 0 0 14pt; }
-.flyer__bloc {
-  border-top: 1.5pt solid #1f4d3a;
-  padding-top: 8pt;
-  margin-top: 12pt;
-}
-.flyer h2 { font-size: 16pt; margin: 0 0 6pt; }
-.flyer ul { margin: 0; padding-left: 14pt; }
-.flyer li { margin-bottom: 3pt; }
-.flyer__colonnes {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16pt;
-}
-.flyer__tel {
-  font-family: var(--serif);
-  font-weight: 600;
   font-size: 30pt;
-  margin: 4pt 0;
+  line-height: 1;
+  margin: 0;
 }
-.flyer__pied {
+.flyer__pour {
+  margin: 0;
+  font-size: 9.5pt;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #1d3c74;
+  text-align: right;
+}
+.flyer__accroche { font-family: var(--serif); font-style: italic; font-size: 15pt; margin: 0 0 6pt; }
+.flyer__bloc { border-top: 1pt solid #141c2b; padding-top: 7pt; margin-top: 11pt; }
+.flyer h2 { font-size: 14pt; margin: 0 0 5pt; color: #1d3c74; }
+.flyer ul { margin: 0; padding-left: 14pt; }
+.flyer li { margin-bottom: 2.5pt; }
+.flyer__colonnes { display: grid; grid-template-columns: 1fr 1fr; gap: 16pt; }
+.flyer__appel {
   margin-top: 14pt;
-  font-size: 10pt;
-  border-top: 0.5pt solid #000;
-  padding-top: 6pt;
+  border: 2pt solid #141c2b;
+  padding: 10pt 14pt;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12pt;
 }
+.flyer__appel p { margin: 0; }
+.flyer__tel { font-family: var(--serif); font-weight: 600; font-size: 28pt; }
+.flyer__pied { margin-top: 12pt; font-size: 9.5pt; }

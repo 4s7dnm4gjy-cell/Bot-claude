@@ -8,7 +8,7 @@
   <link rel="canonical" href="https://[DOMAINE]/">
   <link rel="preload" href="fonts/atkinson-hyperlegible-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/style.css">
-  <meta name="theme-color" content="#faf6ee">
+  <meta name="theme-color" content="#f6f2e9">
 
   <!-- Données structurées : aucune note ni aucun avis, volontairement -->
   <script type="application/ld+json">
@@ -39,11 +39,11 @@
 <body>
   <a class="lien-evitement" href="#contenu">Aller au contenu</a>
 
-  <!-- Barre fixe en haut sur mobile : le téléphone toujours à portée -->
-  <div class="barre-tel">
-    <div class="colonne">
-      <a class="barre-tel__nom" href="#haut">Papiers en Paix</a>
-      <a class="barre-tel__appel" href="tel:[TELEPHONE_INTERNATIONAL]">Appeler&nbsp;: [TÉLÉPHONE]</a>
+  <!-- Barre du haut : le nom et le téléphone, fixée en haut sur mobile -->
+  <div class="barre">
+    <div class="conteneur">
+      <a class="marque" href="#haut"><span class="marque__sceau" aria-hidden="true">Pp</span>Papiers en Paix</a>
+      <a class="barre__appel" href="tel:[TELEPHONE_INTERNATIONAL]"><span class="barre__appel-mot">Appeler&nbsp;:&nbsp;</span>[TÉLÉPHONE]</a>
     </div>
   </div>
 
@@ -51,98 +51,154 @@
 
     <!-- 1. En-tête -->
     <header class="entete" id="haut">
-      <div class="colonne">
-        <p class="entete__surtitre">Aide administrative à domicile, à [COMMUNE] et alentours</p>
-        <h1>Vos papiers en ordre, sans vous presser.</h1>
-        <p class="entete__accroche">Je m'appelle Enzo. Je viens chez vous pour trier le courrier, suivre les factures de santé et les remboursements de la mutuelle. On avance ensemble, à votre rythme.</p>
-        <a class="bouton bouton--grand" href="tel:[TELEPHONE_INTERNATIONAL]">
-          <span>Appeler Enzo<small>[TÉLÉPHONE]</small></span>
-        </a>
-        <p class="entete__infos">Le mercredi après-midi et le samedi matin. 30&nbsp;€ de l'heure, sans engagement.</p>
+      <div class="conteneur entete__grille">
+        <div>
+          <p class="entete__surtitre">Aide administrative à domicile · [COMMUNE]</p>
+          <h1>Vos papiers en ordre, <em>sans vous presser.</em></h1>
+          <p class="entete__accroche">Je m'appelle Enzo. Je viens chez vous pour trier le courrier, suivre les factures de santé et les remboursements de la mutuelle. On avance ensemble, à votre rythme.</p>
+          <a class="bouton bouton--grand" href="tel:[TELEPHONE_INTERNATIONAL]">
+            Appeler Enzo
+            <span class="bouton__detail">[TÉLÉPHONE]</span>
+          </a>
+          <p class="entete__rassurance">Je ne demande jamais vos codes. Je ne garde aucune copie de vos papiers.</p>
+        </div>
+
+        <aside class="fiche" aria-labelledby="t-fiche">
+          <h2 class="fiche__titre" id="t-fiche">En bref</h2>
+          <dl>
+            <div class="fiche__ligne"><dt>Tarif</dt><dd>30&nbsp;€ de l'heure</dd></div>
+            <div class="fiche__ligne"><dt>Quand</dt><dd>Mercredi après-midi et samedi matin</dd></div>
+            <div class="fiche__ligne"><dt>Où</dt><dd>[COMMUNE] et communes voisines</dd></div>
+            <div class="fiche__ligne"><dt>Engagement</dt><dd>Aucun. Facture à chaque visite.</dd></div>
+          </dl>
+        </aside>
       </div>
     </header>
 
     <!-- 2. Le problème -->
     <section class="section" aria-labelledby="t-probleme">
-      <div class="colonne">
-        <h2 id="t-probleme">Quand les papiers s'accumulent</h2>
-        <p>Après un séjour à l'hôpital, les factures et les attestations arrivent de partout. La mutuelle ne rembourse pas, et on ne sait plus ce qui manque. Peu à peu, on n'ose plus ouvrir le courrier.</p>
+      <div class="conteneur">
+        <p class="etiquette"><span class="etiquette__num">01</span> Le problème</p>
+        <h2 id="t-probleme" class="lecture">Quand les papiers s'accumulent</h2>
+        <p class="citation lecture">Après un séjour à l'hôpital, les factures arrivent de partout. La mutuelle ne rembourse pas, et on ne sait plus ce qui manque. <em>Peu à peu, on n'ose plus ouvrir le courrier.</em></p>
       </div>
     </section>
 
     <!-- 3. Ce que je fais -->
     <section class="section" aria-labelledby="t-fais">
-      <div class="colonne">
+      <div class="conteneur">
+        <p class="etiquette"><span class="etiquette__num">02</span> Mes services</p>
         <h2 id="t-fais">Ce que je fais</h2>
-        <ul class="liste">
-          <li><strong>Trier et classer le courrier.</strong> On ouvre tout ensemble, on jette ce qui est inutile, on range le reste dans des classeurs clairs.</li>
-          <li><strong>Les factures d'hôpital et les attestations de soins.</strong> On vérifie ce qui est payé, ce qui reste à payer, et ce qui doit partir à la mutuelle.</li>
-          <li><strong>Le suivi des remboursements de la mutuelle.</strong> On envoie les documents qui manquent et on note ce qu'on attend.</li>
-          <li><strong>Les paiements en ligne sur tablette ou smartphone.</strong> Je vous montre comment faire, pas à pas. Vous tapez toujours vous-même vos codes.</li>
+        <ul class="services">
+          <li>
+            <h3>Le courrier</h3>
+            <p>On ouvre tout ensemble. On jette ce qui est inutile et on range le reste dans des classeurs clairs.</p>
+          </li>
+          <li>
+            <h3>Les factures d'hôpital</h3>
+            <p>Avec les attestations de soins, on vérifie ce qui est payé, ce qui reste à payer et ce qui doit partir à la mutuelle.</p>
+          </li>
+          <li>
+            <h3>La mutuelle</h3>
+            <p>On envoie les documents qui manquent et on note ce qu'on attend. On suit le dossier jusqu'au bout.</p>
+          </li>
+          <li>
+            <h3>Les paiements en ligne</h3>
+            <p>Sur tablette ou smartphone, je vous montre comment faire, pas à pas.</p>
+            <span class="services__note">Vous tapez toujours vous-même vos codes.</span>
+          </li>
         </ul>
       </div>
     </section>
 
     <!-- 4. Ce que je ne fais pas -->
     <section class="section" aria-labelledby="t-fais-pas">
-      <div class="colonne">
+      <div class="conteneur">
+        <p class="etiquette"><span class="etiquette__num">03</span> En toute honnêteté</p>
         <h2 id="t-fais-pas">Ce que je ne fais pas</h2>
-        <p>Je préfère être clair dès le départ.</p>
-        <ul class="liste liste--non">
-          <li>La déclaration d'impôts.</li>
-          <li>Les successions.</li>
-          <li>Les litiges et les conflits.</li>
-          <li>Les soins.</li>
-          <li>L'aide ménagère.</li>
-        </ul>
-        <p>Pour les impôts, les successions et les litiges, je vous dirai vers quel professionnel vous tourner&nbsp;: comptable, notaire, avocat ou service social.</p>
+        <p class="chapeau lecture">Je préfère être clair dès le départ. Pour ces sujets, je vous dis vers qui vous tourner.</p>
+        <table class="renvoi lecture">
+          <thead>
+            <tr><th scope="col">Je ne fais pas</th><th scope="col">Adressez-vous plutôt à</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">La déclaration d'impôts</th><td>un comptable, ou le SPF Finances</td></tr>
+            <tr><th scope="row">Les successions</th><td>un notaire</td></tr>
+            <tr><th scope="row">Les litiges</th><td>un avocat, ou un service d'aide juridique</td></tr>
+            <tr><th scope="row">Les soins</th><td>votre médecin ou votre infirmier</td></tr>
+            <tr><th scope="row">L'aide ménagère</th><td>le CPAS ou un service d'aide familiale</td></tr>
+          </tbody>
+        </table>
       </div>
     </section>
 
     <!-- 5. Comment ça se passe -->
     <section class="section" aria-labelledby="t-comment">
-      <div class="colonne">
+      <div class="conteneur">
+        <p class="etiquette"><span class="etiquette__num">04</span> En pratique</p>
         <h2 id="t-comment">Comment ça se passe</h2>
         <ol class="etapes">
-          <li><p><strong>Vous appelez.</strong> On parle quelques minutes de votre situation et on fixe un rendez-vous.</p></li>
-          <li><p><strong>Je viens chez vous.</strong> On fait le point ensemble, à la table de la cuisine, sans rien emporter.</p></li>
-          <li><p><strong>Vos papiers sont en ordre.</strong> Si besoin, on fixe la prochaine visite.</p></li>
+          <li>
+            <h3>Vous appelez</h3>
+            <p>On parle quelques minutes de votre situation et on fixe un rendez-vous.</p>
+          </li>
+          <li>
+            <h3>Je viens chez vous</h3>
+            <p>On fait le point ensemble, à votre table, sans rien emporter.</p>
+          </li>
+          <li>
+            <h3>Vos papiers sont en ordre</h3>
+            <p>Si besoin, on fixe la prochaine visite.</p>
+          </li>
         </ol>
       </div>
     </section>
 
     <!-- 6. Tarif -->
     <section class="section" aria-labelledby="t-tarif">
-      <div class="colonne">
+      <div class="conteneur">
+        <p class="etiquette"><span class="etiquette__num">05</span> Prix clair</p>
         <h2 id="t-tarif">Tarif</h2>
-        <div class="tarif">
+        <div class="lecture">
           <p class="tarif__prix">30&nbsp;€ <span>de l'heure</span></p>
-          <p>Une heure minimum par visite, puis 15&nbsp;€ par demi-heure entamée.</p>
+          <ul class="compte">
+            <li><span>Première heure (minimum par visite)</span><span class="compte__montant">30&nbsp;€</span></li>
+            <li><span>Chaque demi-heure commencée ensuite</span><span class="compte__montant">15&nbsp;€</span></li>
+            <li><span>Déplacement dans la zone</span><span class="compte__montant">inclus</span></li>
+            <li><span>Facture remise à chaque visite</span><span class="compte__montant">oui</span></li>
+          </ul>
+          <div class="exemple">
+            <p class="exemple__titre">Exemple&nbsp;: une visite d'1&nbsp;h&nbsp;20</p>
+            <ul class="compte">
+              <li><span>Première heure</span><span class="compte__montant">30&nbsp;€</span></li>
+              <li><span>20 minutes (une demi-heure commencée)</span><span class="compte__montant">15&nbsp;€</span></li>
+              <li class="compte__total"><strong>Total</strong><span class="compte__montant">45&nbsp;€</span></li>
+            </ul>
+          </div>
+          <p class="sans-engagement">Pas d'abonnement, pas d'engagement.</p>
         </div>
-        <ul class="liste">
-          <li>Le déplacement est inclus dans la zone.</li>
-          <li>Une facture vous est remise à chaque visite.</li>
-          <li>Pas d'abonnement, pas d'engagement.</li>
-        </ul>
-        <p>Exemple&nbsp;: une visite d'1&nbsp;h&nbsp;20 coûte 45&nbsp;€ (30&nbsp;€ pour la première heure, 15&nbsp;€ pour la demi-heure commencée).</p>
       </div>
     </section>
 
     <!-- 7. Mes engagements -->
-    <section class="section" aria-labelledby="t-engagements" id="engagements">
-      <div class="colonne">
-        <div class="engagements">
+    <section class="section engagements" aria-labelledby="t-engagements" id="engagements">
+      <div class="conteneur">
+        <p class="etiquette"><span class="etiquette__num">06</span> Par écrit</p>
+        <div class="lecture">
           <h2 id="t-engagements">Mes engagements</h2>
-          <p class="engagements__intro">Vous m'ouvrez votre porte et vos papiers. Voici ce que je vous promets, par écrit.</p>
-          <ol>
+          <p class="chapeau">Vous m'ouvrez votre porte et vos papiers. Voici ce que je vous promets.</p>
+          <ol class="articles">
             <li>Je ne demande jamais vos codes bancaires ni vos mots de passe.</li>
             <li>Je ne prends aucune procuration et je ne touche jamais à l'argent liquide.</li>
             <li>Je ne garde aucune copie de vos documents et je ne les photographie pas.</li>
             <li>Tout ce que je vois chez vous reste confidentiel.</li>
           </ol>
           <div class="signature">
-            <p class="signature__nom">Enzo</p>
-            <p class="signature__role">Papiers en Paix, [COMMUNE]</p>
+            <p class="signature__lieu">Fait à [COMMUNE]</p>
+            <div class="signature__bloc">
+              <p class="signature__nom">Enzo</p>
+              <p class="signature__role">Papiers en Paix</p>
+            </div>
           </div>
         </div>
       </div>
@@ -150,15 +206,17 @@
 
     <!-- 8. Qui suis-je -->
     <section class="section" aria-labelledby="t-qui">
-      <div class="colonne">
+      <div class="conteneur">
+        <p class="etiquette"><span class="etiquette__num">07</span> Votre interlocuteur</p>
         <h2 id="t-qui">Qui suis-je&nbsp;?</h2>
         <div class="qui">
           <figure class="portrait">
             <!-- Remplacer ce cadre par la vraie photo d'Enzo :
-                 <img src="img/enzo.jpg" alt="Enzo, souriant, assis à une table avec un classeur" width="480" height="600"> -->
+                 <img src="img/enzo.jpg" alt="Enzo, assis à une table avec un classeur" width="800" height="1000"> -->
             <div class="portrait__cadre" role="img" aria-label="Emplacement de la photo d'Enzo">Photo d'Enzo à venir</div>
+            <figcaption>Enzo, à [COMMUNE]</figcaption>
           </figure>
-          <div>
+          <div class="lecture">
             <p>Je m'appelle Enzo. J'habite à [COMMUNE] et j'étudie la comptabilité. Les chiffres et les papiers ne me font pas peur&nbsp;: c'est mon quotidien.</p>
             <p>J'ai vu autour de moi des personnes âgées perdues face à leur courrier, et des enfants inquiets parce qu'ils habitent loin. J'aime prendre le temps d'expliquer, et laisser chacun décider pour ses propres affaires.</p>
           </div>
@@ -170,7 +228,8 @@
          Pour l'afficher, retirer l'attribut « hidden » et écrire de vrais témoignages,
          avec l'accord écrit de chaque personne. -->
     <section class="section" aria-labelledby="t-temoignages" hidden>
-      <div class="colonne">
+      <div class="conteneur">
+        <p class="etiquette"><span class="etiquette__num">—</span> Témoignages</p>
         <h2 id="t-temoignages">Ils m'ont fait confiance</h2>
         <!-- Exemple de structure :
         <blockquote>
@@ -183,78 +242,84 @@
 
     <!-- 9. Pour les professionnels -->
     <section class="section" aria-labelledby="t-pros" id="professionnels">
-      <div class="colonne">
+      <div class="conteneur">
+        <p class="etiquette"><span class="etiquette__num">08</span> Professionnels</p>
         <h2 id="t-pros">Pour les professionnels de santé et du social</h2>
-        <p>Infirmiers et kinés à domicile, assistants sociaux d'hôpital ou du CPAS, pharmaciens&nbsp;: vous voyez souvent des patients dépassés par leurs papiers. Vous pouvez leur parler de moi.</p>
-        <div class="encadre">
-          <p><strong>Comment me recommander&nbsp;:</strong></p>
-          <ul>
+        <div class="pros lecture">
+          <p>Infirmiers et kinés à domicile, assistants sociaux d'hôpital ou du CPAS, pharmaciens&nbsp;: vous voyez souvent des patients dépassés par leurs papiers. Vous pouvez leur parler de moi.</p>
+          <h3>Comment me recommander</h3>
+          <ol class="pros__liste">
             <li>Donnez mon numéro au patient ou à sa famille.</li>
             <li>Ou, avec l'accord du patient, appelez-moi vous-même pour fixer une première visite.</li>
-            <li>Imprimez le flyer ci-dessous et laissez-le au domicile ou dans votre salle d'attente.</li>
-          </ul>
-          <p>Je ne fais ni soins, ni démarches juridiques ou fiscales. Je ne demande aucune information médicale&nbsp;: je trie et je suis les papiers que la personne me montre, chez elle.</p>
-        </div>
-        <div class="actions">
-          <button type="button" class="bouton" id="imprimer-flyer">Imprimer le flyer (A4)</button>
-          <a class="bouton bouton--secondaire" href="tel:[TELEPHONE_INTERNATIONAL]">Appeler&nbsp;: [TÉLÉPHONE]</a>
+            <li>Imprimez le flyer et laissez-le au domicile ou dans votre salle d'attente.</li>
+          </ol>
+          <p class="pros__note">Je ne fais ni soins, ni démarches juridiques ou fiscales. Je ne demande aucune information médicale&nbsp;: je trie et je suis les papiers que la personne me montre, chez elle.</p>
+          <div class="actions">
+            <button type="button" class="bouton" id="imprimer-flyer">Imprimer le flyer (A4)</button>
+            <a class="bouton bouton--contour" href="tel:[TELEPHONE_INTERNATIONAL]">Appeler&nbsp;: [TÉLÉPHONE]</a>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- 10. Questions fréquentes -->
-    <section class="section" aria-labelledby="t-faq">
-      <div class="colonne">
+    <section class="section faq" aria-labelledby="t-faq">
+      <div class="conteneur">
+        <p class="etiquette"><span class="etiquette__num">09</span> Vos questions</p>
         <h2 id="t-faq">Questions fréquentes</h2>
-
-        <details>
-          <summary>Est-ce que ma mère doit savoir utiliser une tablette&nbsp;?</summary>
-          <p>Non. La plupart de mon travail se fait sur papier. Si elle veut apprendre à payer en ligne, je lui montre doucement, autant de fois qu'il le faut. Sinon, on fait autrement.</p>
-        </details>
-
-        <details>
-          <summary>Comment se passe le paiement&nbsp;?</summary>
-          <p>Je vous remets une facture à la fin de chaque visite. Vous la payez par virement. Je n'accepte pas d'argent liquide, et je ne fais jamais le virement à votre place.</p>
-        </details>
-
-        <details>
-          <summary>Que se passe-t-il si vous êtes en examens&nbsp;?</summary>
-          <p>Pendant mes sessions d'examens, j'ai moins de disponibilités. Je vous préviens plusieurs semaines à l'avance, et on choisit ensemble une date avant ou après.</p>
-        </details>
-
-        <details>
-          <summary>Venez-vous dans ma commune&nbsp;?</summary>
-          <p>Je me déplace à [COMMUNE] et dans les communes voisines, jusqu'à 15&nbsp;minutes de trajet. Le déplacement est compris dans le prix. En cas de doute, appelez-moi&nbsp;: je vous réponds tout de suite.</p>
-        </details>
-
-        <details>
-          <summary>J'habite loin de mon parent. Puis-je organiser les visites pour lui&nbsp;?</summary>
-          <p>Oui. Vous pouvez m'appeler pour fixer un rendez-vous. Votre parent doit être d'accord et présent pendant la visite. Ce que je vois reste confidentiel&nbsp;: je ne vous raconte que ce qu'il m'autorise à vous dire.</p>
-        </details>
-
-        <details>
-          <summary>Pouvez-vous garantir que la mutuelle va rembourser&nbsp;?</summary>
-          <p>Non, et personne ne peut le garantir. Ce que je fais, c'est vérifier que les bons documents sont envoyés, et suivre le dossier avec vous.</p>
-        </details>
+        <div class="lecture">
+          <details>
+            <summary>Est-ce que ma mère doit savoir utiliser une tablette&nbsp;?</summary>
+            <p>Non. La plupart de mon travail se fait sur papier. Si elle veut apprendre à payer en ligne, je lui montre doucement, autant de fois qu'il le faut. Sinon, on fait autrement.</p>
+          </details>
+          <details>
+            <summary>Comment se passe le paiement&nbsp;?</summary>
+            <p>Je vous remets une facture à la fin de chaque visite. Vous la payez par virement. Je n'accepte pas d'argent liquide, et je ne fais jamais le virement à votre place.</p>
+          </details>
+          <details>
+            <summary>Que se passe-t-il si vous êtes en examens&nbsp;?</summary>
+            <p>Pendant mes sessions d'examens, j'ai moins de disponibilités. Je vous préviens plusieurs semaines à l'avance, et on choisit ensemble une date avant ou après.</p>
+          </details>
+          <details>
+            <summary>Venez-vous dans ma commune&nbsp;?</summary>
+            <p>Je me déplace à [COMMUNE] et dans les communes voisines, jusqu'à 15&nbsp;minutes de trajet. Le déplacement est compris dans le prix. En cas de doute, appelez-moi&nbsp;: je vous réponds tout de suite.</p>
+          </details>
+          <details>
+            <summary>J'habite loin de mon parent. Puis-je organiser les visites pour lui&nbsp;?</summary>
+            <p>Oui. Vous pouvez m'appeler pour fixer un rendez-vous. Votre parent doit être d'accord et présent pendant la visite. Ce que je vois reste confidentiel&nbsp;: je ne vous raconte que ce qu'il m'autorise à vous dire.</p>
+          </details>
+          <details>
+            <summary>Pouvez-vous garantir que la mutuelle va rembourser&nbsp;?</summary>
+            <p>Non, et personne ne peut le garantir. Ce que je fais, c'est vérifier que les bons documents sont envoyés, et suivre le dossier avec vous.</p>
+          </details>
+        </div>
       </div>
     </section>
 
     <!-- 11. Contact -->
     <section class="section contact" aria-labelledby="t-contact" id="contact">
-      <div class="colonne">
-        <h2 id="t-contact">Me contacter</h2>
-        <p>Le plus simple, c'est le téléphone.</p>
-        <a class="contact__tel" href="tel:[TELEPHONE_INTERNATIONAL]">[TÉLÉPHONE]</a>
-        <p>Si je ne réponds pas, laissez un message avec votre nom et votre numéro. Je vous rappelle le jour même ou le lendemain.</p>
-        <dl>
-          <dt>E-mail</dt>
-          <dd><a href="mailto:[EMAIL]">[EMAIL]</a></dd>
-          <dd>N'envoyez aucun document ni information médicale par e-mail. On regarde vos papiers ensemble, chez vous.</dd>
-          <dt>Zone</dt>
-          <dd>[COMMUNE] et les communes voisines, jusqu'à 15&nbsp;minutes de trajet.</dd>
-          <dt>Disponibilités</dt>
-          <dd>Le mercredi après-midi et le samedi matin.</dd>
-        </dl>
+      <div class="conteneur">
+        <p class="etiquette"><span class="etiquette__num">10</span> Contact</p>
+        <h2 id="t-contact">Appelez-moi, tout simplement</h2>
+        <div>
+          <a class="contact__tel" href="tel:[TELEPHONE_INTERNATIONAL]">[TÉLÉPHONE]</a>
+          <p class="lecture">Si je ne réponds pas, laissez un message avec votre nom et votre numéro. Je vous rappelle le jour même ou le lendemain.</p>
+          <dl class="contact__infos">
+            <div>
+              <dt>E-mail</dt>
+              <dd><a href="mailto:[EMAIL]">[EMAIL]</a></dd>
+            </div>
+            <div>
+              <dt>Zone</dt>
+              <dd>[COMMUNE] et communes voisines, 15&nbsp;minutes de trajet au plus.</dd>
+            </div>
+            <div>
+              <dt>Disponibilités</dt>
+              <dd>Mercredi après-midi et samedi matin.</dd>
+            </div>
+          </dl>
+          <p class="avertissement lecture">N'envoyez aucun document ni information médicale par e-mail. On regarde vos papiers ensemble, chez vous.</p>
+        </div>
       </div>
     </section>
 
@@ -262,9 +327,11 @@
 
   <!-- 12. Pied de page -->
   <footer class="pied">
-    <div class="colonne">
-      <p><strong>Papiers en Paix</strong>, Enzo [NOM DE FAMILLE], [COMMUNE]<br>
-      Numéro d'entreprise&nbsp;: [NUMÉRO BCE]</p>
+    <div class="conteneur">
+      <div>
+        <p class="pied__marque">Papiers en Paix</p>
+        <p>Enzo [NOM DE FAMILLE], [COMMUNE]<br>Numéro d'entreprise&nbsp;: [NUMÉRO BCE]</p>
+      </div>
       <ul>
         <li><a href="mentions-legales.html">Mentions légales</a></li>
         <li><a href="confidentialite.html">Politique de confidentialité</a></li>
@@ -274,28 +341,29 @@
 
   <!-- Flyer A4 pour les professionnels : visible uniquement à l'impression -->
   <div class="flyer" aria-hidden="true">
-    <p class="flyer__titre">Papiers en Paix</p>
+    <div class="flyer__entete">
+      <p class="flyer__titre">Papiers en Paix</p>
+      <p class="flyer__pour">À l'attention des professionnels<br>de santé et du social</p>
+    </div>
     <p class="flyer__accroche">Aide administrative à domicile pour les seniors, à [COMMUNE] et dans les communes voisines.</p>
 
-    <div class="flyer__bloc">
-      <div class="flyer__colonnes">
-        <div>
-          <h2>Ce que je fais</h2>
-          <ul>
-            <li>Tri et classement du courrier</li>
-            <li>Factures d'hôpital et attestations de soins</li>
-            <li>Suivi des remboursements de la mutuelle</li>
-            <li>Aide aux paiements en ligne (la personne tape toujours elle-même ses codes)</li>
-          </ul>
-        </div>
-        <div>
-          <h2>Ce que je ne fais pas</h2>
-          <ul>
-            <li>Impôts, successions, litiges (je renvoie vers un professionnel)</li>
-            <li>Soins</li>
-            <li>Aide ménagère</li>
-          </ul>
-        </div>
+    <div class="flyer__bloc flyer__colonnes">
+      <div>
+        <h2>Ce que je fais</h2>
+        <ul>
+          <li>Tri et classement du courrier</li>
+          <li>Factures d'hôpital et attestations de soins</li>
+          <li>Suivi des remboursements de la mutuelle</li>
+          <li>Aide aux paiements en ligne (la personne tape toujours elle-même ses codes)</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Ce que je ne fais pas</h2>
+        <ul>
+          <li>Impôts, successions, litiges (je renvoie vers un professionnel)</li>
+          <li>Soins</li>
+          <li>Aide ménagère</li>
+        </ul>
       </div>
     </div>
 
@@ -309,23 +377,23 @@
       </ul>
     </div>
 
-    <div class="flyer__bloc">
-      <div class="flyer__colonnes">
-        <div>
-          <h2>Tarif</h2>
-          <p>30&nbsp;€ de l'heure, une heure minimum, puis 15&nbsp;€ par demi-heure entamée. Déplacement inclus. Facture à chaque visite. Sans abonnement ni engagement.</p>
-        </div>
-        <div>
-          <h2>Disponibilités</h2>
-          <p>Mercredi après-midi et samedi matin.<br>[COMMUNE] et communes voisines (15&nbsp;minutes maximum).</p>
-        </div>
+    <div class="flyer__bloc flyer__colonnes">
+      <div>
+        <h2>Tarif</h2>
+        <p>30&nbsp;€ de l'heure, une heure minimum, puis 15&nbsp;€ par demi-heure entamée. Déplacement inclus. Facture à chaque visite. Sans abonnement ni engagement.</p>
+      </div>
+      <div>
+        <h2>Disponibilités</h2>
+        <p>Mercredi après-midi et samedi matin.<br>[COMMUNE] et communes voisines (15&nbsp;minutes maximum).</p>
       </div>
     </div>
 
-    <div class="flyer__bloc">
-      <h2>Appelez Enzo</h2>
+    <div class="flyer__appel">
+      <div>
+        <p><strong>Appelez Enzo</strong></p>
+        <p>[EMAIL]</p>
+      </div>
       <p class="flyer__tel">[TÉLÉPHONE]</p>
-      <p>[EMAIL]</p>
     </div>
 
     <p class="flyer__pied">Enzo [NOM DE FAMILLE], étudiant en comptabilité. Numéro d'entreprise&nbsp;: [NUMÉRO BCE]. Site&nbsp;: [DOMAINE]</p>

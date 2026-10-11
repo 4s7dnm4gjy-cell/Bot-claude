@@ -72,7 +72,7 @@ La section des témoignages existe déjà, mais elle est cachée. Quand vous aur
 
 Les couleurs sont regroupées en haut de `css/style.css`, dans le bloc `:root`. Si vous en changez une, vérifiez que le contraste reste fort sur <https://webaim.org/resources/contrastchecker/> (au moins 7:1 pour le texte).
 
-Contrastes actuels sur le fond crème : texte 16:1, texte secondaire 11:1, vert sapin 8,9:1, texte blanc sur bouton vert 9,6:1. Tous sont au niveau AAA.
+Contrastes actuels sur le fond ivoire : texte 15:1, texte secondaire 9:1, bleu encre 9,6:1, texte blanc sur bouton bleu 10,8:1. Sur le bandeau sombre des engagements : 11:1 au minimum. Tous sont au niveau AAA.
 
 ## 6. Le flyer pour les professionnels
 
@@ -110,4 +110,4 @@ Si vous ajoutez un outil de ce genre plus tard, il faudra mettre à jour la poli
 
 ## Licences
 
-Polices Atkinson Hyperlegible (Braille Institute) et Source Serif 4 (Adobe), sous licence SIL Open Font License 1.1. Les licences se trouvent dans le dossier `fonts/`.
+Polices Atkinson Hyperlegible (Braille Institute) et Literata (TypeTogether), sous licence SIL Open Font License 1.1. Les licences se trouvent dans le dossier `fonts/`.
