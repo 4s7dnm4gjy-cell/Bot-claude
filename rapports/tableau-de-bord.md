@@ -1,10 +1,10 @@
-# Tableau de bord — 08/10/2026
+# Tableau de bord — 09/10/2026
 
 ✅ Rien à faire aujourd'hui : le bot attend le meilleur moment.
 
-Score du moment : **25/100 — 🟠 marché plutôt cher**. iShares Core MSCI World est à -0.7% de son plus haut sur 1 an, +9.2% par rapport à sa moyenne 200 jours, RSI 63.
+Score du moment : **17/100 — 🔴 marché très cher (au plus haut)**. iShares Core MSCI World est à -0.1% de son plus haut sur 1 an, +9.6% par rapport à sa moyenne 200 jours, RSI 66.
 
-Historiquement (^GSPC depuis 1950), quand le score était dans la tranche 20-40 : **+9.1% en moyenne 12 mois plus tard**, positif dans 76% des cas (tous jours confondus : +9.3%, 74%).
+Historiquement (^GSPC depuis 1950), quand le score était dans la tranche 0-20 (cher) : **+11.1% en moyenne 12 mois plus tard**, positif dans 81% des cas (tous jours confondus : +9.3%, 74%).
 
 ![Marché](marche.png)
 
@@ -20,8 +20,8 @@ Apport mensuel : 200 € — proposé dès que le score atteint 60, au plus tard
 
 | Score | Jours | Rendement moyen à 3 mois | à 12 mois | Positif à 12 mois | Pire cas à 12 mois |
 |---|---:|---:|---:|---:|---:|
-| 0-20 (cher) | 2 691 | +2.0% | +11.1% | 81% | -37.1% |
-| **20-40 ← aujourd'hui** | 4 222 | +2.4% | +9.1% | 76% | -42.2% |
+| **0-20 (cher) ← aujourd'hui** | 2 691 | +2.0% | +11.1% | 81% | -37.1% |
+| 20-40 | 4 222 | +2.4% | +9.1% | 76% | -42.2% |
 | 40-60 | 4 363 | +2.6% | +8.7% | 74% | -44.7% |
 | 60-80 | 3 995 | +2.2% | +8.3% | 70% | -46.3% |
 | 80-100 (soldé) | 3 094 | +1.8% | +10.4% | 71% | -48.8% |
@@ -46,32 +46,31 @@ Apport mensuel : 200 € — proposé dès que le score atteint 60, au plus tard
 - ⭐ **Watsco** (action, chercher « Watsco ») — score **98/100**, -38% depuis son plus haut ; historiquement à ce niveau : +23% à 12 mois en moyenne, positif 75% des cas (moyenne du titre : +21%)
   - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -31% vs marché)
 - ⭐ **Bilfinger** (action, chercher « Bilfinger ») — score **98/100**, -56% depuis son plus haut ; historiquement à ce niveau : +26% à 12 mois en moyenne, positif 59% des cas (moyenne du titre : +18%)
-  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -38% vs marché)
+  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -39% vs marché)
 - ⭐ **Pan Pacific International Holdings Corp.** (action, chercher « Pan Pacific International Holdings Corp. ») — score **97/100**, -35% depuis son plus haut ; historiquement à ce niveau : +23% à 12 mois en moyenne, positif 74% des cas (moyenne du titre : +19%)
-  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -22% vs marché)
+  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -23% vs marché)
 - ⭐ **WSP Global Inc.** (action, chercher « WSP Global Inc. ») — score **97/100**, -42% depuis son plus haut ; historiquement à ce niveau : +39% à 12 mois en moyenne, positif 98% des cas (moyenne du titre : +22%)
-  - 📰 🟢 rien d'alarmant dans l'actualité (3 mois : -7% vs marché)
+  - 📰 🟢 rien d'alarmant dans l'actualité (3 mois : -8% vs marché)
 - ⭐ **Ferrovial** (action, chercher « Ferrovial ») — score **97/100**, -32% depuis son plus haut ; historiquement à ce niveau : +16% à 12 mois en moyenne, positif 76% des cas (moyenne du titre : +15%)
-  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -24% vs marché)
-    - ⚠️ [Ferrovial downgraded to Neutral from Overweight at JPMorgan - TipRanks](https://news.google.com/rss/articles/CBMirgFBVV95cUxOMXlDNUh6ZUs5OU1KSVpvVjduRGVKUWNHVWUzcTUwdzRVRmNKS2w5eHlmMFlJRENXN004NGtVVHdFY0lSVGl2YktRSmgxUGRIN2N6eklMWEJhN2NkR2JvbFVWbUY0NkItYWtyUDhLR3NyTmFmLXQ3bHpHbGNJOUFWclgwVE1VWTY0eXZKTTFhcHUxYzhLRlR4Q0xycXB4cHlYYzZkaloyV1FSdnhWYVE?oc=5) (downgraded)
+  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -24% vs marché)
 - ⭐ **Curtiss-Wright** (action, chercher « Curtiss-Wright ») — score **97/100**, -35% depuis son plus haut ; historiquement à ce niveau : +23% à 12 mois en moyenne, positif 78% des cas (moyenne du titre : +22%)
-  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, 5 article(s) à regarder (3 mois : -33% vs marché)
-    - ⚠️ [Curtiss-Wright CFO Christopher Farkas Steps Down - Yahoo Finance](https://news.google.com/rss/articles/CBMipAFBVV95cUxQdUlhUW5YbWxzWV9qQUNHVzMwVFB5bXk3TDdjbEZrYkh0STc5YUNVejZlUFc2bGx1MUxsNlBNdmhNbWRSY0szOVVKaUZlNUxKaDNLNFpMZnlFUDBvWlJmM0hoaUF3eHZGZUJqV0ZqaGduUVpvcWFjV0piX1VJdnNVRVExYnFvM0l1VTdvbzh0Rl8wc1B1RVlHLXBMVkxsVVIxT3J2OQ?oc=5) (steps down)
+  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, 4 article(s) à regarder (3 mois : -34% vs marché)
     - ⚠️ [Curtiss-Wright CFO steps down - TradingView](https://news.google.com/rss/articles/CBMilwFBVV95cUxQUjZJNUZSZmRYQU9mRkswQ0Z5NkJEREFWMUFjazMyVHJjZ0JHNWdNSFJ1ODNXUWoyNno4SUluUVlwZ0JDN2RkREoyN0J3UmtZRFVFdjRhVEJkSUdfRlZZRkI5ekt4RHZXVVIwNjhDa2U1eEJ2eEU4QV9ySmtnMzJvTjBnSXktOGhOM1UwWnNBMkM2UkhpaXZF?oc=5) (steps down)
     - ⚠️ [L’action Curtiss-Wright recule après la démission du directeur financier - Investing.com France](https://news.google.com/rss/articles/CBMixAFBVV95cUxOZ2IydHdmRGFCSUY4YTdrSVRKcU9YMThzclNOVXZSeFF0NV9mM3ZuTXRKOXE0ZTkxRV81Z2J5dzEwUmg3WTFidi15SmliUnBHVDRBNklFdjlONEJEUFBHQ09wWTh0OVJucTEwMkIwTzlOUmNhRXBSN0g3b0U1Ym52VHVnTThoX3JTX2Q1V3U2Y2Y3bHZMUUl5SWxnaXlNVjRISkxqNGRrQVc4eHFmdGdmblVQRG5jdXV0TlJaVVFUdG5wbEwx?oc=5) (demission)
+    - ⚠️ [Curtiss-Wright (NYSE:CW) Stock Drops 9% Today After CFO Steps Down - kalkine.ca](https://news.google.com/rss/articles/CBMingFBVV95cUxQU3BUbVZZY3RCVTA3Vk5vVWhTMkZySTBfTGtkdllaN25VRk9QcldJTk9Tdk0tTEhmYU5aZURSNWtYbHZOdk5FWUV6ZHVjU3dPNTdtdGVBVXBpVVEtVUR6UW1ZXzlHRXhMYUhrWEdPdUozUGpnWFV1bk9jVGhubFhKT0t1eTN5a29VYTI3VXIxNHpod1lBM09MSjVwaDI4QQ?oc=5) (steps down)
 - ⭐ **Northrop Grumman** (action, chercher « Northrop Grumman ») — score **96/100**, -37% depuis son plus haut ; historiquement à ce niveau : +18% à 12 mois en moyenne, positif 83% des cas (moyenne du titre : +17%)
-  - 📰 🟢 rien d'alarmant dans l'actualité (3 article(s) mineur(s), courant pour une grande entreprise) (3 mois : -13% vs marché)
+  - 📰 🟢 rien d'alarmant dans l'actualité (3 article(s) mineur(s), courant pour une grande entreprise) (3 mois : -14% vs marché)
+    - ⚠️ [RBC Just Downgraded Northrop Grumman Stock. Here's Why - Yahoo Finance](https://news.google.com/rss/articles/CBMiowFBVV95cUxPYm14RlF6ZE9kMjZmdW02clZPdFIyOGFwcENiNUttR0JRdmlyUjh0Yi05c2FNUGdJMUl6T0ZDQUNLS0dGdXZZRkNIZXpvZmFZbU5vb202a1NRZEx5dk5CMDl2N2tUbUNxa0NtclFBck1GQ0JWaHh6d09wOHNibVZPTWdXcXM1MGdBT1lmVk1vNjhISkpfTEtYNm9vSEZoSVlWQi1R?oc=5) (downgraded)
     - ⚠️ [Northrop Grumman downgraded at RBC on lower growth outlook; Arxis upgraded (NOC:NYSE) - Seeking Alpha](https://news.google.com/rss/articles/CBMisAFBVV95cUxNSXVSSEF0SWgwUWM1SlEtYUZkOGgydVpaT2tTVmM2Qk9FWVprX3ByY0MwYzJ1amFOejNpcjk3YVFvV1g3VDhMRFhiNDdHb2ZrN295S2V0eGNtWkJmZktMWUk2RGNJSGI5Z1VfZkNjSDBxUnpxOGc0UTViOGhPb2VoWklMbVA5Nmg4VTJmdHowMWJRU3NJWVVqZ29SUHdhanltSmdaMC1WMk9JUVZsOXNPXw?oc=5) (downgraded)
-    - ⚠️ [RBC Just Downgraded Northrop Grumman Stock. Here's Why - Barchart.com](https://news.google.com/rss/articles/CBMingFBVV95cUxPUjI0Vms5ME9VVl9jTTZfbnVweEtTU0dlaDBhbThCQ1lOVlJGcFF0R09ma0tyZnBuOVNDamtKanpiUGVHRmhVX0ZKRkh1MXFzX0RoVW5ybThXa2tJV3ZkNFFON0U1X2pLX0Y5LW5vZkJubjVHb0hIem51NVdOLUs2ZUYxNnJJYlZNYWJ1YUsxRzVSaTVqMHZRbkc3Rll1Zw?oc=5) (downgraded)
     - ⚠️ [Northrop Grumman Downgraded To ‘Sector Perform’ – RBC Says 6% Sales Growth From 2026 Through 2028 Could Be Best-Case Scenario - Stocktwits](https://news.google.com/rss/articles/CBMikgJBVV95cUxPNFhkZGhMU3BWX09qLTRVRjlnMEZXSlR3eVM2ZU1rNUZxRHNDX3U3MGFJRl9oeEdGSGNIeHUzcVZ5QzRmV1ZwV3luSTRuV3V0a3Y1a3lPQjBFTndNVnpTRkdfOW1VSVJvQ0hvdHRrNnNxREJFTWxIZHBtTVhTQ1lvN2xzRjNVUk8yQWZMU1RaczBjUDVuMDh4MkR3UVlLMXg5dTN5UEFHTEdNbkxvVkpMS1FHWWdaSGdUN25Md2xGaU1wWndfczRsMHQ0Y0dBTkNzaWF1cGNEYTl1aWx2XzhZN2ZybkxZV2Q5UkhGaUdNR09GTWdlU3FYRXZMejZvRFo3MC0xYk1KRUlFaWRPXzgxak1B?oc=5) (downgraded)
 - ⭐ **Patrick Industries, Inc.** (action, chercher « Patrick Industries, Inc. ») — score **96/100**, -56% depuis son plus haut ; historiquement à ce niveau : +79% à 12 mois en moyenne, positif 66% des cas (moyenne du titre : +51%)
-  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -26% vs marché)
+  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -27% vs marché)
 - ⭐ **Four Corners Property Trust, Inc.** (action, chercher « Four Corners Property Trust, Inc. ») — score **96/100**, -18% depuis son plus haut ; historiquement à ce niveau : +17% à 12 mois en moyenne, positif 72% des cas (moyenne du titre : +5%)
-  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -16% vs marché)
+  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -17% vs marché)
 - ⭐ **CRH plc** (action, chercher « CRH plc ») — score **96/100**, -37% depuis son plus haut ; historiquement à ce niveau : +22% à 12 mois en moyenne, positif 75% des cas (moyenne du titre : +16%)
   - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -23% vs marché)
 - ⭐ **Emera Incorporated** (action, chercher « Emera Incorporated ») — score **96/100**, -15% depuis son plus haut ; historiquement à ce niveau : +19% à 12 mois en moyenne, positif 91% des cas (moyenne du titre : +13%)
-  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -15% vs marché)
+  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -16% vs marché)
     - ⚠️ [Canadian Investment Regulatory Organization Trading Halt - IVQ - Yahoo! Finance Canada](https://news.google.com/rss/articles/CBMiogFBVV95cUxPR0ZVWlpEeWdZZ3BaRmtZNmxFMGZMZThndElpV0l4Tm1LN01haDBMVEw5NGlsb2RvMmVQUXp3N09vNERONHZyelZVTTUxZW5yQk9HQkdfejJSSzdnaHlSUEd1SGt4VmtueTJ1aHdWd3padngxSDZGNDNYS1pqVTEweW5vbG5CMWJIVFZBNFRvVXZWYjlGTmZQc2Q5ZlpqdTlTT1E?oc=5) (trading halt)
 - ⭐ **Installed Building Products, Inc.** (action, chercher « Installed Building Products, Inc. ») — score **95/100**, -45% depuis son plus haut ; historiquement à ce niveau : +50% à 12 mois en moyenne, positif 77% des cas (moyenne du titre : +30%)
   - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -19% vs marché)
