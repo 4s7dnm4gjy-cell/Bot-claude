@@ -15,26 +15,23 @@ Il est fait en HTML et en CSS, sans outil compliqué. Pour le voir, il suffit d'
 | `fonts/` | Les polices, hébergées sur le site (aucun service externe) |
 | `img/` | Ici, la photo d'Enzo |
 
-## 1. À remplir avant de publier
+## 1. Ce qui reste à remplir
 
-Les informations entre crochets sont à remplacer. Dans un éditeur de texte (VS Code, Notepad++…), utilisez **Rechercher et remplacer dans tous les fichiers** :
+Les coordonnées d'Enzo sont déjà en place (Colfontaine, 0495 62 09 10, e-mail, adresse, hébergeur Vercel). Il reste :
 
 | À chercher | Remplacer par | Exemple |
 |---|---|---|
-| `[COMMUNE]` | La commune d'Enzo | `Namur` |
-| `[TÉLÉPHONE]` | Le numéro, tel qu'on le lit | `0470 12 34 56` |
-| `[TELEPHONE_INTERNATIONAL]` | Le même numéro, sans espaces, avec +32 et sans le 0 | `+32470123456` |
-| `[EMAIL]` | L'adresse e-mail | `enzo@exemple.be` |
-| `[NUMÉRO BCE]` | Le numéro d'entreprise | `BE 0123.456.789` |
-| `[NOM DE FAMILLE]` | Le nom de famille d'Enzo | |
-| `[ADRESSE]` | L'adresse complète (mentions légales et confidentialité) | |
-| `[HÉBERGEUR]` et `[ADRESSE DE L'HÉBERGEUR]` | Voir plus bas | |
-| `[DOMAINE]` | L'adresse du site, sans `https://` | `papiersenpaix.be` |
-| `[DATE]` | La date de mise à jour de la politique de confidentialité | `12 octobre 2026` |
+| `[NUMÉRO BCE]` | Le numéro d'entreprise, dès qu'il est attribué | `BE 0123.456.789` |
 
-**Important :** le lien d'appel (`[TELEPHONE_INTERNATIONAL]`) doit être écrit sans espaces, sinon le bouton « Appeler » ne fonctionnera pas sur tous les téléphones.
+Dans un éditeur de texte (VS Code, Notepad++…), utilisez **Rechercher et remplacer dans tous les fichiers**. Pour vérifier qu'il ne reste rien, cherchez `[` dans les fichiers `.html`.
 
-Pour vérifier qu'il ne reste rien, cherchez `[` dans tous les fichiers.
+**Quand vous aurez un nom de domaine** (par exemple `papiersenpaix.be`) :
+
+- dans `index.html`, sous la ligne `<meta name="description" …>`, ajoutez : `<link rel="canonical" href="https://papiersenpaix.be/">` ;
+- dans le bloc `application/ld+json`, sous la ligne `"name"`, ajoutez : `"url": "https://papiersenpaix.be/",` ;
+- dans le flyer (en bas de `index.html`), ajoutez l'adresse du site à la dernière ligne.
+
+**Pour changer le numéro de téléphone** plus tard, il apparaît sous deux formes : `0495&nbsp;62&nbsp;09&nbsp;10` (le texte affiché) et `+32495620910` (le lien d'appel, toujours sans espaces). Remplacez les deux.
 
 **Le nom** « Papiers en Paix » est provisoire. Pour le changer, remplacez `Papiers en Paix` partout.
 
