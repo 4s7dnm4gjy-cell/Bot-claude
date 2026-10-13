@@ -18,102 +18,103 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-13",
-    "cree_le": "2026-10-13T12:34+00:00",
-    "liberation": 88.60109836980024,
+    "cree_le": "2026-10-13T19:49+00:00",
+    "liberation": 96.9374479018204,
     "reserve_pct": null,
-    "score": 85.04501948313856,
+    "score": 85.88954856644611,
     "ordres": [
       {
-        "ticker": "RPM",
+        "ticker": "TTMI",
         "side": "buy",
         "quantity": 1.0,
-        "price": 87.60109836980024,
-        "reason": "opportunité radar (score 85)"
+        "price": 95.9374479018204,
+        "reason": "opportunité radar (score 86)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "RPM",
-      "nom": "RPM International",
-      "isin": "RPM",
+      "ticker": "TTMI",
+      "nom": "TTM Technologies",
+      "isin": "TTMI",
       "type": "action",
-      "prix": 97.77999877929688,
-      "score": 85.04501948313856,
-      "baisse": 0.17780955314241553,
-      "perf_5ans": 0.3494651456804536,
+      "prix": 107.08499908447266,
+      "score": 85.88954856644611,
+      "baisse": 0.5164807942645087,
+      "perf_5ans": 7.339953100615016,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.2573112878973706,
-      "pos_12m": 0.8361445783132531,
-      "n_12m": 830,
-      "base_moy_12m": 0.1471401996062584,
-      "pire_12m": -0.5331765152625979,
-      "vs_marche_3m": -0.0734888165496057,
+      "moy_12m": 0.6029705101965083,
+      "pos_12m": 0.8396946564885496,
+      "n_12m": 262,
+      "base_moy_12m": 0.2404733274459308,
+      "pire_12m": -0.36101086947665084,
+      "vs_marche_3m": -0.27780384236471645,
       "devise": "USD",
-      "prix_eur": 87.60109836980024,
-      "fondamental": 92.5,
+      "prix_eur": 95.9374479018204,
+      "fondamental": 91.0,
       "fondamental_notes": [
-        "chiffre d'affaires +4.8% sur un an",
-        "bénéfices +13.3% sur un an",
-        "bénéfices attendus +22% sur 12 mois",
-        "analystes : « achat fort » (1.3/5, 15 avis)",
-        "objectif moyen des analystes : +27%",
-        "P/E attendu 14.8 (actuel 18.1)",
-        "marge nette 9%",
-        "dette / capitaux propres 79 %"
+        "chiffre d'affaires +37.4% sur un an",
+        "bénéfices +92.5% sur un an",
+        "bénéfices attendus +217% sur 12 mois",
+        "analystes : « achat fort » (1.2/5, 5 avis)",
+        "objectif des analystes +95% : peu crédible, probablement pas encore révisé",
+        "P/E attendu 15.3 (actuel 48.6)",
+        "marge nette 7%",
+        "dette / capitaux propres 57 %",
+        "🏷️ braderie probable : -28% vs marché en 3 mois, alors que les bénéfices attendus montent (+217%) et que les analystes restent à l'achat (+8 pts)"
       ],
-      "score_global": 89.5,
-      "braderie": false
+      "score_global": 89.0,
+      "braderie": true
     },
     "actualites": {
-      "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -7% vs marché)",
-      "vs_marche_3m": -0.0734888165496057,
+      "verdict": "orange",
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -28% vs marché)",
+      "vs_marche_3m": -0.27780384236471645,
       "alertes": [],
       "recents": [
         {
-          "titre": "Barclays Initiates Coverage on RPM International With Equal Weight Rating, $107 Price Target - marketscreener.com",
-          "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZjg3Vk8xbXpwTjFncURnaGxXLWVFWGxnV1kzNFlWZWdZOUlLR0todGctUWt5cS1jQU1JNjlxY2Jwa29BcDJwVXBlWENqRXR2Sk51b0RPWE93Q0h2WHZoYXFEdXFPR2JDcUJMa1hQQnJEcEJaeE9ia1BlRWRLSmQ2WmJWOTdqMWg5VzJpN0pVeEZYTUxHbFljYWhQR3owMmFmM3ZTYzVXdGdCYmFsTHMtTzRHTFhQRFdjaExlMVZtaEZrT242SzlxNGhVUWRoRjB3UnFZQjVSc0lKekk?oc=5",
+          "titre": "TTM Technologies, Inc. : Truist Securities optimiste sur le dossier - Zonebourse",
+          "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR0luTVNmNS1HYS1pOWQ5LWhWSXhzRUN1cEljWS1jOTFNQW9TdlFsbFpJWHBwbGJ6TDllcFczaTE5djUxMXRySGZ1a3BhSGJQZmphVEtkVkxzU09nVGNzekdMLWp0ZTNGbzdnamZDOV8tNHpaaGp1STM2ZXZCRUc4TW5fTVgtYVRMa0RUYzJNQUVGRnV6UU95TDlpMnBuNkQ5QzNtUTNPYXRsUlJSNi1zYzdtWEFVbjdWLTRabUVQOVo3UQ?oc=5",
           "date": "2026-10-13",
-          "source": "marketscreener.com",
+          "source": "Zonebourse",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "International Markets and RPM International (RPM): A Deep Dive for Investors - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMVdmaTNWSzNxcU1oYVRFUG1NZlREMGo1TURiaDlrR2hwVUsycE9KcEIxVXp5emhrWm9odlB6NnpmNWt4MGJMRVluelVJdTdiZmZKZ3hEZWFKYUgzTmQ2S3hfWnRzODFiTEpLS1g2S3NCLUtYTlRBaWpBb3d2MzRNLWd6Rll6dDJTWnNaVkRhMmJuTDNoS3RHVUdpUDBmcmY0Z25VVzlGaGRzX1hY?oc=5",
-          "date": "2026-10-12",
-          "source": "Yahoo Finance",
+          "titre": "Truist relève son objectif de cours sur TTM Technologies - Investing.com France",
+          "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQX3MyRHduMjZmQ1VQSG5pZkZNNkFnNHBlSU4zOHdqV0hHVjZMWkhrZnluekN5NHBwMVNfcFJTNm53bGVDZVdRZDQ1RzdQc09XTklONGtTeEtGMERNeGYzN21aYlczdFRrMlRHYjRKdVZFOWk0eDA5SG5CaXZ6QXNpQnNqUWVicTM5S0FWSUpJT3dVQTVmdjdYSlVuVEM3UUNZUVZHdW4tdkdhZThSQ3VGWXhFbzdYZw?oc=5",
+          "date": "2026-10-13",
+          "source": "Investing.com France",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "RPM International (RPM) Receives a Buy from KeyBanc - The Globe and Mail",
-          "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORnc3UjZIZ0UyZjZKWExZZzBMWGVqcTRIYjdHN25wWjVvMkdndk13WG5zZjlKYVZCWnFtNnZZekFFTExzUEVRYmlsVG9YT09qYmVueHJybm1UbUgxR203ekZ0cXdCbGZUbEItR29iTU1aUnVGeWY4bmNnSlkyaVc5M2JrSHRwdWhReGtSbF9IUTkxaklnMENnb2N2UGhpbXpqSGV3TktxdVBtV3R4SDdCcTVRelBTZERTbER5UDRoNS1aeXZiTXZ6S3pvYl9Gdw?oc=5",
-          "date": "2026-10-10",
-          "source": "The Globe and Mail",
+          "titre": "Circuits imprimés : TTM injecte 400 M$ de plus pour satisfaire la demande liée à l’IA - VIPress.net",
+          "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLUx6MndZbjFwc3hzQjQ3dFc2UHVnNmNjREpPRXl5REZfWURNZzhkWC1sMThIZi1vRUVlS0xKclJ3bWRHNTd3cHk4a25Hc1VyLWdiWFpVeVZXaHY0V1ZyTE8wU0Z4a3NMZzZid0ZkMk50V0x5SlE1cjF0ekt0Y2NveHBJLUZ3SzZOaG80V3V6RW1FbHRlTGdDZ3NCTTVZZmtET0JiZg?oc=5",
+          "date": "2026-10-13",
+          "source": "VIPress.net",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "RPM International Inc. (RPM) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB0VUYwZ09qcllGVk1QSHNVd3I4V1h0bVh0bkozMXo0NXdUeGJMY0NSa2kteFpScGs2VEhxYlY1Y25hbTVoOGF1U1RzT0F1bktl?oc=5",
-          "date": "2026-10-09",
+          "titre": "TTM Technologies, Inc. (TTMI) stock price, news, quote and history - Yahoo Finance Australia",
+          "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5UUWlWWl9PZXFoSUlyaUsyRmFiVzNseldOTV9DaV81VHE2Wi1mVF9tUlcwcERuN041MmpBdklJREdSOFJjZmZZZWgyX3htaVFtU2c?oc=5",
+          "date": "2026-10-13",
+          "source": "Yahoo Finance Australia",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "TTM Technologies, Inc. (TTMI) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1VM0dPbjl0UVJKSUF4VmZPYkNsaWlENlM1ZzFWSmNrWi0tVUZ2V0EwOFR5TVA2VkFEcklTRE0xZTVibkVUQjdqbmNHcEliN3U0bGc?oc=5",
+          "date": "2026-10-13",
           "source": "Yahoo! Finance Canada",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "RPM International appoints Jeffrey Rowe to board of directors - Woodworking Network",
-          "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaEdYU0dzRW9VSlpXQWVUUUtlc3FrRXNpYWs3bXp4cWFwWDNWRGpSVmFvMWlyNjVObkt2c3RhYTk3SUxHMl9BdUpGdE5vcmVZblpqU29kd01lbnp2Qm1lcV8xcFlWRkM1Ukk1Z3lGdWdjZE5sWkRscFV0TDhyMlUzRmd0ZXl4QVM3cVRNQmRJVzFvcHMtLVE4blBWU3RieTl5TWxLamtGNUVBMEJUaHJSdC1CSGxKYkQ4elc1SzVn?oc=5",
-          "date": "2026-10-09",
-          "source": "Woodworking Network",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 93
+    "ticket": 94
   },
   "radar_proposes": [
     "MCD",
@@ -230,7 +231,8 @@
     "LHX",
     "AVGO",
     "AGX",
-    "RPM"
+    "RPM",
+    "TTMI"
   ],
   "achats": [],
   "historique": [
@@ -9347,6 +9349,107 @@
         ]
       },
       "ticket": 92,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-13",
+      "cree_le": "2026-10-13T12:34+00:00",
+      "liberation": 88.60109836980024,
+      "reserve_pct": null,
+      "score": 85.04501948313856,
+      "ordres": [
+        {
+          "ticker": "RPM",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 87.60109836980024,
+          "reason": "opportunité radar (score 85)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "RPM",
+        "nom": "RPM International",
+        "isin": "RPM",
+        "type": "action",
+        "prix": 97.77999877929688,
+        "score": 85.04501948313856,
+        "baisse": 0.17780955314241553,
+        "perf_5ans": 0.3494651456804536,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.2573112878973706,
+        "pos_12m": 0.8361445783132531,
+        "n_12m": 830,
+        "base_moy_12m": 0.1471401996062584,
+        "pire_12m": -0.5331765152625979,
+        "vs_marche_3m": -0.0734888165496057,
+        "devise": "USD",
+        "prix_eur": 87.60109836980024,
+        "fondamental": 92.5,
+        "fondamental_notes": [
+          "chiffre d'affaires +4.8% sur un an",
+          "bénéfices +13.3% sur un an",
+          "bénéfices attendus +22% sur 12 mois",
+          "analystes : « achat fort » (1.3/5, 15 avis)",
+          "objectif moyen des analystes : +27%",
+          "P/E attendu 14.8 (actuel 18.1)",
+          "marge nette 9%",
+          "dette / capitaux propres 79 %"
+        ],
+        "score_global": 89.5,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -7% vs marché)",
+        "vs_marche_3m": -0.0734888165496057,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Barclays Initiates Coverage on RPM International With Equal Weight Rating, $107 Price Target - marketscreener.com",
+            "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZjg3Vk8xbXpwTjFncURnaGxXLWVFWGxnV1kzNFlWZWdZOUlLR0todGctUWt5cS1jQU1JNjlxY2Jwa29BcDJwVXBlWENqRXR2Sk51b0RPWE93Q0h2WHZoYXFEdXFPR2JDcUJMa1hQQnJEcEJaeE9ia1BlRWRLSmQ2WmJWOTdqMWg5VzJpN0pVeEZYTUxHbFljYWhQR3owMmFmM3ZTYzVXdGdCYmFsTHMtTzRHTFhQRFdjaExlMVZtaEZrT242SzlxNGhVUWRoRjB3UnFZQjVSc0lKekk?oc=5",
+            "date": "2026-10-13",
+            "source": "marketscreener.com",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "International Markets and RPM International (RPM): A Deep Dive for Investors - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMVdmaTNWSzNxcU1oYVRFUG1NZlREMGo1TURiaDlrR2hwVUsycE9KcEIxVXp5emhrWm9odlB6NnpmNWt4MGJMRVluelVJdTdiZmZKZ3hEZWFKYUgzTmQ2S3hfWnRzODFiTEpLS1g2S3NCLUtYTlRBaWpBb3d2MzRNLWd6Rll6dDJTWnNaVkRhMmJuTDNoS3RHVUdpUDBmcmY0Z25VVzlGaGRzX1hY?oc=5",
+            "date": "2026-10-12",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "RPM International (RPM) Receives a Buy from KeyBanc - The Globe and Mail",
+            "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORnc3UjZIZ0UyZjZKWExZZzBMWGVqcTRIYjdHN25wWjVvMkdndk13WG5zZjlKYVZCWnFtNnZZekFFTExzUEVRYmlsVG9YT09qYmVueHJybm1UbUgxR203ekZ0cXdCbGZUbEItR29iTU1aUnVGeWY4bmNnSlkyaVc5M2JrSHRwdWhReGtSbF9IUTkxaklnMENnb2N2UGhpbXpqSGV3TktxdVBtV3R4SDdCcTVRelBTZERTbER5UDRoNS1aeXZiTXZ6S3pvYl9Gdw?oc=5",
+            "date": "2026-10-10",
+            "source": "The Globe and Mail",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "RPM International Inc. (RPM) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+            "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB0VUYwZ09qcllGVk1QSHNVd3I4V1h0bVh0bkozMXo0NXdUeGJMY0NSa2kteFpScGs2VEhxYlY1Y25hbTVoOGF1U1RzT0F1bktl?oc=5",
+            "date": "2026-10-09",
+            "source": "Yahoo! Finance Canada",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "RPM International appoints Jeffrey Rowe to board of directors - Woodworking Network",
+            "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaEdYU0dzRW9VSlpXQWVUUUtlc3FrRXNpYWs3bXp4cWFwWDNWRGpSVmFvMWlyNjVObkt2c3RhYTk3SUxHMl9BdUpGdE5vcmVZblpqU29kd01lbnp2Qm1lcV8xcFlWRkM1Ukk1Z3lGdWdjZE5sWkRscFV0TDhyMlUzRmd0ZXl4QVM3cVRNQmRJVzFvcHMtLVE4blBWU3RieTl5TWxLamtGNUVBMEJUaHJSdC1CSGxKYkQ4elc1SzVn?oc=5",
+            "date": "2026-10-09",
+            "source": "Woodworking Network",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 93,
       "decision": "sans réponse"
     }
   ]
