@@ -15,7 +15,106 @@
     "MCD": "2026-10-05",
     "IGG.L": "2026-10-06"
   },
-  "opportunite": null,
+  "opportunite": {
+    "type": "opportunite",
+    "date": "2026-10-13",
+    "cree_le": "2026-10-13T12:34+00:00",
+    "liberation": 88.60109836980024,
+    "reserve_pct": null,
+    "score": 85.04501948313856,
+    "ordres": [
+      {
+        "ticker": "RPM",
+        "side": "buy",
+        "quantity": 1.0,
+        "price": 87.60109836980024,
+        "reason": "opportunité radar (score 85)"
+      }
+    ],
+    "notes": [],
+    "total": 0,
+    "radar": {
+      "ticker": "RPM",
+      "nom": "RPM International",
+      "isin": "RPM",
+      "type": "action",
+      "prix": 97.77999877929688,
+      "score": 85.04501948313856,
+      "baisse": 0.17780955314241553,
+      "perf_5ans": 0.3494651456804536,
+      "tranche": "80-100 (soldé)",
+      "moy_12m": 0.2573112878973706,
+      "pos_12m": 0.8361445783132531,
+      "n_12m": 830,
+      "base_moy_12m": 0.1471401996062584,
+      "pire_12m": -0.5331765152625979,
+      "vs_marche_3m": -0.0734888165496057,
+      "devise": "USD",
+      "prix_eur": 87.60109836980024,
+      "fondamental": 92.5,
+      "fondamental_notes": [
+        "chiffre d'affaires +4.8% sur un an",
+        "bénéfices +13.3% sur un an",
+        "bénéfices attendus +22% sur 12 mois",
+        "analystes : « achat fort » (1.3/5, 15 avis)",
+        "objectif moyen des analystes : +27%",
+        "P/E attendu 14.8 (actuel 18.1)",
+        "marge nette 9%",
+        "dette / capitaux propres 79 %"
+      ],
+      "score_global": 89.5,
+      "braderie": false
+    },
+    "actualites": {
+      "verdict": "vert",
+      "resume": "rien d'alarmant dans l'actualité (3 mois : -7% vs marché)",
+      "vs_marche_3m": -0.0734888165496057,
+      "alertes": [],
+      "recents": [
+        {
+          "titre": "Barclays Initiates Coverage on RPM International With Equal Weight Rating, $107 Price Target - marketscreener.com",
+          "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZjg3Vk8xbXpwTjFncURnaGxXLWVFWGxnV1kzNFlWZWdZOUlLR0todGctUWt5cS1jQU1JNjlxY2Jwa29BcDJwVXBlWENqRXR2Sk51b0RPWE93Q0h2WHZoYXFEdXFPR2JDcUJMa1hQQnJEcEJaeE9ia1BlRWRLSmQ2WmJWOTdqMWg5VzJpN0pVeEZYTUxHbFljYWhQR3owMmFmM3ZTYzVXdGdCYmFsTHMtTzRHTFhQRFdjaExlMVZtaEZrT242SzlxNGhVUWRoRjB3UnFZQjVSc0lKekk?oc=5",
+          "date": "2026-10-13",
+          "source": "marketscreener.com",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "International Markets and RPM International (RPM): A Deep Dive for Investors - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMVdmaTNWSzNxcU1oYVRFUG1NZlREMGo1TURiaDlrR2hwVUsycE9KcEIxVXp5emhrWm9odlB6NnpmNWt4MGJMRVluelVJdTdiZmZKZ3hEZWFKYUgzTmQ2S3hfWnRzODFiTEpLS1g2S3NCLUtYTlRBaWpBb3d2MzRNLWd6Rll6dDJTWnNaVkRhMmJuTDNoS3RHVUdpUDBmcmY0Z25VVzlGaGRzX1hY?oc=5",
+          "date": "2026-10-12",
+          "source": "Yahoo Finance",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "RPM International (RPM) Receives a Buy from KeyBanc - The Globe and Mail",
+          "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORnc3UjZIZ0UyZjZKWExZZzBMWGVqcTRIYjdHN25wWjVvMkdndk13WG5zZjlKYVZCWnFtNnZZekFFTExzUEVRYmlsVG9YT09qYmVueHJybm1UbUgxR203ekZ0cXdCbGZUbEItR29iTU1aUnVGeWY4bmNnSlkyaVc5M2JrSHRwdWhReGtSbF9IUTkxaklnMENnb2N2UGhpbXpqSGV3TktxdVBtV3R4SDdCcTVRelBTZERTbER5UDRoNS1aeXZiTXZ6S3pvYl9Gdw?oc=5",
+          "date": "2026-10-10",
+          "source": "The Globe and Mail",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "RPM International Inc. (RPM) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB0VUYwZ09qcllGVk1QSHNVd3I4V1h0bVh0bkozMXo0NXdUeGJMY0NSa2kteFpScGs2VEhxYlY1Y25hbTVoOGF1U1RzT0F1bktl?oc=5",
+          "date": "2026-10-09",
+          "source": "Yahoo! Finance Canada",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "RPM International appoints Jeffrey Rowe to board of directors - Woodworking Network",
+          "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaEdYU0dzRW9VSlpXQWVUUUtlc3FrRXNpYWs3bXp4cWFwWDNWRGpSVmFvMWlyNjVObkt2c3RhYTk3SUxHMl9BdUpGdE5vcmVZblpqU29kd01lbnp2Qm1lcV8xcFlWRkM1Ukk1Z3lGdWdjZE5sWkRscFV0TDhyMlUzRmd0ZXl4QVM3cVRNQmRJVzFvcHMtLVE4blBWU3RieTl5TWxLamtGNUVBMEJUaHJSdC1CSGxKYkQ4elc1SzVn?oc=5",
+          "date": "2026-10-09",
+          "source": "Woodworking Network",
+          "gravite": 0,
+          "mots": []
+        }
+      ]
+    },
+    "ticket": 93
+  },
   "radar_proposes": [
     "MCD",
     "IGG.L",
@@ -127,7 +226,11 @@
     "8031.T",
     "WM",
     "SNA",
-    "QDV5.DE"
+    "QDV5.DE",
+    "LHX",
+    "AVGO",
+    "AGX",
+    "RPM"
   ],
   "achats": [],
   "historique": [
