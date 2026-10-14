@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TrackPlan</title>
+  <meta name="description" content="Plan d'entraînement d'athlétisme gratuit, temps de passage et prédiction de performance.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="brand">TrackPlan</div>
+    <button id="lang" class="ghost" type="button">EN</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1 data-i18n="heroTitle"></h1>
+      <p data-i18n="heroSub"></p>
+    </section>
+
+    <nav class="tabs" role="tablist">
+      <button role="tab" data-tab="plan" class="active" data-i18n="tabPlan"></button>
+      <button role="tab" data-tab="splits" data-i18n="tabSplits"></button>
+      <button role="tab" data-tab="predict" data-i18n="tabPredict"></button>
+    </nav>
+
+    <section id="plan" class="panel active">
+      <form id="planForm" class="grid">
+        <label><span data-i18n="event"></span><select name="group" id="groupSelect"></select></label>
+        <label><span data-i18n="weeks"></span><input name="weeks" type="number" min="2" max="24" value="10" required></label>
+        <label><span data-i18n="perWeek"></span>
+          <select name="perWeek"><option>3</option><option selected>4</option><option>5</option><option>6</option></select>
+        </label>
+        <label><span data-i18n="level"></span>
+          <select name="level"><option value="beg" data-i18n="beginner"></option><option value="adv" data-i18n="advanced"></option></select>
+        </label>
+        <button type="submit" class="primary" data-i18n="generate"></button>
+      </form>
+      <div id="planOut"></div>
+    </section>
+
+    <section id="splits" class="panel">
+      <form id="splitForm" class="grid">
+        <label><span data-i18n="distance"></span>
+          <select name="distance">
+            <option>200</option><option>400</option><option>800</option><option selected>1500</option>
+            <option>3000</option><option>5000</option><option>10000</option>
+          </select>
+        </label>
+        <label><span data-i18n="target"></span><input name="time" placeholder="4:30.00" value="4:30" required></label>
+        <label><span data-i18n="every"></span>
+          <select name="step"><option value="100">100 m</option><option value="200">200 m</option><option value="400" selected>400 m</option><option value="1000">1 000 m</option></select>
+        </label>
+        <button type="submit" class="primary" data-i18n="compute"></button>
+      </form>
+      <div id="splitOut"></div>
+    </section>
+
+    <section id="predict" class="panel">
+      <form id="predForm" class="grid">
+        <label><span data-i18n="knownDist"></span>
+          <select name="from"><option>800</option><option selected>1500</option><option>3000</option><option>5000</option><option>10000</option></select>
+        </label>
+        <label><span data-i18n="knownTime"></span><input name="time" placeholder="4:30" value="4:30" required></label>
+        <button type="submit" class="primary" data-i18n="compute"></button>
+      </form>
+      <div id="predOut"></div>
+      <p class="note" data-i18n="riegelNote"></p>
+    </section>
+
+    <section class="premium">
+      <h2 data-i18n="premiumTitle"></h2>
+      <p data-i18n="premiumText"></p>
+      <a id="waitlist" class="primary" href="#" data-i18n="premiumCta"></a>
+    </section>
+
+    <p class="note disclaimer" data-i18n="disclaimer"></p>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
