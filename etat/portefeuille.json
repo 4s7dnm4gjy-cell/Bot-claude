@@ -18,102 +18,103 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-14",
-    "cree_le": "2026-10-14T10:01+00:00",
-    "liberation": 149.3351901061238,
+    "cree_le": "2026-10-14T15:24+00:00",
+    "liberation": 105.94297691368371,
     "reserve_pct": null,
-    "score": 87.38173618361202,
+    "score": 85.89274290166885,
     "ordres": [
       {
-        "ticker": "ASM.TO",
+        "ticker": "BOOT",
         "side": "buy",
-        "quantity": 32.0,
-        "price": 4.635474690816369,
-        "reason": "opportunité radar (score 87)"
+        "quantity": 1.0,
+        "price": 104.94297691368371,
+        "reason": "opportunité radar (score 86)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "ASM.TO",
-      "nom": "Avino Silver & Gold Mines Ltd.",
-      "isin": "ASM.TO",
+      "ticker": "BOOT",
+      "nom": "Boot Barn Holdings, Inc.",
+      "isin": "BOOT",
       "type": "action",
-      "prix": 7.380000114440918,
-      "score": 87.38173618361202,
-      "baisse": 0.5163826996232175,
-      "perf_5ans": 6.028571856751753,
+      "prix": 117.56999969482422,
+      "score": 85.89274290166885,
+      "baisse": 0.4347052499758439,
+      "perf_5ans": 0.26582690753145655,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.4643170753875783,
-      "pos_12m": 0.550063371356147,
-      "n_12m": 789,
-      "base_moy_12m": 0.4046161855281986,
-      "pire_12m": -0.5705882361190955,
-      "vs_marche_3m": -0.12366667714547097,
-      "devise": "CAD",
-      "prix_eur": 4.635474690816369,
+      "moy_12m": 1.4769297412526943,
+      "pos_12m": 0.975,
+      "n_12m": 120,
+      "base_moy_12m": 0.5357339771973759,
+      "pire_12m": -0.12871287128712872,
+      "vs_marche_3m": -0.26587254461753385,
+      "devise": "USD",
+      "prix_eur": 104.94297691368371,
       "fondamental": 100.0,
       "fondamental_notes": [
-        "chiffre d'affaires +22.8% sur un an",
-        "bénéfices +201.9% sur un an",
-        "bénéfices attendus +95% sur 12 mois",
-        "analystes : « achat fort » (1.6/5, 3 avis)",
-        "objectif moyen des analystes : +42%",
-        "P/E attendu 10.2 (actuel 19.9)",
-        "marge nette 38%",
-        "dette / capitaux propres 3 %"
+        "chiffre d'affaires +17.7% sur un an",
+        "bénéfices +31.6% sur un an",
+        "bénéfices attendus +26% sur 12 mois",
+        "analystes : « achat fort » (1.2/5, 14 avis)",
+        "objectif des analystes +83% : peu crédible, probablement pas encore révisé",
+        "P/E attendu 11.8 (actuel 14.9)",
+        "marge nette 10%",
+        "dette / capitaux propres 59 %",
+        "🏷️ braderie probable : -27% vs marché en 3 mois, alors que les bénéfices attendus montent (+26%) et que les analystes restent à l'achat (+8 pts)"
       ],
-      "score_global": 95.0,
-      "braderie": false
+      "score_global": 94.4,
+      "braderie": true
     },
     "actualites": {
-      "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -12% vs marché)",
-      "vs_marche_3m": -0.12366667714547097,
+      "verdict": "orange",
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -27% vs marché)",
+      "vs_marche_3m": -0.26587254461753385,
       "alertes": [],
       "recents": [
         {
-          "titre": "Americas Gold and Silver Corporation (USAS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-          "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE55SjJHX0pXR3FjOV9WR0hRZy1pOXlYa2FLOHBrOC1vMXFZeklsMmV2S2ZCajg4NG1qVHNVWDZpdVQxQ212NVZ1SzEtTzJEanFmNFE?oc=5",
-          "date": "2026-10-13",
-          "source": "Yahoo! Finance Canada",
+          "titre": "BOOT Maintained by Citigroup -- Price Target Lowered to $180 - GuruFocus",
+          "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQlRDUHh0aDlLWEJNQXQ2UkJnaTBrZGRLNDAtN3poeVZDZUR6bUIydm5rbEVSajVVOFktRVJFUUQxNUV6ZDlGLWMwSUNiUVhYTmpxUzVWRERNeGlveGctLWZOalhkQW9JLWhSMkJocjh2TGp5VTNseXRqTnBUYVVKRDNGRnE2R0ZFblh5YTE3MkRhQVFrREFoY0FMOA?oc=5",
+          "date": "2026-10-14",
+          "source": "GuruFocus",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "McEwen Inc. (MUX) stock price, news, quote and history - Yahoo Finance UK",
-          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8xdEFNSnZtcl9qdTlEOVhGakkySTNhWlBCVjdwLWg4QTU4dzFBU0liSGhfSkJmV2hJY1dfZ1M5ZEhWU1J3cjhGUXEtbHVfUjFp?oc=5",
-          "date": "2026-10-10",
+          "titre": "Boot Barn's AI Shopping Tools Strengthen Its Omnichannel Strategy - TradingView",
+          "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdTRYOEZLVkx0WVhkMTNLcWNNUVB5YVdmRzYtZUNjaW43N25NRUNZWkxRaVByMms4Mk5FbDNydTBaS1loMkIwbGgtaEJpYkEtXzNaQUF1dFZiRHhKSU1adThyQUJrOWdNb1JDTUpiVjZfRzg2X2h6eGpIREliT0FaUmJFMzZnbk5qNVA2amZsRUpYN21fZVRuTDh3bjhNZDFPQ21vRjItQjNRbVlEUmNUQVB4QlNCWkRaejNmVg?oc=5",
+          "date": "2026-10-13",
+          "source": "TradingView",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Boot Barn Holdings, Inc. Stock 12‑Month Price Target Cut to $215.21, Implies 79% Upside - TradingView",
+          "lien": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZkY1cnRlX1lSSjJpRWtPNUdxdHExWWVyYzlXZGNNWjU5alJiRi1rREQtZHJOVG5LUGQtWFQtT0VKWnpyejRkZTRNeThOdHVqY3NoeV9lRFM5dk0zbDJuYXlYWkZhZWlFMmFTdGI0SjRRbmVPSTF0UzRxUzhEMERiTDE0Nkw2UlR1YVp1M2RLNjRILWxVb3pJeEJpZnNpQjE1Q0s2cjBJSUxFdlNfektITVFEbWdKRXlmcnozQVhxN2QwVnN2T2RDS0FtV040NWdJR3ZaMWMyeThkQ1ZP?oc=5",
+          "date": "2026-10-13",
+          "source": "TradingView",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Boot Barn Holdings, Inc. (BOOT) stock price, news, quote and history - Yahoo Finance UK",
+          "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8yaW0wR2F2SGpfSUhrNGJwakpod3dVR2VxaFNsQ01lN0RpRldFVjE4Sk9DdS1RR3VSLTZFTUFfSUR3UUstQ2xheEVSaHFLYmxEbEE?oc=5",
+          "date": "2026-10-13",
           "source": "Yahoo Finance UK",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "National Bank Initiates Coverage on Avino Silver & Gold Mines With Outperform Rating, CA$13 Price Target - www.marketscreener.com",
-          "lien": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRDNWcVdJb09SNFJuN3h4S1NqY2pkenJKaUphNFRJTFU1TVVCenVCMnN5S0pxV2I4d1AtN2ZOZmRUYTlCbXNqX0JDNHUtWWdBb2JBRGxtbnBCUU1IQ0xJTEdZeVJFODhpWXJwdm1ONWhUMUNXWmR0VzVOTHhZTURlNDNLTXZrX1VzdUxaTmJ4V25QR2M5QXRpc2FLcWNvTzFwNlN6Ym1nLXlYNVVzb0tSLXJHRzV3d2JkR2RxZkp3Sm55U3VTTGdrNTExSXUtUjcwSkd6NGV6RE1HWmx0N2twcDU2aE4?oc=5",
-          "date": "2026-10-09",
-          "source": "www.marketscreener.com",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Avino Silver & Gold Mines Ltd. (TSX:ASM) Slides 4.68%: Why the Stock Is in Focus on 7 October 2026 - kalkine.ca",
-          "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSzF6emtraURVZjN6akxMaVg3UzhTbTAzX24tMjhsSlJndnRoREVEVXRWOG55bUVTMFlPR25QWXlIQTV5a0NfbHpfYkxhU1pTa3RXU0t5ejRhRUR4VDRiVkp2YUVaZWFkX2Nlek1qb19ELTdpSGc5UnFFcURoZ3lZNGFVbEIyUkFVeE11bkRGQmtCdm81c2plZ09qdFg0S3hMLXE0VnFuOTN0Q0MwUUNGUm9lZ196NjR0ZEo2Zg?oc=5",
-          "date": "2026-10-07",
-          "source": "kalkine.ca",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Can First Majestic Meet Its Upbeat 2026 Production Guidance? - TradingView",
-          "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcWp1dXg0Vk50eDdTM3I4TTFyLThWQ1R3eGNYQy1QMzJNcEVQSThwOHZUMWJNU2d2dEVpMF9EU1hXZ05iMjNGM2pBUVBJMGZDZEtxTmpLeHl2Q3ZVX2NxSlRBTTBud2wxaUU3RWViN2xucjZDaERobS16bnVpeDhqdWNQa3hxS3dpaV9HVHVUamdiRG13Zy1DOGVWNGJCUmxfU3pUd0N3d1FmMElLQlBEdDE5aEE?oc=5",
-          "date": "2026-10-06",
-          "source": "TradingView",
+          "titre": "Boot Barn Q2 2027 Earnings Date and Estimates - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdTJtTDJacm5YV0NEZjg2WUtvUzhGc24tNFcwVDF6cDljTUpxQmNhclB1Rm1OY2FoNmpCOEItbmZiMnJIaFVPWjNXaUJqVm8tMm95dFNWb0JoTTRZX0dlZTM1RG8xal8wckd0VDRxbW1TUm5zS1FRbXBUVDFwVWpzSVJRY3NfVXJmRDZB?oc=5",
+          "date": "2026-10-13",
+          "source": "MarketBeat",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 95
+    "ticket": 96
   },
   "radar_proposes": [
     "MCD",
@@ -232,7 +233,8 @@
     "AGX",
     "RPM",
     "TTMI",
-    "ASM.TO"
+    "ASM.TO",
+    "BOOT"
   ],
   "achats": [],
   "historique": [
@@ -9552,6 +9554,107 @@
         ]
       },
       "ticket": 94,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-14",
+      "cree_le": "2026-10-14T10:01+00:00",
+      "liberation": 149.3351901061238,
+      "reserve_pct": null,
+      "score": 87.38173618361202,
+      "ordres": [
+        {
+          "ticker": "ASM.TO",
+          "side": "buy",
+          "quantity": 32.0,
+          "price": 4.635474690816369,
+          "reason": "opportunité radar (score 87)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "ASM.TO",
+        "nom": "Avino Silver & Gold Mines Ltd.",
+        "isin": "ASM.TO",
+        "type": "action",
+        "prix": 7.380000114440918,
+        "score": 87.38173618361202,
+        "baisse": 0.5163826996232175,
+        "perf_5ans": 6.028571856751753,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.4643170753875783,
+        "pos_12m": 0.550063371356147,
+        "n_12m": 789,
+        "base_moy_12m": 0.4046161855281986,
+        "pire_12m": -0.5705882361190955,
+        "vs_marche_3m": -0.12366667714547097,
+        "devise": "CAD",
+        "prix_eur": 4.635474690816369,
+        "fondamental": 100.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +22.8% sur un an",
+          "bénéfices +201.9% sur un an",
+          "bénéfices attendus +95% sur 12 mois",
+          "analystes : « achat fort » (1.6/5, 3 avis)",
+          "objectif moyen des analystes : +42%",
+          "P/E attendu 10.2 (actuel 19.9)",
+          "marge nette 38%",
+          "dette / capitaux propres 3 %"
+        ],
+        "score_global": 95.0,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -12% vs marché)",
+        "vs_marche_3m": -0.12366667714547097,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Americas Gold and Silver Corporation (USAS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+            "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE55SjJHX0pXR3FjOV9WR0hRZy1pOXlYa2FLOHBrOC1vMXFZeklsMmV2S2ZCajg4NG1qVHNVWDZpdVQxQ212NVZ1SzEtTzJEanFmNFE?oc=5",
+            "date": "2026-10-13",
+            "source": "Yahoo! Finance Canada",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "McEwen Inc. (MUX) stock price, news, quote and history - Yahoo Finance UK",
+            "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8xdEFNSnZtcl9qdTlEOVhGakkySTNhWlBCVjdwLWg4QTU4dzFBU0liSGhfSkJmV2hJY1dfZ1M5ZEhWU1J3cjhGUXEtbHVfUjFp?oc=5",
+            "date": "2026-10-10",
+            "source": "Yahoo Finance UK",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "National Bank Initiates Coverage on Avino Silver & Gold Mines With Outperform Rating, CA$13 Price Target - www.marketscreener.com",
+            "lien": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRDNWcVdJb09SNFJuN3h4S1NqY2pkenJKaUphNFRJTFU1TVVCenVCMnN5S0pxV2I4d1AtN2ZOZmRUYTlCbXNqX0JDNHUtWWdBb2JBRGxtbnBCUU1IQ0xJTEdZeVJFODhpWXJwdm1ONWhUMUNXWmR0VzVOTHhZTURlNDNLTXZrX1VzdUxaTmJ4V25QR2M5QXRpc2FLcWNvTzFwNlN6Ym1nLXlYNVVzb0tSLXJHRzV3d2JkR2RxZkp3Sm55U3VTTGdrNTExSXUtUjcwSkd6NGV6RE1HWmx0N2twcDU2aE4?oc=5",
+            "date": "2026-10-09",
+            "source": "www.marketscreener.com",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Avino Silver & Gold Mines Ltd. (TSX:ASM) Slides 4.68%: Why the Stock Is in Focus on 7 October 2026 - kalkine.ca",
+            "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSzF6emtraURVZjN6akxMaVg3UzhTbTAzX24tMjhsSlJndnRoREVEVXRWOG55bUVTMFlPR25QWXlIQTV5a0NfbHpfYkxhU1pTa3RXU0t5ejRhRUR4VDRiVkp2YUVaZWFkX2Nlek1qb19ELTdpSGc5UnFFcURoZ3lZNGFVbEIyUkFVeE11bkRGQmtCdm81c2plZ09qdFg0S3hMLXE0VnFuOTN0Q0MwUUNGUm9lZ196NjR0ZEo2Zg?oc=5",
+            "date": "2026-10-07",
+            "source": "kalkine.ca",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Can First Majestic Meet Its Upbeat 2026 Production Guidance? - TradingView",
+            "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcWp1dXg0Vk50eDdTM3I4TTFyLThWQ1R3eGNYQy1QMzJNcEVQSThwOHZUMWJNU2d2dEVpMF9EU1hXZ05iMjNGM2pBUVBJMGZDZEtxTmpLeHl2Q3ZVX2NxSlRBTTBud2wxaUU3RWViN2xucjZDaERobS16bnVpeDhqdWNQa3hxS3dpaV9HVHVUamdiRG13Zy1DOGVWNGJCUmxfU3pUd0N3d1FmMElLQlBEdDE5aEE?oc=5",
+            "date": "2026-10-06",
+            "source": "TradingView",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 95,
       "decision": "sans réponse"
     }
   ]
