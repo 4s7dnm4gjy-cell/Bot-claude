@@ -18,102 +18,102 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-15",
-    "cree_le": "2026-10-15T14:49+00:00",
-    "liberation": 122.538286374663,
+    "cree_le": "2026-10-15T19:00+00:00",
+    "liberation": 124.46116675132171,
     "reserve_pct": null,
-    "score": 89.32802703920606,
+    "score": 86.7416474630549,
     "ordres": [
       {
-        "ticker": "SF",
+        "ticker": "HLMA.L",
         "side": "buy",
-        "quantity": 2.0,
-        "price": 60.7691431873315,
-        "reason": "opportunité radar (score 89)"
+        "quantity": 3.0,
+        "price": 41.15372225044057,
+        "reason": "opportunité radar (score 87)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "SF",
-      "nom": "Stifel",
-      "isin": "SF",
+      "ticker": "HLMA.L",
+      "nom": "Halma plc",
+      "isin": "HLMA.L",
       "type": "action",
-      "prix": 67.80000305175781,
-      "score": 89.32802703920606,
-      "baisse": 0.22608720263664028,
-      "perf_5ans": 0.5397904617942606,
+      "prix": 3480.0,
+      "score": 86.7416474630549,
+      "baisse": 0.2865631576755644,
+      "perf_5ans": 0.21514936816253205,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.3893547481084653,
-      "pos_12m": 0.8483466362599772,
-      "n_12m": 877,
-      "base_moy_12m": 0.23277148585635285,
-      "pire_12m": -0.25204875162577123,
-      "vs_marche_3m": -0.1543331559582346,
-      "devise": "USD",
-      "prix_eur": 60.7691431873315,
-      "fondamental": 90.0,
+      "moy_12m": 0.19795318883880772,
+      "pos_12m": 0.7691107644305772,
+      "n_12m": 641,
+      "base_moy_12m": 0.17628590249300025,
+      "pire_12m": -0.2669002851826824,
+      "vs_marche_3m": -0.09570936221906479,
+      "devise": "GBp",
+      "prix_eur": 41.15372225044057,
+      "fondamental": 86.0,
       "fondamental_notes": [
-        "chiffre d'affaires +12.7% sur un an",
-        "bénéfices +50.6% sur un an",
-        "bénéfices attendus +29% sur 12 mois",
-        "analystes : « conserver » (2.4/5, 8 avis)",
-        "objectif moyen des analystes : +21%",
-        "P/E attendu 9.7 (actuel 12.4)",
-        "marge nette 16%",
-        "dette / capitaux propres 52 %"
+        "chiffre d'affaires +14.6% sur un an",
+        "bénéfices +16.0% sur un an",
+        "bénéfices attendus +51% sur 12 mois",
+        "analystes : « achat » (1.9/5, 18 avis)",
+        "objectif moyen des analystes : +27%",
+        "P/E attendu 23.5 (actuel 35.4)",
+        "marge nette 14%",
+        "dette / capitaux propres 42 %"
       ],
-      "score_global": 89.7,
+      "score_global": 86.3,
       "braderie": false
     },
     "actualites": {
-      "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -15% vs marché)",
-      "vs_marche_3m": -0.1543331559582346,
+      "verdict": "vert",
+      "resume": "rien d'alarmant dans l'actualité (3 mois : -10% vs marché)",
+      "vs_marche_3m": -0.09570936221906479,
       "alertes": [],
       "recents": [
         {
-          "titre": "L’action TransMedics maintenue à Conserver par Stifel en raison de la concurrence - Investing.com France",
-          "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOT2hVeFZzNVpYZ1pfTmtmNGI4YzZHMUN3bGVaR0NvSGdjd0t0YzRYU2MyYWNxZVowUFBhTHV2NHp4NzZEY3dZdTk5VUhhbFBRejhNVHZkazFTNnNpZzdzcHEwV2oxcXc3TWRkU0QtaUdnYXNTLWRnNWVES0lHWVJHV216UVVVMDVHTUh3MVlXdklGWF9pUVJ5NlNMaEswMEU1QkUxQTZXcGVZYVZscmMwVERtTnJiUHFBSnFNa2hMS2VQQ1BSdnB6b2ZTLTVWZHhRZk4xd2xB?oc=5",
+          "titre": "GAGNANTS & PERDANTS : les inquiétudes liées à l’IA se propagent ; THG et Dunelm brillent - Zonebourse Suisse",
+          "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcko1cjdvRnprNzd5aTBXZklCOTdRal9OQ3hKUFFIMmVRRFdOeDJTUmtsWXM2NmdkRm8zNFROMldMakI4VnJHWFdZQ0JObnZmSWUwMlBaQllWZ21fVVhIYTQ1cU10SUQ1RHkxdlBrNkZPWjdJLVZTNHpzbVRzQ1ZZLTdVT0pjeVI3Tnc4MlBOR3gzTmRHM01OVmZWcWVWRG43eGhFTWtPQ1hUeEcxdXR3WEdJa0NxWWNsYzVKVW9JR1ItY0Nka0tQeEtWV2txSkJscWpSZWw4SXlmWjg?oc=5",
           "date": "2026-10-15",
-          "source": "Investing.com France",
+          "source": "Zonebourse Suisse",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Stifel relève son objectif de cours sur Workday grâce à l’IA - Investing.com France",
-          "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQTFKcVY4RUZBOVg0c1VUMEpHWDFPVl9tblFFSWV1ZjRIUGI5VDFydGZ5TEo5Mk5TTVZzeVV1dmdUWUJFdEVLa0hBZEV2cHRYWm5lZHYyNDVBVkF2UUJwZDNoMlh2a2VLbmFnSllXcWhJUzdPc1dET3dYNUxKZUZNU0YtNVVxbDBYSTJoTE1aODZ4NW5yMFdiNl81VW53SDhCWDgtRF9WSUlzSmNTWVh3bHFiVGFsLUJlR3c?oc=5",
+          "titre": "Halma (LON:HLMA) Hits New 1-Year Low - Here's Why - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRjVNMWxOWXA5RV96MGtEVnh6SExJRk1Lb2FpT0gxelZLUThXZ1ZERHpMWF95MEVHVEVXZFczelhDZ0VWTXRlek9ZTkxVejNHZXlnSTBTeURNNGhXa29uTFoyb3Qtdm9QbzBDdVNqdXhtSUhhVWttek9SWWhNeUNNVXczcXJteHI3aEYzaDFveWFkQU1laUN0VW55VXNZNkhyR3hISkl1TQ?oc=5",
           "date": "2026-10-15",
-          "source": "Investing.com France",
+          "source": "MarketBeat",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Stifel réduit son objectif de cours sur Post Holdings - Investing.com France",
-          "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSHBEVkpuX25FTUNJSTl5V2JQeG5hU1FtV0pPOFNDUnFMT2d6UU94WE5rcmdpMVZrYkx1T2owTEhIT2JKSGdSWnZCQ21FSUVOVmRscnR2UzNwc0ZYaEMwMFd3R1VIY3B4MTljWERFYVR5NU84QTRpbTN0cXp5dWM3Q3lNUDB3TGVKQjZtemJHblQtSWthY20zNDhrTGt5Z1VwTmgxcGxWM0VrUWNkT29lNG1R?oc=5",
+          "titre": "Halma hits 52-week low. Stifel sets GBp 4,500 target for Halma stock - ad-hoc-news.de",
+          "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWWhZRGhwMzhpNXpyMzNIbU11ckVaSTBBQWFzYXN5VTVubGtXenlWeW9wdFhoMGJnZ1RVeGREX1EwSnM0bjEyek9LT015Y1lDWmUxaDRqZzNya2NBNHRwVHZKVXQyV3NWR1JVanoxWnA4bENiZ3U1R3YzMjBITVRLNWFYVE1scEpxaG5xSFROZEVkZDk3S3MwX1hJQm1kaE1LUzA0dXRESi13STUybmstSUstSjhvQjBzTG0zamVPMHRHMDlV?oc=5",
           "date": "2026-10-15",
-          "source": "Investing.com France",
+          "source": "ad-hoc-news.de",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Stifel relève l’objectif de cours de Mirum Pharmaceuticals après des approbations - Investing.com France",
-          "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPa3VkcTFEeDd3ZWpfSXptQmdTeWVneVNEcllMUUx0Vk1ZajhIZWRoUVhBSkNsRTBvaWZoZHhxVmEtVUpZa1BNLUxPZlNCMjZtazdnZERtVjVycTBIT2RSWTMtaXE1d29oVWN1WGZneVQzYjdBZEZqcUllaGJpWHZLWVZ4U2VkV3pGSzVEaUR1aHpDMFJwT0tCYU55aW9feDZwZEg2Rm96bkwtNDRQaC02VkhOVXFtUnlrOUh0M3plNWw2bDFEdWVLQ18zSlhiZmQxRC1xMGNB?oc=5",
-          "date": "2026-10-15",
-          "source": "Investing.com France",
+          "titre": "Halma falls Tuesday, underperforms market - MarketWatch",
+          "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWTZXUGNUa3hBbmtXTXM5ZEozeUZIbkZadGtoMmRtVWVDREtOak9xYUU1NHUwVVNlRmVSeWV2S3Fzc1cyRkRwanZteGtTNXNXanBLbU9VTk4yRllnMVZCcEwwTDFOUjF0d3ZaaFZTcVl1WjFiSjVjWVR0UXlNcEEyeFUzd1llUXFtOXZmWHV0NWs3UDVGcFVUdFlGbzVKM3NXVXc?oc=5",
+          "date": "2026-10-13",
+          "source": "MarketWatch",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Stifel maintient son avis d’achat sur Rocket Lab après le retard de Neutron - Investing.com France",
-          "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNT1FNbVA0cEMyZ2JrcVVGQTB0MjJjeTVWeDlGQ3lLeGJhRFJtclgyc3JyUWtrZk5PRm9obFpVRUNuNk5jeGp6NTZJbnNrLVhkUC1RTWEwbzNXQnd1TTZta212U3phNTFmY0hKX0g5Wm9QWW40RkdLSW5Wb1FwUmpvYlJOV1JrWUFHektzMHFPNkMxQjI2eFp5NUJEVVRiZVZaQVdPMktGVmtabnMzOGJKc0ZzdkZ6RV9jVTYySVljTmdqOE1CSWgwendFTjFHZw?oc=5",
-          "date": "2026-10-15",
-          "source": "Investing.com France",
+          "titre": "Is Halma (LSE:HLMA) Stock In Focus After A Trading Update Lifted Its Margin Outlook? - Kalkine Media",
+          "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeFM1WG1sRDlySjRqYWJKWEtOdUtjLWJINzViUmJNWHFUOTAtbjM1bl9yczIwZW95VnhZZkZ5WnNaOFkzeVFXWHNPMWNfSGdsR181d2RPS0U1NDdMTER0dGxXTWJMeFExNVprSlE0bEpnRmZqZFVJOHRSd3Fpem90akpOMTFKZUhza3o2RGRnakUyeFRNd1ZFMjZHbHVFOHVWNjY4T2F0eDB1NzUyM3BXTDNpZFhFN3pjQ2xjZ1lsQjNIZw?oc=5",
+          "date": "2026-10-12",
+          "source": "Kalkine Media",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 99
+    "ticket": 100
   },
   "radar_proposes": [
     "MCD",
@@ -236,7 +236,8 @@
     "BOOT",
     "CENX",
     "VSEC",
-    "SF"
+    "SF",
+    "HLMA.L"
   ],
   "achats": [],
   "historique": [
@@ -9962,6 +9963,107 @@
         ]
       },
       "ticket": 98,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-15",
+      "cree_le": "2026-10-15T14:49+00:00",
+      "liberation": 122.538286374663,
+      "reserve_pct": null,
+      "score": 89.32802703920606,
+      "ordres": [
+        {
+          "ticker": "SF",
+          "side": "buy",
+          "quantity": 2.0,
+          "price": 60.7691431873315,
+          "reason": "opportunité radar (score 89)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "SF",
+        "nom": "Stifel",
+        "isin": "SF",
+        "type": "action",
+        "prix": 67.80000305175781,
+        "score": 89.32802703920606,
+        "baisse": 0.22608720263664028,
+        "perf_5ans": 0.5397904617942606,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.3893547481084653,
+        "pos_12m": 0.8483466362599772,
+        "n_12m": 877,
+        "base_moy_12m": 0.23277148585635285,
+        "pire_12m": -0.25204875162577123,
+        "vs_marche_3m": -0.1543331559582346,
+        "devise": "USD",
+        "prix_eur": 60.7691431873315,
+        "fondamental": 90.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +12.7% sur un an",
+          "bénéfices +50.6% sur un an",
+          "bénéfices attendus +29% sur 12 mois",
+          "analystes : « conserver » (2.4/5, 8 avis)",
+          "objectif moyen des analystes : +21%",
+          "P/E attendu 9.7 (actuel 12.4)",
+          "marge nette 16%",
+          "dette / capitaux propres 52 %"
+        ],
+        "score_global": 89.7,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -15% vs marché)",
+        "vs_marche_3m": -0.1543331559582346,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "L’action TransMedics maintenue à Conserver par Stifel en raison de la concurrence - Investing.com France",
+            "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOT2hVeFZzNVpYZ1pfTmtmNGI4YzZHMUN3bGVaR0NvSGdjd0t0YzRYU2MyYWNxZVowUFBhTHV2NHp4NzZEY3dZdTk5VUhhbFBRejhNVHZkazFTNnNpZzdzcHEwV2oxcXc3TWRkU0QtaUdnYXNTLWRnNWVES0lHWVJHV216UVVVMDVHTUh3MVlXdklGWF9pUVJ5NlNMaEswMEU1QkUxQTZXcGVZYVZscmMwVERtTnJiUHFBSnFNa2hMS2VQQ1BSdnB6b2ZTLTVWZHhRZk4xd2xB?oc=5",
+            "date": "2026-10-15",
+            "source": "Investing.com France",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Stifel relève son objectif de cours sur Workday grâce à l’IA - Investing.com France",
+            "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQTFKcVY4RUZBOVg0c1VUMEpHWDFPVl9tblFFSWV1ZjRIUGI5VDFydGZ5TEo5Mk5TTVZzeVV1dmdUWUJFdEVLa0hBZEV2cHRYWm5lZHYyNDVBVkF2UUJwZDNoMlh2a2VLbmFnSllXcWhJUzdPc1dET3dYNUxKZUZNU0YtNVVxbDBYSTJoTE1aODZ4NW5yMFdiNl81VW53SDhCWDgtRF9WSUlzSmNTWVh3bHFiVGFsLUJlR3c?oc=5",
+            "date": "2026-10-15",
+            "source": "Investing.com France",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Stifel réduit son objectif de cours sur Post Holdings - Investing.com France",
+            "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSHBEVkpuX25FTUNJSTl5V2JQeG5hU1FtV0pPOFNDUnFMT2d6UU94WE5rcmdpMVZrYkx1T2owTEhIT2JKSGdSWnZCQ21FSUVOVmRscnR2UzNwc0ZYaEMwMFd3R1VIY3B4MTljWERFYVR5NU84QTRpbTN0cXp5dWM3Q3lNUDB3TGVKQjZtemJHblQtSWthY20zNDhrTGt5Z1VwTmgxcGxWM0VrUWNkT29lNG1R?oc=5",
+            "date": "2026-10-15",
+            "source": "Investing.com France",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Stifel relève l’objectif de cours de Mirum Pharmaceuticals après des approbations - Investing.com France",
+            "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPa3VkcTFEeDd3ZWpfSXptQmdTeWVneVNEcllMUUx0Vk1ZajhIZWRoUVhBSkNsRTBvaWZoZHhxVmEtVUpZa1BNLUxPZlNCMjZtazdnZERtVjVycTBIT2RSWTMtaXE1d29oVWN1WGZneVQzYjdBZEZqcUllaGJpWHZLWVZ4U2VkV3pGSzVEaUR1aHpDMFJwT0tCYU55aW9feDZwZEg2Rm96bkwtNDRQaC02VkhOVXFtUnlrOUh0M3plNWw2bDFEdWVLQ18zSlhiZmQxRC1xMGNB?oc=5",
+            "date": "2026-10-15",
+            "source": "Investing.com France",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Stifel maintient son avis d’achat sur Rocket Lab après le retard de Neutron - Investing.com France",
+            "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNT1FNbVA0cEMyZ2JrcVVGQTB0MjJjeTVWeDlGQ3lLeGJhRFJtclgyc3JyUWtrZk5PRm9obFpVRUNuNk5jeGp6NTZJbnNrLVhkUC1RTWEwbzNXQnd1TTZta212U3phNTFmY0hKX0g5Wm9QWW40RkdLSW5Wb1FwUmpvYlJOV1JrWUFHektzMHFPNkMxQjI2eFp5NUJEVVRiZVZaQVdPMktGVmtabnMzOGJKc0ZzdkZ6RV9jVTYySVljTmdqOE1CSWgwendFTjFHZw?oc=5",
+            "date": "2026-10-15",
+            "source": "Investing.com France",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 99,
       "decision": "sans réponse"
     }
   ]
