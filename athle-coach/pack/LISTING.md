@@ -10,7 +10,7 @@ Pour le régénérer après une modification de `prompts.js` : `node build.mjs`.
 
 ## Titre Etsy (140 caractères max)
 
-150 AI Prompts for Track and Field Coaches | ChatGPT Coaching Templates | Athletics Training Plans, Sprint, Jumps, Throws | Digital PDF
+150 Lessons for Track and Field Coaches | AI Prompts, ChatGPT Coaching Templates | Athletics Training Plans, Sprint, Jumps, Throws | PDF
 
 ## Tags Etsy (13, 20 caractères max chacun)
 

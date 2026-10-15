@@ -46,8 +46,8 @@ h2 { font-size: 20pt; margin: 0; letter-spacing: -.01em; }
 </style></head><body>
 <div class="cover">
   <div class="kicker">TrackPlan Coach Pack</div>
-  <h1>${total} AI Prompts for<br>Track &amp; Field Coaches</h1>
-  <p>Season plans, sessions for every event group, youth coaching, meet preparation and club admin. Copy, fill in the brackets, paste into ChatGPT, Claude or Gemini.</p>
+  <h1>${total} Lessons for<br>Track &amp; Field Coaches</h1>
+  <p>Ready-to-use AI prompts for season plans, sessions for every event group, youth coaching, meet preparation and club admin. Copy, fill in the brackets, paste into ChatGPT, Claude or Gemini.</p>
 </div>
 <div class="page howto">
   <h2>How to use this pack</h2>

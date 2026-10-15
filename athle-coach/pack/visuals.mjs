@@ -35,8 +35,8 @@ function productCover() {
     <div style="position:absolute;left:0;top:0;bottom:0;width:36px;background:#d9480f"></div>
     <div style="position:relative">
       <div class="kicker" style="font-size:44px">TrackPlan Coach Pack</div>
-      <h1 style="font-size:190px;line-height:.98;letter-spacing:-.04em;margin:60px 0 50px">${total} AI<br>Prompts<br><span class="accent">for Track &amp; Field Coaches</span></h1>
-      <p style="font-size:56px;color:#55534d;max-width:1500px">Season plans, sessions, meets &amp; club admin. Copy, fill in, paste into ChatGPT.</p>
+      <h1 style="font-size:190px;line-height:.98;letter-spacing:-.04em;margin:60px 0 50px">${total}<br>Lessons<br><span class="accent">for Track &amp; Field Coaches</span></h1>
+      <p style="font-size:56px;color:#55534d;max-width:1500px">Ready-to-use AI prompts for season plans, sessions, meets &amp; club admin.</p>
     </div>
     <div class="footer" style="font-size:52px;padding:44px 140px">Instant PDF download · 23 pages · 10 chapters</div>
   </div>`;
@@ -77,7 +77,7 @@ function pin(ci) {
       <div style="font-size:37px;line-height:1.5">${mark(p)}</div>
     </div>
     <p style="font-size:32px;color:#55534d;margin-top:40px">Copy it, fill in the brackets, paste it into ChatGPT.</p>
-    <div class="footer" style="font-size:34px;padding:34px 70px">+${total - 1} more prompts in the Coach Pack →</div>
+    <div class="footer" style="font-size:34px;padding:34px 70px">150 Lessons for Track &amp; Field Coaches →</div>
   </div>`;
 }
 
