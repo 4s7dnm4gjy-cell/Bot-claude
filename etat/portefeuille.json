@@ -15,106 +15,7 @@
     "MCD": "2026-10-05",
     "IGG.L": "2026-10-06"
   },
-  "opportunite": {
-    "type": "opportunite",
-    "date": "2026-10-15",
-    "cree_le": "2026-10-15T19:00+00:00",
-    "liberation": 124.46116675132171,
-    "reserve_pct": null,
-    "score": 86.7416474630549,
-    "ordres": [
-      {
-        "ticker": "HLMA.L",
-        "side": "buy",
-        "quantity": 3.0,
-        "price": 41.15372225044057,
-        "reason": "opportunité radar (score 87)"
-      }
-    ],
-    "notes": [],
-    "total": 0,
-    "radar": {
-      "ticker": "HLMA.L",
-      "nom": "Halma plc",
-      "isin": "HLMA.L",
-      "type": "action",
-      "prix": 3480.0,
-      "score": 86.7416474630549,
-      "baisse": 0.2865631576755644,
-      "perf_5ans": 0.21514936816253205,
-      "tranche": "80-100 (soldé)",
-      "moy_12m": 0.19795318883880772,
-      "pos_12m": 0.7691107644305772,
-      "n_12m": 641,
-      "base_moy_12m": 0.17628590249300025,
-      "pire_12m": -0.2669002851826824,
-      "vs_marche_3m": -0.09570936221906479,
-      "devise": "GBp",
-      "prix_eur": 41.15372225044057,
-      "fondamental": 86.0,
-      "fondamental_notes": [
-        "chiffre d'affaires +14.6% sur un an",
-        "bénéfices +16.0% sur un an",
-        "bénéfices attendus +51% sur 12 mois",
-        "analystes : « achat » (1.9/5, 18 avis)",
-        "objectif moyen des analystes : +27%",
-        "P/E attendu 23.5 (actuel 35.4)",
-        "marge nette 14%",
-        "dette / capitaux propres 42 %"
-      ],
-      "score_global": 86.3,
-      "braderie": false
-    },
-    "actualites": {
-      "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -10% vs marché)",
-      "vs_marche_3m": -0.09570936221906479,
-      "alertes": [],
-      "recents": [
-        {
-          "titre": "GAGNANTS & PERDANTS : les inquiétudes liées à l’IA se propagent ; THG et Dunelm brillent - Zonebourse Suisse",
-          "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcko1cjdvRnprNzd5aTBXZklCOTdRal9OQ3hKUFFIMmVRRFdOeDJTUmtsWXM2NmdkRm8zNFROMldMakI4VnJHWFdZQ0JObnZmSWUwMlBaQllWZ21fVVhIYTQ1cU10SUQ1RHkxdlBrNkZPWjdJLVZTNHpzbVRzQ1ZZLTdVT0pjeVI3Tnc4MlBOR3gzTmRHM01OVmZWcWVWRG43eGhFTWtPQ1hUeEcxdXR3WEdJa0NxWWNsYzVKVW9JR1ItY0Nka0tQeEtWV2txSkJscWpSZWw4SXlmWjg?oc=5",
-          "date": "2026-10-15",
-          "source": "Zonebourse Suisse",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Halma (LON:HLMA) Hits New 1-Year Low - Here's Why - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRjVNMWxOWXA5RV96MGtEVnh6SExJRk1Lb2FpT0gxelZLUThXZ1ZERHpMWF95MEVHVEVXZFczelhDZ0VWTXRlek9ZTkxVejNHZXlnSTBTeURNNGhXa29uTFoyb3Qtdm9QbzBDdVNqdXhtSUhhVWttek9SWWhNeUNNVXczcXJteHI3aEYzaDFveWFkQU1laUN0VW55VXNZNkhyR3hISkl1TQ?oc=5",
-          "date": "2026-10-15",
-          "source": "MarketBeat",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Halma hits 52-week low. Stifel sets GBp 4,500 target for Halma stock - ad-hoc-news.de",
-          "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWWhZRGhwMzhpNXpyMzNIbU11ckVaSTBBQWFzYXN5VTVubGtXenlWeW9wdFhoMGJnZ1RVeGREX1EwSnM0bjEyek9LT015Y1lDWmUxaDRqZzNya2NBNHRwVHZKVXQyV3NWR1JVanoxWnA4bENiZ3U1R3YzMjBITVRLNWFYVE1scEpxaG5xSFROZEVkZDk3S3MwX1hJQm1kaE1LUzA0dXRESi13STUybmstSUstSjhvQjBzTG0zamVPMHRHMDlV?oc=5",
-          "date": "2026-10-15",
-          "source": "ad-hoc-news.de",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Halma falls Tuesday, underperforms market - MarketWatch",
-          "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWTZXUGNUa3hBbmtXTXM5ZEozeUZIbkZadGtoMmRtVWVDREtOak9xYUU1NHUwVVNlRmVSeWV2S3Fzc1cyRkRwanZteGtTNXNXanBLbU9VTk4yRllnMVZCcEwwTDFOUjF0d3ZaaFZTcVl1WjFiSjVjWVR0UXlNcEEyeFUzd1llUXFtOXZmWHV0NWs3UDVGcFVUdFlGbzVKM3NXVXc?oc=5",
-          "date": "2026-10-13",
-          "source": "MarketWatch",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Is Halma (LSE:HLMA) Stock In Focus After A Trading Update Lifted Its Margin Outlook? - Kalkine Media",
-          "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeFM1WG1sRDlySjRqYWJKWEtOdUtjLWJINzViUmJNWHFUOTAtbjM1bl9yczIwZW95VnhZZkZ5WnNaOFkzeVFXWHNPMWNfSGdsR181d2RPS0U1NDdMTER0dGxXTWJMeFExNVprSlE0bEpnRmZqZFVJOHRSd3Fpem90akpOMTFKZUhza3o2RGRnakUyeFRNd1ZFMjZHbHVFOHVWNjY4T2F0eDB1NzUyM3BXTDNpZFhFN3pjQ2xjZ1lsQjNIZw?oc=5",
-          "date": "2026-10-12",
-          "source": "Kalkine Media",
-          "gravite": 0,
-          "mots": []
-        }
-      ]
-    },
-    "ticket": 100
-  },
+  "opportunite": null,
   "radar_proposes": [
     "MCD",
     "IGG.L",
@@ -10064,6 +9965,107 @@
         ]
       },
       "ticket": 99,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-15",
+      "cree_le": "2026-10-15T19:00+00:00",
+      "liberation": 124.46116675132171,
+      "reserve_pct": null,
+      "score": 86.7416474630549,
+      "ordres": [
+        {
+          "ticker": "HLMA.L",
+          "side": "buy",
+          "quantity": 3.0,
+          "price": 41.15372225044057,
+          "reason": "opportunité radar (score 87)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "HLMA.L",
+        "nom": "Halma plc",
+        "isin": "HLMA.L",
+        "type": "action",
+        "prix": 3480.0,
+        "score": 86.7416474630549,
+        "baisse": 0.2865631576755644,
+        "perf_5ans": 0.21514936816253205,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.19795318883880772,
+        "pos_12m": 0.7691107644305772,
+        "n_12m": 641,
+        "base_moy_12m": 0.17628590249300025,
+        "pire_12m": -0.2669002851826824,
+        "vs_marche_3m": -0.09570936221906479,
+        "devise": "GBp",
+        "prix_eur": 41.15372225044057,
+        "fondamental": 86.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +14.6% sur un an",
+          "bénéfices +16.0% sur un an",
+          "bénéfices attendus +51% sur 12 mois",
+          "analystes : « achat » (1.9/5, 18 avis)",
+          "objectif moyen des analystes : +27%",
+          "P/E attendu 23.5 (actuel 35.4)",
+          "marge nette 14%",
+          "dette / capitaux propres 42 %"
+        ],
+        "score_global": 86.3,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -10% vs marché)",
+        "vs_marche_3m": -0.09570936221906479,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "GAGNANTS & PERDANTS : les inquiétudes liées à l’IA se propagent ; THG et Dunelm brillent - Zonebourse Suisse",
+            "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcko1cjdvRnprNzd5aTBXZklCOTdRal9OQ3hKUFFIMmVRRFdOeDJTUmtsWXM2NmdkRm8zNFROMldMakI4VnJHWFdZQ0JObnZmSWUwMlBaQllWZ21fVVhIYTQ1cU10SUQ1RHkxdlBrNkZPWjdJLVZTNHpzbVRzQ1ZZLTdVT0pjeVI3Tnc4MlBOR3gzTmRHM01OVmZWcWVWRG43eGhFTWtPQ1hUeEcxdXR3WEdJa0NxWWNsYzVKVW9JR1ItY0Nka0tQeEtWV2txSkJscWpSZWw4SXlmWjg?oc=5",
+            "date": "2026-10-15",
+            "source": "Zonebourse Suisse",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Halma (LON:HLMA) Hits New 1-Year Low - Here's Why - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRjVNMWxOWXA5RV96MGtEVnh6SExJRk1Lb2FpT0gxelZLUThXZ1ZERHpMWF95MEVHVEVXZFczelhDZ0VWTXRlek9ZTkxVejNHZXlnSTBTeURNNGhXa29uTFoyb3Qtdm9QbzBDdVNqdXhtSUhhVWttek9SWWhNeUNNVXczcXJteHI3aEYzaDFveWFkQU1laUN0VW55VXNZNkhyR3hISkl1TQ?oc=5",
+            "date": "2026-10-15",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Halma hits 52-week low. Stifel sets GBp 4,500 target for Halma stock - ad-hoc-news.de",
+            "lien": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWWhZRGhwMzhpNXpyMzNIbU11ckVaSTBBQWFzYXN5VTVubGtXenlWeW9wdFhoMGJnZ1RVeGREX1EwSnM0bjEyek9LT015Y1lDWmUxaDRqZzNya2NBNHRwVHZKVXQyV3NWR1JVanoxWnA4bENiZ3U1R3YzMjBITVRLNWFYVE1scEpxaG5xSFROZEVkZDk3S3MwX1hJQm1kaE1LUzA0dXRESi13STUybmstSUstSjhvQjBzTG0zamVPMHRHMDlV?oc=5",
+            "date": "2026-10-15",
+            "source": "ad-hoc-news.de",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Halma falls Tuesday, underperforms market - MarketWatch",
+            "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWTZXUGNUa3hBbmtXTXM5ZEozeUZIbkZadGtoMmRtVWVDREtOak9xYUU1NHUwVVNlRmVSeWV2S3Fzc1cyRkRwanZteGtTNXNXanBLbU9VTk4yRllnMVZCcEwwTDFOUjF0d3ZaaFZTcVl1WjFiSjVjWVR0UXlNcEEyeFUzd1llUXFtOXZmWHV0NWs3UDVGcFVUdFlGbzVKM3NXVXc?oc=5",
+            "date": "2026-10-13",
+            "source": "MarketWatch",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Is Halma (LSE:HLMA) Stock In Focus After A Trading Update Lifted Its Margin Outlook? - Kalkine Media",
+            "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeFM1WG1sRDlySjRqYWJKWEtOdUtjLWJINzViUmJNWHFUOTAtbjM1bl9yczIwZW95VnhZZkZ5WnNaOFkzeVFXWHNPMWNfSGdsR181d2RPS0U1NDdMTER0dGxXTWJMeFExNVprSlE0bEpnRmZqZFVJOHRSd3Fpem90akpOMTFKZUhza3o2RGRnakUyeFRNd1ZFMjZHbHVFOHVWNjY4T2F0eDB1NzUyM3BXTDNpZFhFN3pjQ2xjZ1lsQjNIZw?oc=5",
+            "date": "2026-10-12",
+            "source": "Kalkine Media",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 100,
       "decision": "sans réponse"
     }
   ]
