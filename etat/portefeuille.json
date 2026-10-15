@@ -18,103 +18,102 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-15",
-    "cree_le": "2026-10-15T09:44+00:00",
-    "liberation": 143.1979905871814,
+    "cree_le": "2026-10-15T14:49+00:00",
+    "liberation": 122.538286374663,
     "reserve_pct": null,
-    "score": 88.81656372698247,
+    "score": 89.32802703920606,
     "ordres": [
       {
-        "ticker": "VSEC",
+        "ticker": "SF",
         "side": "buy",
-        "quantity": 1.0,
-        "price": 142.1979905871814,
+        "quantity": 2.0,
+        "price": 60.7691431873315,
         "reason": "opportunité radar (score 89)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "VSEC",
-      "nom": "VSE Corporation",
-      "isin": "VSEC",
+      "ticker": "SF",
+      "nom": "Stifel",
+      "isin": "SF",
       "type": "action",
-      "prix": 158.64999389648438,
-      "score": 88.81656372698247,
-      "baisse": 0.3484064535880057,
-      "perf_5ans": 2.3585178093130166,
+      "prix": 67.80000305175781,
+      "score": 89.32802703920606,
+      "baisse": 0.22608720263664028,
+      "perf_5ans": 0.5397904617942606,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.44357743774460995,
-      "pos_12m": 0.6892596454640251,
-      "n_12m": 959,
-      "base_moy_12m": 0.30912185287033234,
-      "pire_12m": -0.5327356391641666,
-      "vs_marche_3m": -0.2191600180486205,
+      "moy_12m": 0.3893547481084653,
+      "pos_12m": 0.8483466362599772,
+      "n_12m": 877,
+      "base_moy_12m": 0.23277148585635285,
+      "pire_12m": -0.25204875162577123,
+      "vs_marche_3m": -0.1543331559582346,
       "devise": "USD",
-      "prix_eur": 142.1979905871814,
-      "fondamental": 91.0,
+      "prix_eur": 60.7691431873315,
+      "fondamental": 90.0,
       "fondamental_notes": [
-        "chiffre d'affaires +65.0% sur un an",
-        "bénéfices +488.4% sur un an",
-        "bénéfices attendus +164% sur 12 mois",
-        "analystes : « achat fort » (1.5/5, 9 avis)",
-        "objectif des analystes +59% : peu crédible, probablement pas encore révisé",
-        "P/E attendu 19.7 (actuel 52.2)",
-        "marge nette 6%",
-        "dette / capitaux propres 35 %",
-        "🏷️ braderie probable : -22% vs marché en 3 mois, alors que les bénéfices attendus montent (+164%) et que les analystes restent à l'achat (+8 pts)"
+        "chiffre d'affaires +12.7% sur un an",
+        "bénéfices +50.6% sur un an",
+        "bénéfices attendus +29% sur 12 mois",
+        "analystes : « conserver » (2.4/5, 8 avis)",
+        "objectif moyen des analystes : +21%",
+        "P/E attendu 9.7 (actuel 12.4)",
+        "marge nette 16%",
+        "dette / capitaux propres 52 %"
       ],
-      "score_global": 90.1,
-      "braderie": true
+      "score_global": 89.7,
+      "braderie": false
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -22% vs marché)",
-      "vs_marche_3m": -0.2191600180486205,
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -15% vs marché)",
+      "vs_marche_3m": -0.1543331559582346,
       "alertes": [],
       "recents": [
         {
-          "titre": "VSE Corporation (VSEC) Stock Forecasts - Yahoo! Finance Canada",
-          "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPU01IdDNQTEZpSWxQbEJucV80ZWE5V2swTjhFY1lhaE1DQmc5amFXZkk3NDN5NjlYeU5Rd0pRc29TTVE4LXZXV2VxLVBleXNJNnQ2QUplOFNkeTlyT1JCN292NVA1bmlROXhrdEJyMl9vWEN2ZEhGbjFzeG9VYzF0VGpnZ19aMU9xM0J0Q1M5OHI0SDA?oc=5",
+          "titre": "L’action TransMedics maintenue à Conserver par Stifel en raison de la concurrence - Investing.com France",
+          "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOT2hVeFZzNVpYZ1pfTmtmNGI4YzZHMUN3bGVaR0NvSGdjd0t0YzRYU2MyYWNxZVowUFBhTHV2NHp4NzZEY3dZdTk5VUhhbFBRejhNVHZkazFTNnNpZzdzcHEwV2oxcXc3TWRkU0QtaUdnYXNTLWRnNWVES0lHWVJHV216UVVVMDVHTUh3MVlXdklGWF9pUVJ5NlNMaEswMEU1QkUxQTZXcGVZYVZscmMwVERtTnJiUHFBSnFNa2hMS2VQQ1BSdnB6b2ZTLTVWZHhRZk4xd2xB?oc=5",
           "date": "2026-10-15",
-          "source": "Yahoo! Finance Canada",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "VSE Corporation Announces Investor Day Event in New York City - Business Wire",
-          "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQVQ0bm1CRmUyWkVDNGZkMEFpUi1penpjSngwTjV2MWJnTUlrZkZLOWxid051NmZuR216RlE3QW9hRFhqTUxsUk9HekhOcTBtUnV4SGtOS25HUHRScENCQkpHM20xWGgxTzFpbUNPUVhrX3g0clZCc3RPbVAyZE9JQUExTG1lMU00NFJpeU14UjRleHhsTXRycXdaWkVxcEhBWlRzUEJiUmR2SUxVTE43dmRoOVZxLU90QVE?oc=5",
-          "date": "2026-10-14",
-          "source": "Business Wire",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Maintenance and Repair Distributors Stocks Q2 Results: Benchmarking Fastenal (NASDAQ:FAST) - The Globe and Mail",
-          "lien": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNNHlMLXFqLVVfeWFyaDc5TFkyWUFHUTVuUnBHRjlITlBVQzBtb3hGdlcwQ1ZJcWN6Ujlmc2FHc2E5QmNMRVRoVnlTNElWT1ZaT3JWaXF1MTJCRW5Vd09OcUVwOXBrMlVFQWZrMjhLbTd3UXhQZ2o1aGx5dDBQOHllV0NlWHF6TDNubExpTzNfVGw4eWwzVFR5aHI1RldsUEpyM0Q5ZUR4cDR2SFl4NmFPQ3pwRkc1MXBLUjBOT0lDdEVMUHBlUHNLbWNNUFl4SXp0czA4UGdhN083c09SX0N5OUN0YWlSYl80Z2xrTjgyN29MX09rSDJENUlVcjhHc2VR?oc=5",
-          "date": "2026-10-14",
-          "source": "The Globe and Mail",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Jefferies identifie les meilleures valeurs aérospatiales pour 2028 - Investing.com France",
-          "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMnJMSS15VkQ2OWIxNm51QUd3N29GLURoS19tbVE2Z0pZQlFqWHpTbUlFa1lGeUJDWkVqMXJUNWZDeVdITUIwaUY5T0lQYVVzLTJBTmZKTU5lVHZfSE5XNGhla1diNS0tV2I0c3lTZElfc1pqN0FWX193VEVLS0IyanBhN3dqUmNGS25JNWFFMXowRld3MTg3anZsR3c3TFliSUlCazl2LWtHRUV2c1l2QllWcHJnbUhEZzVOMDVqRQ?oc=5",
-          "date": "2026-10-13",
           "source": "Investing.com France",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "VSE Corporation Announces Third Quarter 2026 Results Conference Call Date - StreetInsider",
-          "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTnE3QklEMjFIalNPTE1wSUlybnNNNDhFVVFFaWhQaWtxal9MMTVQUVpZZHpXQmh3T1dld3UxMENDNW95NUFtaThlaDlXV1pjV1B0OGFsY1hxTGhXZGFEaXppWUtQeGl1UE9lbkdlcmRyVlRnODZsTzdyY2ljMlY0Tll6NU04RWk0ai1qWThBQ01zNU9nQzNZd05pX0R5eVptWC1VMTdPVV9RcG1Ma3Rpc1NWb1JUV3ExUGhuWmN2MHdQSHhnM3VYcDYwWQ?oc=5",
-          "date": "2026-10-13",
-          "source": "StreetInsider",
+          "titre": "Stifel relève son objectif de cours sur Workday grâce à l’IA - Investing.com France",
+          "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQTFKcVY4RUZBOVg0c1VUMEpHWDFPVl9tblFFSWV1ZjRIUGI5VDFydGZ5TEo5Mk5TTVZzeVV1dmdUWUJFdEVLa0hBZEV2cHRYWm5lZHYyNDVBVkF2UUJwZDNoMlh2a2VLbmFnSllXcWhJUzdPc1dET3dYNUxKZUZNU0YtNVVxbDBYSTJoTE1aODZ4NW5yMFdiNl81VW53SDhCWDgtRF9WSUlzSmNTWVh3bHFiVGFsLUJlR3c?oc=5",
+          "date": "2026-10-15",
+          "source": "Investing.com France",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Stifel réduit son objectif de cours sur Post Holdings - Investing.com France",
+          "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSHBEVkpuX25FTUNJSTl5V2JQeG5hU1FtV0pPOFNDUnFMT2d6UU94WE5rcmdpMVZrYkx1T2owTEhIT2JKSGdSWnZCQ21FSUVOVmRscnR2UzNwc0ZYaEMwMFd3R1VIY3B4MTljWERFYVR5NU84QTRpbTN0cXp5dWM3Q3lNUDB3TGVKQjZtemJHblQtSWthY20zNDhrTGt5Z1VwTmgxcGxWM0VrUWNkT29lNG1R?oc=5",
+          "date": "2026-10-15",
+          "source": "Investing.com France",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Stifel relève l’objectif de cours de Mirum Pharmaceuticals après des approbations - Investing.com France",
+          "lien": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPa3VkcTFEeDd3ZWpfSXptQmdTeWVneVNEcllMUUx0Vk1ZajhIZWRoUVhBSkNsRTBvaWZoZHhxVmEtVUpZa1BNLUxPZlNCMjZtazdnZERtVjVycTBIT2RSWTMtaXE1d29oVWN1WGZneVQzYjdBZEZqcUllaGJpWHZLWVZ4U2VkV3pGSzVEaUR1aHpDMFJwT0tCYU55aW9feDZwZEg2Rm96bkwtNDRQaC02VkhOVXFtUnlrOUh0M3plNWw2bDFEdWVLQ18zSlhiZmQxRC1xMGNB?oc=5",
+          "date": "2026-10-15",
+          "source": "Investing.com France",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Stifel maintient son avis d’achat sur Rocket Lab après le retard de Neutron - Investing.com France",
+          "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNT1FNbVA0cEMyZ2JrcVVGQTB0MjJjeTVWeDlGQ3lLeGJhRFJtclgyc3JyUWtrZk5PRm9obFpVRUNuNk5jeGp6NTZJbnNrLVhkUC1RTWEwbzNXQnd1TTZta212U3phNTFmY0hKX0g5Wm9QWW40RkdLSW5Wb1FwUmpvYlJOV1JrWUFHektzMHFPNkMxQjI2eFp5NUJEVVRiZVZaQVdPMktGVmtabnMzOGJKc0ZzdkZ6RV9jVTYySVljTmdqOE1CSWgwendFTjFHZw?oc=5",
+          "date": "2026-10-15",
+          "source": "Investing.com France",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 98
+    "ticket": 99
   },
   "radar_proposes": [
     "MCD",
@@ -236,7 +235,8 @@
     "ASM.TO",
     "BOOT",
     "CENX",
-    "VSEC"
+    "VSEC",
+    "SF"
   ],
   "achats": [],
   "historique": [
@@ -9860,6 +9860,108 @@
         ]
       },
       "ticket": 97,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-15",
+      "cree_le": "2026-10-15T09:44+00:00",
+      "liberation": 143.1979905871814,
+      "reserve_pct": null,
+      "score": 88.81656372698247,
+      "ordres": [
+        {
+          "ticker": "VSEC",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 142.1979905871814,
+          "reason": "opportunité radar (score 89)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "VSEC",
+        "nom": "VSE Corporation",
+        "isin": "VSEC",
+        "type": "action",
+        "prix": 158.64999389648438,
+        "score": 88.81656372698247,
+        "baisse": 0.3484064535880057,
+        "perf_5ans": 2.3585178093130166,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.44357743774460995,
+        "pos_12m": 0.6892596454640251,
+        "n_12m": 959,
+        "base_moy_12m": 0.30912185287033234,
+        "pire_12m": -0.5327356391641666,
+        "vs_marche_3m": -0.2191600180486205,
+        "devise": "USD",
+        "prix_eur": 142.1979905871814,
+        "fondamental": 91.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +65.0% sur un an",
+          "bénéfices +488.4% sur un an",
+          "bénéfices attendus +164% sur 12 mois",
+          "analystes : « achat fort » (1.5/5, 9 avis)",
+          "objectif des analystes +59% : peu crédible, probablement pas encore révisé",
+          "P/E attendu 19.7 (actuel 52.2)",
+          "marge nette 6%",
+          "dette / capitaux propres 35 %",
+          "🏷️ braderie probable : -22% vs marché en 3 mois, alors que les bénéfices attendus montent (+164%) et que les analystes restent à l'achat (+8 pts)"
+        ],
+        "score_global": 90.1,
+        "braderie": true
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -22% vs marché)",
+        "vs_marche_3m": -0.2191600180486205,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "VSE Corporation (VSEC) Stock Forecasts - Yahoo! Finance Canada",
+            "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPU01IdDNQTEZpSWxQbEJucV80ZWE5V2swTjhFY1lhaE1DQmc5amFXZkk3NDN5NjlYeU5Rd0pRc29TTVE4LXZXV2VxLVBleXNJNnQ2QUplOFNkeTlyT1JCN292NVA1bmlROXhrdEJyMl9vWEN2ZEhGbjFzeG9VYzF0VGpnZ19aMU9xM0J0Q1M5OHI0SDA?oc=5",
+            "date": "2026-10-15",
+            "source": "Yahoo! Finance Canada",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "VSE Corporation Announces Investor Day Event in New York City - Business Wire",
+            "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQVQ0bm1CRmUyWkVDNGZkMEFpUi1penpjSngwTjV2MWJnTUlrZkZLOWxid051NmZuR216RlE3QW9hRFhqTUxsUk9HekhOcTBtUnV4SGtOS25HUHRScENCQkpHM20xWGgxTzFpbUNPUVhrX3g0clZCc3RPbVAyZE9JQUExTG1lMU00NFJpeU14UjRleHhsTXRycXdaWkVxcEhBWlRzUEJiUmR2SUxVTE43dmRoOVZxLU90QVE?oc=5",
+            "date": "2026-10-14",
+            "source": "Business Wire",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Maintenance and Repair Distributors Stocks Q2 Results: Benchmarking Fastenal (NASDAQ:FAST) - The Globe and Mail",
+            "lien": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNNHlMLXFqLVVfeWFyaDc5TFkyWUFHUTVuUnBHRjlITlBVQzBtb3hGdlcwQ1ZJcWN6Ujlmc2FHc2E5QmNMRVRoVnlTNElWT1ZaT3JWaXF1MTJCRW5Vd09OcUVwOXBrMlVFQWZrMjhLbTd3UXhQZ2o1aGx5dDBQOHllV0NlWHF6TDNubExpTzNfVGw4eWwzVFR5aHI1RldsUEpyM0Q5ZUR4cDR2SFl4NmFPQ3pwRkc1MXBLUjBOT0lDdEVMUHBlUHNLbWNNUFl4SXp0czA4UGdhN083c09SX0N5OUN0YWlSYl80Z2xrTjgyN29MX09rSDJENUlVcjhHc2VR?oc=5",
+            "date": "2026-10-14",
+            "source": "The Globe and Mail",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Jefferies identifie les meilleures valeurs aérospatiales pour 2028 - Investing.com France",
+            "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMnJMSS15VkQ2OWIxNm51QUd3N29GLURoS19tbVE2Z0pZQlFqWHpTbUlFa1lGeUJDWkVqMXJUNWZDeVdITUIwaUY5T0lQYVVzLTJBTmZKTU5lVHZfSE5XNGhla1diNS0tV2I0c3lTZElfc1pqN0FWX193VEVLS0IyanBhN3dqUmNGS25JNWFFMXowRld3MTg3anZsR3c3TFliSUlCazl2LWtHRUV2c1l2QllWcHJnbUhEZzVOMDVqRQ?oc=5",
+            "date": "2026-10-13",
+            "source": "Investing.com France",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "VSE Corporation Announces Third Quarter 2026 Results Conference Call Date - StreetInsider",
+            "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTnE3QklEMjFIalNPTE1wSUlybnNNNDhFVVFFaWhQaWtxal9MMTVQUVpZZHpXQmh3T1dld3UxMENDNW95NUFtaThlaDlXV1pjV1B0OGFsY1hxTGhXZGFEaXppWUtQeGl1UE9lbkdlcmRyVlRnODZsTzdyY2ljMlY0Tll6NU04RWk0ai1qWThBQ01zNU9nQzNZd05pX0R5eVptWC1VMTdPVV9RcG1Ma3Rpc1NWb1JUV3ExUGhuWmN2MHdQSHhnM3VYcDYwWQ?oc=5",
+            "date": "2026-10-13",
+            "source": "StreetInsider",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 98,
       "decision": "sans réponse"
     }
   ]
