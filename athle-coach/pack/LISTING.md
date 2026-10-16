@@ -1,6 +1,6 @@
 # Fiches de vente — Pack coachs athlé
 
-Fichier à vendre : `track-field-coach-prompts.pdf` (23 pages, 150 prompts).
+Fichier à vendre : `150-Lessons-for-Track-and-Field-Coaches.pdf` (23 pages, 150 prompts).
 Pour le régénérer après une modification de `prompts.js` : `node build.mjs`.
 
 ## Prix conseillé

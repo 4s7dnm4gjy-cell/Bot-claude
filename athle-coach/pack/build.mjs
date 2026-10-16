@@ -69,7 +69,7 @@ writeFileSync(join(here, 'pack.html'), html);
 const browser = await chromium.launch();
 const page = await browser.newPage();
 await page.setContent(html, { waitUntil: 'load' });
-await page.pdf({ path: join(here, 'track-field-coach-prompts.pdf'), format: 'A4', printBackground: true,
+await page.pdf({ path: join(here, '150-Lessons-for-Track-and-Field-Coaches.pdf'), format: 'A4', printBackground: true,
   displayHeaderFooter: true, headerTemplate: '<span></span>',
   footerTemplate: '<div style="font-size:8px;width:100%;text-align:center;color:#999">TrackPlan Coach Pack · <span class="pageNumber"></span></div>' });
 await browser.close();
