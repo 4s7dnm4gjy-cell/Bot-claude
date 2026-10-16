@@ -18,103 +18,102 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-16",
-    "cree_le": "2026-10-16T14:42+00:00",
-    "liberation": 140.10297357267055,
+    "cree_le": "2026-10-16T18:44+00:00",
+    "liberation": 139.47898948834182,
     "reserve_pct": null,
-    "score": 87.30375754109089,
+    "score": 85.9855187718832,
     "ordres": [
       {
-        "ticker": "RRX",
+        "ticker": "HL",
         "side": "buy",
-        "quantity": 1.0,
-        "price": 139.10297357267055,
-        "reason": "opportunité radar (score 87)"
+        "quantity": 10.0,
+        "price": 13.847898948834182,
+        "reason": "opportunité radar (score 86)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "RRX",
-      "nom": "Regal Rexnord",
-      "isin": "RRX",
+      "ticker": "HL",
+      "nom": "Hecla Mining",
+      "isin": "HL",
       "type": "action",
-      "prix": 156.0500030517578,
-      "score": 87.30375754109089,
-      "baisse": 0.3433765182129047,
-      "perf_5ans": 0.22499054775809224,
+      "prix": 15.53499984741211,
+      "score": 85.9855187718832,
+      "baisse": 0.5113293776408016,
+      "perf_5ans": 1.8864452871458464,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.30995103653102046,
-      "pos_12m": 0.7783251231527094,
-      "n_12m": 812,
-      "base_moy_12m": 0.15050080223112366,
-      "pire_12m": -0.39650625051818955,
-      "vs_marche_3m": -0.27577126300930566,
+      "moy_12m": 0.5000347048455337,
+      "pos_12m": 0.6090584028605482,
+      "n_12m": 839,
+      "base_moy_12m": 0.27297718706763413,
+      "pire_12m": -0.6933333641043189,
+      "vs_marche_3m": 0.058888967830803995,
       "devise": "USD",
-      "prix_eur": 139.10297357267055,
-      "fondamental": 95.5,
+      "prix_eur": 13.847898948834182,
+      "fondamental": 96.0,
       "fondamental_notes": [
-        "chiffre d'affaires +4.2% sur un an",
-        "bénéfices +47.1% sur un an",
-        "bénéfices attendus +177% sur 12 mois",
-        "analystes : « achat fort » (1.3/5, 10 avis)",
-        "objectif moyen des analystes : +48%",
-        "P/E attendu 12.1 (actuel 33.4)",
-        "marge nette 5%",
-        "dette / capitaux propres 69 %",
-        "🏷️ braderie probable : -28% vs marché en 3 mois, alors que les bénéfices attendus montent (+177%) et que les analystes restent à l'achat (+8 pts)"
+        "chiffre d'affaires +52.4% sur un an",
+        "bénéfices +92.9% sur un an",
+        "bénéfices attendus +46% sur 12 mois",
+        "analystes : « achat » (2.3/5, 10 avis)",
+        "objectif moyen des analystes : +47%",
+        "P/E attendu 15.0 (actuel 21.9)",
+        "marge nette 19%",
+        "dette / capitaux propres 1 %"
       ],
-      "score_global": 92.2,
-      "braderie": true
+      "score_global": 92.0,
+      "braderie": false
     },
     "actualites": {
-      "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -28% vs marché)",
-      "vs_marche_3m": -0.27577126300930566,
+      "verdict": "vert",
+      "resume": "rien d'alarmant dans l'actualité (3 mois : +6% vs marché)",
+      "vs_marche_3m": 0.058888967830803995,
       "alertes": [],
       "recents": [
         {
-          "titre": "Regal Rexnord Corporation $RRX Stock Holdings Lifted by Fort Washington Investment Advisors Inc. OH - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQVkF0MHgxRl84OFd0WWhSdk1RR3A2QmxjREw0Wk41Z3VUSmhsOUJVQnpQUTN0OTktM2tLTm1sYjhYLW1TRnVIeTd4aE5UaEVOcGV0d1VGeEFxSzdTdl90WWdVOXNvZkdNRzhDdVlpbzg5VGZLbGFqbC1USmxBd3JIX3hwVldyaDREZWpLRUZVWlpnRXVPTS1LUzBuaUtxcmJHaUV4MG5wLURva3N1TDN6aDVvMnZmbVRFUTQxcXQ3UDZBU3pHMk1NRHRXQkdTb1MyUjNvb0s2WEE3Z0xyRy1xOWVVQ1padjJNNkxxOFh0RQ?oc=5",
+          "titre": "TOUR D'HORIZON DE LA RECHERCHE AUX ÉTATS-UNIS-Bank7, Goldman Sachs, Morgan Stanley - Boursorama",
+          "lien": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNTjNnMTBZVllMbUw4QnJ2OC1aVHVlekNVVU1YcUZ3U0J1N0dIM3pTcl9GdTBaYXdNOTlKMVhLcmdNTGlRSzJoRld2c3FWWURoUTRYUDMzMTU1aHZPTnhWLXJYY1E4Sl9HRmlfTjBiVVV0cWFvV0FRUU9xNkY3c0V6b2QtblpCSHl1ek11OVJVVGxMZW9BX0J2cGlGdnJMbXVvRXVwMTl1UTVvNXU0cmt0bmFJSllXS3NqTC05aXBRX2h2dXRYSlV5SERsUFp6LTdYTkIwZ3FGc1ZGSF9IRXpnNHFPdDdTVVY4UE1mNlp5TXg2Yzh30gH0AUFVX3lxTE1OM2cxMFlWWUxtTDhCcnY4LVpUdWV6Q1VVTVhxRndTQnU3R0gzelNyX0Z1MFphd005OUoxWEtyZ01MaVFLMmhGV3ZzcVZZRGhRNFhQMzMxNTVodk9OeFYtclhjUThKX0dGaV9OMGJVVXRxYW9XQVFRT3E2RjdzRXpvZC1uWkJIeXV6TXU5UlVUbExlb0FfQnZwaUZ2ckxtdW9FdXAxOXVRNW81dTRya3RuYUlKWVdLc2pMLTlpcFFfaHZ1dFhKVXlIRGxQWnotN1hOQjBncUZzVkZIX0hFemc0cU90N1NVVjhQTWY2WnlNeDZjOHc?oc=5",
           "date": "2026-10-16",
-          "source": "MarketBeat",
+          "source": "Boursorama",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Regal Rexnord Corp (RRX) Shares Fall 3.8% -- What GF Score of 83 Tells Investors - GuruFocus",
-          "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdVBmRUR4WXM0dkVnUjJZbjhMUlJJQnBEalF4RzhHMURYdGxZMXpzcFpmRXpNT3h0TnlwcER2aFFYdURTYkhUeWlxYTRtTnBVS2k3cWxRWU96Ni1uejBzVkRGS1M0N2ZiOExMeWVIS3l2cDVrRWlObi11UzJXYXJjcWlnTGh2cEFmOEQ0cnJ2clJzSkhxalJzRy1LY2FuSUZDdUtwaDBsaWJ2RnlBOXF0SXZB?oc=5",
-          "date": "2026-10-14",
-          "source": "GuruFocus",
+          "titre": "Lobbying Update: $40,000 of HECLA MINING COMPANY lobbying was just disclosed - Quiver Quantitative",
+          "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTWNWVkp2Ym9tUFhRSzk2ZDQwQUttUXU1VWNCSHpTUUNoYlpiMnRnYjJtekY5WjluYWhWc2pfemZIUFhhbnhzTlJoNkFqTGgybmtpakxkYVhydnVlbHBLSVpnRHE1RjdpQ3pDNndMVG9ndmhUb2JhSG5CaTQ4X1NxVmFGV3N0OFpuNTVRN2VxV3BqaUlmdjktTWc3dlRKdEUzaHh6Sjg1UzMzcUdnNFhLS1ZHY1YwZw?oc=5",
+          "date": "2026-10-16",
+          "source": "Quiver Quantitative",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Regal Rexnord Corporation (RRX) Stock Forecasts - Yahoo! Finance Canada",
-          "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMzBRTnhBSXZ0YVFHbmc4SWZFc2Y5TmtOZ2VuRUNsZ1Q5VlpqNTdCd25MVkVhRmtUcm03TWRWQmNUa1FYN3oxU2dEM2dTN2hqTlMycHZONWE4ZkUzNkxvOXZJTDhOM0NVcUZTanVJbllEMmhSSE10MXJNcjVHTHNCN3BjMzdoNG84bzNjRC02ZTdyWEU?oc=5",
-          "date": "2026-10-14",
-          "source": "Yahoo! Finance Canada",
+          "titre": "HECLA MINING CO (HL.SW) Q1 FY2026 earnings call transcript - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZkFJZE5fRzJLdHNpQzhaS0gzaDhvbkZOaWdUQ1E3cEhkOGJCbTZ5MTFhRXRadXFzMXllV0xNXzhFX25neXpuNEoyem02bG9wUDFLWXNFeXRwZldTWndlc0pwdTZVZDQ3Yk82cWNMWjZ1R2lnOW9KM1ZQUnFvV2pMTUV0cTJldnNnZ2w5c1N2QQ?oc=5",
+          "date": "2026-10-16",
+          "source": "Yahoo Finance",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Form 4 Regal Rexnord Corporation: Timothy A. Dickson (SVP & Chief Digi & Info Ofc) For: 9 October - Investing.com UK",
-          "lien": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPRkprS0RvZmxqZ0dYVkRWS203MXZpVHFObjR0NUFzanJpMm5OeVBfRkczc1NkeWlJLUczc2tRYnVFdEJPVUJtVUxHTGpqYnlnQl9Wdmo5NFQ5UmxScTVSaWx5LXhEMnQ4c1RzM0lNdmFROWpmODhUS3Z0bk5xOGhNSFdYbm9qUmFxWjQ0TG5NUzRDbjlqTWJIUTlrOGFjRWl6LWU2ek01aUdlRUd2M3RNR2VMRlFTcF9fRDJ6UU82cUJOX3RyYmo5Mk1PWkl2b3UtMS1TUWdYY2lvcHVCc01NcUNEUmlDSFhu?oc=5",
-          "date": "2026-10-14",
-          "source": "Investing.com UK",
+          "titre": "Les actions des sociétés minières d'argent progressent grâce à la baisse du dollar et aux rendements obligatai - Boursorama",
+          "lien": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxNNzktN3dGaVFlalNUb0hTRUVWWXNyeXBNY25uN1JxLVB5Z1VuNXFDR2d1MERZRkFRRDhfRUdQZUcxd2pQSEFPV3JXam9yVEd2ZW4wUTRHMXY4Z1JnblpEamV0OTY2S0dVTWl6Ym41aGdoRl9Sdi05ZTZ1SmVSYnBXU1oteHBLclM1cmVqdmJkU1pUcVhmMVFsT2ZZSFh4SnlXY0pyOUgzdjNSM1paaGRCSFhvM2pseThOejlqb0tQUnBxTU8xdmpMNjZyUHZyTXhVanZqc0VXZkFabGdIWE5yWU1kZm1nZlk3YmtlVGY1NjgwMkoyQ1NMSHd2dE5Nei1raEZvMERfQUI4UWJIT0tVZVBvWWFfbXg4ZkVFV01PcEdnd3JfWVZWcWhCSkRLaG5WQzVUVGhjeFFoVU1JMzltZ25NUF9DNENfWENjZ1FDMGJ0cDJRLURKRFRQZXJ1RlhrcXJRdjNzVkgwNXcwUUHSAe4CQVVfeXFMTTc5LTd3RmlRZWpTVG9IU0VFVllzcnlwTWNubjdScS1QeWdVbjVxQ0dndTBEWUZBUUQ4X0VHUGVHMXdqUEhBT1dyV2pvclRHdmVuMFE0RzF2OGdSZ25aRGpldDk2NktHVU1pemJuNWhnaEZfUnYtOWU2dUplUmJwV1NaLXhwS3JTNXJlanZiZFNaVHFYZjFRbE9mWUhYeEp5V2NKcjlIM3YzUjNaWmhkQkhYbzNqbHk4Tno5am9LUFJwcU1PMXZqTDY2clB2ck14VWp2anNFV2ZBWmxnSFhOcllNZGZtZ2ZZN2JrZVRmNTY4MDJKMkNTTEh3dnROTXota2hGbzBEX0FCOFFiSE9LVWVQb1lhX214OGZFRVdNT3BHZ3dyX1lWVnFoQkpES2huVkM1VFRoY3hRaFVNSTM5bWduTVBfQzRDX1hDY2dRQzBidHAyUS1ESkRUUGVydUZYa3FyUXYzc1ZIMDV3MFFB?oc=5",
+          "date": "2026-10-15",
+          "source": "Boursorama",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Regal Rexnord Corporation (RRX) - What Are Researchers Saying About This Stock? - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNa1VORXV1eG9hSWhoTHNJbnNOMldaLWlYRXlMaFhnQV83UktYaFh2U3RyeHQwNnM1WjF6aF9xS05ucFpHTlRYdm9RdGM5UWxLLURCdFVlOVEwUm1WWUxYU2pPdlMzcW5XSlZXZGk4R0wzVC1xZmphS3dvMXRhbGJGNkpUQ20wc1ZFRUxkbEFncUR6dF9jNjUwN3JiNXFleDFqQXRJeXBUeFNFOVZ1cHJyNFNYa3pQT3FxdUtrYWhHNS13UkI1U01TU3BtZ2N5TU9ldzJvXw?oc=5",
-          "date": "2026-10-13",
-          "source": "MarketBeat",
+          "titre": "LES MARCHÉS BOURSIERS AMÉRICAINS EN PLEINE ÉVOLUTION-Nvidia, Penske Automotive, ManpowerGroup - Boursorama",
+          "lien": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQSUcyTkNZVF85REp3ckh6dF85bHpZYmlyMnlNMDhfYzlvMzdsQWVZOUp5RUE4S2hLVWd5aWZQUy1VOUZDSmdfckVXUHRSM3F3VG5PUXlHVkdFZW5GemJHbnZoV3BBckx1ejYtM1ZLQzRVTGF2d1IzTGNlT0tIMlVoazVHYlFEVmJ5QlFYOEt4NExxc2xkd054aHBrdk16eHQ1V3hTdXlkam1ubkJMU0RNckd6ZWhFOGFpSmg4QzA1dHg3ZGJEdEF6eHFvb29SZDhvWUcyXy1xeTlHNXpKZWhwbWpxbnBuOU5fU1J2SWlMOVR1bENHNXBvalJCVzFSekdhWEpB0gGDAkFVX3lxTFBJRzJOQ1lUXzlESndySHp0XzlselliaXIyeU0wOF9jOW8zN2xBZVk5SnlFQThLaEtVZ3lpZlBTLVU5RkNKZ19yRVdQdFIzcXdUbk9ReUdWR0VlbkZ6YkdudmhXcEFyTHV6Ni0zVktDNFVMYXZ3UjNMY2VPS0gyVWhrNUdiUURWYnlCUVg4S3g0THFzbGR3TnhocGt2TXp4dDVXeFN1eWRqbW5uQkxTRE1yR3plaEU4YWlKaDhDMDV0eDdkYkR0QXp4cW9vb1JkOG9ZRzJfLXF5OUc1ekplaHBtanFucG45Tl9TUnZJaUw5VHVsQ0c1cG9qUkJXMVJ6R2FYSkE?oc=5",
+          "date": "2026-10-15",
+          "source": "Boursorama",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 102
+    "ticket": 103
   },
   "radar_proposes": [
     "MCD",
@@ -240,7 +239,8 @@
     "SF",
     "HLMA.L",
     "LYC.AX",
-    "RRX"
+    "RRX",
+    "HL"
   ],
   "achats": [],
   "historique": [
@@ -10281,6 +10281,108 @@
         ]
       },
       "ticket": 101,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-16",
+      "cree_le": "2026-10-16T14:42+00:00",
+      "liberation": 140.10297357267055,
+      "reserve_pct": null,
+      "score": 87.30375754109089,
+      "ordres": [
+        {
+          "ticker": "RRX",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 139.10297357267055,
+          "reason": "opportunité radar (score 87)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "RRX",
+        "nom": "Regal Rexnord",
+        "isin": "RRX",
+        "type": "action",
+        "prix": 156.0500030517578,
+        "score": 87.30375754109089,
+        "baisse": 0.3433765182129047,
+        "perf_5ans": 0.22499054775809224,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.30995103653102046,
+        "pos_12m": 0.7783251231527094,
+        "n_12m": 812,
+        "base_moy_12m": 0.15050080223112366,
+        "pire_12m": -0.39650625051818955,
+        "vs_marche_3m": -0.27577126300930566,
+        "devise": "USD",
+        "prix_eur": 139.10297357267055,
+        "fondamental": 95.5,
+        "fondamental_notes": [
+          "chiffre d'affaires +4.2% sur un an",
+          "bénéfices +47.1% sur un an",
+          "bénéfices attendus +177% sur 12 mois",
+          "analystes : « achat fort » (1.3/5, 10 avis)",
+          "objectif moyen des analystes : +48%",
+          "P/E attendu 12.1 (actuel 33.4)",
+          "marge nette 5%",
+          "dette / capitaux propres 69 %",
+          "🏷️ braderie probable : -28% vs marché en 3 mois, alors que les bénéfices attendus montent (+177%) et que les analystes restent à l'achat (+8 pts)"
+        ],
+        "score_global": 92.2,
+        "braderie": true
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -28% vs marché)",
+        "vs_marche_3m": -0.27577126300930566,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Regal Rexnord Corporation $RRX Stock Holdings Lifted by Fort Washington Investment Advisors Inc. OH - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQVkF0MHgxRl84OFd0WWhSdk1RR3A2QmxjREw0Wk41Z3VUSmhsOUJVQnpQUTN0OTktM2tLTm1sYjhYLW1TRnVIeTd4aE5UaEVOcGV0d1VGeEFxSzdTdl90WWdVOXNvZkdNRzhDdVlpbzg5VGZLbGFqbC1USmxBd3JIX3hwVldyaDREZWpLRUZVWlpnRXVPTS1LUzBuaUtxcmJHaUV4MG5wLURva3N1TDN6aDVvMnZmbVRFUTQxcXQ3UDZBU3pHMk1NRHRXQkdTb1MyUjNvb0s2WEE3Z0xyRy1xOWVVQ1padjJNNkxxOFh0RQ?oc=5",
+            "date": "2026-10-16",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Regal Rexnord Corp (RRX) Shares Fall 3.8% -- What GF Score of 83 Tells Investors - GuruFocus",
+            "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdVBmRUR4WXM0dkVnUjJZbjhMUlJJQnBEalF4RzhHMURYdGxZMXpzcFpmRXpNT3h0TnlwcER2aFFYdURTYkhUeWlxYTRtTnBVS2k3cWxRWU96Ni1uejBzVkRGS1M0N2ZiOExMeWVIS3l2cDVrRWlObi11UzJXYXJjcWlnTGh2cEFmOEQ0cnJ2clJzSkhxalJzRy1LY2FuSUZDdUtwaDBsaWJ2RnlBOXF0SXZB?oc=5",
+            "date": "2026-10-14",
+            "source": "GuruFocus",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Regal Rexnord Corporation (RRX) Stock Forecasts - Yahoo! Finance Canada",
+            "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMzBRTnhBSXZ0YVFHbmc4SWZFc2Y5TmtOZ2VuRUNsZ1Q5VlpqNTdCd25MVkVhRmtUcm03TWRWQmNUa1FYN3oxU2dEM2dTN2hqTlMycHZONWE4ZkUzNkxvOXZJTDhOM0NVcUZTanVJbllEMmhSSE10MXJNcjVHTHNCN3BjMzdoNG84bzNjRC02ZTdyWEU?oc=5",
+            "date": "2026-10-14",
+            "source": "Yahoo! Finance Canada",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Form 4 Regal Rexnord Corporation: Timothy A. Dickson (SVP & Chief Digi & Info Ofc) For: 9 October - Investing.com UK",
+            "lien": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPRkprS0RvZmxqZ0dYVkRWS203MXZpVHFObjR0NUFzanJpMm5OeVBfRkczc1NkeWlJLUczc2tRYnVFdEJPVUJtVUxHTGpqYnlnQl9Wdmo5NFQ5UmxScTVSaWx5LXhEMnQ4c1RzM0lNdmFROWpmODhUS3Z0bk5xOGhNSFdYbm9qUmFxWjQ0TG5NUzRDbjlqTWJIUTlrOGFjRWl6LWU2ek01aUdlRUd2M3RNR2VMRlFTcF9fRDJ6UU82cUJOX3RyYmo5Mk1PWkl2b3UtMS1TUWdYY2lvcHVCc01NcUNEUmlDSFhu?oc=5",
+            "date": "2026-10-14",
+            "source": "Investing.com UK",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Regal Rexnord Corporation (RRX) - What Are Researchers Saying About This Stock? - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNa1VORXV1eG9hSWhoTHNJbnNOMldaLWlYRXlMaFhnQV83UktYaFh2U3RyeHQwNnM1WjF6aF9xS05ucFpHTlRYdm9RdGM5UWxLLURCdFVlOVEwUm1WWUxYU2pPdlMzcW5XSlZXZGk4R0wzVC1xZmphS3dvMXRhbGJGNkpUQ20wc1ZFRUxkbEFncUR6dF9jNjUwN3JiNXFleDFqQXRJeXBUeFNFOVZ1cHJyNFNYa3pQT3FxdUtrYWhHNS13UkI1U01TU3BtZ2N5TU9ldzJvXw?oc=5",
+            "date": "2026-10-13",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 102,
       "decision": "sans réponse"
     }
   ]
