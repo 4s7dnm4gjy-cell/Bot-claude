@@ -21,7 +21,7 @@ export const COLORS = { navy: '#0a1630', ink: '#111827', orange: '#ff5a1f', blue
 export const FONT_CSS = `
 @font-face { font-family: "Anton"; src: url(data:font/woff2;base64,${b64('fonts/anton.woff2')}) format("woff2"); }
 .display { font-family: "Anton", "Inter Display", sans-serif; text-transform: uppercase; letter-spacing: .01em; font-weight: 400; }
-body { font-family: "Inter", "Helvetica Neue", Arial, sans-serif; }
+body { font-family: Arial, "Liberation Sans", "Helvetica Neue", sans-serif; }
 `;
 
 // Logo : trois couloirs inclinés + nom.

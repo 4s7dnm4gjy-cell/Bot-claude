@@ -2,8 +2,6 @@
 // Usage : PLAYWRIGHT=/chemin/vers/playwright/index.mjs node build.mjs
 import { CHAPTERS } from './prompts.js';
 import { PHOTO, CHAPTER_PHOTO, FOCUS, COLORS as C, FONT_CSS, logo } from './brand/brand.mjs';
-import { execFileSync } from 'node:child_process';
-import { rmSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -31,6 +29,7 @@ const chapters = CHAPTERS.map((c, ci) => `
 const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><style>
 ${FONT_CSS}
 @page { size: A4; margin: 16mm 15mm 18mm; }
+@page :first { margin: 0; }
 * { box-sizing: border-box; }
 body { font-size: 10pt; line-height: 1.45; color: ${C.ink}; margin: 0; }
 .ph { background: #ffe9df; color: #c2410c; border-radius: 3px; padding: 0 2px; font-weight: 600; }
@@ -133,18 +132,9 @@ ${chapters}
 
 const browser = await chromium.launch();
 const page = await browser.newPage();
-const out = join(here, '150-Lessons-for-Track-and-Field-Coaches.pdf');
-const coverPdf = join(here, '.cover.pdf'), bodyPdf = join(here, '.body.pdf');
-const [head] = html.split('<!--BODY-->');
-await page.setContent(head.replace('</head>', '<style>@page { margin: 0 }</style></head>') + '</body></html>', { waitUntil: 'load' });
+// Une seule passe, sans en-tête ni pied de page : fichier simple et léger, lisible partout.
+await page.setContent(html.replace('<!--BODY-->', ''), { waitUntil: 'load' });
 await page.evaluate(() => document.fonts.ready);
-await page.pdf({ path: coverPdf, format: 'A4', printBackground: true, pageRanges: '1' });
-await page.setContent(html.replace(/<div class="cover">[\s\S]*?<!--BODY-->/, ''), { waitUntil: 'load' });
-await page.evaluate(() => document.fonts.ready);
-await page.pdf({ path: bodyPdf, format: 'A4', printBackground: true,
-  displayHeaderFooter: true, headerTemplate: '<span></span>',
-  footerTemplate: `<div style="font-size:7.5px;width:100%;padding:0 15mm;display:flex;justify-content:space-between;color:#9ca3af;font-family:Inter,Arial"><span>TRACKPLAN · 150 Lessons for Track &amp; Field Coaches</span><span class="pageNumber"></span></div>` });
+await page.pdf({ path: join(here, '150-Lessons-for-Track-and-Field-Coaches.pdf'), format: 'A4', printBackground: true });
 await browser.close();
-execFileSync('pdfunite', [coverPdf, bodyPdf, out]);
-rmSync(coverPdf); rmSync(bodyPdf);
 console.log(`PDF généré : ${total} prompts`);
