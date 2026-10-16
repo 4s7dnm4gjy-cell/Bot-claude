@@ -18,114 +18,103 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-16",
-    "cree_le": "2026-10-16T09:37+00:00",
-    "liberation": 147.74449812628458,
+    "cree_le": "2026-10-16T14:42+00:00",
+    "liberation": 140.10297357267055,
     "reserve_pct": null,
-    "score": 87.35663277630098,
+    "score": 87.30375754109089,
     "ordres": [
       {
-        "ticker": "LYC.AX",
+        "ticker": "RRX",
         "side": "buy",
-        "quantity": 22.0,
-        "price": 6.670204460285663,
+        "quantity": 1.0,
+        "price": 139.10297357267055,
         "reason": "opportunité radar (score 87)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "LYC.AX",
-      "nom": "Lynas",
-      "isin": "LYC.AX",
+      "ticker": "RRX",
+      "nom": "Regal Rexnord",
+      "isin": "RRX",
       "type": "action",
-      "prix": 10.8100004196167,
-      "score": 87.35663277630098,
-      "baisse": 0.5101948088312922,
-      "perf_5ans": 0.580409382816574,
+      "prix": 156.0500030517578,
+      "score": 87.30375754109089,
+      "baisse": 0.3433765182129047,
+      "perf_5ans": 0.22499054775809224,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.8285332201804542,
-      "pos_12m": 0.5490683229813664,
-      "n_12m": 805,
-      "base_moy_12m": 0.5557689532097451,
-      "pire_12m": -0.8399999802230228,
-      "vs_marche_3m": -0.3480968216624707,
-      "devise": "AUD",
-      "prix_eur": 6.670204460285663,
-      "fondamental": 97.0,
+      "moy_12m": 0.30995103653102046,
+      "pos_12m": 0.7783251231527094,
+      "n_12m": 812,
+      "base_moy_12m": 0.15050080223112366,
+      "pire_12m": -0.39650625051818955,
+      "vs_marche_3m": -0.27577126300930566,
+      "devise": "USD",
+      "prix_eur": 139.10297357267055,
+      "fondamental": 95.5,
       "fondamental_notes": [
-        "chiffre d'affaires +86.7% sur un an",
-        "bénéfices +5920.3% sur un an",
-        "bénéfices attendus +286% sur 12 mois",
-        "analystes : « achat » (2.1/5, 12 avis)",
-        "objectif des analystes +61% : peu crédible, probablement pas encore révisé",
-        "P/E attendu 13.3 (actuel 51.5)",
-        "marge nette 23%",
-        "dette / capitaux propres 10 %",
-        "🏷️ braderie probable : -35% vs marché en 3 mois, alors que les bénéfices attendus montent (+286%) et que les analystes restent à l'achat (+8 pts)"
+        "chiffre d'affaires +4.2% sur un an",
+        "bénéfices +47.1% sur un an",
+        "bénéfices attendus +177% sur 12 mois",
+        "analystes : « achat fort » (1.3/5, 10 avis)",
+        "objectif moyen des analystes : +48%",
+        "P/E attendu 12.1 (actuel 33.4)",
+        "marge nette 5%",
+        "dette / capitaux propres 69 %",
+        "🏷️ braderie probable : -28% vs marché en 3 mois, alors que les bénéfices attendus montent (+177%) et que les analystes restent à l'achat (+8 pts)"
       ],
-      "score_global": 93.1,
+      "score_global": 92.2,
       "braderie": true
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -35% vs marché)",
-      "vs_marche_3m": -0.3480968216624707,
-      "alertes": [
-        {
-          "titre": "Jim Lynas: Co Down man fined £11,250 for unlawfully keeping controlled waste on land in Belfast - Belfast Telegraph",
-          "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNT291RkxnbFY0NXZ2QXpTTDNiS0hTek5WZnJkNVhXbk56ZkxSX2lQOHMwXzRGVF94SjlsNkxBS2hveXpybHJrbWJYQ3lLYXJFRTBpX2VRNGd1bV9HNG55ejhIdm1nUHFHLTA5LVdaaFVRVWFZV2Jmak1wNkhqcmc4SldFZUN5dkozY3RJMjNEUy10NGFqT1phNEpaVEpNc3dCNEczV1BldHZnMFZZcDkxc1IwVjNSTV91ZllvNW50UmZlX3ZpSDhfRzc0ZmtvNUF3SFpOWm9HUkFKdUxzd3lB?oc=5",
-          "date": "2026-10-15",
-          "source": "Belfast Telegraph",
-          "gravite": 1,
-          "mots": [
-            "fined"
-          ]
-        }
-      ],
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -28% vs marché)",
+      "vs_marche_3m": -0.27577126300930566,
+      "alertes": [],
       "recents": [
         {
-          "titre": "What Do Lynas Rare Earths' (ASX:LYC) FY26 Results Reveal About Its Growth Plans? - Kalkine",
-          "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaFRwZnA4TTA0S2xVOFFhdXZjbDEtNE9DMTZYdG1MX21aLTJ1Q1g0aEFod19wcWdUa1lXbUVuRGpFd1lxWXZWYjBJdHdsaTNnOXA5ZWVyM28xaGNtdUpNbjg2aGl6bTAwZ2NLM2VSbEYxMFlzOUd6eUhlVGp1VE1iZm1TMzBkX0dPY2dTMi1kWVBaZ3pYZ0I2LWNjc1huTmRBeDM2NUV5RXdIVjR4bE04?oc=5",
+          "titre": "Regal Rexnord Corporation $RRX Stock Holdings Lifted by Fort Washington Investment Advisors Inc. OH - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQVkF0MHgxRl84OFd0WWhSdk1RR3A2QmxjREw0Wk41Z3VUSmhsOUJVQnpQUTN0OTktM2tLTm1sYjhYLW1TRnVIeTd4aE5UaEVOcGV0d1VGeEFxSzdTdl90WWdVOXNvZkdNRzhDdVlpbzg5VGZLbGFqbC1USmxBd3JIX3hwVldyaDREZWpLRUZVWlpnRXVPTS1LUzBuaUtxcmJHaUV4MG5wLURva3N1TDN6aDVvMnZmbVRFUTQxcXQ3UDZBU3pHMk1NRHRXQkdTb1MyUjNvb0s2WEE3Z0xyRy1xOWVVQ1padjJNNkxxOFh0RQ?oc=5",
           "date": "2026-10-16",
-          "source": "Kalkine",
+          "source": "MarketBeat",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Lynas Rare Earths Limited (LYC.AX) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-          "lien": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBudkUtbzhyTnVpWkl5WWh3RWhNblFISXVVWFgzd1h1TG9YX2dSdXU5YkFkb1hXSnBnaXVNSm5RRWNnM1diOWZpanZmOHdCZWh1OVBIZQ?oc=5",
-          "date": "2026-10-15",
+          "titre": "Regal Rexnord Corp (RRX) Shares Fall 3.8% -- What GF Score of 83 Tells Investors - GuruFocus",
+          "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdVBmRUR4WXM0dkVnUjJZbjhMUlJJQnBEalF4RzhHMURYdGxZMXpzcFpmRXpNT3h0TnlwcER2aFFYdURTYkhUeWlxYTRtTnBVS2k3cWxRWU96Ni1uejBzVkRGS1M0N2ZiOExMeWVIS3l2cDVrRWlObi11UzJXYXJjcWlnTGh2cEFmOEQ0cnJ2clJzSkhxalJzRy1LY2FuSUZDdUtwaDBsaWJ2RnlBOXF0SXZB?oc=5",
+          "date": "2026-10-14",
+          "source": "GuruFocus",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Regal Rexnord Corporation (RRX) Stock Forecasts - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMzBRTnhBSXZ0YVFHbmc4SWZFc2Y5TmtOZ2VuRUNsZ1Q5VlpqNTdCd25MVkVhRmtUcm03TWRWQmNUa1FYN3oxU2dEM2dTN2hqTlMycHZONWE4ZkUzNkxvOXZJTDhOM0NVcUZTanVJbllEMmhSSE10MXJNcjVHTHNCN3BjMzdoNG84bzNjRC02ZTdyWEU?oc=5",
+          "date": "2026-10-14",
           "source": "Yahoo! Finance Canada",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Rare Earth Stocks MP Lynas UUUU USAR Ratings 2026 - Rare Earth Exchanges",
-          "lien": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5YSWxtWTQ3SUxvSTlYZnVOWjlzcF9SZ1Z0TVRGVkFqUkJZWjNlUVNXUS1nOFlZUzVTaEhXZC1aLXM2dS1hdWp0Ty1zeXRsbGIyN0M3bkNFaEtRa0pLQ2pQam5QbjhtNE5qTi03RFctYnNsQXdnYmxwNkNTNXNfUQ?oc=5",
-          "date": "2026-10-15",
-          "source": "Rare Earth Exchanges",
+          "titre": "Form 4 Regal Rexnord Corporation: Timothy A. Dickson (SVP & Chief Digi & Info Ofc) For: 9 October - Investing.com UK",
+          "lien": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPRkprS0RvZmxqZ0dYVkRWS203MXZpVHFObjR0NUFzanJpMm5OeVBfRkczc1NkeWlJLUczc2tRYnVFdEJPVUJtVUxHTGpqYnlnQl9Wdmo5NFQ5UmxScTVSaWx5LXhEMnQ4c1RzM0lNdmFROWpmODhUS3Z0bk5xOGhNSFdYbm9qUmFxWjQ0TG5NUzRDbjlqTWJIUTlrOGFjRWl6LWU2ek01aUdlRUd2M3RNR2VMRlFTcF9fRDJ6UU82cUJOX3RyYmo5Mk1PWkl2b3UtMS1TUWdYY2lvcHVCc01NcUNEUmlDSFhu?oc=5",
+          "date": "2026-10-14",
+          "source": "Investing.com UK",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Morgan Stanley targets Lynas stock at AUD 14.65 - ad-hoc-news.de",
-          "lien": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYkNLN3N3SWYxXzYzenc3eFRpWlllNXlBZ1hMSU9adHhaTVhxSGVoYlZpNXdzRGFXbVgyTzE2OU1SXzdQTnlXSHFwWGdhY1IxX1dVR1NHbzd4bVpOSUpkSUZPdEk1eUlOYk9yb3ZQZGc0cFdNakZJMTNtSHllZ0cxZl9iQWxqNkFzbWlqTWxaODdaU3lfbS03TElWMlZERDNUaVU0SEdLV0dRZw?oc=5",
-          "date": "2026-10-15",
-          "source": "ad-hoc-news.de",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "COMMENT | M'sia's devastation creep: What's next with Lynas? - Malaysiakini",
-          "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRmtZbWd5ZkhMM1Foc0ZVdFM5UkpHTTJUcEl0VW81M2cwWFF1TEw0bWV1dGN5QkJVd0VseXZIb21uaHZ2TmRDaXFRYUVPamRnSDB3UFlmZHEzbVcwR1J4WFlYb2RBUVQ3b3R3U0J0WEVCRW8weE5oUFQ4UnVLTU05RENYSDd2WFpXZWxEMDQ0RzRMdkZDNTEtTHNR?oc=5",
-          "date": "2026-10-15",
-          "source": "Malaysiakini",
+          "titre": "Regal Rexnord Corporation (RRX) - What Are Researchers Saying About This Stock? - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNa1VORXV1eG9hSWhoTHNJbnNOMldaLWlYRXlMaFhnQV83UktYaFh2U3RyeHQwNnM1WjF6aF9xS05ucFpHTlRYdm9RdGM5UWxLLURCdFVlOVEwUm1WWUxYU2pPdlMzcW5XSlZXZGk4R0wzVC1xZmphS3dvMXRhbGJGNkpUQ20wc1ZFRUxkbEFncUR6dF9jNjUwN3JiNXFleDFqQXRJeXBUeFNFOVZ1cHJyNFNYa3pQT3FxdUtrYWhHNS13UkI1U01TU3BtZ2N5TU9ldzJvXw?oc=5",
+          "date": "2026-10-13",
+          "source": "MarketBeat",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 101
+    "ticket": 102
   },
   "radar_proposes": [
     "MCD",
@@ -250,7 +239,8 @@
     "VSEC",
     "SF",
     "HLMA.L",
-    "LYC.AX"
+    "LYC.AX",
+    "RRX"
   ],
   "achats": [],
   "historique": [
@@ -10178,6 +10168,119 @@
         ]
       },
       "ticket": 100,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-16",
+      "cree_le": "2026-10-16T09:37+00:00",
+      "liberation": 147.74449812628458,
+      "reserve_pct": null,
+      "score": 87.35663277630098,
+      "ordres": [
+        {
+          "ticker": "LYC.AX",
+          "side": "buy",
+          "quantity": 22.0,
+          "price": 6.670204460285663,
+          "reason": "opportunité radar (score 87)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "LYC.AX",
+        "nom": "Lynas",
+        "isin": "LYC.AX",
+        "type": "action",
+        "prix": 10.8100004196167,
+        "score": 87.35663277630098,
+        "baisse": 0.5101948088312922,
+        "perf_5ans": 0.580409382816574,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.8285332201804542,
+        "pos_12m": 0.5490683229813664,
+        "n_12m": 805,
+        "base_moy_12m": 0.5557689532097451,
+        "pire_12m": -0.8399999802230228,
+        "vs_marche_3m": -0.3480968216624707,
+        "devise": "AUD",
+        "prix_eur": 6.670204460285663,
+        "fondamental": 97.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +86.7% sur un an",
+          "bénéfices +5920.3% sur un an",
+          "bénéfices attendus +286% sur 12 mois",
+          "analystes : « achat » (2.1/5, 12 avis)",
+          "objectif des analystes +61% : peu crédible, probablement pas encore révisé",
+          "P/E attendu 13.3 (actuel 51.5)",
+          "marge nette 23%",
+          "dette / capitaux propres 10 %",
+          "🏷️ braderie probable : -35% vs marché en 3 mois, alors que les bénéfices attendus montent (+286%) et que les analystes restent à l'achat (+8 pts)"
+        ],
+        "score_global": 93.1,
+        "braderie": true
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -35% vs marché)",
+        "vs_marche_3m": -0.3480968216624707,
+        "alertes": [
+          {
+            "titre": "Jim Lynas: Co Down man fined £11,250 for unlawfully keeping controlled waste on land in Belfast - Belfast Telegraph",
+            "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNT291RkxnbFY0NXZ2QXpTTDNiS0hTek5WZnJkNVhXbk56ZkxSX2lQOHMwXzRGVF94SjlsNkxBS2hveXpybHJrbWJYQ3lLYXJFRTBpX2VRNGd1bV9HNG55ejhIdm1nUHFHLTA5LVdaaFVRVWFZV2Jmak1wNkhqcmc4SldFZUN5dkozY3RJMjNEUy10NGFqT1phNEpaVEpNc3dCNEczV1BldHZnMFZZcDkxc1IwVjNSTV91ZllvNW50UmZlX3ZpSDhfRzc0ZmtvNUF3SFpOWm9HUkFKdUxzd3lB?oc=5",
+            "date": "2026-10-15",
+            "source": "Belfast Telegraph",
+            "gravite": 1,
+            "mots": [
+              "fined"
+            ]
+          }
+        ],
+        "recents": [
+          {
+            "titre": "What Do Lynas Rare Earths' (ASX:LYC) FY26 Results Reveal About Its Growth Plans? - Kalkine",
+            "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaFRwZnA4TTA0S2xVOFFhdXZjbDEtNE9DMTZYdG1MX21aLTJ1Q1g0aEFod19wcWdUa1lXbUVuRGpFd1lxWXZWYjBJdHdsaTNnOXA5ZWVyM28xaGNtdUpNbjg2aGl6bTAwZ2NLM2VSbEYxMFlzOUd6eUhlVGp1VE1iZm1TMzBkX0dPY2dTMi1kWVBaZ3pYZ0I2LWNjc1huTmRBeDM2NUV5RXdIVjR4bE04?oc=5",
+            "date": "2026-10-16",
+            "source": "Kalkine",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Lynas Rare Earths Limited (LYC.AX) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+            "lien": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBudkUtbzhyTnVpWkl5WWh3RWhNblFISXVVWFgzd1h1TG9YX2dSdXU5YkFkb1hXSnBnaXVNSm5RRWNnM1diOWZpanZmOHdCZWh1OVBIZQ?oc=5",
+            "date": "2026-10-15",
+            "source": "Yahoo! Finance Canada",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Rare Earth Stocks MP Lynas UUUU USAR Ratings 2026 - Rare Earth Exchanges",
+            "lien": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5YSWxtWTQ3SUxvSTlYZnVOWjlzcF9SZ1Z0TVRGVkFqUkJZWjNlUVNXUS1nOFlZUzVTaEhXZC1aLXM2dS1hdWp0Ty1zeXRsbGIyN0M3bkNFaEtRa0pLQ2pQam5QbjhtNE5qTi03RFctYnNsQXdnYmxwNkNTNXNfUQ?oc=5",
+            "date": "2026-10-15",
+            "source": "Rare Earth Exchanges",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Morgan Stanley targets Lynas stock at AUD 14.65 - ad-hoc-news.de",
+            "lien": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYkNLN3N3SWYxXzYzenc3eFRpWlllNXlBZ1hMSU9adHhaTVhxSGVoYlZpNXdzRGFXbVgyTzE2OU1SXzdQTnlXSHFwWGdhY1IxX1dVR1NHbzd4bVpOSUpkSUZPdEk1eUlOYk9yb3ZQZGc0cFdNakZJMTNtSHllZ0cxZl9iQWxqNkFzbWlqTWxaODdaU3lfbS03TElWMlZERDNUaVU0SEdLV0dRZw?oc=5",
+            "date": "2026-10-15",
+            "source": "ad-hoc-news.de",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "COMMENT | M'sia's devastation creep: What's next with Lynas? - Malaysiakini",
+            "lien": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRmtZbWd5ZkhMM1Foc0ZVdFM5UkpHTTJUcEl0VW81M2cwWFF1TEw0bWV1dGN5QkJVd0VseXZIb21uaHZ2TmRDaXFRYUVPamRnSDB3UFlmZHEzbVcwR1J4WFlYb2RBUVQ3b3R3U0J0WEVCRW8weE5oUFQ4UnVLTU05RENYSDd2WFpXZWxEMDQ0RzRMdkZDNTEtTHNR?oc=5",
+            "date": "2026-10-15",
+            "source": "Malaysiakini",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 101,
       "decision": "sans réponse"
     }
   ]
