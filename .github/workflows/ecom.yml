@@ -1,0 +1,52 @@
+name: Bot e-commerce (eBay -> AliExpress -> Shopify)
+
+# Chaque matin : cherche les produits qui se vendent sur eBay, leur trouve un
+# fournisseur AliExpress et les ajoute à la boutique Shopify (brouillons par défaut).
+# Lancement manuel possible depuis l'onglet Actions, avec ou sans simulation.
+on:
+  schedule:
+    - cron: "17 5 * * *"   # ~7h à Paris
+  workflow_dispatch:
+    inputs:
+      simulation:
+        description: "Simulation (ne rien créer dans Shopify)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bot-etat
+  cancel-in-progress: false
+
+jobs:
+  ecom:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PYTHONUNBUFFERED: "1"
+      EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+      EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+      ALIEXPRESS_APP_KEY: ${{ secrets.ALIEXPRESS_APP_KEY }}
+      ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
+      SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE }}
+      SHOPIFY_ACCESS_TOKEN: ${{ secrets.SHOPIFY_ACCESS_TOKEN }}
+      SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
+      SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Chercher et importer les produits
+        run: python -m ecom_bot ${{ (github.event_name == 'workflow_dispatch' && inputs.simulation) && '--simulation' || '' }}
+      - name: Enregistrer
+        if: always()
+        run: |
+          git config user.name "bot-ecom"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add etat rapports
+          git diff --cached --quiet || (git commit -m "Bot e-commerce $(date +%d/%m)" && git pull --rebase && git push)

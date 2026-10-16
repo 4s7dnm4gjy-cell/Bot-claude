@@ -2,7 +2,7 @@ name: Tests
 
 on:
   push:
-    paths: ["invest_bot/**", "tests/**", "requirements.txt"]
+    paths: ["invest_bot/**", "ecom_bot/**", "tests/**", "requirements.txt"]
 
 jobs:
   tests:

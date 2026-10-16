@@ -1,0 +1,41 @@
+# Réglages du bot e-commerce (python -m ecom_bot). Mode d'emploi : ECOM.md
+
+ebay:
+  marketplace: EBAY_FR          # EBAY_FR, EBAY_DE, EBAY_GB, EBAY_US…
+  # Boutiques eBay à espionner (pseudo du vendeur, visible sur l'annonce).
+  # Laisser vide pour chercher chez tous les vendeurs.
+  vendeurs: []
+  # Ce qu'on cherche (au moins un mot-clé ou une catégorie).
+  mots_cles:
+    - organisateur cuisine
+    - lampe led
+    - accessoire voiture
+    - jouet chat
+  categories: []                # n° de catégorie eBay, ex. "20625" (cuisine)
+  annonces_par_recherche: 50
+  ventes_min: 10                # une annonce doit avoir au moins 10 ventes
+  prix_ebay_min: 10
+  prix_ebay_max: 150
+  revoir_apres_jours: 7
+
+aliexpress:
+  pays_livraison: BE
+  langue: FR
+  devise: EUR
+  note_min: 90                  # % d'avis positifs du produit
+  commandes_min: 50             # commandes récentes du fournisseur
+  ressemblance_min: 0.25        # 0 à 1 : mots en commun entre les deux titres
+  frais_port_estimes: 0         # € ajoutés au coût si la livraison n'est pas gratuite
+
+prix:
+  coefficient: 2.5              # prix de vente = coût x 2,5…
+  sous_prix_ebay: 0.05          # …sans dépasser le prix eBay moins 5 %
+  marge_min: 8                  # € nets minimum par vente, sinon le produit est ignoré
+  frais_paiement_pct: 2.9       # Shopify Payments (vérifiez votre tarif)
+  frais_paiement_fixe: 0.30
+
+shopify:
+  produits_par_jour: 100
+  statut: DRAFT                 # DRAFT = brouillons à vérifier ; ACTIVE = en vente directement
+  type_produit: ""
+  collection_id: ""             # ex. gid://shopify/Collection/123456789

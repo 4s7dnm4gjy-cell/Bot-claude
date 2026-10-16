@@ -7,7 +7,8 @@ Tout tourne seul sur GitHub : rien à installer, rien à coller.
 
 📊 **[Tableau de bord du jour](rapports/tableau-de-bord.md)** ·
 🧪 **[Backtest sur données réelles](rapports/backtest.md)** ·
-📬 **[Propositions](../../issues?q=label%3Aproposition)**
+📬 **[Propositions](../../issues?q=label%3Aproposition)** ·
+🛒 **[Bot e-commerce eBay → AliExpress → Shopify](ECOM.md)**
 
 ## Comment ça marche pour vous
 
