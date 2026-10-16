@@ -15,106 +15,7 @@
     "MCD": "2026-10-05",
     "IGG.L": "2026-10-06"
   },
-  "opportunite": {
-    "type": "opportunite",
-    "date": "2026-10-16",
-    "cree_le": "2026-10-16T18:44+00:00",
-    "liberation": 139.47898948834182,
-    "reserve_pct": null,
-    "score": 85.9855187718832,
-    "ordres": [
-      {
-        "ticker": "HL",
-        "side": "buy",
-        "quantity": 10.0,
-        "price": 13.847898948834182,
-        "reason": "opportunité radar (score 86)"
-      }
-    ],
-    "notes": [],
-    "total": 0,
-    "radar": {
-      "ticker": "HL",
-      "nom": "Hecla Mining",
-      "isin": "HL",
-      "type": "action",
-      "prix": 15.53499984741211,
-      "score": 85.9855187718832,
-      "baisse": 0.5113293776408016,
-      "perf_5ans": 1.8864452871458464,
-      "tranche": "80-100 (soldé)",
-      "moy_12m": 0.5000347048455337,
-      "pos_12m": 0.6090584028605482,
-      "n_12m": 839,
-      "base_moy_12m": 0.27297718706763413,
-      "pire_12m": -0.6933333641043189,
-      "vs_marche_3m": 0.058888967830803995,
-      "devise": "USD",
-      "prix_eur": 13.847898948834182,
-      "fondamental": 96.0,
-      "fondamental_notes": [
-        "chiffre d'affaires +52.4% sur un an",
-        "bénéfices +92.9% sur un an",
-        "bénéfices attendus +46% sur 12 mois",
-        "analystes : « achat » (2.3/5, 10 avis)",
-        "objectif moyen des analystes : +47%",
-        "P/E attendu 15.0 (actuel 21.9)",
-        "marge nette 19%",
-        "dette / capitaux propres 1 %"
-      ],
-      "score_global": 92.0,
-      "braderie": false
-    },
-    "actualites": {
-      "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : +6% vs marché)",
-      "vs_marche_3m": 0.058888967830803995,
-      "alertes": [],
-      "recents": [
-        {
-          "titre": "TOUR D'HORIZON DE LA RECHERCHE AUX ÉTATS-UNIS-Bank7, Goldman Sachs, Morgan Stanley - Boursorama",
-          "lien": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNTjNnMTBZVllMbUw4QnJ2OC1aVHVlekNVVU1YcUZ3U0J1N0dIM3pTcl9GdTBaYXdNOTlKMVhLcmdNTGlRSzJoRld2c3FWWURoUTRYUDMzMTU1aHZPTnhWLXJYY1E4Sl9HRmlfTjBiVVV0cWFvV0FRUU9xNkY3c0V6b2QtblpCSHl1ek11OVJVVGxMZW9BX0J2cGlGdnJMbXVvRXVwMTl1UTVvNXU0cmt0bmFJSllXS3NqTC05aXBRX2h2dXRYSlV5SERsUFp6LTdYTkIwZ3FGc1ZGSF9IRXpnNHFPdDdTVVY4UE1mNlp5TXg2Yzh30gH0AUFVX3lxTE1OM2cxMFlWWUxtTDhCcnY4LVpUdWV6Q1VVTVhxRndTQnU3R0gzelNyX0Z1MFphd005OUoxWEtyZ01MaVFLMmhGV3ZzcVZZRGhRNFhQMzMxNTVodk9OeFYtclhjUThKX0dGaV9OMGJVVXRxYW9XQVFRT3E2RjdzRXpvZC1uWkJIeXV6TXU5UlVUbExlb0FfQnZwaUZ2ckxtdW9FdXAxOXVRNW81dTRya3RuYUlKWVdLc2pMLTlpcFFfaHZ1dFhKVXlIRGxQWnotN1hOQjBncUZzVkZIX0hFemc0cU90N1NVVjhQTWY2WnlNeDZjOHc?oc=5",
-          "date": "2026-10-16",
-          "source": "Boursorama",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Lobbying Update: $40,000 of HECLA MINING COMPANY lobbying was just disclosed - Quiver Quantitative",
-          "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTWNWVkp2Ym9tUFhRSzk2ZDQwQUttUXU1VWNCSHpTUUNoYlpiMnRnYjJtekY5WjluYWhWc2pfemZIUFhhbnhzTlJoNkFqTGgybmtpakxkYVhydnVlbHBLSVpnRHE1RjdpQ3pDNndMVG9ndmhUb2JhSG5CaTQ4X1NxVmFGV3N0OFpuNTVRN2VxV3BqaUlmdjktTWc3dlRKdEUzaHh6Sjg1UzMzcUdnNFhLS1ZHY1YwZw?oc=5",
-          "date": "2026-10-16",
-          "source": "Quiver Quantitative",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "HECLA MINING CO (HL.SW) Q1 FY2026 earnings call transcript - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZkFJZE5fRzJLdHNpQzhaS0gzaDhvbkZOaWdUQ1E3cEhkOGJCbTZ5MTFhRXRadXFzMXllV0xNXzhFX25neXpuNEoyem02bG9wUDFLWXNFeXRwZldTWndlc0pwdTZVZDQ3Yk82cWNMWjZ1R2lnOW9KM1ZQUnFvV2pMTUV0cTJldnNnZ2w5c1N2QQ?oc=5",
-          "date": "2026-10-16",
-          "source": "Yahoo Finance",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Les actions des sociétés minières d'argent progressent grâce à la baisse du dollar et aux rendements obligatai - Boursorama",
-          "lien": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxNNzktN3dGaVFlalNUb0hTRUVWWXNyeXBNY25uN1JxLVB5Z1VuNXFDR2d1MERZRkFRRDhfRUdQZUcxd2pQSEFPV3JXam9yVEd2ZW4wUTRHMXY4Z1JnblpEamV0OTY2S0dVTWl6Ym41aGdoRl9Sdi05ZTZ1SmVSYnBXU1oteHBLclM1cmVqdmJkU1pUcVhmMVFsT2ZZSFh4SnlXY0pyOUgzdjNSM1paaGRCSFhvM2pseThOejlqb0tQUnBxTU8xdmpMNjZyUHZyTXhVanZqc0VXZkFabGdIWE5yWU1kZm1nZlk3YmtlVGY1NjgwMkoyQ1NMSHd2dE5Nei1raEZvMERfQUI4UWJIT0tVZVBvWWFfbXg4ZkVFV01PcEdnd3JfWVZWcWhCSkRLaG5WQzVUVGhjeFFoVU1JMzltZ25NUF9DNENfWENjZ1FDMGJ0cDJRLURKRFRQZXJ1RlhrcXJRdjNzVkgwNXcwUUHSAe4CQVVfeXFMTTc5LTd3RmlRZWpTVG9IU0VFVllzcnlwTWNubjdScS1QeWdVbjVxQ0dndTBEWUZBUUQ4X0VHUGVHMXdqUEhBT1dyV2pvclRHdmVuMFE0RzF2OGdSZ25aRGpldDk2NktHVU1pemJuNWhnaEZfUnYtOWU2dUplUmJwV1NaLXhwS3JTNXJlanZiZFNaVHFYZjFRbE9mWUhYeEp5V2NKcjlIM3YzUjNaWmhkQkhYbzNqbHk4Tno5am9LUFJwcU1PMXZqTDY2clB2ck14VWp2anNFV2ZBWmxnSFhOcllNZGZtZ2ZZN2JrZVRmNTY4MDJKMkNTTEh3dnROTXota2hGbzBEX0FCOFFiSE9LVWVQb1lhX214OGZFRVdNT3BHZ3dyX1lWVnFoQkpES2huVkM1VFRoY3hRaFVNSTM5bWduTVBfQzRDX1hDY2dRQzBidHAyUS1ESkRUUGVydUZYa3FyUXYzc1ZIMDV3MFFB?oc=5",
-          "date": "2026-10-15",
-          "source": "Boursorama",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "LES MARCHÉS BOURSIERS AMÉRICAINS EN PLEINE ÉVOLUTION-Nvidia, Penske Automotive, ManpowerGroup - Boursorama",
-          "lien": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQSUcyTkNZVF85REp3ckh6dF85bHpZYmlyMnlNMDhfYzlvMzdsQWVZOUp5RUE4S2hLVWd5aWZQUy1VOUZDSmdfckVXUHRSM3F3VG5PUXlHVkdFZW5GemJHbnZoV3BBckx1ejYtM1ZLQzRVTGF2d1IzTGNlT0tIMlVoazVHYlFEVmJ5QlFYOEt4NExxc2xkd054aHBrdk16eHQ1V3hTdXlkam1ubkJMU0RNckd6ZWhFOGFpSmg4QzA1dHg3ZGJEdEF6eHFvb29SZDhvWUcyXy1xeTlHNXpKZWhwbWpxbnBuOU5fU1J2SWlMOVR1bENHNXBvalJCVzFSekdhWEpB0gGDAkFVX3lxTFBJRzJOQ1lUXzlESndySHp0XzlselliaXIyeU0wOF9jOW8zN2xBZVk5SnlFQThLaEtVZ3lpZlBTLVU5RkNKZ19yRVdQdFIzcXdUbk9ReUdWR0VlbkZ6YkdudmhXcEFyTHV6Ni0zVktDNFVMYXZ3UjNMY2VPS0gyVWhrNUdiUURWYnlCUVg4S3g0THFzbGR3TnhocGt2TXp4dDVXeFN1eWRqbW5uQkxTRE1yR3plaEU4YWlKaDhDMDV0eDdkYkR0QXp4cW9vb1JkOG9ZRzJfLXF5OUc1ekplaHBtanFucG45Tl9TUnZJaUw5VHVsQ0c1cG9qUkJXMVJ6R2FYSkE?oc=5",
-          "date": "2026-10-15",
-          "source": "Boursorama",
-          "gravite": 0,
-          "mots": []
-        }
-      ]
-    },
-    "ticket": 103
-  },
+  "opportunite": null,
   "radar_proposes": [
     "MCD",
     "IGG.L",
@@ -10383,6 +10284,107 @@
         ]
       },
       "ticket": 102,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-16",
+      "cree_le": "2026-10-16T18:44+00:00",
+      "liberation": 139.47898948834182,
+      "reserve_pct": null,
+      "score": 85.9855187718832,
+      "ordres": [
+        {
+          "ticker": "HL",
+          "side": "buy",
+          "quantity": 10.0,
+          "price": 13.847898948834182,
+          "reason": "opportunité radar (score 86)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "HL",
+        "nom": "Hecla Mining",
+        "isin": "HL",
+        "type": "action",
+        "prix": 15.53499984741211,
+        "score": 85.9855187718832,
+        "baisse": 0.5113293776408016,
+        "perf_5ans": 1.8864452871458464,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.5000347048455337,
+        "pos_12m": 0.6090584028605482,
+        "n_12m": 839,
+        "base_moy_12m": 0.27297718706763413,
+        "pire_12m": -0.6933333641043189,
+        "vs_marche_3m": 0.058888967830803995,
+        "devise": "USD",
+        "prix_eur": 13.847898948834182,
+        "fondamental": 96.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +52.4% sur un an",
+          "bénéfices +92.9% sur un an",
+          "bénéfices attendus +46% sur 12 mois",
+          "analystes : « achat » (2.3/5, 10 avis)",
+          "objectif moyen des analystes : +47%",
+          "P/E attendu 15.0 (actuel 21.9)",
+          "marge nette 19%",
+          "dette / capitaux propres 1 %"
+        ],
+        "score_global": 92.0,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : +6% vs marché)",
+        "vs_marche_3m": 0.058888967830803995,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "TOUR D'HORIZON DE LA RECHERCHE AUX ÉTATS-UNIS-Bank7, Goldman Sachs, Morgan Stanley - Boursorama",
+            "lien": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNTjNnMTBZVllMbUw4QnJ2OC1aVHVlekNVVU1YcUZ3U0J1N0dIM3pTcl9GdTBaYXdNOTlKMVhLcmdNTGlRSzJoRld2c3FWWURoUTRYUDMzMTU1aHZPTnhWLXJYY1E4Sl9HRmlfTjBiVVV0cWFvV0FRUU9xNkY3c0V6b2QtblpCSHl1ek11OVJVVGxMZW9BX0J2cGlGdnJMbXVvRXVwMTl1UTVvNXU0cmt0bmFJSllXS3NqTC05aXBRX2h2dXRYSlV5SERsUFp6LTdYTkIwZ3FGc1ZGSF9IRXpnNHFPdDdTVVY4UE1mNlp5TXg2Yzh30gH0AUFVX3lxTE1OM2cxMFlWWUxtTDhCcnY4LVpUdWV6Q1VVTVhxRndTQnU3R0gzelNyX0Z1MFphd005OUoxWEtyZ01MaVFLMmhGV3ZzcVZZRGhRNFhQMzMxNTVodk9OeFYtclhjUThKX0dGaV9OMGJVVXRxYW9XQVFRT3E2RjdzRXpvZC1uWkJIeXV6TXU5UlVUbExlb0FfQnZwaUZ2ckxtdW9FdXAxOXVRNW81dTRya3RuYUlKWVdLc2pMLTlpcFFfaHZ1dFhKVXlIRGxQWnotN1hOQjBncUZzVkZIX0hFemc0cU90N1NVVjhQTWY2WnlNeDZjOHc?oc=5",
+            "date": "2026-10-16",
+            "source": "Boursorama",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Lobbying Update: $40,000 of HECLA MINING COMPANY lobbying was just disclosed - Quiver Quantitative",
+            "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTWNWVkp2Ym9tUFhRSzk2ZDQwQUttUXU1VWNCSHpTUUNoYlpiMnRnYjJtekY5WjluYWhWc2pfemZIUFhhbnhzTlJoNkFqTGgybmtpakxkYVhydnVlbHBLSVpnRHE1RjdpQ3pDNndMVG9ndmhUb2JhSG5CaTQ4X1NxVmFGV3N0OFpuNTVRN2VxV3BqaUlmdjktTWc3dlRKdEUzaHh6Sjg1UzMzcUdnNFhLS1ZHY1YwZw?oc=5",
+            "date": "2026-10-16",
+            "source": "Quiver Quantitative",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "HECLA MINING CO (HL.SW) Q1 FY2026 earnings call transcript - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZkFJZE5fRzJLdHNpQzhaS0gzaDhvbkZOaWdUQ1E3cEhkOGJCbTZ5MTFhRXRadXFzMXllV0xNXzhFX25neXpuNEoyem02bG9wUDFLWXNFeXRwZldTWndlc0pwdTZVZDQ3Yk82cWNMWjZ1R2lnOW9KM1ZQUnFvV2pMTUV0cTJldnNnZ2w5c1N2QQ?oc=5",
+            "date": "2026-10-16",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Les actions des sociétés minières d'argent progressent grâce à la baisse du dollar et aux rendements obligatai - Boursorama",
+            "lien": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxNNzktN3dGaVFlalNUb0hTRUVWWXNyeXBNY25uN1JxLVB5Z1VuNXFDR2d1MERZRkFRRDhfRUdQZUcxd2pQSEFPV3JXam9yVEd2ZW4wUTRHMXY4Z1JnblpEamV0OTY2S0dVTWl6Ym41aGdoRl9Sdi05ZTZ1SmVSYnBXU1oteHBLclM1cmVqdmJkU1pUcVhmMVFsT2ZZSFh4SnlXY0pyOUgzdjNSM1paaGRCSFhvM2pseThOejlqb0tQUnBxTU8xdmpMNjZyUHZyTXhVanZqc0VXZkFabGdIWE5yWU1kZm1nZlk3YmtlVGY1NjgwMkoyQ1NMSHd2dE5Nei1raEZvMERfQUI4UWJIT0tVZVBvWWFfbXg4ZkVFV01PcEdnd3JfWVZWcWhCSkRLaG5WQzVUVGhjeFFoVU1JMzltZ25NUF9DNENfWENjZ1FDMGJ0cDJRLURKRFRQZXJ1RlhrcXJRdjNzVkgwNXcwUUHSAe4CQVVfeXFMTTc5LTd3RmlRZWpTVG9IU0VFVllzcnlwTWNubjdScS1QeWdVbjVxQ0dndTBEWUZBUUQ4X0VHUGVHMXdqUEhBT1dyV2pvclRHdmVuMFE0RzF2OGdSZ25aRGpldDk2NktHVU1pemJuNWhnaEZfUnYtOWU2dUplUmJwV1NaLXhwS3JTNXJlanZiZFNaVHFYZjFRbE9mWUhYeEp5V2NKcjlIM3YzUjNaWmhkQkhYbzNqbHk4Tno5am9LUFJwcU1PMXZqTDY2clB2ck14VWp2anNFV2ZBWmxnSFhOcllNZGZtZ2ZZN2JrZVRmNTY4MDJKMkNTTEh3dnROTXota2hGbzBEX0FCOFFiSE9LVWVQb1lhX214OGZFRVdNT3BHZ3dyX1lWVnFoQkpES2huVkM1VFRoY3hRaFVNSTM5bWduTVBfQzRDX1hDY2dRQzBidHAyUS1ESkRUUGVydUZYa3FyUXYzc1ZIMDV3MFFB?oc=5",
+            "date": "2026-10-15",
+            "source": "Boursorama",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "LES MARCHÉS BOURSIERS AMÉRICAINS EN PLEINE ÉVOLUTION-Nvidia, Penske Automotive, ManpowerGroup - Boursorama",
+            "lien": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQSUcyTkNZVF85REp3ckh6dF85bHpZYmlyMnlNMDhfYzlvMzdsQWVZOUp5RUE4S2hLVWd5aWZQUy1VOUZDSmdfckVXUHRSM3F3VG5PUXlHVkdFZW5GemJHbnZoV3BBckx1ejYtM1ZLQzRVTGF2d1IzTGNlT0tIMlVoazVHYlFEVmJ5QlFYOEt4NExxc2xkd054aHBrdk16eHQ1V3hTdXlkam1ubkJMU0RNckd6ZWhFOGFpSmg4QzA1dHg3ZGJEdEF6eHFvb29SZDhvWUcyXy1xeTlHNXpKZWhwbWpxbnBuOU5fU1J2SWlMOVR1bENHNXBvalJCVzFSekdhWEpB0gGDAkFVX3lxTFBJRzJOQ1lUXzlESndySHp0XzlselliaXIyeU0wOF9jOW8zN2xBZVk5SnlFQThLaEtVZ3lpZlBTLVU5RkNKZ19yRVdQdFIzcXdUbk9ReUdWR0VlbkZ6YkdudmhXcEFyTHV6Ni0zVktDNFVMYXZ3UjNMY2VPS0gyVWhrNUdiUURWYnlCUVg4S3g0THFzbGR3TnhocGt2TXp4dDVXeFN1eWRqbW5uQkxTRE1yR3plaEU4YWlKaDhDMDV0eDdkYkR0QXp4cW9vb1JkOG9ZRzJfLXF5OUc1ekplaHBtanFucG45Tl9TUnZJaUw5VHVsQ0c1cG9qUkJXMVJ6R2FYSkE?oc=5",
+            "date": "2026-10-15",
+            "source": "Boursorama",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 103,
       "decision": "sans réponse"
     }
   ]
