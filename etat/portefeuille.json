@@ -15,7 +15,107 @@
     "MCD": "2026-10-05",
     "IGG.L": "2026-10-06"
   },
-  "opportunite": null,
+  "opportunite": {
+    "type": "opportunite",
+    "date": "2026-10-17",
+    "cree_le": "2026-10-17T09:08+00:00",
+    "liberation": 297.5370123602918,
+    "reserve_pct": null,
+    "score": 92.77903972004057,
+    "ordres": [
+      {
+        "ticker": "WDC",
+        "side": "buy",
+        "quantity": 1.0,
+        "price": 296.5370123602918,
+        "reason": "opportunité radar (score 93)"
+      }
+    ],
+    "notes": [],
+    "total": 0,
+    "radar": {
+      "ticker": "WDC",
+      "nom": "Western Digital",
+      "isin": "WDC",
+      "type": "action",
+      "prix": 333.29998779296875,
+      "score": 92.77903972004057,
+      "baisse": 0.55321147200676,
+      "perf_5ans": 6.888853976832358,
+      "tranche": "80-100 (soldé)",
+      "moy_12m": 0.7729207673966317,
+      "pos_12m": 0.8252688172043011,
+      "n_12m": 744,
+      "base_moy_12m": 0.4361575934043081,
+      "pire_12m": -0.4842496551037535,
+      "vs_marche_3m": -0.34685868169395695,
+      "devise": "USD",
+      "prix_eur": 296.5370123602918,
+      "fondamental": 100.0,
+      "fondamental_notes": [
+        "chiffre d'affaires +43.8% sur un an",
+        "bénéfices +984.1% sur un an",
+        "bénéfices attendus +23% sur 12 mois",
+        "analystes : « achat fort » (1.5/5, 24 avis)",
+        "objectif des analystes +101% : peu crédible, probablement pas encore révisé",
+        "P/E attendu 10.1 (actuel 12.4)",
+        "marge nette 73%",
+        "dette / capitaux propres 13 %",
+        "🏷️ braderie probable : -35% vs marché en 3 mois, alors que les bénéfices attendus montent (+23%) et que les analystes restent à l'achat (+8 pts)"
+      ],
+      "score_global": 97.1,
+      "braderie": true
+    },
+    "actualites": {
+      "verdict": "orange",
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -35% vs marché)",
+      "vs_marche_3m": -0.34685868169395695,
+      "alertes": [],
+      "recents": [
+        {
+          "titre": "Western Digital Corporation : Wells Fargo Securities optimiste sur le dossier - Zonebourse Suisse",
+          "lien": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNzkyRGRrODQxRDRzY2tETWRmd29RTm8wVnNOSHhlRm5RcHJDakM3U2pTMlJNdzhNN2wyOGJJYS04Ykc0MDdUT2phT25UX3BMUXVoc0RrNk9qLVpqNWV3N1hJSmxSS0c2WTN1d1ExNlZDZy1NYlZCMGtqdXZzMnB5WFJqaVA4VjA4amtTYV90Y2c0NHVKRmMyMnoybkY0NE9lNUtjUUdtQ0NnaFRFTVRqWThnZjJDQXFERjlQbHZPSnJyVXlOZDluWW5hbHlVMkJ4?oc=5",
+          "date": "2026-10-16",
+          "source": "Zonebourse Suisse",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Western Digital (WDC) Says CFO Mark Long Is Leaving - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcGpqN2FBaUo3Nk5FVkxXWGpHcDJGTVZYVWFGNVUyV2IyQ2hyV0pxN2VUWTlJdWptZjlIdEZESzF2SnIzQWI0U241bDUtaS0wWk1RaDk2TlV1VXIwUHlQMW5TLWRUdHZHYjdNZ19CWmFkVFdLeFZpbHlkaklxX3A2RUozZXdaTmVpOUVaZDNtMDdrSXVtMlZ0VQ?oc=5",
+          "date": "2026-10-16",
+          "source": "Yahoo Finance",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Seagate and Western Digital Stocks Have Tanked on Toshiba Fears. Wells Fargo Is Still Bullish. - Barron's",
+          "lien": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdXpxcDVwX3ZsSzBiNUFDVHlqdllDbkJSTUtjTG9CMGNybGFSRzg1Z2FDWmdheFg1UEtWRTQ2b1VsLUVYT1B1NnVrekRmV2ttYXIxMFhVVDVQQS1jOEZ0QkpHZlRxalkxR1hEeEJadnZYY0FCMDFMRzhxZzl4RmRpZ3JiSDFydw?oc=5",
+          "date": "2026-10-16",
+          "source": "Barron's",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Entegris, Micron, AMD, Marvell Technology, and Western Digital Shares Are Falling, What You Need To Know - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZTB1MzZ2TXlkOVZYTXAtRmZDdjdPTlVJRkZVMDZxdWgzY01kSmVtVk1TT0piY1pISFRsM0w1SVEtZjdrY3pPQ3RMWi0yTTdqU09OSnQ0STNUbXNiOHZ3OHVCSkRQUFBkaDRlUDdNLXA3cVBLSzl5ZGVSVTBfcEVfMnV1MWFKaThxNHFRTnV2YzFhTUI4Qi1IMFVZRnlHb1ZVOFpsVENR?oc=5",
+          "date": "2026-10-16",
+          "source": "Yahoo Finance",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Seagate, Western Digital Face Supply Risks as AI Demand Drives Capacity Expansion - Benzinga",
+          "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVG9lMjVQTWZzQkhzczdyY2l2blA0c0taX1hWV0FVTmhkSWtvZkxKWDdmMWxfQTlacWpzNjdyN21JX2dWUkQtTGRfSDRLRFRRT1RZWl9aOERDX29RTlVZY2pvcXdYd3FVOXo3dkp3UXlLU0x0TlY3bktodEhMU202MGxPUDdpMEJocFJKTFhkVGNsS3pjc0dISTFuRDgwR0dnVGdBektIUUhOYjY2YXI4TDdSeHk5RU1MOVVyeEZrSG9oWVJudUxEaHpkbGNZUQ?oc=5",
+          "date": "2026-10-16",
+          "source": "Benzinga",
+          "gravite": 0,
+          "mots": []
+        }
+      ]
+    },
+    "ticket": 104
+  },
   "radar_proposes": [
     "MCD",
     "IGG.L",
@@ -141,7 +241,8 @@
     "HLMA.L",
     "LYC.AX",
     "RRX",
-    "HL"
+    "HL",
+    "WDC"
   ],
   "achats": [],
   "historique": [
