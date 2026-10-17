@@ -18,103 +18,116 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-17",
-    "cree_le": "2026-10-17T09:08+00:00",
-    "liberation": 297.5370123602918,
+    "cree_le": "2026-10-17T13:07+00:00",
+    "liberation": 133.40516641954568,
     "reserve_pct": null,
-    "score": 92.77903972004057,
+    "score": 97.53411336355256,
     "ordres": [
       {
-        "ticker": "WDC",
+        "ticker": "AAON",
         "side": "buy",
-        "quantity": 1.0,
-        "price": 296.5370123602918,
-        "reason": "opportunité radar (score 93)"
+        "quantity": 2.0,
+        "price": 66.20258320977284,
+        "reason": "opportunité radar (score 98)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "WDC",
-      "nom": "Western Digital",
-      "isin": "WDC",
+      "ticker": "AAON",
+      "nom": "AAON",
+      "isin": "AAON",
       "type": "action",
-      "prix": 333.29998779296875,
-      "score": 92.77903972004057,
-      "baisse": 0.55321147200676,
-      "perf_5ans": 6.888853976832358,
+      "prix": 74.41000366210938,
+      "score": 97.53411336355256,
+      "baisse": 0.49708296747959935,
+      "perf_5ans": 0.6856319243636495,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.7729207673966317,
-      "pos_12m": 0.8252688172043011,
-      "n_12m": 744,
-      "base_moy_12m": 0.4361575934043081,
-      "pire_12m": -0.4842496551037535,
-      "vs_marche_3m": -0.34685868169395695,
+      "moy_12m": 0.34719804026256024,
+      "pos_12m": 0.8816705336426914,
+      "n_12m": 862,
+      "base_moy_12m": 0.22002778617840393,
+      "pire_12m": -0.2621649224128698,
+      "vs_marche_3m": -0.3131004650620315,
       "devise": "USD",
-      "prix_eur": 296.5370123602918,
-      "fondamental": 100.0,
+      "prix_eur": 66.20258320977284,
+      "fondamental": 96.0,
       "fondamental_notes": [
-        "chiffre d'affaires +43.8% sur un an",
-        "bénéfices +984.1% sur un an",
-        "bénéfices attendus +23% sur 12 mois",
-        "analystes : « achat fort » (1.5/5, 24 avis)",
-        "objectif des analystes +101% : peu crédible, probablement pas encore révisé",
-        "P/E attendu 10.1 (actuel 12.4)",
-        "marge nette 73%",
-        "dette / capitaux propres 13 %",
-        "🏷️ braderie probable : -35% vs marché en 3 mois, alors que les bénéfices attendus montent (+23%) et que les analystes restent à l'achat (+8 pts)"
+        "chiffre d'affaires +101.2% sur un an",
+        "bénéfices +257.9% sur un an",
+        "bénéfices attendus +88% sur 12 mois",
+        "analystes : « achat fort » (1.5/5, 4 avis)",
+        "objectif des analystes +81% : peu crédible, probablement pas encore révisé",
+        "P/E attendu 20.8 (actuel 39.1)",
+        "marge nette 8%",
+        "dette / capitaux propres 45 %",
+        "🏷️ braderie probable : -31% vs marché en 3 mois, alors que les bénéfices attendus montent (+88%) et que les analystes restent à l'achat (+8 pts)"
       ],
-      "score_global": 97.1,
+      "score_global": 96.6,
       "braderie": true
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -35% vs marché)",
-      "vs_marche_3m": -0.34685868169395695,
-      "alertes": [],
+      "resume": "à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -31% vs marché)",
+      "vs_marche_3m": -0.3131004650620315,
+      "alertes": [
+        {
+          "titre": "AAON (AAON) Seeks Lawsuit Dismissal As Valuation Questions Return - Simply Wall Street",
+          "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbjh1X1FQcjJiVW41QUtOcEpScGZKejdvbUN3Tm9jS2ZnMUF1aUxEMi1RazJ2UE1hQVIzUnlxQUt4NGFzNlprQVBNeVNXSlJlVkNlOGJ1MjdRLWI1QUc4b3NmMmQ0OXhnNDZGeEZpTG5wYWR3a0xkZHdqelI5U3ZxSE4wdGp1TktzTkJObi1BYjVfTGlaajVqZ200YkRaZGFMSExRN1liNFJMLUl5RkJ2bWJiUzlfWW0xR1Fndi1FSm9DNDF2R0E40gHMAUFVX3lxTE9hakdhbzNmWnBPTHRyUjdzWXI2Zkw1dXVQM1BHcFhJMEV6aDBob1lrQjlBakFrZzhLUU9lUU1nY2xlSjZhQnNjZm5jMjZKa3c0dGZZTko4MVFYLU82SGgwV2czbHB0SDRVbk5XTVNSdkFxQnRmUW9MOTUtZTJUTHBTUi1DSDRnQlZ5TWJYekVIb1dPeGZzRElZclk5UmpkeHFNWjZrVU5YUHZpc1V1bGlMeXRwSlBVU3pYSTMybkNsY1c1NkUyYnlPNENfTg?oc=5",
+          "date": "2026-10-15",
+          "source": "Simply Wall Street",
+          "gravite": 1,
+          "mots": [
+            "lawsuit"
+          ]
+        }
+      ],
       "recents": [
         {
-          "titre": "Western Digital Corporation : Wells Fargo Securities optimiste sur le dossier - Zonebourse Suisse",
-          "lien": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNzkyRGRrODQxRDRzY2tETWRmd29RTm8wVnNOSHhlRm5RcHJDakM3U2pTMlJNdzhNN2wyOGJJYS04Ykc0MDdUT2phT25UX3BMUXVoc0RrNk9qLVpqNWV3N1hJSmxSS0c2WTN1d1ExNlZDZy1NYlZCMGtqdXZzMnB5WFJqaVA4VjA4amtTYV90Y2c0NHVKRmMyMnoybkY0NE9lNUtjUUdtQ0NnaFRFTVRqWThnZjJDQXFERjlQbHZPSnJyVXlOZDluWW5hbHlVMkJ4?oc=5",
-          "date": "2026-10-16",
-          "source": "Zonebourse Suisse",
+          "titre": "What AAON Bears Saw Before The Fall - Simply Wall Street",
+          "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSjVLbUY0ZjdRaWlyT2JqcUFYbGIxeGN0OV9aSlB6U3QtSXViS285b3RsZmZhcDVQTWxqUllicDRvUUVDQ0w5Z2dncWt5RHRpc2RtSmRHcGFGcG1UR2l2QldYaW1JQmJJM0tVYVZhQjAwaWI4UWtDTmw3WDY1ZmRiV2JvV0lTTU9MU21WamJUYWtDZ3YyX3dVWktMcmRpcDdmWWNuVXRn0gGrAUFVX3lxTFBvYWhSU1gtS0R0R3JwMEM0elliRml3RVZMbEVxYUowdXhjckx2eHBMTlFybkdCTmZEbUlwbW5fQmJJaTdLcGhWUDRwalBRUEc4Q182aFJKaHR2bmpYVXI1MG1ma083WDA2cDdQTDV4UUhHTFpXNVplcDdFVXBNNnFaYjhJNWMtUDU0ZjNaa3dTSkpJVnM3Wkd1RTNXNHpZTjdxLThwTll0ekpzRQ?oc=5",
+          "date": "2026-10-17",
+          "source": "Simply Wall Street",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Western Digital (WDC) Says CFO Mark Long Is Leaving - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcGpqN2FBaUo3Nk5FVkxXWGpHcDJGTVZYVWFGNVUyV2IyQ2hyV0pxN2VUWTlJdWptZjlIdEZESzF2SnIzQWI0U241bDUtaS0wWk1RaDk2TlV1VXIwUHlQMW5TLWRUdHZHYjdNZ19CWmFkVFdLeFZpbHlkaklxX3A2RUozZXdaTmVpOUVaZDNtMDdrSXVtMlZ0VQ?oc=5",
+          "titre": "AAON Inc (AAON) Stock Down 4.6% -- Now Undervalued? GF Score: 89/100 - GuruFocus",
+          "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQjdmMThjZG5oN1huMExFVlJ6a3ZlMldxVGtpZWg5UXVJd2NGTjJJb2EtZmxQRjZnM0dOWTJ6d29GR2ZXN3NrdHA1VzZmZWhwVjRBOWpuLWhKcXBBN3o4SS1DV3FfTnA5Z2JWUjJfbnhILWV5OVE5SmhXMlN5MnBWUUZ3aHV5V2ZLWGRXWldSR3ZVd1hrdUtlWXJtWFk3QQ?oc=5",
           "date": "2026-10-16",
+          "source": "GuruFocus",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "AAON Tumbles As Rate Jitters And Target Cut Bite - TipRanks",
+          "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbDFONG5ITnhrMmp0WmhSdnROSDlhcnpzWFRialV3dUxtS1JZU09SUXhBZDRsSjE1Q0k2MGNpV1FtanBZdGt2T014Ni1KTko1aHVySy15dmgxQjlOVFRQZFRJV2ZFLXJBMXlhaUNiemZ0NER3am9SdnVwQ2RJeUJLWU0yRk9OR0lFSWZraTRzaHg?oc=5",
+          "date": "2026-10-16",
+          "source": "TipRanks",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "AAON (AAON) Seeks Lawsuit Dismissal As Valuation Questions Return - Simply Wall Street",
+          "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbjh1X1FQcjJiVW41QUtOcEpScGZKejdvbUN3Tm9jS2ZnMUF1aUxEMi1RazJ2UE1hQVIzUnlxQUt4NGFzNlprQVBNeVNXSlJlVkNlOGJ1MjdRLWI1QUc4b3NmMmQ0OXhnNDZGeEZpTG5wYWR3a0xkZHdqelI5U3ZxSE4wdGp1TktzTkJObi1BYjVfTGlaajVqZ200YkRaZGFMSExRN1liNFJMLUl5RkJ2bWJiUzlfWW0xR1Fndi1FSm9DNDF2R0E40gHMAUFVX3lxTE9hakdhbzNmWnBPTHRyUjdzWXI2Zkw1dXVQM1BHcFhJMEV6aDBob1lrQjlBakFrZzhLUU9lUU1nY2xlSjZhQnNjZm5jMjZKa3c0dGZZTko4MVFYLU82SGgwV2czbHB0SDRVbk5XTVNSdkFxQnRmUW9MOTUtZTJUTHBTUi1DSDRnQlZ5TWJYekVIb1dPeGZzRElZclk5UmpkeHFNWjZrVU5YUHZpc1V1bGlMeXRwSlBVU3pYSTMybkNsY1c1NkUyYnlPNENfTg?oc=5",
+          "date": "2026-10-15",
+          "source": "Simply Wall Street",
+          "gravite": 1,
+          "mots": [
+            "lawsuit"
+          ]
+        },
+        {
+          "titre": "AAON, Inc. (AAON) Stock Forecasts - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPeTdwSkhoTDNuZzhUMjc3bkNoVWZ5a3NaczVzRktZWDJDUHNYdXVySUdPUXpEbnhaam5fQVAxNmtVSG1MNnZEenpXc1hHMVJLaF9xNXRfMklVcGZXNlRKNFFiMkpCMVcwRzZuMlo4SHBIdUJ0ZUVaVUZ2Y3hORGkyWmttUjdZMkEwMENZbnR2cTA?oc=5",
+          "date": "2026-10-15",
           "source": "Yahoo Finance",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Seagate and Western Digital Stocks Have Tanked on Toshiba Fears. Wells Fargo Is Still Bullish. - Barron's",
-          "lien": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdXpxcDVwX3ZsSzBiNUFDVHlqdllDbkJSTUtjTG9CMGNybGFSRzg1Z2FDWmdheFg1UEtWRTQ2b1VsLUVYT1B1NnVrekRmV2ttYXIxMFhVVDVQQS1jOEZ0QkpHZlRxalkxR1hEeEJadnZYY0FCMDFMRzhxZzl4RmRpZ3JiSDFydw?oc=5",
-          "date": "2026-10-16",
-          "source": "Barron's",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Entegris, Micron, AMD, Marvell Technology, and Western Digital Shares Are Falling, What You Need To Know - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZTB1MzZ2TXlkOVZYTXAtRmZDdjdPTlVJRkZVMDZxdWgzY01kSmVtVk1TT0piY1pISFRsM0w1SVEtZjdrY3pPQ3RMWi0yTTdqU09OSnQ0STNUbXNiOHZ3OHVCSkRQUFBkaDRlUDdNLXA3cVBLSzl5ZGVSVTBfcEVfMnV1MWFKaThxNHFRTnV2YzFhTUI4Qi1IMFVZRnlHb1ZVOFpsVENR?oc=5",
-          "date": "2026-10-16",
-          "source": "Yahoo Finance",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Seagate, Western Digital Face Supply Risks as AI Demand Drives Capacity Expansion - Benzinga",
-          "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVG9lMjVQTWZzQkhzczdyY2l2blA0c0taX1hWV0FVTmhkSWtvZkxKWDdmMWxfQTlacWpzNjdyN21JX2dWUkQtTGRfSDRLRFRRT1RZWl9aOERDX29RTlVZY2pvcXdYd3FVOXo3dkp3UXlLU0x0TlY3bktodEhMU202MGxPUDdpMEJocFJKTFhkVGNsS3pjc0dISTFuRDgwR0dnVGdBektIUUhOYjY2YXI4TDdSeHk5RU1MOVVyeEZrSG9oWVJudUxEaHpkbGNZUQ?oc=5",
-          "date": "2026-10-16",
-          "source": "Benzinga",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 104
+    "ticket": 105
   },
   "radar_proposes": [
     "MCD",
@@ -242,7 +255,8 @@
     "LYC.AX",
     "RRX",
     "HL",
-    "WDC"
+    "WDC",
+    "AAON"
   ],
   "achats": [],
   "historique": [
@@ -10486,6 +10500,108 @@
         ]
       },
       "ticket": 103,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-17",
+      "cree_le": "2026-10-17T09:08+00:00",
+      "liberation": 297.5370123602918,
+      "reserve_pct": null,
+      "score": 92.77903972004057,
+      "ordres": [
+        {
+          "ticker": "WDC",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 296.5370123602918,
+          "reason": "opportunité radar (score 93)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "WDC",
+        "nom": "Western Digital",
+        "isin": "WDC",
+        "type": "action",
+        "prix": 333.29998779296875,
+        "score": 92.77903972004057,
+        "baisse": 0.55321147200676,
+        "perf_5ans": 6.888853976832358,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.7729207673966317,
+        "pos_12m": 0.8252688172043011,
+        "n_12m": 744,
+        "base_moy_12m": 0.4361575934043081,
+        "pire_12m": -0.4842496551037535,
+        "vs_marche_3m": -0.34685868169395695,
+        "devise": "USD",
+        "prix_eur": 296.5370123602918,
+        "fondamental": 100.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +43.8% sur un an",
+          "bénéfices +984.1% sur un an",
+          "bénéfices attendus +23% sur 12 mois",
+          "analystes : « achat fort » (1.5/5, 24 avis)",
+          "objectif des analystes +101% : peu crédible, probablement pas encore révisé",
+          "P/E attendu 10.1 (actuel 12.4)",
+          "marge nette 73%",
+          "dette / capitaux propres 13 %",
+          "🏷️ braderie probable : -35% vs marché en 3 mois, alors que les bénéfices attendus montent (+23%) et que les analystes restent à l'achat (+8 pts)"
+        ],
+        "score_global": 97.1,
+        "braderie": true
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -35% vs marché)",
+        "vs_marche_3m": -0.34685868169395695,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Western Digital Corporation : Wells Fargo Securities optimiste sur le dossier - Zonebourse Suisse",
+            "lien": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNzkyRGRrODQxRDRzY2tETWRmd29RTm8wVnNOSHhlRm5RcHJDakM3U2pTMlJNdzhNN2wyOGJJYS04Ykc0MDdUT2phT25UX3BMUXVoc0RrNk9qLVpqNWV3N1hJSmxSS0c2WTN1d1ExNlZDZy1NYlZCMGtqdXZzMnB5WFJqaVA4VjA4amtTYV90Y2c0NHVKRmMyMnoybkY0NE9lNUtjUUdtQ0NnaFRFTVRqWThnZjJDQXFERjlQbHZPSnJyVXlOZDluWW5hbHlVMkJ4?oc=5",
+            "date": "2026-10-16",
+            "source": "Zonebourse Suisse",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Western Digital (WDC) Says CFO Mark Long Is Leaving - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcGpqN2FBaUo3Nk5FVkxXWGpHcDJGTVZYVWFGNVUyV2IyQ2hyV0pxN2VUWTlJdWptZjlIdEZESzF2SnIzQWI0U241bDUtaS0wWk1RaDk2TlV1VXIwUHlQMW5TLWRUdHZHYjdNZ19CWmFkVFdLeFZpbHlkaklxX3A2RUozZXdaTmVpOUVaZDNtMDdrSXVtMlZ0VQ?oc=5",
+            "date": "2026-10-16",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Seagate and Western Digital Stocks Have Tanked on Toshiba Fears. Wells Fargo Is Still Bullish. - Barron's",
+            "lien": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdXpxcDVwX3ZsSzBiNUFDVHlqdllDbkJSTUtjTG9CMGNybGFSRzg1Z2FDWmdheFg1UEtWRTQ2b1VsLUVYT1B1NnVrekRmV2ttYXIxMFhVVDVQQS1jOEZ0QkpHZlRxalkxR1hEeEJadnZYY0FCMDFMRzhxZzl4RmRpZ3JiSDFydw?oc=5",
+            "date": "2026-10-16",
+            "source": "Barron's",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Entegris, Micron, AMD, Marvell Technology, and Western Digital Shares Are Falling, What You Need To Know - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZTB1MzZ2TXlkOVZYTXAtRmZDdjdPTlVJRkZVMDZxdWgzY01kSmVtVk1TT0piY1pISFRsM0w1SVEtZjdrY3pPQ3RMWi0yTTdqU09OSnQ0STNUbXNiOHZ3OHVCSkRQUFBkaDRlUDdNLXA3cVBLSzl5ZGVSVTBfcEVfMnV1MWFKaThxNHFRTnV2YzFhTUI4Qi1IMFVZRnlHb1ZVOFpsVENR?oc=5",
+            "date": "2026-10-16",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Seagate, Western Digital Face Supply Risks as AI Demand Drives Capacity Expansion - Benzinga",
+            "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVG9lMjVQTWZzQkhzczdyY2l2blA0c0taX1hWV0FVTmhkSWtvZkxKWDdmMWxfQTlacWpzNjdyN21JX2dWUkQtTGRfSDRLRFRRT1RZWl9aOERDX29RTlVZY2pvcXdYd3FVOXo3dkp3UXlLU0x0TlY3bktodEhMU202MGxPUDdpMEJocFJKTFhkVGNsS3pjc0dISTFuRDgwR0dnVGdBektIUUhOYjY2YXI4TDdSeHk5RU1MOVVyeEZrSG9oWVJudUxEaHpkbGNZUQ?oc=5",
+            "date": "2026-10-16",
+            "source": "Benzinga",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 104,
       "decision": "sans réponse"
     }
   ]
