@@ -34,13 +34,13 @@ def main(argv: list[str] | None = None) -> int:
     shopify = None
     simulation = args.simulation
     if not simulation:
-        boutique = os.environ.get("SHOPIFY_STORE", "")
+        boutique = os.environ.get("SHOPIFY_STORE") or cfg.boutique
         jeton = os.environ.get("SHOPIFY_ACCESS_TOKEN", "")
         cid, secret = os.environ.get("SHOPIFY_CLIENT_ID", ""), os.environ.get("SHOPIFY_CLIENT_SECRET", "")
         if boutique and (jeton or (cid and secret)):
             shopify = Shopify(boutique, jeton=jeton, client_id=cid, client_secret=secret)
         else:
-            print("Shopify non configuré (SHOPIFY_STORE + SHOPIFY_ACCESS_TOKEN) : simulation.")
+            print("Shopify non configuré (SHOPIFY_ACCESS_TOKEN ou SHOPIFY_CLIENT_ID + SHOPIFY_CLIENT_SECRET) : simulation.")
             simulation = True
 
     etat = charger_etat()

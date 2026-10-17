@@ -35,6 +35,9 @@ prix:
   frais_paiement_fixe: 0.30
 
 shopify:
+  boutique: ht47a3-qv.myshopify.com
+  # Les produits importés reçoivent le tag « ecom-bot » et apparaissent tout seuls
+  # dans la collection « Tendances du moment » (/collections/tendances-du-moment).
   produits_par_jour: 100
   statut: DRAFT                 # DRAFT = brouillons à vérifier ; ACTIVE = en vente directement
   type_produit: ""

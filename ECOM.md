@@ -31,7 +31,6 @@ Les clés se mettent dans **Settings → Secrets and variables → Actions → N
 |---|---|
 | `EBAY_CLIENT_ID`, `EBAY_CLIENT_SECRET` | [developer.ebay.com](https://developer.ebay.com) → créer un compte → *Application Keys* → **Production** : *App ID* et *Cert ID*. Gratuit. |
 | `ALIEXPRESS_APP_KEY`, `ALIEXPRESS_APP_SECRET` | [openservice.aliexpress.com](https://openservice.aliexpress.com) → s'inscrire comme *Affiliate* → créer une app → *App Key* et *App Secret*. Gratuit (validation sous quelques jours). |
-| `SHOPIFY_STORE` | l'adresse de la boutique, ex. `ht47a3-qv.myshopify.com` |
 | `SHOPIFY_ACCESS_TOKEN` | Admin Shopify → *Paramètres → Applications → Développer des applications* → créer une app → droits Admin API `write_products` et `read_products` → installer → copier le jeton `shpat_…` |
 | ou `SHOPIFY_CLIENT_ID`, `SHOPIFY_CLIENT_SECRET` | si Shopify vous envoie vers le *Dev Dashboard* : créer l'app, accès `write_products, read_products`, l'installer sur la boutique, copier *Client ID* et *Client secret* |
 

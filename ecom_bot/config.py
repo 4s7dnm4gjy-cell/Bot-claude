@@ -37,6 +37,7 @@ class EcomConfig:
     frais_paiement_pct: float = 2.9
     frais_paiement_fixe: float = 0.30
     # Shopify
+    boutique: str = ""              # ex. ht47a3-qv.myshopify.com (ou secret SHOPIFY_STORE)
     produits_par_jour: int = 100
     statut: str = "DRAFT"           # DRAFT = brouillon à valider, ACTIVE = en vente direct
     type_produit: str = ""
