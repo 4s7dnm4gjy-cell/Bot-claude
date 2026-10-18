@@ -18,125 +18,103 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-18",
-    "cree_le": "2026-10-18T16:50+00:00",
-    "liberation": 95.82959949950693,
+    "cree_le": "2026-10-18T19:21+00:00",
+    "liberation": 148.8566571114241,
     "reserve_pct": null,
-    "score": 88.61673178656518,
+    "score": 90.88735005219294,
     "ordres": [
       {
-        "ticker": "BX",
+        "ticker": "KLAC",
         "side": "buy",
         "quantity": 1.0,
-        "price": 94.82959949950693,
-        "reason": "opportunité radar (score 89)"
+        "price": 147.8566571114241,
+        "reason": "opportunité radar (score 91)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "BX",
-      "nom": "Blackstone Inc.",
-      "isin": "BX",
+      "ticker": "KLAC",
+      "nom": "KLA Corporation",
+      "isin": "KLAC",
       "type": "action",
-      "prix": 106.61000061035156,
-      "score": 88.61673178656518,
-      "baisse": 0.3274694931432006,
-      "perf_5ans": 0.10848277814607532,
+      "prix": 165.74000549316406,
+      "score": 90.88735005219294,
+      "baisse": 0.4500435988035164,
+      "perf_5ans": 4.350486482332751,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.2752352788083823,
-      "pos_12m": 0.7793427230046949,
-      "n_12m": 213,
-      "base_moy_12m": 0.27505574643844505,
-      "pire_12m": -0.23558176878635473,
-      "vs_marche_3m": -0.15633911837245362,
+      "moy_12m": 0.5275678231930065,
+      "pos_12m": 0.8557377049180328,
+      "n_12m": 305,
+      "base_moy_12m": 0.26227501770734507,
+      "pire_12m": -0.5489179417777612,
+      "vs_marche_3m": -0.22370206712047724,
       "devise": "USD",
-      "prix_eur": 94.82959949950693,
-      "fondamental": 96.0,
+      "prix_eur": 147.8566571114241,
+      "fondamental": 94.0,
       "fondamental_notes": [
-        "chiffre d'affaires +28.6% sur un an",
-        "bénéfices +57.3% sur un an",
-        "bénéfices attendus +72% sur 12 mois",
-        "analystes : « achat » (2.1/5, 22 avis)",
-        "objectif moyen des analystes : +29%",
-        "P/E attendu 14.7 (actuel 25.3)",
-        "marge nette 23%",
-        "dette / capitaux propres 68 %"
+        "chiffre d'affaires +15.2% sur un an",
+        "bénéfices +13.8% sur un an",
+        "bénéfices attendus +89% sur 12 mois",
+        "analystes : « achat » (1.8/5, 26 avis)",
+        "objectif moyen des analystes : +33%",
+        "P/E attendu 25.9 (actuel 49.0)",
+        "marge nette 36%",
+        "dette / capitaux propres 97 %",
+        "🏷️ braderie probable : -22% vs marché en 3 mois, alors que les bénéfices attendus montent (+89%) et que les analystes restent à l'achat (+8 pts)"
       ],
-      "score_global": 93.0,
-      "braderie": false
+      "score_global": 92.8,
+      "braderie": true
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, 2 article(s) à regarder (3 mois : -16% vs marché)",
-      "vs_marche_3m": -0.15633911837245362,
-      "alertes": [
-        {
-          "titre": "Blackstone Data Breach Exposes Social Security Numbers - Claim Depot",
-          "lien": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IRVNYR0FubTJseTFDd1VPdVo5eGNMOVBicWlYSlFQdFo4SDgwNVh2S1RSZDF2N3l5bTNrVVFCOVJDamZING1tampTOG9WS1V3WnZ3ZmJoX1ZRZWNoM3ZYbi1Ma0I?oc=5",
-          "date": "2026-10-05",
-          "source": "Claim Depot",
-          "gravite": 1,
-          "mots": [
-            "data breach"
-          ]
-        },
-        {
-          "titre": "Blackstone Data Breach Lawsuit Investigation - Claim Depot",
-          "lien": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9tVUtteHkxQVN0XzFISWhLSVhvZVdPVTNOMWlYeWNhR2FxdVQ0ZGdxVXJ2cGFlV1U4MnZtbmk1c2ZVaThMYmtGbTBWNC14Vzl4WlVNQWJkT3dkS0p4UTRxNlNYU3owNHktZDdOWUlFMjNrRVMwaVJIbw?oc=5",
-          "date": "2026-10-05",
-          "source": "Claim Depot",
-          "gravite": 1,
-          "mots": [
-            "investigation",
-            "lawsuit",
-            "data breach"
-          ]
-        }
-      ],
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -22% vs marché)",
+      "vs_marche_3m": -0.22370206712047724,
+      "alertes": [],
       "recents": [
         {
-          "titre": "TD Waterhouse Canada Inc. Sells 23,156 Shares of Blackstone Inc. $BX - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRzNVYWx3eUt6ODJEX2lvSjFiNmh3eEJmQ2dsbmpVMjIxYU16SFBPYjFVSlF1UElTNnN3ejlGWlVnVHRNT1o1d0tmSzVxdUwwOC13SzJZVEc3TDRtV1htTnd4MzdOUnJpS3FtZ3BfX0JvbXpVSVB0N2FMMlRiaXJIU2N5RDV6bVVLR2JwbS1GNzJWbnpzUks2eUZHM1hDMHVlYW5mekZCN0dzUk5OZEpCelNXX0VxQUszOTJUNi1wLUYzZVU?oc=5",
+          "titre": "KLA Corporation $KLAC Shares Purchased by PineStone Asset Management Inc. - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVlk0QlFXOExjcnJqVFNrb2lCSS1EUmIyTEVrak9Zc2lZX2dnOG12Q2J2cjVJdkFCc0dPR3NJMVQybkpqYmF6bk5GMDVDd25JV3ZGQ1dCYmRpQXRWZWFnbU5XaEFic3FZcGYwejE2RUZrUi1fUHhxRHRHQ3dDOEpxN0tDcjJSZ0tTVi1LRndzZkFPTXNrWmxqbFJpVmh6ZVkycGx6Z1FwRWxnY1ZIZ1dRUmJTZzRRaTNzUWk3d09SeVF2c0NlTlRHbEU1aXg?oc=5",
           "date": "2026-10-18",
           "source": "MarketBeat",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Form 4 Blackstone Inc For: 18 October By Investing.com - Investing.com Canada",
-          "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMlpqeWx5QXJPNWc4amhpeDltTC1uaEd2WS1uWlpSRmtZaGp0a2lfQlhBM3RZSkUwUW0zOGtscXRKaktTOFowejhpMGMxQVdxNVB4THRuSm9aUWlucFlfbEt5RXpfRkJQUmpCM0taMEVMYWNHQXJabTB3dGJuZzdvQ3BvTDA2aXNfT0Y0U19DQkhRV3hZUjUzZW9tZkN2QQ?oc=5",
-          "date": "2026-10-18",
-          "source": "Investing.com Canada",
+          "titre": "KLA Corporation $KLAC Position Decreased by Howard Capital Management LLC - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTExwdUZxZlN3alpjRWh4S2xiQWtwRlg4QUlhTjNORW96UGd1U0hIRDd1a1lQUC1RUFFubDFIclBma3BZTWU1R1hYMWJCZWZfeXo1YnR1NFNtSjZtSXA5VGsxczRMMmpqb3RNalV1R1l0VjdZU2FySUNTT290T1JfaklkTVR3TzdBaGd4WmxXUE9TM3kyUkREeFlocGJDX0FDYzFPdXgyamQyRWRlV05lVWZJRkM5aGI3cWlvU0ZoUXQ4Sk83MDlwMUVTeGhrdw?oc=5",
+          "date": "2026-10-17",
+          "source": "MarketBeat",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Anthropic offre à Blackstone un rendement à deux chiffres dans le cadre d’une opération de financement de puces, rapporte le Financial Times - Zonebourse",
-          "lien": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPeE5iN1dPRGdqU3E3bUM1QlU2SmJZNUlNTUJRVlJobnlwVkdnaFE5eGZ3SVVlWDlpZEJGci1vRzczdUYxd05SODBEaG5oRC11TzJBM1Jxd3dnMWtPbnhnZXdYVzZ3RUVic3lkQzVxT3QzNVlMQk00cGZwemN3UVV3WTJSdl83dXpSaHQxdi0xVzRTS2pMSUhPRHRLTEs1QXkxRDVER3JlQThOQ0RxOVhiaWR0em1oUHpKZHVZWEs3NmltcnZKNkYwbkkyeERUdThpZ1h3N1ZLWU9wR1NwTWVNQ293NnpSajMwYTg0ZWY1LXAzQQ?oc=5",
+          "titre": "KLA Corporation $KLAC Shares Newly Purchased by Goelzer Investment Management Inc. - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObmFaVGc5c1ZORXJmWDNBelg4dVY4U2NXNHF2c2VFQm15U0JZVnViaWdUQ2ZGU2VobGpwSjB6QW1hOFIxdVFTUFhDSEptVHhqMTNiamE2al9KZUpKMTk0NV8wMUtHWnBIMGhSdDZJVnVHT0VsQTJ4NGZ3bDdqTE9qdkppNVJCczRjYm91aGdzejJ0cy02NzNBOUNYY1REVXoybnF1blBiOE5OcnR3N2RvZnIyeVozaDNiRVlfNXFobkR0Mm5yMFByZ21zSFFDTnNmUVQza01PRlg?oc=5",
           "date": "2026-10-17",
-          "source": "Zonebourse",
+          "source": "MarketBeat",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Blackstone and Halliburton Said to Invest $1 Billion in VoltaGrid - EnergyNow.com",
-          "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPc1d6eDYybGlkYmUxZUh2YXhHRTEwLU5PTk1LSzd2RXk4amVwbUZyV1NpOGJqdjVQajcyYzVJMVdUNXZPdWlMSXFKLVYwNVFPakdHN1Z5aXdVVHR5VFdUM2NHc3RQVGx6Y1lvcDNiSWZZVHIwMkFvVTNTY3VrRzUzNm53ZWh4cFM0NjByQTFKazRMQXVPcjRMWjBnTQ?oc=5",
+          "titre": "KLA Corporation $KLAC Stock: TD Waterhouse Canada Inc. Trims Holdings - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdTJCbXdQbjlFUmtEWjVtdFl0WlJWeTNiM1lod0dDalBnb2E2cndRU3ZGRTFRdXpWb01nYldVT1hpTGlPQnhBWl9VX0U0NUMwaV9DUGxkRm1xcnJOclhxSmtYcmlDTDRtVTgxbEg3ZDRmLTZHTW1LZ3lfOUpuMHZwUmJsMkhQblJNWmFoR083WmhIeEJqUXM1ZXJWS2hwcFRfTU1ta2lpcm9ocklGSmlSTHhDYUttbm5uY2M2ckw5VXVjM1BUZUE?oc=5",
           "date": "2026-10-17",
-          "source": "EnergyNow.com",
+          "source": "MarketBeat",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "7 Brew's Rapid Expansion Highlights Blackstone Inc (BX) Stake Am - GuruFocus",
-          "lien": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcFRvRlVUVDBVQy1vZ1pDaFBhWVBDcHRjR0hTemprM2JVNjVUV05YMUt0bm1BQjFHclFldW9hODFlcFBidkdCaXcxWHl0V3dZa0l0VGxHNTlDeHRQTnJtQjdhMnM2RU51cklBTEJRT3NwWHF4NHdVejVIbGVkOU52bzJCUjR0eFZZd3M3bVU0dmNMY2hBWHJPYWgxU0RpMnR4QU0xWTBwZHdab2toZGJvZTdvWjIwZGZMbHh3azBybjBOSlBMS0wwWUN0aVc1REFFSlE?oc=5",
+          "titre": "KLA Corporation stock loses 14.09 percent as weekly low reaches EUR 164.20 - ad-hoc-news.de",
+          "lien": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZWZteGxja3JNRUd0MzRJUkFWZFpzT2tLalozUTFjWElWOWhTVWMwTVVQZ2JDOXZYeVVfakJqME0zU1JmczR2MzZPaEhac0ZXUmQ1bFFuaEhIRmxBZ0NRS3VqQUp4M3lQS2xmUDhGLXlOM1UwcFZkTE9oWEhVZ1NaOVVQX3FhcU5maXBSNVJaRllvZzdoZHZ0MUtzRUl6bmp3bmN5M3JsNGhWbllra2dsN1J4ck5QNmszdVY1a2ZhcGFSMTItWWRVM2pHTTF1dkJ5RGdF?oc=5",
           "date": "2026-10-17",
-          "source": "GuruFocus",
+          "source": "ad-hoc-news.de",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 110
+    "ticket": 111
   },
   "radar_proposes": [
     "MCD",
@@ -271,7 +249,8 @@
     "STRL",
     "ONTO",
     "MYRG",
-    "BX"
+    "BX",
+    "KLAC"
   ],
   "achats": [],
   "historique": [
@@ -11161,6 +11140,130 @@
         ]
       },
       "ticket": 109,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-18",
+      "cree_le": "2026-10-18T16:50+00:00",
+      "liberation": 95.82959949950693,
+      "reserve_pct": null,
+      "score": 88.61673178656518,
+      "ordres": [
+        {
+          "ticker": "BX",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 94.82959949950693,
+          "reason": "opportunité radar (score 89)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "BX",
+        "nom": "Blackstone Inc.",
+        "isin": "BX",
+        "type": "action",
+        "prix": 106.61000061035156,
+        "score": 88.61673178656518,
+        "baisse": 0.3274694931432006,
+        "perf_5ans": 0.10848277814607532,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.2752352788083823,
+        "pos_12m": 0.7793427230046949,
+        "n_12m": 213,
+        "base_moy_12m": 0.27505574643844505,
+        "pire_12m": -0.23558176878635473,
+        "vs_marche_3m": -0.15633911837245362,
+        "devise": "USD",
+        "prix_eur": 94.82959949950693,
+        "fondamental": 96.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +28.6% sur un an",
+          "bénéfices +57.3% sur un an",
+          "bénéfices attendus +72% sur 12 mois",
+          "analystes : « achat » (2.1/5, 22 avis)",
+          "objectif moyen des analystes : +29%",
+          "P/E attendu 14.7 (actuel 25.3)",
+          "marge nette 23%",
+          "dette / capitaux propres 68 %"
+        ],
+        "score_global": 93.0,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, 2 article(s) à regarder (3 mois : -16% vs marché)",
+        "vs_marche_3m": -0.15633911837245362,
+        "alertes": [
+          {
+            "titre": "Blackstone Data Breach Exposes Social Security Numbers - Claim Depot",
+            "lien": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IRVNYR0FubTJseTFDd1VPdVo5eGNMOVBicWlYSlFQdFo4SDgwNVh2S1RSZDF2N3l5bTNrVVFCOVJDamZING1tampTOG9WS1V3WnZ3ZmJoX1ZRZWNoM3ZYbi1Ma0I?oc=5",
+            "date": "2026-10-05",
+            "source": "Claim Depot",
+            "gravite": 1,
+            "mots": [
+              "data breach"
+            ]
+          },
+          {
+            "titre": "Blackstone Data Breach Lawsuit Investigation - Claim Depot",
+            "lien": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9tVUtteHkxQVN0XzFISWhLSVhvZVdPVTNOMWlYeWNhR2FxdVQ0ZGdxVXJ2cGFlV1U4MnZtbmk1c2ZVaThMYmtGbTBWNC14Vzl4WlVNQWJkT3dkS0p4UTRxNlNYU3owNHktZDdOWUlFMjNrRVMwaVJIbw?oc=5",
+            "date": "2026-10-05",
+            "source": "Claim Depot",
+            "gravite": 1,
+            "mots": [
+              "investigation",
+              "lawsuit",
+              "data breach"
+            ]
+          }
+        ],
+        "recents": [
+          {
+            "titre": "TD Waterhouse Canada Inc. Sells 23,156 Shares of Blackstone Inc. $BX - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRzNVYWx3eUt6ODJEX2lvSjFiNmh3eEJmQ2dsbmpVMjIxYU16SFBPYjFVSlF1UElTNnN3ejlGWlVnVHRNT1o1d0tmSzVxdUwwOC13SzJZVEc3TDRtV1htTnd4MzdOUnJpS3FtZ3BfX0JvbXpVSVB0N2FMMlRiaXJIU2N5RDV6bVVLR2JwbS1GNzJWbnpzUks2eUZHM1hDMHVlYW5mekZCN0dzUk5OZEpCelNXX0VxQUszOTJUNi1wLUYzZVU?oc=5",
+            "date": "2026-10-18",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Form 4 Blackstone Inc For: 18 October By Investing.com - Investing.com Canada",
+            "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMlpqeWx5QXJPNWc4amhpeDltTC1uaEd2WS1uWlpSRmtZaGp0a2lfQlhBM3RZSkUwUW0zOGtscXRKaktTOFowejhpMGMxQVdxNVB4THRuSm9aUWlucFlfbEt5RXpfRkJQUmpCM0taMEVMYWNHQXJabTB3dGJuZzdvQ3BvTDA2aXNfT0Y0U19DQkhRV3hZUjUzZW9tZkN2QQ?oc=5",
+            "date": "2026-10-18",
+            "source": "Investing.com Canada",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Anthropic offre à Blackstone un rendement à deux chiffres dans le cadre d’une opération de financement de puces, rapporte le Financial Times - Zonebourse",
+            "lien": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPeE5iN1dPRGdqU3E3bUM1QlU2SmJZNUlNTUJRVlJobnlwVkdnaFE5eGZ3SVVlWDlpZEJGci1vRzczdUYxd05SODBEaG5oRC11TzJBM1Jxd3dnMWtPbnhnZXdYVzZ3RUVic3lkQzVxT3QzNVlMQk00cGZwemN3UVV3WTJSdl83dXpSaHQxdi0xVzRTS2pMSUhPRHRLTEs1QXkxRDVER3JlQThOQ0RxOVhiaWR0em1oUHpKZHVZWEs3NmltcnZKNkYwbkkyeERUdThpZ1h3N1ZLWU9wR1NwTWVNQ293NnpSajMwYTg0ZWY1LXAzQQ?oc=5",
+            "date": "2026-10-17",
+            "source": "Zonebourse",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Blackstone and Halliburton Said to Invest $1 Billion in VoltaGrid - EnergyNow.com",
+            "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPc1d6eDYybGlkYmUxZUh2YXhHRTEwLU5PTk1LSzd2RXk4amVwbUZyV1NpOGJqdjVQajcyYzVJMVdUNXZPdWlMSXFKLVYwNVFPakdHN1Z5aXdVVHR5VFdUM2NHc3RQVGx6Y1lvcDNiSWZZVHIwMkFvVTNTY3VrRzUzNm53ZWh4cFM0NjByQTFKazRMQXVPcjRMWjBnTQ?oc=5",
+            "date": "2026-10-17",
+            "source": "EnergyNow.com",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "7 Brew's Rapid Expansion Highlights Blackstone Inc (BX) Stake Am - GuruFocus",
+            "lien": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcFRvRlVUVDBVQy1vZ1pDaFBhWVBDcHRjR0hTemprM2JVNjVUV05YMUt0bm1BQjFHclFldW9hODFlcFBidkdCaXcxWHl0V3dZa0l0VGxHNTlDeHRQTnJtQjdhMnM2RU51cklBTEJRT3NwWHF4NHdVejVIbGVkOU52bzJCUjR0eFZZd3M3bVU0dmNMY2hBWHJPYWgxU0RpMnR4QU0xWTBwZHdab2toZGJvZTdvWjIwZGZMbHh3azBybjBOSlBMS0wwWUN0aVc1REFFSlE?oc=5",
+            "date": "2026-10-17",
+            "source": "GuruFocus",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 110,
       "decision": "sans réponse"
     }
   ]
