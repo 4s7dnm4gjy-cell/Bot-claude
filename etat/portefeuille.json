@@ -15,107 +15,7 @@
     "MCD": "2026-10-05",
     "IGG.L": "2026-10-06"
   },
-  "opportunite": {
-    "type": "opportunite",
-    "date": "2026-10-18",
-    "cree_le": "2026-10-18T19:21+00:00",
-    "liberation": 148.8566571114241,
-    "reserve_pct": null,
-    "score": 90.88735005219294,
-    "ordres": [
-      {
-        "ticker": "KLAC",
-        "side": "buy",
-        "quantity": 1.0,
-        "price": 147.8566571114241,
-        "reason": "opportunité radar (score 91)"
-      }
-    ],
-    "notes": [],
-    "total": 0,
-    "radar": {
-      "ticker": "KLAC",
-      "nom": "KLA Corporation",
-      "isin": "KLAC",
-      "type": "action",
-      "prix": 165.74000549316406,
-      "score": 90.88735005219294,
-      "baisse": 0.4500435988035164,
-      "perf_5ans": 4.350486482332751,
-      "tranche": "80-100 (soldé)",
-      "moy_12m": 0.5275678231930065,
-      "pos_12m": 0.8557377049180328,
-      "n_12m": 305,
-      "base_moy_12m": 0.26227501770734507,
-      "pire_12m": -0.5489179417777612,
-      "vs_marche_3m": -0.22370206712047724,
-      "devise": "USD",
-      "prix_eur": 147.8566571114241,
-      "fondamental": 94.0,
-      "fondamental_notes": [
-        "chiffre d'affaires +15.2% sur un an",
-        "bénéfices +13.8% sur un an",
-        "bénéfices attendus +89% sur 12 mois",
-        "analystes : « achat » (1.8/5, 26 avis)",
-        "objectif moyen des analystes : +33%",
-        "P/E attendu 25.9 (actuel 49.0)",
-        "marge nette 36%",
-        "dette / capitaux propres 97 %",
-        "🏷️ braderie probable : -22% vs marché en 3 mois, alors que les bénéfices attendus montent (+89%) et que les analystes restent à l'achat (+8 pts)"
-      ],
-      "score_global": 92.8,
-      "braderie": true
-    },
-    "actualites": {
-      "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -22% vs marché)",
-      "vs_marche_3m": -0.22370206712047724,
-      "alertes": [],
-      "recents": [
-        {
-          "titre": "KLA Corporation $KLAC Shares Purchased by PineStone Asset Management Inc. - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVlk0QlFXOExjcnJqVFNrb2lCSS1EUmIyTEVrak9Zc2lZX2dnOG12Q2J2cjVJdkFCc0dPR3NJMVQybkpqYmF6bk5GMDVDd25JV3ZGQ1dCYmRpQXRWZWFnbU5XaEFic3FZcGYwejE2RUZrUi1fUHhxRHRHQ3dDOEpxN0tDcjJSZ0tTVi1LRndzZkFPTXNrWmxqbFJpVmh6ZVkycGx6Z1FwRWxnY1ZIZ1dRUmJTZzRRaTNzUWk3d09SeVF2c0NlTlRHbEU1aXg?oc=5",
-          "date": "2026-10-18",
-          "source": "MarketBeat",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "KLA Corporation $KLAC Position Decreased by Howard Capital Management LLC - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTExwdUZxZlN3alpjRWh4S2xiQWtwRlg4QUlhTjNORW96UGd1U0hIRDd1a1lQUC1RUFFubDFIclBma3BZTWU1R1hYMWJCZWZfeXo1YnR1NFNtSjZtSXA5VGsxczRMMmpqb3RNalV1R1l0VjdZU2FySUNTT290T1JfaklkTVR3TzdBaGd4WmxXUE9TM3kyUkREeFlocGJDX0FDYzFPdXgyamQyRWRlV05lVWZJRkM5aGI3cWlvU0ZoUXQ4Sk83MDlwMUVTeGhrdw?oc=5",
-          "date": "2026-10-17",
-          "source": "MarketBeat",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "KLA Corporation $KLAC Shares Newly Purchased by Goelzer Investment Management Inc. - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObmFaVGc5c1ZORXJmWDNBelg4dVY4U2NXNHF2c2VFQm15U0JZVnViaWdUQ2ZGU2VobGpwSjB6QW1hOFIxdVFTUFhDSEptVHhqMTNiamE2al9KZUpKMTk0NV8wMUtHWnBIMGhSdDZJVnVHT0VsQTJ4NGZ3bDdqTE9qdkppNVJCczRjYm91aGdzejJ0cy02NzNBOUNYY1REVXoybnF1blBiOE5OcnR3N2RvZnIyeVozaDNiRVlfNXFobkR0Mm5yMFByZ21zSFFDTnNmUVQza01PRlg?oc=5",
-          "date": "2026-10-17",
-          "source": "MarketBeat",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "KLA Corporation $KLAC Stock: TD Waterhouse Canada Inc. Trims Holdings - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdTJCbXdQbjlFUmtEWjVtdFl0WlJWeTNiM1lod0dDalBnb2E2cndRU3ZGRTFRdXpWb01nYldVT1hpTGlPQnhBWl9VX0U0NUMwaV9DUGxkRm1xcnJOclhxSmtYcmlDTDRtVTgxbEg3ZDRmLTZHTW1LZ3lfOUpuMHZwUmJsMkhQblJNWmFoR083WmhIeEJqUXM1ZXJWS2hwcFRfTU1ta2lpcm9ocklGSmlSTHhDYUttbm5uY2M2ckw5VXVjM1BUZUE?oc=5",
-          "date": "2026-10-17",
-          "source": "MarketBeat",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "KLA Corporation stock loses 14.09 percent as weekly low reaches EUR 164.20 - ad-hoc-news.de",
-          "lien": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZWZteGxja3JNRUd0MzRJUkFWZFpzT2tLalozUTFjWElWOWhTVWMwTVVQZ2JDOXZYeVVfakJqME0zU1JmczR2MzZPaEhac0ZXUmQ1bFFuaEhIRmxBZ0NRS3VqQUp4M3lQS2xmUDhGLXlOM1UwcFZkTE9oWEhVZ1NaOVVQX3FhcU5maXBSNVJaRllvZzdoZHZ0MUtzRUl6bmp3bmN5M3JsNGhWbllra2dsN1J4ck5QNmszdVY1a2ZhcGFSMTItWWRVM2pHTTF1dkJ5RGdF?oc=5",
-          "date": "2026-10-17",
-          "source": "ad-hoc-news.de",
-          "gravite": 0,
-          "mots": []
-        }
-      ]
-    },
-    "ticket": 111
-  },
+  "opportunite": null,
   "radar_proposes": [
     "MCD",
     "IGG.L",
@@ -11264,6 +11164,108 @@
         ]
       },
       "ticket": 110,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-18",
+      "cree_le": "2026-10-18T19:21+00:00",
+      "liberation": 148.8566571114241,
+      "reserve_pct": null,
+      "score": 90.88735005219294,
+      "ordres": [
+        {
+          "ticker": "KLAC",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 147.8566571114241,
+          "reason": "opportunité radar (score 91)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "KLAC",
+        "nom": "KLA Corporation",
+        "isin": "KLAC",
+        "type": "action",
+        "prix": 165.74000549316406,
+        "score": 90.88735005219294,
+        "baisse": 0.4500435988035164,
+        "perf_5ans": 4.350486482332751,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.5275678231930065,
+        "pos_12m": 0.8557377049180328,
+        "n_12m": 305,
+        "base_moy_12m": 0.26227501770734507,
+        "pire_12m": -0.5489179417777612,
+        "vs_marche_3m": -0.22370206712047724,
+        "devise": "USD",
+        "prix_eur": 147.8566571114241,
+        "fondamental": 94.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +15.2% sur un an",
+          "bénéfices +13.8% sur un an",
+          "bénéfices attendus +89% sur 12 mois",
+          "analystes : « achat » (1.8/5, 26 avis)",
+          "objectif moyen des analystes : +33%",
+          "P/E attendu 25.9 (actuel 49.0)",
+          "marge nette 36%",
+          "dette / capitaux propres 97 %",
+          "🏷️ braderie probable : -22% vs marché en 3 mois, alors que les bénéfices attendus montent (+89%) et que les analystes restent à l'achat (+8 pts)"
+        ],
+        "score_global": 92.8,
+        "braderie": true
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -22% vs marché)",
+        "vs_marche_3m": -0.22370206712047724,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "KLA Corporation $KLAC Shares Purchased by PineStone Asset Management Inc. - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVlk0QlFXOExjcnJqVFNrb2lCSS1EUmIyTEVrak9Zc2lZX2dnOG12Q2J2cjVJdkFCc0dPR3NJMVQybkpqYmF6bk5GMDVDd25JV3ZGQ1dCYmRpQXRWZWFnbU5XaEFic3FZcGYwejE2RUZrUi1fUHhxRHRHQ3dDOEpxN0tDcjJSZ0tTVi1LRndzZkFPTXNrWmxqbFJpVmh6ZVkycGx6Z1FwRWxnY1ZIZ1dRUmJTZzRRaTNzUWk3d09SeVF2c0NlTlRHbEU1aXg?oc=5",
+            "date": "2026-10-18",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "KLA Corporation $KLAC Position Decreased by Howard Capital Management LLC - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTExwdUZxZlN3alpjRWh4S2xiQWtwRlg4QUlhTjNORW96UGd1U0hIRDd1a1lQUC1RUFFubDFIclBma3BZTWU1R1hYMWJCZWZfeXo1YnR1NFNtSjZtSXA5VGsxczRMMmpqb3RNalV1R1l0VjdZU2FySUNTT290T1JfaklkTVR3TzdBaGd4WmxXUE9TM3kyUkREeFlocGJDX0FDYzFPdXgyamQyRWRlV05lVWZJRkM5aGI3cWlvU0ZoUXQ4Sk83MDlwMUVTeGhrdw?oc=5",
+            "date": "2026-10-17",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "KLA Corporation $KLAC Shares Newly Purchased by Goelzer Investment Management Inc. - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObmFaVGc5c1ZORXJmWDNBelg4dVY4U2NXNHF2c2VFQm15U0JZVnViaWdUQ2ZGU2VobGpwSjB6QW1hOFIxdVFTUFhDSEptVHhqMTNiamE2al9KZUpKMTk0NV8wMUtHWnBIMGhSdDZJVnVHT0VsQTJ4NGZ3bDdqTE9qdkppNVJCczRjYm91aGdzejJ0cy02NzNBOUNYY1REVXoybnF1blBiOE5OcnR3N2RvZnIyeVozaDNiRVlfNXFobkR0Mm5yMFByZ21zSFFDTnNmUVQza01PRlg?oc=5",
+            "date": "2026-10-17",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "KLA Corporation $KLAC Stock: TD Waterhouse Canada Inc. Trims Holdings - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdTJCbXdQbjlFUmtEWjVtdFl0WlJWeTNiM1lod0dDalBnb2E2cndRU3ZGRTFRdXpWb01nYldVT1hpTGlPQnhBWl9VX0U0NUMwaV9DUGxkRm1xcnJOclhxSmtYcmlDTDRtVTgxbEg3ZDRmLTZHTW1LZ3lfOUpuMHZwUmJsMkhQblJNWmFoR083WmhIeEJqUXM1ZXJWS2hwcFRfTU1ta2lpcm9ocklGSmlSTHhDYUttbm5uY2M2ckw5VXVjM1BUZUE?oc=5",
+            "date": "2026-10-17",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "KLA Corporation stock loses 14.09 percent as weekly low reaches EUR 164.20 - ad-hoc-news.de",
+            "lien": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZWZteGxja3JNRUd0MzRJUkFWZFpzT2tLalozUTFjWElWOWhTVWMwTVVQZ2JDOXZYeVVfakJqME0zU1JmczR2MzZPaEhac0ZXUmQ1bFFuaEhIRmxBZ0NRS3VqQUp4M3lQS2xmUDhGLXlOM1UwcFZkTE9oWEhVZ1NaOVVQX3FhcU5maXBSNVJaRllvZzdoZHZ0MUtzRUl6bmp3bmN5M3JsNGhWbllra2dsN1J4ck5QNmszdVY1a2ZhcGFSMTItWWRVM2pHTTF1dkJ5RGdF?oc=5",
+            "date": "2026-10-17",
+            "source": "ad-hoc-news.de",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 111,
       "decision": "sans réponse"
     }
   ]
