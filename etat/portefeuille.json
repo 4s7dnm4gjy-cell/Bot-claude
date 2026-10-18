@@ -18,124 +18,103 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-18",
-    "cree_le": "2026-10-18T09:26+00:00",
-    "liberation": 197.3126554762637,
+    "cree_le": "2026-10-18T13:29+00:00",
+    "liberation": 250.20233365497788,
     "reserve_pct": null,
-    "score": 91.82649893630082,
+    "score": 92.17158690130417,
     "ordres": [
       {
-        "ticker": "ONTO",
+        "ticker": "MYRG",
         "side": "buy",
         "quantity": 1.0,
-        "price": 196.3126554762637,
+        "price": 249.20233365497788,
         "reason": "opportunité radar (score 92)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "ONTO",
-      "nom": "Onto Innovation",
-      "isin": "ONTO",
+      "ticker": "MYRG",
+      "nom": "MYR Group, Inc.",
+      "isin": "MYRG",
       "type": "action",
-      "prix": 220.6999969482422,
-      "score": 91.82649893630082,
-      "baisse": 0.41683184085218594,
-      "perf_5ans": 2.0517145724495514,
+      "prix": 280.1600036621094,
+      "score": 92.17158690130417,
+      "baisse": 0.4409434659023783,
+      "perf_5ans": 1.7319355955622,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.9392238624197127,
-      "pos_12m": 0.7955555555555556,
-      "n_12m": 225,
-      "base_moy_12m": 0.5800738489939727,
-      "pire_12m": -0.46989710846418054,
-      "vs_marche_3m": -0.23677178112220776,
+      "moy_12m": 0.6379609143359214,
+      "pos_12m": 0.9956616052060737,
+      "n_12m": 461,
+      "base_moy_12m": 0.29431407480556204,
+      "pire_12m": -0.11731268284301988,
+      "vs_marche_3m": -0.3127741441207529,
       "devise": "USD",
-      "prix_eur": 196.3126554762637,
-      "fondamental": 96.0,
+      "prix_eur": 249.20233365497788,
+      "fondamental": 94.0,
       "fondamental_notes": [
-        "chiffre d'affaires +35.3% sur un an",
-        "bénéfices +75.4% sur un an",
-        "bénéfices attendus +340% sur 12 mois",
-        "analystes : « achat fort » (1.2/5, 12 avis)",
-        "objectif des analystes +75% : peu crédible, probablement pas encore révisé",
-        "P/E attendu 19.0 (actuel 83.3)",
-        "marge nette 12%",
-        "dette / capitaux propres 77 %",
-        "🏷️ braderie probable : -24% vs marché en 3 mois, alors que les bénéfices attendus montent (+340%) et que les analystes restent à l'achat (+8 pts)"
+        "chiffre d'affaires +20.1% sur un an",
+        "bénéfices +86.5% sur un an",
+        "bénéfices attendus +38% sur 12 mois",
+        "analystes : « achat » (1.9/5, 5 avis)",
+        "objectif moyen des analystes : +44%",
+        "P/E attendu 19.1 (actuel 26.5)",
+        "marge nette 4%",
+        "dette / capitaux propres 9 %",
+        "🏷️ braderie probable : -31% vs marché en 3 mois, alors que les bénéfices attendus montent (+38%) et que les analystes restent à l'achat (+8 pts)"
       ],
-      "score_global": 94.3,
+      "score_global": 93.3,
       "braderie": true
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, 2 article(s) à regarder (3 mois : -24% vs marché)",
-      "vs_marche_3m": -0.23677178112220776,
-      "alertes": [
-        {
-          "titre": "SHAREHOLDER ALERT: Levi & Korsinsky, LLP Notifies Shareholders of an Investigation Concerning Possible Breaches of Fiduciary Duties by Certain Officers and Directors of Onto Innovation Inc. (NYSE: ONTO) - PR Newswire",
-          "lien": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxOakU1T1pqOHpJVHJ0c1JpemYyeE1NQUoxTXMtUEZaNkE4Tk1DM1BRaVl5TGtseWtPaGdMcWlVS19fbzF1ZWs0eHJidEhTd2JPVVo0NDFDdWgxbGJMeUd2dU5EYkM2YXJxSWpnMC1tMEV5LWxHMTRha0t4bGpvSGctZnVVdC1MMXJuRTF6YVRxMGM0a29sU0NIQXhRd1lScVdKUXFwSU5xbl96V1pkalNCM21LTXNrTkpRTWpEbENtelpqQlVLdE9LMnN2bkxhQjdaYXJ6ZGZCeU1HYXBtUTMwY2t6aHJlOHBBRFZJUXktaUt6d1Z5QWxENWZlbjByamF0NXVEYWk2NC1kREM3Z0V1UGRHZnlyVEJ2dGdoVktkNk5zWFl4WEIxc3VMSzVlLUJwdmVwOVo3WnhYWVJXbjZwbzhzR1l4QXJLOS1Wc0prWUlkb2ZnUnBqWC1EYzlwY0RqSHYzOGR4MzdEZDQ?oc=5",
-          "date": "2026-09-23",
-          "source": "PR Newswire",
-          "gravite": 1,
-          "mots": [
-            "investigation"
-          ]
-        },
-        {
-          "titre": "How Fiduciary Duty Probe At Onto Innovation Stock Has Changed Its Investment Story - Simply Wall Street",
-          "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNN3NzMExkZk02cHphUHc4eGU3cEtFRWdtVWt0dTQ5Yk55RTNEWGM4Q3VNdVZmOWRPSjVLZ1o1MGh3VFlVTmlfUy1nMTR0Z0NDSlBVYW5DMWVoWEo1WjB3blQ4bE96cmVEc3dEZUhWU3M1VzJFcjROMEtjdk1LUDBQVEVBd3JCOE1oWnV2MURzRF9zYVQyYlJvVFpnWVhoMkk2dmZSSDFuOXpkWDAtQ1pOMWZ0UTByRFRraE5hVmcyUWhyZWJKM3NKT0ZEaVE0X1JoVnU1UNIB2gFBVV95cUxPS0JqS3ZpM0pWLW1LaENyUnZBNGFwektlR25CWkF5V1ZDZDJMR1hiQVdLMG90Z0ZZakdYM1BQLVV4NGh5MGNfNjJuYW14TXM1Ui04SFgtWm9BUjBkMkVmZ0xWcHRhQ05rUDJyRkR6bER4bEk0N0tPcXVOaDR0RFR5QXgwTDZFdHBrYVpQSVF3Q0MyUDlkdmxvcmxtNU1WdzdnTWFBWE82ejJfZHBrd0lLRFJMWWRwcUlCRl96WGkzT0xuS0p2dWlxZHRvbTBNSEsyZDRxVUpYV3dpUQ?oc=5",
-          "date": "2026-09-25",
-          "source": "Simply Wall Street",
-          "gravite": 1,
-          "mots": [
-            "probe"
-          ]
-        }
-      ],
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -31% vs marché)",
+      "vs_marche_3m": -0.3127741441207529,
+      "alertes": [],
       "recents": [
         {
-          "titre": "Fourteen analysts set USD 380 target for Onto Innovation stock - ad-hoc-news.de",
-          "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNblRSd201Q1lBWTI0a2xpd0RSdHI1bEV5aEE5bjZ2VG9KUlRBbElZalg5ZkxpQzlKemMwZzY5Y2RibkR3UkU2ZW5oV2VKbXE4OHlvSzVzdGp4RDg4TjV6LVhKQ2c5VHlXb21Remt1Sk1TM3dnckdCSGFndE51ei1GOHNUWjJodDZZd2FxT21fRU94RUROM3ZCZ25yRXBzNndLc2thUGhwU0Y2b3FvMEtidFR3S3JuUXRqeFEtc0dR?oc=5",
+          "titre": "Jefferies cuts target for MYR Group stock to USD 370.00 - ad-hoc-news.de",
+          "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX2V2Y1JLODJXRkhsRUF2aklnZXk2c2YzVlNHUFN1ODNYMW5kSkZmNnpvdTNBaW1lMlJ3WlhJakVkaUxmRTM4MFZvMWpBMUlpV2pFMjJXc3h3VnE5aC1wUUg0aGZxMWFBVTVNZldWX0pabXBacElYS3JkSFhmTlFOMWlxR09xS0VUOWR1X012aGUtNHp5LUFkamRuYXRSS3lKYnN3Q1hjaEtTTTdlTUJWcXVvRWU?oc=5",
           "date": "2026-10-17",
           "source": "ad-hoc-news.de",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Onto Innovation: Strong Orders Support Attractive Growth And Valuation (NYSE:ONTO) - Seeking Alpha",
-          "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOd2ZJckxwQk5iQnVobTdJTTZQbTJ6WURHZ2xwVVBYdVBVODd1V2dicGktU2U0VnV2X1h4ZDlvVE1GQTVRS01JaDE2Um9WRUEzT25mYjhXZWZQd1BHXy1wZ2RPdTVLOFJoUFdJa3hvS0REWkoyVFJmSTh1TzQzQVhjNXdLRHdzWC1nX0MzNk9uTlhGX1U5dGh0WERhVENlMFh1aF9tS2NkUTZTRlBweWNr?oc=5",
-          "date": "2026-10-16",
-          "source": "Seeking Alpha",
+          "titre": "MYR Group Inc (MYRG) Shares Fall 5.8% -- What GF Score of 89 Tel - GuruFocus",
+          "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMlBndFFqalBMUFBjNEJfdXppWDFmakpEcTM4X2J5OFF0TXIwNjNMOU5ydm9ETzFWNUYzMTQ5dmlwRGVidnAyWkplT2Nlc3BmV2FHX1pmLTI2T0puNkdaVXJVam1BYTdCRFBiWDZGLUI4M00xaFVNWVF0VEgtMDk4Z2VJMkhBaU1wNkpMd1VVSzdLcFkwaGFrUFZwS1dKanZjQWNUN0J6dlJmT3JO?oc=5",
+          "date": "2026-10-15",
+          "source": "GuruFocus",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Onto Innovation Inc. (ONTO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-          "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5BY2pEQUo3X2w1NVVHTWFhVkw4MUtCWTZGVGNzTXVZaHJMekxWS21yRXNKTHpLcFBtTUUwSnJWeFFoYWJWNnFycWgwTHRQbFg4WWc?oc=5",
-          "date": "2026-10-16",
+          "titre": "MYR Group, Inc. (MYRG) Stock Forecasts - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZ1prNV9OZF95TnR3NzRLenhDRVVZb2RmRl9LZ1dGTnNHcmpGWkRpVFBqZThacnplaFJpQVdJS1ROMlgteUlzQXZRQlVfbjVjS29vSzUxTU4wdG15UlhucEFlblBDYXQ5bmxCOWtHb1c1dFdmM3BnSk1qTXBJb3ptN3Y4Q0w2cVZxZ0tSWUN6TQ?oc=5",
+          "date": "2026-10-15",
+          "source": "Yahoo Finance",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "MYR Group, Inc. (MYRG) Stock Forecasts - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRWhnVFNFbG9lMERzeENzaHFIMGEycG92bXctLTA0OWZiQnNzSTFtd3ljMmdkWktmWWdoS0ZUQ2tMYnJyUnJYeWh1TmVUMS1UTkJGa3U4OXZHeThVekVNZmhqZVNYNExqMnhIZ1hqRFRERlFrcElkYXZqV1VtcjVHTTJzZk1XOElKSGVReXA4MW5RRzA?oc=5",
+          "date": "2026-10-15",
           "source": "Yahoo! Finance Canada",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Onto Innovation Inc. (ONTO) stock price, news, quote and history - Yahoo Finance Singapore",
-          "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ySGFZZjN0NkhWQklQeUw2ZHdORDcyNldTX1lzVElYODVqWkVWUl9uS3ZhV0xVQ1NiWXpOamlCeGtqSjlfclVjLXRhZHhCa2lvclE?oc=5",
-          "date": "2026-10-16",
-          "source": "Yahoo Finance Singapore",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Onto Innovation Inc. (NYSE:ONTO) Stock Has Average Target Price of $380.00 According to Brokerages - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPODdQMWg0dlN6YVdxZ0c2TmE3RjBGdlU3Y2FmZ2kzMWRoUW5PZ01CRHpGeW1GZC1WMlJNWERpMjJMY1ZEcWhjeWlRczNrb19BWFVfbzdWWWNSeU1TdnY1TXZPOGZFVE5DcV9tdGNCSndsMHhQNnFKcDJGZGRYakhSQmRTR1hHSFNtWHliYW5VWjZrcXIzTmxxUkJxUVVtVndJNU5oYklpbzlCRUFPNWo3T3JFSm01Skl1N0ZNNndxRGx6VEltd016eDR3UUlaeU91WjdKMGpyU1J2UFcwci1GUTB4cU9sTktFcnhVaHJR?oc=5",
-          "date": "2026-10-16",
-          "source": "MarketBeat",
+          "titre": "MYR Group stock has third-quarter results due October 28 - ad-hoc-news.de",
+          "lien": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOc3d6SXh4Zm5jcHp6eWgxMm96LUo5X1BheEFLWTMtN0JpM1h2dnJuaFc5UzNQRi1HeHlEWGtqWGN1a1RiV0JCVjQ5SWtaODFyY0lmT09KeUxHOExfM3dES3lyVkgzT3Q4c0JoeGl5TUI2ZVd4MmFNWEFVem9JOFUtSkxIalRiUWlwLVpyVXNPREw2dnlhb0I0UHJTYm4zZ21MRlBOMVZNVmdndjhfVlVnLTdxNEF4dw?oc=5",
+          "date": "2026-10-15",
+          "source": "ad-hoc-news.de",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 108
+    "ticket": 109
   },
   "radar_proposes": [
     "MCD",
@@ -268,7 +247,8 @@
     "MKSI",
     "ESE",
     "STRL",
-    "ONTO"
+    "ONTO",
+    "MYRG"
   ],
   "achats": [],
   "historique": [
@@ -10933,6 +10913,129 @@
         ]
       },
       "ticket": 107,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-18",
+      "cree_le": "2026-10-18T09:26+00:00",
+      "liberation": 197.3126554762637,
+      "reserve_pct": null,
+      "score": 91.82649893630082,
+      "ordres": [
+        {
+          "ticker": "ONTO",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 196.3126554762637,
+          "reason": "opportunité radar (score 92)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "ONTO",
+        "nom": "Onto Innovation",
+        "isin": "ONTO",
+        "type": "action",
+        "prix": 220.6999969482422,
+        "score": 91.82649893630082,
+        "baisse": 0.41683184085218594,
+        "perf_5ans": 2.0517145724495514,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.9392238624197127,
+        "pos_12m": 0.7955555555555556,
+        "n_12m": 225,
+        "base_moy_12m": 0.5800738489939727,
+        "pire_12m": -0.46989710846418054,
+        "vs_marche_3m": -0.23677178112220776,
+        "devise": "USD",
+        "prix_eur": 196.3126554762637,
+        "fondamental": 96.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +35.3% sur un an",
+          "bénéfices +75.4% sur un an",
+          "bénéfices attendus +340% sur 12 mois",
+          "analystes : « achat fort » (1.2/5, 12 avis)",
+          "objectif des analystes +75% : peu crédible, probablement pas encore révisé",
+          "P/E attendu 19.0 (actuel 83.3)",
+          "marge nette 12%",
+          "dette / capitaux propres 77 %",
+          "🏷️ braderie probable : -24% vs marché en 3 mois, alors que les bénéfices attendus montent (+340%) et que les analystes restent à l'achat (+8 pts)"
+        ],
+        "score_global": 94.3,
+        "braderie": true
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, 2 article(s) à regarder (3 mois : -24% vs marché)",
+        "vs_marche_3m": -0.23677178112220776,
+        "alertes": [
+          {
+            "titre": "SHAREHOLDER ALERT: Levi & Korsinsky, LLP Notifies Shareholders of an Investigation Concerning Possible Breaches of Fiduciary Duties by Certain Officers and Directors of Onto Innovation Inc. (NYSE: ONTO) - PR Newswire",
+            "lien": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxOakU1T1pqOHpJVHJ0c1JpemYyeE1NQUoxTXMtUEZaNkE4Tk1DM1BRaVl5TGtseWtPaGdMcWlVS19fbzF1ZWs0eHJidEhTd2JPVVo0NDFDdWgxbGJMeUd2dU5EYkM2YXJxSWpnMC1tMEV5LWxHMTRha0t4bGpvSGctZnVVdC1MMXJuRTF6YVRxMGM0a29sU0NIQXhRd1lScVdKUXFwSU5xbl96V1pkalNCM21LTXNrTkpRTWpEbENtelpqQlVLdE9LMnN2bkxhQjdaYXJ6ZGZCeU1HYXBtUTMwY2t6aHJlOHBBRFZJUXktaUt6d1Z5QWxENWZlbjByamF0NXVEYWk2NC1kREM3Z0V1UGRHZnlyVEJ2dGdoVktkNk5zWFl4WEIxc3VMSzVlLUJwdmVwOVo3WnhYWVJXbjZwbzhzR1l4QXJLOS1Wc0prWUlkb2ZnUnBqWC1EYzlwY0RqSHYzOGR4MzdEZDQ?oc=5",
+            "date": "2026-09-23",
+            "source": "PR Newswire",
+            "gravite": 1,
+            "mots": [
+              "investigation"
+            ]
+          },
+          {
+            "titre": "How Fiduciary Duty Probe At Onto Innovation Stock Has Changed Its Investment Story - Simply Wall Street",
+            "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNN3NzMExkZk02cHphUHc4eGU3cEtFRWdtVWt0dTQ5Yk55RTNEWGM4Q3VNdVZmOWRPSjVLZ1o1MGh3VFlVTmlfUy1nMTR0Z0NDSlBVYW5DMWVoWEo1WjB3blQ4bE96cmVEc3dEZUhWU3M1VzJFcjROMEtjdk1LUDBQVEVBd3JCOE1oWnV2MURzRF9zYVQyYlJvVFpnWVhoMkk2dmZSSDFuOXpkWDAtQ1pOMWZ0UTByRFRraE5hVmcyUWhyZWJKM3NKT0ZEaVE0X1JoVnU1UNIB2gFBVV95cUxPS0JqS3ZpM0pWLW1LaENyUnZBNGFwektlR25CWkF5V1ZDZDJMR1hiQVdLMG90Z0ZZakdYM1BQLVV4NGh5MGNfNjJuYW14TXM1Ui04SFgtWm9BUjBkMkVmZ0xWcHRhQ05rUDJyRkR6bER4bEk0N0tPcXVOaDR0RFR5QXgwTDZFdHBrYVpQSVF3Q0MyUDlkdmxvcmxtNU1WdzdnTWFBWE82ejJfZHBrd0lLRFJMWWRwcUlCRl96WGkzT0xuS0p2dWlxZHRvbTBNSEsyZDRxVUpYV3dpUQ?oc=5",
+            "date": "2026-09-25",
+            "source": "Simply Wall Street",
+            "gravite": 1,
+            "mots": [
+              "probe"
+            ]
+          }
+        ],
+        "recents": [
+          {
+            "titre": "Fourteen analysts set USD 380 target for Onto Innovation stock - ad-hoc-news.de",
+            "lien": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNblRSd201Q1lBWTI0a2xpd0RSdHI1bEV5aEE5bjZ2VG9KUlRBbElZalg5ZkxpQzlKemMwZzY5Y2RibkR3UkU2ZW5oV2VKbXE4OHlvSzVzdGp4RDg4TjV6LVhKQ2c5VHlXb21Remt1Sk1TM3dnckdCSGFndE51ei1GOHNUWjJodDZZd2FxT21fRU94RUROM3ZCZ25yRXBzNndLc2thUGhwU0Y2b3FvMEtidFR3S3JuUXRqeFEtc0dR?oc=5",
+            "date": "2026-10-17",
+            "source": "ad-hoc-news.de",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Onto Innovation: Strong Orders Support Attractive Growth And Valuation (NYSE:ONTO) - Seeking Alpha",
+            "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOd2ZJckxwQk5iQnVobTdJTTZQbTJ6WURHZ2xwVVBYdVBVODd1V2dicGktU2U0VnV2X1h4ZDlvVE1GQTVRS01JaDE2Um9WRUEzT25mYjhXZWZQd1BHXy1wZ2RPdTVLOFJoUFdJa3hvS0REWkoyVFJmSTh1TzQzQVhjNXdLRHdzWC1nX0MzNk9uTlhGX1U5dGh0WERhVENlMFh1aF9tS2NkUTZTRlBweWNr?oc=5",
+            "date": "2026-10-16",
+            "source": "Seeking Alpha",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Onto Innovation Inc. (ONTO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+            "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5BY2pEQUo3X2w1NVVHTWFhVkw4MUtCWTZGVGNzTXVZaHJMekxWS21yRXNKTHpLcFBtTUUwSnJWeFFoYWJWNnFycWgwTHRQbFg4WWc?oc=5",
+            "date": "2026-10-16",
+            "source": "Yahoo! Finance Canada",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Onto Innovation Inc. (ONTO) stock price, news, quote and history - Yahoo Finance Singapore",
+            "lien": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ySGFZZjN0NkhWQklQeUw2ZHdORDcyNldTX1lzVElYODVqWkVWUl9uS3ZhV0xVQ1NiWXpOamlCeGtqSjlfclVjLXRhZHhCa2lvclE?oc=5",
+            "date": "2026-10-16",
+            "source": "Yahoo Finance Singapore",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Onto Innovation Inc. (NYSE:ONTO) Stock Has Average Target Price of $380.00 According to Brokerages - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPODdQMWg0dlN6YVdxZ0c2TmE3RjBGdlU3Y2FmZ2kzMWRoUW5PZ01CRHpGeW1GZC1WMlJNWERpMjJMY1ZEcWhjeWlRczNrb19BWFVfbzdWWWNSeU1TdnY1TXZPOGZFVE5DcV9tdGNCSndsMHhQNnFKcDJGZGRYakhSQmRTR1hHSFNtWHliYW5VWjZrcXIzTmxxUkJxUVVtVndJNU5oYklpbzlCRUFPNWo3T3JFSm01Skl1N0ZNNndxRGx6VEltd016eDR3UUlaeU91WjdKMGpyU1J2UFcwci1GUTB4cU9sTktFcnhVaHJR?oc=5",
+            "date": "2026-10-16",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 108,
       "decision": "sans réponse"
     }
   ]
