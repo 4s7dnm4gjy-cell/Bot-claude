@@ -106,12 +106,11 @@ Les prix étrangers sont convertis en euros pour chiffrer les achats. Pour les t
 
 Les opportunités sont classées par **score global** : 40 % baisse du cours + 60 % fondamentaux. Une action sous **70/100** en fondamentaux, ou sans données, n'est jamais proposée.
 
-**⚡ Mode express (toutes les 30 minutes) :**
-- **De 7h à 23h, tous les jours,** le bot propose une nouvelle opportunité du radar, par un ticket dans votre Inbox GitHub.
-- **Sans réponse au bout de 30 minutes,** il ferme le ticket et propose le titre suivant.
-- **Si vous répondez `oui` ou `non`,** la suivante arrive au passage d'après.
+**⚡ Opportunité du jour (une fois par jour, vers 19h) :**
+- **Chaque soir, juste après le bulletin,** le bot propose la meilleure opportunité du radar, par un ticket dans votre Inbox GitHub.
+- **Sans réponse le lendemain,** il ferme le ticket et propose le titre suivant.
 - **Un titre n'est jamais proposé deux fois,** et ses actualités sont relues juste avant chaque ticket.
-- **La liste des candidats est recalculée chaque soir** par le conseil quotidien. Les horaires se règlent dans `config.yaml` (`radar.express_heures`).
+- Le rythme se règle dans `config.yaml` (`radar.express_minutes`) et `.github/workflows/express.yml`.
 
 **📰 Lecture des actualités : opportunité ou vraie mauvaise nouvelle ?**
 Avant chaque alerte, le bot lit les articles des 30 derniers jours sur le titre (Google Actualités, en français et en anglais). Il y cherche des signaux d'alarme : scandale, fraude, enquête, procès, faillite, avertissement sur résultats… Il compare aussi la baisse du titre à celle du marché.

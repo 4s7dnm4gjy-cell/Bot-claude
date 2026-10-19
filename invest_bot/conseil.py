@@ -352,7 +352,7 @@ def corps_opportunite(cfg: Config, prop: dict, image_url: str) -> str:
     ] if p)
 
 
-# --------------------------------------------------------------------------- radar express (toutes les 30 min)
+# --------------------------------------------------------------------------- radar express (une proposition à la fois)
 
 CANDIDATS = Path("etat/candidats.json")
 
@@ -378,8 +378,12 @@ def _dans_les_heures(cfg: Config, maintenant: datetime) -> bool:
     return debut <= heure < fin
 
 
+def _delai_txt(minutes: int) -> str:
+    return "24 heures" if minutes >= 12 * 60 else f"{minutes} minutes"
+
+
 def lancer_express(cfg: Config, maintenant: datetime | None = None, max_actualites: int = 6) -> dict | None:
-    """Toutes les 30 min : sans réponse depuis 30 min, on passe au titre suivant (jamais deux fois le même)."""
+    """Sans réponse après `express_minutes`, on passe au titre suivant (jamais deux fois le même)."""
     maintenant = maintenant or datetime.now(timezone.utc)
     if not cfg.radar or not CANDIDATS.exists():
         return None
@@ -394,7 +398,8 @@ def lancer_express(cfg: Config, maintenant: datetime | None = None, max_actualit
         if ouvert and maintenant - cree < delai:
             return None  # on laisse le temps de répondre
         if ouvert and gh.actif and opp.get("ticket"):
-            gh.commenter(opp["ticket"], "⏭️ Pas de réponse en 30 minutes : je passe à l'opportunité suivante. "
+            gh.commenter(opp["ticket"], f"⏭️ Pas de réponse en {_delai_txt(int(delai.total_seconds() // 60))} : "
+                                        "je passe à l'opportunité suivante. "
                                         "Ce titre ne sera plus reproposé.")
             gh.fermer(opp["ticket"])
         etat["historique"].append({**opp, "decision": "sans réponse" if ouvert else "fermé"})
@@ -438,7 +443,8 @@ def lancer_express(cfg: Config, maintenant: datetime | None = None, max_actualit
             "radar": asdict(o), "actualites": act.to_dict() if act is not None else None,
         }
         corps = corps_opportunite(cfg, prop, None) + (
-            "\n\n*Prix de la dernière clôture. Sans réponse dans 30 minutes, je passe au titre suivant ; "
+            f"\n\n*Prix de la dernière clôture. Sans réponse dans {_delai_txt(int(delai.total_seconds() // 60))}, "
+            "je passe au titre suivant ; "
             "un titre n'est jamais proposé deux fois.*")
         if gh.actif:
             prop["ticket"] = gh.creer_ticket(titre_ticket(prop), f"{gh.mention} 👋 nouvelle opportunité.\n\n" + corps)

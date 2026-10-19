@@ -1,13 +1,13 @@
-name: Radar express (toutes les 30 minutes)
+name: Opportunité du jour
 
-# Propose une nouvelle opportunité du radar toutes les 30 minutes (entre 7h et 23h,
-# heure de Paris, réglable dans config.yaml : radar.express_heures). Sans réponse
-# au bout de 30 minutes, le ticket est fermé et le titre suivant est proposé.
+# Propose une opportunité du radar une fois par jour, juste après le conseil
+# quotidien. Sans réponse le lendemain, le ticket est fermé et le titre suivant
+# est proposé (config.yaml : radar.express_minutes).
 # Un titre n'est jamais proposé deux fois. Léger : aucun cours n'est téléchargé,
 # la liste des candidats est préparée chaque soir par le conseil quotidien.
 on:
   schedule:
-    - cron: "*/30 5-22 * * *"   # UTC : couvre 7h-23h à Paris été comme hiver (le bot vérifie l'heure exacte)
+    - cron: "15 17 * * *"   # UTC : 19h15 à Paris l'été, 18h15 l'hiver (après le conseil de 16h45 UTC)
   workflow_dispatch:
 
 permissions:
