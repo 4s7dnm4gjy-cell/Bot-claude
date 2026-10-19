@@ -18,103 +18,102 @@
   "opportunite": {
     "type": "opportunite",
     "date": "2026-10-19",
-    "cree_le": "2026-10-19T10:39+00:00",
-    "liberation": 149.32053930490795,
+    "cree_le": "2026-10-19T17:24+00:00",
+    "liberation": 99.82683571523144,
     "reserve_pct": null,
-    "score": 87.88796087159015,
+    "score": 90.49835209550852,
     "ordres": [
       {
-        "ticker": "VSH",
+        "ticker": "APO",
         "side": "buy",
-        "quantity": 6.0,
-        "price": 24.720089884151324,
-        "reason": "opportunité radar (score 88)"
+        "quantity": 1.0,
+        "price": 98.82683571523144,
+        "reason": "opportunité radar (score 90)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "VSH",
-      "nom": "Vishay Intertechnology",
-      "isin": "VSH",
+      "ticker": "APO",
+      "nom": "Apollo Global Management",
+      "isin": "APO",
       "type": "action",
-      "prix": 27.709999084472656,
-      "score": 87.88796087159015,
-      "baisse": 0.5716838861614697,
-      "perf_5ans": 0.5529387518934699,
+      "prix": 110.77999877929688,
+      "score": 90.49835209550852,
+      "baisse": 0.2654000991800395,
+      "perf_5ans": 0.865539834468523,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.5454846514528294,
-      "pos_12m": 0.7173252279635258,
-      "n_12m": 329,
-      "base_moy_12m": 0.14685600597612794,
-      "pire_12m": -0.7471395225398869,
-      "vs_marche_3m": -0.2801755541968728,
+      "moy_12m": 0.292073219533213,
+      "pos_12m": 0.631336405529954,
+      "n_12m": 434,
+      "base_moy_12m": 0.24945953801199688,
+      "pire_12m": -0.2819011378430033,
+      "vs_marche_3m": -0.07939241627561189,
       "devise": "USD",
-      "prix_eur": 24.720089884151324,
-      "fondamental": 94.0,
+      "prix_eur": 98.82683571523144,
+      "fondamental": 92.0,
       "fondamental_notes": [
-        "chiffre d'affaires +16.6% sur un an",
-        "bénéfices +1800.0% sur un an",
-        "bénéfices attendus +817% sur 12 mois",
-        "analystes : « achat » (2.0/5, 6 avis)",
-        "objectif moyen des analystes : +46%",
-        "P/E attendu 15.9 (actuel 146.0)",
-        "marge nette 1%",
-        "dette / capitaux propres 38 %",
-        "🏷️ braderie probable : -28% vs marché en 3 mois, alors que les bénéfices attendus montent (+817%) et que les analystes restent à l'achat (+8 pts)"
+        "chiffre d'affaires +63.8% sur un an",
+        "bénéfices +63.7% sur un an",
+        "bénéfices attendus +283% sur 12 mois",
+        "analystes : « achat fort » (1.8/5, 20 avis)",
+        "objectif moyen des analystes : +35%",
+        "P/E attendu 10.4 (actuel 39.8)",
+        "marge nette 5%",
+        "dette / capitaux propres 101 %"
       ],
-      "score_global": 91.6,
-      "braderie": true
+      "score_global": 91.4,
+      "braderie": false
     },
     "actualites": {
-      "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -28% vs marché)",
-      "vs_marche_3m": -0.2801755541968728,
+      "verdict": "vert",
+      "resume": "rien d'alarmant dans l'actualité (3 mois : -8% vs marché)",
+      "vs_marche_3m": -0.07939241627561189,
       "alertes": [],
       "recents": [
         {
-          "titre": "1,192,006 Shares in Vishay Intertechnology, Inc. $VSH Purchased by Assenagon Asset Management S.A. - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPb29aRXZYVVBvOUZleVlPLW84Qmo2NEZiR1cycWpWSm0wblVBeE1udGo4QU5LY1BJR051TnR3WGR3OEk0MnQxQjdJRWxWR2R0REJoTmlrd1draFU3TUh4R2poZEdfN2VqQWV2UjhvMjZ3N2djTjFLeXRrOVBZYW1CeXQzSXlsb2tXcHhkTC1Memt6aV9ZeEZNQm5KcWdyYVl2Y0pDNGZINHNYLWtVejhySVd4Mnc3SGg4R004X2NhN1haLTN3ZWd3Tk5POUd6R0ctb0hiZy13TWtjeHEzcTZDWTlOcjBVN2c?oc=5",
-          "date": "2026-10-18",
+          "titre": "EasyJet accepte l'offre de rachat de 5,7 milliards de livres d'Apollo Global Management - horticulture-abadie-pyrenees.com",
+          "lien": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9wdFVSeEl3THNrX1JCZ3V0dDlPeUdTTDRNNVk5T0ZHNDZtQ09Gdjl0ZTBSR1czZ1hUSGJjeGtoR1duY2V0a0FPaWl2UTJ0R3FXU0dvLTlKN1dBRTlJNVdoai1DUEhKMUdRXzQ0OHFIaw?oc=5",
+          "date": "2026-10-19",
+          "source": "horticulture-abadie-pyrenees.com",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "M&A Is Booming Because Rapid Change Is Forcing Firms to Rethink Their Business - Apollo Global Management",
+          "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZlJVZWZZMGF6RmRTYklUMzVUZ2hrQjRxNGNGMWxRRDdFVTF4NzI0VWlKMFQzcjRVY0sya1VpcEk4TkhMU1NGTEFqVnR6NG94MXRoSEg5MXdzd21TLVg5R0pSSkN1emZTRGFPQXpNXzhLN3d6XzM4Y19sb1RhaHpSZEJCOHRaOVJVQWMxazk4ekRhT0JPTDhoYno5NzViQ3UwUFAteURPSWJBRUVkTmxYdWFVMk9lX0tiYzYyR1o1UHVVZGNYNDNPd2RodGxIV0pvRktDQ3NwVHVoUQ?oc=5",
+          "date": "2026-10-19",
+          "source": "Apollo Global Management",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Here's What to Expect From Apollo Global Management's Next Earnings Report - Barchart.com",
+          "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWjhBcHFPdWdreXZ4ZlczVWVLUThGeFpRa09heEQxMEFyNUI4OThXQkFUU25hdXdHeS1PcXV3NngzWVRGcFFEV04zNzdKeG9pQVRQenZzcXpfT3NSZTVPUzhwS3pRNDIxTGJWSUNDX3ZxVUltazFhdDVnMWlxU0lTZnVpU2w1Y2FTWGVaZGdPTU5YcEdXWXZmMkhTX2JGRXo4ZWJ6dmpDWUZEblhLNndRcmlKYklrdTQtbkE?oc=5",
+          "date": "2026-10-19",
+          "source": "Barchart.com",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Apollo Global Management Inc. $APO Stock: Assenagon Asset Management S.A. Decreases Stake - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQM0tnQWNLRDg3b2lTT3VHVGVxSjc0VkllUk1GZUx6SVgxUy1TaWVkVk4xNkpYNFFDd3otdG1UTG16TENlZWRGN1V1NGJTNnlkZHJreUp4dkdnM1JFWTBveFg1VTVLdnpuREhRTE5pZlpUNnNRWkIwa3dYeFdzRmx4cjRUZXlPRVkyaXRCVnpxN0lzSmZ0dURTTGpGbndXRFBORjZnQ2J4dk52VVpQT05JM2o5VGxpRllvTTBhc0cwalRxS09KcmZOQ1RRSkF6VDZwN0o0TjlnS1A0bVhFbEE?oc=5",
+          "date": "2026-10-19",
           "source": "MarketBeat",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Vishay launches four optical sensors. Vishay Intertechnology stock is valued at USD 4.3 billion. - ad-hoc-news.de",
-          "lien": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWUw5ZG9PZDdSX1RYQlNCYkFnRVpIbmlLaV9yblhpNnZkRjZGVXVVdEZVdUxYelZnaUpWN19YN3JEQmgwT3lobllfUDVvM2JnU1lUMF9GT3ZzdTl3akF2T1JUUExfVDhIemswZDdWLTVZTVAtd1hpZ09JYWg0STVXWHZPUTVLUU1BTFpuMWw2S1Y3aDJmcHo1UEE4aHNHNnJaT3FVa0ZtUkpRYXZuSV9kU2I0cmxVWm9yRmw5TTZiZklMN0wzQjJwY29ab1pRVFQwVDBncnV1OGo3X1ZwNS1xdGRkaEx0d0lk?oc=5",
-          "date": "2026-10-18",
-          "source": "ad-hoc-news.de",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Vishay Intertechnology, Inc. (VSH) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5wcmt2aXc3Vy1WNUtEbm9fNzV6ZjhfVlJ3VkR6Ni01R0xuQWl1ZUVMckFVUDJfVTg1UUwzYzc0aWZjem9PbGduaXFHZ0ptNkdj?oc=5",
-          "date": "2026-10-17",
-          "source": "Yahoo! Finance Canada",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Vishay Intertechnology, Inc. (VSH) stock price, news, quote and history - Yahoo Finance UK",
-          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBLVF9nVjJWcVhJcHZ4NEJMYmtsakdabFhhUUZjaDZSdzBvZGc3Y2UtdWF5b1c3cmN6TUNBX19ETHh0UmN3ZWRlTVFBcmFFQzZ4?oc=5",
-          "date": "2026-10-17",
-          "source": "Yahoo Finance UK",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "A Look at Vishay Intertechnology Inc (VSH) After 3.6% Decline -- GF Value $21.13 vs Price $27.71 - GuruFocus",
-          "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWGt2dUIxZ1Z1MDRySGJBdF9fZE40WmdtaEo4VFA5X0o1S01LY2hWQkt5Y2F6bjgwSXFMMGx3T0Y4Q1FzODFDQm9iMTJIQ3BwbUNxVWczc1lQeUhfMGozMWVNekZ1MW1qTjNCNXIyRXVweWE4MHkwVTZFT2JNZVEzV0hDMHotNGNUaFk0WGxkX042UHJ3Z0FHNWdQUFZCaEhuYXY4RmwtRUtTRG52cHZZQWZpWlhQLW05TUdWNzZ5azV1UQ?oc=5",
-          "date": "2026-10-17",
-          "source": "GuruFocus",
+          "titre": "Apollo Global Management Inc. $APO Shares Bought by IFP Advisors Inc - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSGEtRzRRaDg5MzdUZFNkTGRHSkVFQnZreEN1RUQ0bFN3MXMyTVdZQTlRMzJMVVZvNzdtMFZZMGkxMldBYUp1QWFGUWVud1Q2SVE4Nkxyd0tWQUx3elc5MUpTc0E4djFIUU9pbUgxd0xsTXRNdlBjRjVWeTBiZTRrQ0FpSXpuWXlxMzVZQm03N2xybDZodFJJbWpneDJKRFJpUHhjNHVjOWJTOUtIYXpPZ3BoeGl6ODhzMXJKMnRRSnVBSW5vM1E?oc=5",
+          "date": "2026-10-19",
+          "source": "MarketBeat",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 112
+    "ticket": 113
   },
   "radar_proposes": [
     "MCD",
@@ -252,7 +251,9 @@
     "BX",
     "KLAC",
     "STX",
-    "VSH"
+    "VSH",
+    "ENS",
+    "APO"
   ],
   "achats": [],
   "historique": [
@@ -11368,6 +11369,108 @@
         ]
       },
       "ticket": 111,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-19",
+      "cree_le": "2026-10-19T10:39+00:00",
+      "liberation": 149.32053930490795,
+      "reserve_pct": null,
+      "score": 87.88796087159015,
+      "ordres": [
+        {
+          "ticker": "VSH",
+          "side": "buy",
+          "quantity": 6.0,
+          "price": 24.720089884151324,
+          "reason": "opportunité radar (score 88)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "VSH",
+        "nom": "Vishay Intertechnology",
+        "isin": "VSH",
+        "type": "action",
+        "prix": 27.709999084472656,
+        "score": 87.88796087159015,
+        "baisse": 0.5716838861614697,
+        "perf_5ans": 0.5529387518934699,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.5454846514528294,
+        "pos_12m": 0.7173252279635258,
+        "n_12m": 329,
+        "base_moy_12m": 0.14685600597612794,
+        "pire_12m": -0.7471395225398869,
+        "vs_marche_3m": -0.2801755541968728,
+        "devise": "USD",
+        "prix_eur": 24.720089884151324,
+        "fondamental": 94.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +16.6% sur un an",
+          "bénéfices +1800.0% sur un an",
+          "bénéfices attendus +817% sur 12 mois",
+          "analystes : « achat » (2.0/5, 6 avis)",
+          "objectif moyen des analystes : +46%",
+          "P/E attendu 15.9 (actuel 146.0)",
+          "marge nette 1%",
+          "dette / capitaux propres 38 %",
+          "🏷️ braderie probable : -28% vs marché en 3 mois, alors que les bénéfices attendus montent (+817%) et que les analystes restent à l'achat (+8 pts)"
+        ],
+        "score_global": 91.6,
+        "braderie": true
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -28% vs marché)",
+        "vs_marche_3m": -0.2801755541968728,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "1,192,006 Shares in Vishay Intertechnology, Inc. $VSH Purchased by Assenagon Asset Management S.A. - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPb29aRXZYVVBvOUZleVlPLW84Qmo2NEZiR1cycWpWSm0wblVBeE1udGo4QU5LY1BJR051TnR3WGR3OEk0MnQxQjdJRWxWR2R0REJoTmlrd1draFU3TUh4R2poZEdfN2VqQWV2UjhvMjZ3N2djTjFLeXRrOVBZYW1CeXQzSXlsb2tXcHhkTC1Memt6aV9ZeEZNQm5KcWdyYVl2Y0pDNGZINHNYLWtVejhySVd4Mnc3SGg4R004X2NhN1haLTN3ZWd3Tk5POUd6R0ctb0hiZy13TWtjeHEzcTZDWTlOcjBVN2c?oc=5",
+            "date": "2026-10-18",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Vishay launches four optical sensors. Vishay Intertechnology stock is valued at USD 4.3 billion. - ad-hoc-news.de",
+            "lien": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWUw5ZG9PZDdSX1RYQlNCYkFnRVpIbmlLaV9yblhpNnZkRjZGVXVVdEZVdUxYelZnaUpWN19YN3JEQmgwT3lobllfUDVvM2JnU1lUMF9GT3ZzdTl3akF2T1JUUExfVDhIemswZDdWLTVZTVAtd1hpZ09JYWg0STVXWHZPUTVLUU1BTFpuMWw2S1Y3aDJmcHo1UEE4aHNHNnJaT3FVa0ZtUkpRYXZuSV9kU2I0cmxVWm9yRmw5TTZiZklMN0wzQjJwY29ab1pRVFQwVDBncnV1OGo3X1ZwNS1xdGRkaEx0d0lk?oc=5",
+            "date": "2026-10-18",
+            "source": "ad-hoc-news.de",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Vishay Intertechnology, Inc. (VSH) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+            "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5wcmt2aXc3Vy1WNUtEbm9fNzV6ZjhfVlJ3VkR6Ni01R0xuQWl1ZUVMckFVUDJfVTg1UUwzYzc0aWZjem9PbGduaXFHZ0ptNkdj?oc=5",
+            "date": "2026-10-17",
+            "source": "Yahoo! Finance Canada",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Vishay Intertechnology, Inc. (VSH) stock price, news, quote and history - Yahoo Finance UK",
+            "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBLVF9nVjJWcVhJcHZ4NEJMYmtsakdabFhhUUZjaDZSdzBvZGc3Y2UtdWF5b1c3cmN6TUNBX19ETHh0UmN3ZWRlTVFBcmFFQzZ4?oc=5",
+            "date": "2026-10-17",
+            "source": "Yahoo Finance UK",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "A Look at Vishay Intertechnology Inc (VSH) After 3.6% Decline -- GF Value $21.13 vs Price $27.71 - GuruFocus",
+            "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWGt2dUIxZ1Z1MDRySGJBdF9fZE40WmdtaEo4VFA5X0o1S01LY2hWQkt5Y2F6bjgwSXFMMGx3T0Y4Q1FzODFDQm9iMTJIQ3BwbUNxVWczc1lQeUhfMGozMWVNekZ1MW1qTjNCNXIyRXVweWE4MHkwVTZFT2JNZVEzV0hDMHotNGNUaFk0WGxkX042UHJ3Z0FHNWdQUFZCaEhuYXY4RmwtRUtTRG52cHZZQWZpWlhQLW05TUdWNzZ5azV1UQ?oc=5",
+            "date": "2026-10-17",
+            "source": "GuruFocus",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 112,
       "decision": "sans réponse"
     }
   ]
