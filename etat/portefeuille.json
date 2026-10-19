@@ -15,106 +15,7 @@
     "MCD": "2026-10-05",
     "IGG.L": "2026-10-06"
   },
-  "opportunite": {
-    "type": "opportunite",
-    "date": "2026-10-19",
-    "cree_le": "2026-10-19T17:24+00:00",
-    "liberation": 99.82683571523144,
-    "reserve_pct": null,
-    "score": 90.49835209550852,
-    "ordres": [
-      {
-        "ticker": "APO",
-        "side": "buy",
-        "quantity": 1.0,
-        "price": 98.82683571523144,
-        "reason": "opportunité radar (score 90)"
-      }
-    ],
-    "notes": [],
-    "total": 0,
-    "radar": {
-      "ticker": "APO",
-      "nom": "Apollo Global Management",
-      "isin": "APO",
-      "type": "action",
-      "prix": 110.77999877929688,
-      "score": 90.49835209550852,
-      "baisse": 0.2654000991800395,
-      "perf_5ans": 0.865539834468523,
-      "tranche": "80-100 (soldé)",
-      "moy_12m": 0.292073219533213,
-      "pos_12m": 0.631336405529954,
-      "n_12m": 434,
-      "base_moy_12m": 0.24945953801199688,
-      "pire_12m": -0.2819011378430033,
-      "vs_marche_3m": -0.07939241627561189,
-      "devise": "USD",
-      "prix_eur": 98.82683571523144,
-      "fondamental": 92.0,
-      "fondamental_notes": [
-        "chiffre d'affaires +63.8% sur un an",
-        "bénéfices +63.7% sur un an",
-        "bénéfices attendus +283% sur 12 mois",
-        "analystes : « achat fort » (1.8/5, 20 avis)",
-        "objectif moyen des analystes : +35%",
-        "P/E attendu 10.4 (actuel 39.8)",
-        "marge nette 5%",
-        "dette / capitaux propres 101 %"
-      ],
-      "score_global": 91.4,
-      "braderie": false
-    },
-    "actualites": {
-      "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -8% vs marché)",
-      "vs_marche_3m": -0.07939241627561189,
-      "alertes": [],
-      "recents": [
-        {
-          "titre": "EasyJet accepte l'offre de rachat de 5,7 milliards de livres d'Apollo Global Management - horticulture-abadie-pyrenees.com",
-          "lien": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9wdFVSeEl3THNrX1JCZ3V0dDlPeUdTTDRNNVk5T0ZHNDZtQ09Gdjl0ZTBSR1czZ1hUSGJjeGtoR1duY2V0a0FPaWl2UTJ0R3FXU0dvLTlKN1dBRTlJNVdoai1DUEhKMUdRXzQ0OHFIaw?oc=5",
-          "date": "2026-10-19",
-          "source": "horticulture-abadie-pyrenees.com",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "M&A Is Booming Because Rapid Change Is Forcing Firms to Rethink Their Business - Apollo Global Management",
-          "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZlJVZWZZMGF6RmRTYklUMzVUZ2hrQjRxNGNGMWxRRDdFVTF4NzI0VWlKMFQzcjRVY0sya1VpcEk4TkhMU1NGTEFqVnR6NG94MXRoSEg5MXdzd21TLVg5R0pSSkN1emZTRGFPQXpNXzhLN3d6XzM4Y19sb1RhaHpSZEJCOHRaOVJVQWMxazk4ekRhT0JPTDhoYno5NzViQ3UwUFAteURPSWJBRUVkTmxYdWFVMk9lX0tiYzYyR1o1UHVVZGNYNDNPd2RodGxIV0pvRktDQ3NwVHVoUQ?oc=5",
-          "date": "2026-10-19",
-          "source": "Apollo Global Management",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Here's What to Expect From Apollo Global Management's Next Earnings Report - Barchart.com",
-          "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWjhBcHFPdWdreXZ4ZlczVWVLUThGeFpRa09heEQxMEFyNUI4OThXQkFUU25hdXdHeS1PcXV3NngzWVRGcFFEV04zNzdKeG9pQVRQenZzcXpfT3NSZTVPUzhwS3pRNDIxTGJWSUNDX3ZxVUltazFhdDVnMWlxU0lTZnVpU2w1Y2FTWGVaZGdPTU5YcEdXWXZmMkhTX2JGRXo4ZWJ6dmpDWUZEblhLNndRcmlKYklrdTQtbkE?oc=5",
-          "date": "2026-10-19",
-          "source": "Barchart.com",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Apollo Global Management Inc. $APO Stock: Assenagon Asset Management S.A. Decreases Stake - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQM0tnQWNLRDg3b2lTT3VHVGVxSjc0VkllUk1GZUx6SVgxUy1TaWVkVk4xNkpYNFFDd3otdG1UTG16TENlZWRGN1V1NGJTNnlkZHJreUp4dkdnM1JFWTBveFg1VTVLdnpuREhRTE5pZlpUNnNRWkIwa3dYeFdzRmx4cjRUZXlPRVkyaXRCVnpxN0lzSmZ0dURTTGpGbndXRFBORjZnQ2J4dk52VVpQT05JM2o5VGxpRllvTTBhc0cwalRxS09KcmZOQ1RRSkF6VDZwN0o0TjlnS1A0bVhFbEE?oc=5",
-          "date": "2026-10-19",
-          "source": "MarketBeat",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Apollo Global Management Inc. $APO Shares Bought by IFP Advisors Inc - MarketBeat",
-          "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSGEtRzRRaDg5MzdUZFNkTGRHSkVFQnZreEN1RUQ0bFN3MXMyTVdZQTlRMzJMVVZvNzdtMFZZMGkxMldBYUp1QWFGUWVud1Q2SVE4Nkxyd0tWQUx3elc5MUpTc0E4djFIUU9pbUgxd0xsTXRNdlBjRjVWeTBiZTRrQ0FpSXpuWXlxMzVZQm03N2xybDZodFJJbWpneDJKRFJpUHhjNHVjOWJTOUtIYXpPZ3BoeGl6ODhzMXJKMnRRSnVBSW5vM1E?oc=5",
-          "date": "2026-10-19",
-          "source": "MarketBeat",
-          "gravite": 0,
-          "mots": []
-        }
-      ]
-    },
-    "ticket": 113
-  },
+  "opportunite": null,
   "radar_proposes": [
     "MCD",
     "IGG.L",
@@ -11471,6 +11372,107 @@
         ]
       },
       "ticket": 112,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-19",
+      "cree_le": "2026-10-19T17:24+00:00",
+      "liberation": 99.82683571523144,
+      "reserve_pct": null,
+      "score": 90.49835209550852,
+      "ordres": [
+        {
+          "ticker": "APO",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 98.82683571523144,
+          "reason": "opportunité radar (score 90)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "APO",
+        "nom": "Apollo Global Management",
+        "isin": "APO",
+        "type": "action",
+        "prix": 110.77999877929688,
+        "score": 90.49835209550852,
+        "baisse": 0.2654000991800395,
+        "perf_5ans": 0.865539834468523,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.292073219533213,
+        "pos_12m": 0.631336405529954,
+        "n_12m": 434,
+        "base_moy_12m": 0.24945953801199688,
+        "pire_12m": -0.2819011378430033,
+        "vs_marche_3m": -0.07939241627561189,
+        "devise": "USD",
+        "prix_eur": 98.82683571523144,
+        "fondamental": 92.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +63.8% sur un an",
+          "bénéfices +63.7% sur un an",
+          "bénéfices attendus +283% sur 12 mois",
+          "analystes : « achat fort » (1.8/5, 20 avis)",
+          "objectif moyen des analystes : +35%",
+          "P/E attendu 10.4 (actuel 39.8)",
+          "marge nette 5%",
+          "dette / capitaux propres 101 %"
+        ],
+        "score_global": 91.4,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -8% vs marché)",
+        "vs_marche_3m": -0.07939241627561189,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "EasyJet accepte l'offre de rachat de 5,7 milliards de livres d'Apollo Global Management - horticulture-abadie-pyrenees.com",
+            "lien": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9wdFVSeEl3THNrX1JCZ3V0dDlPeUdTTDRNNVk5T0ZHNDZtQ09Gdjl0ZTBSR1czZ1hUSGJjeGtoR1duY2V0a0FPaWl2UTJ0R3FXU0dvLTlKN1dBRTlJNVdoai1DUEhKMUdRXzQ0OHFIaw?oc=5",
+            "date": "2026-10-19",
+            "source": "horticulture-abadie-pyrenees.com",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "M&A Is Booming Because Rapid Change Is Forcing Firms to Rethink Their Business - Apollo Global Management",
+            "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZlJVZWZZMGF6RmRTYklUMzVUZ2hrQjRxNGNGMWxRRDdFVTF4NzI0VWlKMFQzcjRVY0sya1VpcEk4TkhMU1NGTEFqVnR6NG94MXRoSEg5MXdzd21TLVg5R0pSSkN1emZTRGFPQXpNXzhLN3d6XzM4Y19sb1RhaHpSZEJCOHRaOVJVQWMxazk4ekRhT0JPTDhoYno5NzViQ3UwUFAteURPSWJBRUVkTmxYdWFVMk9lX0tiYzYyR1o1UHVVZGNYNDNPd2RodGxIV0pvRktDQ3NwVHVoUQ?oc=5",
+            "date": "2026-10-19",
+            "source": "Apollo Global Management",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Here's What to Expect From Apollo Global Management's Next Earnings Report - Barchart.com",
+            "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWjhBcHFPdWdreXZ4ZlczVWVLUThGeFpRa09heEQxMEFyNUI4OThXQkFUU25hdXdHeS1PcXV3NngzWVRGcFFEV04zNzdKeG9pQVRQenZzcXpfT3NSZTVPUzhwS3pRNDIxTGJWSUNDX3ZxVUltazFhdDVnMWlxU0lTZnVpU2w1Y2FTWGVaZGdPTU5YcEdXWXZmMkhTX2JGRXo4ZWJ6dmpDWUZEblhLNndRcmlKYklrdTQtbkE?oc=5",
+            "date": "2026-10-19",
+            "source": "Barchart.com",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Apollo Global Management Inc. $APO Stock: Assenagon Asset Management S.A. Decreases Stake - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQM0tnQWNLRDg3b2lTT3VHVGVxSjc0VkllUk1GZUx6SVgxUy1TaWVkVk4xNkpYNFFDd3otdG1UTG16TENlZWRGN1V1NGJTNnlkZHJreUp4dkdnM1JFWTBveFg1VTVLdnpuREhRTE5pZlpUNnNRWkIwa3dYeFdzRmx4cjRUZXlPRVkyaXRCVnpxN0lzSmZ0dURTTGpGbndXRFBORjZnQ2J4dk52VVpQT05JM2o5VGxpRllvTTBhc0cwalRxS09KcmZOQ1RRSkF6VDZwN0o0TjlnS1A0bVhFbEE?oc=5",
+            "date": "2026-10-19",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Apollo Global Management Inc. $APO Shares Bought by IFP Advisors Inc - MarketBeat",
+            "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSGEtRzRRaDg5MzdUZFNkTGRHSkVFQnZreEN1RUQ0bFN3MXMyTVdZQTlRMzJMVVZvNzdtMFZZMGkxMldBYUp1QWFGUWVud1Q2SVE4Nkxyd0tWQUx3elc5MUpTc0E4djFIUU9pbUgxd0xsTXRNdlBjRjVWeTBiZTRrQ0FpSXpuWXlxMzVZQm03N2xybDZodFJJbWpneDJKRFJpUHhjNHVjOWJTOUtIYXpPZ3BoeGl6ODhzMXJKMnRRSnVBSW5vM1E?oc=5",
+            "date": "2026-10-19",
+            "source": "MarketBeat",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 113,
       "decision": "sans réponse"
     }
   ]
