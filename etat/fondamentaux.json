@@ -134,6 +134,21 @@
    "trailingPE": 9.241928
   }
  },
+ "4061.T": {
+  "date": "2026-10-19",
+  "infos": {
+   "currentPrice": 3085.0,
+   "debtToEquity": 70.616,
+   "forwardEps": 183.52,
+   "forwardPE": 16.810156,
+   "numberOfAnalystOpinions": 8,
+   "profitMargins": 0.03497,
+   "recommendationMean": 1.75,
+   "targetMeanPrice": 4377.5,
+   "trailingEps": 181.27,
+   "trailingPE": 17.018812
+  }
+ },
  "5332.T": {
   "date": "2026-10-15",
   "infos": {
@@ -779,6 +794,23 @@
    "trailingPE": 18.657948
   }
  },
+ "BEAN.SW": {
+  "date": "2026-10-19",
+  "infos": {
+   "currentPrice": 755.0,
+   "debtToEquity": 21.038,
+   "earningsGrowth": 0.233,
+   "forwardEps": 23.54569,
+   "forwardPE": 32.065315,
+   "numberOfAnalystOpinions": 10,
+   "profitMargins": 0.16608,
+   "recommendationMean": 2.1,
+   "revenueGrowth": 0.205,
+   "targetMeanPrice": 1010.4,
+   "trailingEps": 16.68,
+   "trailingPE": 45.263786
+  }
+ },
  "BESI.AS": {
   "date": "2026-10-13",
   "infos": {
@@ -1072,20 +1104,20 @@
   }
  },
  "CMI": {
-  "date": "2026-10-08",
+  "date": "2026-10-19",
   "infos": {
-   "currentPrice": 517.32,
+   "currentPrice": 522.13,
    "debtToEquity": 59.586,
    "earningsGrowth": 0.047,
-   "forwardEps": 34.8119,
-   "forwardPE": 14.8604355,
+   "forwardEps": 34.80721,
+   "forwardPE": 15.000628,
    "numberOfAnalystOpinions": 19,
    "profitMargins": 0.07822,
    "recommendationMean": 1.81818,
    "revenueGrowth": 0.094,
-   "targetMeanPrice": 743.0842,
+   "targetMeanPrice": 716.66315,
    "trailingEps": 19.57,
-   "trailingPE": 26.43434
+   "trailingPE": 26.680122
   }
  },
  "CNU.AX": {
@@ -1172,19 +1204,36 @@
   }
  },
  "CRUS": {
-  "date": "2026-10-09",
+  "date": "2026-10-19",
   "infos": {
-   "currentPrice": 107.39,
+   "currentPrice": 108.6,
    "debtToEquity": 5.96,
    "earningsGrowth": 0.289,
-   "forwardEps": 8.9002,
-   "forwardPE": 12.066021,
-   "numberOfAnalystOpinions": 4,
+   "forwardEps": 8.7462,
+   "forwardPE": 12.4168215,
+   "numberOfAnalystOpinions": 3,
    "profitMargins": 0.21004999,
+   "recommendationMean": 2.2,
    "revenueGrowth": 0.129,
-   "targetMeanPrice": 165.0,
+   "targetMeanPrice": 163.33333,
    "trailingEps": 8.19,
-   "trailingPE": 13.112332
+   "trailingPE": 13.260074
+  }
+ },
+ "CVCO": {
+  "date": "2026-10-19",
+  "infos": {
+   "currentPrice": 510.97,
+   "debtToEquity": 3.702,
+   "earningsGrowth": -0.154,
+   "forwardEps": 28.81752,
+   "forwardPE": 17.731228,
+   "numberOfAnalystOpinions": 4,
+   "profitMargins": 0.07886,
+   "revenueGrowth": 0.095,
+   "targetMeanPrice": 665.0,
+   "trailingEps": 22.99,
+   "trailingPE": 22.22575
   }
  },
  "CW": {
@@ -1288,35 +1337,35 @@
   }
  },
  "DRO.AX": {
-  "date": "2026-10-08",
+  "date": "2026-10-19",
   "infos": {
-   "currentPrice": 1.62,
+   "currentPrice": 1.535,
    "debtToEquity": 5.404,
-   "forwardEps": 0.004,
-   "forwardPE": 404.99997,
+   "forwardEps": 0.00375,
+   "forwardPE": 409.33334,
    "numberOfAnalystOpinions": 4,
    "profitMargins": -0.11419,
    "recommendationMean": 2.5,
    "revenueGrowth": 0.733,
-   "targetMeanPrice": 2.0125,
+   "targetMeanPrice": 1.9625,
    "trailingEps": -0.03
   }
  },
  "DTE": {
-  "date": "2026-10-09",
+  "date": "2026-10-19",
   "infos": {
-   "currentPrice": 126.87,
+   "currentPrice": 126.93,
    "debtToEquity": 229.06,
    "earningsGrowth": 0.224,
-   "forwardEps": 8.36462,
-   "forwardPE": 15.167456,
+   "forwardEps": 8.35794,
+   "forwardPE": 15.186757,
    "numberOfAnalystOpinions": 14,
    "profitMargins": 0.07999,
    "recommendationMean": 1.88235,
    "revenueGrowth": -0.015,
-   "targetMeanPrice": 152.67857,
+   "targetMeanPrice": 150.17857,
    "trailingEps": 6.31,
-   "trailingPE": 20.106182
+   "trailingPE": 20.11569
   }
  },
  "DY": {
@@ -1739,20 +1788,20 @@
   }
  },
  "FRT": {
-  "date": "2026-10-08",
+  "date": "2026-10-19",
   "infos": {
-   "currentPrice": 105.11,
+   "currentPrice": 104.77,
    "debtToEquity": 134.114,
    "earningsGrowth": -0.456,
-   "forwardEps": 3.2865,
-   "forwardPE": 31.982353,
+   "forwardEps": 3.22607,
+   "forwardPE": 32.476048,
    "numberOfAnalystOpinions": 19,
    "profitMargins": 0.32663,
    "recommendationMean": 1.89474,
    "revenueGrowth": 0.072,
-   "targetMeanPrice": 130.73685,
+   "targetMeanPrice": 128.26315,
    "trailingEps": 4.95,
-   "trailingPE": 21.234344
+   "trailingPE": 21.165657
   }
  },
  "GATX": {
@@ -2287,20 +2336,20 @@
   }
  },
  "KBH": {
-  "date": "2026-10-09",
+  "date": "2026-10-19",
   "infos": {
-   "currentPrice": 43.09,
-   "debtToEquity": 55.482,
-   "earningsGrowth": -0.348,
-   "forwardEps": 3.72578,
-   "forwardPE": 11.565364,
+   "currentPrice": 42.59,
+   "debtToEquity": 56.296,
+   "earningsGrowth": -0.347,
+   "forwardEps": 3.6203,
+   "forwardPE": 11.764218,
    "numberOfAnalystOpinions": 14,
    "profitMargins": 0.04393,
-   "recommendationMean": 3.25,
+   "recommendationMean": 3.23529,
    "revenueGrowth": -0.2,
-   "targetMeanPrice": 53.07143,
+   "targetMeanPrice": 51.57143,
    "trailingEps": 3.55,
-   "trailingPE": 12.138028
+   "trailingPE": 11.997183
   }
  },
  "KKR": {
@@ -2572,20 +2621,20 @@
   }
  },
  "MGEE": {
-  "date": "2026-10-07",
+  "date": "2026-10-19",
   "infos": {
-   "currentPrice": 70.39,
+   "currentPrice": 71.31,
    "debtToEquity": 64.863,
    "earningsGrowth": 0.236,
-   "forwardEps": 4.195,
-   "forwardPE": 16.7795,
-   "numberOfAnalystOpinions": 5,
+   "forwardEps": 4.19806,
+   "forwardPE": 16.986416,
+   "numberOfAnalystOpinions": 6,
    "profitMargins": 0.19895001,
-   "recommendationMean": 2.8,
+   "recommendationMean": 2.83333,
    "revenueGrowth": 0.011,
-   "targetMeanPrice": 76.8,
+   "targetMeanPrice": 76.66667,
    "trailingEps": 4.07,
-   "trailingPE": 17.29484
+   "trailingPE": 17.520884
   }
  },
  "MGNS.L": {
@@ -2605,19 +2654,19 @@
   }
  },
  "MIN.AX": {
-  "date": "2026-10-09",
+  "date": "2026-10-19",
   "infos": {
-   "currentPrice": 49.36,
+   "currentPrice": 44.54,
    "debtToEquity": 121.084,
-   "forwardEps": 3.53206,
-   "forwardPE": 13.974848,
+   "forwardEps": 3.40673,
+   "forwardPE": 13.074121,
    "numberOfAnalystOpinions": 14,
    "profitMargins": 0.16422,
-   "recommendationMean": 2.42857,
+   "recommendationMean": 2.28571,
    "revenueGrowth": 0.562,
-   "targetMeanPrice": 65.3,
-   "trailingEps": 5.3,
-   "trailingPE": 9.313208
+   "targetMeanPrice": 63.01429,
+   "trailingEps": 5.32,
+   "trailingPE": 8.37218
   }
  },
  "MKSI": {
@@ -2843,20 +2892,20 @@
   }
  },
  "NEE": {
-  "date": "2026-10-07",
+  "date": "2026-10-19",
   "infos": {
-   "currentPrice": 77.06,
+   "currentPrice": 78.17,
    "debtToEquity": 161.676,
    "earningsGrowth": 0.531,
-   "forwardEps": 4.38998,
-   "forwardPE": 17.553612,
+   "forwardEps": 4.37316,
+   "forwardPE": 17.874947,
    "numberOfAnalystOpinions": 19,
    "profitMargins": 0.32401,
-   "recommendationMean": 1.90476,
+   "recommendationMean": 1.86364,
    "revenueGrowth": 0.124,
-   "targetMeanPrice": 97.42105,
+   "targetMeanPrice": 96.21053,
    "trailingEps": 4.45,
-   "trailingPE": 17.316854
+   "trailingPE": 17.566292
   }
  },
  "NG.TO": {
@@ -2940,20 +2989,20 @@
   }
  },
  "NNN": {
-  "date": "2026-10-07",
+  "date": "2026-10-19",
   "infos": {
-   "currentPrice": 39.84,
+   "currentPrice": 40.86,
    "debtToEquity": 112.118,
    "earningsGrowth": -0.037,
-   "forwardEps": 2.09493,
-   "forwardPE": 19.017342,
+   "forwardEps": 2.09693,
+   "forwardPE": 19.485628,
    "numberOfAnalystOpinions": 16,
    "profitMargins": 0.40353,
    "recommendationMean": 2.88889,
    "revenueGrowth": 0.077,
-   "targetMeanPrice": 47.25,
+   "targetMeanPrice": 46.25,
    "trailingEps": 2.02,
-   "trailingPE": 19.722773
+   "trailingPE": 20.227724
   }
  },
  "NOC": {
@@ -3173,37 +3222,37 @@
   }
  },
  "PATK": {
-  "date": "2026-10-07",
+  "date": "2026-10-19",
   "infos": {
-   "currentPrice": 64.92,
+   "currentPrice": 66.39,
    "debtToEquity": 146.006,
    "earningsGrowth": 0.333,
-   "forwardEps": 5.326,
-   "forwardPE": 12.18926,
+   "forwardEps": 5.182,
+   "forwardPE": 12.811655,
    "numberOfAnalystOpinions": 11,
    "profitMargins": 0.03739,
    "recommendationMean": 1.81818,
    "revenueGrowth": -0.006,
-   "targetMeanPrice": 106.90909,
+   "targetMeanPrice": 100.81818,
    "trailingEps": 4.2,
-   "trailingPE": 15.457143
+   "trailingPE": 15.807143
   }
  },
  "PIPR": {
-  "date": "2026-10-08",
+  "date": "2026-10-19",
   "infos": {
-   "currentPrice": 63.79,
+   "currentPrice": 63.45,
    "debtToEquity": 11.269,
    "earningsGrowth": 0.61,
-   "forwardEps": 5.494,
-   "forwardPE": 11.610848,
+   "forwardEps": 5.408,
+   "forwardPE": 11.732618,
    "numberOfAnalystOpinions": 4,
    "profitMargins": 0.14529,
    "recommendationMean": 2.0,
    "revenueGrowth": 0.249,
-   "targetMeanPrice": 80.875,
+   "targetMeanPrice": 79.375,
    "trailingEps": 4.32,
-   "trailingPE": 14.766203
+   "trailingPE": 14.6875
   }
  },
  "PLAB": {
@@ -3357,54 +3406,54 @@
   }
  },
  "PST.MI": {
-  "date": "2026-10-08",
+  "date": "2026-10-19",
   "infos": {
-   "currentPrice": 23.88,
+   "currentPrice": 24.05,
    "debtToEquity": 631.496,
    "earningsGrowth": -0.058,
-   "forwardEps": 1.98583,
-   "forwardPE": 12.025198,
-   "numberOfAnalystOpinions": 13,
+   "forwardEps": 1.98996,
+   "forwardPE": 12.0856695,
+   "numberOfAnalystOpinions": 14,
    "profitMargins": 0.16625,
-   "recommendationMean": 1.61538,
+   "recommendationMean": 1.5,
    "revenueGrowth": 0.034,
-   "targetMeanPrice": 29.49231,
+   "targetMeanPrice": 29.42143,
    "trailingEps": 1.85,
-   "trailingPE": 12.908108
+   "trailingPE": 12.999999
   }
  },
  "RBA": {
-  "date": "2026-10-07",
+  "date": "2026-10-19",
   "infos": {
-   "currentPrice": 80.4,
+   "currentPrice": 79.81,
    "debtToEquity": 77.606,
    "earningsGrowth": 0.34,
-   "forwardEps": 4.86564,
-   "forwardPE": 16.524035,
+   "forwardEps": 4.8515,
+   "forwardPE": 16.450583,
    "numberOfAnalystOpinions": 11,
    "profitMargins": 0.09988,
    "recommendationMean": 1.58333,
    "revenueGrowth": 0.111,
-   "targetMeanPrice": 128.63635,
+   "targetMeanPrice": 128.81818,
    "trailingEps": 2.32,
-   "trailingPE": 34.655174
+   "trailingPE": 34.400864
   }
  },
  "RBA.TO": {
-  "date": "2026-10-07",
+  "date": "2026-10-19",
   "infos": {
-   "currentPrice": 114.69,
+   "currentPrice": 112.61,
    "debtToEquity": 77.606,
    "earningsGrowth": 0.34,
-   "forwardEps": 6.933047,
-   "forwardPE": 16.542511,
+   "forwardEps": 6.8514333,
+   "forwardPE": 16.435978,
    "numberOfAnalystOpinions": 2,
    "profitMargins": 0.09988,
    "recommendationMean": 1.58333,
    "revenueGrowth": 0.111,
-   "targetMeanPrice": 149.8429,
+   "targetMeanPrice": 148.29872,
    "trailingEps": 3.21,
-   "trailingPE": 35.728973
+   "trailingPE": 35.080997
   }
  },
  "RBC": {
@@ -3458,20 +3507,20 @@
   }
  },
  "RITM": {
-  "date": "2026-10-07",
+  "date": "2026-10-19",
   "infos": {
-   "currentPrice": 8.53,
+   "currentPrice": 8.44,
    "debtToEquity": 387.643,
    "earningsGrowth": -0.932,
-   "forwardEps": 2.35354,
-   "forwardPE": 3.6243277,
+   "forwardEps": 2.33172,
+   "forwardPE": 3.619645,
    "numberOfAnalystOpinions": 10,
    "profitMargins": 0.10784,
    "recommendationMean": 1.36364,
    "revenueGrowth": 0.097,
-   "targetMeanPrice": 13.1,
+   "targetMeanPrice": 13.0,
    "trailingEps": 0.6,
-   "trailingPE": 14.216665
+   "trailingPE": 14.066666
   }
  },
  "RLI": {
@@ -3622,6 +3671,23 @@
    "targetMeanPrice": 95.91176,
    "trailingEps": 5.39,
    "trailingPE": 11.970315
+  }
+ },
+ "SGP.AX": {
+  "date": "2026-10-19",
+  "infos": {
+   "currentPrice": 4.06,
+   "debtToEquity": 47.292,
+   "earningsGrowth": 0.204,
+   "forwardEps": 0.38048,
+   "forwardPE": 10.670732,
+   "numberOfAnalystOpinions": 9,
+   "profitMargins": 0.25987,
+   "recommendationMean": 1.8,
+   "revenueGrowth": 0.141,
+   "targetMeanPrice": 5.0,
+   "trailingEps": 0.39,
+   "trailingPE": 10.410256
   }
  },
  "SIA.TO": {
@@ -3811,20 +3877,20 @@
   }
  },
  "STN.TO": {
-  "date": "2026-10-07",
+  "date": "2026-10-19",
   "infos": {
-   "currentPrice": 95.18,
+   "currentPrice": 96.88,
    "debtToEquity": 80.978,
    "earningsGrowth": 0.112,
-   "forwardEps": 6.92273,
-   "forwardPE": 13.748911,
+   "forwardEps": 6.90455,
+   "forwardPE": 14.031326,
    "numberOfAnalystOpinions": 11,
    "profitMargins": 0.07405,
    "recommendationMean": 1.63636,
    "revenueGrowth": 0.115,
-   "targetMeanPrice": 140.36365,
+   "targetMeanPrice": 137.45454,
    "trailingEps": 4.43,
-   "trailingPE": 21.485329
+   "trailingPE": 21.869074
   }
  },
  "STRL": {
@@ -3896,20 +3962,19 @@
   }
  },
  "TAH.AX": {
-  "date": "2026-10-08",
+  "date": "2026-10-19",
   "infos": {
-   "currentPrice": 0.865,
+   "currentPrice": 0.86,
    "debtToEquity": 65.969,
    "earningsGrowth": 1.225,
    "forwardEps": 0.04426,
-   "forwardPE": 19.543606,
+   "forwardPE": 19.430637,
    "numberOfAnalystOpinions": 11,
    "profitMargins": 0.01754,
-   "recommendationMean": 2.5,
    "revenueGrowth": 0.005,
    "targetMeanPrice": 1.01045,
    "trailingEps": 0.02,
-   "trailingPE": 43.25
+   "trailingPE": 43.0
   }
  },
  "TDG": {
@@ -4161,20 +4226,20 @@
   }
  },
  "VICI": {
-  "date": "2026-10-07",
+  "date": "2026-10-19",
   "infos": {
-   "currentPrice": 22.64,
+   "currentPrice": 23.1,
    "debtToEquity": 60.277,
    "earningsGrowth": -0.414,
    "forwardEps": 2.99,
-   "forwardPE": 7.571906,
+   "forwardPE": 7.725753,
    "numberOfAnalystOpinions": 24,
    "profitMargins": 0.67496,
    "recommendationMean": 1.88,
    "revenueGrowth": 0.057,
-   "targetMeanPrice": 31.66667,
+   "targetMeanPrice": 31.375,
    "trailingEps": 2.57,
-   "trailingPE": 8.809339
+   "trailingPE": 8.988327
   }
  },
  "VMC": {
@@ -4417,20 +4482,20 @@
   }
  },
  "WPC": {
-  "date": "2026-10-07",
+  "date": "2026-10-19",
   "infos": {
-   "currentPrice": 62.73,
+   "currentPrice": 63.77,
    "debtToEquity": 101.882,
    "earningsGrowth": 2.565,
    "forwardEps": 3.14846,
-   "forwardPE": 19.924026,
+   "forwardPE": 20.254347,
    "numberOfAnalystOpinions": 14,
    "profitMargins": 0.35761002,
    "recommendationMean": 2.2,
    "revenueGrowth": 0.184,
-   "targetMeanPrice": 78.14286,
+   "targetMeanPrice": 77.14286,
    "trailingEps": 2.92,
-   "trailingPE": 21.482876
+   "trailingPE": 21.83904
   }
  },
  "WSO": {
