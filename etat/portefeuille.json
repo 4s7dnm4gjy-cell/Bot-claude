@@ -32,7 +32,8 @@
       "Drawdown EUNL.DE: 1.4% -> réserve cible 10% (20)"
     ],
     "total": 200.0,
-    "image": "rapports/propositions/2026-10-20.png"
+    "image": "rapports/propositions/2026-10-20.png",
+    "ticket": 114
   },
   "dernier_mois_plan": null,
   "palier_alerte": 0,
