@@ -514,3 +514,41 @@ def test_chute_extreme_jamais_braderie():
 
     (r,) = enrichir([{"ticker": "X", "type": "action", "score": 99, "vs_marche_3m": -0.52}], lambda t: SAINE)
     assert not r["braderie"] and r["fondamental"] < 80
+
+
+def test_cas_apollo_benefice_ajuste_contre_comptable():
+    """Apollo (oct. 2026) : 2,79 $ comptable vs 10,68 $ ajusté attendu -> « +283 % » et P/E 10 trompeurs."""
+    from invest_bot.fondamentaux import enrichir
+
+    apo = {"currentPrice": 110.98, "debtToEquity": 100.969, "earningsGrowth": 0.637, "forwardEps": 10.67646,
+           "forwardPE": 10.394832, "numberOfAnalystOpinions": 20, "profitMargins": 0.05267,
+           "recommendationMean": 1.77273, "revenueGrowth": 0.638, "targetMeanPrice": 150.1,
+           "trailingEps": 2.79, "trailingPE": 39.77778, "sector": "Financial Services",
+           "industry": "Asset Management"}
+    (r,) = enrichir([{"ticker": "APO", "type": "action", "score": 90, "vs_marche_3m": -0.22}], lambda t: apo)
+    notes = r["fondamental_notes"]
+    assert not r["braderie"]
+    assert not any("+283% sur 12 mois" in n for n in notes)
+    assert any("bases de calcul" in n for n in notes) and any("non fiable" in n for n in notes)
+    assert any("secteur financier" in n for n in notes)
+    assert r["fondamental"] < 70  # plus proposée automatiquement
+
+
+def test_cas_sumitomo_division_d_actions():
+    """Sumitomo Electric : BPA attendu 221 vs 102 publié alors que l'entreprise prévoit −13 %."""
+    from invest_bot.fondamentaux import enrichir
+
+    sumi = {"currentPrice": 2107.5, "debtToEquity": 25.197, "earningsGrowth": 0.891, "forwardEps": 221.03,
+            "forwardPE": 9.5349045, "numberOfAnalystOpinions": 11, "profitMargins": 0.07573,
+            "recommendationMean": 1.54545, "revenueGrowth": 0.159, "targetMeanPrice": 3253.6365,
+            "trailingEps": 102.29, "trailingPE": 20.603188, "sector": "Industrials"}
+    (r,) = enrichir([{"ticker": "5802.T", "type": "action", "score": 95, "vs_marche_3m": -0.24}], lambda t: sumi)
+    assert not r["braderie"] and r["fondamental"] < 70
+    assert not any("secteur financier" in n for n in r["fondamental_notes"])
+
+
+def test_ecart_raisonnable_reste_cru():
+    from invest_bot.fondamentaux import score_fondamental
+
+    _, notes = score_fondamental({**SAINE, "forwardEps": 9.0, "trailingEps": 5.0})  # +80 % : plausible
+    assert any("bénéfices attendus +80%" in n for n in notes) and any(n.startswith("P/E attendu 14.0") for n in notes)
