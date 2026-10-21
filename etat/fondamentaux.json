@@ -34,20 +34,21 @@
   }
  },
  "0981.HK": {
-  "date": "2026-10-13",
+  "date": "2026-10-21",
   "infos": {
-   "currentPrice": 55.55,
+   "currentPrice": 49.96,
    "debtToEquity": 37.031,
    "earningsGrowth": 2.587,
-   "forwardEps": 1.7938616,
-   "forwardPE": 30.966713,
+   "forwardEps": 1.7939743,
+   "forwardPE": 27.848782,
+   "industry": "Semiconductors",
    "numberOfAnalystOpinions": 21,
    "profitMargins": 0.1003,
-   "recommendationMean": 1.91304,
    "revenueGrowth": 0.361,
-   "targetMeanPrice": 96.00644,
-   "trailingEps": 1.0,
-   "trailingPE": 55.55
+   "sector": "Technology",
+   "targetMeanPrice": 95.99788,
+   "trailingEps": 0.99,
+   "trailingPE": 50.464645
   }
  },
  "1378.HK": {
@@ -524,19 +525,21 @@
   }
  },
  "ALNY": {
-  "date": "2026-10-07",
+  "date": "2026-10-21",
   "infos": {
-   "currentPrice": 224.41,
+   "currentPrice": 225.1,
    "debtToEquity": 220.623,
-   "forwardEps": 12.47148,
-   "forwardPE": 17.993855,
-   "numberOfAnalystOpinions": 26,
+   "forwardEps": 12.35687,
+   "forwardPE": 18.216589,
+   "industry": "Biotechnology",
+   "numberOfAnalystOpinions": 27,
    "profitMargins": 0.16126,
-   "recommendationMean": 1.68966,
+   "recommendationMean": 1.66667,
    "revenueGrowth": 0.669,
-   "targetMeanPrice": 371.12308,
+   "sector": "Healthcare",
+   "targetMeanPrice": 368.71112,
    "trailingEps": 5.93,
-   "trailingPE": 37.84317
+   "trailingPE": 37.95953
   }
  },
  "ALSN": {
@@ -723,20 +726,22 @@
   }
  },
  "ASM.TO": {
-  "date": "2026-10-13",
+  "date": "2026-10-21",
   "infos": {
-   "currentPrice": 7.38,
+   "currentPrice": 7.3,
    "debtToEquity": 3.036,
    "earningsGrowth": 2.019,
-   "forwardEps": 0.72,
-   "forwardPE": 10.25,
+   "forwardEps": 0.7385,
+   "forwardPE": 9.884902,
+   "industry": "Other Precious Metals & Mining",
    "numberOfAnalystOpinions": 3,
    "profitMargins": 0.38176,
-   "recommendationMean": 1.6,
+   "recommendationMean": 1.2,
    "revenueGrowth": 0.228,
+   "sector": "Basic Materials",
    "targetMeanPrice": 10.46667,
    "trailingEps": 0.37,
-   "trailingPE": 19.945946
+   "trailingPE": 19.72973
   }
  },
  "ATO": {
@@ -873,20 +878,41 @@
   }
  },
  "BESI.AS": {
-  "date": "2026-10-13",
+  "date": "2026-10-21",
   "infos": {
-   "currentPrice": 172.5,
+   "currentPrice": 162.45,
    "debtToEquity": 62.453,
    "earningsGrowth": 1.78,
-   "forwardEps": 6.56014,
-   "forwardPE": 26.29517,
+   "forwardEps": 6.53261,
+   "forwardPE": 24.867548,
+   "industry": "Semiconductor Equipment & Materials",
    "numberOfAnalystOpinions": 23,
    "profitMargins": 0.28435,
    "recommendationMean": 2.04348,
    "revenueGrowth": 0.687,
-   "targetMeanPrice": 270.56522,
+   "sector": "Technology",
+   "targetMeanPrice": 267.65216,
    "trailingEps": 2.62,
-   "trailingPE": 65.8397
+   "trailingPE": 62.00382
+  }
+ },
+ "BG": {
+  "date": "2026-10-21",
+  "infos": {
+   "currentPrice": 102.23,
+   "debtToEquity": 97.995,
+   "earningsGrowth": 0.33,
+   "forwardEps": 11.22875,
+   "forwardPE": 9.104308,
+   "industry": "Farm Products",
+   "numberOfAnalystOpinions": 9,
+   "profitMargins": 0.01097,
+   "recommendationMean": 1.55556,
+   "revenueGrowth": 0.883,
+   "sector": "Consumer Defensive",
+   "targetMeanPrice": 140.55556,
+   "trailingEps": 5.02,
+   "trailingPE": 20.364542
   }
  },
  "BKNG": {
@@ -1816,19 +1842,22 @@
   }
  },
  "FN": {
-  "date": "2026-10-13",
+  "date": "2026-10-21",
   "infos": {
-   "currentPrice": 427.82,
+   "currentPrice": 356.06,
    "debtToEquity": 0.164,
    "earningsGrowth": 0.581,
-   "forwardEps": 21.78772,
-   "forwardPE": 19.635832,
+   "forwardEps": 21.79272,
+   "forwardPE": 16.338484,
+   "industry": "Electronic Components",
    "numberOfAnalystOpinions": 9,
    "profitMargins": 0.10192,
+   "recommendationMean": 1.77778,
    "revenueGrowth": 0.446,
-   "targetMeanPrice": 734.1111,
+   "sector": "Technology",
+   "targetMeanPrice": 715.55554,
    "trailingEps": 13.05,
-   "trailingPE": 32.783142
+   "trailingPE": 27.28429
   }
  },
  "FNF": {
@@ -1966,20 +1995,22 @@
   }
  },
  "GLPI": {
-  "date": "2026-10-07",
+  "date": "2026-10-21",
   "infos": {
-   "currentPrice": 37.78,
+   "currentPrice": 38.35,
    "debtToEquity": 155.719,
    "earningsGrowth": 0.479,
-   "forwardEps": 3.32861,
-   "forwardPE": 11.350083,
+   "forwardEps": 3.33261,
+   "forwardPE": 11.507497,
+   "industry": "REIT - Specialty",
    "numberOfAnalystOpinions": 23,
    "profitMargins": 0.58529,
    "recommendationMean": 2.0,
    "revenueGrowth": 0.09,
-   "targetMeanPrice": 51.78261,
+   "sector": "Real Estate",
+   "targetMeanPrice": 51.04348,
    "trailingEps": 3.42,
-   "trailingPE": 11.046783
+   "trailingPE": 11.2134495
   }
  },
  "GLW": {
@@ -2266,16 +2297,18 @@
   }
  },
  "ICHR": {
-  "date": "2026-10-13",
+  "date": "2026-10-21",
   "infos": {
-   "currentPrice": 51.57,
+   "currentPrice": 43.34,
    "debtToEquity": 17.81,
    "forwardEps": 3.28625,
-   "forwardPE": 15.692658,
+   "forwardPE": 13.188284,
+   "industry": "Semiconductor Equipment & Materials",
    "numberOfAnalystOpinions": 8,
    "profitMargins": -0.03974,
    "recommendationMean": 1.375,
    "revenueGrowth": 0.227,
+   "sector": "Technology",
    "targetMeanPrice": 94.125,
    "trailingEps": -1.17
   }
@@ -2734,19 +2767,39 @@
   }
  },
  "MGNS.L": {
-  "date": "2026-10-13",
+  "date": "2026-10-21",
   "infos": {
-   "currentPrice": 3954.0,
+   "currentPrice": 3892.0,
    "debtToEquity": 18.298,
    "earningsGrowth": 0.188,
    "forwardEps": 3.47922,
-   "forwardPE": 11.364616,
+   "forwardPE": 11.186416,
+   "industry": "Engineering & Construction",
    "numberOfAnalystOpinions": 7,
    "profitMargins": 0.03627,
    "revenueGrowth": 0.081,
+   "sector": "Industrials",
    "targetMeanPrice": 5621.429,
    "trailingEps": 3.83,
-   "trailingPE": 10.32376
+   "trailingPE": 10.16188
+  }
+ },
+ "MHO": {
+  "date": "2026-10-21",
+  "infos": {
+   "currentPrice": 114.04,
+   "debtToEquity": 31.079,
+   "earningsGrowth": -0.317,
+   "forwardEps": 14.08,
+   "forwardPE": 8.099432,
+   "industry": "Residential Construction",
+   "numberOfAnalystOpinions": 3,
+   "profitMargins": 0.074439995,
+   "revenueGrowth": -0.085,
+   "sector": "Consumer Cyclical",
+   "targetMeanPrice": 170.66667,
+   "trailingEps": 11.91,
+   "trailingPE": 9.575147
   }
  },
  "MIN.AX": {
@@ -3019,6 +3072,25 @@
    "targetMeanPrice": 96.21053,
    "trailingEps": 4.45,
    "trailingPE": 17.566292
+  }
+ },
+ "NFLX": {
+  "date": "2026-10-21",
+  "infos": {
+   "currentPrice": 65.04,
+   "debtToEquity": 51.671,
+   "earningsGrowth": 0.482,
+   "forwardEps": 3.77848,
+   "forwardPE": 17.21327,
+   "industry": "Entertainment",
+   "numberOfAnalystOpinions": 45,
+   "profitMargins": 0.29691,
+   "recommendationMean": 1.86,
+   "revenueGrowth": 0.118,
+   "sector": "Communication Services",
+   "targetMeanPrice": 90.74889,
+   "trailingEps": 3.46,
+   "trailingPE": 18.797688
   }
  },
  "NG.TO": {
@@ -3436,20 +3508,22 @@
   }
  },
  "POR": {
-  "date": "2026-10-13",
+  "date": "2026-10-21",
   "infos": {
-   "currentPrice": 44.58,
+   "currentPrice": 43.92,
    "debtToEquity": 136.163,
    "earningsGrowth": 0.049,
-   "forwardEps": 3.58792,
-   "forwardPE": 12.425027,
+   "forwardEps": 3.57022,
+   "forwardPE": 12.301763,
+   "industry": "Utilities - Regulated Electric",
    "numberOfAnalystOpinions": 11,
    "profitMargins": 0.07272,
    "recommendationMean": 2.53846,
    "revenueGrowth": 0.009,
-   "targetMeanPrice": 51.81818,
+   "sector": "Utilities",
+   "targetMeanPrice": 51.27273,
    "trailingEps": 2.26,
-   "trailingPE": 19.725664
+   "trailingPE": 19.433628
   }
  },
  "POST": {
@@ -3739,19 +3813,21 @@
   }
  },
  "SAH": {
-  "date": "2026-10-07",
+  "date": "2026-10-21",
   "infos": {
-   "currentPrice": 60.52,
+   "currentPrice": 60.68,
    "debtToEquity": 455.519,
-   "forwardEps": 7.35132,
-   "forwardPE": 8.232535,
+   "forwardEps": 7.2595,
+   "forwardPE": 8.358703,
+   "industry": "Auto & Truck Dealerships",
    "numberOfAnalystOpinions": 11,
    "profitMargins": 0.013710001,
    "recommendationMean": 2.41667,
    "revenueGrowth": 0.076,
-   "targetMeanPrice": 95.36364,
+   "sector": "Consumer Cyclical",
+   "targetMeanPrice": 87.54545,
    "trailingEps": 6.27,
-   "trailingPE": 9.652312
+   "trailingPE": 9.677831
   }
  },
  "SCG.AX": {
@@ -3772,20 +3848,22 @@
   }
  },
  "SF": {
-  "date": "2026-10-13",
+  "date": "2026-10-21",
   "infos": {
-   "currentPrice": 69.7,
+   "currentPrice": 66.41,
    "debtToEquity": 52.002,
    "earningsGrowth": 0.506,
-   "forwardEps": 7.20823,
-   "forwardPE": 9.669502,
+   "forwardEps": 7.20323,
+   "forwardPE": 9.219476,
+   "industry": "Capital Markets",
    "numberOfAnalystOpinions": 8,
    "profitMargins": 0.16344999,
-   "recommendationMean": 2.375,
+   "recommendationMean": 2.25,
    "revenueGrowth": 0.127,
+   "sector": "Financial Services",
    "targetMeanPrice": 84.5,
    "trailingEps": 5.6,
-   "trailingPE": 12.446428
+   "trailingPE": 11.85893
   }
  },
  "SGM.AX": {
@@ -4126,20 +4204,22 @@
   }
  },
  "T": {
-  "date": "2026-10-09",
+  "date": "2026-10-21",
   "infos": {
-   "currentPrice": 22.185,
+   "currentPrice": 21.91,
    "debtToEquity": 129.054,
    "earningsGrowth": 0.062,
-   "forwardEps": 2.56771,
-   "forwardPE": 8.639995,
-   "numberOfAnalystOpinions": 24,
+   "forwardEps": 2.5676,
+   "forwardPE": 8.53326,
+   "industry": "Telecom Services",
+   "numberOfAnalystOpinions": 23,
    "profitMargins": 0.16943,
-   "recommendationMean": 2.0,
+   "recommendationMean": 2.08,
    "revenueGrowth": 0.023,
-   "targetMeanPrice": 28.77083,
+   "sector": "Communication Services",
+   "targetMeanPrice": 28.76087,
    "trailingEps": 3.03,
-   "trailingPE": 7.321782
+   "trailingPE": 7.2310233
   }
  },
  "TAH.AX": {
@@ -4225,20 +4305,22 @@
   }
  },
  "TMUS": {
-  "date": "2026-10-09",
+  "date": "2026-10-21",
   "infos": {
-   "currentPrice": 149.25,
+   "currentPrice": 153.75,
    "debtToEquity": 214.035,
    "earningsGrowth": 0.053,
-   "forwardEps": 14.43712,
-   "forwardPE": 10.3379345,
+   "forwardEps": 14.42426,
+   "forwardPE": 10.659125,
+   "industry": "Telecom Services",
    "numberOfAnalystOpinions": 25,
    "profitMargins": 0.11455,
-   "recommendationMean": 1.67857,
+   "recommendationMean": 1.60714,
    "revenueGrowth": 0.079,
-   "targetMeanPrice": 241.24,
+   "sector": "Communication Services",
+   "targetMeanPrice": 236.84,
    "trailingEps": 9.57,
-   "trailingPE": 15.595612
+   "trailingPE": 16.065832
   }
  },
  "TRN": {
@@ -4343,16 +4425,18 @@
   }
  },
  "UCTT": {
-  "date": "2026-10-13",
+  "date": "2026-10-21",
   "infos": {
-   "currentPrice": 61.02,
+   "currentPrice": 52.22,
    "debtToEquity": 108.2,
    "forwardEps": 6.24431,
-   "forwardPE": 9.772097,
+   "forwardPE": 8.362814,
+   "industry": "Semiconductor Equipment & Materials",
    "numberOfAnalystOpinions": 6,
    "profitMargins": -0.01066,
    "recommendationMean": 1.16667,
    "revenueGrowth": 0.243,
+   "sector": "Technology",
    "targetMeanPrice": 132.83333,
    "trailingEps": -0.51
   }
@@ -4456,20 +4540,22 @@
   }
  },
  "VSEC": {
-  "date": "2026-10-13",
+  "date": "2026-10-21",
   "infos": {
-   "currentPrice": 163.33,
+   "currentPrice": 153.67,
    "debtToEquity": 34.965,
    "earningsGrowth": 4.884,
-   "forwardEps": 8.27879,
-   "forwardPE": 19.728727,
+   "forwardEps": 8.26308,
+   "forwardPE": 18.597181,
+   "industry": "Aerospace & Defense",
    "numberOfAnalystOpinions": 9,
    "profitMargins": 0.05528,
    "recommendationMean": 1.45455,
    "revenueGrowth": 0.65,
-   "targetMeanPrice": 260.44443,
+   "sector": "Industrials",
+   "targetMeanPrice": 257.1111,
    "trailingEps": 3.13,
-   "trailingPE": 52.182106
+   "trailingPE": 49.095844
   }
  },
  "VSH": {
@@ -4589,18 +4675,21 @@
   }
  },
  "WINA": {
-  "date": "2026-10-07",
+  "date": "2026-10-21",
   "infos": {
-   "currentPrice": 294.92,
-   "earningsGrowth": -0.028,
+   "currentPrice": 280.77,
+   "earningsGrowth": 0.063,
    "forwardEps": 12.09,
-   "forwardPE": 24.393715,
+   "forwardPE": 23.223324,
+   "industry": "Specialty Retail",
    "numberOfAnalystOpinions": 1,
-   "profitMargins": 0.47085997,
-   "revenueGrowth": 0.076,
+   "profitMargins": 0.45132,
+   "recommendationMean": 2.0,
+   "revenueGrowth": 0.232,
+   "sector": "Consumer Cyclical",
    "targetMeanPrice": 545.0,
-   "trailingEps": 11.02,
-   "trailingPE": 26.76225
+   "trailingEps": 11.2,
+   "trailingPE": 25.06875
   }
  },
  "WLE.AX": {
