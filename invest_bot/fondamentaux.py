@@ -14,6 +14,16 @@ Finance :
 Forte baisse face au marché (plus de 20 % en 3 mois) : voir `sanction_du_marche`,
 qui distingue une braderie (perspectives intactes, bonus) d'une vraie dégradation.
 
+Deux garde-fous contre les chiffres trompeurs de Yahoo :
+  * bénéfice attendu et dernier bénéfice publié sur des bases différentes
+    (bénéfice « ajusté » contre comptable, division d'actions mal prise en
+    compte…) : un écart de plus de ×2 n'est pas cru. La croissance attendue et
+    le P/E attendu sont alors ignorés (points neutres) et le titre ne peut pas
+    être une « braderie » ;
+  * secteur financier (assureurs, banques, gestionnaires d'actifs) : chiffre
+    d'affaires, marge nette et endettement n'y ont pas le même sens (primes
+    d'assurance, dette d'un bilan bancaire) : points neutres.
+
 Une donnée manquante compte pour la moitié des points de son critère (ni bonus
 ni pénalité). Sans aucune donnée, le score est inconnu et le titre n'est pas
 proposé (sauf ETF, qui n'ont pas de bénéfices propres).
@@ -30,6 +40,9 @@ from typing import Callable
 CHAMPS = ("revenueGrowth", "earningsGrowth", "recommendationMean", "numberOfAnalystOpinions",
           "targetMeanPrice", "currentPrice", "forwardPE", "trailingPE", "profitMargins", "debtToEquity",
           "forwardEps", "trailingEps")
+TEXTES = ("sector", "industry")  # pour repérer le secteur financier
+SECTEURS_FINANCIERS = ("financial services", "financial")
+ECART_EPS_MAX = 2.0  # au-delà de ×2 (ou en deçà de ÷2), les deux bénéfices ne sont pas comparables
 
 
 ERREURS: list[str] = []  # pour le journal : pourquoi une lecture a échoué
@@ -45,7 +58,7 @@ def lire_infos(ticker: str, essais: int = 3) -> dict:
 
             infos = yf.Ticker(ticker).info or {}
             time.sleep(0.4)  # Yahoo limite les appels rapprochés
-            utiles = {k: infos.get(k) for k in CHAMPS if infos.get(k) is not None}
+            utiles = {k: infos.get(k) for k in CHAMPS + TEXTES if infos.get(k) is not None}
             if not utiles:
                 ERREURS.append(f"{ticker}: réponse sans donnée utile ({len(infos)} champs : {list(infos)[:8]})")
             return utiles
@@ -63,6 +76,23 @@ def _nombre(x) -> float | None:
     return None if math.isnan(v) else v
 
 
+def bases_comparables(fe: float | None, te: float | None) -> bool:
+    """Bénéfice attendu et dernier bénéfice publié mesurent-ils la même chose ?
+
+    Exemple réel (Apollo, octobre 2026) : 2,79 $ comptable contre 10,68 $ ajusté
+    attendu, soit « +283 % » et un P/E attendu de 10 au lieu d'environ 13. Autre
+    cas : une action divisée dont une seule des deux données a été corrigée.
+    """
+    if fe is None or te is None or fe <= 0 or te <= 0:
+        return True  # rien à comparer : les autres règles s'appliquent
+    return 1 / ECART_EPS_MAX <= fe / te <= ECART_EPS_MAX
+
+
+def est_financiere(infos: dict) -> bool:
+    secteur = str(infos.get("sector") or "").strip().lower()
+    return secteur in SECTEURS_FINANCIERS
+
+
 def score_fondamental(infos: dict) -> tuple[float | None, list[str]]:
     """Score 0-100 et explications lisibles ; None si aucune donnée exploitable.
 
@@ -73,9 +103,13 @@ def score_fondamental(infos: dict) -> tuple[float | None, list[str]]:
     if all(v is None for v in g.values()):
         return None, ["aucune donnée fondamentale disponible"]
     pts, notes = 0.0, []
+    financiere = est_financiere(infos)
+    comparables = bases_comparables(g["forwardEps"], g["trailingEps"])
+    if financiere:
+        notes.append("secteur financier : chiffre d'affaires, marge et dette non comparables (points neutres)")
 
     ca = g["revenueGrowth"]
-    if ca is None:
+    if ca is None or financiere:
         pts += 7.5
     else:
         pts += 15 if ca > 0.05 else 7.5 if ca > 0 else 0
@@ -90,7 +124,11 @@ def score_fondamental(infos: dict) -> tuple[float | None, list[str]]:
 
     # Regard vers l'avenir : bénéfice par action attendu sur 12 mois vs dernier connu.
     fe, te = g["forwardEps"], g["trailingEps"]
-    if fe is None or te is None or te <= 0:
+    if not comparables:
+        pts += 7.5
+        notes.append(f"⚠️ bénéfice attendu {fe:.2f} contre {te:.2f} publié ({fe / te - 1:+.0%}) : bases de calcul "
+                     "différentes (ajusté/comptable ou division d'actions), chiffre ignoré")
+    elif fe is None or te is None or te <= 0:
         pts += 7.5 if fe is None or te is None else (15 if fe and fe > 0 else 0)
     else:
         attendu = fe / te - 1
@@ -117,7 +155,11 @@ def score_fondamental(infos: dict) -> tuple[float | None, list[str]]:
         pts += 5
 
     fpe, tpe = g["forwardPE"], g["trailingPE"]
-    if fpe is None or fpe <= 0:
+    if not comparables and fpe is not None:
+        pts += 7.5
+        actuel = f" (actuel {tpe:.1f})" if tpe and tpe > 0 else ""
+        notes.append(f"P/E attendu {fpe:.1f}{actuel} non fiable : à vérifier à la main")
+    elif fpe is None or fpe <= 0:
         pts += 7.5 if fpe is None else 0
         if fpe is not None:
             notes.append("bénéfices attendus négatifs")
@@ -129,6 +171,8 @@ def score_fondamental(infos: dict) -> tuple[float | None, list[str]]:
         notes.append(txt)
 
     marge, dette = g["profitMargins"], g["debtToEquity"]
+    if financiere:
+        return round(pts + 7.5, 1), notes  # santé : neutre (5 + 2,5)
     pts += 5 if marge is None else 10 if marge > 0.08 else 5 if marge > 0 else 0
     if marge is not None:
         notes.append(f"marge nette {marge:.0%}")
@@ -156,7 +200,7 @@ def sanction_du_marche(vs_marche_3m: float | None, infos: dict | None = None) ->
     g = {k: _nombre((infos or {}).get(k)) for k in CHAMPS}
     fe, te, bpa = g["forwardEps"], g["trailingEps"], g["earningsGrowth"]
     reco, n = g["recommendationMean"], g["numberOfAnalystOpinions"] or 0
-    attendu = fe / te - 1 if fe is not None and te and te > 0 else None
+    attendu = fe / te - 1 if fe is not None and te and te > 0 and bases_comparables(fe, te) else None
     chute = f"{vs_marche_3m:+.0%} vs marché en 3 mois"
     plein = -25.0 if vs_marche_3m < -0.30 else -12.0
 
