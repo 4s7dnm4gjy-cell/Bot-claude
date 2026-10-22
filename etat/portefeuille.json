@@ -45,103 +45,103 @@
   },
   "opportunite": {
     "type": "opportunite",
-    "date": "2026-10-21",
-    "cree_le": "2026-10-21T20:36+00:00",
-    "liberation": 250.10000610351562,
+    "date": "2026-10-22",
+    "cree_le": "2026-10-22T20:33+00:00",
+    "liberation": 114.81779690918071,
     "reserve_pct": null,
-    "score": 85.01373377089091,
+    "score": 92.73261125539001,
     "ordres": [
       {
-        "ticker": "SU.PA",
+        "ticker": "NVT",
         "side": "buy",
         "quantity": 1.0,
-        "price": 249.10000610351562,
-        "reason": "opportunité radar (score 85)"
+        "price": 113.81779690918071,
+        "reason": "opportunité radar (score 93)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "SU.PA",
-      "nom": "Schneider Electric",
-      "isin": "FR0000121972",
+      "ticker": "NVT",
+      "nom": "nVent Electric plc",
+      "isin": "NVT",
       "type": "action",
-      "prix": 249.10000610351562,
-      "score": 85.01373377089091,
-      "baisse": 0.1990353501494675,
-      "perf_5ans": 0.690511184130068,
+      "prix": 127.66999816894531,
+      "score": 92.73261125539001,
+      "baisse": 0.30650385978266925,
+      "perf_5ans": 3.267267087690702,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.27992970672231254,
-      "pos_12m": 0.8115702479338843,
-      "n_12m": 605,
-      "base_moy_12m": 0.17102119996883755,
-      "pire_12m": -0.5042323540197946,
-      "vs_marche_3m": -0.11789870645150913,
-      "devise": "EUR",
-      "prix_eur": 249.10000610351562,
+      "moy_12m": 0.8828025571655513,
+      "pos_12m": 1.0,
+      "n_12m": 106,
+      "base_moy_12m": 0.4303601360626862,
+      "pire_12m": 0.3509902445568438,
+      "vs_marche_3m": -0.18882056514474188,
+      "devise": "USD",
+      "prix_eur": 113.81779690918071,
       "fondamental": 95.0,
       "fondamental_notes": [
-        "chiffre d'affaires +9.8% sur un an",
-        "bénéfices +29.3% sur un an",
-        "bénéfices attendus +49% sur 12 mois",
-        "analystes : « achat fort » (1.5/5, 23 avis)",
-        "objectif moyen des analystes : +34%",
-        "P/E attendu 19.7 (actuel 29.4)",
-        "marge nette 11%",
-        "dette / capitaux propres 84 %"
+        "chiffre d'affaires +52.8% sur un an",
+        "bénéfices +98.0% sur un an",
+        "bénéfices attendus +88% sur 12 mois",
+        "analystes : « achat fort » (1.3/5, 16 avis)",
+        "objectif moyen des analystes : +47%",
+        "P/E attendu 20.6 (actuel 38.7)",
+        "marge nette 12%",
+        "dette / capitaux propres 41 %"
       ],
-      "score_global": 91.0,
+      "score_global": 94.1,
       "braderie": false
     },
     "actualites": {
-      "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -12% vs marché)",
-      "vs_marche_3m": -0.11789870645150913,
+      "verdict": "orange",
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -19% vs marché)",
+      "vs_marche_3m": -0.18882056514474188,
       "alertes": [],
       "recents": [
         {
-          "titre": "Schneider Electric renforce son programme de décarbonation avec Greenly - Boursorama",
-          "lien": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOd3NJZHB2NFZLR2lOWVBIV3gzaU1ydnoyOFhRcnRodDNWNGxFNmt3NjFGeUZMYThqNTV3dWx2WjMxZ2VzRU4xUEFaNzhEeXNueVFuTFh2MGhPYWxNQzdlMGNjLVRmaUY3OHVWWWNYcHZKTmc1ZloyQUlEbEt6ZTVKajdnN2VMdlB6RVdtc1lKcERhU1JhZUFWTGFwY01uOERlZGFzZFdNcTBsNmlLQnBQdEItS3JZOWVHVXVieC1sdTdhUlBNREFwUy0tRGU1WEx5ZFYxdXB1aXFGMWZYbllKdkh5bklOWm9N0gHoAUFVX3lxTE53c0lkcHY0VktHaU5ZUEhXeDNpTXJ2ejI4WFFydGh0M1Y0bEU2a3c2MUZ5RkxhOGo1NXd1bHZaMzFnZXNFTjFQQVo3OER5c255UW5MWHYwaE9hbE1DN2UwY2MtVGZpRjc4dVZZY1hwdkpOZzVmWjJBSURsS3plNUpqN2c3ZUx2UHpFV21zWUpwRGFTUmFlQVZMYXBjTW44RGVkYXNkV01xMGw2aUtCcFB0Qi1Lclk5ZUdVdWJ4LWx1N2FSUE1EQXBTLS1EZTVYTHlkVjF1cHVpcUYxZlhuWUp2SHluSU5ab00?oc=5",
-          "date": "2026-10-21",
-          "source": "Boursorama",
+          "titre": "nVent Electric plc (NVT) Stock Forecasts - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVVFBZUtDME9TTE1QcjhfaHdQVEg0cE95Q2t0LUJzS3g2dERxbm1OOGd2VVItVWVzakEza1lNektOLThST05EWjEyRTZZRndwZmhqcnprVUhKZ1hqc19sZkdkc0RDWktmdDBab0xPV3JJQ0gtWnVSUGFPckNwQ3ltT0V2WC1TcTRYRmpmcFhsZTA?oc=5",
+          "date": "2026-10-22",
+          "source": "Yahoo Finance",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Schneider Electric renforce son programme de décarbonation avec Greenly - Zonebourse",
-          "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQ2x5UmtuZktSbHNCMVktSjVMbDdVQTl3WnIwTTc3N0FvSHRwUi1qUHc1c25XUEVqb1JuVEJxdGNiYklrTTc2V2R5VFktY0tYNjFlbUhHV3RjaDZKNmM4Mm5OX0ljQTNxQXozWUJjOVg1VzBVc3JTbTIwSGJwbS10MUgwdlU1WnJtaWZuRG9wbFl3TVllMUQzeFlNU2tsbDQwZ0s4dFNON2VDZXkyc2hFVXNYa3FSclc2OGFreERUc1l4dDJMTE5HQVJKR2s?oc=5",
-          "date": "2026-10-21",
-          "source": "Zonebourse",
+          "titre": "nVent Electric Slides as AI Infrastructure Selloff and Deal Financing Risks Pressure Shares - Quiver Quantitative",
+          "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQT19CRFZrZVhpRzlOYkx0NW9YLTM5N2dudFVOTjQ2QjliUGdPWnZTamlsSmhvd2p0THgwLVg5U3RTb2dfRWhFM2JQd3RoX0lYWl9hQnRQWVl1N3NUdmRtV0dZR0V6WDdtV1VLVmhMUnVkSFZuNFBuRkdUQ3Y3Nm5NdmV1QTlpcF94enRMSnJvaTlJcVJhMGVxX1NCeW80Tmd6azFvTVNWMjJEdnVPdER4QlF0RzdpVlNRN2pMWjhpUmQ0QQ?oc=5",
+          "date": "2026-10-22",
+          "source": "Quiver Quantitative",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Schneider Electric : Bernstein reste à surperformance avec un objectif de cours réduit de 350 à 340 EUR. - Zonebourse",
-          "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNT2N2Z3NyQjFNbU5Xb0dRal9QN0N4UXVKS3JMUUNoaFRNWVc1VWZnM3p5N3VQSjQ0ZXZCaXRVaEJGM3ZTWGQ1a3RDZkdfRDBIaW13RzRjYnd6cTQ4eE1NTnU2NFNRbzVRSElzbzZPMThLS083ejhNN1IweGRSdk9lR21HUFpxb2RkSHkxN0ljRno2NUFGcURRd05YeGVnRW1vWWljRkZqTlpXdVgtNkNwV1dYcFRRN2lsN3VTaEZwQ3BWeUY1MjlkX09DMDNmRU52Rk1KaGpKeHV3d21uYjdHbG5waldyUUoybjc5NFJOMA?oc=5",
+          "titre": "nVent Electric PLC (NVT) Shares Surge 4.5% -- What GF Score of 9 - GuruFocus",
+          "lien": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa3RYNms0MERkckFvaGhpV09KTmxvM2U5cFhYc250N0JpRU8zU1p4OC15Nmw5Mmp4TTJWd1ZONnF5bHJOMFZDcThtZUhsS1I2TWRWYlJmWThPR2hUYUdFQm1hVm9HLTZ0Y1hxZ3N5UTlYc005SjRzOTlLVjduSGFqRmh6SjRMdWE3cl9PeXFsX3Z4UExxRVNPSlZjQk1OX3hEc3hBajg3djJDYWxLanVuR3djTQ?oc=5",
           "date": "2026-10-21",
-          "source": "Zonebourse",
+          "source": "GuruFocus",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Schneider Electric, Nvidia et HPE collaborent pour développer l'IA physique dans les industries de transformat - Boursorama",
-          "lien": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPWjZtVENqd2NtbS1JVnhhcFp4N2U2bDVlN1l1M2N6ZDd6ZnUtd0ZSY01uTnJQWVFfaGk0OWV2YmVkdzJNa3IwRFlyLU1pZktna0pJQ0F6Y0puSW5XN2xkVlhWY1FWZHY1V0xrbWQ1RVJ0THB4S0lWbVRfZUV2YUFFZU13QWNORkwzcDZaUXVqS1RyYzh2SjhxU3RfZlJOQWplV3RXMTZYb3VHdmFMaTRqaWFwRHpSZktGMU9QNUxpWlhpR0ZBQVh1MVNJNzVnUlNuc05zMWNNdlo3RDVwWW0zU2pnb01tcWdSU3JOWHpEUXFiRENwdGhMWjVzeTdncXpSbEZONXFaaXFPVHlPd3NCclp4U0t6U1doN0HSAZ8CQVVfeXFMT0stUFVaMXItNnNYRDdGZ2JPdDhDbTlrUnBxTEQ5NXhueEh3eldoak04NmkxUHVhZFBBQWtYN0MySnJpenM4Y0hIRHVlb3JfSFUtdTVzcmxPRXNtdjBybUhPWWF1Y0psaUJJLUFxWXdCQ25ocnJNRmxObGYyZXlHa2hHVFphanFMQnRWa21SNHFTTEhDOERuZjRSUVV4OGwxekt6eTJaOV9hLWlxeUxReHNmS1IzZ014RTR3UDFKUC1wWlZ2eHBHME1zaDJ4c0FvaERzNmpGQlJ2N3I1bUZNUUVYT0dheWl3cEpHeWdONnBpSkx0dHVRNDZZYWRHU05mSFJzbzNlM2xrRk1iOV9aMXA5ZU5yaldKMnRnQzdTOUE?oc=5",
-          "date": "2026-10-21",
-          "source": "Boursorama",
+          "titre": "NVent Electric plc : JPMorgan Chase relève son opinion - Zonebourse Suisse",
+          "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdXRrS0kwbnRKb2xmbVVDUEZqMmNSMTMxOWNpNUV3SDV2enR5TTA4OF9vTk1Na3loQXhaQmpTalBHa0dfdjhIUVpuem5mRmQxamNfdm5EeXhoVVhPZWdSTFYyWTVzQUZhejhtQi1DYmVCZ2l2NmxwcWxqWTUzOWthWkJncXNJX0Vzd01uZHFuZmVwak0xWV9sZHVkUnJ6ZDFpam5ySFN4YzJtRXo1UFBNejhn?oc=5",
+          "date": "2026-10-20",
+          "source": "Zonebourse Suisse",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Schneider Electric : BNP Paribas reste à surperformance avec un objectif de cours réduit de 340 à 325 EUR. - Zonebourse",
-          "lien": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPemtJS2JkVTlsVHpKd3BOeHVhLURweGtYYkxwSjhsYXdfTFhCaGkzN3ZtYmlKMmVsVTBhalBZUV9ZMEpsSzlxc0xMaHpZOVo5Mmc0T0xyUnNSdTYtWkE2R0pIMjRHSnNVZWNybW84enkyNGhlSzY0TU9qaGtCVmxhRnpZNmtzS3U5b0dhN3F3UTkyX3JBbzgxc0dKV0lIVy1xbDhDZTVGa3pNbXdFdmgwRkRIZFBSV01qQUplRHBKbHZsYUpHLUszaGtYRHNXR3BCSzM5QnpsQ0M5YUFqM2owN3ljeVBnQm0telZ6bXQwWlU?oc=5",
-          "date": "2026-10-21",
-          "source": "Zonebourse",
+          "titre": "nVent Electric plc (NVT) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9KbG9CbmdfeHJfSHcycmYtRkhXV3dZNmlmTWJPWERubjJ4TlQxb3VrWS1NTXNVUkc0a1lFdVJIakFkcGdHczBxODhwaHB3VkM4?oc=5",
+          "date": "2026-10-20",
+          "source": "Yahoo! Finance Canada",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 117
+    "ticket": 118
   },
   "radar_proposes": [
     "MCD",
@@ -285,7 +285,8 @@
     "FIX",
     "5802.T",
     "FN",
-    "SU.PA"
+    "SU.PA",
+    "NVT"
   ],
   "achats": [],
   "historique": [
@@ -11706,6 +11707,107 @@
         ]
       },
       "ticket": 115,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-21",
+      "cree_le": "2026-10-21T20:36+00:00",
+      "liberation": 250.10000610351562,
+      "reserve_pct": null,
+      "score": 85.01373377089091,
+      "ordres": [
+        {
+          "ticker": "SU.PA",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 249.10000610351562,
+          "reason": "opportunité radar (score 85)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "SU.PA",
+        "nom": "Schneider Electric",
+        "isin": "FR0000121972",
+        "type": "action",
+        "prix": 249.10000610351562,
+        "score": 85.01373377089091,
+        "baisse": 0.1990353501494675,
+        "perf_5ans": 0.690511184130068,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.27992970672231254,
+        "pos_12m": 0.8115702479338843,
+        "n_12m": 605,
+        "base_moy_12m": 0.17102119996883755,
+        "pire_12m": -0.5042323540197946,
+        "vs_marche_3m": -0.11789870645150913,
+        "devise": "EUR",
+        "prix_eur": 249.10000610351562,
+        "fondamental": 95.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +9.8% sur un an",
+          "bénéfices +29.3% sur un an",
+          "bénéfices attendus +49% sur 12 mois",
+          "analystes : « achat fort » (1.5/5, 23 avis)",
+          "objectif moyen des analystes : +34%",
+          "P/E attendu 19.7 (actuel 29.4)",
+          "marge nette 11%",
+          "dette / capitaux propres 84 %"
+        ],
+        "score_global": 91.0,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -12% vs marché)",
+        "vs_marche_3m": -0.11789870645150913,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Schneider Electric renforce son programme de décarbonation avec Greenly - Boursorama",
+            "lien": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOd3NJZHB2NFZLR2lOWVBIV3gzaU1ydnoyOFhRcnRodDNWNGxFNmt3NjFGeUZMYThqNTV3dWx2WjMxZ2VzRU4xUEFaNzhEeXNueVFuTFh2MGhPYWxNQzdlMGNjLVRmaUY3OHVWWWNYcHZKTmc1ZloyQUlEbEt6ZTVKajdnN2VMdlB6RVdtc1lKcERhU1JhZUFWTGFwY01uOERlZGFzZFdNcTBsNmlLQnBQdEItS3JZOWVHVXVieC1sdTdhUlBNREFwUy0tRGU1WEx5ZFYxdXB1aXFGMWZYbllKdkh5bklOWm9N0gHoAUFVX3lxTE53c0lkcHY0VktHaU5ZUEhXeDNpTXJ2ejI4WFFydGh0M1Y0bEU2a3c2MUZ5RkxhOGo1NXd1bHZaMzFnZXNFTjFQQVo3OER5c255UW5MWHYwaE9hbE1DN2UwY2MtVGZpRjc4dVZZY1hwdkpOZzVmWjJBSURsS3plNUpqN2c3ZUx2UHpFV21zWUpwRGFTUmFlQVZMYXBjTW44RGVkYXNkV01xMGw2aUtCcFB0Qi1Lclk5ZUdVdWJ4LWx1N2FSUE1EQXBTLS1EZTVYTHlkVjF1cHVpcUYxZlhuWUp2SHluSU5ab00?oc=5",
+            "date": "2026-10-21",
+            "source": "Boursorama",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Schneider Electric renforce son programme de décarbonation avec Greenly - Zonebourse",
+            "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQ2x5UmtuZktSbHNCMVktSjVMbDdVQTl3WnIwTTc3N0FvSHRwUi1qUHc1c25XUEVqb1JuVEJxdGNiYklrTTc2V2R5VFktY0tYNjFlbUhHV3RjaDZKNmM4Mm5OX0ljQTNxQXozWUJjOVg1VzBVc3JTbTIwSGJwbS10MUgwdlU1WnJtaWZuRG9wbFl3TVllMUQzeFlNU2tsbDQwZ0s4dFNON2VDZXkyc2hFVXNYa3FSclc2OGFreERUc1l4dDJMTE5HQVJKR2s?oc=5",
+            "date": "2026-10-21",
+            "source": "Zonebourse",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Schneider Electric : Bernstein reste à surperformance avec un objectif de cours réduit de 350 à 340 EUR. - Zonebourse",
+            "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNT2N2Z3NyQjFNbU5Xb0dRal9QN0N4UXVKS3JMUUNoaFRNWVc1VWZnM3p5N3VQSjQ0ZXZCaXRVaEJGM3ZTWGQ1a3RDZkdfRDBIaW13RzRjYnd6cTQ4eE1NTnU2NFNRbzVRSElzbzZPMThLS083ejhNN1IweGRSdk9lR21HUFpxb2RkSHkxN0ljRno2NUFGcURRd05YeGVnRW1vWWljRkZqTlpXdVgtNkNwV1dYcFRRN2lsN3VTaEZwQ3BWeUY1MjlkX09DMDNmRU52Rk1KaGpKeHV3d21uYjdHbG5waldyUUoybjc5NFJOMA?oc=5",
+            "date": "2026-10-21",
+            "source": "Zonebourse",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Schneider Electric, Nvidia et HPE collaborent pour développer l'IA physique dans les industries de transformat - Boursorama",
+            "lien": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPWjZtVENqd2NtbS1JVnhhcFp4N2U2bDVlN1l1M2N6ZDd6ZnUtd0ZSY01uTnJQWVFfaGk0OWV2YmVkdzJNa3IwRFlyLU1pZktna0pJQ0F6Y0puSW5XN2xkVlhWY1FWZHY1V0xrbWQ1RVJ0THB4S0lWbVRfZUV2YUFFZU13QWNORkwzcDZaUXVqS1RyYzh2SjhxU3RfZlJOQWplV3RXMTZYb3VHdmFMaTRqaWFwRHpSZktGMU9QNUxpWlhpR0ZBQVh1MVNJNzVnUlNuc05zMWNNdlo3RDVwWW0zU2pnb01tcWdSU3JOWHpEUXFiRENwdGhMWjVzeTdncXpSbEZONXFaaXFPVHlPd3NCclp4U0t6U1doN0HSAZ8CQVVfeXFMT0stUFVaMXItNnNYRDdGZ2JPdDhDbTlrUnBxTEQ5NXhueEh3eldoak04NmkxUHVhZFBBQWtYN0MySnJpenM4Y0hIRHVlb3JfSFUtdTVzcmxPRXNtdjBybUhPWWF1Y0psaUJJLUFxWXdCQ25ocnJNRmxObGYyZXlHa2hHVFphanFMQnRWa21SNHFTTEhDOERuZjRSUVV4OGwxekt6eTJaOV9hLWlxeUxReHNmS1IzZ014RTR3UDFKUC1wWlZ2eHBHME1zaDJ4c0FvaERzNmpGQlJ2N3I1bUZNUUVYT0dheWl3cEpHeWdONnBpSkx0dHVRNDZZYWRHU05mSFJzbzNlM2xrRk1iOV9aMXA5ZU5yaldKMnRnQzdTOUE?oc=5",
+            "date": "2026-10-21",
+            "source": "Boursorama",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Schneider Electric : BNP Paribas reste à surperformance avec un objectif de cours réduit de 340 à 325 EUR. - Zonebourse",
+            "lien": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPemtJS2JkVTlsVHpKd3BOeHVhLURweGtYYkxwSjhsYXdfTFhCaGkzN3ZtYmlKMmVsVTBhalBZUV9ZMEpsSzlxc0xMaHpZOVo5Mmc0T0xyUnNSdTYtWkE2R0pIMjRHSnNVZWNybW84enkyNGhlSzY0TU9qaGtCVmxhRnpZNmtzS3U5b0dhN3F3UTkyX3JBbzgxc0dKV0lIVy1xbDhDZTVGa3pNbXdFdmgwRkRIZFBSV01qQUplRHBKbHZsYUpHLUszaGtYRHNXR3BCSzM5QnpsQ0M5YUFqM2owN3ljeVBnQm0telZ6bXQwWlU?oc=5",
+            "date": "2026-10-21",
+            "source": "Zonebourse",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 117,
       "decision": "sans réponse"
     }
   ]
