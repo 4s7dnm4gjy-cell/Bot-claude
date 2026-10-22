@@ -1,4 +1,23 @@
 {
+ "0016.HK": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 104.1,
+   "debtToEquity": 15.685,
+   "earningsGrowth": -0.049,
+   "forwardEps": 8.77797,
+   "forwardPE": 11.859233,
+   "industry": "Real Estate - Development",
+   "numberOfAnalystOpinions": 12,
+   "profitMargins": 0.22747,
+   "recommendationMean": 1.83333,
+   "revenueGrowth": 0.043,
+   "sector": "Real Estate",
+   "targetMeanPrice": 141.405,
+   "trailingEps": 7.39,
+   "trailingPE": 14.086603
+  }
+ },
  "0288.HK": {
   "date": "2026-10-16",
   "infos": {
@@ -166,6 +185,44 @@
    "trailingPE": 24.407257
   }
  },
+ "5333.T": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 4703.0,
+   "debtToEquity": 28.279,
+   "earningsGrowth": 0.693,
+   "forwardEps": 199.52,
+   "forwardPE": 23.571571,
+   "industry": "Specialty Industrial Machinery",
+   "numberOfAnalystOpinions": 7,
+   "profitMargins": 0.103819996,
+   "recommendationMean": 1.85714,
+   "revenueGrowth": 0.106,
+   "sector": "Industrials",
+   "targetMeanPrice": 6958.5713,
+   "trailingEps": 194.52,
+   "trailingPE": 24.177462
+  }
+ },
+ "5713.T": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 8094.0,
+   "debtToEquity": 30.335,
+   "earningsGrowth": 2.257,
+   "forwardEps": 406.63,
+   "forwardPE": 19.905073,
+   "industry": "Other Industrial Metals & Mining",
+   "numberOfAnalystOpinions": 8,
+   "profitMargins": 0.12449,
+   "recommendationMean": 2.375,
+   "revenueGrowth": 0.423,
+   "sector": "Basic Materials",
+   "targetMeanPrice": 11998.75,
+   "trailingEps": 847.3,
+   "trailingPE": 9.552697
+  }
+ },
  "5714.T": {
   "date": "2026-10-20",
   "infos": {
@@ -181,6 +238,25 @@
    "targetMeanPrice": 10452.857,
    "trailingEps": 1337.76,
    "trailingPE": 6.0571404
+  }
+ },
+ "5801.T": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 2946.5,
+   "debtToEquity": 77.557,
+   "earningsGrowth": 3.319,
+   "forwardEps": 296.56,
+   "forwardPE": 9.935595,
+   "industry": "Electrical Equipment & Parts",
+   "numberOfAnalystOpinions": 10,
+   "profitMargins": 0.064959995,
+   "recommendationMean": 1.8,
+   "revenueGrowth": 0.243,
+   "sector": "Industrials",
+   "targetMeanPrice": 6017.0,
+   "trailingEps": 127.2,
+   "trailingPE": 23.164309
   }
  },
  "5802.T": {
@@ -345,6 +421,44 @@
    "targetMeanPrice": 134.75,
    "trailingEps": 1.9,
    "trailingPE": 39.121056
+  }
+ },
+ "ABB.ST": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 825.6,
+   "debtToEquity": 49.616,
+   "earningsGrowth": -0.016,
+   "forwardEps": 26.35,
+   "forwardPE": 31.332067,
+   "industry": "Electrical Equipment & Parts",
+   "numberOfAnalystOpinions": 5,
+   "profitMargins": 0.13772,
+   "recommendationMean": 1.2,
+   "revenueGrowth": 0.068,
+   "sector": "Industrials",
+   "targetMeanPrice": 1095.5581,
+   "trailingEps": 25.93,
+   "trailingPE": 31.839567
+  }
+ },
+ "ABBN.SW": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 68.92,
+   "debtToEquity": 49.616,
+   "earningsGrowth": -0.016,
+   "forwardEps": 3.068811,
+   "forwardPE": 22.45821,
+   "industry": "Electrical Equipment & Parts",
+   "numberOfAnalystOpinions": 27,
+   "profitMargins": 0.13772,
+   "recommendationMean": 2.80769,
+   "revenueGrowth": 0.068,
+   "sector": "Industrials",
+   "targetMeanPrice": 82.053535,
+   "trailingEps": 2.2,
+   "trailingPE": 31.32727
   }
  },
  "AD.AS": {
@@ -691,6 +805,25 @@
    "trailingPE": 20.636364
   }
  },
+ "APH": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 73.07,
+   "debtToEquity": 120.415,
+   "earningsGrowth": 0.593,
+   "forwardEps": 3.33443,
+   "forwardPE": 21.91379,
+   "industry": "Electronic Components",
+   "numberOfAnalystOpinions": 19,
+   "profitMargins": 0.17729001,
+   "recommendationMean": 1.42105,
+   "revenueGrowth": 0.55,
+   "sector": "Technology",
+   "targetMeanPrice": 102.97368,
+   "trailingEps": 2.0,
+   "trailingPE": 36.535
+  }
+ },
  "APO": {
   "date": "2026-10-16",
   "infos": {
@@ -723,6 +856,25 @@
    "targetMeanPrice": 145.7,
    "trailingEps": 2.17,
    "trailingPE": 51.557602
+  }
+ },
+ "ASM.AS": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 709.2,
+   "debtToEquity": 1.585,
+   "earningsGrowth": 0.415,
+   "forwardEps": 31.64102,
+   "forwardPE": 22.413942,
+   "industry": "Semiconductor Equipment & Materials",
+   "numberOfAnalystOpinions": 20,
+   "profitMargins": 0.31929,
+   "recommendationMean": 1.65,
+   "revenueGrowth": 0.2,
+   "sector": "Technology",
+   "targetMeanPrice": 1148.4,
+   "trailingEps": 21.86,
+   "trailingPE": 32.442818
   }
  },
  "ASM.TO": {
@@ -915,6 +1067,25 @@
    "trailingPE": 20.364542
   }
  },
+ "BHE": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 66.3,
+   "debtToEquity": 26.142,
+   "earningsGrowth": 19.366,
+   "forwardEps": 3.30667,
+   "forwardPE": 20.050385,
+   "industry": "Electronic Components",
+   "numberOfAnalystOpinions": 3,
+   "profitMargins": 0.018860001,
+   "recommendationMean": 1.5,
+   "revenueGrowth": 0.177,
+   "sector": "Technology",
+   "targetMeanPrice": 86.0,
+   "trailingEps": 1.46,
+   "trailingPE": 45.41096
+  }
+ },
  "BKNG": {
   "date": "2026-10-08",
   "infos": {
@@ -964,6 +1135,24 @@
    "trailingPE": 19.463575
   }
  },
+ "BNP.PA": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 82.57,
+   "earningsGrowth": 0.374,
+   "forwardEps": 13.24923,
+   "forwardPE": 6.23206,
+   "industry": "Banks - Regional",
+   "numberOfAnalystOpinions": 18,
+   "profitMargins": 0.26490998,
+   "recommendationMean": 1.68421,
+   "revenueGrowth": 0.169,
+   "sector": "Financial Services",
+   "targetMeanPrice": 119.17944,
+   "trailingEps": 11.23,
+   "trailingPE": 7.3526273
+  }
+ },
  "BOH": {
   "date": "2026-10-16",
   "infos": {
@@ -978,6 +1167,24 @@
    "targetMeanPrice": 81.16667,
    "trailingEps": 5.37,
    "trailingPE": 12.486034
+  }
+ },
+ "BOL.ST": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 477.8,
+   "debtToEquity": 28.232,
+   "earningsGrowth": 2.869,
+   "forwardPE": 8.686464,
+   "industry": "Other Industrial Metals & Mining",
+   "numberOfAnalystOpinions": 15,
+   "profitMargins": 0.122279994,
+   "recommendationMean": 2.73333,
+   "revenueGrowth": 0.155,
+   "sector": "Basic Materials",
+   "targetMeanPrice": 565.8,
+   "trailingEps": 44.36,
+   "trailingPE": 10.770965
   }
  },
  "BOOT": {
@@ -995,6 +1202,25 @@
    "targetMeanPrice": 215.2143,
    "trailingEps": 7.9,
    "trailingPE": 14.882278
+  }
+ },
+ "BWA": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 55.46,
+   "debtToEquity": 70.11,
+   "earningsGrowth": 0.301,
+   "forwardEps": 5.90773,
+   "forwardPE": 9.3877,
+   "industry": "Auto Parts",
+   "numberOfAnalystOpinions": 15,
+   "profitMargins": 0.02893,
+   "recommendationMean": 1.73333,
+   "revenueGrowth": 0.003,
+   "sector": "Consumer Cyclical",
+   "targetMeanPrice": 81.26667,
+   "trailingEps": 2.0,
+   "trailingPE": 27.73
   }
  },
  "BWXT": {
@@ -1143,19 +1369,21 @@
   }
  },
  "CENX": {
-  "date": "2026-10-13",
+  "date": "2026-10-22",
   "infos": {
-   "currentPrice": 34.16,
+   "currentPrice": 32.65,
    "debtToEquity": 31.281,
-   "forwardEps": 11.45881,
-   "forwardPE": 2.9811125,
-   "numberOfAnalystOpinions": 4,
+   "forwardEps": 11.39736,
+   "forwardPE": 2.8646986,
+   "industry": "Aluminum",
+   "numberOfAnalystOpinions": 5,
    "profitMargins": 0.22559,
-   "recommendationMean": 1.0,
+   "recommendationMean": 1.4,
    "revenueGrowth": 0.197,
-   "targetMeanPrice": 65.25,
+   "sector": "Basic Materials",
+   "targetMeanPrice": 60.2,
    "trailingEps": 5.79,
-   "trailingPE": 5.8998275
+   "trailingPE": 5.6390333
   }
  },
  "CHP-UN.TO": {
@@ -1355,6 +1583,25 @@
    "targetMeanPrice": 10.79667,
    "trailingEps": 0.62,
    "trailingPE": 8.467742
+  }
+ },
+ "DCI": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 86.12,
+   "debtToEquity": 78.367,
+   "earningsGrowth": 0.14,
+   "forwardEps": 4.85625,
+   "forwardPE": 17.733849,
+   "industry": "Specialty Industrial Machinery",
+   "numberOfAnalystOpinions": 5,
+   "profitMargins": 0.11679,
+   "recommendationMean": 2.625,
+   "revenueGrowth": 0.08,
+   "sector": "Industrials",
+   "targetMeanPrice": 100.4,
+   "trailingEps": 3.85,
+   "trailingPE": 22.368832
   }
  },
  "DG.PA": {
@@ -1605,20 +1852,22 @@
   }
  },
  "EN.PA": {
-  "date": "2026-10-08",
+  "date": "2026-10-22",
   "infos": {
-   "currentPrice": 40.63,
+   "currentPrice": 40.14,
    "debtToEquity": 103.048,
    "earningsGrowth": 0.126,
    "forwardEps": 3.86174,
-   "forwardPE": 10.521164,
-   "numberOfAnalystOpinions": 10,
+   "forwardPE": 10.394278,
+   "industry": "Engineering & Construction",
+   "numberOfAnalystOpinions": 11,
    "profitMargins": 0.022230001,
-   "recommendationMean": 1.9,
+   "recommendationMean": 1.81818,
    "revenueGrowth": -0.01,
-   "targetMeanPrice": 59.6,
+   "sector": "Industrials",
+   "targetMeanPrice": 58.96364,
    "trailingEps": 3.27,
-   "trailingPE": 12.4250765
+   "trailingPE": 12.275229
   }
  },
  "ENB.TO": {
@@ -1738,6 +1987,25 @@
    "targetMeanPrice": 86.33333,
    "trailingEps": 7.22,
    "trailingPE": 8.48892
+  }
+ },
+ "FCFS": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 184.78,
+   "debtToEquity": 116.419,
+   "earningsGrowth": 0.582,
+   "forwardEps": 12.9475,
+   "forwardPE": 14.271481,
+   "industry": "Credit Services",
+   "numberOfAnalystOpinions": 4,
+   "profitMargins": 0.0942,
+   "recommendationMean": 1.0,
+   "revenueGrowth": 0.294,
+   "sector": "Financial Services",
+   "targetMeanPrice": 253.0,
+   "trailingEps": 8.79,
+   "trailingPE": 21.021616
   }
  },
  "FCPT": {
@@ -1875,6 +2143,25 @@
    "targetMeanPrice": 55.0,
    "trailingEps": 2.88,
    "trailingPE": 13.881944
+  }
+ },
+ "FORM": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 95.03,
+   "debtToEquity": 2.691,
+   "earningsGrowth": 5.025,
+   "forwardEps": 3.87276,
+   "forwardPE": 24.538055,
+   "industry": "Semiconductor Equipment & Materials",
+   "numberOfAnalystOpinions": 9,
+   "profitMargins": 0.12798001,
+   "recommendationMean": 1.8,
+   "revenueGrowth": 0.319,
+   "sector": "Technology",
+   "targetMeanPrice": 152.22221,
+   "trailingEps": 1.45,
+   "trailingPE": 65.537926
   }
  },
  "FRT": {
@@ -2047,6 +2334,25 @@
    "trailingPE": 21.716032
   }
  },
+ "GOOGL": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 324.22,
+   "debtToEquity": 18.859,
+   "earningsGrowth": 2.94,
+   "forwardEps": 15.45429,
+   "forwardPE": 20.979288,
+   "industry": "Internet Content & Information",
+   "numberOfAnalystOpinions": 54,
+   "profitMargins": 0.54771,
+   "recommendationMean": 1.37705,
+   "revenueGrowth": 0.242,
+   "sector": "Communication Services",
+   "targetMeanPrice": 429.12833,
+   "trailingEps": 19.93,
+   "trailingPE": 16.267937
+  }
+ },
  "GPI": {
   "date": "2026-10-15",
   "infos": {
@@ -2214,6 +2520,25 @@
    "trailingPE": 29.73829
   }
  },
+ "HOC.L": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 448.6,
+   "debtToEquity": 24.097,
+   "earningsGrowth": 1.056,
+   "forwardEps": 0.6021582,
+   "forwardPE": 7.44987,
+   "industry": "Other Precious Metals & Mining",
+   "numberOfAnalystOpinions": 11,
+   "profitMargins": 0.19962,
+   "recommendationMean": 1.54545,
+   "revenueGrowth": 0.624,
+   "sector": "Basic Materials",
+   "targetMeanPrice": 723.83405,
+   "trailingEps": 0.43,
+   "trailingPE": 10.432558
+  }
+ },
  "HON": {
   "date": "2026-10-08",
   "infos": {
@@ -2260,6 +2585,25 @@
    "revenueGrowth": -0.043,
    "targetMeanPrice": 21.41667,
    "trailingEps": -0.26
+  }
+ },
+ "HXL": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 81.27,
+   "debtToEquity": 73.902,
+   "earningsGrowth": 2.802,
+   "forwardEps": 3.1568,
+   "forwardPE": 25.744423,
+   "industry": "Aerospace & Defense",
+   "numberOfAnalystOpinions": 15,
+   "profitMargins": 0.077589996,
+   "recommendationMean": 2.35294,
+   "revenueGrowth": 0.08,
+   "sector": "Industrials",
+   "targetMeanPrice": 104.46667,
+   "trailingEps": 1.98,
+   "trailingPE": 41.045452
   }
  },
  "IBM": {
@@ -2496,6 +2840,24 @@
    "targetMeanPrice": 232.76923,
    "trailingEps": 3.56,
    "trailingPE": 49.00562
+  }
+ },
+ "KLIC": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 73.4,
+   "debtToEquity": 4.18,
+   "forwardEps": 5.90333,
+   "forwardPE": 12.4336605,
+   "industry": "Semiconductor Equipment & Materials",
+   "numberOfAnalystOpinions": 3,
+   "profitMargins": 0.121800005,
+   "recommendationMean": 2.66667,
+   "revenueGrowth": 1.226,
+   "sector": "Technology",
+   "targetMeanPrice": 100.33333,
+   "trailingEps": 2.18,
+   "trailingPE": 33.669724
   }
  },
  "KNSL": {
@@ -2867,6 +3229,44 @@
    "targetMeanPrice": 641.125,
    "trailingEps": 15.38,
    "trailingPE": 31.144995
+  }
+ },
+ "MOG-A": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 341.71,
+   "debtToEquity": 51.557,
+   "earningsGrowth": 1.59,
+   "forwardEps": 12.23702,
+   "forwardPE": 27.924282,
+   "industry": "Aerospace & Defense",
+   "numberOfAnalystOpinions": 5,
+   "profitMargins": 0.087340005,
+   "recommendationMean": 1.83333,
+   "revenueGrowth": 0.152,
+   "sector": "Industrials",
+   "targetMeanPrice": 445.0,
+   "trailingEps": 11.84,
+   "trailingPE": 28.860641
+  }
+ },
+ "MPWR": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 1167.93,
+   "debtToEquity": 0.486,
+   "earningsGrowth": 0.858,
+   "forwardEps": 35.27055,
+   "forwardPE": 33.113464,
+   "industry": "Semiconductors",
+   "numberOfAnalystOpinions": 15,
+   "profitMargins": 0.24500999,
+   "recommendationMean": 1.29412,
+   "revenueGrowth": 0.476,
+   "sector": "Technology",
+   "targetMeanPrice": 1813.1333,
+   "trailingEps": 16.44,
+   "trailingPE": 71.04197
   }
  },
  "MRCY": {
@@ -3440,6 +3840,32 @@
    "trailingPE": 15.807143
   }
  },
+ "PH": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 893.21,
+   "debtToEquity": 56.66,
+   "earningsGrowth": 0.193,
+   "forwardEps": 39.74666,
+   "forwardPE": 22.472582,
+   "industry": "Specialty Industrial Machinery",
+   "numberOfAnalystOpinions": 24,
+   "profitMargins": 0.16968,
+   "recommendationMean": 1.73077,
+   "revenueGrowth": 0.098,
+   "sector": "Industrials",
+   "targetMeanPrice": 1152.5804,
+   "trailingEps": 28.48,
+   "trailingPE": 31.362713
+  }
+ },
+ "PHI.L": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 968.0,
+   "trailingPE": 2.1368654
+  }
+ },
  "PIPR": {
   "date": "2026-10-19",
   "infos": {
@@ -3624,6 +4050,25 @@
    "targetMeanPrice": 29.42143,
    "trailingEps": 1.85,
    "trailingPE": 12.999999
+  }
+ },
+ "PWR": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 552.44,
+   "debtToEquity": 67.78,
+   "earningsGrowth": 0.947,
+   "forwardEps": 19.88724,
+   "forwardPE": 27.778616,
+   "industry": "Engineering & Construction",
+   "numberOfAnalystOpinions": 29,
+   "profitMargins": 0.04032,
+   "recommendationMean": 1.45161,
+   "revenueGrowth": 0.411,
+   "sector": "Industrials",
+   "targetMeanPrice": 760.3855,
+   "trailingEps": 8.73,
+   "trailingPE": 63.280643
   }
  },
  "RBA": {
@@ -3984,20 +4429,22 @@
   }
  },
  "SNA": {
-  "date": "2026-10-08",
+  "date": "2026-10-22",
   "infos": {
-   "currentPrice": 358.05,
+   "currentPrice": 356.46,
    "debtToEquity": 21.595,
    "earningsGrowth": 0.051,
-   "forwardEps": 21.47286,
-   "forwardPE": 16.674536,
+   "forwardEps": 21.45714,
+   "forwardPE": 16.612652,
+   "industry": "Tools & Accessories",
    "numberOfAnalystOpinions": 9,
    "profitMargins": 0.19597,
    "recommendationMean": 2.45455,
    "revenueGrowth": 0.042,
-   "targetMeanPrice": 414.8889,
+   "sector": "Industrials",
+   "targetMeanPrice": 412.66666,
    "trailingEps": 19.62,
-   "trailingPE": 18.249233
+   "trailingPE": 18.168194
   }
  },
  "SNEX": {
@@ -4271,6 +4718,25 @@
    "trailingPE": 29.0681
   }
  },
+ "TIH.TO": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 202.4,
+   "debtToEquity": 24.761,
+   "earningsGrowth": -0.007,
+   "forwardEps": 9.28548,
+   "forwardPE": 21.797474,
+   "industry": "Industrial Distribution",
+   "numberOfAnalystOpinions": 11,
+   "profitMargins": 0.092580006,
+   "recommendationMean": 2.0,
+   "revenueGrowth": 0.161,
+   "sector": "Industrials",
+   "targetMeanPrice": 247.90909,
+   "trailingEps": 6.28,
+   "trailingPE": 32.229298
+  }
+ },
  "TIT.MI": {
   "date": "2026-10-16",
   "infos": {
@@ -4321,6 +4787,25 @@
    "targetMeanPrice": 236.84,
    "trailingEps": 9.57,
    "trailingPE": 16.065832
+  }
+ },
+ "TPL": {
+  "date": "2026-10-22",
+  "infos": {
+   "currentPrice": 333.67,
+   "debtToEquity": 1.077,
+   "earningsGrowth": 0.327,
+   "forwardEps": 73.12,
+   "forwardPE": 4.5633206,
+   "industry": "Oil & Gas E&P",
+   "numberOfAnalystOpinions": 2,
+   "profitMargins": 0.60322,
+   "recommendationMean": 3.0,
+   "revenueGrowth": 0.312,
+   "sector": "Energy",
+   "targetMeanPrice": 443.0,
+   "trailingEps": 7.84,
+   "trailingPE": 42.559948
   }
  },
  "TRN": {
