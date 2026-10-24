@@ -45,103 +45,103 @@
   },
   "opportunite": {
     "type": "opportunite",
-    "date": "2026-10-23",
-    "cree_le": "2026-10-23T20:25+00:00",
-    "liberation": 149.8973744393418,
+    "date": "2026-10-24",
+    "cree_le": "2026-10-24T19:28+00:00",
+    "liberation": 149.77513235321013,
     "reserve_pct": null,
-    "score": 88.80624911615328,
+    "score": 90.94079792822856,
     "ordres": [
       {
-        "ticker": "HOC.L",
+        "ticker": "RIO.L",
         "side": "buy",
-        "quantity": 29.0,
-        "price": 5.134392222046269,
-        "reason": "opportunité radar (score 89)"
+        "quantity": 2.0,
+        "price": 74.38756617660506,
+        "reason": "opportunité radar (score 91)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "HOC.L",
-      "nom": "Hochschild Mining",
-      "isin": "HOC.L",
+      "ticker": "RIO.L",
+      "nom": "Rio Tinto",
+      "isin": "GB0007188757",
       "type": "action",
-      "prix": 429.79998779296875,
-      "score": 88.80624911615328,
-      "baisse": 0.46834309682630293,
-      "perf_5ans": 2.258824811584867,
+      "prix": 6231.0,
+      "score": 90.94079792822856,
+      "baisse": 0.2498438385627575,
+      "perf_5ans": 0.3231985244483635,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.30456917571936154,
-      "pos_12m": 0.4163568773234201,
-      "n_12m": 538,
-      "base_moy_12m": 0.2683623372188202,
-      "pire_12m": -0.5614568390650845,
-      "vs_marche_3m": -0.05447499679729717,
+      "moy_12m": 0.3006460272751758,
+      "pos_12m": 0.7258883248730964,
+      "n_12m": 788,
+      "base_moy_12m": 0.14372738098864468,
+      "pire_12m": -0.6477716465787832,
+      "vs_marche_3m": -0.10698049080908245,
       "devise": "GBp",
-      "prix_eur": 5.134392222046269,
-      "fondamental": 93.0,
+      "prix_eur": 74.38756617660506,
+      "fondamental": 90.0,
       "fondamental_notes": [
-        "chiffre d'affaires +62.4% sur un an",
-        "bénéfices +105.6% sur un an",
-        "bénéfices attendus +40% sur 12 mois",
-        "analystes : « achat fort » (1.5/5, 11 avis)",
-        "objectif des analystes +61% : peu crédible, probablement pas encore révisé",
-        "P/E attendu 7.4 (actuel 10.4)",
+        "chiffre d'affaires +15.5% sur un an",
+        "bénéfices +46.9% sur un an",
+        "bénéfices attendus +11% sur 12 mois",
+        "analystes : « conserver » (2.4/5, 21 avis)",
+        "objectif moyen des analystes : +15%",
+        "P/E attendu 10.7 (actuel 11.9)",
         "marge nette 20%",
-        "dette / capitaux propres 24 %"
+        "dette / capitaux propres 32 %"
       ],
-      "score_global": 91.3,
+      "score_global": 90.4,
       "braderie": false
     },
     "actualites": {
       "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -5% vs marché)",
-      "vs_marche_3m": -0.05447499679729717,
+      "resume": "rien d'alarmant dans l'actualité (3 mois : -11% vs marché)",
+      "vs_marche_3m": -0.10698049080908245,
       "alertes": [],
       "recents": [
         {
-          "titre": "Hochschild Mining plc Estimates – BIVA:HOC/N - TradingView",
-          "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1MMXR3OVBqdUlJRWZxX0dTd3hoNWo4WG1QMDRXWjE2WnlNWHRxNXl5TkF1WGktbkRXcjVybS10NG9VSm5NU3lBRDBmR0tVMExOYVVPajBQRzBhbmdhV2hSMkMxUTY4aURmN0t4SEVONFZBc2Q0Nkdj?oc=5",
+          "titre": "Rio Tinto Group (LSE:RIO) Is Back In Focus But What Is Behind It? - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMnVqWlBDb2pJZkYwS3NYOGlHQ1EzbWlJbl9LVllKMk9tblJnUXlkUWJQQ1RRSjZMNTVJZktqZXRITU1NT05yUENEajdyQXFEcUxHZ1VXS1JxLTFDV3doSC1WQWxuQ3RWYW1RRmYzaXM4MXhYODN0TU5yTEhWLWZrN253b0VQMVdheUUwdHZ3Sm1Zdw?oc=5",
+          "date": "2026-10-24",
+          "source": "Yahoo Finance",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "What Does Rio Tinto Group (LSE:RIO) Court Ruling Mean For Investors? - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbDJzZnV1eEd0TkV3NlZKQlg4TWYwVkF0bkxEZEc2RWlHNDNjcHh2bHVZanZvTFJyTXBRajFmY3hUMFJ5MkRxVmlHaFZNYzhnRXFFTm93NXFXajViTlFIYlFGUmpJOC1FSjVjX1ROMU91dmZnRXNUSFE3VVlTN3FZX25KMEJkWkQ1NDF1Y19pbHR5WnM?oc=5",
+          "date": "2026-10-24",
+          "source": "Yahoo Finance",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Rio Tinto approves $1.9 billion bauxite project to extend Weipa operations - finchannel",
+          "lien": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQV3g4RExPcV9VUWxBNXlPVzc1SGhWcUVBRlc5bWhlbkdpNWFPMlZBeGlrM3N1U1pONG8yUzRUS0JVU0kyeDNOcnZJU3NRZWlqNXY0bGU4QjVwcjZOWG9RYjRDVFZoRU02QkRManZJQmRmYURCWC0wOUVFOEZqMUUyTEhBcndUM1NOWXBoanJxeHFRTVFGaUlDVmI5STBkbUVseXNzQXdqY0xPR2pTbUtteW44Tk95dXpmYlVxTEd2LTVTWmVVdUg3S25yeWVtRHI0eUk4?oc=5",
+          "date": "2026-10-24",
+          "source": "finchannel",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Rio Tinto va investir 1,9 milliard de dollars dans un projet de bauxite en Australie - Zonebourse",
+          "lien": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNF85Rk5DNGM3NF8zbWNhVklya0FwZGZkSUlvOC00eWU5X3ZFZE9iTENSQ3dfOW15cTh0UEpIRWJrTi1yRkRVRGVEWHJyX0w2aGViSWNCRW01YmNCSll6WEdVN1cyQ19JYTFqdTltYjJOY3BOWEwycWJleFZsZXB5X0JsLW5LRlhDMmw5N1loTkpoTXlLdzA3Nkt6bGZFaHVyUTlxRzBFalJDMlRoX3ZUamItTkd4SGRWZnFJYjEtaE9ld29rRmhuYkc3czY5SDlTczYxWThtRXpBZTZTc2c?oc=5",
           "date": "2026-10-23",
-          "source": "TradingView",
+          "source": "Zonebourse",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Top 3 British Growth Stocks To Watch In October 2026 - Simply Wall Street",
-          "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNY0hnbmZuVXl6UHo5M184WUJXMnJhR2Y5MTVFbHo3MHJHT25Ebm1tZ3AwN3Y0czBFX3p5TDBTZTVxc2ViY3NqWkFsOXE0a0VTTDVRNHlCTEs2UFRJRkdnRjE4MllPTnRvcmtHWkZsVWZmYUlMd0VsY0NiUmY2TUFmRFU4MWtjcTBKOWpHX3dsU2FUZ2NQTnpXZkVJZktEWjlSYktjbVVERHk3T29KY1VKa2RuQVZCQlo0RGlKVzJQUGM3RktPNXMwVjJldmNTcHZnOVVWTdIB1AFBVV95cUxNY0hnbmZuVXl6UHo5M184WUJXMnJhR2Y5MTVFbHo3MHJHT25Ebm1tZ3AwN3Y0czBFX3p5TDBTZTVxc2ViY3NqWkFsOXE0a0VTTDVRNHlCTEs2UFRJRkdnRjE4MllPTnRvcmtHWkZsVWZmYUlMd0VsY0NiUmY2TUFmRFU4MWtjcTBKOWpHX3dsU2FUZ2NQTnpXZkVJZktEWjlSYktjbVVERHk3T29KY1VKa2RuQVZCQlo0RGlKVzJQUGM3RktPNXMwVjJldmNTcHZnOVVWTQ?oc=5",
+          "titre": "165 M$ du fédéral pour la modernisation de Rio Tinto - Radio-Canada",
+          "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZnU3QjdxMTI2c19nOVR0bmk0bEtnYXlnWmJkaFV2M2lnUVpZd0NDTHpQS0k3bVRzWTBrSzVpT3NwdG5hVXNnOXdmcjlsNUkxdFVXRS1INHo5akhwTFRVSFhjSWt0YjBETXpWMkZfT1VFeVdRMTBieWxHRU9yQlZPNzBiVUNON3lvaFlsc0Uwbk9iVFFrN3EzdnpKRDBFU1lpNU92OFdUbzhtRVhTNGc?oc=5",
           "date": "2026-10-23",
-          "source": "Simply Wall Street",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "UK Growth Companies With High Insider Ownership In October 2026 - Simply Wall Street",
-          "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRWdpOFowd194LTlRZFdqZ2Ntd25ENU1ZOTQ3R3AxVjR6c3p3NEVqeXJMSW1DbWlHcWJ1Sy00b0IwQnpUZWh2Z0d6UWZQS28wVGNjQmxBZ25wbEdXR1hrLVFSaS1uQnVsZWJHakxRZllONzhWRzc4TUIxTnBuOGNQMHU4WktVbC1MejRqUlQxcmV5dmlxbXBrcVVqZnF0YTVsWnFmd3pvX1lnSl9mWnJsTWF6RjZwazdlUG1ZOThYbjNVWHplUExfcnBmaEk3VEFVVzhIaTYwWGJ5MzJfWk9V0gHfAUFVX3lxTE9FZ2k4WjB3X3gtOVFkV2pnY213bkQ1TVk5NDdHcDFWNHpzenc0RWp5ckxJbUNtaUdxYnVLLTRvQjBCelRlaHZnR3pRZlBLbzBUY2NCbEFnbnBsR1dHWGstUVJpLW5CdWxlYkdqTFFmWU43OFZHNzhNQjFOcG44Y1AwdThaS1VsLUx6NGpSVDFyZXl2aXFtcGtxVWpmcXRhNWxacWZ3em9fWWdKX2ZacmxNYXpGNnBrN2VQbVk5OFhuM1VYemVQTF9ycGZoSTdUQVVXOEhpNjBYYnkzMl9aT1U?oc=5",
-          "date": "2026-10-23",
-          "source": "Simply Wall Street",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Berenberg relève la recommandation sur RS Group ; Jefferies l’abaisse sur DFS - Zonebourse Suisse",
-          "lien": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRGdTMkdiVWhCTXNzakRVbG1JcGhyZDhGa2htcGY4QVRDbkRDN3dFbEg3b0xpclQ4c0dWV0hIeF9HbVVxV1dfMjI3WXd6LWRJQUhiVlVWMDk0TUs2R3NBM2xrbGdRVy1rUGhDRllVazV2clMxTDN4U1lZWUJjN1h5SWN0VWY5RmluY0s4T29fTFBZRGt1Mnp5clJUUlhwclduRks2eTVKNXZ6VnpnYVdFUnBPYXZGdFQ3Tnoza2pkaWE2Y2U3emRUZXZUNFN4Z0g4QkE?oc=5",
-          "date": "2026-10-22",
-          "source": "Zonebourse Suisse",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Hochschild Mining plc maintient ses prévisions de production pour l’exercice 2026 - Zonebourse Suisse",
-          "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdlF3NS1KcnNfa1lFWHhQMUZUNm9zLWdkU0FXYU4xTTdGM3FxRngycGdCdXlVZEVhdUdOTGY2R29xYzJsMnd2U1Rac21UNFhRalVLQjRMMnRSdGRCUWJYSlBoYTdJV0d5N1ZlOVB4eDN4MGtvYl9tbzU0VFJKNDZ2QkRERjVjVUdGenpzQ2pmSkxTNUgzdUYzN1JGV3BYTlB6N29BbVNMeVh6Q05HMTJ6MFhybEhpOEViWWRuWVRkVHdTN0x1ZlFVQVhHdVhCTjVobWlkTExRa3dqUQ?oc=5",
-          "date": "2026-10-21",
-          "source": "Zonebourse Suisse",
+          "source": "Radio-Canada",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 119
+    "ticket": 120
   },
   "radar_proposes": [
     "MCD",
@@ -291,7 +291,9 @@
     "CAT",
     "AMAT",
     "SXI",
-    "HOC.L"
+    "HOC.L",
+    "BNP.PA",
+    "RIO.L"
   ],
   "achats": [],
   "historique": [
@@ -11914,6 +11916,107 @@
         ]
       },
       "ticket": 118,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-23",
+      "cree_le": "2026-10-23T20:25+00:00",
+      "liberation": 149.8973744393418,
+      "reserve_pct": null,
+      "score": 88.80624911615328,
+      "ordres": [
+        {
+          "ticker": "HOC.L",
+          "side": "buy",
+          "quantity": 29.0,
+          "price": 5.134392222046269,
+          "reason": "opportunité radar (score 89)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "HOC.L",
+        "nom": "Hochschild Mining",
+        "isin": "HOC.L",
+        "type": "action",
+        "prix": 429.79998779296875,
+        "score": 88.80624911615328,
+        "baisse": 0.46834309682630293,
+        "perf_5ans": 2.258824811584867,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.30456917571936154,
+        "pos_12m": 0.4163568773234201,
+        "n_12m": 538,
+        "base_moy_12m": 0.2683623372188202,
+        "pire_12m": -0.5614568390650845,
+        "vs_marche_3m": -0.05447499679729717,
+        "devise": "GBp",
+        "prix_eur": 5.134392222046269,
+        "fondamental": 93.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +62.4% sur un an",
+          "bénéfices +105.6% sur un an",
+          "bénéfices attendus +40% sur 12 mois",
+          "analystes : « achat fort » (1.5/5, 11 avis)",
+          "objectif des analystes +61% : peu crédible, probablement pas encore révisé",
+          "P/E attendu 7.4 (actuel 10.4)",
+          "marge nette 20%",
+          "dette / capitaux propres 24 %"
+        ],
+        "score_global": 91.3,
+        "braderie": false
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -5% vs marché)",
+        "vs_marche_3m": -0.05447499679729717,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Hochschild Mining plc Estimates – BIVA:HOC/N - TradingView",
+            "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1MMXR3OVBqdUlJRWZxX0dTd3hoNWo4WG1QMDRXWjE2WnlNWHRxNXl5TkF1WGktbkRXcjVybS10NG9VSm5NU3lBRDBmR0tVMExOYVVPajBQRzBhbmdhV2hSMkMxUTY4aURmN0t4SEVONFZBc2Q0Nkdj?oc=5",
+            "date": "2026-10-23",
+            "source": "TradingView",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Top 3 British Growth Stocks To Watch In October 2026 - Simply Wall Street",
+            "lien": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNY0hnbmZuVXl6UHo5M184WUJXMnJhR2Y5MTVFbHo3MHJHT25Ebm1tZ3AwN3Y0czBFX3p5TDBTZTVxc2ViY3NqWkFsOXE0a0VTTDVRNHlCTEs2UFRJRkdnRjE4MllPTnRvcmtHWkZsVWZmYUlMd0VsY0NiUmY2TUFmRFU4MWtjcTBKOWpHX3dsU2FUZ2NQTnpXZkVJZktEWjlSYktjbVVERHk3T29KY1VKa2RuQVZCQlo0RGlKVzJQUGM3RktPNXMwVjJldmNTcHZnOVVWTdIB1AFBVV95cUxNY0hnbmZuVXl6UHo5M184WUJXMnJhR2Y5MTVFbHo3MHJHT25Ebm1tZ3AwN3Y0czBFX3p5TDBTZTVxc2ViY3NqWkFsOXE0a0VTTDVRNHlCTEs2UFRJRkdnRjE4MllPTnRvcmtHWkZsVWZmYUlMd0VsY0NiUmY2TUFmRFU4MWtjcTBKOWpHX3dsU2FUZ2NQTnpXZkVJZktEWjlSYktjbVVERHk3T29KY1VKa2RuQVZCQlo0RGlKVzJQUGM3RktPNXMwVjJldmNTcHZnOVVWTQ?oc=5",
+            "date": "2026-10-23",
+            "source": "Simply Wall Street",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "UK Growth Companies With High Insider Ownership In October 2026 - Simply Wall Street",
+            "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRWdpOFowd194LTlRZFdqZ2Ntd25ENU1ZOTQ3R3AxVjR6c3p3NEVqeXJMSW1DbWlHcWJ1Sy00b0IwQnpUZWh2Z0d6UWZQS28wVGNjQmxBZ25wbEdXR1hrLVFSaS1uQnVsZWJHakxRZllONzhWRzc4TUIxTnBuOGNQMHU4WktVbC1MejRqUlQxcmV5dmlxbXBrcVVqZnF0YTVsWnFmd3pvX1lnSl9mWnJsTWF6RjZwazdlUG1ZOThYbjNVWHplUExfcnBmaEk3VEFVVzhIaTYwWGJ5MzJfWk9V0gHfAUFVX3lxTE9FZ2k4WjB3X3gtOVFkV2pnY213bkQ1TVk5NDdHcDFWNHpzenc0RWp5ckxJbUNtaUdxYnVLLTRvQjBCelRlaHZnR3pRZlBLbzBUY2NCbEFnbnBsR1dHWGstUVJpLW5CdWxlYkdqTFFmWU43OFZHNzhNQjFOcG44Y1AwdThaS1VsLUx6NGpSVDFyZXl2aXFtcGtxVWpmcXRhNWxacWZ3em9fWWdKX2ZacmxNYXpGNnBrN2VQbVk5OFhuM1VYemVQTF9ycGZoSTdUQVVXOEhpNjBYYnkzMl9aT1U?oc=5",
+            "date": "2026-10-23",
+            "source": "Simply Wall Street",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Berenberg relève la recommandation sur RS Group ; Jefferies l’abaisse sur DFS - Zonebourse Suisse",
+            "lien": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRGdTMkdiVWhCTXNzakRVbG1JcGhyZDhGa2htcGY4QVRDbkRDN3dFbEg3b0xpclQ4c0dWV0hIeF9HbVVxV1dfMjI3WXd6LWRJQUhiVlVWMDk0TUs2R3NBM2xrbGdRVy1rUGhDRllVazV2clMxTDN4U1lZWUJjN1h5SWN0VWY5RmluY0s4T29fTFBZRGt1Mnp5clJUUlhwclduRks2eTVKNXZ6VnpnYVdFUnBPYXZGdFQ3Tnoza2pkaWE2Y2U3emRUZXZUNFN4Z0g4QkE?oc=5",
+            "date": "2026-10-22",
+            "source": "Zonebourse Suisse",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Hochschild Mining plc maintient ses prévisions de production pour l’exercice 2026 - Zonebourse Suisse",
+            "lien": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdlF3NS1KcnNfa1lFWHhQMUZUNm9zLWdkU0FXYU4xTTdGM3FxRngycGdCdXlVZEVhdUdOTGY2R29xYzJsMnd2U1Rac21UNFhRalVLQjRMMnRSdGRCUWJYSlBoYTdJV0d5N1ZlOVB4eDN4MGtvYl9tbzU0VFJKNDZ2QkRERjVjVUdGenpzQ2pmSkxTNUgzdUYzN1JGV3BYTlB6N29BbVNMeVh6Q05HMTJ6MFhybEhpOEViWWRuWVRkVHdTN0x1ZlFVQVhHdVhCTjVobWlkTExRa3dqUQ?oc=5",
+            "date": "2026-10-21",
+            "source": "Zonebourse Suisse",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 119,
       "decision": "sans réponse"
     }
   ]
