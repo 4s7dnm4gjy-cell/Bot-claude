@@ -6,35 +6,7 @@
   "dernier_mois_apport": "2026-10",
   "reserve_pct_appliquee": null,
   "pause_jusqua": null,
-  "proposition": {
-    "type": "date_limite",
-    "date": "2026-10-20",
-    "liberation": 200.0,
-    "reserve_pct": 0.1,
-    "score": 41.06249442460264,
-    "ordres": [
-      {
-        "ticker": "EUNL.DE",
-        "side": "buy",
-        "quantity": 1.0,
-        "price": 130.43499755859375,
-        "reason": "sous-pondéré de 76.5%"
-      },
-      {
-        "ticker": "IS3N.DE",
-        "side": "buy",
-        "quantity": 1.0,
-        "price": 46.380001068115234,
-        "reason": "sous-pondéré de 13.5%"
-      }
-    ],
-    "notes": [
-      "Drawdown EUNL.DE: 1.4% -> réserve cible 10% (20)"
-    ],
-    "total": 200.0,
-    "image": "rapports/propositions/2026-10-20.png",
-    "ticket": 114
-  },
+  "proposition": null,
   "dernier_mois_plan": null,
   "palier_alerte": 0,
   "bulletin_ticket": 1,
@@ -12018,6 +11990,36 @@
       },
       "ticket": 119,
       "decision": "sans réponse"
+    },
+    {
+      "type": "date_limite",
+      "date": "2026-10-20",
+      "liberation": 200.0,
+      "reserve_pct": 0.1,
+      "score": 41.06249442460264,
+      "ordres": [
+        {
+          "ticker": "EUNL.DE",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 130.43499755859375,
+          "reason": "sous-pondéré de 76.5%"
+        },
+        {
+          "ticker": "IS3N.DE",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 46.380001068115234,
+          "reason": "sous-pondéré de 13.5%"
+        }
+      ],
+      "notes": [
+        "Drawdown EUNL.DE: 1.4% -> réserve cible 10% (20)"
+      ],
+      "total": 200.0,
+      "image": "rapports/propositions/2026-10-20.png",
+      "ticket": 114,
+      "decision": "expirée"
     }
   ]
 }

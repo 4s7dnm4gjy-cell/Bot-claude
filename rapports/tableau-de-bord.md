@@ -1,6 +1,6 @@
 # Tableau de bord — 23/10/2026
 
-⏳ Proposition en attente de votre réponse : ticket #114
+✅ Rien à faire aujourd'hui : le bot attend le meilleur moment.
 
 Score du moment : **49/100 — 🟡 moment neutre**. iShares Core MSCI World est à -1.8% de son plus haut sur 1 an, +7.3% par rapport à sa moyenne 200 jours, RSI 49.
 
@@ -56,7 +56,7 @@ Apport mensuel : 200 € — proposé dès que le score atteint 60, au plus tard
   - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -47% vs marché)
 - ⭐ **IG Group** (action, chercher « IG Group ») — score **99/100**, -52% depuis son plus haut ; historiquement à ce niveau : +21% à 12 mois en moyenne, positif 75% des cas (moyenne du titre : +12%)
   - 📰 🟠 à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -48% vs marché)
-    - ⚠️ [IG Group shares plunge 25% as Peel Hunt flags revenue and margin downgrade - Yahoo Finance UK](https://news.google.com/rss/articles/CBMif0FVX3lxTE9jYnRRZ3ExQTZtTjNsYjNsNTJRcy02c01Ub1VPaUZEbHZSejhubjNBMEhrNzE3RktYVzVYU09tYTJYY1VEWHIzSWtGUWU3Tm1qU3JGRk5HWU1aNlJTcXB6bEtqWUpNUlZCYlF2VFBTUHgxSm1jbFhFZWtVMUt4STA?oc=5) (downgrade)
+    - ⚠️ [IG Group shares plunge 25% as Peel Hunt flags revenue and margin downgrade - Proactive financial news](https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTzNoQXR4UUZkR19URmlSWXFFNWxsSE4tVlZLTVRuMDdpRXEwLThnYW5WS2JMdlJFbWhHamJkd0p0Q0RCYmZwYXZ3bHdOTV90Rk1WRTJSaElNakdiWW0xalJVMkYybEVLU0ZYblRxbnd5dkRDQlJUUzJrd1VfUnM5OGZpSmNpd0xkck5fbVppbFZnTGU3dzNpSktwNW41VV9taUhsZjM1NFEzLTFsY19EcDNFaDc1S2huSW5Ddk9GRGRRQVhndU1fcHpNX0M2cWZfYnBBNk42QmJJcDJJ?oc=5) (downgrade)
 - ⭐ **BWX Technologies** (action, chercher « BWX Technologies ») — score **98/100**, -46% depuis son plus haut ; historiquement à ce niveau : +29% à 12 mois en moyenne, positif 83% des cas (moyenne du titre : +23%)
   - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -30% vs marché)
 - ⭐ **Aurubis** (action, chercher « Aurubis ») — score **98/100**, -40% depuis son plus haut ; historiquement à ce niveau : +24% à 12 mois en moyenne, positif 72% des cas (moyenne du titre : +20%)
@@ -64,8 +64,7 @@ Apport mensuel : 200 € — proposé dès que le score atteint 60, au plus tard
 - ⭐ **Metrics Master Income Trust** (action, chercher « Metrics Master Income Trust ») — score **98/100**, -14% depuis son plus haut ; historiquement à ce niveau : +7% à 12 mois en moyenne, positif 82% des cas (moyenne du titre : +6%)
   - 📰 🟢 rien d'alarmant dans l'actualité (3 mois : -15% vs marché)
 - ⭐ **Norsk Hydro** (action, ISIN `NO0005052605`) — score **98/100**, -44% depuis son plus haut ; historiquement à ce niveau : +22% à 12 mois en moyenne, positif 61% des cas (moyenne du titre : +20%)
-  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -20% vs marché)
-    - ⚠️ [Norsk Hydro downgraded to Neutral from Buy at Goldman Sachs - TipRanks](https://news.google.com/rss/articles/CBMirgFBVV95cUxPWXphYmxrdXFXRjJVRXdlR1Q1cThXNS1sSlduOE55bmR2T1J4ZEhjWlZKSnN6SFNSamEzY05qLWlEWUZqY192cUJ1bnVtX04zRHJkWjNQOUg1emtiMG9HREdLTkQtRnktWWEtN3VndlFkbkJ0ZC1PZTNHclRaMVVLdUlLeDJOd1Y0MmxnVUFpMERDWk5zSG9KN25FYjVIRFp5czdDa0VPT0tfVEZIdlE?oc=5) (downgraded)
+  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -20% vs marché)
 - ⭐ **Powell Industries, Inc.** (action, chercher « Powell Industries, Inc. ») — score **98/100**, -53% depuis son plus haut ; historiquement à ce niveau : +42% à 12 mois en moyenne, positif 75% des cas (moyenne du titre : +31%)
   - 📰 🟠 à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -34% vs marché)
     - ⚠️ [Powell Industries: A Record Backlog Isn't Enough To Make It A Buy (Rating Downgrade) - Seeking Alpha](https://news.google.com/rss/articles/CBMivgFBVV95cUxOOGI5UEJ4M0h6Y0lUd1poNGFiWVllQkdtek1xWGQ4UDliV3pNY21VNTdCYzNqbWItOVdfVk1LeU5VUU5xb19vbjVTdjRKZmNMV2g0U1JLeFFHUHpmQVJQT0JmSTh6dFpyU1lqTVhYcmZIOWVDWHFWd2dabzV0ODdTNVVJdFN4Wk1nb0tYWFhhenpnUFhHRmd2b0R3NnozVWpCazJvaXdpRnQtQ0h1OTFiVXJQbVA5MUJPT3NTUFJR?oc=5) (downgrade)
