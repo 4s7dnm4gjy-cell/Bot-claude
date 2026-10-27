@@ -1,4 +1,22 @@
 {
+ "0005.HK": {
+  "date": "2026-10-27",
+  "infos": {
+   "currentPrice": 134.3,
+   "earningsGrowth": 0.723,
+   "forwardEps": 14.415769,
+   "forwardPE": 9.316188,
+   "industry": "Banks - Diversified",
+   "numberOfAnalystOpinions": 10,
+   "profitMargins": 0.37797,
+   "recommendationMean": 1.81818,
+   "revenueGrowth": 0.254,
+   "sector": "Financial Services",
+   "targetMeanPrice": 175.53976,
+   "trailingEps": 10.33,
+   "trailingPE": 13.000968
+  }
+ },
  "0016.HK": {
   "date": "2026-10-22",
   "infos": {
@@ -345,6 +363,24 @@
    "trailingPE": 22.094849
   }
  },
+ "6503.T": {
+  "date": "2026-10-27",
+  "infos": {
+   "currentPrice": 4732.0,
+   "debtToEquity": 7.163,
+   "forwardEps": 165.14,
+   "forwardPE": 28.654474,
+   "industry": "Electrical Equipment & Parts",
+   "numberOfAnalystOpinions": 16,
+   "profitMargins": 0.07018,
+   "recommendationMean": 2.0625,
+   "revenueGrowth": 0.14,
+   "sector": "Industrials",
+   "targetMeanPrice": 6725.0,
+   "trailingEps": 199.83,
+   "trailingPE": 23.680128
+  }
+ },
  "6841.T": {
   "date": "2026-10-16",
   "infos": {
@@ -688,6 +724,25 @@
    "targetMeanPrice": 154.5,
    "trailingEps": 4.88,
    "trailingPE": 19.518442
+  }
+ },
+ "AIT": {
+  "date": "2026-10-27",
+  "infos": {
+   "currentPrice": 297.58,
+   "debtToEquity": 25.967,
+   "earningsGrowth": 0.134,
+   "forwardEps": 13.20429,
+   "forwardPE": 22.536613,
+   "industry": "Industrial Distribution",
+   "numberOfAnalystOpinions": 6,
+   "profitMargins": 0.083459996,
+   "recommendationMean": 1.5,
+   "revenueGrowth": 0.104,
+   "sector": "Industrials",
+   "targetMeanPrice": 398.33334,
+   "trailingEps": 10.95,
+   "trailingPE": 27.176254
   }
  },
  "AJG": {
@@ -1198,19 +1253,21 @@
   }
  },
  "BKNG": {
-  "date": "2026-10-08",
+  "date": "2026-10-27",
   "infos": {
-   "currentPrice": 155.87,
+   "currentPrice": 150.14,
    "earningsGrowth": 1.3,
-   "forwardEps": 12.37827,
-   "forwardPE": 12.592228,
+   "forwardEps": 12.36589,
+   "forwardPE": 12.141463,
+   "industry": "Travel Services",
    "numberOfAnalystOpinions": 35,
    "profitMargins": 0.25527,
    "recommendationMean": 1.54054,
    "revenueGrowth": 0.081,
-   "targetMeanPrice": 235.25714,
+   "sector": "Consumer Cyclical",
+   "targetMeanPrice": 232.7143,
    "trailingEps": 9.02,
-   "trailingPE": 17.280487
+   "trailingPE": 16.645231
   }
  },
  "BMI": {
@@ -1299,20 +1356,22 @@
   }
  },
  "BOOT": {
-  "date": "2026-10-13",
+  "date": "2026-10-27",
   "infos": {
-   "currentPrice": 117.57,
+   "currentPrice": 111.69,
    "debtToEquity": 59.323,
    "earningsGrowth": 0.316,
-   "forwardEps": 9.9652,
-   "forwardPE": 11.798057,
-   "numberOfAnalystOpinions": 14,
+   "forwardEps": 9.91889,
+   "forwardPE": 11.260333,
+   "industry": "Apparel Retail",
+   "numberOfAnalystOpinions": 15,
    "profitMargins": 0.103520006,
-   "recommendationMean": 1.25,
+   "recommendationMean": 1.29412,
    "revenueGrowth": 0.177,
-   "targetMeanPrice": 215.2143,
+   "sector": "Consumer Cyclical",
+   "targetMeanPrice": 203.6,
    "trailingEps": 7.9,
-   "trailingPE": 14.882278
+   "trailingPE": 14.137975
   }
  },
  "BWA": {
@@ -1385,6 +1444,24 @@
    "targetMeanPrice": 48.3375,
    "trailingEps": 4.76,
    "trailingPE": 7.710084
+  }
+ },
+ "CA.PA": {
+  "date": "2026-10-27",
+  "infos": {
+   "currentPrice": 13.3,
+   "debtToEquity": 185.209,
+   "forwardEps": 1.80536,
+   "forwardPE": 7.366952,
+   "industry": "Grocery Stores",
+   "numberOfAnalystOpinions": 15,
+   "profitMargins": 0.0088599995,
+   "recommendationMean": 2.8,
+   "revenueGrowth": 0.02,
+   "sector": "Consumer Defensive",
+   "targetMeanPrice": 15.43667,
+   "trailingEps": 2.15,
+   "trailingPE": 6.186046
   }
  },
  "CAR.AX": {
@@ -1469,6 +1546,25 @@
    "targetMeanPrice": 125.64014,
    "trailingEps": 6.42,
    "trailingPE": 23.07165
+  }
+ },
+ "CBRE": {
+  "date": "2026-10-27",
+  "infos": {
+   "currentPrice": 121.65,
+   "debtToEquity": 112.726,
+   "earningsGrowth": 0.256,
+   "forwardEps": 8.85584,
+   "forwardPE": 13.736699,
+   "industry": "Real Estate Services",
+   "numberOfAnalystOpinions": 12,
+   "profitMargins": 0.03068,
+   "recommendationMean": 1.53846,
+   "revenueGrowth": 0.127,
+   "sector": "Real Estate",
+   "targetMeanPrice": 172.83333,
+   "trailingEps": 4.67,
+   "trailingPE": 26.04925
   }
  },
  "CDE": {
@@ -1711,20 +1807,22 @@
   }
  },
  "CW": {
-  "date": "2026-10-16",
+  "date": "2026-10-27",
   "infos": {
-   "currentPrice": 501.8,
+   "currentPrice": 476.94,
    "debtToEquity": 41.482,
    "earningsGrowth": 0.276,
-   "forwardEps": 17.15799,
-   "forwardPE": 29.24585,
+   "forwardEps": 17.23562,
+   "forwardPE": 27.671762,
+   "industry": "Aerospace & Defense",
    "numberOfAnalystOpinions": 8,
    "profitMargins": 0.14811,
    "recommendationMean": 1.77778,
    "revenueGrowth": 0.054,
-   "targetMeanPrice": 743.375,
+   "sector": "Industrials",
+   "targetMeanPrice": 681.375,
    "trailingEps": 14.52,
-   "trailingPE": 34.559227
+   "trailingPE": 32.847107
   }
  },
  "CYL.AX": {
@@ -1835,16 +1933,18 @@
   }
  },
  "DRO.AX": {
-  "date": "2026-10-19",
+  "date": "2026-10-27",
   "infos": {
-   "currentPrice": 1.535,
+   "currentPrice": 1.47,
    "debtToEquity": 5.404,
    "forwardEps": 0.00375,
-   "forwardPE": 409.33334,
+   "forwardPE": 392.00003,
+   "industry": "Aerospace & Defense",
    "numberOfAnalystOpinions": 4,
    "profitMargins": -0.11419,
    "recommendationMean": 2.5,
    "revenueGrowth": 0.733,
+   "sector": "Industrials",
    "targetMeanPrice": 1.9625,
    "trailingEps": -0.03
   }
@@ -2331,20 +2431,22 @@
   }
  },
  "FNF": {
-  "date": "2026-10-16",
+  "date": "2026-10-27",
   "infos": {
-   "currentPrice": 39.98,
+   "currentPrice": 39.45,
    "debtToEquity": 54.297,
    "earningsGrowth": 0.058,
-   "forwardEps": 5.45266,
-   "forwardPE": 7.332201,
+   "forwardEps": 5.34135,
+   "forwardPE": 7.385773,
+   "industry": "Insurance - Specialty",
    "numberOfAnalystOpinions": 5,
    "profitMargins": 0.05029,
    "recommendationMean": 1.6,
    "revenueGrowth": 0.105,
-   "targetMeanPrice": 55.0,
+   "sector": "Financial Services",
+   "targetMeanPrice": 54.0,
    "trailingEps": 2.88,
-   "trailingPE": 13.881944
+   "trailingPE": 13.697916
   }
  },
  "FORM": {
@@ -2841,6 +2943,24 @@
    "revenueGrowth": -0.043,
    "targetMeanPrice": 21.41667,
    "trailingEps": -0.26
+  }
+ },
+ "HSBA.L": {
+  "date": "2026-10-27",
+  "infos": {
+   "currentPrice": 1291.4,
+   "earningsGrowth": 0.723,
+   "forwardEps": 1.4152917,
+   "forwardPE": 9.124621,
+   "industry": "Banks - Diversified",
+   "numberOfAnalystOpinions": 17,
+   "profitMargins": 0.37797,
+   "recommendationMean": 2.64706,
+   "revenueGrowth": 0.254,
+   "sector": "Financial Services",
+   "targetMeanPrice": 1504.0275,
+   "trailingEps": 1.04,
+   "trailingPE": 12.417309
   }
  },
  "HUBB": {
@@ -3520,19 +3640,21 @@
   }
  },
  "MIN.AX": {
-  "date": "2026-10-19",
+  "date": "2026-10-27",
   "infos": {
-   "currentPrice": 44.54,
+   "currentPrice": 43.93,
    "debtToEquity": 121.084,
-   "forwardEps": 3.40673,
-   "forwardPE": 13.074121,
+   "forwardEps": 3.20223,
+   "forwardPE": 13.718565,
+   "industry": "Other Industrial Metals & Mining",
    "numberOfAnalystOpinions": 14,
    "profitMargins": 0.16422,
-   "recommendationMean": 2.28571,
+   "recommendationMean": 2.07143,
    "revenueGrowth": 0.562,
-   "targetMeanPrice": 63.01429,
-   "trailingEps": 5.32,
-   "trailingPE": 8.37218
+   "sector": "Basic Materials",
+   "targetMeanPrice": 59.42857,
+   "trailingEps": 5.45,
+   "trailingPE": 8.060551
   }
  },
  "MKSI": {
@@ -4013,20 +4135,22 @@
   }
  },
  "NVR": {
-  "date": "2026-10-16",
+  "date": "2026-10-27",
   "infos": {
-   "currentPrice": 5907.48,
-   "debtToEquity": 32.15,
-   "earningsGrowth": -0.226,
-   "forwardEps": 392.739,
-   "forwardPE": 15.041744,
+   "currentPrice": 5806.02,
+   "debtToEquity": 31.083,
+   "earningsGrowth": -0.204,
+   "forwardEps": 354.5528,
+   "forwardPE": 16.375614,
+   "industry": "Residential Construction",
    "numberOfAnalystOpinions": 6,
-   "profitMargins": 0.1185,
-   "recommendationMean": 3.0,
-   "revenueGrowth": -0.109,
-   "targetMeanPrice": 6395.3335,
-   "trailingEps": 384.93,
-   "trailingPE": 15.346894
+   "profitMargins": 0.11124,
+   "recommendationMean": 3.42857,
+   "revenueGrowth": -0.082,
+   "sector": "Consumer Cyclical",
+   "targetMeanPrice": 6262.0,
+   "trailingEps": 361.76,
+   "trailingPE": 16.04937
   }
  },
  "NVT": {
@@ -4332,20 +4456,22 @@
   }
  },
  "PLD": {
-  "date": "2026-10-16",
+  "date": "2026-10-27",
   "infos": {
-   "currentPrice": 125.64,
+   "currentPrice": 126.47,
    "debtToEquity": 61.04,
    "earningsGrowth": 0.031,
-   "forwardEps": 3.345,
-   "forwardPE": 37.56054,
-   "numberOfAnalystOpinions": 13,
-   "profitMargins": 0.43632,
-   "recommendationMean": 1.94118,
-   "revenueGrowth": 0.035,
-   "targetMeanPrice": 155.84615,
+   "forwardEps": 3.1675,
+   "forwardPE": 39.927387,
+   "industry": "REIT - Industrial",
+   "numberOfAnalystOpinions": 14,
+   "profitMargins": 0.43068,
+   "recommendationMean": 1.76471,
+   "revenueGrowth": 0.102,
+   "sector": "Real Estate",
+   "targetMeanPrice": 151.64285,
    "trailingEps": 4.5,
-   "trailingPE": 27.92
+   "trailingPE": 28.104445
   }
  },
  "PLUS.L": {
@@ -5141,19 +5267,21 @@
   }
  },
  "TAH.AX": {
-  "date": "2026-10-19",
+  "date": "2026-10-27",
   "infos": {
-   "currentPrice": 0.86,
+   "currentPrice": 0.84,
    "debtToEquity": 65.969,
    "earningsGrowth": 1.225,
    "forwardEps": 0.04426,
-   "forwardPE": 19.430637,
+   "forwardPE": 18.978762,
+   "industry": "Gambling",
    "numberOfAnalystOpinions": 11,
    "profitMargins": 0.01754,
    "revenueGrowth": 0.005,
+   "sector": "Consumer Cyclical",
    "targetMeanPrice": 1.01045,
    "trailingEps": 0.02,
-   "trailingPE": 43.0
+   "trailingPE": 42.0
   }
  },
  "TDG": {
@@ -5229,20 +5357,22 @@
   }
  },
  "TMDX": {
-  "date": "2026-10-16",
+  "date": "2026-10-27",
   "infos": {
-   "currentPrice": 70.36,
+   "currentPrice": 69.73,
    "debtToEquity": 167.496,
    "earningsGrowth": -0.558,
    "forwardEps": 2.25415,
-   "forwardPE": 31.213541,
+   "forwardPE": 30.934057,
+   "industry": "Medical Devices",
    "numberOfAnalystOpinions": 11,
    "profitMargins": 0.22694,
    "recommendationMean": 1.84615,
    "revenueGrowth": 0.207,
+   "sector": "Healthcare",
    "targetMeanPrice": 98.72727,
    "trailingEps": 3.86,
-   "trailingPE": 18.22798
+   "trailingPE": 18.064768
   }
  },
  "TMUS": {
@@ -5483,6 +5613,25 @@
    "targetMeanPrice": 67.0,
    "trailingEps": 0.79,
    "trailingPE": 49.734177
+  }
+ },
+ "VALE": {
+  "date": "2026-10-27",
+  "infos": {
+   "currentPrice": 11.84,
+   "debtToEquity": 54.603,
+   "earningsGrowth": -0.435,
+   "forwardEps": 1.865,
+   "forwardPE": 6.3485255,
+   "industry": "Other Industrial Metals & Mining",
+   "numberOfAnalystOpinions": 25,
+   "profitMargins": 0.04755,
+   "recommendationMean": 2.32,
+   "revenueGrowth": 0.064,
+   "sector": "Basic Materials",
+   "targetMeanPrice": 16.18,
+   "trailingEps": 0.5,
+   "trailingPE": 23.68
   }
  },
  "VICI": {
