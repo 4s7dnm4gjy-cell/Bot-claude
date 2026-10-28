@@ -45,104 +45,103 @@
   },
   "opportunite": {
     "type": "opportunite",
-    "date": "2026-10-27",
-    "cree_le": "2026-10-27T21:17+00:00",
-    "liberation": 159.56760264638237,
+    "date": "2026-10-28",
+    "cree_le": "2026-10-28T21:38+00:00",
+    "liberation": 100.70441082696381,
     "reserve_pct": null,
-    "score": 93.87064679924704,
+    "score": 86.44067068127073,
     "ordres": [
       {
-        "ticker": "MTZ",
+        "ticker": "TPR",
         "side": "buy",
         "quantity": 1.0,
-        "price": 158.56760264638237,
-        "reason": "opportunité radar (score 94)"
+        "price": 99.70441082696381,
+        "reason": "opportunité radar (score 86)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "MTZ",
-      "nom": "MasTec",
-      "isin": "MTZ",
+      "ticker": "TPR",
+      "nom": "Tapestry, Inc.",
+      "isin": "TPR",
       "type": "action",
-      "prix": 176.5,
-      "score": 93.87064679924704,
-      "baisse": 0.5965806585898425,
-      "perf_5ans": 1.0180654224513388,
+      "prix": 111.23999786376953,
+      "score": 86.44067068127073,
+      "baisse": 0.3223590011005517,
+      "perf_5ans": 2.260240456571658,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 1.5887423092649329,
-      "pos_12m": 0.8297872340425532,
-      "n_12m": 235,
-      "base_moy_12m": 0.3463794934472348,
-      "pire_12m": -0.39742650992936224,
-      "vs_marche_3m": -0.4361044105998658,
+      "moy_12m": 0.3033181865596109,
+      "pos_12m": 0.5519864750633982,
+      "n_12m": 1183,
+      "base_moy_12m": 0.21434928875831835,
+      "pire_12m": -0.6483376023714037,
+      "vs_marche_3m": -0.3076050650110701,
       "devise": "USD",
-      "prix_eur": 158.56760264638237,
-      "fondamental": 91.0,
+      "prix_eur": 99.70441082696381,
+      "fondamental": 91.5,
       "fondamental_notes": [
-        "chiffre d'affaires +23.4% sur un an",
-        "bénéfices +51.4% sur un an",
-        "bénéfices attendus +97% sur 12 mois",
-        "analystes : « achat fort » (1.2/5, 20 avis)",
-        "objectif des analystes +104% : peu crédible, probablement pas encore révisé",
-        "P/E attendu 15.1 (actuel 29.9)",
-        "marge nette 3%",
-        "dette / capitaux propres 90 %",
-        "🏷️ braderie probable : -44% vs marché en 3 mois, alors que les bénéfices attendus montent (+97%) et que les analystes restent à l'achat (+8 pts)"
+        "chiffre d'affaires +8.9% sur un an",
+        "bénéfices attendus +22% sur 12 mois",
+        "analystes : « achat » (1.8/5, 19 avis)",
+        "objectif moyen des analystes : +47%",
+        "P/E attendu 12.4 (actuel 15.2)",
+        "marge nette 19%",
+        "dette / capitaux propres 572 %",
+        "🏷️ braderie probable : -31% vs marché en 3 mois, alors que les bénéfices attendus montent (+22%) et que les analystes restent à l'achat (+8 pts)"
       ],
-      "score_global": 92.1,
+      "score_global": 89.5,
       "braderie": true
     },
     "actualites": {
       "verdict": "orange",
-      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -44% vs marché)",
-      "vs_marche_3m": -0.4361044105998658,
+      "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -31% vs marché)",
+      "vs_marche_3m": -0.3076050650110701,
       "alertes": [],
       "recents": [
         {
-          "titre": "MasTec Gears Up for Q3 Earnings: What's in the Offing for the Stock? - TradingView",
-          "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPU0g3NHJoWm9OS3BuY0VKalEzak1Cek9oWnVpSVBkd2xadng0Zk1MOFdITUJodkpqb21FMlJEeUxBOGduMVQ0TEZfZ0pFOHNMc09ON19tRnNES1BkVEtaRW1vZUpTM1JBcWJCTmppT1luNy1DQ19uTHBaUXRlZUhpMlBhbXBiYnhnQkpoVzl1UmRJcEhpa1p4cHhlelA1amdIdTBVZGtfWDV0Vk9WWTdMY3pkUlpnZXF6QU9Xeko4Zw?oc=5",
+          "titre": "Tapestry, Inc. (TPR) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0zRE1uR2hiOXFOeF9pXzRUZ2ZJZ3dXVnJjOWJVcUIycFc2dEdoc0taOUkyampHZUJJbE1teVR0SDJYcDhtWFU2UDQ1MU1zWXlu?oc=5",
           "date": "2026-10-27",
-          "source": "TradingView",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "Citi Maintains MasTec(MTZ.US) With Buy Rating, Maintains Target Price $308 - Moomoo",
-          "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY2QtYWI5OXMtbGtocjdyanNSNElxR0VUQ1p6U2k3SjBwelBUbE9QLVVWUnUyQy1tYk5ZcnZUdlpKOHk0cXBqYVZrNEw1b0EyT3pQdEN2TXFDdFhUeGFrVEczVnlEc1pvT1ZCME4wZ01Ha0lnTkV4Qm1YY01kR1YxWVZ3Q1RUc3NwRTctNnVMUlVwZHAtcWRGTXdTNUVzd1htWFVudTFxZ05nMWRHd29r?oc=5",
-          "date": "2026-10-26",
-          "source": "Moomoo",
-          "gravite": 0,
-          "mots": []
-        },
-        {
-          "titre": "MasTec, Inc. (MTZ) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-          "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1vWlJzcGFyeDRoek1TY21iTFhHVExGMHV3TGVDa3FSRnktOC10OWhlMzhUYTF3bnBhbWtBS0ZHeEV1VzZXa2VwamU3Sk83T0ky?oc=5",
-          "date": "2026-10-25",
           "source": "Yahoo! Finance Canada",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "Masstec Link Public Company Limited NVDR Estimates – SET:MASTEC.R - TradingView",
-          "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1EVU8zN3haMUxpbW1HbFFFNVhOMmJLRk9DRHp4UnB3Wkg2d3duTE9CNjhxTUlDMjJOc21NM1pSejNud3Yxa3hEYXpQcTlFQTNQdHlvY29KY25IblJqdW1MbGNoTmU2NFpZVDRpZTNTVk5tQnJ2MTlwWmN3?oc=5",
-          "date": "2026-10-25",
-          "source": "TradingView",
+          "titre": "Here’s Why the Strategy Exited Tapestry (TPR) in Q3 - Yahoo Finance",
+          "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxONnI2VTQxWnkwQ1lwMlBtTURJT0xITWx6SUVlRm1CUFZtcFVubzBGMVV2UV9lbXM1VWhOalNSMU9jd2lIN09jMGpNbXBBTlo0VVcyZndQODUyU0ZaSURUN2FpMVlxdWdTT3I5R1pCdjE2VWtTVDdoYzdfNTNqZUZ1RW84Z2NWU0VqU2pYYTJ5c3ZxQ2JTQnZBdmozQTBLdw?oc=5",
+          "date": "2026-10-27",
+          "source": "Yahoo Finance",
           "gravite": 0,
           "mots": []
         },
         {
-          "titre": "MasTec (NYSE:MTZ) - Stock Analysis - Simply Wall Street",
-          "lien": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1jaDBNa0ZzeHdRRG0yeF9vUUxpcE52TDJrTi0wNGxPM21YZkhsU0EzYXNvcjlUNXRkek9DMllSaGxYYy01QUZBdzZJVENfLU9DaDhTZlFOQy1maW9rM3d2MWo4NXVvSVoxMTlCVm1R?oc=5",
+          "titre": "Action East End Co.,Ltd. | Cours A0230E0 Bourse Korea S.E. - Zonebourse",
+          "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBTMzFnWS02MndscmhpM2dwMmFrRHM3X2l3c3Y1Q3Q0TnJENmZKZ3J1bFZubHhUTWZhcnVUU3RYeVdQai1TSWlJWEhHRmhWdm5FRFNyMUZCSmFZcU1xRllZU0ViNm1XRnI1SDdfa1VMSzZFRU1q?oc=5",
+          "date": "2026-10-26",
+          "source": "Zonebourse",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Vest Financial LLC Makes New $1.88 Million Investment in Tapestry, Inc. $TPR - MarketBeat",
+          "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOemlSSzFKR1NzTml5c1hrTlhWWkpHZGZ5SEFyd1JxU09CdEhqeU9PZFl5WV9QOWFXSHQ5cmlFQ01zVXoxNUs4MzRGcm5BeU96MDYzbFlBQktBTEtxN2t0a1lxbUQteDNOSWNaY2t6bXZBUEVjTkcxRnN5bmNTandSa1JZSUZ3R1plOWprQlctOEdVdmJ1V0xISE1yQVJyTlhSamFpSGdJM0FtTUNCM3FQUGxscVhiRXZaYldycjBBUjVydWYyWGFKN1dtRzg?oc=5",
           "date": "2026-10-25",
-          "source": "Simply Wall Street",
+          "source": "MarketBeat",
+          "gravite": 0,
+          "mots": []
+        },
+        {
+          "titre": "Tapestry stock: Jefferies cuts target for Tapestry stock to USD 125.00 from USD 144.00 - ad-hoc-news.de",
+          "lien": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQ2UzTjBadGJmTWx6VTZjaVZyaE9HeS1BemF3WkFLRXBkNTBJWTF0SW83N1l3Y3RrQmpvLW9CLTVrQWFaMXFueEpHdWlMQ21NSHZNeEJ3bHg2ZEpTcFExZlVwaFlWLTdkdThpZTZVamNHZWpJNXpObU01ZFpWcWVLa0Q0S3pTb2U1UHEyc090Yi02SWd0b3ZicWJoVFdHVms5WVNkYVg5cm96MHk1dHE5TTFLQm9tOVBlRlVCVENvQktqbjJTdzVlcjU0RXJhWnJjZ0x2UWtfT3Nyd0Rj?oc=5",
+          "date": "2026-10-24",
+          "source": "ad-hoc-news.de",
           "gravite": 0,
           "mots": []
         }
       ]
     },
-    "ticket": 124
+    "ticket": 125
   },
   "radar_proposes": [
     "MCD",
@@ -298,7 +297,8 @@
     "LRCX",
     "AG.TO",
     "CBRE",
-    "MTZ"
+    "MTZ",
+    "TPR"
   ],
   "achats": [],
   "historique": [
@@ -12356,6 +12356,108 @@
         ]
       },
       "ticket": 123,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-10-27",
+      "cree_le": "2026-10-27T21:17+00:00",
+      "liberation": 159.56760264638237,
+      "reserve_pct": null,
+      "score": 93.87064679924704,
+      "ordres": [
+        {
+          "ticker": "MTZ",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 158.56760264638237,
+          "reason": "opportunité radar (score 94)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "MTZ",
+        "nom": "MasTec",
+        "isin": "MTZ",
+        "type": "action",
+        "prix": 176.5,
+        "score": 93.87064679924704,
+        "baisse": 0.5965806585898425,
+        "perf_5ans": 1.0180654224513388,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 1.5887423092649329,
+        "pos_12m": 0.8297872340425532,
+        "n_12m": 235,
+        "base_moy_12m": 0.3463794934472348,
+        "pire_12m": -0.39742650992936224,
+        "vs_marche_3m": -0.4361044105998658,
+        "devise": "USD",
+        "prix_eur": 158.56760264638237,
+        "fondamental": 91.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +23.4% sur un an",
+          "bénéfices +51.4% sur un an",
+          "bénéfices attendus +97% sur 12 mois",
+          "analystes : « achat fort » (1.2/5, 20 avis)",
+          "objectif des analystes +104% : peu crédible, probablement pas encore révisé",
+          "P/E attendu 15.1 (actuel 29.9)",
+          "marge nette 3%",
+          "dette / capitaux propres 90 %",
+          "🏷️ braderie probable : -44% vs marché en 3 mois, alors que les bénéfices attendus montent (+97%) et que les analystes restent à l'achat (+8 pts)"
+        ],
+        "score_global": 92.1,
+        "braderie": true
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -44% vs marché)",
+        "vs_marche_3m": -0.4361044105998658,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "MasTec Gears Up for Q3 Earnings: What's in the Offing for the Stock? - TradingView",
+            "lien": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPU0g3NHJoWm9OS3BuY0VKalEzak1Cek9oWnVpSVBkd2xadng0Zk1MOFdITUJodkpqb21FMlJEeUxBOGduMVQ0TEZfZ0pFOHNMc09ON19tRnNES1BkVEtaRW1vZUpTM1JBcWJCTmppT1luNy1DQ19uTHBaUXRlZUhpMlBhbXBiYnhnQkpoVzl1UmRJcEhpa1p4cHhlelA1amdIdTBVZGtfWDV0Vk9WWTdMY3pkUlpnZXF6QU9Xeko4Zw?oc=5",
+            "date": "2026-10-27",
+            "source": "TradingView",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Citi Maintains MasTec(MTZ.US) With Buy Rating, Maintains Target Price $308 - Moomoo",
+            "lien": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY2QtYWI5OXMtbGtocjdyanNSNElxR0VUQ1p6U2k3SjBwelBUbE9QLVVWUnUyQy1tYk5ZcnZUdlpKOHk0cXBqYVZrNEw1b0EyT3pQdEN2TXFDdFhUeGFrVEczVnlEc1pvT1ZCME4wZ01Ha0lnTkV4Qm1YY01kR1YxWVZ3Q1RUc3NwRTctNnVMUlVwZHAtcWRGTXdTNUVzd1htWFVudTFxZ05nMWRHd29r?oc=5",
+            "date": "2026-10-26",
+            "source": "Moomoo",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "MasTec, Inc. (MTZ) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+            "lien": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1vWlJzcGFyeDRoek1TY21iTFhHVExGMHV3TGVDa3FSRnktOC10OWhlMzhUYTF3bnBhbWtBS0ZHeEV1VzZXa2VwamU3Sk83T0ky?oc=5",
+            "date": "2026-10-25",
+            "source": "Yahoo! Finance Canada",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "Masstec Link Public Company Limited NVDR Estimates – SET:MASTEC.R - TradingView",
+            "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1EVU8zN3haMUxpbW1HbFFFNVhOMmJLRk9DRHp4UnB3Wkg2d3duTE9CNjhxTUlDMjJOc21NM1pSejNud3Yxa3hEYXpQcTlFQTNQdHlvY29KY25IblJqdW1MbGNoTmU2NFpZVDRpZTNTVk5tQnJ2MTlwWmN3?oc=5",
+            "date": "2026-10-25",
+            "source": "TradingView",
+            "gravite": 0,
+            "mots": []
+          },
+          {
+            "titre": "MasTec (NYSE:MTZ) - Stock Analysis - Simply Wall Street",
+            "lien": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1jaDBNa0ZzeHdRRG0yeF9vUUxpcE52TDJrTi0wNGxPM21YZkhsU0EzYXNvcjlUNXRkek9DMllSaGxYYy01QUZBdzZJVENfLU9DaDhTZlFOQy1maW9rM3d2MWo4NXVvSVoxMTlCVm1R?oc=5",
+            "date": "2026-10-25",
+            "source": "Simply Wall Street",
+            "gravite": 0,
+            "mots": []
+          }
+        ]
+      },
+      "ticket": 124,
       "decision": "sans réponse"
     }
   ]
