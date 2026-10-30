@@ -85,11 +85,11 @@ Les prix étrangers sont convertis en euros pour chiffrer les achats. Pour les t
 | Critère | Points |
 |---|---:|
 | Croissance du chiffre d'affaires sur un an | 15 |
-| Croissance des bénéfices sur un an | 15 |
-| **Bénéfices attendus sur 12 mois** (tournés vers l'avenir) | 15 |
-| Avis des analystes | 15 |
+| Croissance des bénéfices sur un an (points réduits si elle dépasse +100 % : souvent un départ très bas) | 15 |
+| **Bénéfices attendus sur 12 mois** (points réduits au-delà de +30 % : attente élevée, donc fragile) | 15 |
+| Avis des analystes (« achat fort » seulement jusqu'à 1,5 sur 5 ; « achat » jusqu'à 2,3 ; « conserver » jusqu'à 2,8) | 15 |
 | Potentiel vers l'objectif de cours (un écart de plus de 50 % est jugé non crédible) | 10 |
-| Valorisation (P/E sur les bénéfices attendus) | 15 |
+| Valorisation (P/E ; si les bénéfices attendus montent de plus de +20 %, le bot ne compte que la moitié de cette croissance, pour ne pas sous-estimer un P/E forward trop optimiste) | 15 |
 | Santé (marge nette, dette) | 15 |
 
 **Garde-fous contre les chiffres trop vieux,** car les données publiées regardent le passé :
@@ -102,6 +102,8 @@ Les prix étrangers sont convertis en euros pour chiffrer les achats. Pour les t
   | Pas assez d'éléments pour trancher | ⚠️ Doute | −6 (−12 au-delà de −30 %, −25 au-delà de −40 %) |
 
   Une chute de plus de 45 % n'est jamais considérée comme une braderie : elle cache trop souvent un vrai problème. Les tickets de braderie s'intitulent « 🏷️ Braderie ».
+- **pas de braderie sur des chiffres exagérés :** le label est refusé (et le bonus de moitié) si les bénéfices attendus dépassent +30 %, si la croissance passée dépasse +100 % (base très basse), ou si le titre a plus que doublé sur un an : un repli après une telle hausse n'est pas un solde. La note du ticket explique le refus.
+- **la presse explique déjà la baisse :** si les articles récents donnent des raisons ordinaires (objectifs de cours abaissés, valorisation jugée trop élevée, marges sous pression, prudence sur les perspectives, inquiétudes sur les dépenses d'IA, prises de bénéfices…), le bot **annule la braderie**, retire son bonus, recalcule le score et affiche ces raisons dans le ticket. Si les fondamentaux repassent sous 70, le titre n'est pas proposé.
 - **avertissement sur résultats ou dégradation par un analyste,** dans les actualités du mois : le titre est écarté définitivement.
 
 Les opportunités sont classées par **score global** : 40 % baisse du cours + 60 % fondamentaux. Une action sous **70/100** en fondamentaux, ou sans données, n'est jamais proposée.
@@ -115,10 +117,12 @@ Les opportunités sont classées par **score global** : 40 % baisse du cours + 6
 **📰 Lecture des actualités : opportunité ou vraie mauvaise nouvelle ?**
 Avant chaque alerte, le bot lit les articles des 30 derniers jours sur le titre (Google Actualités, en français et en anglais). Il y cherche des signaux d'alarme : scandale, fraude, enquête, procès, faillite, avertissement sur résultats… Il compare aussi la baisse du titre à celle du marché.
 - 🟢 **Rien d'alarmant** : la baisse ressemble à un mouvement de marché, l'alerte part.
-- 🟠 **À vérifier** : l'alerte part, avec les articles inquiétants en lien, à lire avant de répondre `oui`.
+- 🟠 **À vérifier** : l'alerte part, avec les articles inquiétants en lien, à lire avant de répondre `oui`. Même couleur quand la presse donne déjà des raisons ordinaires à la baisse : « pas une braderie sans raison ».
 - 🔴 **Problème sérieux** : pas d'alerte. Le titre apparaît « ⛔ écarté » dans le bulletin, avec la raison.
 
 C'est une lecture par mots-clés, pas une analyse : elle peut se tromper. Les liens sont là pour que vous jugiez vous-même.
+
+**Statistiques historiques : combien de cas indépendants ?** Des centaines de jours consécutifs au même score ne forment souvent qu'un ou deux épisodes (leurs rendements à 12 mois se chevauchent). Chaque ticket affiche donc le nombre de **jours observés** et d'**épisodes indépendants** ; sous 3 épisodes, la mention « échantillon trop petit pour s'y fier » apparaît et l'étoile ⭐ « historiquement favorable » n'est pas attribuée.
 
 ⚠️ Une action seule est bien plus risquée qu'un ETF. Les statistiques sont flatteuses, car la liste ne contient que des entreprises qui ont réussi jusqu'ici. Une forte baisse peut avoir une bonne raison.
 

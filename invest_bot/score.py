@@ -62,6 +62,19 @@ def moment_score(prices: pd.Series, min_periods: int = 500) -> pd.DataFrame:
     return feats
 
 
+def episodes_independants(positions: np.ndarray, horizon: int) -> int:
+    """Nombre d'épisodes réellement distincts parmi des jours qui se chevauchent.
+
+    Deux jours à moins d'un horizon d'écart (par exemple 252 séances pour « 12 mois
+    plus tard ») partagent presque le même rendement futur : ils comptent pour un
+    seul épisode. 319 jours d'observation peuvent donc ne représenter que 2 ou 3
+    épisodes, ce qui ne prouve presque rien.
+    """
+    if len(positions) == 0:
+        return 0
+    return 1 + int((np.diff(np.sort(positions)) > horizon).sum())
+
+
 def score_stats(prices: pd.Series, scores: pd.Series, horizons=(63, 252)) -> pd.DataFrame:
     """Rendements futurs observés historiquement selon la tranche de score."""
     s = prices.dropna()
@@ -74,6 +87,7 @@ def score_stats(prices: pd.Series, scores: pd.Series, horizons=(63, 252)) -> pd.
             fwd = (s.shift(-h) / s - 1)[mask].dropna()
             name = f"{h // 21}m"
             row[f"n_{name}"] = len(fwd)
+            row[f"ep_{name}"] = episodes_independants(s.index.get_indexer(fwd.index), h)
             row[f"moy_{name}"] = fwd.mean() if len(fwd) else np.nan
             row[f"pos_{name}"] = (fwd > 0).mean() if len(fwd) else np.nan
             row[f"pire_{name}"] = fwd.min() if len(fwd) else np.nan
