@@ -53,6 +53,7 @@ SIGNAUX = {
     "avertissement sur resultats": 1, "profit warning": 1, "abaisse ses previsions": 1,
     "revoit a la baisse": 1, "cuts guidance": 1, "lowers guidance": 1, "cuts outlook": 1,
     "lowers outlook": 1, "guidance cut": 1, "downgrade": 1, "downgraded": 1,
+    "slashes guidance": 1, "slashed guidance": 1, "slashes outlook": 1, "slashed outlook": 1, "cut guidance": 1, "cut its guidance": 1, "cuts forecast": 1, "lowers forecast": 1, "slashes forecast": 1, "cut forecast": 1, "reduces guidance": 1, "reduced guidance": 1, "abaisse sa prevision": 1, "abaisse ses objectifs": 1, "reduit ses previsions": 1,
     "demission": 1, "resigns": 1, "steps down": 1, "licenciements": 1, "layoffs": 1,
     "cyberattaque": 1, "data breach": 1, "boycott": 1,
 }
@@ -211,7 +212,7 @@ def section_markdown(nom: str, act: Actualites) -> str:
 # Révision à la baisse des perspectives : les chiffres publiés ne le montrent pas encore.
 AVERTISSEMENTS = {"avertissement sur resultats", "profit warning", "abaisse ses previsions", "revoit a la baisse",
                   "cuts guidance", "lowers guidance", "cuts outlook", "lowers outlook", "guidance cut",
-                  "downgrade", "downgraded"}
+                  "downgrade", "downgraded", "slashes guidance", "slashed guidance", "slashes outlook", "slashed outlook", "cut guidance", "cut its guidance", "cuts forecast", "lowers forecast", "slashes forecast", "cut forecast", "reduces guidance", "reduced guidance", "abaisse sa prevision", "abaisse ses objectifs", "reduit ses previsions"}
 
 
 def avertissement_recent(act: "Actualites") -> Article | None:

@@ -100,3 +100,11 @@ def test_plusieurs_fichiers_de_liste(tmp_path):
         "targets: {W: 1.0}\nbenchmark: W\nradar:\n  fichiers: [a.yaml, b.yaml, absent.yaml]\n", encoding="utf-8")
     cfg = load_config(tmp_path / "c.yaml")
     assert cfg.radar["liste"] == {"X.PA": {"nom": "X verifie", "isin": "FR1"}, "Y.DE": {"nom": "Y"}}
+
+
+def test_prevision_sabree_est_un_avertissement():
+    """Cas Sallie Mae (octobre 2026) : « Slashed Guidance » doit écarter le titre."""
+    art = [news.Article("Sallie Mae Sinks 9% on Slashed Guidance as Credit Fix Proves Slower Than Anticipated",
+                        "https://ex.com/slm", "2026-10-23", "Yahoo")]
+    act = news.analyser(art, -0.31, "Sallie Mae")
+    assert news.avertissement_recent(act) is not None
