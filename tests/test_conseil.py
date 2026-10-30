@@ -237,7 +237,7 @@ def gh(monkeypatch):
     return FauxGitHub
 
 
-SAINE = {"revenueGrowth": 0.06, "earningsGrowth": 0.14, "recommendationMean": 1.6, "numberOfAnalystOpinions": 19,
+SAINE = {"revenueGrowth": 0.06, "earningsGrowth": 0.14, "recommendationMean": 1.4, "numberOfAnalystOpinions": 19,
          "targetMeanPrice": 120, "currentPrice": 100, "forwardPE": 14, "trailingPE": 17,
          "profitMargins": 0.11, "debtToEquity": 60, "forwardEps": 6.0, "trailingEps": 5.0}
 FRAGILE = {"revenueGrowth": -0.04, "earningsGrowth": -0.30, "recommendationMean": 3.0, "numberOfAnalystOpinions": 9,
@@ -552,3 +552,108 @@ def test_ecart_raisonnable_reste_cru():
 
     _, notes = score_fondamental({**SAINE, "forwardEps": 9.0, "trailingEps": 5.0})  # +80 % : plausible
     assert any("bénéfices attendus +80%" in n for n in notes) and any(n.startswith("P/E attendu 14.0") for n in notes)
+
+
+# --- Cas Teradyne (oct. 2026) : « braderie » annoncée sur des chiffres flatteurs ------------------
+
+TERADYNE = {"revenueGrowth": 0.698, "earningsGrowth": 1.893, "recommendationMean": 1.6, "numberOfAnalystOpinions": 15,
+            "targetMeanPrice": 429.0, "currentPrice": 296.0, "forwardPE": 24.9, "trailingPE": 34.0,
+            "profitMargins": 0.27, "debtToEquity": 4.0, "forwardEps": 11.9, "trailingEps": 8.7}
+
+
+def test_cas_teradyne_plus_de_braderie_sur_des_chiffres_trop_flatteurs():
+    """Titre x4 en un an, bénéfices +189 % depuis un point bas, +37 % attendus : pas une braderie."""
+    from invest_bot.fondamentaux import enrichir
+
+    (r,) = enrichir([{"ticker": "TER", "type": "action", "score": 85, "vs_marche_3m": -0.21, "perf_1an": 3.0}],
+                    lambda t: TERADYNE)
+    notes = r["fondamental_notes"]
+    assert not r["braderie"] and r["bonus_braderie"] == 0.0
+    assert r["fondamental"] < 80  # le bot affichait 98/100
+    assert any("« achat »" in n for n in notes) and not any("achat fort" in n for n in notes)  # 1,6/5 : achat, pas achat fort
+    assert any("départ très bas" in n for n in notes)  # bénéfices +189 %
+    assert any("attente élevée" in n for n in notes)  # bénéfices attendus +37 %
+    assert any("retenu" in n and "moitié" in n for n in notes)  # P/E prudent
+    assert any("braderie non retenue" in n and "sur un an" in n for n in notes)  # titre x4
+
+
+def test_une_vraie_braderie_reste_une_braderie():
+    """Attentes raisonnables, titre pas en envolée : le bonus reste (le garde-fou ne bloque pas tout)."""
+    from invest_bot.fondamentaux import enrichir
+
+    (r,) = enrichir([{"ticker": "B", "type": "action", "score": 90, "vs_marche_3m": -0.25, "perf_1an": 0.10}],
+                    lambda t: SAINE)
+    assert r["braderie"] and r["bonus_braderie"] == 8.0
+
+
+def test_titre_en_envolee_n_est_pas_une_braderie_meme_aux_attentes_raisonnables():
+    from invest_bot.fondamentaux import enrichir
+
+    (r,) = enrichir([{"ticker": "X", "type": "action", "score": 90, "vs_marche_3m": -0.25, "perf_1an": 1.4}],
+                    lambda t: SAINE)
+    assert not r["braderie"] and any("repli après une envolée" in n for n in r["fondamental_notes"])
+
+
+def test_retirer_braderie_recalcule_le_score_global():
+    from invest_bot.fondamentaux import enrichir, retirer_braderie
+
+    (c,) = enrichir([{"ticker": "B", "type": "action", "score": 90, "vs_marche_3m": -0.25}], lambda t: SAINE)
+    avant = c["fondamental"]
+    assert c["braderie"]
+    retirer_braderie(c, ["objectifs de cours abaissés"])
+    assert not c["braderie"] and c["fondamental"] == avant - 8
+    assert c["score_global"] == round(0.4 * 90 + 0.6 * c["fondamental"], 1)
+    assert not any("braderie probable" in n for n in c["fondamental_notes"])
+    assert any("braderie annulée" in n and "objectifs de cours abaissés" in n for n in c["fondamental_notes"])
+    assert retirer_braderie(c, ["x"]) is c and c["fondamental"] == avant - 8  # sans effet une deuxième fois
+
+
+def test_express_annule_la_braderie_quand_la_presse_explique_la_baisse(cfg_radar, monkeypatch, gh):
+    from invest_bot import news
+
+    preparer_radar(cfg_radar, monkeypatch)
+    data = json.loads(conseil.CANDIDATS.read_text())
+    # 85 avec le bonus braderie : reste 77 (au-dessus du minimum de 70) une fois le bonus retiré
+    data["candidats"][0].update(braderie=True, bonus_braderie=8.0, vs_marche_3m=-0.25, fondamental=85.0)
+    conseil.CANDIDATS.write_text(json.dumps(data))
+    monkeypatch.setattr(news, "lire_flux", lambda nom, jours=30: [
+        news.Article(f"{nom} stock falls despite earnings beat", "https://ex.com/a", "2026-10-02", "Reuters"),
+        news.Article(f"{nom}: UBS cuts price target on valuation concerns", "https://ex.com/b", "2026-10-03", "Barron's"),
+    ])
+    prop = conseil.lancer_express(cfg_radar, MIDI)
+    ticket = gh.tickets[prop["ticket"]]
+    assert prop["radar"]["braderie"] is False and prop["radar"]["fondamental"] == 77.0
+    assert not ticket["titre"].startswith("🏷️ Braderie")
+    assert "braderie annulée" in ticket["corps"] and "Raisons de la baisse déjà publiées" in ticket["corps"]
+    assert "épisode" in ticket["corps"]  # la statistique historique dit combien de cas indépendants elle couvre
+
+
+def test_express_ecarte_le_titre_dont_la_braderie_annulee_passe_sous_le_minimum(cfg_radar, monkeypatch, gh):
+    from invest_bot import news
+
+    preparer_radar(cfg_radar, monkeypatch)
+    data = json.loads(conseil.CANDIDATS.read_text())
+    data["candidats"][0].update(braderie=True, bonus_braderie=8.0, vs_marche_3m=-0.25, fondamental=75.0)
+    conseil.CANDIDATS.write_text(json.dumps(data))
+    monkeypatch.setattr(news, "lire_flux", lambda nom, jours=30: [
+        news.Article(f"{nom} stock falls despite earnings beat", "https://ex.com/a", "2026-10-02", "Reuters"),
+        news.Article(f"{nom}: UBS cuts price target on valuation concerns", "https://ex.com/b", "2026-10-03", "Barron's"),
+    ])
+    assert conseil.lancer_express(cfg_radar, MIDI) is None  # 75 - 8 = 67 < 70 : plus assez solide
+
+
+def test_episodes_independants_et_echantillon_trop_petit():
+    import numpy as np
+
+    from invest_bot.radar import Opportunite
+    from invest_bot.score import episodes_independants
+
+    assert episodes_independants(np.array([]), 252) == 0
+    assert episodes_independants(np.arange(319), 252) == 1  # 319 jours collés = un seul épisode
+    assert episodes_independants(np.array([5, 6, 7, 800, 801]), 252) == 2
+    base = dict(ticker="T", nom="T", isin="T", type="action", prix=1.0, score=90, baisse=0.2, perf_5ans=1.0,
+                tranche="80-100 (soldé)", moy_12m=1.0, pos_12m=0.9, n_12m=319, base_moy_12m=0.26, pire_12m=-0.7)
+    un = Opportunite(**base, n_episodes=1)
+    assert not un.favorable  # +102 % de moyenne, mais un seul épisode : pas une preuve
+    assert "échantillon trop petit" in un.echantillon and "1 épisode indépendant" in un.echantillon
+    assert Opportunite(**base, n_episodes=5).favorable

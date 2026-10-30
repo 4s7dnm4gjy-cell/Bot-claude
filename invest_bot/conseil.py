@@ -337,7 +337,7 @@ def corps_opportunite(cfg: Config, prop: dict, image_url: str) -> str:
         f"- Tendance de fond positive : {o.perf_5ans:+.0%} sur 5 ans.",
         f"- Historiquement, quand ce titre était à ce niveau de score : **{o.moy_12m:+.0%} en moyenne 12 mois "
         f"plus tard**, positif dans {o.pos_12m:.0%} des cas, pire cas {o.pire_12m:+.0%} "
-        f"(moyenne de tous les jours : {o.base_moy_12m:+.0%} ; {o.n_12m:_} jours observés).".replace("_", " "),
+        f"(moyenne de tous les jours : {o.base_moy_12m:+.0%} ; {o.echantillon}).",
         f"![Graphique]({image_url})" if image_url else "",
         news.section_markdown(o.nom, news.Actualites.from_dict(prop["actualites"])) if prop.get("actualites") else "",
         "#### ⚠️ À savoir",
@@ -346,6 +346,11 @@ def corps_opportunite(cfg: Config, prop: dict, image_url: str) -> str:
         "- La liste contient des entreprises qui ont réussi jusqu'ici : les statistiques passées sont donc "
         "flatteuses (biais du survivant). Une entreprise peut baisser pour une bonne raison.",
         "- Le bot ne revend pas ces titres à votre place : c'est un placement long terme.",
+        "- Ce score mesure une baisse, pas une bonne affaire. Les bénéfices et objectifs d'analystes sont des "
+        "prévisions, souvent revues après une chute. Si l'actualité ci-dessous donne déjà la raison du recul, "
+        "le marché l'a probablement intégrée.",
+        (f"- ⚠️ Ce titre a fait {o.perf_1an:+.0%} sur un an : même après ce repli, il reste très haut."
+         if o.perf_1an is not None and o.perf_1an > 1.0 else ""),
         "#### Votre décision",
         "Répondez **en commentaire** :\n- `oui` → acheté, j'enregistre\n- `non` → je passe "
         f"(pas de nouvelle alerte sur ce titre avant {cfg.radar['delai_jours']} jours)",
@@ -430,6 +435,12 @@ def lancer_express(cfg: Config, maintenant: datetime | None = None, max_actualit
             if act.verdict == "rouge" or news.avertissement_recent(act):
                 etat["radar_proposes"].append(o.ticker)  # problème sérieux ou perspectives révisées : écarté
                 continue
+            if act.raisons and c.get("braderie"):
+                # La presse donne déjà la raison de la baisse : ce n'est plus une « braderie ».
+                fondamentaux.retirer_braderie(c, act.raisons)
+                o = Opportunite(**c)
+                if o.type == "action" and (o.fondamental is None or o.fondamental < r.get("fondamental_min", 55)):
+                    continue
         qty = float(int(r["montant"] // o.prix_eur)) or (1.0 if o.prix_eur <= 2 * r["montant"] else 0.0)
         if not qty:
             etat["radar_proposes"].append(o.ticker)

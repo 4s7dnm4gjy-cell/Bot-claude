@@ -100,3 +100,25 @@ def test_plusieurs_fichiers_de_liste(tmp_path):
         "targets: {W: 1.0}\nbenchmark: W\nradar:\n  fichiers: [a.yaml, b.yaml, absent.yaml]\n", encoding="utf-8")
     cfg = load_config(tmp_path / "c.yaml")
     assert cfg.radar["liste"] == {"X.PA": {"nom": "X verifie", "isin": "FR1"}, "Y.DE": {"nom": "Y"}}
+
+
+def test_la_presse_qui_explique_la_baisse_est_reconnue():
+    """Cas Teradyne : « tombe malgré de bons résultats », objectif abaissé, valorisation : des raisons connues."""
+    arts = [
+        news.Article("Teradyne stock falls despite Q3 earnings beat, strong AI-driven outlook", "u1", "2026-10-29", "SA"),
+        news.Article("Teradyne: UBS cuts price target to $430 on valuation concerns", "u2", "2026-10-29", "X"),
+        news.Article("Teradyne : UBS à l'achat", "u3", "2026-10-29", "Z"),
+    ]
+    act = news.analyser(arts, -0.21, "Teradyne")
+    assert act.verdict == "orange" and "raisons de la baisse déjà publiées" in act.resume
+    assert set(act.raisons) == {"recul malgré de bons résultats", "objectifs de cours abaissés",
+                                "valorisation jugée trop élevée"}
+    assert "sans article inquiétant trouvé" not in act.resume
+    assert news.Actualites.from_dict(act.to_dict()).raisons == act.raisons  # survit à l'enregistrement
+    assert "Raisons de la baisse déjà publiées" in news.section_markdown("Teradyne", act)
+
+
+def test_sans_raison_publiee_le_doute_reste_signale():
+    arts = [news.Article("Teradyne : UBS à l'achat", "u3", "2026-10-29", "Z")]
+    act = news.analyser(arts, -0.21, "Teradyne")
+    assert act.verdict == "orange" and "sans article inquiétant trouvé" in act.resume and not act.raisons
