@@ -1,6 +1,6 @@
 # Tableau de bord — 30/10/2026
 
-⏳ Proposition en attente de votre réponse : ticket #122
+✅ Rien à faire aujourd'hui : le bot attend le meilleur moment.
 
 Score du moment : **53/100 — 🟡 moment neutre**. iShares Core MSCI World est à -1.9% de son plus haut sur 1 an, +6.8% par rapport à sa moyenne 200 jours, RSI 47.
 
@@ -35,19 +35,20 @@ Apport mensuel : 200 € — proposé dès que le score atteint 60, au plus tard
 - `possede EUNL.DE 12` : déclarer des parts que vous avez déjà
 - `aide` : afficher cette aide
 
-#### 🔎 Radar (3064 actions et ETF suivis, 550 soldés aujourd'hui)
+#### 🔎 Radar (3064 actions et ETF suivis, 548 soldés aujourd'hui)
 - ⭐ **C.H. Robinson** (action, chercher « C.H. Robinson ») — score **99/100**, -40% depuis son plus haut ; historiquement à ce niveau : +19% à 12 mois en moyenne, positif 74% des cas (moyenne du titre : +15%)
-  - 📰 🟢 rien d'alarmant dans l'actualité (3 mois : -13% vs marché)
+  - 📰 🟢 rien d'alarmant dans l'actualité (3 mois : -14% vs marché)
 - ⭐ **AAON** (action, chercher « AAON ») — score **98/100**, -54% depuis son plus haut ; historiquement à ce niveau : +35% à 12 mois en moyenne, positif 88% des cas (moyenne du titre : +22%)
   - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -26% vs marché)
 - ⭐ **Sterling Infrastructure** (action, chercher « Sterling Infrastructure ») — score **98/100**, -65% depuis son plus haut ; historiquement à ce niveau : +70% à 12 mois en moyenne, positif 78% des cas (moyenne du titre : +47%)
   - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -43% vs marché)
 - ⭐ **Caterpillar Inc.** (action, chercher « Caterpillar Inc. ») — score **98/100**, -41% depuis son plus haut ; historiquement à ce niveau : +32% à 12 mois en moyenne, positif 76% des cas (moyenne du titre : +24%)
-  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -24% vs marché)
+  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -24% vs marché)
+    - ⚠️ [Caterpillar Stock Drops as FTC and USDA Seek Comments - TradingView](https://news.google.com/rss/articles/CBMisgFBVV95cUxOYjZBVDdiczdYeGdwLXFDa0hTVUNuOXRYeUVleTNDSjRhQnlKZUZTOEVMZUEybjQxUk5JSlgzYTVPM25yUWljNmpDbkJ2OFVSX3RhMHhBTnV1WWM4MlAyZjZQdk5JaVFfUzRQcjdjWU1vRWJ1UnFoRzhHWENRTlFOWmVtWXI2Ymx3MjVWNmFtN0ZhZXNWaHdSbEJsaDI4d05UajJNcHgyaGhadVI4SkhUaHJ3?oc=5) (ftc)
 - ⭐ **Ichor Holdings, Ltd.** (action, chercher « Ichor Holdings, Ltd. ») — score **98/100**, -65% depuis son plus haut ; historiquement à ce niveau : +89% à 12 mois en moyenne, positif 69% des cas (moyenne du titre : +31%)
   - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -51% vs marché)
 - ⭐ **Norsk Hydro** (action, ISIN `NO0005052605`) — score **98/100**, -45% depuis son plus haut ; historiquement à ce niveau : +22% à 12 mois en moyenne, positif 61% des cas (moyenne du titre : +20%)
-  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -22% vs marché)
+  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -23% vs marché)
 - ⭐ **IG Group** (action, chercher « IG Group ») — score **98/100**, -52% depuis son plus haut ; historiquement à ce niveau : +21% à 12 mois en moyenne, positif 75% des cas (moyenne du titre : +12%)
   - 📰 🟠 à vérifier : baisse bien plus forte que le marché, 2 article(s) à regarder (3 mois : -31% vs marché)
     - ⚠️ [IG Group shares plunge 25% as Peel Hunt flags revenue and margin downgrade - Yahoo Finance UK](https://news.google.com/rss/articles/CBMif0FVX3lxTE9jYnRRZ3ExQTZtTjNsYjNsNTJRcy02c01Ub1VPaUZEbHZSejhubjNBMEhrNzE3RktYVzVYU09tYTJYY1VEWHIzSWtGUWU3Tm1qU3JGRk5HWU1aNlJTcXB6bEtqWUpNUlZCYlF2VFBTUHgxSm1jbFhFZWtVMUt4STA?oc=5) (downgrade)
@@ -55,26 +56,25 @@ Apport mensuel : 200 € — proposé dès que le score atteint 60, au plus tard
 - ⭐ **Fabrinet** (action, chercher « Fabrinet ») — score **97/100**, -56% depuis son plus haut ; historiquement à ce niveau : +82% à 12 mois en moyenne, positif 96% des cas (moyenne du titre : +38%)
   - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -27% vs marché)
 - ⭐ **Curtiss-Wright** (action, chercher « Curtiss-Wright ») — score **97/100**, -40% depuis son plus haut ; historiquement à ce niveau : +23% à 12 mois en moyenne, positif 78% des cas (moyenne du titre : +22%)
-  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, 1 article(s) à regarder (3 mois : -36% vs marché)
-    - ⚠️ [Curtiss-Wright CFO Christopher Farkas Steps Down - Yahoo Finance](https://news.google.com/rss/articles/CBMipAFBVV95cUxQdUlhUW5YbWxzWV9qQUNHVzMwVFB5bXk3TDdjbEZrYkh0STc5YUNVejZlUFc2bGx1MUxsNlBNdmhNbWRSY0szOVVKaUZlNUxKaDNLNFpMZnlFUDBvWlJmM0hoaUF3eHZGZUJqV0ZqaGduUVpvcWFjV0piX1VJdnNVRVExYnFvM0l1VTdvbzh0Rl8wc1B1RVlHLXBMVkxsVVIxT3J2OQ?oc=5) (steps down)
+  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -36% vs marché)
 - ⭐ **Aurubis** (action, chercher « Aurubis ») — score **96/100**, -39% depuis son plus haut ; historiquement à ce niveau : +24% à 12 mois en moyenne, positif 72% des cas (moyenne du titre : +20%)
   - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -30% vs marché)
 - ⭐ **Alphabet Inc. (Class C)** (action, chercher « Alphabet Inc. (Class C) ») — score **96/100**, -30% depuis son plus haut ; historiquement à ce niveau : +30% à 12 mois en moyenne, positif 75% des cas (moyenne du titre : +23%)
   - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -24% vs marché)
 - ⭐ **Alphabet (Google)** (action, ISIN `US02079K3059`) — score **96/100**, -30% depuis son plus haut ; historiquement à ce niveau : +30% à 12 mois en moyenne, positif 75% des cas (moyenne du titre : +23%)
-  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, 7 article(s) à regarder (3 mois : -24% vs marché)
-    - ⚠️ [Market Chatter: Alphabet's Google Faces UK Class Action Over Play Store Fees - Yahoo Finance](https://news.google.com/rss/articles/CBMiogFBVV95cUxOYUlKSEExX1A2YmZ1QUFoYjJNTHZxZ01yTnlTb3ppLUJVWXFsZ1VhaVJsX0V0c1h1YmdkZHlXbXQ0RGt2a3BYc1RkRnFFRnNCblJiNkJCUFNJVFZMa1lVc0owZ3JXMGxEVmNwbGVtUEhmeUllbDFmWEhpOTl2SHlRcnZWZWE5STZuN25sdnlobElnLVJkMDBIQ1FTNDJCZkxWSUE?oc=5) (class action)
+  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, 6 article(s) à regarder (3 mois : -24% vs marché)
     - ⚠️ [Update: Google, Apple Fined in Korea Over Prohibited App Market Practices - Yahoo Finance](https://news.google.com/rss/articles/CBMilAFBVV95cUxOZnpJRXYzRzA2ZHIxbjhKNEE0NURQMk5MRmUwakZHcE5EVXpQaVNCWnhoSktBaGFFcWRqV203aUJheldaMmhBTkJ2ZTlEOVRKdXg0YmJhYkdkM0V6c1BuMGkzM0QyTW11NHdKQnp4bTRKTnZESnNfUUVZMFBKSnA2cTBtNWdCVGFHY1BoNjA2WDI1Y3FJ?oc=5) (fined)
     - ⚠️ [La Finlande ouvre une enquête pénale sur des soupçons de dommages environnementaux sur le site du centre de do - Boursorama](https://news.google.com/rss/articles/CBMisAJBVV95cUxPT2ppeGdPWVh1clFzNGs1WmhsRGt1SEwzZUZFeUpra05xY212dUJwdHRnOVdXYUhTVDl0dmZxdmE4LUp5ZDBWMVQwbG12dU1lQi1EMzY1ZFAtbXhEeEEwclRWTGlnVDVCYjFHVEQ4bVpON3ZLd19pWktSV0N3dHZLbGZudW5OdjYwdGdjaXRZd0dmRzRSbGNLUjhrRFRpdVVtRzhnLTFVb2pxa2psci1lUl8xRGtHTEVJVWE3YXg5X3FJNks0QkM5MWkwUENBWm4yZmpraHRSc2NmN2tYYk55Y2xFUERMcXFVR3BQWC1ZR1liUTJBTWthVGFaV1ExdHk5NDBJRnRvTEtsUFJHWWNzMF9xR1djYmdQMDBLcnM0X1pyajlXbzA5SUViOVNLdV9X0gGwAkFVX3lxTE9Paml4Z09ZWHVyUXM0azVaaGxEa3VITDNlRkV5SmtrTnFjbXZ1QnB0dGc5V1dhSFNUOXR2ZnF2YTgtSnlkMFYxVDBsbXZ1TWVCLUQzNjVkUC1teER4QTByVFZMaWdUNUJiMUdURDhtWk43dkt3X2laS1JXQ3d0dktsZm51bk52NjB0Z2NpdFl3R2ZHNFJsY0tSOGtEVGl1VW1HOGctMVVvanFramxyLWVSXzFEa0dMRUlVYTdheDlfcUk2SzRCQzkxaTBQQ0FabjJmamtodFJzY2Y3a1hiTnljbEVQRExxcVVHcFBYLVlHWWJRMkFNa2FUYVpXUTF0eTk0MElGdG9MS2xQUkdZY3MwX3FHV2NiZ1AwMEtyczRfWnJqOVdvMDlJRWI5U0t1X1c?oc=5) (enquete penale, ouvre une enquete)
+    - ⚠️ [Finland launches criminal probe into land clearance for Google data centre - Reuters](https://news.google.com/rss/articles/CBMiywFBVV95cUxQZk1Mbjlqa3B2RFBxMXpXbTcwVjdMYVpwYkhDVmcyWkpKSEpDTDFzZG9QeHVWOERzNDRJYmNwRHFYWUY0dHV6RDRvaEl4QUYxVVZtOTFZNUNqa18zR2ZiVlJ5eTYtQ0hOcEswMGt3TzdCV0tJazJnMzlBZmZuWXdLZUhQRURmbEZfVTJFbUJKdUJGekNIY28zT182eFBlM2FnaWRJN0dRa3JhX0Exbm9xRTV5T1ptMl8tLUVYUFNmWUthLVQ0YVhMaFU1cw?oc=5) (probe)
 - ⭐ **Avino Silver & Gold Mines Ltd.** (action, chercher « Avino Silver & Gold Mines Ltd. ») — score **96/100**, -60% depuis son plus haut ; historiquement à ce niveau : +46% à 12 mois en moyenne, positif 55% des cas (moyenne du titre : +40%)
-  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -20% vs marché)
+  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -21% vs marché)
 - ⭐ **Sumitomo Electric Industries, Ltd.** (action, chercher « Sumitomo Electric Industries, Ltd. ») — score **96/100**, -49% depuis son plus haut ; historiquement à ce niveau : +41% à 12 mois en moyenne, positif 79% des cas (moyenne du titre : +21%)
   - 📰 🟠 à vérifier : baisse bien plus forte que le marché, sans article inquiétant trouvé (3 mois : -15% vs marché)
 - ⭐ **Carpenter Technology** (action, chercher « Carpenter Technology ») — score **95/100**, -54% depuis son plus haut ; historiquement à ce niveau : +38% à 12 mois en moyenne, positif 67% des cas (moyenne du titre : +35%)
-  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, 4 article(s) à regarder (3 mois : -48% vs marché)
-    - ⚠️ [Lost Money on Carpenter Technology Corporation Stock? Glancy Prongay Wolke & Rotter LLP Investigates Possible Securities Fraud After 20.62% Share Price Drop - FinancialContent](https://news.google.com/rss/articles/CBMiuwJBVV95cUxQLWJvM2hFZF82UXh4aTF1eTBOeU9LTF9BSS1EUHJhcWhGZkZtWWhDcG1VUWUwZkVxYnhVb1ZvVGNnVmZyM2szOXc0OXQ5X1FNeWtrU21KakVHaE5uTU9OM2hnN1hRV1pFNjRuenU4SXdGSGFMVXhhNGMtMm41Z0kwQXJuOHFPd1pxVmZJX1U5LWczcDhMMElPbExwcUtZNFU0ZGQ5Z1Z3bUo1R3IxZUsyUWtzSjd6ZzZheTMtaXg0YmpYN0pZWnlUaG16SkM1ZXNuWnJjZGFOdk0xZDlxajZJcm9FT04wejg1MnhPdUJrNF9kRkRZLU1lZy15bjBHM1h3MmROV0FIUlkzeEtTSmlIWG56M3R2NWY2QTZ3eHdBbXprZ0FucWZOYlJKNzc5cVNvaFlMdEdxQ1drWEE?oc=5) (fraud)
+  - 📰 🟠 à vérifier : baisse bien plus forte que le marché, 3 article(s) à regarder (3 mois : -48% vs marché)
     - ⚠️ [Carpenter Technology downgraded at KeyBanc on aircraft disruption (CRS:NYSE) - Seeking Alpha](https://news.google.com/rss/articles/CBMipgFBVV95cUxOeGRfV1lhUG1WS0FxUUw4TGVMdjFrNjB1MTBDaG1HQ0E0YVVCTzVlaVVoZGlHckNXbFpWOUp0d0xyNXFiYnB6bFFiTk1PVmZzTldoQWxoSkg0MktwQlFwS09pUG9nNVRwWmlxN3d5VTBKUXFwQm1sNnoxa1NTaDZsS2NWZUZRSVdkaXNPOVBKbzhwSmNfT3ZnZGdXNlhzVUl6bUlMN1p3?oc=5) (downgraded)
     - ⚠️ [CRS INVESTOR ALERT: Investigation of Carpenter Technology Corporation Announced by Holzer & Holzer, LLC - GlobeNewswire](https://news.google.com/rss/articles/CBMigAJBVV95cUxPWGVCZTdaSExxS2J0aGdYVGVPTTFOenlQaXA4WWdkR2R1QWhiZEFmZ0lxMXhqWnZLVWhVcnU4RFBPS25qSzFkRXN1SkVwUUZ2WDAzUnhabDF6NlNyOVdsaEQ1UUlCVHVWNXN4MVhzQndKNkptaGM0UjIybHVvank0T0ZtWGxEN2dxSHlqc1NrbFlTZ0VMSXNQSkQ3OHFjeXJnbTNJbTI3MWpPazZhdUJSeUdJYnBQdFY3RmNVNndLRlVnb2RWNkhsNFRYS2VKOW9hY0hkN1hDcVpZUjc0NFp3MGxfSS04WHBXMDdFcFViM2FseEVKMklxOUlzSzBxazdW?oc=5) (investigation)
+    - ⚠️ [CRS Investors with $100,000 in Losses Have Opportunity to Join Carpenter Technology Corporation Fraud Investigation with SBS Law - Carroll County Mirror-Democrat](https://news.google.com/rss/articles/CBMitwFBVV95cUxON2pZZnlWMnpYZ3FIelI0R2RpSE5CSzNwZTRLSEt5emdhNHdOOGZjY0RocnY4OEdLUG5BcTBQTHRYZHBaZFhLTEtoWkE5RnRYYVB6VkdNUXU0c0oxdU5nVTQ0LWtCMFlzTjFIMHM0dmNubFJUekllU0otallOdDgzc2t4WUNEMHI4WnpkZHRJTGlhWm1WWjdjcUpTYlFPVnltRThxbE9OZ3pfX216ZEtaZzZEWnB5Vms?oc=5) (fraud, investigation)
 - ⭐ **Catalyst Metals** (action, chercher « Catalyst Metals ») — score **95/100**, -59% depuis son plus haut ; historiquement à ce niveau : +93% à 12 mois en moyenne, positif 57% des cas (moyenne du titre : +58%)
 - ⭐ **Pan American Silver Corp.** (action, chercher « Pan American Silver Corp. ») — score **95/100**, -43% depuis son plus haut ; historiquement à ce niveau : +26% à 12 mois en moyenne, positif 54% des cas (moyenne du titre : +19%)
 - ⭐ **Infratil** (action, chercher « Infratil ») — score **95/100**, -23% depuis son plus haut ; historiquement à ce niveau : +28% à 12 mois en moyenne, positif 88% des cas (moyenne du titre : +20%)
@@ -83,7 +83,6 @@ Apport mensuel : 200 € — proposé dès que le score atteint 60, au plus tard
 - ⭐ **Intel** (action, chercher « Intel ») — score **95/100**, -53% depuis son plus haut ; historiquement à ce niveau : +33% à 12 mois en moyenne, positif 71% des cas (moyenne du titre : +17%)
 - ⭐ **Hubbell Incorporated** (action, chercher « Hubbell Incorporated ») — score **95/100**, -24% depuis son plus haut ; historiquement à ce niveau : +27% à 12 mois en moyenne, positif 81% des cas (moyenne du titre : +17%)
 - ⭐ **Gildan Activewear Inc.** (action, chercher « Gildan Activewear Inc. ») — score **95/100**, -43% depuis son plus haut ; historiquement à ce niveau : +39% à 12 mois en moyenne, positif 68% des cas (moyenne du titre : +22%)
-- ⭐ **Madison Square Garden Sports Corp.** (action, chercher « Madison Square Garden Sports Corp. ») — score **94/100**, -25% depuis son plus haut ; historiquement à ce niveau : +15% à 12 mois en moyenne, positif 73% des cas (moyenne du titre : +10%)
 - ⭐ **Dycom Industries** (action, chercher « Dycom Industries ») — score **94/100**, -57% depuis son plus haut ; historiquement à ce niveau : +35% à 12 mois en moyenne, positif 57% des cas (moyenne du titre : +27%)
 - ⭐ **Comfort Systems USA** (action, chercher « Comfort Systems USA ») — score **94/100**, -40% depuis son plus haut ; historiquement à ce niveau : +95% à 12 mois en moyenne, positif 92% des cas (moyenne du titre : +42%)
 - ⭐ **SLM Corp** (action, chercher « SLM Corp ») — score **94/100**, -41% depuis son plus haut ; historiquement à ce niveau : +15% à 12 mois en moyenne, positif 56% des cas (moyenne du titre : +13%)
@@ -102,6 +101,7 @@ Apport mensuel : 200 € — proposé dès que le score atteint 60, au plus tard
 - ⭐ **Valmont Industries** (action, chercher « Valmont Industries ») — score **93/100**, -27% depuis son plus haut ; historiquement à ce niveau : +31% à 12 mois en moyenne, positif 78% des cas (moyenne du titre : +20%)
 - ⭐ **Lifco B** (action, chercher « Lifco B ») — score **93/100**, -25% depuis son plus haut ; historiquement à ce niveau : +36% à 12 mois en moyenne, positif 77% des cas (moyenne du titre : +27%)
 - ⭐ **RBC Bearings** (action, chercher « RBC Bearings ») — score **93/100**, -29% depuis son plus haut ; historiquement à ce niveau : +32% à 12 mois en moyenne, positif 86% des cas (moyenne du titre : +22%)
+- ⭐ **Madison Square Garden Sports Corp.** (action, chercher « Madison Square Garden Sports Corp. ») — score **93/100**, -25% depuis son plus haut ; historiquement à ce niveau : +15% à 12 mois en moyenne, positif 73% des cas (moyenne du titre : +10%)
 - ⭐ **MKS Instruments** (action, chercher « MKS Instruments ») — score **93/100**, -55% depuis son plus haut ; historiquement à ce niveau : +45% à 12 mois en moyenne, positif 74% des cas (moyenne du titre : +21%)
 - ⭐ **Donaldson Company** (action, chercher « Donaldson Company ») — score **93/100**, -24% depuis son plus haut ; historiquement à ce niveau : +23% à 12 mois en moyenne, positif 81% des cas (moyenne du titre : +13%)
 - ⭐ **Ebara Corp.** (action, chercher « Ebara Corp. ») — score **93/100**, -44% depuis son plus haut ; historiquement à ce niveau : +39% à 12 mois en moyenne, positif 80% des cas (moyenne du titre : +22%)
@@ -120,5 +120,5 @@ Apport mensuel : 200 € — proposé dès que le score atteint 60, au plus tard
 - ⭐ **Cummins** (action, chercher « Cummins ») — score **91/100**, -31% depuis son plus haut ; historiquement à ce niveau : +50% à 12 mois en moyenne, positif 88% des cas (moyenne du titre : +30%)
 - ⭐ **Lam Research** (action, chercher « Lam Research ») — score **91/100**, -45% depuis son plus haut ; historiquement à ce niveau : +63% à 12 mois en moyenne, positif 84% des cas (moyenne du titre : +36%)
 - ⭐ **Merlin Properties** (action, chercher « Merlin Properties ») — score **91/100**, -27% depuis son plus haut ; historiquement à ce niveau : +30% à 12 mois en moyenne, positif 94% des cas (moyenne du titre : +10%)
-- … et 490 autres.
+- … et 488 autres.
 ⭐ = historiquement, acheter ce titre à ce niveau de score a fait mieux que sa moyenne.
