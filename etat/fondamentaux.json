@@ -1899,6 +1899,25 @@
    "trailingPE": 13.260074
   }
  },
+ "CTVA": {
+  "date": "2026-11-01",
+  "infos": {
+   "currentPrice": 11.64,
+   "debtToEquity": 57.256,
+   "earningsGrowth": -0.099,
+   "forwardEps": 1.12395,
+   "forwardPE": 10.356333,
+   "industry": "Agricultural Inputs",
+   "numberOfAnalystOpinions": 13,
+   "profitMargins": 0.027579999,
+   "recommendationMean": 1.53846,
+   "revenueGrowth": -0.012,
+   "sector": "Basic Materials",
+   "targetMeanPrice": 17.12715,
+   "trailingEps": 1.62,
+   "trailingPE": 7.1851854
+  }
+ },
  "CVCO": {
   "date": "2026-10-19",
   "infos": {
