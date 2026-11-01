@@ -605,7 +605,7 @@
   nom: Yokogawa Electric Corp.
 6857.T:
   indice: Nikkei 225
-  nom: Advantest Corp.
+  nom: Advantest
 6862.HK:
   indice: Hang Seng
   nom: Haidilao
@@ -1344,6 +1344,9 @@ AMPH:
 AMR:
   indice: S&P SmallCap 600
   nom: Alpha Metallurgical Resources, Inc.
+AMRQ.L:
+  indice: FTSE 250
+  nom: Amaroq
 AMRX:
   indice: S&P SmallCap 600
   nom: Amneal Pharmaceuticals
@@ -1476,6 +1479,9 @@ ARES:
 ARG.AX:
   indice: S&P/ASX 200
   nom: Argo Investments
+ARGX.BR:
+  indice: Euro Stoxx 50
+  nom: Argenx
 ARIS.TO:
   indice: S&P/TSX Composite
   nom: Aris Mining Corporation
@@ -1896,9 +1902,6 @@ BKU:
 BL:
   indice: S&P SmallCap 600
   nom: BlackLine Systems, Inc.
-BLFS:
-  indice: S&P SmallCap 600
-  nom: BioLife Solutions, Inc.
 BLK:
   indice: S&P 500
   nom: BlackRock
@@ -2686,7 +2689,7 @@ CTT.LS:
   indice: PSI
   nom: CTT Correios de Portugal
 CTVA:
-  indice: S&P 500
+  indice: S&P MidCap 400
   nom: Corteva
 CTY.L:
   indice: FTSE 250
@@ -2880,9 +2883,6 @@ DHI:
 DHR:
   indice: S&P 500
   nom: Danaher Corporation
-DIA.MI:
-  indice: FTSE MIB
-  nom: Diasorin
 DIE.BR:
   indice: BEL 20
   nom: D'Ieteren
@@ -3084,9 +3084,6 @@ ECPG:
 ED:
   indice: S&P 500
   nom: Consolidated Edison
-EDEN.PA:
-  indice: CAC 40
-  nom: Edenred
 EDIN.L:
   indice: FTSE 250
   nom: Edinburgh Investment Trust
@@ -3219,6 +3216,9 @@ ENOV:
 ENPH:
   indice: S&P SmallCap 600
   nom: Enphase Energy
+ENQ.L:
+  indice: FTSE 250
+  nom: EnQuest
 ENR:
   indice: S&P SmallCap 600
   nom: Energizer
@@ -3240,6 +3240,9 @@ ENTG:
 ENVA:
   indice: S&P SmallCap 600
   nom: Enova International, Inc.
+ENX.PA:
+  indice: CAC 40
+  nom: Euronext
 EOG:
   indice: S&P 500
   nom: EOG Resources
@@ -3528,6 +3531,9 @@ FGEN.L:
 FGP.L:
   indice: FTSE 250
   nom: FirstGroup
+FGR.PA:
+  indice: CAC 40
+  nom: Eiffage
 FGT.L:
   indice: FTSE 250
   nom: Finsbury Growth & Income Trust
@@ -3619,7 +3625,7 @@ FNV.TO:
   indice: S&P/TSX 60
   nom: Franco-Nevada Corporation
 FORM:
-  indice: S&P SmallCap 600
+  indice: S&P MidCap 400
   nom: FormFactor, Inc.
 FORTUM.HE:
   indice: OMX Helsinki 25
@@ -4290,9 +4296,6 @@ HWC:
 HWDN.L:
   indice: FTSE 100
   nom: Howdens Joinery
-HWG.L:
-  indice: FTSE 250
-  nom: Harworth Group
 HWKN:
   indice: S&P SmallCap 600
   nom: Hawkins, Inc.
@@ -5171,7 +5174,7 @@ MCHP:
   nom: Microchip Technology
 MCK:
   indice: S&P 500
-  nom: McKesson Corporation
+  nom: McKesson
 MCO:
   indice: S&P 500
   nom: Moody's Corporation
@@ -5892,9 +5895,6 @@ OLED:
 OLLI:
   indice: S&P MidCap 400
   nom: Ollie's Bargain Outlet
-OLN:
-  indice: S&P MidCap 400
-  nom: Olin Corporation
 OMC:
   indice: S&P 500
   nom: Omnicom Group
@@ -6168,9 +6168,6 @@ PII:
 PIN.L:
   indice: FTSE 250
   nom: Pantheon International
-PINE.L:
-  indice: FTSE 250
-  nom: Pinewood Technologies
 PINS:
   indice: S&P MidCap 400
   nom: Pinterest
@@ -6369,9 +6366,6 @@ PSH.L:
 PSK.TO:
   indice: S&P/TSX Composite
   nom: PrairieSky Royalty Ltd.
-PSKY:
-  indice: S&P 500
-  nom: Paramount Skydance Corporation
 PSMT:
   indice: S&P SmallCap 600
   nom: PriceSmart
@@ -6471,9 +6465,6 @@ QNST:
 QQ.L:
   indice: FTSE 250
   nom: Qinetiq
-QRVO:
-  indice: S&P SmallCap 600
-  nom: Qorvo
 QSR.TO:
   indice: S&P/TSX 60
   nom: Restaurant Brands International Inc.
@@ -6650,7 +6641,7 @@ RMBS:
   nom: Rambus
 RMD:
   indice: S&P 500
-  nom: ResMed|
+  nom: ResMed
 RMD.AX:
   indice: S&P/ASX 50
   nom: ResMed
@@ -7068,6 +7059,9 @@ SKT:
 SKY:
   indice: S&P SmallCap 600
   nom: Champion Homes, Inc.
+SKYD:
+  indice: S&P 500
+  nom: Skydance
 SKYW:
   indice: S&P SmallCap 600
   nom: SkyWest, Inc.
@@ -7152,9 +7146,6 @@ SNEX:
 SNPS:
   indice: S&P 500
   nom: Synopsys
-SNR.L:
-  indice: FTSE 250
-  nom: Senior
 SNX:
   indice: S&P MidCap 400
   nom: TD Synnex
@@ -7665,6 +7656,9 @@ TPL:
 TPR:
   indice: S&P 500
   nom: Tapestry, Inc.
+TPRO.MI:
+  indice: FTSE MIB
+  nom: Technoprobe
 TPZ.TO:
   indice: S&P/TSX Composite
   nom: Topaz Energy Corp.
@@ -7780,7 +7774,7 @@ TWE.AX:
   indice: S&P/ASX 200
   nom: Treasury Wine Estates
 TWLO:
-  indice: S&P MidCap 400
+  indice: S&P 500
   nom: Twilio
 TXG.TO:
   indice: S&P/TSX Composite
@@ -8145,6 +8139,9 @@ VVV:
 VVX:
   indice: S&P SmallCap 600
   nom: V2X, Inc.
+VYLR:
+  indice: S&P 500
+  nom: Vylor
 VYX:
   indice: S&P SmallCap 600
   nom: NCR Voyix
@@ -8187,9 +8184,6 @@ WAY:
 WBC.AX:
   indice: S&P/ASX 50
   nom: Westpac
-WBD:
-  indice: S&P 500
-  nom: Warner Bros. Discovery
 WCC:
   indice: S&P MidCap 400
   nom: WESCO International
@@ -8460,6 +8454,9 @@ YELP:
 YETI:
   indice: S&P MidCap 400
   nom: Yeti Holdings
+YNGA.L:
+  indice: FTSE 250
+  nom: Young's
 YOU:
   indice: S&P SmallCap 600
   nom: Clear Secure, Inc.
