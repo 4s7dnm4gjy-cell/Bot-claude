@@ -24,6 +24,15 @@ Deux garde-fous contre les chiffres trompeurs de Yahoo :
     d'affaires, marge nette et endettement n'y ont pas le même sens (primes
     d'assurance, dette d'un bilan bancaire) : points neutres.
 
+Garde-fous contre l'optimisme (cas Teradyne, oct. 2026 : « braderie » annoncée
+sur des chiffres flatteurs alors que le titre avait été multiplié par 4 en un an) :
+  * « achat fort » seulement si la note moyenne des analystes est <= 1,5 ;
+  * croissance des bénéfices > +100 % : probablement un départ très bas, points réduits ;
+  * bénéfices attendus > +30 % : l'attente est élevée, points réduits ;
+  * le P/E ne retient que la moitié de la croissance attendue au-delà de +20 % ;
+  * pas de « braderie » si les attentes sont extravagantes, si le titre a plus que
+    doublé en un an, ou si l'actualité explique déjà la baisse (voir `retirer_braderie`).
+
 Une donnée manquante compte pour la moitié des points de son critère (ni bonus
 ni pénalité). Sans aucune donnée, le score est inconnu et le titre n'est pas
 proposé (sauf ETF, qui n'ont pas de bénéfices propres).
@@ -43,6 +52,11 @@ CHAMPS = ("revenueGrowth", "earningsGrowth", "recommendationMean", "numberOfAnal
 TEXTES = ("sector", "industry")  # pour repérer le secteur financier
 SECTEURS_FINANCIERS = ("financial services", "financial")
 ECART_EPS_MAX = 2.0  # au-delà de ×2 (ou en deçà de ÷2), les deux bénéfices ne sont pas comparables
+CROISSANCE_BASSE_BASE = 1.0   # bénéfices > +100 % sur un an : probablement un départ très bas
+ATTENTE_ELEVEE = 0.30         # bénéfices attendus > +30 % : attente élevée, à ne pas croire sur parole
+ATTENTE_PRUDENTE = 0.20       # au-delà, le P/E ne compte que la moitié de la croissance attendue
+FORTE_HAUSSE_1AN = 1.0        # titre qui a plus que doublé en un an : un repli n'est pas une braderie
+BONUS_BRADERIE = 8.0
 
 
 ERREURS: list[str] = []  # pour le journal : pourquoi une lecture a échoué
@@ -66,6 +80,11 @@ def lire_infos(ticker: str, essais: int = 3) -> dict:
             ERREURS.append(f"{ticker}: {type(e).__name__}: {str(e)[:120]}")
             time.sleep(3 * (essai + 1))
     return {}
+
+
+def avis_analystes(reco: float) -> str:
+    """Note moyenne Yahoo (1 = achat fort ... 5 = vente) en mots, sans enjoliver."""
+    return "achat fort" if reco <= 1.5 else "achat" if reco <= 2.3 else "conserver" if reco <= 2.8 else "vendre"
 
 
 def _nombre(x) -> float | None:
@@ -119,8 +138,13 @@ def score_fondamental(infos: dict) -> tuple[float | None, list[str]]:
     if bpa is None:
         pts += 7.5
     else:
-        pts += 15 if bpa > 0.10 else 7.5 if bpa > 0 else 0
-        notes.append(f"bénéfices {bpa:+.1%} sur un an")
+        if bpa > CROISSANCE_BASSE_BASE:
+            pts += 11
+            notes.append(f"bénéfices {bpa:+.1%} sur un an : très forte hausse, souvent un départ très bas "
+                         "(points réduits)")
+        else:
+            pts += 15 if bpa > 0.10 else 7.5 if bpa > 0 else 0
+            notes.append(f"bénéfices {bpa:+.1%} sur un an")
 
     # Regard vers l'avenir : bénéfice par action attendu sur 12 mois vs dernier connu.
     fe, te = g["forwardEps"], g["trailingEps"]
@@ -132,16 +156,20 @@ def score_fondamental(infos: dict) -> tuple[float | None, list[str]]:
         pts += 7.5 if fe is None or te is None else (15 if fe and fe > 0 else 0)
     else:
         attendu = fe / te - 1
-        pts += 15 if attendu > 0.08 else 7.5 if attendu > 0 else 0
-        notes.append(f"bénéfices attendus {attendu:+.0%} sur 12 mois")
+        if attendu > ATTENTE_ELEVEE:
+            pts += 11
+            notes.append(f"bénéfices attendus {attendu:+.0%} sur 12 mois : attente élevée, elle repose sur des "
+                         "prévisions qui peuvent être revues à la baisse (points réduits)")
+        else:
+            pts += 15 if attendu > 0.08 else 7.5 if attendu > 0 else 0
+            notes.append(f"bénéfices attendus {attendu:+.0%} sur 12 mois")
 
     reco, n = g["recommendationMean"], g["numberOfAnalystOpinions"] or 0
     if reco is None or n < 3:
         pts += 7.5
     else:
-        pts += 15 if reco <= 1.8 else 11 if reco <= 2.3 else 5 if reco <= 2.8 else 0
-        avis = "achat fort" if reco <= 1.8 else "achat" if reco <= 2.3 else "conserver" if reco <= 2.8 else "vendre"
-        notes.append(f"analystes : « {avis} » ({reco:.1f}/5, {int(n)} avis)")
+        pts += 15 if reco <= 1.5 else 11 if reco <= 2.3 else 5 if reco <= 2.8 else 0
+        notes.append(f"analystes : « {avis_analystes(reco)} » ({reco:.1f}/5, {int(n)} avis)")
     cible, cours = g["targetMeanPrice"], g["currentPrice"]
     if cible and cours:
         potentiel = cible / cours - 1
@@ -164,10 +192,15 @@ def score_fondamental(infos: dict) -> tuple[float | None, list[str]]:
         if fpe is not None:
             notes.append("bénéfices attendus négatifs")
     else:
-        pts += 15 if fpe < 15 else 10 if fpe < 22 else 5 if fpe < 30 else 0
+        ref = fpe
         txt = f"P/E attendu {fpe:.1f}"
         if tpe and tpe > 0:
             txt += f" (actuel {tpe:.1f})"
+            attendu_pe = fe / te - 1 if fe and te and te > 0 else None
+            if attendu_pe is not None and attendu_pe > ATTENTE_PRUDENTE and tpe > fpe:
+                ref = (fpe + tpe) / 2  # on ne croit que la moitié de la croissance attendue
+                txt += f", retenu {ref:.1f} : la moitié seulement de la croissance attendue est comptée"
+        pts += 15 if ref < 15 else 10 if ref < 22 else 5 if ref < 30 else 0
         notes.append(txt)
 
     marge, dette = g["profitMargins"], g["debtToEquity"]
@@ -182,17 +215,22 @@ def score_fondamental(infos: dict) -> tuple[float | None, list[str]]:
     return round(pts, 1), notes
 
 
-def sanction_du_marche(vs_marche_3m: float | None, infos: dict | None = None) -> tuple[float, str | None, bool]:
+def sanction_du_marche(vs_marche_3m: float | None, infos: dict | None = None,
+                       perf_1an: float | None = None) -> tuple[float, str | None, bool]:
     """Forte baisse face au marché : vraie mauvaise nouvelle, ou braderie ?
 
     Une chute de 20-30 % de plus que le marché n'est pas forcément méritée. On
     regarde ce que disent les prévisions les plus récentes :
-      * braderie : bénéfices attendus en hausse, bénéfices du dernier trimestre en
-        hausse, analystes à l'achat -> le prix a baissé, pas l'entreprise (bonus ;
-        jamais au-delà de −45 % : une chute pareille cache trop souvent un vrai problème) ;
+      * braderie : bénéfices attendus en hausse *raisonnable* (+5 % à +30 %), bénéfices
+        du dernier trimestre en hausse mais pas démesurée, analystes à l'achat, titre
+        qui n'a pas plus que doublé en un an -> le prix a baissé, pas l'entreprise
+        (bonus ; jamais au-delà de −45 % : une chute pareille cache trop souvent un
+        vrai problème) ;
       * dégradation : bénéfices attendus en baisse, bénéfices qui reculent ou
         analystes à la vente -> le marché a sans doute raison (malus complet) ;
-      * doute : pas assez d'éléments pour trancher (demi-malus, complet au-delà de −40 %).
+      * doute : pas assez d'éléments pour trancher, ou chiffres trop flatteurs pour
+        être crus (demi-malus, complet au-delà de −40 %).
+    L'actualité peut encore annuler une braderie (`retirer_braderie`).
     Retourne (points, explication, braderie).
     """
     if vs_marche_3m is None or vs_marche_3m >= -0.20:
@@ -208,14 +246,44 @@ def sanction_du_marche(vs_marche_3m: float | None, infos: dict | None = None) ->
                or (bpa is not None and bpa < 0) or (reco is not None and n >= 3 and reco > 2.8))
     if degrade:
         return plein, f"⚠️ sanction du marché méritée : {chute}, et les perspectives se dégradent ({plein:+.0f} pts)", False
-    braderie = (vs_marche_3m >= -0.45 and attendu is not None and attendu >= 0.05 and (bpa is None or bpa >= 0)
-                and reco is not None and n >= 3 and reco <= 2.3)
+
+    # Chiffres trop beaux pour être crus : pas de braderie, on le dit.
+    refus = []
+    if attendu is not None and attendu > ATTENTE_ELEVEE:
+        refus.append(f"bénéfices attendus {attendu:+.0%} : attente trop élevée pour s'y fier")
+    if bpa is not None and bpa > CROISSANCE_BASSE_BASE:
+        refus.append(f"bénéfices passés {bpa:+.0%} : départ très bas probable")
+    if perf_1an is not None and perf_1an > FORTE_HAUSSE_1AN:
+        refus.append(f"le titre a fait {perf_1an:+.0%} sur un an : c'est un repli après une envolée")
+
+    braderie = (not refus and vs_marche_3m >= -0.45 and attendu is not None and attendu >= 0.05
+                and (bpa is None or bpa >= 0) and reco is not None and n >= 3 and reco <= 2.0)
     if braderie:
-        bonus = 8.0
-        return bonus, (f"🏷️ braderie probable : {chute}, alors que les bénéfices attendus montent "
-                       f"({attendu:+.0%}) et que les analystes restent à l'achat ({bonus:+.0f} pts)"), True
+        return BONUS_BRADERIE, (f"🏷️ braderie probable : {chute}, alors que les bénéfices attendus montent "
+                                f"({attendu:+.0%}) et que les analystes restent à l'achat ({BONUS_BRADERIE:+.0f} pts)"), True
     demi = plein / 2 if vs_marche_3m >= -0.40 else plein  # chute extrême inexpliquée : prudence maximale
+    if refus:
+        return demi, f"⚠️ chute de {chute} : braderie non retenue ({' ; '.join(refus)}) ({demi:+.0f} pts)", False
     return demi, f"⚠️ chute de {chute} sans explication claire dans les chiffres ({demi:+.0f} pts)", False
+
+
+def retirer_braderie(c: dict, raisons: list[str], poids_fondamental: float = 0.6) -> dict:
+    """L'actualité explique déjà la baisse (objectifs abaissés, marges, valorisation…) : plus de braderie.
+
+    Retire le bonus, corrige les notes et le score global. Les chiffres publiés
+    (Yahoo) regardent le passé ; les articles, eux, disent pourquoi le cours baisse.
+    """
+    if not c.get("braderie"):
+        return c
+    c["braderie"] = False
+    if c.get("fondamental") is not None:
+        c["fondamental"] = round(max(0.0, c["fondamental"] - (c.get("bonus_braderie") or BONUS_BRADERIE)), 1)
+    c["bonus_braderie"] = 0.0
+    c["fondamental_notes"] = [n for n in c.get("fondamental_notes", []) if "braderie probable" not in n] + [
+        "⚠️ braderie annulée : l'actualité explique déjà la baisse (" + ", ".join(raisons) + ")"]
+    f = c["fondamental"] if c.get("fondamental") is not None else 60.0
+    c["score_global"] = round((1 - poids_fondamental) * c["score"] + poids_fondamental * f, 1)
+    return c
 
 
 def enrichir(candidats: list[dict], lire: Callable[[str], dict] = lire_infos, nb_max: int = 150,
@@ -247,8 +315,9 @@ def enrichir(candidats: list[dict], lire: Callable[[str], dict] = lire_infos, nb
             if not infos and entree and age <= jours_max:
                 infos, reutilisees = entree["infos"], reutilisees + 1
             c["fondamental"], c["fondamental_notes"] = score_fondamental(infos)
-            ajust, note, braderie = sanction_du_marche(c.get("vs_marche_3m"), infos)
+            ajust, note, braderie = sanction_du_marche(c.get("vs_marche_3m"), infos, c.get("perf_1an"))
             c["braderie"] = braderie and c["fondamental"] is not None
+            c["bonus_braderie"] = ajust if c["braderie"] else 0.0
             if c["fondamental"] is not None and note:
                 c["fondamental"] = min(100.0, max(0.0, c["fondamental"] + ajust))
                 c["fondamental_notes"].append(note)

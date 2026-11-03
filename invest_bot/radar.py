@@ -24,6 +24,7 @@ import pandas as pd
 from .score import moment_score, score_stats
 
 JOURS_5_ANS = 252 * 5
+EPISODES_MIN = 3  # en dessous, les statistiques « à ce niveau de score » reposent sur trop peu de cas
 
 # Suffixe Yahoo -> devise de cotation. Sans suffixe : bourse américaine (USD).
 DEVISES = {
@@ -85,6 +86,9 @@ class Opportunite:
     fondamental_notes: list | None = None
     score_global: float | None = None  # 40 % repli du cours + 60 % fondamentaux
     braderie: bool = False  # forte baisse alors que les perspectives restent bonnes
+    perf_1an: float | None = None  # un titre qui a plus que doublé n'est pas « soldé » après un repli
+    bonus_braderie: float = 0.0    # points accordés pour la braderie (retirés si l'actualité l'explique)
+    n_episodes: int = 0            # épisodes indépendants derrière la statistique à 12 mois
 
     @property
     def prix_affiche(self) -> str:
@@ -100,8 +104,22 @@ class Opportunite:
 
     @property
     def favorable(self) -> bool:
-        """Historiquement, acheter à ce niveau de score a fait mieux que la moyenne."""
-        return self.n_12m >= 100 and self.moy_12m > self.base_moy_12m
+        """Historiquement, acheter à ce niveau de score a fait mieux que la moyenne.
+
+        Il faut assez de jours *et* assez d'épisodes distincts : des centaines de jours
+        qui se chevauchent peuvent ne représenter qu'un ou deux épisodes.
+        """
+        return self.n_12m >= 100 and self.n_episodes >= EPISODES_MIN and self.moy_12m > self.base_moy_12m
+
+    @property
+    def echantillon(self) -> str:
+        """Taille de l'échantillon en clair, avec avertissement quand il est trop petit."""
+        txt = f"{self.n_12m:,} jours observés".replace(",", " ")
+        if self.n_episodes:
+            txt += f", soit {self.n_episodes} épisode{'s' if self.n_episodes > 1 else ''} indépendant{'s' if self.n_episodes > 1 else ''}"
+        if self.n_episodes < EPISODES_MIN:
+            txt += " : échantillon trop petit pour s'y fier"
+        return txt
 
     def ligne(self) -> str:
         etoile = "⭐ " if self.favorable else ""
@@ -109,7 +127,7 @@ class Opportunite:
             f"{etoile}**{self.nom}** ({self.type}, {self.isin_affiche}) — score **{self.score:.0f}/100**, "
             f"{-self.baisse:+.0%} depuis son plus haut ; historiquement à ce niveau : "
             f"{self.moy_12m:+.0%} à 12 mois en moyenne, positif {self.pos_12m:.0%} des cas "
-            f"(moyenne du titre : {self.base_moy_12m:+.0%})"
+            f"(moyenne du titre : {self.base_moy_12m:+.0%} ; {self.n_episodes} épisode(s) indépendant(s))"
         )
 
 
@@ -162,6 +180,8 @@ def analyser_titre(ticker: str, info: dict, prix: pd.Series, marche: pd.Series |
         moy_12m=float(ligne["moy_12m"]) if ligne is not None else np.nan,
         pos_12m=float(ligne["pos_12m"]) if ligne is not None else np.nan,
         n_12m=int(ligne["n_12m"]) if ligne is not None else 0,
+        n_episodes=int(ligne["ep_12m"]) if ligne is not None else 0,
+        perf_1an=float(s.iloc[-1] / s.iloc[-253] - 1),
         base_moy_12m=float(base["moy_12m"]),
         pire_12m=float(ligne["pire_12m"]) if ligne is not None else np.nan,
         vs_marche_3m=ecart_marche(en_euros_serie(s, devise(ticker, info), fx), marche)
