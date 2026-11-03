@@ -53,6 +53,7 @@ SIGNAUX = {
     "avertissement sur resultats": 1, "profit warning": 1, "abaisse ses previsions": 1,
     "revoit a la baisse": 1, "cuts guidance": 1, "lowers guidance": 1, "cuts outlook": 1,
     "lowers outlook": 1, "guidance cut": 1, "downgrade": 1, "downgraded": 1,
+    "slashes guidance": 1, "slashed guidance": 1, "slashes outlook": 1, "slashed outlook": 1, "cut guidance": 1, "cut its guidance": 1, "cuts forecast": 1, "lowers forecast": 1, "slashes forecast": 1, "cut forecast": 1, "reduces guidance": 1, "reduced guidance": 1, "abaisse sa prevision": 1, "abaisse ses objectifs": 1, "reduit ses previsions": 1,
     "demission": 1, "resigns": 1, "steps down": 1, "licenciements": 1, "layoffs": 1,
     "cyberattaque": 1, "data breach": 1, "boycott": 1,
 }
@@ -97,7 +98,55 @@ MOTIFS = {
     "capex concerns": "inquiétudes sur les dépenses en IA", "ai bubble": "inquiétudes sur les dépenses en IA",
     "prises de benefices": "prises de bénéfices", "profit-taking": "prises de bénéfices",
     "profit taking": "prises de bénéfices",
+    # coûts en hausse
+    "rising costs": "coûts en hausse", "higher costs": "coûts en hausse", "costs rise": "coûts en hausse",
+    "costs weigh": "coûts en hausse", "cost pressure": "coûts en hausse", "cost pressures": "coûts en hausse",
+    "higher smelting costs": "coûts en hausse", "operating costs rise": "coûts en hausse",
+    "hausse des couts": "coûts en hausse", "couts en hausse": "coûts en hausse",
+    # trésorerie
+    "cash flow pressure": "trésorerie sous pression", "cash flow concerns": "trésorerie sous pression",
+    "cash burn": "trésorerie sous pression", "free cash flow decline": "trésorerie sous pression",
+    # droits de douane
+    "tariff": "droits de douane", "tariffs": "droits de douane", "droits de douane": "droits de douane",
+    # concurrence
+    "overtaken by": "concurrence plus forte", "loses market share": "concurrence plus forte",
+    "losing market share": "concurrence plus forte", "market share loss": "concurrence plus forte",
+    "competitive pressure": "concurrence plus forte", "competition concerns": "concurrence plus forte",
+    "concurrence accrue": "concurrence plus forte",
+    # résultats et prévisions des analystes
+    "profit miss": "résultats sous les attentes", "misses forecasts": "résultats sous les attentes",
+    "misses consensus": "résultats sous les attentes", "below expectations": "résultats sous les attentes",
+    "below estimates": "résultats sous les attentes", "falls short": "résultats sous les attentes",
+    "fell short": "résultats sous les attentes", "sous les attentes": "résultats sous les attentes",
+    "analysts slash": "prévisions des analystes abaissées", "slash their forecasts": "prévisions des analystes abaissées",
+    "cut estimates": "prévisions des analystes abaissées", "cuts estimates": "prévisions des analystes abaissées",
+    "lower estimates": "prévisions des analystes abaissées", "estimate cuts": "prévisions des analystes abaissées",
+    "guidance unchanged": "prévisions non relevées", "maintains guidance": "prévisions non relevées",
+    "reiterates guidance": "prévisions non relevées", "priced in": "bonne nouvelle déjà dans le prix",
+    # doutes sur l'IA et les taux
+    "ai worries": "inquiétudes sur les dépenses en IA", "ai fears": "inquiétudes sur les dépenses en IA",
+    "ai jitters": "inquiétudes sur les dépenses en IA", "ai infrastructure jitters": "inquiétudes sur les dépenses en IA",
+    "ai concerns": "inquiétudes sur les dépenses en IA", "ai reckoning": "inquiétudes sur les dépenses en IA",
+    "rate worries": "crainte de taux plus élevés", "rate fears": "crainte de taux plus élevés",
+    "rate hike fears": "crainte de taux plus élevés",
+    # risque juridique (sans procès en cours : sinon c'est un signal d'alarme)
+    "liability fears": "risque juridique", "liability concerns": "risque juridique",
 }
+
+# Tournures trop variables pour une liste de mots : « shares fell 7% despite record backlog »,
+# « stock still fell », « after a 20% run ».
+MOTIFS_REGEX = [
+    (r"(?<![a-z])(fall|falls|fell|drop|drops|dropped|slide|slides|slid|sink|sinks|sank|slip|slips|slipped|"
+     r"decline|declines|declined|tumble|tumbles|tumbled|dip|dips|dipped|plunge|plunges|plunged|"
+     r"retreat|retreats|retreated|down)(?![a-z])[^;!?]{0,40}(?<![a-z])despite(?![a-z])",
+     "recul malgré de bons résultats"),
+    (r"(?<![a-z])(stock|shares)(?![a-z])[^;!?]{0,30}(?<![a-z])still (fell|falls|fall|dropped|drops|slid|slipped)",
+     "recul malgré de bons résultats"),
+    (r"(?<![a-z])(after|following) (a|an|its|the) ?(\d+(\.\d+)?(%|x) )?(run|rally|surge|run-up|runup|rise)(?![a-z])",
+     "repli après une forte hausse"),
+    (r"(?<![a-z])(rise|rose|up|soar|soared|jump|jumped) \d+(\.\d+)?x(?![a-z])",
+     "repli après une forte hausse"),
+]
 
 @dataclass
 class Article:
@@ -155,6 +204,7 @@ def _normaliser(texte: str) -> str:
 # Mot entier uniquement : « fine » ne doit pas être trouvé dans « define ».
 _MOTIFS = {m: re.compile(r"(?<![a-z])" + re.escape(m) + r"(?![a-z])") for m in SIGNAUX}
 _RAISONS = {m: re.compile(r"(?<![a-z])" + re.escape(m) + r"(?![a-z])") for m in MOTIFS}
+_RAISONS_REGEX = [(re.compile(m), r) for m, r in MOTIFS_REGEX]
 
 
 def raisons_baisse(titre: str) -> list[str]:
@@ -164,6 +214,9 @@ def raisons_baisse(titre: str) -> list[str]:
     for mot, motif in _RAISONS.items():
         if motif.search(t) and MOTIFS[mot] not in vues:
             vues.append(MOTIFS[mot])
+    for motif, raison in _RAISONS_REGEX:
+        if motif.search(t) and raison not in vues:
+            vues.append(raison)
     return vues
 
 
@@ -286,7 +339,7 @@ def section_markdown(nom: str, act: Actualites) -> str:
 # Révision à la baisse des perspectives : les chiffres publiés ne le montrent pas encore.
 AVERTISSEMENTS = {"avertissement sur resultats", "profit warning", "abaisse ses previsions", "revoit a la baisse",
                   "cuts guidance", "lowers guidance", "cuts outlook", "lowers outlook", "guidance cut",
-                  "downgrade", "downgraded"}
+                  "downgrade", "downgraded", "slashes guidance", "slashed guidance", "slashes outlook", "slashed outlook", "cut guidance", "cut its guidance", "cuts forecast", "lowers forecast", "slashes forecast", "cut forecast", "reduces guidance", "reduced guidance", "abaisse sa prevision", "abaisse ses objectifs", "reduit ses previsions"}
 
 
 def avertissement_recent(act: "Actualites") -> Article | None:

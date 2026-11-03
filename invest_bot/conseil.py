@@ -305,6 +305,9 @@ def resume_radar(cfg: Config, opportunites: list[Opportunite], limite: int | Non
         lignes.append(f"- {o.ligne()}")
         if o.ticker in actus:
             lignes.append(f"  - {actus[o.ticker].court()}")
+            # la presse explique la baisse : on montre où, pour vérifier soi-même
+            lignes += [f"    - 📉 [{a.titre}]({a.lien}) ({', '.join(a.raisons)})"
+                       for a in actus[o.ticker].explications[:2 if limite and limite <= 3 else 3]]
             if limite is None or limite > 3:  # tableau de bord : les articles détectés, pour juger soi-même
                 lignes += [f"    - ⚠️ [{a.titre}]({a.lien}) ({', '.join(a.mots)})" for a in actus[o.ticker].alertes[:3]]
     for o in ecartes:

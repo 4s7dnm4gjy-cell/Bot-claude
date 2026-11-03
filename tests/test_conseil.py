@@ -657,3 +657,18 @@ def test_episodes_independants_et_echantillon_trop_petit():
     assert not un.favorable  # +102 % de moyenne, mais un seul épisode : pas une preuve
     assert "échantillon trop petit" in un.echantillon and "1 épisode indépendant" in un.echantillon
     assert Opportunite(**base, n_episodes=5).favorable
+
+
+def test_bulletin_montre_les_articles_qui_expliquent_la_baisse(cfg_radar, monkeypatch):
+    from invest_bot import news
+    from invest_bot.radar import Opportunite
+
+    o = Opportunite(ticker="NHY", nom="Norsk Hydro", isin="NO0005052605", type="action", prix=60.0, score=98,
+                    baisse=0.45, perf_5ans=0.5, tranche="80-100 (soldé)", moy_12m=0.22, pos_12m=0.61, n_12m=300,
+                    base_moy_12m=0.20, pire_12m=-0.4, vs_marche_3m=-0.23, n_episodes=2)
+    arts = [news.Article("Norsk Hydro flags higher smelting costs after quarterly profit miss", "https://ex.com/n", "2026-10-23", "Reuters")]
+    act = news.analyser(arts, -0.23, "Norsk Hydro")
+    txt = conseil.resume_radar(cfg_radar, [o], actus={"NHY": act})
+    assert "sans article inquiétant" not in txt and "raisons de la baisse déjà publiées" in txt
+    assert "📉 [Norsk Hydro flags" in txt and "épisode" in txt
+    assert "⭐" not in txt.split("\n")[1]  # 2 épisodes seulement : pas d'étoile

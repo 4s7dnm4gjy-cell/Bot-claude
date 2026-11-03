@@ -122,3 +122,21 @@ def test_sans_raison_publiee_le_doute_reste_signale():
     arts = [news.Article("Teradyne : UBS à l'achat", "u3", "2026-10-29", "Z")]
     act = news.analyser(arts, -0.21, "Teradyne")
     assert act.verdict == "orange" and "sans article inquiétant trouvé" in act.resume and not act.raisons
+
+
+def test_raisons_des_baisses_de_novembre_2026():
+    """Titres réels : coûts, trésorerie, droits de douane, concurrence, IA, envolée préalable."""
+    cas = {
+        "Norsk Hydro flags higher smelting costs after quarterly profit miss": {"coûts en hausse", "résultats sous les attentes"},
+        "Norsk Hydro Q3 2026 shares slip on cash flow pressure": {"trésorerie sous pression"},
+        "C.H. Robinson Shares Fall 1.8% Despite Q3 Earnings Beat as Operating Costs Rise": {"recul malgré de bons résultats", "coûts en hausse"},
+        "Caterpillar posted record revenue and backlog but its stock still fell": {"recul malgré de bons résultats"},
+        "AI's power hunger sends Caterpillar orders soaring, tariffs spoil the party": {"droits de douane"},
+        "Sumitomo Electric rose 2.8x in a year only to drop 30% and be overtaken by Fujikura": {"concurrence plus forte", "repli après une forte hausse"},
+        "Sterling Infrastructure sinks on broader AI infrastructure jitters": {"inquiétudes sur les dépenses en IA"},
+        "Aaon analysts slash their forecasts following Q2 earnings": {"prévisions des analystes abaissées"},
+        "Vistra stock fell 6% in a day after a 20% run": {"repli après une forte hausse"},
+    }
+    for titre, attendu in cas.items():
+        assert set(news.raisons_baisse(titre)) == attendu, titre
+    assert news.raisons_baisse("Nokia unveils new 5G radio") == []
