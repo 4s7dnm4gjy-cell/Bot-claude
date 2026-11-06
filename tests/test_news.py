@@ -148,3 +148,22 @@ def test_prevision_sabree_est_un_avertissement():
                         "https://ex.com/slm", "2026-10-23", "Yahoo")]
     act = news.analyser(art, -0.31, "Sallie Mae")
     assert news.avertissement_recent(act) is not None
+
+
+def test_produit_anti_fraude_n_est_pas_un_scandale():
+    """Cas Broadcom (nov. 2026) : un produit qui bloque la fraude avait déclenché « problème sérieux »."""
+    arts = [news.Article("Broadcom Launches Arcot Scam Defense to Block Social Engineering Fraud", "u", "2026-10-21", "BR"),
+            news.Article("Broadcom (AVGO) Debuts Arcot Scam Defense For Real Time Payment Fraud Detection", "v",
+                         "2026-10-22", "Yahoo")]
+    act = news.analyser(arts, -0.27, "Broadcom")
+    assert act.verdict != "rouge" and not act.alertes
+    vraie = news.analyser([news.Article("Broadcom accused of accounting fraud by SEC", "w", "2026-11-01", "R")],
+                          -0.27, "Broadcom")
+    assert vraie.verdict == "rouge"  # une vraie accusation reste une alerte grave
+
+
+def test_une_enquete_pour_fraude_reste_grave():
+    for titre in ["Broadcom faces SEC fraud probe", "Broadcom hit by fraud allegations from short seller",
+                  "Broadcom : soupçons de fraude comptable"]:
+        act = news.analyser([news.Article(titre, "u", "2026-11-01", "R")], -0.27, "Broadcom")
+        assert act.alertes and act.alertes[0].gravite == 2, titre

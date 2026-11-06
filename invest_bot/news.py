@@ -58,6 +58,16 @@ SIGNAUX = {
     "cyberattaque": 1, "data breach": 1, "boycott": 1,
 }
 DEMENTIS = ("denies", "dement", "rumour", "rumor", "rumeur")
+# « Fraude » dans un titre qui parle de la COMBATTRE (produit anti-fraude, détection…) :
+# ce n'est pas une accusation contre l'entreprise. Cas Broadcom, nov. 2026 : le lancement
+# d'« Arcot Scam Defense… to Block Social Engineering Fraud » avait été pris pour un scandale.
+FRAUDES = {"fraude", "fraud"}
+_PROTECTION = re.compile(
+    r"anti-?fraud|antifraude"
+    r"|fraud (detection|prevention|defen[cs]e|protection|management|solution|tools?|platform)"
+    r"|(?<![a-z])(prevent|block|fight|combat|stop|reduce|tackle)\w*(?![a-z])[^.;]{0,40}fraud"
+    r"|protect\w* (customers |users |banks )?against [^.;]{0,30}fraud"
+    r"|(lutte|lutter) contre (la )?fraude|(prevention|detection) de (la )?fraude")
 
 # Raisons « ordinaires » d'une baisse : rien de grave, mais elles *expliquent* le recul.
 # Quand un titre est donné en « braderie » alors que la presse en donne déjà la raison
@@ -131,7 +141,40 @@ MOTIFS = {
     "rate hike fears": "crainte de taux plus élevés",
     # risque juridique (sans procès en cours : sinon c'est un signal d'alarme)
     "liability fears": "risque juridique", "liability concerns": "risque juridique",
+    # causes ponctuelles : la baisse ne remet pas en cause l'entreprise
+    "one-time charge": "charge exceptionnelle", "one-off charge": "charge exceptionnelle",
+    "one-time": "charge exceptionnelle", "one-off": "charge exceptionnelle",
+    "charge exceptionnelle": "charge exceptionnelle", "element exceptionnel": "charge exceptionnelle",
+    "weather": "météo défavorable", "hurricane": "météo défavorable", "meteo": "météo défavorable",
+    "tough comparison": "base de comparaison difficile", "difficult comparison": "base de comparaison difficile",
+    "tough comps": "base de comparaison difficile", "tough year-over-year comparison": "base de comparaison difficile",
+    "temporary": "problème temporaire", "temporarily": "problème temporaire", "temporaire": "problème temporaire",
+    "overreaction": "réaction excessive du marché", "overdone": "réaction excessive du marché",
+    "oversold": "réaction excessive du marché", "buy the dip": "réaction excessive du marché",
+    "excessive": "réaction excessive du marché",
+    "to acquire": "réaction à une acquisition", "acquisition of": "réaction à une acquisition",
+    "agrees to buy": "réaction à une acquisition", "all-stock deal": "réaction à une acquisition",
+    "rachat de": "réaction à une acquisition", "acquisition de": "réaction à une acquisition",
+    "strike": "incident ponctuel (grève, panne)", "outage": "incident ponctuel (grève, panne)",
+    "greve": "incident ponctuel (grève, panne)", "plant fire": "incident ponctuel (grève, panne)",
 }
+
+# Pour le tri « baisse passagère » : causes qui ne cassent pas la thèse d'investissement…
+PASSAGERES = {"recul malgré de bons résultats", "repli de tout le secteur", "prises de bénéfices",
+              "droits de douane", "crainte de taux plus élevés", "charge exceptionnelle", "météo défavorable",
+              "base de comparaison difficile", "problème temporaire", "réaction excessive du marché",
+              "réaction à une acquisition", "incident ponctuel (grève, panne)"}
+# … et causes qui peuvent la casser (dans le doute, le titre est écarté).
+STRUCTURELLES = {"concurrence plus forte", "risque juridique", "prévisions des analystes abaissées",
+                 "trésorerie sous pression", "marges sous pression", "prévisions décevantes",
+                 "résultats sous les attentes", "coûts en hausse", "inquiétudes sur les dépenses en IA"}
+
+# Recherches d'articles « baisse passagère », tous titres confondus (7 derniers jours).
+REQUETES_PASSAGERES = [
+    ("en", '"falls despite" shares'), ("en", '"fell despite" stock'), ("en", '"despite strong" shares fall'),
+    ("en", '"one-time charge" shares fall'), ("en", '"overreaction" stock'), ("en", '"buy the dip" stock'),
+    ("en", '"tough comparison" shares'), ("fr", '"recule malgré" action'), ("fr", '"chute malgré" action'),
+]
 
 # Tournures trop variables pour une liste de mots : « shares fell 7% despite record backlog »,
 # « stock still fell », « after a 20% run ».
@@ -228,9 +271,14 @@ def signaux(titre: str) -> tuple[int, list[str]]:
 
 def lire_flux(nom: str, jours: int = 30) -> list[Article]:
     """Titres d'articles récents sur `nom` (français + anglais). Lève une exception si injoignable."""
+    return lire_requete(f'"{nom}" when:{jours}d')
+
+
+def lire_requete(requete: str, langues: list[tuple[str, str, str]] | None = None) -> list[Article]:
+    """Titres Google Actualités pour une recherche libre. Lève une exception si injoignable."""
     vus, articles = set(), []
-    for hl, gl, lang in LANGUES:
-        url = GOOGLE_NEWS.format(q=quote(f'"{nom}" when:{jours}d'), hl=hl, gl=gl, lang=lang)
+    for hl, gl, lang in langues or LANGUES:
+        url = GOOGLE_NEWS.format(q=quote(requete), hl=hl, gl=gl, lang=lang)
         r = requests.get(url, timeout=15, headers={"User-Agent": "Mozilla/5.0 (bot-investissement)"})
         r.raise_for_status()
         for item in ET.fromstring(r.content).iter("item"):
@@ -271,6 +319,11 @@ def analyser(articles: list[Article], vs_marche_3m: float | None, nom: str | Non
         t = _normaliser(a.titre)
         if a.gravite >= 2 and (not _sujet(a.titre, alias) or any(d in t for d in DEMENTIS)):
             a.gravite = 1  # grave pour quelqu'un d'autre, ou simple rumeur démentie
+        graves_ici = {m for m in a.mots if SIGNAUX[m] >= 2}
+        if graves_ici and graves_ici <= FRAUDES and _PROTECTION.search(t):
+            # l'entreprise lutte contre la fraude (produit, partenariat) : pas une alerte
+            a.mots = [m for m in a.mots if m not in FRAUDES]
+            a.gravite = max((SIGNAUX[m] for m in a.mots), default=0)
     alertes = sorted([a for a in articles if a.gravite], key=lambda a: (-a.gravite, a.date))
     graves = sum(1 for a in alertes if a.gravite >= 2)
     mineurs = len(alertes) - graves
