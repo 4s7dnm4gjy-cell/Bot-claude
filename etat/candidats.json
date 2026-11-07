@@ -1,5 +1,5 @@
 {
- "calcule_le": "2026-11-06T21:50+00:00",
+ "calcule_le": "2026-11-07T20:34+00:00",
  "valeur_coeur": 0,
  "candidats": [
   {
@@ -17,9 +17,9 @@
    "n_12m": 764,
    "base_moy_12m": 0.24424654350432465,
    "pire_12m": -0.601963760394591,
-   "vs_marche_3m": -0.2957561929464242,
+   "vs_marche_3m": -0.30107937415685626,
    "devise": "USD",
-   "prix_eur": 501.37039934889964,
+   "prix_eur": 497.5214456562926,
    "fondamental": 94.0,
    "fondamental_notes": [
     "chiffre d'affaires +17.3% sur un an",
@@ -53,9 +53,9 @@
    "n_12m": 714,
    "base_moy_12m": 0.2527948224084653,
    "pire_12m": -0.532725858700333,
-   "vs_marche_3m": -0.20899019883457726,
+   "vs_marche_3m": -0.2149794710106171,
    "devise": "USD",
-   "prix_eur": 546.0838532439308,
+   "prix_eur": 541.8916403287968,
    "fondamental": 94.0,
    "fondamental_notes": [
     "chiffre d'affaires +28.8% sur un an",
@@ -89,9 +89,9 @@
    "n_12m": 851,
    "base_moy_12m": 0.2208840209887595,
    "pire_12m": -0.455209335266446,
-   "vs_marche_3m": -0.2965203072111122,
+   "vs_marche_3m": -0.3018376224182372,
    "devise": "USD",
-   "prix_eur": 415.9643011782096,
+   "prix_eur": 412.77099871142707,
    "fondamental": 94.0,
    "fondamental_notes": [
     "chiffre d'affaires +5.4% sur un an",
@@ -126,9 +126,9 @@
    "n_12m": 828,
    "base_moy_12m": 0.22166054506053606,
    "pire_12m": -0.47422759547653115,
-   "vs_marche_3m": -0.1664991939663788,
+   "vs_marche_3m": -0.17281466392015432,
    "devise": "USD",
-   "prix_eur": 254.34252291117696,
+   "prix_eur": 252.38996928212887,
    "fondamental": 90.0,
    "fondamental_notes": [
     "chiffre d'affaires +10.4% sur un an",
@@ -162,9 +162,9 @@
    "n_12m": 275,
    "base_moy_12m": 0.2796448103772484,
    "pire_12m": -0.6426426307026378,
-   "vs_marche_3m": -0.3441234359576105,
+   "vs_marche_3m": -0.34907530829374345,
    "devise": "USD",
-   "prix_eur": 29.455947961614864,
+   "prix_eur": 29.2298185773845,
    "fondamental": 89.5,
    "fondamental_notes": [
     "chiffre d'affaires +0.2% sur un an",
@@ -175,7 +175,7 @@
     "P/E attendu 13.3 (actuel 14.9)",
     "marge nette 8%",
     "dette / capitaux propres 56 %",
-    "🏷️ braderie probable : -34% vs marché en 3 mois, alors que les bénéfices attendus montent (+12%) et que les analystes restent à l'achat (+8 pts)"
+    "🏷️ braderie probable : -35% vs marché en 3 mois, alors que les bénéfices attendus montent (+12%) et que les analystes restent à l'achat (+8 pts)"
    ],
    "score_global": 90.2,
    "braderie": true,
@@ -198,9 +198,9 @@
    "n_12m": 596,
    "base_moy_12m": 0.21570199051192865,
    "pire_12m": -0.6126620296541568,
-   "vs_marche_3m": -0.29211824792945706,
+   "vs_marche_3m": -0.29746935715862477,
    "devise": "USD",
-   "prix_eur": 128.0822233532289,
+   "prix_eur": 127.09895320570335,
    "fondamental": 85.0,
    "fondamental_notes": [
     "chiffre d'affaires +20.5% sur un an",
@@ -211,7 +211,7 @@
     "P/E attendu 16.6 (actuel 26.9), retenu 21.7 : la moitié seulement de la croissance attendue est comptée",
     "marge nette 11%",
     "dette / capitaux propres 55 %",
-    "⚠️ chute de -29% vs marché en 3 mois : braderie non retenue (bénéfices attendus +63% : attente trop élevée pour s'y fier) (-6 pts)"
+    "⚠️ chute de -30% vs marché en 3 mois : braderie non retenue (bénéfices attendus +63% : attente trop élevée pour s'y fier) (-6 pts)"
    ],
    "score_global": 88.8,
    "braderie": false,
@@ -234,9 +234,9 @@
    "n_12m": 461,
    "base_moy_12m": 0.29413876540661277,
    "pire_12m": -0.11731268284301988,
-   "vs_marche_3m": -0.16361225349041042,
+   "vs_marche_3m": -0.1699498861012151,
    "devise": "USD",
-   "prix_eur": 235.96171415200695,
+   "prix_eur": 234.15026754052232,
    "fondamental": 86.0,
    "fondamental_notes": [
     "chiffre d'affaires +32.5% sur un an",
@@ -269,9 +269,9 @@
    "n_12m": 591,
    "base_moy_12m": 0.20894541773036976,
    "pire_12m": -0.4280715970366712,
-   "vs_marche_3m": -0.18970439829075492,
+   "vs_marche_3m": -0.1958417249855986,
    "devise": "USD",
-   "prix_eur": 47.531596331044774,
+   "prix_eur": 47.16670260486655,
    "fondamental": 85.0,
    "fondamental_notes": [
     "chiffre d'affaires +31.6% sur un an",
@@ -304,9 +304,9 @@
    "n_12m": 1050,
    "base_moy_12m": 0.14907884881774736,
    "pire_12m": -0.27903837939205667,
-   "vs_marche_3m": -0.1087818206453115,
+   "vs_marche_3m": -0.11554037917683357,
    "devise": "USD",
-   "prix_eur": 112.48366990529965,
+   "prix_eur": 111.62014777235714,
    "fondamental": 79.0,
    "fondamental_notes": [
     "chiffre d'affaires +29.5% sur un an",
@@ -325,41 +325,6 @@
    "n_episodes": 6
   },
   {
-   "ticker": "ESE",
-   "nom": "ESCO Technologies Inc.",
-   "isin": "ESE",
-   "type": "action",
-   "prix": 230.41000366210938,
-   "score": 94.16204394812878,
-   "baisse": 0.35042602165787184,
-   "perf_5ans": 1.6595235977536937,
-   "tranche": "80-100 (soldé)",
-   "moy_12m": 0.16598640534771703,
-   "pos_12m": 0.7235169491525424,
-   "n_12m": 944,
-   "base_moy_12m": 0.15817313439553926,
-   "pire_12m": -0.3859228324651761,
-   "vs_marche_3m": -0.19447149263380115,
-   "devise": "USD",
-   "prix_eur": 206.7929658992928,
-   "fondamental": 81.0,
-   "fondamental_notes": [
-    "chiffre d'affaires +14.4% sur un an",
-    "bénéfices +24.8% sur un an",
-    "bénéfices attendus +71% sur 12 mois : attente élevée, elle repose sur des prévisions qui peuvent être revues à la baisse (points réduits)",
-    "analystes : « achat fort » (1.5/5, 4 avis)",
-    "objectif moyen des analystes : +46%",
-    "P/E attendu 26.1 (actuel 44.7), retenu 35.4 : la moitié seulement de la croissance attendue est comptée",
-    "marge nette 24%",
-    "dette / capitaux propres 9 %"
-   ],
-   "score_global": 86.3,
-   "braderie": false,
-   "perf_1an": 0.03728052203680576,
-   "bonus_braderie": 0.0,
-   "n_episodes": 7
-  },
-  {
    "ticker": "VMI",
    "nom": "Valmont Industries",
    "isin": "VMI",
@@ -374,9 +339,9 @@
    "n_12m": 882,
    "base_moy_12m": 0.20112283824983607,
    "pire_12m": -0.49365183364273724,
-   "vs_marche_3m": -0.13583661900983657,
+   "vs_marche_3m": -0.14238748146236568,
    "devise": "USD",
-   "prix_eur": 362.8682010720645,
+   "prix_eur": 360.08251028485455,
    "fondamental": 80.0,
    "fondamental_notes": [
     "chiffre d'affaires +5.5% sur un an",
@@ -409,9 +374,9 @@
    "n_12m": 1119,
    "base_moy_12m": 0.4121508288283535,
    "pire_12m": -0.5780541699790235,
-   "vs_marche_3m": -0.18177052478052536,
+   "vs_marche_3m": -0.1879687587642388,
    "devise": "USD",
-   "prix_eur": 244.44307221023516,
+   "prix_eur": 242.56651534401882,
    "fondamental": 77.5,
    "fondamental_notes": [
     "chiffre d'affaires +31.2% sur un an",
@@ -420,7 +385,8 @@
     "objectif moyen des analystes : +34%",
     "P/E attendu 4.5 (actuel 42.3) non fiable : à vérifier à la main",
     "marge nette 60%",
-    "dette / capitaux propres 1 %"
+    "dette / capitaux propres 1 %",
+    "données du 2026-10-30 (Yahoo indisponible aujourd'hui)"
    ],
    "score_global": 85.8,
    "braderie": false,
@@ -477,9 +443,9 @@
    "n_12m": 275,
    "base_moy_12m": 0.15568036814856814,
    "pire_12m": -0.04549921686099334,
-   "vs_marche_3m": -0.18900981021070795,
+   "vs_marche_3m": -0.19515246916561124,
    "devise": "USD",
-   "prix_eur": 104.1997423886811,
+   "prix_eur": 103.39981486253187,
    "fondamental": 80.0,
    "fondamental_notes": [
     "chiffre d'affaires +29.6% sur un an",
@@ -548,9 +514,9 @@
    "n_12m": 305,
    "base_moy_12m": 0.26239864815926434,
    "pire_12m": -0.5489179741044851,
-   "vs_marche_3m": -0.24306543359497823,
+   "vs_marche_3m": -0.24879311473806554,
    "devise": "USD",
-   "prix_eur": 124.29477248452626,
+   "prix_eur": 123.34057809222199,
    "fondamental": 76.0,
    "fondamental_notes": [
     "chiffre d'affaires +28.9% sur un an",
@@ -561,7 +527,7 @@
     "P/E attendu 21.6 (actuel 38.4), retenu 30.0 : la moitié seulement de la croissance attendue est comptée",
     "marge nette 36%",
     "dette / capitaux propres 92 %",
-    "⚠️ chute de -24% vs marché en 3 mois : braderie non retenue (bénéfices attendus +78% : attente trop élevée pour s'y fier) (-6 pts)"
+    "⚠️ chute de -25% vs marché en 3 mois : braderie non retenue (bénéfices attendus +78% : attente trop élevée pour s'y fier) (-6 pts)"
    ],
    "score_global": 83.6,
    "braderie": false,
@@ -584,9 +550,9 @@
    "n_12m": 542,
    "base_moy_12m": 0.20045678096691014,
    "pire_12m": -0.6722795749782962,
-   "vs_marche_3m": -0.1769478591125897,
+   "vs_marche_3m": -0.178215648572997,
    "devise": "JPY",
-   "prix_eur": 24.413039421686314,
+   "prix_eur": 24.441420491704406,
    "fondamental": 78.5,
    "fondamental_notes": [
     "chiffre d'affaires +10.6% sur un an",
@@ -596,7 +562,8 @@
     "objectif moyen des analystes : +47%",
     "P/E attendu 23.1 (actuel 23.5)",
     "marge nette 10%",
-    "dette / capitaux propres 28 %"
+    "dette / capitaux propres 28 %",
+    "données du 2026-10-30 (Yahoo indisponible aujourd'hui)"
    ],
    "score_global": 83.5,
    "braderie": false,
@@ -619,9 +586,9 @@
    "n_12m": 1058,
    "base_moy_12m": 0.11948684300970669,
    "pire_12m": -0.2911364012830757,
-   "vs_marche_3m": -0.10439623764102746,
+   "vs_marche_3m": -0.11118846370840818,
    "devise": "USD",
-   "prix_eur": 52.422971722776495,
+   "prix_eur": 52.02052756003405,
    "fondamental": 76.0,
    "fondamental_notes": [
     "chiffre d'affaires +14.2% sur un an",
@@ -641,6 +608,42 @@
    "n_episodes": 4
   },
   {
+   "ticker": "ESE",
+   "nom": "ESCO Technologies Inc.",
+   "isin": "ESE",
+   "type": "action",
+   "prix": 230.41000366210938,
+   "score": 94.16204394812878,
+   "baisse": 0.35042602165787184,
+   "perf_5ans": 1.6595235977536937,
+   "tranche": "80-100 (soldé)",
+   "moy_12m": 0.16598640534771703,
+   "pos_12m": 0.7235169491525424,
+   "n_12m": 944,
+   "base_moy_12m": 0.15817313439553926,
+   "pire_12m": -0.3859228324651761,
+   "vs_marche_3m": -0.2005722229811172,
+   "devise": "USD",
+   "prix_eur": 205.2054438781745,
+   "fondamental": 75.0,
+   "fondamental_notes": [
+    "chiffre d'affaires +14.4% sur un an",
+    "bénéfices +24.8% sur un an",
+    "bénéfices attendus +71% sur 12 mois : attente élevée, elle repose sur des prévisions qui peuvent être revues à la baisse (points réduits)",
+    "analystes : « achat fort » (1.5/5, 4 avis)",
+    "objectif moyen des analystes : +46%",
+    "P/E attendu 26.1 (actuel 44.7), retenu 35.4 : la moitié seulement de la croissance attendue est comptée",
+    "marge nette 24%",
+    "dette / capitaux propres 9 %",
+    "⚠️ chute de -20% vs marché en 3 mois : braderie non retenue (bénéfices attendus +71% : attente trop élevée pour s'y fier) (-6 pts)"
+   ],
+   "score_global": 82.7,
+   "braderie": false,
+   "perf_1an": 0.03728052203680576,
+   "bonus_braderie": 0.0,
+   "n_episodes": 7
+  },
+  {
    "ticker": "WDC",
    "nom": "Western Digital",
    "isin": "WDC",
@@ -655,9 +658,9 @@
    "n_12m": 744,
    "base_moy_12m": 0.4392539260331324,
    "pire_12m": -0.48424958175101784,
-   "vs_marche_3m": -0.36481208420095124,
+   "vs_marche_3m": -0.3696051325435762,
    "devise": "USD",
-   "prix_eur": 236.74253472290948,
+   "prix_eur": 234.92509385603296,
    "fondamental": 72.5,
    "fondamental_notes": [
     "chiffre d'affaires +55.5% sur un an",
@@ -668,7 +671,7 @@
     "P/E attendu 8.4 (actuel 11.9), retenu 10.1 : la moitié seulement de la croissance attendue est comptée",
     "marge nette 69%",
     "dette / capitaux propres 10 %",
-    "⚠️ chute de -36% vs marché en 3 mois : braderie non retenue (bénéfices attendus +42% : attente trop élevée pour s'y fier) (-12 pts)"
+    "⚠️ chute de -37% vs marché en 3 mois : braderie non retenue (bénéfices attendus +42% : attente trop élevée pour s'y fier) (-12 pts)"
    ],
    "score_global": 82.6,
    "braderie": false,
@@ -704,7 +707,8 @@
     "P/E attendu 18.9 (actuel 28.5), retenu 23.7 : la moitié seulement de la croissance attendue est comptée",
     "marge nette 11%",
     "dette / capitaux propres 84 %",
-    "⚠️ chute de -24% vs marché en 3 mois : braderie non retenue (bénéfices attendus +51% : attente trop élevée pour s'y fier) (-6 pts)"
+    "⚠️ chute de -24% vs marché en 3 mois : braderie non retenue (bénéfices attendus +51% : attente trop élevée pour s'y fier) (-6 pts)",
+    "données du 2026-10-30 (Yahoo indisponible aujourd'hui)"
    ],
    "score_global": 82.5,
    "braderie": false,
@@ -727,9 +731,9 @@
    "n_12m": 360,
    "base_moy_12m": 0.5795487175365927,
    "pire_12m": -0.6319999933242798,
-   "vs_marche_3m": -0.3571970562955882,
+   "vs_marche_3m": -0.35606576693966174,
    "devise": "AUD",
-   "prix_eur": 2.5140025426848744,
+   "prix_eur": 2.515102880658436,
    "fondamental": 76.5,
    "fondamental_notes": [
     "chiffre d'affaires +98.5% sur un an",
@@ -763,9 +767,9 @@
    "n_12m": 184,
    "base_moy_12m": 0.2677148868206868,
    "pire_12m": -0.2679090753263025,
-   "vs_marche_3m": -0.29009921744266254,
+   "vs_marche_3m": -0.2954658264996176,
    "devise": "USD",
-   "prix_eur": 95.25166682911365,
+   "prix_eur": 94.52043248571205,
    "fondamental": 75.0,
    "fondamental_notes": [
     "chiffre d'affaires +18.4% sur un an",
@@ -776,7 +780,7 @@
     "P/E attendu 27.2 (actuel 49.9), retenu 38.6 : la moitié seulement de la croissance attendue est comptée",
     "marge nette 12%",
     "dette / capitaux propres 64 %",
-    "⚠️ chute de -29% vs marché en 3 mois : braderie non retenue (bénéfices attendus +83% : attente trop élevée pour s'y fier) (-6 pts)"
+    "⚠️ chute de -30% vs marché en 3 mois : braderie non retenue (bénéfices attendus +83% : attente trop élevée pour s'y fier) (-6 pts)"
    ],
    "score_global": 82.2,
    "braderie": false,
@@ -799,9 +803,9 @@
    "n_12m": 692,
    "base_moy_12m": 0.20035955792127302,
    "pire_12m": -0.4269363028752551,
-   "vs_marche_3m": -0.16931277181001791,
+   "vs_marche_3m": -0.17560664230190892,
    "devise": "USD",
-   "prix_eur": 131.95044593034993,
+   "prix_eur": 130.9374799539694,
    "fondamental": 73.5,
    "fondamental_notes": [
     "chiffre d'affaires +4.8% sur un an",
@@ -834,9 +838,9 @@
    "n_12m": 304,
    "base_moy_12m": 0.41627957756879014,
    "pire_12m": -0.4343442183578168,
-   "vs_marche_3m": -0.35872183162923954,
+   "vs_marche_3m": -0.36356163402865604,
    "devise": "USD",
-   "prix_eur": 913.2061952965124,
+   "prix_eur": 906.1956331211971,
    "fondamental": 71.5,
    "fondamental_notes": [
     "chiffre d'affaires +53.7% sur un an",
@@ -906,9 +910,9 @@
    "n_12m": 925,
    "base_moy_12m": 0.13658879476643976,
    "pire_12m": -0.2753429490049898,
-   "vs_marche_3m": -0.019431008173229958,
+   "vs_marche_3m": -0.02687550097619773,
    "devise": "USD",
-   "prix_eur": 70.15756915400284,
+   "prix_eur": 69.61897885188228,
    "fondamental": 72.0,
    "fondamental_notes": [
     "chiffre d'affaires -0.1% sur un an",
@@ -942,9 +946,9 @@
    "n_12m": 742,
    "base_moy_12m": 0.19350632116550423,
    "pire_12m": -0.2148859112821918,
-   "vs_marche_3m": -0.10278485209161903,
+   "vs_marche_3m": -0.10958944855096675,
    "devise": "USD",
-   "prix_eur": 121.4317454648671,
+   "prix_eur": 120.49953014917698,
    "fondamental": 75.5,
    "fondamental_notes": [
     "chiffre d'affaires +5.4% sur un an",
@@ -978,9 +982,9 @@
    "n_12m": 493,
    "base_moy_12m": 0.4963075351393064,
    "pire_12m": 0.04423462302551728,
-   "vs_marche_3m": -0.2667029411164703,
+   "vs_marche_3m": -0.2722491602666338,
    "devise": "USD",
-   "prix_eur": 263.58676140161185,
+   "prix_eur": 261.5632409864924,
    "fondamental": 68.0,
    "fondamental_notes": [
     "chiffre d'affaires +85.5% sur un an",
@@ -1015,9 +1019,9 @@
    "n_12m": 785,
    "base_moy_12m": 0.19087415821292342,
    "pire_12m": -0.5531235372495056,
-   "vs_marche_3m": -0.1695678595739255,
+   "vs_marche_3m": -0.17585977179107182,
    "devise": "USD",
-   "prix_eur": 290.3950804133978,
+   "prix_eur": 288.16575610840573,
    "fondamental": 74.5,
    "fondamental_notes": [
     "chiffre d'affaires +15.2% sur un an",
@@ -1051,9 +1055,9 @@
    "n_12m": 670,
    "base_moy_12m": 0.21677107374566115,
    "pire_12m": -0.36256166826385827,
-   "vs_marche_3m": -0.1480358441615499,
+   "vs_marche_3m": -0.15449305478948872,
    "devise": "USD",
-   "prix_eur": 306.91805771037053,
+   "prix_eur": 304.5618887121883,
    "fondamental": 72.0,
    "fondamental_notes": [
     "chiffre d'affaires +3.0% sur un an",
@@ -1087,9 +1091,9 @@
    "n_12m": 582,
    "base_moy_12m": 0.2961046295481937,
    "pire_12m": -0.5987215513736444,
-   "vs_marche_3m": -0.2510863290691201,
+   "vs_marche_3m": -0.25675243486732613,
    "devise": "USD",
-   "prix_eur": 403.93780737653395,
+   "prix_eur": 400.83683069880317,
    "fondamental": 68.5,
    "fondamental_notes": [
     "chiffre d'affaires +9.4% sur un an",
@@ -1100,7 +1104,7 @@
     "P/E attendu 14.9 (actuel 26.5), retenu 20.7 : la moitié seulement de la croissance attendue est comptée",
     "marge nette 8%",
     "dette / capitaux propres 60 %",
-    "⚠️ chute de -25% vs marché en 3 mois : braderie non retenue (bénéfices attendus +78% : attente trop élevée pour s'y fier) (-6 pts)",
+    "⚠️ chute de -26% vs marché en 3 mois : braderie non retenue (bénéfices attendus +78% : attente trop élevée pour s'y fier) (-6 pts)",
     "données du 2026-10-29 (Yahoo indisponible aujourd'hui)"
    ],
    "score_global": 79.7,
@@ -1159,9 +1163,9 @@
    "n_12m": 661,
    "base_moy_12m": 0.17342419181409482,
    "pire_12m": -0.547714262016215,
-   "vs_marche_3m": -0.18258216775397818,
+   "vs_marche_3m": -0.18877417086282566,
    "devise": "USD",
-   "prix_eur": 231.82422515729985,
+   "prix_eur": 230.04454149704844,
    "fondamental": 72.5,
    "fondamental_notes": [
     "chiffre d'affaires +17.6% sur un an",
@@ -1185,18 +1189,18 @@
    "isin": "SXI",
    "type": "action",
    "prix": 228.36000061035156,
-   "score": 94.15259280081033,
+   "score": 94.1575296096571,
    "baisse": 0.36089082395959315,
    "perf_5ans": 1.098199304385668,
    "tranche": "80-100 (soldé)",
    "moy_12m": 0.4274660898272623,
    "pos_12m": 0.7717791411042945,
    "n_12m": 815,
-   "base_moy_12m": 0.1804657270101526,
+   "base_moy_12m": 0.1804635053639242,
    "pire_12m": -0.5488459739248044,
-   "vs_marche_3m": -0.2673589300635474,
+   "vs_marche_3m": -0.2729001132740475,
    "devise": "USD",
-   "prix_eur": 204.95308827055374,
+   "prix_eur": 203.3796907446236,
    "fondamental": 68.5,
    "fondamental_notes": [
     "chiffre d'affaires +2.8% sur un an",
@@ -1231,9 +1235,9 @@
    "n_12m": 937,
    "base_moy_12m": 0.21336456876760962,
    "pire_12m": -0.7239754897888857,
-   "vs_marche_3m": 0.009564559642752268,
+   "vs_marche_3m": 0.0080056418097747,
    "devise": "JPY",
-   "prix_eur": 43.23543617302358,
+   "prix_eur": 43.28569898217627,
    "fondamental": 71.0,
    "fondamental_notes": [
     "chiffre d'affaires +42.3% sur un an",
@@ -1266,9 +1270,9 @@
    "n_12m": 627,
    "base_moy_12m": 0.21533359208001046,
    "pire_12m": -0.6786665815639483,
-   "vs_marche_3m": 0.0012794456989317915,
+   "vs_marche_3m": -0.0002665398491334958,
    "devise": "JPY",
-   "prix_eur": 26.168965690995538,
+   "prix_eur": 26.199388090875722,
    "fondamental": 71.0,
    "fondamental_notes": [
     "chiffre d'affaires +31.7% sur un an",
@@ -1293,18 +1297,18 @@
    "isin": "DAN",
    "type": "action",
    "prix": 21.5,
-   "score": 93.13547411496513,
+   "score": 93.177829049315,
    "baisse": 0.4433574494906847,
    "perf_5ans": 0.06764503415231449,
    "tranche": "80-100 (soldé)",
    "moy_12m": 0.34497245448140335,
    "pos_12m": 0.5919661733615222,
    "n_12m": 473,
-   "base_moy_12m": 0.15760930463624917,
+   "base_moy_12m": 0.15759564302400766,
    "pire_12m": -0.45077777595432456,
-   "vs_marche_3m": -0.24185764325469616,
+   "vs_marche_3m": -0.24759459644315385,
    "devise": "USD",
-   "prix_eur": 19.29624884410321,
+   "prix_eur": 19.148114115091634,
    "fondamental": 69.0,
    "fondamental_notes": [
     "chiffre d'affaires +6.3% sur un an",
@@ -1314,7 +1318,7 @@
     "P/E attendu 7.0",
     "marge nette 13%",
     "dette / capitaux propres 98 %",
-    "⚠️ sanction du marché méritée : -24% vs marché en 3 mois, et les perspectives se dégradent (-12 pts)",
+    "⚠️ sanction du marché méritée : -25% vs marché en 3 mois, et les perspectives se dégradent (-12 pts)",
     "données du 2026-10-29 (Yahoo indisponible aujourd'hui)"
    ],
    "score_global": 78.7,
@@ -1338,9 +1342,9 @@
    "n_12m": 467,
    "base_moy_12m": 0.12361424499742345,
    "pire_12m": -0.5301788079714268,
-   "vs_marche_3m": -0.21665437205446025,
+   "vs_marche_3m": -0.22258480739479192,
    "devise": "USD",
-   "prix_eur": 54.2089981222127,
+   "prix_eur": 53.79284287298782,
    "fondamental": 70.0,
    "fondamental_notes": [
     "chiffre d'affaires +17.7% sur un an",
@@ -1375,9 +1379,9 @@
    "n_12m": 891,
    "base_moy_12m": 0.1729129303157829,
    "pire_12m": -0.48209212921224076,
-   "vs_marche_3m": -0.1042322194165709,
+   "vs_marche_3m": -0.11102570462998707,
    "devise": "USD",
-   "prix_eur": 385.43136286744357,
+   "prix_eur": 382.4724576961735,
    "fondamental": 71.5,
    "fondamental_notes": [
     "chiffre d'affaires +24.6% sur un an",
@@ -1410,9 +1414,9 @@
    "n_12m": 600,
    "base_moy_12m": 0.1948554166975679,
    "pire_12m": -0.17100433508508983,
-   "vs_marche_3m": -0.12904434532417164,
+   "vs_marche_3m": -0.12896785320719784,
    "devise": "CAD",
-   "prix_eur": 117.00755030792874,
+   "prix_eur": 116.97261510628428,
    "fondamental": 67.0,
    "fondamental_notes": [
     "chiffre d'affaires +16.1% sur un an",
@@ -1422,7 +1426,8 @@
     "objectif moyen des analystes : +28%",
     "P/E attendu 20.8 (actuel 30.8), retenu 25.8 : la moitié seulement de la croissance attendue est comptée",
     "marge nette 9%",
-    "dette / capitaux propres 25 %"
+    "dette / capitaux propres 25 %",
+    "données du 2026-10-30 (Yahoo indisponible aujourd'hui)"
    ],
    "score_global": 78.5,
    "braderie": false,
@@ -1445,9 +1450,9 @@
    "n_12m": 393,
    "base_moy_12m": 0.23070707411603303,
    "pire_12m": -0.18770574246320204,
-   "vs_marche_3m": -0.25396400687818854,
+   "vs_marche_3m": -0.25960802112762404,
    "devise": "USD",
-   "prix_eur": 107.26919056144139,
+   "prix_eur": 106.44569929101417,
    "fondamental": 66.0,
    "fondamental_notes": [
     "chiffre d'affaires +18.0% sur un an",
@@ -1458,7 +1463,7 @@
     "P/E attendu 24.9 (actuel 33.8), retenu 29.4 : la moitié seulement de la croissance attendue est comptée",
     "marge nette 10%",
     "dette / capitaux propres 151 %",
-    "⚠️ chute de -25% vs marché en 3 mois : braderie non retenue (bénéfices attendus +36% : attente trop élevée pour s'y fier) (-6 pts)"
+    "⚠️ chute de -26% vs marché en 3 mois : braderie non retenue (bénéfices attendus +36% : attente trop élevée pour s'y fier) (-6 pts)"
    ],
    "score_global": 78.4,
    "braderie": false,
@@ -1481,9 +1486,9 @@
    "n_12m": 376,
    "base_moy_12m": 0.3551690540928637,
    "pire_12m": -0.49076016144958845,
-   "vs_marche_3m": -0.30993540947440257,
+   "vs_marche_3m": -0.315149738730502,
    "devise": "USD",
-   "prix_eur": 179.89489141497816,
+   "prix_eur": 178.51386232452523,
    "fondamental": 66.5,
    "fondamental_notes": [
     "chiffre d'affaires +54.4% sur un an",
@@ -1494,7 +1499,7 @@
     "P/E attendu 18.6 (actuel 33.9), retenu 26.3 : la moitié seulement de la croissance attendue est comptée",
     "marge nette 32%",
     "dette / capitaux propres 27 %",
-    "⚠️ chute de -31% vs marché en 3 mois : braderie non retenue (bénéfices attendus +82% : attente trop élevée pour s'y fier) (-12 pts)"
+    "⚠️ chute de -32% vs marché en 3 mois : braderie non retenue (bénéfices attendus +82% : attente trop élevée pour s'y fier) (-12 pts)"
    ],
    "score_global": 78.3,
    "braderie": false,
@@ -1503,59 +1508,23 @@
    "n_episodes": 8
   },
   {
-   "ticker": "JBHT",
-   "nom": "J.B. Hunt",
-   "isin": "JBHT",
-   "type": "action",
-   "prix": 217.5500030517578,
-   "score": 91.37756769028806,
-   "baisse": 0.26973983577266325,
-   "perf_5ans": 0.16356496540323295,
-   "tranche": "80-100 (soldé)",
-   "moy_12m": 0.2906708324688425,
-   "pos_12m": 0.8586956521739131,
-   "n_12m": 920,
-   "base_moy_12m": 0.19337622146053596,
-   "pire_12m": -0.31937045368682637,
-   "vs_marche_3m": -0.14133592670045403,
-   "devise": "USD",
-   "prix_eur": 195.25111604288986,
-   "fondamental": 69.5,
-   "fondamental_notes": [
-    "chiffre d'affaires +20.4% sur un an",
-    "bénéfices +3.4% sur un an",
-    "bénéfices attendus +39% sur 12 mois : attente élevée, elle repose sur des prévisions qui peuvent être revues à la baisse (points réduits)",
-    "analystes : « achat » (2.0/5, 23 avis)",
-    "objectif moyen des analystes : +25%",
-    "P/E attendu 22.7 (actuel 31.5), retenu 27.1 : la moitié seulement de la croissance attendue est comptée",
-    "marge nette 5%",
-    "dette / capitaux propres 40 %",
-    "données du 2026-10-28 (Yahoo indisponible aujourd'hui)"
-   ],
-   "score_global": 78.3,
-   "braderie": false,
-   "perf_1an": 0.288285202232309,
-   "bonus_braderie": 0.0,
-   "n_episodes": 5
-  },
-  {
    "ticker": "AMAT",
    "nom": "Applied Materials",
    "isin": "AMAT",
    "type": "action",
-   "prix": 332.7149963378906,
+   "prix": 332.7200012207031,
    "score": 95.75149685834462,
-   "baisse": 0.5393212055899026,
-   "perf_5ans": 1.4856020772313676,
+   "baisse": 0.5393142758049347,
+   "perf_5ans": 1.485639467031202,
    "tranche": "80-100 (soldé)",
    "moy_12m": 0.5739376843388055,
    "pos_12m": 0.9237875288683602,
    "n_12m": 433,
-   "base_moy_12m": 0.2507480915840986,
+   "base_moy_12m": 0.2507480951842275,
    "pire_12m": -0.3411807993636755,
-   "vs_marche_3m": -0.32751838967787594,
+   "vs_marche_3m": -0.3325878603426954,
    "devise": "USD",
-   "prix_eur": 298.6116913256198,
+   "prix_eur": 296.3237465929047,
    "fondamental": 66.5,
    "fondamental_notes": [
     "chiffre d'affaires +24.8% sur un an",
@@ -1570,9 +1539,45 @@
    ],
    "score_global": 78.2,
    "braderie": false,
-   "perf_1an": 0.38882998986823614,
+   "perf_1an": 0.38885088141632473,
    "bonus_braderie": 0.0,
    "n_episodes": 8
+  },
+  {
+   "ticker": "JBHT",
+   "nom": "J.B. Hunt",
+   "isin": "JBHT",
+   "type": "action",
+   "prix": 217.5500030517578,
+   "score": 91.35258535854994,
+   "baisse": 0.26973983577266325,
+   "perf_5ans": 0.16356496540323295,
+   "tranche": "80-100 (soldé)",
+   "moy_12m": 0.2906708324688425,
+   "pos_12m": 0.8586956521739131,
+   "n_12m": 920,
+   "base_moy_12m": 0.1933724167675823,
+   "pire_12m": -0.31937045368682637,
+   "vs_marche_3m": -0.14784457170123477,
+   "devise": "USD",
+   "prix_eur": 193.752199263888,
+   "fondamental": 69.5,
+   "fondamental_notes": [
+    "chiffre d'affaires +20.4% sur un an",
+    "bénéfices +3.4% sur un an",
+    "bénéfices attendus +39% sur 12 mois : attente élevée, elle repose sur des prévisions qui peuvent être revues à la baisse (points réduits)",
+    "analystes : « achat » (2.0/5, 23 avis)",
+    "objectif moyen des analystes : +25%",
+    "P/E attendu 22.7 (actuel 31.5), retenu 27.1 : la moitié seulement de la croissance attendue est comptée",
+    "marge nette 5%",
+    "dette / capitaux propres 40 %",
+    "données du 2026-10-28 (Yahoo indisponible aujourd'hui)"
+   ],
+   "score_global": 78.2,
+   "braderie": false,
+   "perf_1an": 0.288285202232309,
+   "bonus_braderie": 0.0,
+   "n_episodes": 5
   },
   {
    "ticker": "TFII.TO",
@@ -1589,9 +1594,9 @@
    "n_12m": 854,
    "base_moy_12m": 0.25252714319407465,
    "pire_12m": -0.6048594625200039,
-   "vs_marche_3m": -0.2855801668650527,
+   "vs_marche_3m": -0.2855175958217805,
    "devise": "CAD",
-   "prix_eur": 85.12990285059895,
+   "prix_eur": 85.10448542826823,
    "fondamental": 66.0,
    "fondamental_notes": [
     "chiffre d'affaires +13.4% sur un an",
@@ -1625,9 +1630,9 @@
    "n_12m": 212,
    "base_moy_12m": 0.3742124034178253,
    "pire_12m": -0.20787621795345723,
-   "vs_marche_3m": -0.34542275744327344,
+   "vs_marche_3m": -0.3503646550616396,
    "devise": "USD",
-   "prix_eur": 293.5991617949511,
+   "prix_eur": 291.34524018449196,
    "fondamental": 67.5,
    "fondamental_notes": [
     "chiffre d'affaires +44.6% sur un an",
@@ -1652,19 +1657,19 @@
    "nom": "Teradyne",
    "isin": "TER",
    "type": "action",
-   "prix": 218.21499633789062,
-   "score": 95.0580740618539,
-   "baisse": 0.5488202233401633,
-   "perf_5ans": 0.5931260340715001,
+   "prix": 218.22000122070312,
+   "score": 95.05313725300715,
+   "baisse": 0.548809875280005,
+   "perf_5ans": 0.5931625733068409,
    "tranche": "80-100 (soldé)",
    "moy_12m": 1.0166624480433726,
    "pos_12m": 0.8557993730407524,
    "n_12m": 319,
-   "base_moy_12m": 0.2592006098557226,
+   "base_moy_12m": 0.2592006144622332,
    "pire_12m": -0.7138728144632656,
-   "vs_marche_3m": -0.36901096840117376,
+   "vs_marche_3m": -0.3737576681594884,
    "devise": "USD",
-   "prix_eur": 195.84794748144225,
+   "prix_eur": 194.34890630555623,
    "fondamental": 65.5,
    "fondamental_notes": [
     "chiffre d'affaires +69.8% sur un an",
@@ -1680,7 +1685,7 @@
    ],
    "score_global": 77.3,
    "braderie": false,
-   "perf_1an": 0.16550817591108036,
+   "perf_1an": 0.1655349074920227,
    "bonus_braderie": 0.0,
    "n_episodes": 7
   },
@@ -1699,9 +1704,9 @@
    "n_12m": 863,
    "base_moy_12m": 0.2186654850013291,
    "pire_12m": -0.3922543580333715,
-   "vs_marche_3m": -0.32361959811691265,
+   "vs_marche_3m": -0.3287288756817389,
    "devise": "USD",
-   "prix_eur": 51.328020692785934,
+   "prix_eur": 50.93398232307709,
    "fondamental": 62.5,
    "fondamental_notes": [
     "chiffre d'affaires +101.2% sur un an",
@@ -1712,7 +1717,7 @@
     "P/E attendu 19.1 (actuel 35.8), retenu 27.4 : la moitié seulement de la croissance attendue est comptée",
     "marge nette 8%",
     "dette / capitaux propres 45 %",
-    "⚠️ chute de -32% vs marché en 3 mois : braderie non retenue (bénéfices attendus +88% : attente trop élevée pour s'y fier ; bénéfices passés +258% : départ très bas probable) (-12 pts)"
+    "⚠️ chute de -33% vs marché en 3 mois : braderie non retenue (bénéfices attendus +88% : attente trop élevée pour s'y fier ; bénéfices passés +258% : départ très bas probable) (-12 pts)"
    ],
    "score_global": 77.1,
    "braderie": false,
@@ -1735,9 +1740,9 @@
    "n_12m": 637,
    "base_moy_12m": 0.2292257851705698,
    "pire_12m": -0.5289462069994532,
-   "vs_marche_3m": -0.16246557426858788,
+   "vs_marche_3m": -0.16881200978285626,
    "devise": "USD",
-   "prix_eur": 255.59003359389402,
+   "prix_eur": 253.62790299170385,
    "fondamental": 65.0,
    "fondamental_notes": [
     "chiffre d'affaires +24.7% sur un an",
@@ -1747,7 +1752,8 @@
     "objectif moyen des analystes : +46%",
     "P/E attendu 18.5 (actuel 14.6)",
     "marge nette 50%",
-    "dette / capitaux propres 21 %"
+    "dette / capitaux propres 21 %",
+    "données du 2026-10-30 (Yahoo indisponible aujourd'hui)"
    ],
    "score_global": 77.0,
    "braderie": false,
@@ -1770,9 +1776,9 @@
    "n_12m": 633,
    "base_moy_12m": 0.2291782622241278,
    "pire_12m": -0.5289463252348168,
-   "vs_marche_3m": -0.16103637590153352,
+   "vs_marche_3m": -0.16739378318106668,
    "devise": "USD",
-   "prix_eur": 254.8271531616873,
+   "prix_eur": 252.8708790908368,
    "fondamental": 65.0,
    "fondamental_notes": [
     "chiffre d'affaires +24.7% sur un an",
@@ -1842,9 +1848,9 @@
    "n_12m": 881,
    "base_moy_12m": 0.14357690933561193,
    "pire_12m": -0.7653167794317166,
-   "vs_marche_3m": -0.05783937393110983,
+   "vs_marche_3m": -0.05929308055285998,
    "devise": "JPY",
-   "prix_eur": 41.77405237469526,
+   "prix_eur": 41.82261627060789,
    "fondamental": 66.0,
    "fondamental_notes": [
     "chiffre d'affaires +58.2% sur un an",
@@ -1878,9 +1884,9 @@
    "n_12m": 1008,
    "base_moy_12m": 0.3060098842533016,
    "pire_12m": -0.8386454118774939,
-   "vs_marche_3m": -0.20147215549140185,
+   "vs_marche_3m": -0.20751914268357452,
    "devise": "USD",
-   "prix_eur": 27.140398168796292,
+   "prix_eur": 26.93204495152165,
    "fondamental": 65.5,
    "fondamental_notes": [
     "chiffre d'affaires +10.0% sur un an",
@@ -1890,7 +1896,7 @@
     "P/E attendu 18.7 (actuel 26.8), retenu 22.7 : la moitié seulement de la croissance attendue est comptée",
     "marge nette 21%",
     "dette / capitaux propres 3 %",
-    "⚠️ chute de -20% vs marché en 3 mois : braderie non retenue (bénéfices attendus +43% : attente trop élevée pour s'y fier) (-6 pts)"
+    "⚠️ chute de -21% vs marché en 3 mois : braderie non retenue (bénéfices attendus +43% : attente trop élevée pour s'y fier) (-6 pts)"
    ],
    "score_global": 75.9,
    "braderie": false,
@@ -1913,9 +1919,9 @@
    "n_12m": 735,
    "base_moy_12m": 0.0985388265211454,
    "pire_12m": -0.4475017821992129,
-   "vs_marche_3m": -0.11717419440365295,
+   "vs_marche_3m": -0.11853528494205512,
    "devise": "JPY",
-   "prix_eur": 10.654507459905327,
+   "prix_eur": 10.666893722713686,
    "fondamental": 61.5,
    "fondamental_notes": [
     "chiffre d'affaires +15.0% sur un an",
@@ -1947,9 +1953,9 @@
    "n_12m": 519,
    "base_moy_12m": 0.4611241019300838,
    "pire_12m": -0.8465222135658315,
-   "vs_marche_3m": -0.3917549906482034,
+   "vs_marche_3m": -0.3963412018911624,
    "devise": "USD",
-   "prix_eur": 413.7384914513121,
+   "prix_eur": 410.562276228967,
    "fondamental": 61.5,
    "fondamental_notes": [
     "chiffre d'affaires +61.0% sur un an",
@@ -1960,7 +1966,7 @@
     "P/E attendu 9.1 (actuel 31.1) non fiable : à vérifier à la main",
     "marge nette 32%",
     "dette / capitaux propres 77 %",
-    "⚠️ chute de -39% vs marché en 3 mois : braderie non retenue (bénéfices passés +212% : départ très bas probable) (-12 pts)"
+    "⚠️ chute de -40% vs marché en 3 mois : braderie non retenue (bénéfices passés +212% : départ très bas probable) (-12 pts)"
    ],
    "score_global": 75.6,
    "braderie": false,
@@ -1983,9 +1989,9 @@
    "n_12m": 441,
    "base_moy_12m": 0.19302746052232864,
    "pire_12m": -0.5248444609728692,
-   "vs_marche_3m": -0.2836531198839215,
+   "vs_marche_3m": -0.2847543524516545,
    "devise": "JPY",
-   "prix_eur": 27.65300660247624,
+   "prix_eur": 27.685154255336638,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -2011,9 +2017,9 @@
    "n_12m": 204,
    "base_moy_12m": 0.2408300806836484,
    "pire_12m": -0.26650556742188336,
-   "vs_marche_3m": -0.33919496194253407,
+   "vs_marche_3m": -0.34418466951641513,
    "devise": "USD",
-   "prix_eur": 176.8164594781076,
+   "prix_eur": 175.45906309909165,
    "fondamental": 65.5,
    "fondamental_notes": [
     "chiffre d'affaires +30.0% sur un an",
@@ -2047,9 +2053,9 @@
    "n_12m": 235,
    "base_moy_12m": 0.3457172556614733,
    "pire_12m": -0.39742650992936224,
-   "vs_marche_3m": -0.3160793615883578,
+   "vs_marche_3m": -0.32124652454344116,
    "devise": "USD",
-   "prix_eur": 156.2547461178291,
+   "prix_eur": 155.05519927015197,
    "fondamental": 66.5,
    "fondamental_notes": [
     "chiffre d'affaires +23.4% sur un an",
@@ -2084,9 +2090,9 @@
    "n_12m": 838,
    "base_moy_12m": 0.20557558141330112,
    "pire_12m": -0.6015102852330185,
-   "vs_marche_3m": -0.19262253373698857,
+   "vs_marche_3m": -0.19873745829517653,
    "devise": "USD",
-   "prix_eur": 306.6936827238112,
+   "prix_eur": 304.33923622247795,
    "fondamental": 64.0,
    "fondamental_notes": [
     "chiffre d'affaires +21.4% sur un an",
@@ -2119,9 +2125,9 @@
    "n_12m": 1225,
    "base_moy_12m": 0.1291488851657795,
    "pire_12m": -0.8519816348915065,
-   "vs_marche_3m": -0.34287236710497415,
+   "vs_marche_3m": -0.34783384372984516,
    "devise": "USD",
-   "prix_eur": 15.20364956857754,
+   "prix_eur": 15.086933178411558,
    "fondamental": 61.0,
    "fondamental_notes": [
     "secteur financier : chiffre d'affaires, marge et dette non comparables (points neutres)",
@@ -2129,7 +2135,7 @@
     "analystes : « achat » (2.2/5, 9 avis)",
     "objectif moyen des analystes : +39%",
     "P/E attendu 5.9 (actuel 6.4)",
-    "⚠️ chute de -34% vs marché en 3 mois sans explication claire dans les chiffres (-12 pts)"
+    "⚠️ chute de -35% vs marché en 3 mois sans explication claire dans les chiffres (-12 pts)"
    ],
    "score_global": 74.6,
    "braderie": false,
@@ -2152,9 +2158,9 @@
    "n_12m": 616,
    "base_moy_12m": 0.10020940190755379,
    "pire_12m": -0.6601329014746917,
-   "vs_marche_3m": -0.19062881947473065,
+   "vs_marche_3m": -0.1918752542406248,
    "devise": "JPY",
-   "prix_eur": 26.616443675754986,
+   "prix_eur": 26.64738628550325,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -2180,9 +2186,9 @@
    "n_12m": 258,
    "base_moy_12m": 0.3080656919119622,
    "pire_12m": -0.3073770419720264,
-   "vs_marche_3m": -0.3132514178621927,
+   "vs_marche_3m": -0.3131913076839209,
    "devise": "CAD",
-   "prix_eur": 185.6363152836984,
+   "prix_eur": 185.5808894407515,
    "fondamental": 60.5,
    "fondamental_notes": [
     "chiffre d'affaires +82.5% sur un an",
@@ -2216,9 +2222,9 @@
    "n_12m": 1145,
    "base_moy_12m": 0.1448445456279585,
    "pire_12m": -0.19789482678206394,
-   "vs_marche_3m": -0.02763600237035735,
+   "vs_marche_3m": -0.027550491787179943,
    "devise": "CAD",
-   "prix_eur": 42.02486865300086,
+   "prix_eur": 42.0123211955367,
    "fondamental": 63.0,
    "fondamental_notes": [
     "chiffre d'affaires +97.1% sur un an",
@@ -2252,9 +2258,9 @@
    "n_12m": 493,
    "base_moy_12m": 0.1703078814943361,
    "pire_12m": -0.6666432092169936,
-   "vs_marche_3m": -0.28106946994736703,
+   "vs_marche_3m": -0.2821747353500518,
    "devise": "JPY",
-   "prix_eur": 11.934634353014632,
+   "prix_eur": 11.948508811141807,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -2280,9 +2286,9 @@
    "n_12m": 817,
    "base_moy_12m": 0.25098740567836075,
    "pire_12m": -0.7142948893463542,
-   "vs_marche_3m": -0.21751593303065775,
+   "vs_marche_3m": -0.2187203995369319,
    "devise": "JPY",
-   "prix_eur": 59.644850373632686,
+   "prix_eur": 59.714189739593365,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -2308,9 +2314,9 @@
    "n_12m": 1092,
    "base_moy_12m": 0.11828504671889357,
    "pire_12m": -0.4672148495572841,
-   "vs_marche_3m": -0.18541563618536172,
+   "vs_marche_3m": -0.1915858871349354,
    "devise": "USD",
-   "prix_eur": 74.1424711064587,
+   "prix_eur": 73.57328924347912,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -2336,9 +2342,9 @@
    "n_12m": 605,
    "base_moy_12m": 0.1473562895964847,
    "pire_12m": -0.44947467902775273,
-   "vs_marche_3m": -0.0495574004104109,
+   "vs_marche_3m": -0.051024034415167896,
    "devise": "JPY",
-   "prix_eur": 30.088646266356776,
+   "prix_eur": 30.123625441283945,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -2364,9 +2370,9 @@
    "n_12m": 402,
    "base_moy_12m": 0.21041374719183642,
    "pire_12m": -0.5639665866585014,
-   "vs_marche_3m": -0.3038519704968372,
+   "vs_marche_3m": -0.3049216745553912,
    "devise": "JPY",
-   "prix_eur": 7.70341847180821,
+   "prix_eur": 7.7123739834612515,
    "fondamental": 56.5,
    "fondamental_notes": [
     "chiffre d'affaires +17.1% sur un an",
@@ -2400,9 +2406,9 @@
    "n_12m": 402,
    "base_moy_12m": 0.22862190732528964,
    "pire_12m": -0.736942910009522,
-   "vs_marche_3m": -0.29217734289442765,
+   "vs_marche_3m": -0.293265269950447,
    "devise": "JPY",
-   "prix_eur": 37.80339329474118,
+   "prix_eur": 37.847341151191465,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -2428,16 +2434,17 @@
    "n_12m": 1191,
    "base_moy_12m": 0.10499864158074763,
    "pire_12m": -0.8944007858546169,
-   "vs_marche_3m": -0.18601214958878776,
+   "vs_marche_3m": -0.18726579054287862,
    "devise": "JPY",
-   "prix_eur": 2.322920560519472,
+   "prix_eur": 2.3256210424191575,
    "fondamental": 59.5,
    "fondamental_notes": [
     "chiffre d'affaires +3.9% sur un an",
     "objectif moyen des analystes : -27%",
     "P/E attendu 2.2",
     "marge nette 6%",
-    "dette / capitaux propres 196 %"
+    "dette / capitaux propres 196 %",
+    "données du 2026-10-30 (Yahoo indisponible aujourd'hui)"
    ],
    "score_global": 73.3,
    "braderie": false,
@@ -2460,9 +2467,9 @@
    "n_12m": 417,
    "base_moy_12m": 0.24697314118715596,
    "pire_12m": -0.49962487721496474,
-   "vs_marche_3m": -0.2868073687542654,
+   "vs_marche_3m": -0.2921992488945975,
    "devise": "USD",
-   "prix_eur": 126.72698966976257,
+   "prix_eur": 125.75412347048986,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -2488,9 +2495,9 @@
    "n_12m": 290,
    "base_moy_12m": 0.2554113606679988,
    "pire_12m": -0.7681452221790184,
-   "vs_marche_3m": -0.21965918562520326,
+   "vs_marche_3m": -0.225566553412477,
    "devise": "USD",
-   "prix_eur": 57.44897347592006,
+   "prix_eur": 57.00794536799071,
    "fondamental": 61.5,
    "fondamental_notes": [
     "chiffre d'affaires +122.6% sur un an",
@@ -2500,7 +2507,7 @@
     "P/E attendu 12.1 (actuel 32.7) non fiable : à vérifier à la main",
     "marge nette 12%",
     "dette / capitaux propres 4 %",
-    "⚠️ chute de -22% vs marché en 3 mois sans explication claire dans les chiffres (-6 pts)"
+    "⚠️ chute de -23% vs marché en 3 mois sans explication claire dans les chiffres (-6 pts)"
    ],
    "score_global": 73.2,
    "braderie": false,
@@ -2523,9 +2530,9 @@
    "n_12m": 558,
    "base_moy_12m": 0.22319292603331203,
    "pire_12m": -0.7310329667737057,
-   "vs_marche_3m": -0.20373236311012088,
+   "vs_marche_3m": -0.20495834447479422,
    "devise": "JPY",
-   "prix_eur": 60.5228135082873,
+   "prix_eur": 60.59317353917902,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -2551,9 +2558,9 @@
    "n_12m": 287,
    "base_moy_12m": 0.1873343006207936,
    "pire_12m": -0.28650765723177674,
-   "vs_marche_3m": -0.1594623190591995,
+   "vs_marche_3m": -0.15857943006832387,
    "devise": "SEK",
-   "prix_eur": 73.30366584441505,
+   "prix_eur": 73.30279718797776,
    "fondamental": 62.5,
    "fondamental_notes": [
     "chiffre d'affaires +6.8% sur un an",
@@ -2587,9 +2594,9 @@
    "n_12m": 412,
    "base_moy_12m": 0.26185353868706635,
    "pire_12m": -0.6064788833282174,
-   "vs_marche_3m": -0.209311904555044,
+   "vs_marche_3m": -0.2105291767794284,
    "devise": "JPY",
-   "prix_eur": 46.80393149452297,
+   "prix_eur": 46.85834281275024,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -2615,9 +2622,9 @@
    "n_12m": 633,
    "base_moy_12m": 0.4699248672007534,
    "pire_12m": -0.4786620598441078,
-   "vs_marche_3m": -0.4930083380092467,
+   "vs_marche_3m": -0.4968172408077499,
    "devise": "USD",
-   "prix_eur": 226.90594298121496,
+   "prix_eur": 225.16401631732293,
    "fondamental": 55.0,
    "fondamental_notes": [
     "chiffre d'affaires +127.0% sur un an",
@@ -2628,7 +2635,7 @@
     "P/E attendu 13.0 (actuel 18.8), retenu 15.9 : la moitié seulement de la croissance attendue est comptée",
     "marge nette 13%",
     "dette / capitaux propres 11 %",
-    "⚠️ chute de -49% vs marché en 3 mois : braderie non retenue (bénéfices attendus +45% : attente trop élevée pour s'y fier ; bénéfices passés +133% : départ très bas probable) (-25 pts)"
+    "⚠️ chute de -50% vs marché en 3 mois : braderie non retenue (bénéfices attendus +45% : attente trop élevée pour s'y fier ; bénéfices passés +133% : départ très bas probable) (-25 pts)"
    ],
    "score_global": 72.6,
    "braderie": false,
@@ -2651,9 +2658,9 @@
    "n_12m": 738,
    "base_moy_12m": 0.26752723707941023,
    "pire_12m": -0.7571800725928977,
-   "vs_marche_3m": -0.3374634919408934,
+   "vs_marche_3m": -0.3384807315705213,
    "devise": "JPY",
-   "prix_eur": 44.05675652479725,
+   "prix_eur": 44.1079741495306,
    "fondamental": 55.5,
    "fondamental_notes": [
     "chiffre d'affaires +34.8% sur un an",
@@ -2687,9 +2694,9 @@
    "n_12m": 812,
    "base_moy_12m": 0.2051334886936652,
    "pire_12m": -0.6614371948346334,
-   "vs_marche_3m": -0.09067697056511903,
+   "vs_marche_3m": -0.09757451761622815,
    "devise": "USD",
-   "prix_eur": 337.3343166458018,
+   "prix_eur": 334.7446460841111,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -2715,9 +2722,9 @@
    "n_12m": 443,
    "base_moy_12m": 0.13959232967373458,
    "pire_12m": -0.6523193063153396,
-   "vs_marche_3m": -0.016539366479903617,
+   "vs_marche_3m": -0.01805753853530523,
    "devise": "JPY",
-   "prix_eur": 21.943414088077212,
+   "prix_eur": 21.9689241264183,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -2743,9 +2750,9 @@
    "n_12m": 534,
    "base_moy_12m": 0.34824250566653464,
    "pire_12m": -0.1478386187937738,
-   "vs_marche_3m": -0.23854069779931852,
+   "vs_marche_3m": -0.24430311473568656,
    "devise": "USD",
-   "prix_eur": 106.65889032410475,
+   "prix_eur": 105.84008424720938,
    "fondamental": 58.0,
    "fondamental_notes": [
     "chiffre d'affaires +20.5% sur un an",
@@ -2779,9 +2786,9 @@
    "n_12m": 151,
    "base_moy_12m": 0.9962314632917708,
    "pire_12m": -0.6172567037381281,
-   "vs_marche_3m": -0.31259479520704847,
+   "vs_marche_3m": -0.3177887087135365,
    "devise": "USD",
-   "prix_eur": 14.386924754449167,
+   "prix_eur": 14.276478251762112,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -2807,9 +2814,9 @@
    "n_12m": 503,
    "base_moy_12m": 0.13039860697315056,
    "pire_12m": -0.4965800142868503,
-   "vs_marche_3m": -0.1821799602567068,
+   "vs_marche_3m": -0.1883750510588723,
    "devise": "USD",
-   "prix_eur": 34.5447744370998,
+   "prix_eur": 34.27957881066747,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -2835,9 +2842,9 @@
    "n_12m": 423,
    "base_moy_12m": 0.18734462104269417,
    "pire_12m": -0.35381399992763385,
-   "vs_marche_3m": -0.1458546795365877,
+   "vs_marche_3m": -0.1457796823994798,
    "devise": "CAD",
-   "prix_eur": 12.587127808509509,
+   "prix_eur": 12.583369642075313,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -2863,9 +2870,9 @@
    "n_12m": 566,
    "base_moy_12m": 0.7473417237069988,
    "pire_12m": -0.5232193940181875,
-   "vs_marche_3m": -0.18222781241227315,
+   "vs_marche_3m": -0.1834873603613556,
    "devise": "JPY",
-   "prix_eur": 181.48347635054049,
+   "prix_eur": 181.69445766919006,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -2891,9 +2898,9 @@
    "n_12m": 860,
    "base_moy_12m": 0.11274698186429755,
    "pire_12m": -0.500956215529024,
-   "vs_marche_3m": -0.10287193134805017,
+   "vs_marche_3m": -0.10967585931155921,
    "devise": "USD",
-   "prix_eur": 70.39989797402039,
+   "prix_eur": 69.85944734586573,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -2919,9 +2926,9 @@
    "n_12m": 1339,
    "base_moy_12m": 0.2387778749738073,
    "pire_12m": -0.7431157209046585,
-   "vs_marche_3m": -0.11354101954196738,
+   "vs_marche_3m": -0.1202630423382508,
    "devise": "USD",
-   "prix_eur": 49.470196077969845,
+   "prix_eur": 49.090419980067836,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -2947,9 +2954,9 @@
    "n_12m": 750,
    "base_moy_12m": 0.09348691964358487,
    "pire_12m": -0.37762241259991824,
-   "vs_marche_3m": -0.16732576856028447,
+   "vs_marche_3m": -0.17363489301113533,
    "devise": "USD",
-   "prix_eur": 38.39504660445321,
+   "prix_eur": 38.10029295206778,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -2975,9 +2982,9 @@
    "n_12m": 437,
    "base_moy_12m": 0.15153756618444592,
    "pire_12m": -0.5350317867074972,
-   "vs_marche_3m": -0.18457585467011617,
+   "vs_marche_3m": -0.18583173754571025,
    "devise": "JPY",
-   "prix_eur": 5.188478911894354,
+   "prix_eur": 5.194510712390078,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3003,9 +3010,9 @@
    "n_12m": 906,
    "base_moy_12m": 0.11627265957092105,
    "pire_12m": -0.6142685600226012,
-   "vs_marche_3m": -0.2142247024786479,
+   "vs_marche_3m": -0.2201737900682903,
    "devise": "USD",
-   "prix_eur": 42.963321467749,
+   "prix_eur": 42.63349777846717,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3021,19 +3028,19 @@
    "nom": "Flex Ltd.",
    "isin": "FLEX",
    "type": "action",
-   "prix": 69.7750015258789,
+   "prix": 69.77999877929688,
    "score": 94.01372376604705,
-   "baisse": 0.5694761623210456,
-   "perf_5ans": 4.243002595402802,
+   "baisse": 0.569445328402417,
+   "perf_5ans": 4.243378096829779,
    "tranche": "80-100 (soldé)",
    "moy_12m": 0.7152270864741297,
    "pos_12m": 0.7433333333333333,
    "n_12m": 300,
-   "base_moy_12m": 0.21036537712516323,
+   "base_moy_12m": 0.21036539032084153,
    "pire_12m": -0.6989246499749242,
-   "vs_marche_3m": -0.3845682702351333,
+   "vs_marche_3m": -0.38916668468713744,
    "devise": "USD",
-   "prix_eur": 62.62306011818794,
+   "prix_eur": 62.14676184078751,
    "fondamental": 57.5,
    "fondamental_notes": [
     "chiffre d'affaires +24.8% sur un an",
@@ -3044,11 +3051,11 @@
     "P/E attendu 10.8 (actuel 30.3) non fiable : à vérifier à la main",
     "marge nette 3%",
     "dette / capitaux propres 103 %",
-    "⚠️ chute de -38% vs marché en 3 mois sans explication claire dans les chiffres (-12 pts)"
+    "⚠️ chute de -39% vs marché en 3 mois sans explication claire dans les chiffres (-12 pts)"
    ],
    "score_global": 72.1,
    "braderie": false,
-   "perf_1an": 0.06918478764716185,
+   "perf_1an": 0.0692613621683753,
    "bonus_braderie": 0.0,
    "n_episodes": 8
   },
@@ -3067,9 +3074,9 @@
    "n_12m": 465,
    "base_moy_12m": 0.27603547993645144,
    "pire_12m": -0.8197674553996483,
-   "vs_marche_3m": -0.28384406673051876,
+   "vs_marche_3m": -0.28939862168257713,
    "devise": "HKD",
-   "prix_eur": 5.220060483727837,
+   "prix_eur": 5.217670437208551,
    "fondamental": 60.0,
    "fondamental_notes": [
     "chiffre d'affaires +36.1% sur un an",
@@ -3080,7 +3087,7 @@
     "P/E attendu 25.1 (actuel 46.8), retenu 35.9 : la moitié seulement de la croissance attendue est comptée",
     "marge nette 10%",
     "dette / capitaux propres 37 %",
-    "⚠️ chute de -28% vs marché en 3 mois : braderie non retenue (bénéfices attendus +87% : attente trop élevée pour s'y fier ; bénéfices passés +259% : départ très bas probable) (-6 pts)",
+    "⚠️ chute de -29% vs marché en 3 mois : braderie non retenue (bénéfices attendus +87% : attente trop élevée pour s'y fier ; bénéfices passés +259% : départ très bas probable) (-6 pts)",
     "données du 2026-10-29 (Yahoo indisponible aujourd'hui)"
    ],
    "score_global": 72.1,
@@ -3104,9 +3111,9 @@
    "n_12m": 210,
    "base_moy_12m": 0.09682734609300983,
    "pire_12m": -0.03198232564786363,
-   "vs_marche_3m": -0.16870651806385806,
+   "vs_marche_3m": -0.17500504268490802,
    "devise": "USD",
-   "prix_eur": 24.959473025544263,
+   "prix_eur": 24.767862479744284,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3132,9 +3139,9 @@
    "n_12m": 439,
    "base_moy_12m": 0.14747330159032912,
    "pire_12m": -0.6179554735826482,
-   "vs_marche_3m": -0.1836132332509881,
+   "vs_marche_3m": -0.1848706186882293,
    "devise": "JPY",
-   "prix_eur": 11.96578788359915,
+   "prix_eur": 11.979698558869039,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3160,9 +3167,9 @@
    "n_12m": 348,
    "base_moy_12m": 0.2169895325151436,
    "pire_12m": -0.7366769363895717,
-   "vs_marche_3m": -0.2523438886340438,
+   "vs_marche_3m": -0.25800034031517916,
    "devise": "USD",
-   "prix_eur": 214.58325885914712,
+   "prix_eur": 212.9359317978963,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3188,9 +3195,9 @@
    "n_12m": 653,
    "base_moy_12m": 0.17307548124318595,
    "pire_12m": -0.6752113323665688,
-   "vs_marche_3m": -0.24108012603316908,
+   "vs_marche_3m": -0.246823048117646,
    "devise": "USD",
-   "prix_eur": 72.80519810383176,
+   "prix_eur": 72.24628230735347,
    "fondamental": 60.0,
    "fondamental_notes": [
     "chiffre d'affaires +38.4% sur un an",
@@ -3201,7 +3208,8 @@
     "P/E attendu 20.7 (actuel 40.2), retenu 30.4 : la moitié seulement de la croissance attendue est comptée",
     "marge nette 18%",
     "dette / capitaux propres 2 %",
-    "⚠️ chute de -24% vs marché en 3 mois : braderie non retenue (bénéfices attendus +94% : attente trop élevée pour s'y fier ; bénéfices passés +365% : départ très bas probable) (-6 pts)"
+    "⚠️ chute de -25% vs marché en 3 mois : braderie non retenue (bénéfices attendus +94% : attente trop élevée pour s'y fier ; bénéfices passés +365% : départ très bas probable) (-6 pts)",
+    "données du 2026-10-30 (Yahoo indisponible aujourd'hui)"
    ],
    "score_global": 71.9,
    "braderie": false,
@@ -3224,9 +3232,9 @@
    "n_12m": 831,
    "base_moy_12m": 0.12259936889596126,
    "pire_12m": -0.4120964218586298,
-   "vs_marche_3m": -0.051583164501910805,
+   "vs_marche_3m": -0.058780829488582875,
    "devise": "USD",
-   "prix_eur": 65.90342132610449,
+   "prix_eur": 65.39748954952184,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3280,9 +3288,9 @@
    "n_12m": 1027,
    "base_moy_12m": 0.20232583066133206,
    "pire_12m": -0.6807957320836153,
-   "vs_marche_3m": -0.2204850767700366,
+   "vs_marche_3m": -0.2127809268131985,
    "devise": "NOK",
-   "prix_eur": 6.483980860662498,
+   "prix_eur": 6.4876657970495994,
    "fondamental": 56.5,
    "fondamental_notes": [
     "chiffre d'affaires +3.1% sur un an",
@@ -3293,7 +3301,7 @@
     "P/E attendu 8.7 (actuel 10.0)",
     "marge nette 6%",
     "dette / capitaux propres 31 %",
-    "⚠️ sanction du marché méritée : -22% vs marché en 3 mois, et les perspectives se dégradent (-12 pts)"
+    "⚠️ sanction du marché méritée : -21% vs marché en 3 mois, et les perspectives se dégradent (-12 pts)"
    ],
    "score_global": 71.7,
    "braderie": false,
@@ -3316,9 +3324,9 @@
    "n_12m": 710,
    "base_moy_12m": 0.0908158419597222,
    "pire_12m": -0.43836756914258446,
-   "vs_marche_3m": -0.07749636760906131,
+   "vs_marche_3m": -0.07891939150942884,
    "devise": "JPY",
-   "prix_eur": 14.489223860945149,
+   "prix_eur": 14.506068124774913,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3344,9 +3352,9 @@
    "n_12m": 753,
    "base_moy_12m": 0.17414644707962573,
    "pire_12m": -0.6435051651028131,
-   "vs_marche_3m": -0.15081483117388417,
+   "vs_marche_3m": -0.1572507078891373,
    "devise": "USD",
-   "prix_eur": 91.57191841901671,
+   "prix_eur": 90.86893301342496,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3372,9 +3380,9 @@
    "n_12m": 896,
    "base_moy_12m": 0.19076644087964514,
    "pire_12m": -0.3276418936944212,
-   "vs_marche_3m": -0.06898762106079359,
+   "vs_marche_3m": -0.06890578796769986,
    "devise": "CAD",
-   "prix_eur": 32.20805191966244,
+   "prix_eur": 32.198435490761675,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3400,9 +3408,9 @@
    "n_12m": 501,
    "base_moy_12m": 0.13233847713749627,
    "pire_12m": -0.43838750942417326,
-   "vs_marche_3m": -0.0829259964487562,
+   "vs_marche_3m": -0.08434054520833523,
    "devise": "JPY",
-   "prix_eur": 30.088646266356776,
+   "prix_eur": 30.123625441283945,
    "fondamental": 57.5,
    "fondamental_notes": [
     "chiffre d'affaires +14.9% sur un an",
@@ -3463,9 +3471,9 @@
    "n_12m": 101,
    "base_moy_12m": 0.1947375608918912,
    "pire_12m": -0.06870222156789385,
-   "vs_marche_3m": -0.11475288923594151,
+   "vs_marche_3m": -0.12146560867020018,
    "devise": "USD",
-   "prix_eur": 28.136623656910253,
+   "prix_eur": 27.920622549420862,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3519,9 +3527,9 @@
    "n_12m": 273,
    "base_moy_12m": 0.1021138984659312,
    "pire_12m": -0.44880090157101626,
-   "vs_marche_3m": -0.16878527218232575,
+   "vs_marche_3m": -0.17006580267448212,
    "devise": "JPY",
-   "prix_eur": 15.86281134580801,
+   "prix_eur": 15.88125245638473,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3575,9 +3583,9 @@
    "n_12m": 299,
    "base_moy_12m": 0.3290551690919416,
    "pire_12m": -0.18159863336619642,
-   "vs_marche_3m": -0.19508680322492866,
+   "vs_marche_3m": -0.2011828099148949,
    "devise": "USD",
-   "prix_eur": 623.1431854808985,
+   "prix_eur": 618.3593983488812,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3603,9 +3611,9 @@
    "n_12m": 1225,
    "base_moy_12m": 0.20721878398876528,
    "pire_12m": -0.8262523823715031,
-   "vs_marche_3m": -0.2944563484313354,
+   "vs_marche_3m": -0.29978950837476137,
    "devise": "USD",
-   "prix_eur": 30.730399665591023,
+   "prix_eur": 30.494486485591224,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3631,9 +3639,9 @@
    "n_12m": 630,
    "base_moy_12m": 0.13151183836740918,
    "pire_12m": -0.45929012478467335,
-   "vs_marche_3m": -0.2608130119721439,
+   "vs_marche_3m": -0.261949895803691,
    "devise": "JPY",
-   "prix_eur": 17.03814909058757,
+   "prix_eur": 17.057956575184885,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3659,9 +3667,9 @@
    "n_12m": 1128,
    "base_moy_12m": 0.1250162677975166,
    "pire_12m": -0.5501495251437865,
-   "vs_marche_3m": -0.09973833774224361,
+   "vs_marche_3m": -0.10112664401570537,
    "devise": "JPY",
-   "prix_eur": 11.048174800927878,
+   "prix_eur": 11.061018716721449,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3687,9 +3695,9 @@
    "n_12m": 175,
    "base_moy_12m": 0.2976220157750122,
    "pire_12m": -0.8448275795132845,
-   "vs_marche_3m": -0.287737913375565,
+   "vs_marche_3m": -0.29312264984893766,
    "devise": "USD",
-   "prix_eur": 120.87528618576154,
+   "prix_eur": 119.9473427337472,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3743,9 +3751,9 @@
    "n_12m": 757,
    "base_moy_12m": 0.35291789099672677,
    "pire_12m": -0.7807637326469057,
-   "vs_marche_3m": -0.47319026318309165,
+   "vs_marche_3m": -0.47715130669907935,
    "devise": "USD",
-   "prix_eur": 249.78320784615732,
+   "prix_eur": 247.86565547082918,
    "fondamental": 55.0,
    "fondamental_notes": [
     "chiffre d'affaires +8.8% sur un an",
@@ -3756,7 +3764,7 @@
     "P/E attendu 18.2 (actuel 25.7), retenu 21.9 : la moitié seulement de la croissance attendue est comptée",
     "marge nette 18%",
     "dette / capitaux propres 32 %",
-    "⚠️ chute de -47% vs marché en 3 mois : braderie non retenue (bénéfices attendus +41% : attente trop élevée pour s'y fier) (-25 pts)"
+    "⚠️ chute de -48% vs marché en 3 mois : braderie non retenue (bénéfices attendus +41% : attente trop élevée pour s'y fier) (-25 pts)"
    ],
    "score_global": 71.1,
    "braderie": false,
@@ -3779,9 +3787,9 @@
    "n_12m": 203,
    "base_moy_12m": 0.260902203967807,
    "pire_12m": -0.5390940435141837,
-   "vs_marche_3m": -0.16609317182581107,
+   "vs_marche_3m": -0.17241175875741233,
    "devise": "USD",
-   "prix_eur": 56.82072282881579,
+   "prix_eur": 56.38451771732021,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3835,9 +3843,9 @@
    "n_12m": 296,
    "base_moy_12m": 0.3006320178273732,
    "pire_12m": -0.38164150388864326,
-   "vs_marche_3m": -0.35624725689954007,
+   "vs_marche_3m": -0.35723517683582173,
    "devise": "JPY",
-   "prix_eur": 11.101985444664773,
+   "prix_eur": 11.114891917341215,
    "fondamental": 52.5,
    "fondamental_notes": [
     "chiffre d'affaires +24.3% sur un an",
@@ -3848,7 +3856,8 @@
     "P/E attendu 9.5 (actuel 22.1) non fiable : à vérifier à la main",
     "marge nette 6%",
     "dette / capitaux propres 78 %",
-    "⚠️ chute de -36% vs marché en 3 mois : braderie non retenue (bénéfices passés +332% : départ très bas probable ; le titre a fait +113% sur un an : c'est un repli après une envolée) (-12 pts)"
+    "⚠️ chute de -36% vs marché en 3 mois : braderie non retenue (bénéfices passés +332% : départ très bas probable ; le titre a fait +113% sur un an : c'est un repli après une envolée) (-12 pts)",
+    "données du 2026-10-30 (Yahoo indisponible aujourd'hui)"
    ],
    "score_global": 70.6,
    "braderie": false,
@@ -3871,9 +3880,9 @@
    "n_12m": 398,
    "base_moy_12m": 0.27236196940924634,
    "pire_12m": -0.2043016559831634,
-   "vs_marche_3m": -0.11911856460942039,
+   "vs_marche_3m": -0.11819274554088532,
    "devise": "SEK",
-   "prix_eur": 25.686214734479158,
+   "prix_eur": 25.68591035003233,
    "fondamental": 58.5,
    "fondamental_notes": [
     "chiffre d'affaires +8.3% sur un an",
@@ -3906,9 +3915,9 @@
    "n_12m": 371,
    "base_moy_12m": 0.2008460452596022,
    "pire_12m": -0.5813401358465391,
-   "vs_marche_3m": -0.14736299538357378,
+   "vs_marche_3m": -0.14867696403830832,
    "devise": "JPY",
-   "prix_eur": 25.472259461559943,
+   "prix_eur": 25.50187191443033,
    "fondamental": 58.5,
    "fondamental_notes": [
     "chiffre d'affaires +14.0% sur un an",
@@ -3941,9 +3950,9 @@
    "n_12m": 329,
    "base_moy_12m": 0.14812516327537983,
    "pire_12m": -0.7471396112457056,
-   "vs_marche_3m": -0.2582568988879127,
+   "vs_marche_3m": -0.26386795717789335,
    "devise": "USD",
-   "prix_eur": 20.893799364670016,
+   "prix_eur": 20.73340045336278,
    "fondamental": 55.5,
    "fondamental_notes": [
     "chiffre d'affaires +16.6% sur un an",
@@ -3976,9 +3985,9 @@
    "n_12m": 352,
    "base_moy_12m": 0.32476619198153256,
    "pire_12m": -0.5034410333719452,
-   "vs_marche_3m": -0.1306842891444372,
+   "vs_marche_3m": -0.13727470534622388,
    "devise": "USD",
-   "prix_eur": 1355.2249188184117,
+   "prix_eur": 1344.8210378506217,
    "fondamental": 58.0,
    "fondamental_notes": [
     "chiffre d'affaires +49.8% sur un an",
@@ -3988,7 +3997,8 @@
     "objectif moyen des analystes : +40%",
     "P/E attendu 28.9 (actuel 44.2), retenu 36.5 : la moitié seulement de la croissance attendue est comptée",
     "marge nette 5%",
-    "dette / capitaux propres 169 %"
+    "dette / capitaux propres 169 %",
+    "données du 2026-10-30 (Yahoo indisponible aujourd'hui)"
    ],
    "score_global": 70.3,
    "braderie": false,
@@ -4011,9 +4021,9 @@
    "n_12m": 817,
    "base_moy_12m": 0.30519975187996856,
    "pire_12m": -0.467474029534073,
-   "vs_marche_3m": -0.3741214951621523,
+   "vs_marche_3m": -0.37884307639833936,
    "devise": "USD",
-   "prix_eur": 173.04696244286316,
+   "prix_eur": 171.71850398988337,
    "fondamental": 54.0,
    "fondamental_notes": [
     "chiffre d'affaires +33.7% sur un an",
@@ -4023,7 +4033,7 @@
     "P/E attendu 14.3 (actuel 48.5) non fiable : à vérifier à la main",
     "marge nette 11%",
     "dette / capitaux propres 32 %",
-    "⚠️ chute de -37% vs marché en 3 mois sans explication claire dans les chiffres (-12 pts)"
+    "⚠️ chute de -38% vs marché en 3 mois sans explication claire dans les chiffres (-12 pts)"
    ],
    "score_global": 70.0,
    "braderie": false,
@@ -4046,9 +4056,9 @@
    "n_12m": 911,
    "base_moy_12m": 0.31422322121054297,
    "pire_12m": -0.5073498112377741,
-   "vs_marche_3m": -0.32256769201228497,
+   "vs_marche_3m": -0.3276850449199933,
    "devise": "USD",
-   "prix_eur": 119.47518846079323,
+   "prix_eur": 118.55799337229523,
    "fondamental": 51.5,
    "fondamental_notes": [
     "chiffre d'affaires +8.9% sur un an",
@@ -4058,7 +4068,7 @@
     "P/E attendu 22.0 (actuel 29.5), retenu 25.8 : la moitié seulement de la croissance attendue est comptée",
     "marge nette 16%",
     "dette / capitaux propres 0 %",
-    "⚠️ chute de -32% vs marché en 3 mois : braderie non retenue (bénéfices attendus +34% : attente trop élevée pour s'y fier) (-12 pts)"
+    "⚠️ chute de -33% vs marché en 3 mois : braderie non retenue (bénéfices attendus +34% : attente trop élevée pour s'y fier) (-12 pts)"
    ],
    "score_global": 69.7,
    "braderie": false,
@@ -4081,9 +4091,9 @@
    "n_12m": 669,
    "base_moy_12m": 0.2202065743178817,
    "pire_12m": -0.5055555783975603,
-   "vs_marche_3m": -0.2597749052400308,
+   "vs_marche_3m": -0.26537430999768885,
    "devise": "USD",
-   "prix_eur": 238.04392060076356,
+   "prix_eur": 236.21648916805668,
    "fondamental": 52.0,
    "fondamental_notes": [
     "chiffre d'affaires +23.2% sur un an",
@@ -4092,7 +4102,7 @@
     "objectif des analystes +90% : peu crédible, probablement pas encore révisé",
     "P/E attendu 23.7 (actuel 25.6)",
     "marge nette 45%",
-    "⚠️ chute de -26% vs marché en 3 mois sans explication claire dans les chiffres (-6 pts)",
+    "⚠️ chute de -27% vs marché en 3 mois sans explication claire dans les chiffres (-6 pts)",
     "données du 2026-10-29 (Yahoo indisponible aujourd'hui)"
    ],
    "score_global": 69.7,
@@ -4116,9 +4126,9 @@
    "n_12m": 411,
    "base_moy_12m": 0.21220462435591717,
    "pire_12m": -0.4417597186430635,
-   "vs_marche_3m": -0.30639890952074067,
+   "vs_marche_3m": -0.31164038801535354,
    "devise": "USD",
-   "prix_eur": 172.5623184975904,
+   "prix_eur": 171.23758059154596,
    "fondamental": 54.5,
    "fondamental_notes": [
     "chiffre d'affaires +28.3% sur un an",
@@ -4165,7 +4175,8 @@
     "P/E attendu 23.6 (actuel 42.4), retenu 33.0 : la moitié seulement de la croissance attendue est comptée",
     "marge nette 33%",
     "dette / capitaux propres 54 %",
-    "⚠️ chute de -35% vs marché en 3 mois : braderie non retenue (bénéfices attendus +79% : attente trop élevée pour s'y fier ; bénéfices passés +315% : départ très bas probable) (-12 pts)"
+    "⚠️ chute de -35% vs marché en 3 mois : braderie non retenue (bénéfices attendus +79% : attente trop élevée pour s'y fier ; bénéfices passés +315% : départ très bas probable) (-12 pts)",
+    "données du 2026-10-30 (Yahoo indisponible aujourd'hui)"
    ],
    "score_global": 69.1,
    "braderie": false,
@@ -4188,9 +4199,9 @@
    "n_12m": 171,
    "base_moy_12m": 0.2839615762511356,
    "pire_12m": -0.5680445938627672,
-   "vs_marche_3m": -0.33803632543458095,
+   "vs_marche_3m": -0.34303492770641675,
    "devise": "USD",
-   "prix_eur": 218.44251136692023,
+   "prix_eur": 216.76555733884052,
    "fondamental": 54.5,
    "fondamental_notes": [
     "chiffre d'affaires +37.0% sur un an",
@@ -4224,9 +4235,9 @@
    "n_12m": 409,
    "base_moy_12m": 0.3913625820750465,
    "pire_12m": -0.38271617782225265,
-   "vs_marche_3m": -0.4929921040766051,
+   "vs_marche_3m": -0.49680113150084404,
    "devise": "USD",
-   "prix_eur": 249.05623508086703,
+   "prix_eur": 247.1442635785083,
    "fondamental": 50.5,
    "fondamental_notes": [
     "chiffre d'affaires +61.5% sur un an",
@@ -4236,7 +4247,7 @@
     "P/E attendu 21.9 (actuel 27.9), retenu 24.9 : la moitié seulement de la croissance attendue est comptée",
     "marge nette 15%",
     "dette / capitaux propres 2 %",
-    "⚠️ chute de -49% vs marché en 3 mois sans explication claire dans les chiffres (-25 pts)",
+    "⚠️ chute de -50% vs marché en 3 mois sans explication claire dans les chiffres (-25 pts)",
     "données du 2026-10-28 (Yahoo indisponible aujourd'hui)"
    ],
    "score_global": 68.5,
@@ -4260,9 +4271,9 @@
    "n_12m": 389,
    "base_moy_12m": 0.26801818089099594,
    "pire_12m": -0.7246376952657343,
-   "vs_marche_3m": -0.45212892178965225,
+   "vs_marche_3m": -0.45625165041475857,
    "devise": "USD",
-   "prix_eur": 186.24919267771014,
+   "prix_eur": 184.81938246387838,
    "fondamental": 51.0,
    "fondamental_notes": [
     "chiffre d'affaires +45.6% sur un an",
@@ -4273,7 +4284,7 @@
     "P/E attendu 10.7 (actuel 20.2), retenu 15.4 : la moitié seulement de la croissance attendue est comptée",
     "marge nette 5%",
     "dette / capitaux propres 148 %",
-    "⚠️ chute de -45% vs marché en 3 mois : braderie non retenue (bénéfices attendus +89% : attente trop élevée pour s'y fier) (-25 pts)"
+    "⚠️ chute de -46% vs marché en 3 mois : braderie non retenue (bénéfices attendus +89% : attente trop élevée pour s'y fier) (-25 pts)"
    ],
    "score_global": 68.3,
    "braderie": false,
@@ -4302,7 +4313,8 @@
    "fondamental": 53.5,
    "fondamental_notes": [
     "secteur financier : chiffre d'affaires, marge et dette non comparables (points neutres)",
-    "bénéfices +193.8% sur un an : très forte hausse, souvent un départ très bas (points réduits)"
+    "bénéfices +193.8% sur un an : très forte hausse, souvent un départ très bas (points réduits)",
+    "données du 2026-10-30 (Yahoo indisponible aujourd'hui)"
    ],
    "score_global": 67.9,
    "braderie": false,
@@ -4325,9 +4337,9 @@
    "n_12m": 1107,
    "base_moy_12m": 0.1724790096862642,
    "pire_12m": -0.6326368030350977,
-   "vs_marche_3m": -0.2564875363401268,
+   "vs_marche_3m": -0.26211217779042306,
    "devise": "USD",
-   "prix_eur": 43.80697360837409,
+   "prix_eur": 43.47067331411887,
    "fondamental": 48.0,
    "fondamental_notes": [
     "chiffre d'affaires -2.9% sur un an",
@@ -4338,7 +4350,8 @@
     "P/E attendu 8.7 (actuel 25.8) non fiable : à vérifier à la main",
     "marge nette 3%",
     "dette / capitaux propres 51 %",
-    "⚠️ chute de -26% vs marché en 3 mois sans explication claire dans les chiffres (-6 pts)"
+    "⚠️ chute de -26% vs marché en 3 mois sans explication claire dans les chiffres (-6 pts)",
+    "données du 2026-10-30 (Yahoo indisponible aujourd'hui)"
    ],
    "score_global": 67.1,
    "braderie": false,
@@ -4361,9 +4374,9 @@
    "n_12m": 640,
    "base_moy_12m": 0.20777729068330436,
    "pire_12m": -0.32920826581683094,
-   "vs_marche_3m": -0.37085144298657846,
+   "vs_marche_3m": -0.37559812797722036,
    "devise": "USD",
-   "prix_eur": 101.2020958549913,
+   "prix_eur": 100.42518086151244,
    "fondamental": 49.0,
    "fondamental_notes": [
     "chiffre d'affaires +5.7% sur un an",
@@ -4372,7 +4385,7 @@
     "P/E attendu 27.9",
     "marge nette -10%",
     "dette / capitaux propres 19 %",
-    "⚠️ chute de -37% vs marché en 3 mois sans explication claire dans les chiffres (-12 pts)"
+    "⚠️ chute de -38% vs marché en 3 mois sans explication claire dans les chiffres (-12 pts)"
    ],
    "score_global": 67.0,
    "braderie": false,
@@ -4395,9 +4408,9 @@
    "n_12m": 262,
    "base_moy_12m": 0.24127251339204717,
    "pire_12m": -0.36101086947665084,
-   "vs_marche_3m": -0.45884642010046284,
+   "vs_marche_3m": -0.4629175793868885,
    "devise": "USD",
-   "prix_eur": 59.69272334151346,
+   "prix_eur": 59.23447026509439,
    "fondamental": 48.0,
    "fondamental_notes": [
     "chiffre d'affaires +59.9% sur un an",
@@ -4432,9 +4445,9 @@
    "n_12m": 726,
    "base_moy_12m": 0.21664939267987174,
    "pire_12m": -0.7798540035276532,
-   "vs_marche_3m": -0.3592047430847315,
+   "vs_marche_3m": -0.3591487196363913,
    "devise": "CAD",
-   "prix_eur": 31.134239234954244,
+   "prix_eur": 31.124943416668522,
    "fondamental": 46.0,
    "fondamental_notes": [
     "chiffre d'affaires +72.3% sur un an",
@@ -4467,9 +4480,9 @@
    "n_12m": 394,
    "base_moy_12m": 0.3045041896707418,
    "pire_12m": -0.6429714779561273,
-   "vs_marche_3m": -0.29115140599714806,
+   "vs_marche_3m": -0.29224093444433086,
    "devise": "JPY",
-   "prix_eur": 231.44241085153197,
+   "prix_eur": 231.71147129722553,
    "fondamental": 44.5,
    "fondamental_notes": [
     "chiffre d'affaires +22.9% sur un an",
@@ -4502,9 +4515,9 @@
    "n_12m": 476,
    "base_moy_12m": 0.17199829295134,
    "pire_12m": -0.47249137443789146,
-   "vs_marche_3m": -0.39058733974672066,
+   "vs_marche_3m": -0.3951825148899314,
    "devise": "USD",
-   "prix_eur": 50.511295878657556,
+   "prix_eur": 50.12352739642765,
    "fondamental": 43.0,
    "fondamental_notes": [
     "chiffre d'affaires +25.4% sur un an",
@@ -4513,7 +4526,8 @@
     "P/E attendu 30.0",
     "marge nette -20%",
     "dette / capitaux propres 49 %",
-    "⚠️ chute de -39% vs marché en 3 mois sans explication claire dans les chiffres (-12 pts)"
+    "⚠️ chute de -40% vs marché en 3 mois sans explication claire dans les chiffres (-12 pts)",
+    "données du 2026-10-30 (Yahoo indisponible aujourd'hui)"
    ],
    "score_global": 64.9,
    "braderie": false,
@@ -4536,9 +4550,9 @@
    "n_12m": 515,
    "base_moy_12m": 0.2511406815259366,
    "pire_12m": -0.3872695206044299,
-   "vs_marche_3m": -0.1482296385059667,
+   "vs_marche_3m": -0.15468536140056788,
    "devise": "USD",
-   "prix_eur": 58.69649785339949,
+   "prix_eur": 58.24589266719518,
    "fondamental": 46.5,
    "fondamental_notes": [
     "chiffre d'affaires -10.7% sur un an",
@@ -4570,9 +4584,9 @@
    "n_12m": 787,
    "base_moy_12m": 0.10304153301272864,
    "pire_12m": -0.5333216114857234,
-   "vs_marche_3m": -0.33235226758531056,
+   "vs_marche_3m": -0.3333774853562247,
    "devise": "JPY",
-   "prix_eur": 15.627743796852098,
+   "prix_eur": 15.645911632624701,
    "fondamental": 41.5,
    "fondamental_notes": [
     "chiffre d'affaires +16.8% sur un an",
@@ -4582,7 +4596,8 @@
     "P/E attendu 41.1",
     "marge nette -30%",
     "dette / capitaux propres 52 %",
-    "⚠️ chute de -33% vs marché en 3 mois : braderie non retenue (bénéfices passés +204% : départ très bas probable) (-12 pts)"
+    "⚠️ chute de -33% vs marché en 3 mois : braderie non retenue (bénéfices passés +204% : départ très bas probable) (-12 pts)",
+    "données du 2026-10-30 (Yahoo indisponible aujourd'hui)"
    ],
    "score_global": 64.7,
    "braderie": false,
@@ -4605,9 +4620,9 @@
    "n_12m": 148,
    "base_moy_12m": 0.8316105165262356,
    "pire_12m": -0.14285709420028914,
-   "vs_marche_3m": -0.3827215155497662,
+   "vs_marche_3m": -0.3816359179136266,
    "devise": "AUD",
-   "prix_eur": 0.7856257945890232,
+   "prix_eur": 0.7859696502057614,
    "fondamental": 45.0,
    "fondamental_notes": [
     "chiffre d'affaires +73.3% sur un an",
@@ -4640,9 +4655,9 @@
    "n_12m": 555,
    "base_moy_12m": 0.12950818695101385,
    "pire_12m": -0.6654802452696729,
-   "vs_marche_3m": -0.21554014344072747,
+   "vs_marche_3m": -0.2214791325655323,
    "devise": "USD",
-   "prix_eur": 17.887174202405806,
+   "prix_eur": 17.749856751503113,
    "fondamental": 44.0,
    "fondamental_notes": [
     "chiffre d'affaires +7.2% sur un an",
@@ -4677,9 +4692,9 @@
    "n_12m": 1153,
    "base_moy_12m": 0.2843676364612967,
    "pire_12m": -0.6762261726197811,
-   "vs_marche_3m": -0.3127986155412329,
+   "vs_marche_3m": -0.31158784786634475,
    "devise": "AUD",
-   "prix_eur": 9.994392225154833,
+   "prix_eur": 9.99876660787772,
    "fondamental": 39.0,
    "fondamental_notes": [
     "chiffre d'affaires +24.0% sur un an",
@@ -4714,9 +4729,9 @@
    "n_12m": 265,
    "base_moy_12m": 0.14352137063234927,
    "pire_12m": -0.504672885534596,
-   "vs_marche_3m": -0.4059300880160529,
+   "vs_marche_3m": -0.4104074789269223,
    "devise": "USD",
-   "prix_eur": 31.502246743455053,
+   "prix_eur": 31.260408196372694,
    "fondamental": 40.5,
    "fondamental_notes": [
     "chiffre d'affaires +30.5% sur un an",
@@ -4751,9 +4766,9 @@
    "n_12m": 1017,
    "base_moy_12m": 0.08189131738181932,
    "pire_12m": -0.35333911414630403,
-   "vs_marche_3m": -0.10990644317968046,
+   "vs_marche_3m": -0.11665636813398683,
    "devise": "USD",
-   "prix_eur": 35.370472744266685,
+   "prix_eur": 35.09893834204609,
    "fondamental": 43.0,
    "fondamental_notes": [
     "chiffre d'affaires -11.8% sur un an",
@@ -4775,19 +4790,19 @@
    "nom": "Adeia, Inc.",
    "isin": "ADEA",
    "type": "action",
-   "prix": 15.5,
+   "prix": 15.494999885559082,
    "score": 97.43354022856606,
-   "baisse": 0.5373612148658544,
-   "perf_5ans": 1.1342697040498186,
+   "baisse": 0.5375104565994335,
+   "perf_5ans": 1.1335812141938164,
    "tranche": "80-100 (soldé)",
    "moy_12m": 0.2652214788902586,
    "pos_12m": 0.6499189627228525,
    "n_12m": 617,
-   "base_moy_12m": 0.13851811868881556,
+   "base_moy_12m": 0.1385180428306735,
    "pire_12m": -0.6900111158805884,
-   "vs_marche_3m": -0.4110172965052965,
+   "vs_marche_3m": -0.41564070428733935,
    "devise": "USD",
-   "prix_eur": 13.91124916667906,
+   "prix_eur": 13.800001210326377,
    "fondamental": 36.5,
    "fondamental_notes": [
     "chiffre d'affaires +12.1% sur un an",
@@ -4797,11 +4812,11 @@
     "P/E attendu 12.9 (actuel 19.0), retenu 15.9 : la moitié seulement de la croissance attendue est comptée",
     "marge nette 26%",
     "dette / capitaux propres 83 %",
-    "⚠️ chute de -41% vs marché en 3 mois : braderie non retenue (bénéfices attendus +47% : attente trop élevée pour s'y fier) (-25 pts)"
+    "⚠️ chute de -42% vs marché en 3 mois : braderie non retenue (bénéfices attendus +47% : attente trop élevée pour s'y fier) (-25 pts)"
    ],
    "score_global": 60.9,
    "braderie": false,
-   "perf_1an": 0.13626827375734396,
+   "perf_1an": 0.1359017272151264,
    "bonus_braderie": 0.0,
    "n_episodes": 6
   },
@@ -4820,9 +4835,9 @@
    "n_12m": 626,
    "base_moy_12m": 0.15066603592076985,
    "pire_12m": -0.6798139227602428,
-   "vs_marche_3m": -0.28685517268937055,
+   "vs_marche_3m": -0.28795140715334,
    "devise": "JPY",
-   "prix_eur": 21.80747140916295,
+   "prix_eur": 21.832823409063103,
    "fondamental": 35.5,
    "fondamental_notes": [
     "chiffre d'affaires +8.6% sur un an",
@@ -4856,9 +4871,9 @@
    "n_12m": 607,
    "base_moy_12m": 0.16101361531289332,
    "pire_12m": -0.41800275124040753,
-   "vs_marche_3m": -0.3929016711218426,
+   "vs_marche_3m": -0.3974790794517278,
    "devise": "USD",
-   "prix_eur": 95.88889096925644,
+   "prix_eur": 95.15276474111172,
    "fondamental": 33.0,
    "fondamental_notes": [
     "chiffre d'affaires +44.0% sur un an",
@@ -4869,7 +4884,7 @@
     "P/E attendu 10.6 (actuel 9.0)",
     "marge nette 5%",
     "dette / capitaux propres 109 %",
-    "⚠️ sanction du marché méritée : -39% vs marché en 3 mois, et les perspectives se dégradent (-25 pts)"
+    "⚠️ sanction du marché méritée : -40% vs marché en 3 mois, et les perspectives se dégradent (-25 pts)"
    ],
    "score_global": 58.2,
    "braderie": false,
@@ -4892,9 +4907,9 @@
    "n_12m": 178,
    "base_moy_12m": 0.34558140860799147,
    "pire_12m": -0.24636110494480246,
-   "vs_marche_3m": -0.31053142151263746,
+   "vs_marche_3m": -0.31159069957534147,
    "devise": "JPY",
-   "prix_eur": 20.102523644446574,
+   "prix_eur": 20.125893578899987,
    "fondamental": 31.0,
    "fondamental_notes": [
     "chiffre d'affaires +10.9% sur un an",
@@ -4928,9 +4943,9 @@
    "n_12m": 305,
    "base_moy_12m": 0.3092502487909823,
    "pire_12m": -0.4756476535954314,
-   "vs_marche_3m": -0.4447651316859592,
+   "vs_marche_3m": -0.44894439114565,
    "devise": "USD",
-   "prix_eur": 280.91748317229326,
+   "prix_eur": 278.76091711738053,
    "fondamental": 29.0,
    "fondamental_notes": [
     "chiffre d'affaires +35.3% sur un an",
@@ -4941,7 +4956,7 @@
     "P/E attendu 37.0 (actuel 162.0) non fiable : à vérifier à la main",
     "marge nette 6%",
     "dette / capitaux propres 50 %",
-    "⚠️ sanction du marché méritée : -44% vs marché en 3 mois, et les perspectives se dégradent (-25 pts)",
+    "⚠️ sanction du marché méritée : -45% vs marché en 3 mois, et les perspectives se dégradent (-25 pts)",
     "données du 2026-10-16 (Yahoo indisponible aujourd'hui)"
    ],
    "score_global": 54.2,
@@ -5001,9 +5016,9 @@
    "n_12m": 447,
    "base_moy_12m": 0.2192267278819453,
    "pire_12m": -0.5803712884018097,
-   "vs_marche_3m": -0.3960051473699129,
+   "vs_marche_3m": -0.3969310089723489,
    "devise": "JPY",
-   "prix_eur": 18.114361965325482,
+   "prix_eur": 18.135420587580207,
    "fondamental": 11.5,
    "fondamental_notes": [
     "chiffre d'affaires +3.5% sur un an",
@@ -5023,7 +5038,5 @@
    "n_episodes": 8
   }
  ],
- "rouges": [
-  "AVGO"
- ]
+ "rouges": []
 }
