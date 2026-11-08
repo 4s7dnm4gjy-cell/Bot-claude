@@ -45,150 +45,112 @@
   },
   "opportunite": {
     "type": "opportunite",
-    "date": "2026-11-07",
-    "cree_le": "2026-11-07T20:51+00:00",
-    "liberation": 253.38996928212887,
+    "date": "2026-11-08",
+    "cree_le": "2026-11-08T21:06+00:00",
+    "liberation": 121.6231031651386,
     "reserve_pct": null,
-    "score": 91.97206911383441,
+    "score": 94.55556195757036,
     "ordres": [
       {
-        "ticker": "AIT",
+        "ticker": "4063.T",
         "side": "buy",
-        "quantity": 1.0,
-        "price": 252.38996928212887,
-        "reason": "opportunité radar (score 92)"
+        "quantity": 4.0,
+        "price": 30.15577579128465,
+        "reason": "opportunité radar (score 95)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "AIT",
-      "nom": "Applied Industrial Technologies",
-      "isin": "AIT",
+      "ticker": "4063.T",
+      "nom": "Shin-Etsu Chemical",
+      "isin": "JP3371200001",
       "type": "action",
-      "prix": 283.3900146484375,
-      "score": 91.97206911383441,
-      "baisse": 0.2170465393261496,
-      "perf_5ans": 2.0530437068308394,
+      "prix": 5312.0,
+      "score": 94.55556195757036,
+      "baisse": 0.31714882296885694,
+      "perf_5ans": 0.48836272624764043,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.26036677691864357,
-      "pos_12m": 0.7608695652173914,
-      "n_12m": 828,
-      "base_moy_12m": 0.22166054506053606,
-      "pire_12m": -0.47422759547653115,
-      "vs_marche_3m": -0.17281466392015432,
-      "devise": "USD",
-      "prix_eur": 252.38996928212887,
-      "fondamental": 90.0,
+      "moy_12m": 0.2345889326405776,
+      "pos_12m": 0.771900826446281,
+      "n_12m": 605,
+      "base_moy_12m": 0.1473562895964847,
+      "pire_12m": -0.44947467902775273,
+      "vs_marche_3m": -0.051024034415167896,
+      "devise": "JPY",
+      "prix_eur": 30.15577579128465,
+      "fondamental": 91.0,
       "fondamental_notes": [
-        "chiffre d'affaires +10.4% sur un an",
-        "bénéfices +13.4% sur un an",
-        "bénéfices attendus +21% sur 12 mois",
-        "analystes : « achat fort » (1.5/5, 6 avis)",
-        "objectif moyen des analystes : +34%",
-        "P/E attendu 22.5 (actuel 27.2), retenu 24.9 : la moitié seulement de la croissance attendue est comptée",
-        "marge nette 8%",
-        "dette / capitaux propres 26 %",
-        "données du 2026-10-27 (Yahoo indisponible aujourd'hui)"
+        "chiffre d'affaires +15.6% sur un an",
+        "bénéfices +21.7% sur un an",
+        "bénéfices attendus +31% sur 12 mois : attente élevée, elle repose sur des prévisions qui peuvent être revues à la baisse (points réduits)",
+        "analystes : « achat fort » (1.5/5, 17 avis)",
+        "objectif moyen des analystes : +46%",
+        "P/E attendu 16.1 (actuel 21.0), retenu 18.6 : la moitié seulement de la croissance attendue est comptée",
+        "marge nette 19%",
+        "dette / capitaux propres 9 %"
       ],
-      "score_global": 90.8,
+      "score_global": 92.4,
       "braderie": false,
-      "perf_1an": 0.10623305038558595,
+      "perf_1an": 0.0884105679006515,
       "bonus_braderie": 0.0,
-      "n_episodes": 4
+      "n_episodes": 10
     },
     "actualites": {
-      "verdict": "orange",
-      "resume": "raisons de la baisse déjà publiées : objectifs de cours abaissés, résultats sous les attentes (pas une braderie sans raison) (3 mois : -17% vs marché)",
-      "vs_marche_3m": -0.17281466392015432,
-      "alertes": [
-        {
-          "titre": "US law firm fraud: EFCC wins final forfeiture of $163,592 linked to Nigerian suspect - PM News Nigeria",
-          "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWDNFWTRjNkJqTEhSbTVTTTI2S1U3aUdRT2JXR21kYnpVSV9iVExqWm1TZ3F5c3cta1RtaVlUTlpseUJpWFJwLTRjVVlIQ3E2M09haDg2T19lNVJmamFkSi1FVkdSYVJZWmw4MjJqanExUGE2c0JuR0l5RWNuM2s0Rm5qMWJ3M1ptUlZhVG91MjB6UjF1eGJhWWFTRzRoUDBxRDE2bV9vTmtxLU1PcFpLN0s3dFJZTVNhRzdB?oc=5",
-          "date": "2026-11-06",
-          "source": "PM News Nigeria",
-          "gravite": 1,
-          "mots": [
-            "fraud"
-          ],
-          "raisons": []
-        }
-      ],
+      "verdict": "vert",
+      "resume": "rien d'alarmant dans l'actualité (3 mois : -5% vs marché)",
+      "vs_marche_3m": -0.051024034415167896,
+      "alertes": [],
       "recents": [
         {
-          "titre": "US law firm fraud: EFCC wins final forfeiture of $163,592 linked to Nigerian suspect - PM News Nigeria",
-          "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWDNFWTRjNkJqTEhSbTVTTTI2S1U3aUdRT2JXR21kYnpVSV9iVExqWm1TZ3F5c3cta1RtaVlUTlpseUJpWFJwLTRjVVlIQ3E2M09haDg2T19lNVJmamFkSi1FVkdSYVJZWmw4MjJqanExUGE2c0JuR0l5RWNuM2s0Rm5qMWJ3M1ptUlZhVG91MjB6UjF1eGJhWWFTRzRoUDBxRDE2bV9vTmtxLU1PcFpLN0s3dFJZTVNhRzdB?oc=5",
-          "date": "2026-11-06",
-          "source": "PM News Nigeria",
-          "gravite": 1,
-          "mots": [
-            "fraud"
-          ],
-          "raisons": []
-        },
-        {
-          "titre": "Applied Industrial Technologies (AIT) Stock Forecasts - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeXJnVlh0TkRaM0ZnejdUR29HaVZQZWVHX0lsZFZqbWNreTNZblQzZmtZbkVXWmV0SFlDWXFNXzlxelpoVXJIQUU5blNVX3l3NTVPNy1NZzRaT2g1eVRIeVJDZDVjV3pzcC1GRXhoaHNoRjRhZDVVU1FQYk1tVVBNbnY4Q2tNajlrUWxZbGZ2dw?oc=5",
-          "date": "2026-11-05",
-          "source": "Yahoo Finance",
+          "titre": "Shin-Etsu Chemical Co Ltd (SEH.DU) Seasonal Returns Chart - Yahoo! Finance Canada",
+          "lien": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4tUGNzU2hlMVNqdVVyaTRpVXNUQVhzUEgybS1qX0V1VXB6bzBPcFplQXdhbFV2OGtIS0RCQ1NjaDNLNTR5amJpVDRNaGM4cm91MTY0MS1xN0pwb1owRlNzSWtwQ3I?oc=5",
+          "date": "2026-11-08",
+          "source": "Yahoo! Finance Canada",
           "gravite": 0,
           "mots": [],
           "raisons": []
         },
         {
-          "titre": "Applied Industrial Technologies (AIT) International Revenue Performance Explored - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVXFiMGYzclktVGVGVXhFMzl5UHEySUlnM0JzcGdLY01RUUdXYVdQWXNKejZEaXhVVlhsdDJLY08yZzZ5VG9tN2Nyb2VIVEkwTy11WGdxWVdsRWdWQU1GeE44MEVCdUxuSmNPWDhGYzlwelA4M3lIT2EweVliRTJyWmpiRl9kZGZPU0FKdUo1NXBBNnN2UTNrWjBydFBlbm9wcWtBNDg3QVgtVkdfeXp3b0RwWVc?oc=5",
-          "date": "2026-11-02",
-          "source": "Yahoo Finance",
+          "titre": "Marché mondial des mélanges de polychlorure de vinyle : taille, tendances et prévisions jusqu’en 2035 - IndexBox",
+          "lien": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMS1BYk5reTBsWVU1NnU4WFJtUG00S29ET0dxdWNFSzc3TG9iRU5fS0ZUOHpwUUNyVWxrVXRCb0dYZ2g3WlRqS0ZHWldzdDFDazZybDZFS0loMVh6RjNNT3FUckhicEFSN0huVGdEMHpXMllJRVBZcGhlWEJ4ZlA5RlVKNmtOS0tOMWdmYkNwNUszZE9odXU2LU5EN0tRdXVoejBlNmpFcnZmTzdudk9ya1BwSGxGd0V0TFBtY2t4VlRBWVpZeWp4cDdPYjJjR0U?oc=5",
+          "date": "2026-11-07",
+          "source": "IndexBox",
           "gravite": 0,
           "mots": [],
           "raisons": []
         },
         {
-          "titre": "Learn Why The Bull Case For Applied Industrial Technologies Stock Could Change Following Earnings Beat - Simply Wall St",
-          "lien": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPWElaY1ZqVDdWdWh0QUNpTkJQckE2SEM3cW1GWXJPOVlQNmM5c25zTlZRWWZtUEdud2VRc3BGM0dLeXAtaU1rZ0ZMcmJlcTRFRV9paXpVU2tXbWdtb1k5eUNRQ2ZrdDIwUy1pLU90VU1VQ3RuYXNxVGMxdzdWQjZfMFR6NnI4enI3Vk9JQ0FNc3c3NUZ4WGNLdjVOanFURV9qWGVzazZ4cFRIODdTTnB0cHd0cVdlbTJGbFN4S1dHZGhHYjZGLTJwT3RGcFZHdXV5bW9uTVYtcF81emFyR2hzZVd2ZmEtZ9IB6wFBVV95cUxOVnhsYnZkYnNuMjZCX3RqTS01Qlk2Mk5Kd045V2tpcjY5bHJMNlNpbXZzMVhVcUlXN3Z0Tzd6VmFMakxFM05SclNBaldrYUJuWnh0LWpsV1V3ZXFDaFdla1NqdTAxN3VZRzZ6dmdJbTcyMGxEVDJENFJLODhiTmlPa0U3WnZBd2RTcDRPUk43S3g0Q2laaEdMbGxYbFA5N2FWM0xLVnRHRVFfNkxtZ0Q5LVFRdUZZRGFkLUxiZk0xU0JuYUxFZThTTXItYkpRYmpSN1F2YXYyUkdUSEtTQUlldXBzY0NVUVdyTXFF?oc=5",
-          "date": "2026-11-02",
+          "titre": "3 Stocks Tied To Rare Earth Supply Chains Outside China - Simply Wall St",
+          "lien": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQU1BVeHl1NmduSmZ6RFFSRjllaTZFeWxvbFU3alJDcFpRajRud1pUYk1uWDVZckdsR2M2eExTSjI0TnMwUjI1U1U0UDBCdWt3RVFhc2NLLUdTM015cGdlcG84RWJ2R2hQTFN1SG1lbjB1bGpZdnh4Z3hLY0RQNUU3eXYzdk9DYm9YS2Fsd0p6dnVMSEt3RVUtQUxPUHJVTmNvQnpDMHdhclljTVc0ZTdHYko3Z0FFSnRtT0Jxb21KR201NjhoYUVRd0o2Yi12RzlsVGd4QVI1UmTSAdgBQVVfeXFMUFNQVXh5dTZnbkpmekRRUkY5ZWk2RXlsb2xVN2pSQ3BaUWo0bndaVGJNblg1WXJHbEdjNnhMU0oyNE5zMFIyNVNVNFAwQnVrd0VRYXNjSy1HUzNNeXBnZXBvOEVidkdoUExTdUhtZW4wdWxqWXZ4eGd4S2NEUDVFN3l2M3ZPQ2JvWEthbHdKenZ1TEhLd0VVLUFMT1ByVU5jb0J6QzB3YXJZY01XNGU3R2JKN2dBRUp0bU9CcW9tSkdtNTY4aGFFUXdKNmItdkc5bFRneEFSNVJk?oc=5",
+          "date": "2026-11-07",
           "source": "Simply Wall St",
           "gravite": 0,
           "mots": [],
           "raisons": []
         },
         {
-          "titre": "The 5 most interesting analyst questions from Applied Industrial’s Q3 earnings call - Yahoo Finance",
-          "lien": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVWdMNDlLeURMYkthNE9rUVFSVHVILWF1S1hkMnVFcDNFektJbXNISE1XcUR1NmtwYnFWZXpFRF9ldXdaSGJUeWliMzVta3UzcG1LekpTYXUzbXI2ajlobHR1VVRMWThOem1DSVI2S0RMYzFwM0pnc1ExQXgwelVWdVFUMFNKXzJsMFppazVnSGJPZXRTRnJkb2F5SUdHN0d3LXNF?oc=5",
-          "date": "2026-10-30",
-          "source": "Yahoo Finance",
+          "titre": "Marché de la pâte thermique 2035 : l'IA et le véhicule électrique accélèrent la croissance - Actualités et statistiques - IndexBox",
+          "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRWNKUVRCYU5PTTJmNVFUNTJVaUVjNVY2R2FnaFdNLU5QbHR0ZUM4X1pJRjVIRUtqUERudVhiWWtxR3FSbmNyeWV1bXdERTJOazV4WXE1b1l3dVFMa1Bya3JQcWlJWWxfLXVwZkFWdEtOR1d1Vy0xR0w2dTBUUU5rT3pXVWs1enM3ZVR5X0tqajFxc2R5UmtmZXBsVk1vNTNpcHBnXzVnQlVQUUUtLTZZc2xiemZrb0RSR2N2LVh4dEIwQXpHMEE?oc=5",
+          "date": "2026-11-06",
+          "source": "IndexBox",
+          "gravite": 0,
+          "mots": [],
+          "raisons": []
+        },
+        {
+          "titre": "BASF SE: Objectif de Cours et Consensus des Analystes | BAS | DE000BASF111 - Zonebourse",
+          "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16clBPNE9PSTZEUW9HczhLX01WX2VMcERJWmlEY2NsZ2Z4NHd5M0ZEaXdfdjBQbUZWdWJsV0pEVTZvOFFHTFIwbTlXbWdlci04WlVRRHJ6b2xtR09ZNjUxekVSSndFWnlVT19tYWh0aEl6eTUz?oc=5",
+          "date": "2026-11-06",
+          "source": "Zonebourse",
           "gravite": 0,
           "mots": [],
           "raisons": []
         }
       ],
-      "explications": [
-        {
-          "titre": "KeyBanc réduit son objectif de cours sur Applied Industrial - Investing.com France",
-          "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcEh4QVNwZlVlbmZKRUVGMWJFNFM4dGRhWkZYZmJzU3R1OWhyNUhlY3pydlJ4bTNqek1xOTlfc2czS01HMndRUHNMRUxmeEZSYjBRMnBZRWxkTk1wV2o1ZVV2WGVvVHBleWM0bU5tYjdRZ0dtYnk1ZGZxaG9NcXl0c2RhSklJUEp4WVZpalFRZkcxTmg5TVc0aWhYWlEzWWt0WVBfNVdaR1plNWhRV2lNWXNmUW9VTVltR3c?oc=5",
-          "date": "2026-10-27",
-          "source": "Investing.com France",
-          "gravite": 0,
-          "mots": [],
-          "raisons": [
-            "objectifs de cours abaissés"
-          ]
-        },
-        {
-          "titre": "Applied Industrial Technologies beats estimates but guides below estimates - Investing.com",
-          "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZXh0UkhXdGg2allJVG5MbWotcy1vWEtqQlZpTHd5dHhObnNUU1ZGc2M4S1V5Z1JkdXJoNlBkT0llMjhQOTVvUkpoV3cyUHRoYVV6TmNlc3VRc01SdWxTZFFuT2E2LUc2aVNuQWJHNzJMTmk4N3d3RmRjbzR1M2p3OXJneG9DVUF0czdCOFd4UDRqZ0NzQWd0NVI3RG4wZl9rVHlobHM0TXBuNE12bFNXUVNPMlhCQnE1QUlHY0xNRC1hQzVZS3c?oc=5",
-          "date": "2026-10-27",
-          "source": "Investing.com",
-          "gravite": 0,
-          "mots": [],
-          "raisons": [
-            "résultats sous les attentes"
-          ]
-        }
-      ]
+      "explications": []
     },
-    "ticket": 133
+    "ticket": 134
   },
   "radar_proposes": [
     "MCD",
@@ -350,7 +312,8 @@
     "SLM",
     "HXL",
     "0981.HK",
-    "AIT"
+    "AIT",
+    "4063.T"
   ],
   "achats": [],
   "historique": [
@@ -12947,6 +12910,154 @@
         ]
       },
       "ticket": 130,
+      "decision": "sans réponse"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-11-07",
+      "cree_le": "2026-11-07T20:51+00:00",
+      "liberation": 253.38996928212887,
+      "reserve_pct": null,
+      "score": 91.97206911383441,
+      "ordres": [
+        {
+          "ticker": "AIT",
+          "side": "buy",
+          "quantity": 1.0,
+          "price": 252.38996928212887,
+          "reason": "opportunité radar (score 92)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "AIT",
+        "nom": "Applied Industrial Technologies",
+        "isin": "AIT",
+        "type": "action",
+        "prix": 283.3900146484375,
+        "score": 91.97206911383441,
+        "baisse": 0.2170465393261496,
+        "perf_5ans": 2.0530437068308394,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.26036677691864357,
+        "pos_12m": 0.7608695652173914,
+        "n_12m": 828,
+        "base_moy_12m": 0.22166054506053606,
+        "pire_12m": -0.47422759547653115,
+        "vs_marche_3m": -0.17281466392015432,
+        "devise": "USD",
+        "prix_eur": 252.38996928212887,
+        "fondamental": 90.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +10.4% sur un an",
+          "bénéfices +13.4% sur un an",
+          "bénéfices attendus +21% sur 12 mois",
+          "analystes : « achat fort » (1.5/5, 6 avis)",
+          "objectif moyen des analystes : +34%",
+          "P/E attendu 22.5 (actuel 27.2), retenu 24.9 : la moitié seulement de la croissance attendue est comptée",
+          "marge nette 8%",
+          "dette / capitaux propres 26 %",
+          "données du 2026-10-27 (Yahoo indisponible aujourd'hui)"
+        ],
+        "score_global": 90.8,
+        "braderie": false,
+        "perf_1an": 0.10623305038558595,
+        "bonus_braderie": 0.0,
+        "n_episodes": 4
+      },
+      "actualites": {
+        "verdict": "orange",
+        "resume": "raisons de la baisse déjà publiées : objectifs de cours abaissés, résultats sous les attentes (pas une braderie sans raison) (3 mois : -17% vs marché)",
+        "vs_marche_3m": -0.17281466392015432,
+        "alertes": [
+          {
+            "titre": "US law firm fraud: EFCC wins final forfeiture of $163,592 linked to Nigerian suspect - PM News Nigeria",
+            "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWDNFWTRjNkJqTEhSbTVTTTI2S1U3aUdRT2JXR21kYnpVSV9iVExqWm1TZ3F5c3cta1RtaVlUTlpseUJpWFJwLTRjVVlIQ3E2M09haDg2T19lNVJmamFkSi1FVkdSYVJZWmw4MjJqanExUGE2c0JuR0l5RWNuM2s0Rm5qMWJ3M1ptUlZhVG91MjB6UjF1eGJhWWFTRzRoUDBxRDE2bV9vTmtxLU1PcFpLN0s3dFJZTVNhRzdB?oc=5",
+            "date": "2026-11-06",
+            "source": "PM News Nigeria",
+            "gravite": 1,
+            "mots": [
+              "fraud"
+            ],
+            "raisons": []
+          }
+        ],
+        "recents": [
+          {
+            "titre": "US law firm fraud: EFCC wins final forfeiture of $163,592 linked to Nigerian suspect - PM News Nigeria",
+            "lien": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWDNFWTRjNkJqTEhSbTVTTTI2S1U3aUdRT2JXR21kYnpVSV9iVExqWm1TZ3F5c3cta1RtaVlUTlpseUJpWFJwLTRjVVlIQ3E2M09haDg2T19lNVJmamFkSi1FVkdSYVJZWmw4MjJqanExUGE2c0JuR0l5RWNuM2s0Rm5qMWJ3M1ptUlZhVG91MjB6UjF1eGJhWWFTRzRoUDBxRDE2bV9vTmtxLU1PcFpLN0s3dFJZTVNhRzdB?oc=5",
+            "date": "2026-11-06",
+            "source": "PM News Nigeria",
+            "gravite": 1,
+            "mots": [
+              "fraud"
+            ],
+            "raisons": []
+          },
+          {
+            "titre": "Applied Industrial Technologies (AIT) Stock Forecasts - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeXJnVlh0TkRaM0ZnejdUR29HaVZQZWVHX0lsZFZqbWNreTNZblQzZmtZbkVXWmV0SFlDWXFNXzlxelpoVXJIQUU5blNVX3l3NTVPNy1NZzRaT2g1eVRIeVJDZDVjV3pzcC1GRXhoaHNoRjRhZDVVU1FQYk1tVVBNbnY4Q2tNajlrUWxZbGZ2dw?oc=5",
+            "date": "2026-11-05",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": [],
+            "raisons": []
+          },
+          {
+            "titre": "Applied Industrial Technologies (AIT) International Revenue Performance Explored - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVXFiMGYzclktVGVGVXhFMzl5UHEySUlnM0JzcGdLY01RUUdXYVdQWXNKejZEaXhVVlhsdDJLY08yZzZ5VG9tN2Nyb2VIVEkwTy11WGdxWVdsRWdWQU1GeE44MEVCdUxuSmNPWDhGYzlwelA4M3lIT2EweVliRTJyWmpiRl9kZGZPU0FKdUo1NXBBNnN2UTNrWjBydFBlbm9wcWtBNDg3QVgtVkdfeXp3b0RwWVc?oc=5",
+            "date": "2026-11-02",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": [],
+            "raisons": []
+          },
+          {
+            "titre": "Learn Why The Bull Case For Applied Industrial Technologies Stock Could Change Following Earnings Beat - Simply Wall St",
+            "lien": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPWElaY1ZqVDdWdWh0QUNpTkJQckE2SEM3cW1GWXJPOVlQNmM5c25zTlZRWWZtUEdud2VRc3BGM0dLeXAtaU1rZ0ZMcmJlcTRFRV9paXpVU2tXbWdtb1k5eUNRQ2ZrdDIwUy1pLU90VU1VQ3RuYXNxVGMxdzdWQjZfMFR6NnI4enI3Vk9JQ0FNc3c3NUZ4WGNLdjVOanFURV9qWGVzazZ4cFRIODdTTnB0cHd0cVdlbTJGbFN4S1dHZGhHYjZGLTJwT3RGcFZHdXV5bW9uTVYtcF81emFyR2hzZVd2ZmEtZ9IB6wFBVV95cUxOVnhsYnZkYnNuMjZCX3RqTS01Qlk2Mk5Kd045V2tpcjY5bHJMNlNpbXZzMVhVcUlXN3Z0Tzd6VmFMakxFM05SclNBaldrYUJuWnh0LWpsV1V3ZXFDaFdla1NqdTAxN3VZRzZ6dmdJbTcyMGxEVDJENFJLODhiTmlPa0U3WnZBd2RTcDRPUk43S3g0Q2laaEdMbGxYbFA5N2FWM0xLVnRHRVFfNkxtZ0Q5LVFRdUZZRGFkLUxiZk0xU0JuYUxFZThTTXItYkpRYmpSN1F2YXYyUkdUSEtTQUlldXBzY0NVUVdyTXFF?oc=5",
+            "date": "2026-11-02",
+            "source": "Simply Wall St",
+            "gravite": 0,
+            "mots": [],
+            "raisons": []
+          },
+          {
+            "titre": "The 5 most interesting analyst questions from Applied Industrial’s Q3 earnings call - Yahoo Finance",
+            "lien": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVWdMNDlLeURMYkthNE9rUVFSVHVILWF1S1hkMnVFcDNFektJbXNISE1XcUR1NmtwYnFWZXpFRF9ldXdaSGJUeWliMzVta3UzcG1LekpTYXUzbXI2ajlobHR1VVRMWThOem1DSVI2S0RMYzFwM0pnc1ExQXgwelVWdVFUMFNKXzJsMFppazVnSGJPZXRTRnJkb2F5SUdHN0d3LXNF?oc=5",
+            "date": "2026-10-30",
+            "source": "Yahoo Finance",
+            "gravite": 0,
+            "mots": [],
+            "raisons": []
+          }
+        ],
+        "explications": [
+          {
+            "titre": "KeyBanc réduit son objectif de cours sur Applied Industrial - Investing.com France",
+            "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcEh4QVNwZlVlbmZKRUVGMWJFNFM4dGRhWkZYZmJzU3R1OWhyNUhlY3pydlJ4bTNqek1xOTlfc2czS01HMndRUHNMRUxmeEZSYjBRMnBZRWxkTk1wV2o1ZVV2WGVvVHBleWM0bU5tYjdRZ0dtYnk1ZGZxaG9NcXl0c2RhSklJUEp4WVZpalFRZkcxTmg5TVc0aWhYWlEzWWt0WVBfNVdaR1plNWhRV2lNWXNmUW9VTVltR3c?oc=5",
+            "date": "2026-10-27",
+            "source": "Investing.com France",
+            "gravite": 0,
+            "mots": [],
+            "raisons": [
+              "objectifs de cours abaissés"
+            ]
+          },
+          {
+            "titre": "Applied Industrial Technologies beats estimates but guides below estimates - Investing.com",
+            "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZXh0UkhXdGg2allJVG5MbWotcy1vWEtqQlZpTHd5dHhObnNUU1ZGc2M4S1V5Z1JkdXJoNlBkT0llMjhQOTVvUkpoV3cyUHRoYVV6TmNlc3VRc01SdWxTZFFuT2E2LUc2aVNuQWJHNzJMTmk4N3d3RmRjbzR1M2p3OXJneG9DVUF0czdCOFd4UDRqZ0NzQWd0NVI3RG4wZl9rVHlobHM0TXBuNE12bFNXUVNPMlhCQnE1QUlHY0xNRC1hQzVZS3c?oc=5",
+            "date": "2026-10-27",
+            "source": "Investing.com",
+            "gravite": 0,
+            "mots": [],
+            "raisons": [
+              "résultats sous les attentes"
+            ]
+          }
+        ]
+      },
+      "ticket": 133,
       "decision": "sans réponse"
     }
   ]
