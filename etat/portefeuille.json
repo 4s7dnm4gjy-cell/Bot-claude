@@ -43,115 +43,7 @@
     "MCD": "2026-10-05",
     "IGG.L": "2026-10-06"
   },
-  "opportunite": {
-    "type": "opportunite",
-    "date": "2026-11-08",
-    "cree_le": "2026-11-08T21:06+00:00",
-    "liberation": 121.6231031651386,
-    "reserve_pct": null,
-    "score": 94.55556195757036,
-    "ordres": [
-      {
-        "ticker": "4063.T",
-        "side": "buy",
-        "quantity": 4.0,
-        "price": 30.15577579128465,
-        "reason": "opportunité radar (score 95)"
-      }
-    ],
-    "notes": [],
-    "total": 0,
-    "radar": {
-      "ticker": "4063.T",
-      "nom": "Shin-Etsu Chemical",
-      "isin": "JP3371200001",
-      "type": "action",
-      "prix": 5312.0,
-      "score": 94.55556195757036,
-      "baisse": 0.31714882296885694,
-      "perf_5ans": 0.48836272624764043,
-      "tranche": "80-100 (soldé)",
-      "moy_12m": 0.2345889326405776,
-      "pos_12m": 0.771900826446281,
-      "n_12m": 605,
-      "base_moy_12m": 0.1473562895964847,
-      "pire_12m": -0.44947467902775273,
-      "vs_marche_3m": -0.051024034415167896,
-      "devise": "JPY",
-      "prix_eur": 30.15577579128465,
-      "fondamental": 91.0,
-      "fondamental_notes": [
-        "chiffre d'affaires +15.6% sur un an",
-        "bénéfices +21.7% sur un an",
-        "bénéfices attendus +31% sur 12 mois : attente élevée, elle repose sur des prévisions qui peuvent être revues à la baisse (points réduits)",
-        "analystes : « achat fort » (1.5/5, 17 avis)",
-        "objectif moyen des analystes : +46%",
-        "P/E attendu 16.1 (actuel 21.0), retenu 18.6 : la moitié seulement de la croissance attendue est comptée",
-        "marge nette 19%",
-        "dette / capitaux propres 9 %"
-      ],
-      "score_global": 92.4,
-      "braderie": false,
-      "perf_1an": 0.0884105679006515,
-      "bonus_braderie": 0.0,
-      "n_episodes": 10
-    },
-    "actualites": {
-      "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -5% vs marché)",
-      "vs_marche_3m": -0.051024034415167896,
-      "alertes": [],
-      "recents": [
-        {
-          "titre": "Shin-Etsu Chemical Co Ltd (SEH.DU) Seasonal Returns Chart - Yahoo! Finance Canada",
-          "lien": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4tUGNzU2hlMVNqdVVyaTRpVXNUQVhzUEgybS1qX0V1VXB6bzBPcFplQXdhbFV2OGtIS0RCQ1NjaDNLNTR5amJpVDRNaGM4cm91MTY0MS1xN0pwb1owRlNzSWtwQ3I?oc=5",
-          "date": "2026-11-08",
-          "source": "Yahoo! Finance Canada",
-          "gravite": 0,
-          "mots": [],
-          "raisons": []
-        },
-        {
-          "titre": "Marché mondial des mélanges de polychlorure de vinyle : taille, tendances et prévisions jusqu’en 2035 - IndexBox",
-          "lien": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMS1BYk5reTBsWVU1NnU4WFJtUG00S29ET0dxdWNFSzc3TG9iRU5fS0ZUOHpwUUNyVWxrVXRCb0dYZ2g3WlRqS0ZHWldzdDFDazZybDZFS0loMVh6RjNNT3FUckhicEFSN0huVGdEMHpXMllJRVBZcGhlWEJ4ZlA5RlVKNmtOS0tOMWdmYkNwNUszZE9odXU2LU5EN0tRdXVoejBlNmpFcnZmTzdudk9ya1BwSGxGd0V0TFBtY2t4VlRBWVpZeWp4cDdPYjJjR0U?oc=5",
-          "date": "2026-11-07",
-          "source": "IndexBox",
-          "gravite": 0,
-          "mots": [],
-          "raisons": []
-        },
-        {
-          "titre": "3 Stocks Tied To Rare Earth Supply Chains Outside China - Simply Wall St",
-          "lien": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQU1BVeHl1NmduSmZ6RFFSRjllaTZFeWxvbFU3alJDcFpRajRud1pUYk1uWDVZckdsR2M2eExTSjI0TnMwUjI1U1U0UDBCdWt3RVFhc2NLLUdTM015cGdlcG84RWJ2R2hQTFN1SG1lbjB1bGpZdnh4Z3hLY0RQNUU3eXYzdk9DYm9YS2Fsd0p6dnVMSEt3RVUtQUxPUHJVTmNvQnpDMHdhclljTVc0ZTdHYko3Z0FFSnRtT0Jxb21KR201NjhoYUVRd0o2Yi12RzlsVGd4QVI1UmTSAdgBQVVfeXFMUFNQVXh5dTZnbkpmekRRUkY5ZWk2RXlsb2xVN2pSQ3BaUWo0bndaVGJNblg1WXJHbEdjNnhMU0oyNE5zMFIyNVNVNFAwQnVrd0VRYXNjSy1HUzNNeXBnZXBvOEVidkdoUExTdUhtZW4wdWxqWXZ4eGd4S2NEUDVFN3l2M3ZPQ2JvWEthbHdKenZ1TEhLd0VVLUFMT1ByVU5jb0J6QzB3YXJZY01XNGU3R2JKN2dBRUp0bU9CcW9tSkdtNTY4aGFFUXdKNmItdkc5bFRneEFSNVJk?oc=5",
-          "date": "2026-11-07",
-          "source": "Simply Wall St",
-          "gravite": 0,
-          "mots": [],
-          "raisons": []
-        },
-        {
-          "titre": "Marché de la pâte thermique 2035 : l'IA et le véhicule électrique accélèrent la croissance - Actualités et statistiques - IndexBox",
-          "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRWNKUVRCYU5PTTJmNVFUNTJVaUVjNVY2R2FnaFdNLU5QbHR0ZUM4X1pJRjVIRUtqUERudVhiWWtxR3FSbmNyeWV1bXdERTJOazV4WXE1b1l3dVFMa1Bya3JQcWlJWWxfLXVwZkFWdEtOR1d1Vy0xR0w2dTBUUU5rT3pXVWs1enM3ZVR5X0tqajFxc2R5UmtmZXBsVk1vNTNpcHBnXzVnQlVQUUUtLTZZc2xiemZrb0RSR2N2LVh4dEIwQXpHMEE?oc=5",
-          "date": "2026-11-06",
-          "source": "IndexBox",
-          "gravite": 0,
-          "mots": [],
-          "raisons": []
-        },
-        {
-          "titre": "BASF SE: Objectif de Cours et Consensus des Analystes | BAS | DE000BASF111 - Zonebourse",
-          "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16clBPNE9PSTZEUW9HczhLX01WX2VMcERJWmlEY2NsZ2Z4NHd5M0ZEaXdfdjBQbUZWdWJsV0pEVTZvOFFHTFIwbTlXbWdlci04WlVRRHJ6b2xtR09ZNjUxekVSSndFWnlVT19tYWh0aEl6eTUz?oc=5",
-          "date": "2026-11-06",
-          "source": "Zonebourse",
-          "gravite": 0,
-          "mots": [],
-          "raisons": []
-        }
-      ],
-      "explications": []
-    },
-    "ticket": 134
-  },
+  "opportunite": null,
   "radar_proposes": [
     "MCD",
     "IGG.L",
@@ -13089,6 +12981,116 @@
       "image": "rapports/propositions/2026-11-05.png",
       "ticket": 131,
       "decision": "expirée"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-11-08",
+      "cree_le": "2026-11-08T21:06+00:00",
+      "liberation": 121.6231031651386,
+      "reserve_pct": null,
+      "score": 94.55556195757036,
+      "ordres": [
+        {
+          "ticker": "4063.T",
+          "side": "buy",
+          "quantity": 4.0,
+          "price": 30.15577579128465,
+          "reason": "opportunité radar (score 95)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "4063.T",
+        "nom": "Shin-Etsu Chemical",
+        "isin": "JP3371200001",
+        "type": "action",
+        "prix": 5312.0,
+        "score": 94.55556195757036,
+        "baisse": 0.31714882296885694,
+        "perf_5ans": 0.48836272624764043,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.2345889326405776,
+        "pos_12m": 0.771900826446281,
+        "n_12m": 605,
+        "base_moy_12m": 0.1473562895964847,
+        "pire_12m": -0.44947467902775273,
+        "vs_marche_3m": -0.051024034415167896,
+        "devise": "JPY",
+        "prix_eur": 30.15577579128465,
+        "fondamental": 91.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +15.6% sur un an",
+          "bénéfices +21.7% sur un an",
+          "bénéfices attendus +31% sur 12 mois : attente élevée, elle repose sur des prévisions qui peuvent être revues à la baisse (points réduits)",
+          "analystes : « achat fort » (1.5/5, 17 avis)",
+          "objectif moyen des analystes : +46%",
+          "P/E attendu 16.1 (actuel 21.0), retenu 18.6 : la moitié seulement de la croissance attendue est comptée",
+          "marge nette 19%",
+          "dette / capitaux propres 9 %"
+        ],
+        "score_global": 92.4,
+        "braderie": false,
+        "perf_1an": 0.0884105679006515,
+        "bonus_braderie": 0.0,
+        "n_episodes": 10
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -5% vs marché)",
+        "vs_marche_3m": -0.051024034415167896,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Shin-Etsu Chemical Co Ltd (SEH.DU) Seasonal Returns Chart - Yahoo! Finance Canada",
+            "lien": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4tUGNzU2hlMVNqdVVyaTRpVXNUQVhzUEgybS1qX0V1VXB6bzBPcFplQXdhbFV2OGtIS0RCQ1NjaDNLNTR5amJpVDRNaGM4cm91MTY0MS1xN0pwb1owRlNzSWtwQ3I?oc=5",
+            "date": "2026-11-08",
+            "source": "Yahoo! Finance Canada",
+            "gravite": 0,
+            "mots": [],
+            "raisons": []
+          },
+          {
+            "titre": "Marché mondial des mélanges de polychlorure de vinyle : taille, tendances et prévisions jusqu’en 2035 - IndexBox",
+            "lien": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMS1BYk5reTBsWVU1NnU4WFJtUG00S29ET0dxdWNFSzc3TG9iRU5fS0ZUOHpwUUNyVWxrVXRCb0dYZ2g3WlRqS0ZHWldzdDFDazZybDZFS0loMVh6RjNNT3FUckhicEFSN0huVGdEMHpXMllJRVBZcGhlWEJ4ZlA5RlVKNmtOS0tOMWdmYkNwNUszZE9odXU2LU5EN0tRdXVoejBlNmpFcnZmTzdudk9ya1BwSGxGd0V0TFBtY2t4VlRBWVpZeWp4cDdPYjJjR0U?oc=5",
+            "date": "2026-11-07",
+            "source": "IndexBox",
+            "gravite": 0,
+            "mots": [],
+            "raisons": []
+          },
+          {
+            "titre": "3 Stocks Tied To Rare Earth Supply Chains Outside China - Simply Wall St",
+            "lien": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQU1BVeHl1NmduSmZ6RFFSRjllaTZFeWxvbFU3alJDcFpRajRud1pUYk1uWDVZckdsR2M2eExTSjI0TnMwUjI1U1U0UDBCdWt3RVFhc2NLLUdTM015cGdlcG84RWJ2R2hQTFN1SG1lbjB1bGpZdnh4Z3hLY0RQNUU3eXYzdk9DYm9YS2Fsd0p6dnVMSEt3RVUtQUxPUHJVTmNvQnpDMHdhclljTVc0ZTdHYko3Z0FFSnRtT0Jxb21KR201NjhoYUVRd0o2Yi12RzlsVGd4QVI1UmTSAdgBQVVfeXFMUFNQVXh5dTZnbkpmekRRUkY5ZWk2RXlsb2xVN2pSQ3BaUWo0bndaVGJNblg1WXJHbEdjNnhMU0oyNE5zMFIyNVNVNFAwQnVrd0VRYXNjSy1HUzNNeXBnZXBvOEVidkdoUExTdUhtZW4wdWxqWXZ4eGd4S2NEUDVFN3l2M3ZPQ2JvWEthbHdKenZ1TEhLd0VVLUFMT1ByVU5jb0J6QzB3YXJZY01XNGU3R2JKN2dBRUp0bU9CcW9tSkdtNTY4aGFFUXdKNmItdkc5bFRneEFSNVJk?oc=5",
+            "date": "2026-11-07",
+            "source": "Simply Wall St",
+            "gravite": 0,
+            "mots": [],
+            "raisons": []
+          },
+          {
+            "titre": "Marché de la pâte thermique 2035 : l'IA et le véhicule électrique accélèrent la croissance - Actualités et statistiques - IndexBox",
+            "lien": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRWNKUVRCYU5PTTJmNVFUNTJVaUVjNVY2R2FnaFdNLU5QbHR0ZUM4X1pJRjVIRUtqUERudVhiWWtxR3FSbmNyeWV1bXdERTJOazV4WXE1b1l3dVFMa1Bya3JQcWlJWWxfLXVwZkFWdEtOR1d1Vy0xR0w2dTBUUU5rT3pXVWs1enM3ZVR5X0tqajFxc2R5UmtmZXBsVk1vNTNpcHBnXzVnQlVQUUUtLTZZc2xiemZrb0RSR2N2LVh4dEIwQXpHMEE?oc=5",
+            "date": "2026-11-06",
+            "source": "IndexBox",
+            "gravite": 0,
+            "mots": [],
+            "raisons": []
+          },
+          {
+            "titre": "BASF SE: Objectif de Cours et Consensus des Analystes | BAS | DE000BASF111 - Zonebourse",
+            "lien": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16clBPNE9PSTZEUW9HczhLX01WX2VMcERJWmlEY2NsZ2Z4NHd5M0ZEaXdfdjBQbUZWdWJsV0pEVTZvOFFHTFIwbTlXbWdlci04WlVRRHJ6b2xtR09ZNjUxekVSSndFWnlVT19tYWh0aEl6eTUz?oc=5",
+            "date": "2026-11-06",
+            "source": "Zonebourse",
+            "gravite": 0,
+            "mots": [],
+            "raisons": []
+          }
+        ],
+        "explications": []
+      },
+      "ticket": 134,
+      "decision": "sans réponse"
     }
   ]
 }
