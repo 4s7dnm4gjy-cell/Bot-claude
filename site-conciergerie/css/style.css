@@ -574,6 +574,14 @@ strong { font-weight: 700; }
 .faq details[open] summary::after { content: "−"; }
 .faq details > p { margin: 0 0 1.25rem; max-width: 38rem; }
 
+/* ---------- Autres aides utiles ---------- */
+.aides { list-style: none; padding: 0; margin: 0 0 1.25rem; }
+.aides li { border-top: 1px solid var(--filet); padding: 1.1rem 0 0.6rem; }
+.aides li:first-child { border-top: 2px solid var(--encre); }
+.aides h3 { font-size: 1.3rem; margin-bottom: 0.4rem; }
+.aides p { margin: 0 0 0.4rem; }
+.aides a { display: inline-flex; align-items: center; min-height: 48px; }
+
 /* ---------- Contact ---------- */
 .section.contact { background: var(--papier-2); border-top: 0; }
 .contact__tel {
