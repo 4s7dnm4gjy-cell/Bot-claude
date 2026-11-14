@@ -43,7 +43,115 @@
     "MCD": "2026-10-05",
     "IGG.L": "2026-10-06"
   },
-  "opportunite": null,
+  "opportunite": {
+    "type": "opportunite",
+    "date": "2026-11-14",
+    "cree_le": "2026-11-14T21:25+00:00",
+    "liberation": 141.5954338796533,
+    "reserve_pct": null,
+    "score": 88.50131590274412,
+    "ordres": [
+      {
+        "ticker": "WEIR.L",
+        "side": "buy",
+        "quantity": 5.0,
+        "price": 28.119086775930665,
+        "reason": "opportunité radar (score 89)"
+      }
+    ],
+    "notes": [],
+    "total": 0,
+    "radar": {
+      "ticker": "WEIR.L",
+      "nom": "Weir",
+      "isin": "WEIR.L",
+      "type": "action",
+      "prix": 2348.0,
+      "score": 88.50131590274412,
+      "baisse": 0.33774350682886456,
+      "perf_5ans": 0.31618735707666357,
+      "tranche": "80-100 (soldé)",
+      "moy_12m": 0.3014472946330921,
+      "pos_12m": 0.6419316843345112,
+      "n_12m": 849,
+      "base_moy_12m": 0.18704127317939104,
+      "pire_12m": -0.5459594648478188,
+      "vs_marche_3m": -0.1244591265406233,
+      "devise": "GBp",
+      "prix_eur": 28.119086775930665,
+      "fondamental": 87.0,
+      "fondamental_notes": [
+        "chiffre d'affaires +6.2% sur un an",
+        "bénéfices +15.6% sur un an",
+        "bénéfices attendus +43% sur 12 mois : attente élevée, elle repose sur des prévisions qui peuvent être revues à la baisse (points réduits)",
+        "analystes : « achat » (1.9/5, 21 avis)",
+        "objectif moyen des analystes : +36%",
+        "P/E attendu 16.4 (actuel 23.3), retenu 19.9 : la moitié seulement de la croissance attendue est comptée",
+        "marge nette 10%",
+        "dette / capitaux propres 91 %"
+      ],
+      "score_global": 87.6,
+      "braderie": false,
+      "perf_1an": -0.16547212559124702,
+      "bonus_braderie": 0.0,
+      "n_episodes": 8
+    },
+    "actualites": {
+      "verdict": "vert",
+      "resume": "rien d'alarmant dans l'actualité (3 mois : -12% vs marché)",
+      "vs_marche_3m": -0.1244591265406233,
+      "alertes": [],
+      "recents": [
+        {
+          "titre": "Star Trek cherche sa relance, Andy Weir voit une autre voie - Begeek",
+          "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMmx2cHJxR2pnZnJxaFN3Q21XdGlQM1dadjVnbDRTWWVwQW1qaVB2ZG9JU2hsS0hyeTB0WVNjQmFpcEtBVnFfcFlheGtjcm9tZzVoQXJ3dXRHdVJVOXQ0Y3cyMUZGWGg2SDQ1eHM1V0hIaWFic2RZZEFhOWZWaHZWZFNRY0UzQVYtTzlwb2tlSkg?oc=5",
+          "date": "2026-11-14",
+          "source": "Begeek",
+          "gravite": 0,
+          "mots": [],
+          "raisons": []
+        },
+        {
+          "titre": "2026 FHSAA Football Playoffs Lake Weir High School vs. Jones High School - 11/13/2026 | Live & On Demand - NFHS Network",
+          "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPY0U3RkRUdkVkM0dWOEhJb1BRLWs0dHh3Snl6UExWdV9GZHFwSUZfZ21uWjdKQ3NseXBkSTU0NGk1VWdzNVNVMjR4SVh2MmFCLTZlWkJpcXVoWVE0MUJrMWVCSlBRdU5EaVdXd2tTNUNSUkFoa3Fuci12MTFraHByT0dQYmNYRkZ4dGpNOVotYnV4V2pVbjV1cWJPSQ?oc=5",
+          "date": "2026-11-14",
+          "source": "NFHS Network",
+          "gravite": 0,
+          "mots": [],
+          "raisons": []
+        },
+        {
+          "titre": "Bob Weir’s strange on stage out-of-body experience: “It was 20 years later” - Far Out Magazine",
+          "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc3p6eUhjY1JWbDRxODNxcktnNktxNnptQ1FzRmJVZV9IUVBjZ2NnbWgzSl82OHFTZUxLMXhOTElnMk02LXlhaTRLdU9yMzBMb2l5OXgxUUpQbWxLU2JFRjVIbWJSWmtlTkRHYjA1Tk02aEJRMDlwRmtPT1FiWmhlNTNoclI?oc=5",
+          "date": "2026-11-14",
+          "source": "Far Out Magazine",
+          "gravite": 0,
+          "mots": [],
+          "raisons": []
+        },
+        {
+          "titre": "Wigan beat Barnsley to move out of relegation zone - Express and Star",
+          "lien": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSkRkdU14eTRCelpfTTB4MTlUR3dLX1NhZHhFVmkwSDdpNW5XeFhuNl9aSGFDMVRTWTU2Ym9uWWVQWjVrQXlGLVYzbmkzenh4RXByWnRfangybzVGWkt1V0JfbjFQR3ZEQzkwOHc1cEdrSWFwejdVcDRUNXlIaG9XLVhjcTRHM3Y2amJ2YWJNRi0xOVZBWHdwTjV5WGVaXzRZ?oc=5",
+          "date": "2026-11-14",
+          "source": "Express and Star",
+          "gravite": 0,
+          "mots": [],
+          "raisons": []
+        },
+        {
+          "titre": "Obituary: John Marshall Weir III - Boerne Star",
+          "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GTUtIT21kblpNWmhncGgyblQwMVo1UXNWS2oweDVrTU9fb3lKSENiVEZ6cnlNeWc0clZqOTRvN2JGTVpsVXZGTHlqZmJVc2pKVmJJQXZpbjFabmw0bVgzbGJyTGhnM3dLWFJ6NDZSZHYxQQ?oc=5",
+          "date": "2026-11-13",
+          "source": "Boerne Star",
+          "gravite": 0,
+          "mots": [],
+          "raisons": []
+        }
+      ],
+      "explications": []
+    },
+    "ticket": 136
+  },
   "radar_proposes": [
     "MCD",
     "IGG.L",
@@ -205,7 +313,9 @@
     "HXL",
     "0981.HK",
     "AIT",
-    "4063.T"
+    "4063.T",
+    "PAAS.TO",
+    "WEIR.L"
   ],
   "achats": [],
   "historique": [
