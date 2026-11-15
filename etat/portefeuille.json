@@ -17,112 +17,135 @@
   },
   "opportunite": {
     "type": "opportunite",
-    "date": "2026-11-14",
-    "cree_le": "2026-11-14T21:25+00:00",
-    "liberation": 141.5954338796533,
+    "date": "2026-11-15",
+    "cree_le": "2026-11-15T21:44+00:00",
+    "liberation": 159.22050819540684,
     "reserve_pct": null,
-    "score": 88.50131590274412,
+    "score": 85.31783812997426,
     "ordres": [
       {
-        "ticker": "WEIR.L",
+        "ticker": "ODFL",
         "side": "buy",
-        "quantity": 5.0,
-        "price": 28.119086775930665,
-        "reason": "opportunité radar (score 89)"
+        "quantity": 1.0,
+        "price": 158.22050819540684,
+        "reason": "opportunité radar (score 85)"
       }
     ],
     "notes": [],
     "total": 0,
     "radar": {
-      "ticker": "WEIR.L",
-      "nom": "Weir",
-      "isin": "WEIR.L",
+      "ticker": "ODFL",
+      "nom": "Old Dominion",
+      "isin": "ODFL",
       "type": "action",
-      "prix": 2348.0,
-      "score": 88.50131590274412,
-      "baisse": 0.33774350682886456,
-      "perf_5ans": 0.31618735707666357,
+      "prix": 174.5399932861328,
+      "score": 85.31783812997426,
+      "baisse": 0.29718538138112083,
+      "perf_5ans": 0.019148527651445812,
       "tranche": "80-100 (soldé)",
-      "moy_12m": 0.3014472946330921,
-      "pos_12m": 0.6419316843345112,
-      "n_12m": 849,
-      "base_moy_12m": 0.18704127317939104,
-      "pire_12m": -0.5459594648478188,
-      "vs_marche_3m": -0.1244591265406233,
-      "devise": "GBp",
-      "prix_eur": 28.119086775930665,
-      "fondamental": 87.0,
+      "moy_12m": 0.2764316309407296,
+      "pos_12m": 0.796812749003984,
+      "n_12m": 1004,
+      "base_moy_12m": 0.2719254994723772,
+      "pire_12m": -0.2799206892442755,
+      "vs_marche_3m": -0.15979608271365064,
+      "devise": "USD",
+      "prix_eur": 158.22050819540684,
+      "fondamental": 86.0,
       "fondamental_notes": [
-        "chiffre d'affaires +6.2% sur un an",
-        "bénéfices +15.6% sur un an",
-        "bénéfices attendus +43% sur 12 mois : attente élevée, elle repose sur des prévisions qui peuvent être revues à la baisse (points réduits)",
-        "analystes : « achat » (1.9/5, 21 avis)",
-        "objectif moyen des analystes : +36%",
-        "P/E attendu 16.4 (actuel 23.3), retenu 19.9 : la moitié seulement de la croissance attendue est comptée",
-        "marge nette 10%",
-        "dette / capitaux propres 91 %"
+        "chiffre d'affaires +13.1% sur un an",
+        "bénéfices +28.9% sur un an",
+        "bénéfices attendus +21% sur 12 mois",
+        "analystes : « achat » (2.2/5, 21 avis)",
+        "objectif moyen des analystes : +25%",
+        "P/E attendu 25.3 (actuel 30.7), retenu 28.0 : la moitié seulement de la croissance attendue est comptée",
+        "marge nette 20%",
+        "dette / capitaux propres 0 %"
       ],
-      "score_global": 87.6,
+      "score_global": 85.7,
       "braderie": false,
-      "perf_1an": -0.16547212559124702,
+      "perf_1an": 0.26485206841488185,
       "bonus_braderie": 0.0,
-      "n_episodes": 8
+      "n_episodes": 6
     },
     "actualites": {
-      "verdict": "vert",
-      "resume": "rien d'alarmant dans l'actualité (3 mois : -12% vs marché)",
-      "vs_marche_3m": -0.1244591265406233,
+      "verdict": "orange",
+      "resume": "raisons de la baisse déjà publiées : réaction à une acquisition, incident ponctuel (grève, panne) (pas une braderie sans raison) (3 mois : -16% vs marché)",
+      "vs_marche_3m": -0.15979608271365064,
       "alertes": [],
       "recents": [
         {
-          "titre": "Star Trek cherche sa relance, Andy Weir voit une autre voie - Begeek",
-          "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMmx2cHJxR2pnZnJxaFN3Q21XdGlQM1dadjVnbDRTWWVwQW1qaVB2ZG9JU2hsS0hyeTB0WVNjQmFpcEtBVnFfcFlheGtjcm9tZzVoQXJ3dXRHdVJVOXQ0Y3cyMUZGWGg2SDQ1eHM1V0hIaWFic2RZZEFhOWZWaHZWZFNRY0UzQVYtTzlwb2tlSkg?oc=5",
-          "date": "2026-11-14",
-          "source": "Begeek",
+          "titre": "Longwood Drops Back-and-Forth Affair at Old Dominion - Longwood University Athletics - Longwood University Athletics",
+          "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbWlsZU1Ed3JITlY3bnBLZ1FoSlVXbXJyY0Z2aFJoalZaeVB1UjNWem5md29iR2UySmdOTzlqdm1NSkRQSzdfMkFYcGxXSkdxd1lxQjI1WXEwcmxhbWRSZGl2ckpqZGRTNWRQRklMWjhHYWtKLTFtWlpQWWNVSmpTT3JDQUwxRUNKTXc3NTgwSmx0RE9qSW9qRHpOU2tQeHllbHBvWENxSXo1UGVkejJDanliRWQ0RWZD?oc=5",
+          "date": "2026-11-15",
+          "source": "Longwood University Athletics",
           "gravite": 0,
           "mots": [],
           "raisons": []
         },
         {
-          "titre": "2026 FHSAA Football Playoffs Lake Weir High School vs. Jones High School - 11/13/2026 | Live & On Demand - NFHS Network",
-          "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPY0U3RkRUdkVkM0dWOEhJb1BRLWs0dHh3Snl6UExWdV9GZHFwSUZfZ21uWjdKQ3NseXBkSTU0NGk1VWdzNVNVMjR4SVh2MmFCLTZlWkJpcXVoWVE0MUJrMWVCSlBRdU5EaVdXd2tTNUNSUkFoa3Fuci12MTFraHByT0dQYmNYRkZ4dGpNOVotYnV4V2pVbjV1cWJPSQ?oc=5",
-          "date": "2026-11-14",
-          "source": "NFHS Network",
+          "titre": "Old Dominion Women's Basketball Hosts In-State Foe Virginia at Chartway Arena on Sunday Afternoon - Old Dominion Athletics",
+          "lien": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWm9EcTNFbEZ3Z3ZFQ3dHTmphXzhFQWpaMXU1YTQ0cnoxUmVqLVd2X1kwM2ZnSGY2LWItejBuVW5ZbjNWWGsxU2VTWHBJUl9BM2RHaWpEejY0anRiR0s5YnFsTGJGbFZLUkNPVE1yb3c3MDlXd1BaTWNnU0VMQjJMMzUwZ2tJeVFueF9DODBfZWZ0YnJKeWw0RDZ0UHptQlFtdElDb2dlWWNGa2Q5UlNwT2twTUxqT2VyRFJCcmRzSER0YkotLUJWVHNVeVJheUU?oc=5",
+          "date": "2026-11-15",
+          "source": "Old Dominion Athletics",
           "gravite": 0,
           "mots": [],
           "raisons": []
         },
         {
-          "titre": "Bob Weir’s strange on stage out-of-body experience: “It was 20 years later” - Far Out Magazine",
-          "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc3p6eUhjY1JWbDRxODNxcktnNktxNnptQ1FzRmJVZV9IUVBjZ2NnbWgzSl82OHFTZUxLMXhOTElnMk02LXlhaTRLdU9yMzBMb2l5OXgxUUpQbWxLU2JFRjVIbWJSWmtlTkRHYjA1Tk02aEJRMDlwRmtPT1FiWmhlNTNoclI?oc=5",
-          "date": "2026-11-14",
-          "source": "Far Out Magazine",
+          "titre": "November 14, 2026: Volleyball: Louisiana-Monroe vs. Old Dominion: Recap - Old Dominion Athletics",
+          "lien": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRFZkT3QzeS0xMjdlV0JleEViVFlRcHljZ2NmYm9ZM3lDdHZXMjZ2SVJIMU1hWDAtVFJxS1Jtemp0V0k5RWRMNktuTC1wNUVldGZadUNLSEZnNGt1RUhYTzBmSVNVd1VZSUdPTVcwVUYxbjFiZ2RyaFNuSXBqLWRpdm4tam85WlFQSjhzbFY0T0dxaHNUTDQxRVRRN1VQSEQxdm5ScTl5QQ?oc=5",
+          "date": "2026-11-15",
+          "source": "Old Dominion Athletics",
           "gravite": 0,
           "mots": [],
           "raisons": []
         },
         {
-          "titre": "Wigan beat Barnsley to move out of relegation zone - Express and Star",
-          "lien": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSkRkdU14eTRCelpfTTB4MTlUR3dLX1NhZHhFVmkwSDdpNW5XeFhuNl9aSGFDMVRTWTU2Ym9uWWVQWjVrQXlGLVYzbmkzenh4RXByWnRfangybzVGWkt1V0JfbjFQR3ZEQzkwOHc1cEdrSWFwejdVcDRUNXlIaG9XLVhjcTRHM3Y2amJ2YWJNRi0xOVZBWHdwTjV5WGVaXzRZ?oc=5",
-          "date": "2026-11-14",
-          "source": "Express and Star",
+          "titre": "Old Dominion Wins 2026 Sun Belt Women’s Soccer Championship - Sun Belt Conference",
+          "lien": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWGJjaUZZekVhYzVVa0UwbnBnaXlUT1lkNW5Ua25HTHEwLU5jRFpxcEU4dmRuVWZ3QjVzZ1hvVDF0QmxoTHlxZzBubmVhdjh3aGFMUUV6d1M2RFp4Z3JzQnp4LTJ2ZS0yWFlUbkZ0OFZONEZYUTEydVRoaEtTdjJtTW5ZNUxaV1I1bjdoQnp5YklGdklqR18yc0U0eXdkQmlLNE81UTVaMms?oc=5",
+          "date": "2026-11-15",
+          "source": "Sun Belt Conference",
           "gravite": 0,
           "mots": [],
           "raisons": []
         },
         {
-          "titre": "Obituary: John Marshall Weir III - Boerne Star",
-          "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GTUtIT21kblpNWmhncGgyblQwMVo1UXNWS2oweDVrTU9fb3lKSENiVEZ6cnlNeWc0clZqOTRvN2JGTVpsVXZGTHlqZmJVc2pKVmJJQXZpbjFabmw0bVgzbGJyTGhnM3dLWFJ6NDZSZHYxQQ?oc=5",
-          "date": "2026-11-13",
-          "source": "Boerne Star",
+          "titre": "November 14, 2026: Men's Basketball: Longwood vs. Old Dominion: Recap - Old Dominion Athletics",
+          "lien": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSXNaazJ5blVDbEZHRlZRS202dGNWNXlzVTd0enh1b09aR0RPQzI5M0dtMVEtS1ZWTHhsY1Z1Uzg0Q2l2X3F2UHBidzlBZkVRbnF2dVhLUmpKWWN4MmVkaVhVUWhhS0kwN0dKWDVOMjQ4MDU0Wnd1NGJOd3JxQmN4VEtTZWNZUHZ2MXJZcDF0NmZ3amRDWnFKelJzeU5HeHFHQkZj?oc=5",
+          "date": "2026-11-15",
+          "source": "Old Dominion Athletics",
           "gravite": 0,
           "mots": [],
           "raisons": []
         }
       ],
-      "explications": []
+      "explications": [
+        {
+          "titre": "Installed Building Products Expands Commercial And Industrial Platform With Acquisition Of Old Dominion Group - TradingView",
+          "lien": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNYnp5N1BRLUlnMUhFMGxySlUzWVk4bG9haFYxZ3h1X1EwckY2TUUwdlBUdE16bTNpdmFtTjdMR05SNDZEWWVTalZPQWF6cTlKZ2VpMGJDc3NNai05SUhWRTlZNE5FV2w2WWFWUVlCWHZGdTF4aGpmUnNleVUzOGRINGVqVGcxVVIwc3ZYRW5sQVVVOFdJM3JhLTZIZWFnRU02eTJGLXVNSWVTMEtpWnRITEgycFBoWVg0T2lWWGV4bnl5bjdSTUtGZlZaQ1o2c3BBSEoxS05SVVYxZFhNc1Y1blF4NUljbmIzLXpNb2Y4dzRkaWl1amhTRHpJSktzNTc1b014dE9VUDB1dw?oc=5",
+          "date": "2026-11-12",
+          "source": "TradingView",
+          "gravite": 0,
+          "mots": [],
+          "raisons": [
+            "réaction à une acquisition"
+          ]
+        },
+        {
+          "titre": "Microsoft Exchange Outage - Old Dominion University",
+          "lien": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE11SUpIN2lQSDduNHA3Nm0wSDY0ZjZmeXREb2xtaWZxYTZrMHFlX2NsNV9TckZXazN0VE9Qam9jb0JQZGVjOHpTRkFtWFlEYktyc041VDdKSGpWRk5IdVVTNEFLMA?oc=5",
+          "date": "2026-11-12",
+          "source": "Old Dominion University",
+          "gravite": 0,
+          "mots": [],
+          "raisons": [
+            "incident ponctuel (grève, panne)"
+          ]
+        }
+      ]
     },
-    "ticket": 136
+    "ticket": 137
   },
   "radar_proposes": [
     "MCD",
@@ -287,7 +310,8 @@
     "AIT",
     "4063.T",
     "PAAS.TO",
-    "WEIR.L"
+    "WEIR.L",
+    "ODFL"
   ],
   "achats": [],
   "historique": [
@@ -13203,6 +13227,116 @@
       "image": "rapports/propositions/2026-11-10.png",
       "ticket": 135,
       "decision": "expirée"
+    },
+    {
+      "type": "opportunite",
+      "date": "2026-11-14",
+      "cree_le": "2026-11-14T21:25+00:00",
+      "liberation": 141.5954338796533,
+      "reserve_pct": null,
+      "score": 88.50131590274412,
+      "ordres": [
+        {
+          "ticker": "WEIR.L",
+          "side": "buy",
+          "quantity": 5.0,
+          "price": 28.119086775930665,
+          "reason": "opportunité radar (score 89)"
+        }
+      ],
+      "notes": [],
+      "total": 0,
+      "radar": {
+        "ticker": "WEIR.L",
+        "nom": "Weir",
+        "isin": "WEIR.L",
+        "type": "action",
+        "prix": 2348.0,
+        "score": 88.50131590274412,
+        "baisse": 0.33774350682886456,
+        "perf_5ans": 0.31618735707666357,
+        "tranche": "80-100 (soldé)",
+        "moy_12m": 0.3014472946330921,
+        "pos_12m": 0.6419316843345112,
+        "n_12m": 849,
+        "base_moy_12m": 0.18704127317939104,
+        "pire_12m": -0.5459594648478188,
+        "vs_marche_3m": -0.1244591265406233,
+        "devise": "GBp",
+        "prix_eur": 28.119086775930665,
+        "fondamental": 87.0,
+        "fondamental_notes": [
+          "chiffre d'affaires +6.2% sur un an",
+          "bénéfices +15.6% sur un an",
+          "bénéfices attendus +43% sur 12 mois : attente élevée, elle repose sur des prévisions qui peuvent être revues à la baisse (points réduits)",
+          "analystes : « achat » (1.9/5, 21 avis)",
+          "objectif moyen des analystes : +36%",
+          "P/E attendu 16.4 (actuel 23.3), retenu 19.9 : la moitié seulement de la croissance attendue est comptée",
+          "marge nette 10%",
+          "dette / capitaux propres 91 %"
+        ],
+        "score_global": 87.6,
+        "braderie": false,
+        "perf_1an": -0.16547212559124702,
+        "bonus_braderie": 0.0,
+        "n_episodes": 8
+      },
+      "actualites": {
+        "verdict": "vert",
+        "resume": "rien d'alarmant dans l'actualité (3 mois : -12% vs marché)",
+        "vs_marche_3m": -0.1244591265406233,
+        "alertes": [],
+        "recents": [
+          {
+            "titre": "Star Trek cherche sa relance, Andy Weir voit une autre voie - Begeek",
+            "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMmx2cHJxR2pnZnJxaFN3Q21XdGlQM1dadjVnbDRTWWVwQW1qaVB2ZG9JU2hsS0hyeTB0WVNjQmFpcEtBVnFfcFlheGtjcm9tZzVoQXJ3dXRHdVJVOXQ0Y3cyMUZGWGg2SDQ1eHM1V0hIaWFic2RZZEFhOWZWaHZWZFNRY0UzQVYtTzlwb2tlSkg?oc=5",
+            "date": "2026-11-14",
+            "source": "Begeek",
+            "gravite": 0,
+            "mots": [],
+            "raisons": []
+          },
+          {
+            "titre": "2026 FHSAA Football Playoffs Lake Weir High School vs. Jones High School - 11/13/2026 | Live & On Demand - NFHS Network",
+            "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPY0U3RkRUdkVkM0dWOEhJb1BRLWs0dHh3Snl6UExWdV9GZHFwSUZfZ21uWjdKQ3NseXBkSTU0NGk1VWdzNVNVMjR4SVh2MmFCLTZlWkJpcXVoWVE0MUJrMWVCSlBRdU5EaVdXd2tTNUNSUkFoa3Fuci12MTFraHByT0dQYmNYRkZ4dGpNOVotYnV4V2pVbjV1cWJPSQ?oc=5",
+            "date": "2026-11-14",
+            "source": "NFHS Network",
+            "gravite": 0,
+            "mots": [],
+            "raisons": []
+          },
+          {
+            "titre": "Bob Weir’s strange on stage out-of-body experience: “It was 20 years later” - Far Out Magazine",
+            "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc3p6eUhjY1JWbDRxODNxcktnNktxNnptQ1FzRmJVZV9IUVBjZ2NnbWgzSl82OHFTZUxLMXhOTElnMk02LXlhaTRLdU9yMzBMb2l5OXgxUUpQbWxLU2JFRjVIbWJSWmtlTkRHYjA1Tk02aEJRMDlwRmtPT1FiWmhlNTNoclI?oc=5",
+            "date": "2026-11-14",
+            "source": "Far Out Magazine",
+            "gravite": 0,
+            "mots": [],
+            "raisons": []
+          },
+          {
+            "titre": "Wigan beat Barnsley to move out of relegation zone - Express and Star",
+            "lien": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSkRkdU14eTRCelpfTTB4MTlUR3dLX1NhZHhFVmkwSDdpNW5XeFhuNl9aSGFDMVRTWTU2Ym9uWWVQWjVrQXlGLVYzbmkzenh4RXByWnRfangybzVGWkt1V0JfbjFQR3ZEQzkwOHc1cEdrSWFwejdVcDRUNXlIaG9XLVhjcTRHM3Y2amJ2YWJNRi0xOVZBWHdwTjV5WGVaXzRZ?oc=5",
+            "date": "2026-11-14",
+            "source": "Express and Star",
+            "gravite": 0,
+            "mots": [],
+            "raisons": []
+          },
+          {
+            "titre": "Obituary: John Marshall Weir III - Boerne Star",
+            "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GTUtIT21kblpNWmhncGgyblQwMVo1UXNWS2oweDVrTU9fb3lKSENiVEZ6cnlNeWc0clZqOTRvN2JGTVpsVXZGTHlqZmJVc2pKVmJJQXZpbjFabmw0bVgzbGJyTGhnM3dLWFJ6NDZSZHYxQQ?oc=5",
+            "date": "2026-11-13",
+            "source": "Boerne Star",
+            "gravite": 0,
+            "mots": [],
+            "raisons": []
+          }
+        ],
+        "explications": []
+      },
+      "ticket": 136,
+      "decision": "sans réponse"
     }
   ]
 }
