@@ -1,5 +1,5 @@
 {
- "calcule_le": "2026-11-21T21:57+00:00",
+ "calcule_le": "2026-11-22T22:06+00:00",
  "valeur_coeur": 0,
  "candidats": [
   {
@@ -19,7 +19,7 @@
    "pire_12m": -0.6319999933242798,
    "vs_marche_3m": -0.44040990166383087,
    "devise": "AUD",
-   "prix_eur": 2.2210151243768923,
+   "prix_eur": 2.222275989279255,
    "fondamental": 100.0,
    "fondamental_notes": [
     "chiffre d'affaires +98.5% sur un an",
@@ -55,7 +55,7 @@
    "pire_12m": -0.601963760394591,
    "vs_marche_3m": -0.29798210161647054,
    "devise": "USD",
-   "prix_eur": 465.32623536593013,
+   "prix_eur": 465.37726362456857,
    "fondamental": 94.0,
    "fondamental_notes": [
     "chiffre d'affaires +17.3% sur un an",
@@ -91,7 +91,7 @@
    "pire_12m": -0.455209335266446,
    "vs_marche_3m": -0.2061327954384672,
    "devise": "USD",
-   "prix_eur": 401.8423974342297,
+   "prix_eur": 401.88646397557153,
    "fondamental": 94.0,
    "fondamental_notes": [
     "chiffre d'affaires +9.6% sur un an",
@@ -127,7 +127,7 @@
    "pire_12m": -0.44947467902775273,
    "vs_marche_3m": -0.08292034522594405,
    "devise": "JPY",
-   "prix_eur": 29.897013278094324,
+   "prix_eur": 30.091130494310153,
    "fondamental": 95.0,
    "fondamental_notes": [
     "chiffre d'affaires +15.6% sur un an",
@@ -162,7 +162,7 @@
    "pire_12m": -0.35157000951610495,
    "vs_marche_3m": -0.17578106581028274,
    "devise": "HKD",
-   "prix_eur": 2.0088637166131065,
+   "prix_eur": 2.0097894077600307,
    "fondamental": 93.0,
    "fondamental_notes": [
     "chiffre d'affaires +8.0% sur un an",
@@ -197,7 +197,7 @@
    "pire_12m": -0.6846172851454062,
    "vs_marche_3m": -0.07265870069724212,
    "devise": "USD",
-   "prix_eur": 49.66396803502168,
+   "prix_eur": 49.669414248050934,
    "fondamental": 91.0,
    "fondamental_notes": [
     "chiffre d'affaires +25.7% sur un an",
@@ -232,7 +232,7 @@
    "pire_12m": -0.6477716610194775,
    "vs_marche_3m": -0.2186688605199425,
    "devise": "GBp",
-   "prix_eur": 67.30390690354508,
+   "prix_eur": 67.3143494061802,
    "fondamental": 90.0,
    "fondamental_notes": [
     "chiffre d'affaires +15.5% sur un an",
@@ -269,7 +269,7 @@
    "pire_12m": -0.11731268284301988,
    "vs_marche_3m": -0.1057094542406648,
    "devise": "USD",
-   "prix_eur": 225.81244417696843,
+   "prix_eur": 225.83720705283804,
    "fondamental": 90.0,
    "fondamental_notes": [
     "chiffre d'affaires +32.5% sur un an",
@@ -304,7 +304,7 @@
    "pire_12m": -0.47422759547653115,
    "vs_marche_3m": -0.10535493898637593,
    "devise": "USD",
-   "prix_eur": 250.68087738075482,
+   "prix_eur": 250.70836736020254,
    "fondamental": 87.5,
    "fondamental_notes": [
     "chiffre d'affaires +7.6% sur un an",
@@ -338,7 +338,7 @@
    "pire_12m": -0.45929012478467335,
    "vs_marche_3m": -0.34418898181265756,
    "devise": "JPY",
-   "prix_eur": 15.339559801076847,
+   "prix_eur": 15.439157463855524,
    "fondamental": 87.0,
    "fondamental_notes": [
     "chiffre d'affaires +7.8% sur un an",
@@ -374,7 +374,7 @@
    "pire_12m": -0.532725858700333,
    "vs_marche_3m": -0.1294196989342884,
    "devise": "USD",
-   "prix_eur": 549.9865236858094,
+   "prix_eur": 550.0468358978561,
    "fondamental": 86.0,
    "fondamental_notes": [
     "chiffre d'affaires +28.8% sur un an",
@@ -410,7 +410,7 @@
    "pire_12m": -0.2753429490049898,
    "vs_marche_3m": -0.0027622241376938916,
    "devise": "USD",
-   "prix_eur": 69.42745997069572,
+   "prix_eur": 69.43507347304039,
    "fondamental": 84.5,
    "fondamental_notes": [
     "chiffre d'affaires +1.3% sur un an",
@@ -445,7 +445,7 @@
    "pire_12m": -0.4280715970366712,
    "vs_marche_3m": -0.13083858951585126,
    "devise": "USD",
-   "prix_eur": 45.44325902288735,
+   "prix_eur": 45.4482423876722,
    "fondamental": 85.0,
    "fondamental_notes": [
     "chiffre d'affaires +31.6% sur un an",
@@ -479,7 +479,7 @@
    "pire_12m": -0.6439111388740137,
    "vs_marche_3m": -0.22428305812653537,
    "devise": "AUD",
-   "prix_eur": 81.50763420757553,
+   "prix_eur": 81.55390589394047,
    "fondamental": 84.0,
    "fondamental_notes": [
     "chiffre d'affaires +15.5% sur un an",
@@ -515,7 +515,7 @@
    "pire_12m": -0.7095293287213384,
    "vs_marche_3m": -0.1711936606598552,
    "devise": "USD",
-   "prix_eur": 35.488588601413745,
+   "prix_eur": 35.49248032455384,
    "fondamental": 85.0,
    "fondamental_notes": [
     "chiffre d'affaires +8.5% sur un an",
@@ -551,7 +551,7 @@
    "pire_12m": -0.40035594767513816,
    "vs_marche_3m": -0.03833345156958434,
    "devise": "USD",
-   "prix_eur": 73.70285928026419,
+   "prix_eur": 73.71094162825987,
    "fondamental": 85.0,
    "fondamental_notes": [
     "chiffre d'affaires +8.0% sur un an",
@@ -587,7 +587,7 @@
    "pire_12m": -0.4130154031588882,
    "vs_marche_3m": -0.14004886795672278,
    "devise": "USD",
-   "prix_eur": 290.5360308565322,
+   "prix_eur": 290.56789140210117,
    "fondamental": 84.0,
    "fondamental_notes": [
     "chiffre d'affaires +50.9% sur un an",
@@ -622,7 +622,7 @@
    "pire_12m": -0.17100433508508983,
    "vs_marche_3m": -0.06567198177762157,
    "devise": "CAD",
-   "prix_eur": 115.7118286963975,
+   "prix_eur": 115.66108524632097,
    "fondamental": 82.0,
    "fondamental_notes": [
     "chiffre d'affaires +25.7% sur un an",
@@ -658,7 +658,7 @@
    "pire_12m": -0.5488459739248044,
    "vs_marche_3m": -0.23690946463231433,
    "devise": "USD",
-   "prix_eur": 190.09594861852293,
+   "prix_eur": 190.11679477868967,
    "fondamental": 81.0,
    "fondamental_notes": [
     "chiffre d'affaires +7.0% sur un an",
@@ -694,7 +694,7 @@
    "pire_12m": -0.2669003475034042,
    "vs_marche_3m": -0.034451045360270216,
    "devise": "GBp",
-   "prix_eur": 38.85487958828774,
+   "prix_eur": 38.8609080969012,
    "fondamental": 82.0,
    "fondamental_notes": [
     "chiffre d'affaires +14.6% sur un an",
@@ -730,7 +730,7 @@
    "pire_12m": -0.19789482678206394,
    "vs_marche_3m": -0.0050311960449415105,
    "devise": "CAD",
-   "prix_eur": 41.67355498817382,
+   "prix_eur": 41.65527976099197,
    "fondamental": 83.0,
    "fondamental_notes": [
     "chiffre d'affaires +44.0% sur un an",
@@ -766,7 +766,7 @@
    "pire_12m": -0.5459594648478188,
    "vs_marche_3m": -0.21201124877889754,
    "devise": "GBp",
-   "prix_eur": 25.48956474219367,
+   "prix_eur": 25.493519562340584,
    "fondamental": 81.0,
    "fondamental_notes": [
     "chiffre d'affaires +6.2% sur un an",
@@ -802,7 +802,7 @@
    "pire_12m": -0.5301788079714268,
    "vs_marche_3m": -0.14213776305054115,
    "devise": "USD",
-   "prix_eur": 50.712309435560755,
+   "prix_eur": 50.717870611022946,
    "fondamental": 80.0,
    "fondamental_notes": [
     "chiffre d'affaires +19.1% sur un an",
@@ -873,7 +873,7 @@
    "pire_12m": -0.5367735500375168,
    "vs_marche_3m": -0.2730799592483386,
    "devise": "GBp",
-   "prix_eur": 11.0263847480276,
+   "prix_eur": 11.028095541012501,
    "fondamental": 78.5,
    "fondamental_notes": [
     "secteur financier : chiffre d'affaires, marge et dette non comparables (points neutres)",
@@ -907,7 +907,7 @@
    "pire_12m": -0.18770574246320204,
    "vs_marche_3m": -0.19678183063941546,
    "devise": "USD",
-   "prix_eur": 98.94506573574579,
+   "prix_eur": 98.95591617576319,
    "fondamental": 76.0,
    "fondamental_notes": [
     "chiffre d'affaires +10.0% sur un an",
@@ -943,7 +943,7 @@
    "pire_12m": -0.5987215513736444,
    "vs_marche_3m": -0.21791139400683657,
    "devise": "USD",
-   "prix_eur": 367.93086599744777,
+   "prix_eur": 367.9712137577162,
    "fondamental": 77.0,
    "fondamental_notes": [
     "chiffre d'affaires +13.5% sur un an",
@@ -979,7 +979,7 @@
    "pire_12m": -0.6126620296541568,
    "vs_marche_3m": -0.24739156459281553,
    "devise": "USD",
-   "prix_eur": 124.24195901118345,
+   "prix_eur": 124.25558354024786,
    "fondamental": 78.0,
    "fondamental_notes": [
     "chiffre d'affaires +20.5% sur un an",
@@ -1016,7 +1016,7 @@
    "pire_12m": -0.4343442183578168,
    "vs_marche_3m": -0.28016422822284537,
    "devise": "USD",
-   "prix_eur": 950.3156339480537,
+   "prix_eur": 950.4198467524727,
    "fondamental": 78.0,
    "fondamental_notes": [
     "chiffre d'affaires +53.7% sur un an",
@@ -1052,7 +1052,7 @@
    "pire_12m": -0.5489179741044851,
    "vs_marche_3m": -0.22573001351040123,
    "devise": "USD",
-   "prix_eur": 115.6546955571197,
+   "prix_eur": 115.66737839610254,
    "fondamental": 76.0,
    "fondamental_notes": [
     "chiffre d'affaires +28.9% sur un an",
@@ -1089,7 +1089,7 @@
    "pire_12m": -0.48209212921224076,
    "vs_marche_3m": -0.046025546761110814,
    "devise": "USD",
-   "prix_eur": 367.97646268975757,
+   "prix_eur": 368.0168154502165,
    "fondamental": 76.5,
    "fondamental_notes": [
     "chiffre d'affaires +24.6% sur un an",
@@ -1124,7 +1124,7 @@
    "pire_12m": -0.2842693841720578,
    "vs_marche_3m": -0.06485533218643447,
    "devise": "USD",
-   "prix_eur": 55.80815362107074,
+   "prix_eur": 55.814273613198125,
    "fondamental": 77.0,
    "fondamental_notes": [
     "chiffre d'affaires +26.3% sur un an",
@@ -1159,7 +1159,7 @@
    "pire_12m": -0.48424958175101784,
    "vs_marche_3m": -0.3309596969288765,
    "devise": "USD",
-   "prix_eur": 238.0278648143445,
+   "prix_eur": 238.05396724856325,
    "fondamental": 76.5,
    "fondamental_notes": [
     "chiffre d'affaires +55.5% sur un an",
@@ -1195,7 +1195,7 @@
    "pire_12m": -0.3859228324651761,
    "vs_marche_3m": -0.156350326937863,
    "devise": "USD",
-   "prix_eur": 191.87356585273034,
+   "prix_eur": 191.89460694863266,
    "fondamental": 73.5,
    "fondamental_notes": [
     "chiffre d'affaires +14.4% sur un an",
@@ -1230,7 +1230,7 @@
    "pire_12m": -0.5769490445366185,
    "vs_marche_3m": -0.09110156812843495,
    "devise": "USD",
-   "prix_eur": 82.86444214568655,
+   "prix_eur": 82.87352916435081,
    "fondamental": 76.0,
    "fondamental_notes": [
     "chiffre d'affaires +88.3% sur un an",
@@ -1266,7 +1266,7 @@
    "pire_12m": -0.5096584221683778,
    "vs_marche_3m": -0.35435148205656974,
    "devise": "CAD",
-   "prix_eur": 27.83747575564908,
+   "prix_eur": 27.8252681051679,
    "fondamental": 73.0,
    "fondamental_notes": [
     "chiffre d'affaires +17.7% sur un an",
@@ -1301,7 +1301,7 @@
    "pire_12m": -0.6015102852330185,
    "vs_marche_3m": -0.15856319688232945,
    "devise": "USD",
-   "prix_eur": 283.80841834408795,
+   "prix_eur": 283.8395411312303,
    "fondamental": 74.5,
    "fondamental_notes": [
     "chiffre d'affaires +28.0% sur un an",
@@ -1337,7 +1337,7 @@
    "pire_12m": -0.4623955966475165,
    "vs_marche_3m": 0.015261900998289613,
    "devise": "USD",
-   "prix_eur": 418.17828182373296,
+   "prix_eur": 418.22413977864727,
    "fondamental": 77.0,
    "fondamental_notes": [
     "chiffre d'affaires +15.2% sur un an",
@@ -1372,7 +1372,7 @@
    "pire_12m": -0.44531239672475786,
    "vs_marche_3m": -0.2105627041930177,
    "devise": "USD",
-   "prix_eur": 92.2448070657138,
+   "prix_eur": 92.25492274696117,
    "fondamental": 74.0,
    "fondamental_notes": [
     "chiffre d'affaires +29.6% sur un an",
@@ -1409,7 +1409,7 @@
    "pire_12m": 0.04423462302551728,
    "vs_marche_3m": -0.06459892077051743,
    "devise": "USD",
-   "prix_eur": 277.5001618657365,
+   "prix_eur": 277.53059288156084,
    "fondamental": 74.0,
    "fondamental_notes": [
     "chiffre d'affaires +85.5% sur un an",
@@ -1444,7 +1444,7 @@
    "pire_12m": -0.8386454118774939,
    "vs_marche_3m": -0.15370822916610893,
    "devise": "USD",
-   "prix_eur": 26.13557230758163,
+   "prix_eur": 26.138438367223262,
    "fondamental": 76.0,
    "fondamental_notes": [
     "chiffre d'affaires +1.7% sur un an",
@@ -1517,7 +1517,7 @@
    "pire_12m": -0.49365183364273724,
    "vs_marche_3m": -0.11541356180777729,
    "devise": "USD",
-   "prix_eur": 351.56766254031294,
+   "prix_eur": 351.6062158911656,
    "fondamental": 72.5,
    "fondamental_notes": [
     "chiffre d'affaires +5.5% sur un an",
@@ -1552,7 +1552,7 @@
    "pire_12m": -0.6435051651028131,
    "vs_marche_3m": -0.11977216729702467,
    "devise": "USD",
-   "prix_eur": 89.30033597871609,
+   "prix_eur": 89.31012876557075,
    "fondamental": 74.5,
    "fondamental_notes": [
     "chiffre d'affaires +4.7% sur un an",
@@ -1588,7 +1588,7 @@
    "pire_12m": -0.7431157209046585,
    "vs_marche_3m": -0.23936097942348356,
    "devise": "USD",
-   "prix_eur": 40.99465348615546,
+   "prix_eur": 40.999149011277176,
    "fondamental": 70.5,
    "fondamental_notes": [
     "chiffre d'affaires +5.8% sur un an",
@@ -1624,7 +1624,7 @@
    "pire_12m": -0.5531385194279058,
    "vs_marche_3m": -0.04583859315109584,
    "devise": "USD",
-   "prix_eur": 5.943632036744772,
+   "prix_eur": 5.94428382288914,
    "fondamental": 73.5,
    "fondamental_notes": [
     "secteur financier : chiffre d'affaires, marge et dette non comparables (points neutres)",
@@ -1658,7 +1658,7 @@
    "pire_12m": -0.5180816183682343,
    "vs_marche_3m": -0.2873134465403304,
    "devise": "GBp",
-   "prix_eur": 31.682956175339047,
+   "prix_eur": 31.687871927909296,
    "fondamental": 69.0,
    "fondamental_notes": [
     "chiffre d'affaires +17.9% sur un an",
@@ -1695,7 +1695,7 @@
    "pire_12m": -0.27253742445187823,
    "vs_marche_3m": 0.010512386018969533,
    "devise": "USD",
-   "prix_eur": 67.10287716754196,
+   "prix_eur": 67.11023575322066,
    "fondamental": 71.0,
    "fondamental_notes": [
     "chiffre d'affaires +11.3% sur un an",
@@ -1730,7 +1730,7 @@
    "pire_12m": -0.6786665815639483,
    "vs_marche_3m": 0.01149785880711618,
    "devise": "JPY",
-   "prix_eur": 25.552612456129502,
+   "prix_eur": 25.718522072280358,
    "fondamental": 71.0,
    "fondamental_notes": [
     "chiffre d'affaires +14.9% sur un an",
@@ -1766,7 +1766,7 @@
    "pire_12m": -0.6273946948509045,
    "vs_marche_3m": -0.2234906219868119,
    "devise": "USD",
-   "prix_eur": 151.0521185937383,
+   "prix_eur": 151.06868315853106,
    "fondamental": 70.0,
    "fondamental_notes": [
     "secteur financier : chiffre d'affaires, marge et dette non comparables (points neutres)",
@@ -1801,7 +1801,7 @@
    "pire_12m": -0.5248444609728692,
    "vs_marche_3m": -0.3063943881667074,
    "devise": "JPY",
-   "prix_eur": 26.831384839992996,
+   "prix_eur": 27.005597350249708,
    "fondamental": 66.5,
    "fondamental_notes": [
     "chiffre d'affaires +20.9% sur un an",
@@ -1837,7 +1837,7 @@
    "pire_12m": -0.3411807993636755,
    "vs_marche_3m": -0.3042290146129609,
    "devise": "USD",
-   "prix_eur": 275.8775149637511,
+   "prix_eur": 275.9077680380808,
    "fondamental": 66.5,
    "fondamental_notes": [
     "chiffre d'affaires +24.8% sur un an",
@@ -1874,7 +1874,7 @@
    "pire_12m": -0.35381399992763385,
    "vs_marche_3m": -0.27897179944559647,
    "devise": "CAD",
-   "prix_eur": 11.896737332677215,
+   "prix_eur": 11.891520221309126,
    "fondamental": 69.0,
    "fondamental_notes": [
     "chiffre d'affaires +148.7% sur un an",
@@ -1910,7 +1910,7 @@
    "pire_12m": -0.49076016144958845,
    "vs_marche_3m": -0.3399305666665684,
    "devise": "USD",
-   "prix_eur": 167.06893741637072,
+   "prix_eur": 167.08725840560578,
    "fondamental": 66.5,
    "fondamental_notes": [
     "chiffre d'affaires +54.4% sur un an",
@@ -1947,7 +1947,7 @@
    "pire_12m": -0.38271617782225265,
    "vs_marche_3m": -0.35790263710949843,
    "devise": "USD",
-   "prix_eur": 245.16570845845462,
+   "prix_eur": 245.19259363756052,
    "fondamental": 68.0,
    "fondamental_notes": [
     "chiffre d'affaires +61.5% sur un an",
@@ -1982,7 +1982,7 @@
    "pire_12m": -0.20787621795345723,
    "vs_marche_3m": -0.24906093584250033,
    "devise": "USD",
-   "prix_eur": 259.84247415608945,
+   "prix_eur": 259.8709688077311,
    "fondamental": 66.5,
    "fondamental_notes": [
     "chiffre d'affaires +50.7% sur un an",
@@ -2018,7 +2018,7 @@
    "pire_12m": -0.2679090753263025,
    "vs_marche_3m": -0.2779957284158391,
    "devise": "USD",
-   "prix_eur": 86.03680627980376,
+   "prix_eur": 86.04624118389812,
    "fondamental": 68.0,
    "fondamental_notes": [
     "chiffre d'affaires +18.4% sur un an",
@@ -2055,7 +2055,7 @@
    "pire_12m": -0.467474029534073,
    "vs_marche_3m": -0.24612229478244707,
    "devise": "USD",
-   "prix_eur": 170.66975466718307,
+   "prix_eur": 170.68847052655443,
    "fondamental": 68.0,
    "fondamental_notes": [
     "chiffre d'affaires +49.9% sur un an",
@@ -2127,7 +2127,7 @@
    "pire_12m": -0.5780541699790235,
    "vs_marche_3m": -0.20598241642796633,
    "devise": "USD",
-   "prix_eur": 243.7983084460009,
+   "prix_eur": 243.8250436743063,
    "fondamental": 64.5,
    "fondamental_notes": [
     "chiffre d'affaires +34.6% sur un an",
@@ -2162,7 +2162,7 @@
    "pire_12m": -0.5289463252348168,
    "vs_marche_3m": -0.15343829260115738,
    "devise": "USD",
-   "prix_eur": 240.66240219185443,
+   "prix_eur": 240.68879353274656,
    "fondamental": 65.0,
    "fondamental_notes": [
     "chiffre d'affaires +24.7% sur un an",
@@ -2197,7 +2197,7 @@
    "pire_12m": -0.5289462069994532,
    "vs_marche_3m": -0.15763306486076978,
    "devise": "USD",
-   "prix_eur": 241.83837399211546,
+   "prix_eur": 241.86489429155026,
    "fondamental": 65.0,
    "fondamental_notes": [
     "chiffre d'affaires +24.7% sur un an",
@@ -2232,7 +2232,7 @@
    "pire_12m": -0.3073770419720264,
    "vs_marche_3m": -0.24664129774944976,
    "devise": "CAD",
-   "prix_eur": 183.12456009976378,
+   "prix_eur": 183.0442539454328,
    "fondamental": 67.0,
    "fondamental_notes": [
     "chiffre d'affaires +82.5% sur un an",
@@ -2269,7 +2269,7 @@
    "pire_12m": -0.6614371948346334,
    "vs_marche_3m": -0.07284772704733644,
    "devise": "USD",
-   "prix_eur": 329.9353843281583,
+   "prix_eur": 329.9715654562484,
    "fondamental": 67.5,
    "fondamental_notes": [
     "chiffre d'affaires +0.7% sur un an",
@@ -2288,42 +2288,6 @@
    "n_episodes": 7
   },
   {
-   "ticker": "LDOS",
-   "nom": "Leidos",
-   "isin": "LDOS",
-   "type": "action",
-   "prix": 122.20999908447266,
-   "score": 93.33010219445474,
-   "baisse": 0.3781130049909953,
-   "perf_5ans": 0.3819444648144126,
-   "tranche": "80-100 (soldé)",
-   "moy_12m": 0.21195512371080982,
-   "pos_12m": 0.7512038523274478,
-   "n_12m": 623,
-   "base_moy_12m": 0.1534849671561105,
-   "pire_12m": -0.27713933435495686,
-   "vs_marche_3m": -0.026640774263191447,
-   "devise": "USD",
-   "prix_eur": 111.40663618005121,
-   "fondamental": 67.0,
-   "fondamental_notes": [
-    "chiffre d'affaires +7.2% sur un an",
-    "bénéfices -6.7% sur un an",
-    "bénéfices attendus +19% sur 12 mois",
-    "analystes : « conserver » (2.4/5, 15 avis)",
-    "objectif moyen des analystes : +36%",
-    "P/E attendu 8.9 (actuel 10.6)",
-    "marge nette 8%",
-    "dette / capitaux propres 123 %",
-    "données du 2026-10-07 (Yahoo indisponible aujourd'hui)"
-   ],
-   "score_global": 77.5,
-   "braderie": false,
-   "perf_1an": -0.34652044966423845,
-   "bonus_braderie": 0.0,
-   "n_episodes": 5
-  },
-  {
    "ticker": "HL",
    "nom": "Hecla Mining",
    "isin": "HL",
@@ -2340,7 +2304,7 @@
    "pire_12m": -0.6933333520454179,
    "vs_marche_3m": -0.4205559187640261,
    "devise": "USD",
-   "prix_eur": 9.590032504639444,
+   "prix_eur": 9.591084159632878,
    "fondamental": 64.0,
    "fondamental_notes": [
     "chiffre d'affaires +24.9% sur un an",
@@ -2376,7 +2340,7 @@
    "pire_12m": -0.7121720822821554,
    "vs_marche_3m": -0.03517760086705923,
    "devise": "USD",
-   "prix_eur": 138.24413569510602,
+   "prix_eur": 138.25929572042878,
    "fondamental": 66.0,
    "fondamental_notes": [
     "secteur financier : chiffre d'affaires, marge et dette non comparables (points neutres)",
@@ -2410,7 +2374,7 @@
    "pire_12m": -0.7653167794317166,
    "vs_marche_3m": -0.1832540904018123,
    "devise": "JPY",
-   "prix_eur": 40.68094646165746,
+   "prix_eur": 40.94508228039987,
    "fondamental": 66.0,
    "fondamental_notes": [
     "chiffre d'affaires +58.2% sur un an",
@@ -2446,7 +2410,7 @@
    "pire_12m": -0.6752113323665688,
    "vs_marche_3m": -0.24915877290438748,
    "devise": "USD",
-   "prix_eur": 66.56502954606631,
+   "prix_eur": 66.57232915070021,
    "fondamental": 65.0,
    "fondamental_notes": [
     "chiffre d'affaires +38.4% sur un an",
@@ -2482,7 +2446,7 @@
    "pire_12m": -0.5799589658951549,
    "vs_marche_3m": -0.3324576682205258,
    "devise": "HKD",
-   "prix_eur": 2.6823621890191838,
+   "prix_eur": 2.683598230523983,
    "fondamental": 61.5,
    "fondamental_notes": [
     "chiffre d'affaires +3.2% sur un an",
@@ -2517,7 +2481,7 @@
    "pire_12m": -0.5030406571195518,
    "vs_marche_3m": -0.12098927790177028,
    "devise": "JPY",
-   "prix_eur": 28.955060406052016,
+   "prix_eur": 29.143061651163087,
    "fondamental": 62.0,
    "fondamental_notes": [
     "chiffre d'affaires +6.8% sur un an",
@@ -2552,7 +2516,7 @@
    "pire_12m": -0.4672148495572841,
    "vs_marche_3m": -0.15133306096486954,
    "devise": "USD",
-   "prix_eur": 74.2315889542691,
+   "prix_eur": 74.23972928342403,
    "fondamental": 62.5,
    "fondamental_notes": [
     "secteur financier : chiffre d'affaires, marge et dette non comparables (points neutres)",
@@ -2583,7 +2547,7 @@
    "pire_12m": -0.7571800725928977,
    "vs_marche_3m": -0.4196821921282585,
    "devise": "JPY",
-   "prix_eur": 40.65240243523194,
+   "prix_eur": 40.91635292151663,
    "fondamental": 60.0,
    "fondamental_notes": [
     "chiffre d'affaires +34.8% sur un an",
@@ -2619,7 +2583,7 @@
    "pire_12m": -0.4800118984132612,
    "vs_marche_3m": -0.12183813971250257,
    "devise": "USD",
-   "prix_eur": 76.5105889750253,
+   "prix_eur": 76.51897922218109,
    "fondamental": 63.0,
    "fondamental_notes": [
     "chiffre d'affaires +10.6% sur un an",
@@ -2655,7 +2619,7 @@
    "pire_12m": -0.4786620598441078,
    "vs_marche_3m": -0.43824423575459803,
    "devise": "USD",
-   "prix_eur": 226.0038723891611,
+   "prix_eur": 226.02865625728856,
    "fondamental": 60.0,
    "fondamental_notes": [
     "chiffre d'affaires +127.0% sur un an",
@@ -2691,7 +2655,7 @@
    "pire_12m": -0.46986856799943044,
    "vs_marche_3m": -0.13978134695688216,
    "devise": "HKD",
-   "prix_eur": 2.503227964980432,
+   "prix_eur": 2.504381460833213,
    "fondamental": 62.5,
    "fondamental_notes": [
     "secteur financier : chiffre d'affaires, marge et dette non comparables (points neutres)",
@@ -2723,7 +2687,7 @@
    "pire_12m": -0.8465222135658315,
    "vs_marche_3m": -0.3568918237477212,
    "devise": "USD",
-   "prix_eur": 416.6103286966597,
+   "prix_eur": 416.6560147078674,
    "fondamental": 61.5,
    "fondamental_notes": [
     "chiffre d'affaires +61.0% sur un an",
@@ -2759,7 +2723,7 @@
    "pire_12m": -0.7246376952657343,
    "vs_marche_3m": -0.39522515617769993,
    "devise": "USD",
-   "prix_eur": 187.37938448855698,
+   "prix_eur": 187.3999327468938,
    "fondamental": 63.5,
    "fondamental_notes": [
     "chiffre d'affaires +45.6% sur un an",
@@ -2796,7 +2760,7 @@
    "pire_12m": -0.9632422244755263,
    "vs_marche_3m": -0.10325692741217385,
    "devise": "USD",
-   "prix_eur": 21.90574882545462,
+   "prix_eur": 21.908151037347647,
    "fondamental": 63.0,
    "fondamental_notes": [
     "chiffre d'affaires +2.7% sur un an",
@@ -2830,7 +2794,7 @@
    "pire_12m": -0.19738862869540696,
    "vs_marche_3m": -0.3940621786996321,
    "devise": "USD",
-   "prix_eur": 33.39190927781366,
+   "prix_eur": 33.39557107646922,
    "fondamental": 61.0,
    "fondamental_notes": [
     "secteur financier : chiffre d'affaires, marge et dette non comparables (points neutres)",
@@ -2863,7 +2827,7 @@
    "pire_12m": -0.4620653267211584,
    "vs_marche_3m": -0.35822787915989907,
    "devise": "CAD",
-   "prix_eur": 15.769058856809687,
+   "prix_eur": 15.762143604843926,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -2919,7 +2883,7 @@
    "pire_12m": -0.7471396112457056,
    "vs_marche_3m": -0.18485041942343095,
    "devise": "USD",
-   "prix_eur": 20.383376742039918,
+   "prix_eur": 20.385612008700736,
    "fondamental": 61.5,
    "fondamental_notes": [
     "chiffre d'affaires +16.6% sur un an",
@@ -2954,7 +2918,7 @@
    "pire_12m": -0.6523193063153396,
    "vs_marche_3m": -0.25645970763064285,
    "devise": "JPY",
-   "prix_eur": 20.049324161288382,
+   "prix_eur": 20.179501679590846,
    "fondamental": 60.0,
    "fondamental_notes": [
     "chiffre d'affaires +63.2% sur un an",
@@ -2990,7 +2954,7 @@
    "pire_12m": -0.43699095995837056,
    "vs_marche_3m": -0.07855087644413528,
    "devise": "JPY",
-   "prix_eur": 12.79914144920517,
+   "prix_eur": 12.882244523246776,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3018,7 +2982,7 @@
    "pire_12m": -0.8877783581911847,
    "vs_marche_3m": -0.26644377829023336,
    "devise": "USD",
-   "prix_eur": 125.42704180395913,
+   "prix_eur": 125.44079629068905,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3046,7 +3010,7 @@
    "pire_12m": -0.4417597186430635,
    "vs_marche_3m": -0.2388345061026852,
    "devise": "USD",
-   "prix_eur": 168.20843742674882,
+   "prix_eur": 168.2268833749843,
    "fondamental": 61.0,
    "fondamental_notes": [
     "chiffre d'affaires +28.3% sur un an",
@@ -3083,7 +3047,7 @@
    "pire_12m": -0.29078004759619847,
    "vs_marche_3m": -0.09746717463949517,
    "devise": "GBp",
-   "prix_eur": 2.1002637615290665,
+   "prix_eur": 2.100589626859524,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3111,7 +3075,7 @@
    "pire_12m": -0.6810450697934914,
    "vs_marche_3m": -0.15331083960365544,
    "devise": "USD",
-   "prix_eur": 720.793012790273,
+   "prix_eur": 720.872055856161,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3139,7 +3103,7 @@
    "pire_12m": -0.9180161943319838,
    "vs_marche_3m": -0.36218537334415113,
    "devise": "CAD",
-   "prix_eur": 14.35747414264365,
+   "prix_eur": 14.351177917092723,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3167,7 +3131,7 @@
    "pire_12m": -0.586812245521854,
    "vs_marche_3m": -0.2386700838637209,
    "devise": "GBp",
-   "prix_eur": 8.818721135056705,
+   "prix_eur": 8.820089399143114,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3177,6 +3141,34 @@
    "perf_1an": 0.13374665724419743,
    "bonus_braderie": 0.0,
    "n_episodes": 8
+  },
+  {
+   "ticker": "LDOS",
+   "nom": "Leidos",
+   "isin": "LDOS",
+   "type": "action",
+   "prix": 122.20999908447266,
+   "score": 93.33010219445474,
+   "baisse": 0.3781130049909953,
+   "perf_5ans": 0.3819444648144126,
+   "tranche": "80-100 (soldé)",
+   "moy_12m": 0.21195512371080982,
+   "pos_12m": 0.7512038523274478,
+   "n_12m": 623,
+   "base_moy_12m": 0.1534849671561105,
+   "pire_12m": -0.27713933435495686,
+   "vs_marche_3m": -0.026640774263191447,
+   "devise": "USD",
+   "prix_eur": 111.41885317151433,
+   "fondamental": null,
+   "fondamental_notes": [
+    "aucune donnée fondamentale disponible"
+   ],
+   "score_global": 73.3,
+   "braderie": false,
+   "perf_1an": -0.34652044966423845,
+   "bonus_braderie": 0.0,
+   "n_episodes": 5
   },
   {
    "ticker": "BRC",
@@ -3195,7 +3187,7 @@
    "pire_12m": -0.5054694465156175,
    "vs_marche_3m": -0.1296712500191748,
    "devise": "USD",
-   "prix_eur": 67.67718266898832,
+   "prix_eur": 67.68460423372868,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3223,7 +3215,7 @@
    "pire_12m": -0.7138728144632656,
    "vs_marche_3m": -0.371969747346533,
    "devise": "USD",
-   "prix_eur": 186.67744858738865,
+   "prix_eur": 186.69791987055407,
    "fondamental": 58.5,
    "fondamental_notes": [
     "chiffre d'affaires +69.8% sur un an",
@@ -3259,7 +3251,7 @@
    "pire_12m": -0.8193272545352354,
    "vs_marche_3m": -0.3389612404367116,
    "devise": "USD",
-   "prix_eur": 41.92448591192135,
+   "prix_eur": 41.929083403633186,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3287,7 +3279,7 @@
    "pire_12m": -0.5055555783975603,
    "vs_marche_3m": -0.19739202400428613,
    "devise": "USD",
-   "prix_eur": 231.96574423301016,
+   "prix_eur": 231.99118188748213,
    "fondamental": 58.0,
    "fondamental_notes": [
     "chiffre d'affaires +23.2% sur un an",
@@ -3320,7 +3312,7 @@
    "pire_12m": -0.19026922504563837,
    "vs_marche_3m": -0.09761650875644734,
    "devise": "GBp",
-   "prix_eur": 4.582393661517964,
+   "prix_eur": 4.583104640420779,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3348,7 +3340,7 @@
    "pire_12m": -0.4360983099640069,
    "vs_marche_3m": -0.20163232954932508,
    "devise": "AUD",
-   "prix_eur": 31.021787693218656,
+   "prix_eur": 31.039398686895208,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3376,7 +3368,7 @@
    "pire_12m": -0.38164150388864326,
    "vs_marche_3m": -0.5779686948402056,
    "devise": "JPY",
-   "prix_eur": 9.248264561869927,
+   "prix_eur": 9.308312278171176,
    "fondamental": 56.0,
    "fondamental_notes": [
     "chiffre d'affaires +17.5% sur un an",
@@ -3412,7 +3404,7 @@
    "pire_12m": -0.3875105358647981,
    "vs_marche_3m": 0.0017440274217581653,
    "devise": "USD",
-   "prix_eur": 146.7949482241552,
+   "prix_eur": 146.81104594230536,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3440,7 +3432,7 @@
    "pire_12m": -0.6908459077971028,
    "vs_marche_3m": -0.36096633434815995,
    "devise": "CAD",
-   "prix_eur": 19.673173566964437,
+   "prix_eur": 19.66454623204121,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3468,7 +3460,7 @@
    "pire_12m": -0.6017780537086436,
    "vs_marche_3m": -0.12064608489329465,
    "devise": "USD",
-   "prix_eur": 54.057879796841384,
+   "prix_eur": 54.06380785174581,
    "fondamental": null,
    "fondamental_notes": [
     "aucune donnée fondamentale disponible"
@@ -3496,7 +3488,7 @@
    "pire_12m": -0.6807957320836153,
    "vs_marche_3m": -0.2728768087448542,
    "devise": "NOK",
-   "prix_eur": 6.0060730406237175,
+   "prix_eur": 6.010206455528283,
    "fondamental": 56.5,
    "fondamental_notes": [
     "chiffre d'affaires +3.1% sur un an",
@@ -3560,7 +3552,7 @@
    "pire_12m": -0.5005707764434669,
    "vs_marche_3m": -0.032071720929242264,
    "devise": "AUD",
-   "prix_eur": 21.872171297607,
+   "prix_eur": 21.884588076234458,
    "fondamental": 60.0,
    "fondamental_notes": [
     "chiffre d'affaires +6.1% sur un an",
@@ -3594,7 +3586,7 @@
    "pire_12m": -0.4475017821992129,
    "vs_marche_3m": -0.2738254011010879,
    "devise": "JPY",
-   "prix_eur": 9.690696971465556,
+   "prix_eur": 9.753617340861464,
    "fondamental": 55.5,
    "fondamental_notes": [
     "chiffre d'affaires +15.0% sur un an",
@@ -3630,7 +3622,7 @@
    "pire_12m": -0.6654802452696729,
    "vs_marche_3m": -0.13946648303041909,
    "devise": "USD",
-   "prix_eur": 15.652172212103123,
+   "prix_eur": 15.653888648940741,
    "fondamental": 56.0,
    "fondamental_notes": [
     "chiffre d'affaires +7.2% sur un an",
@@ -3666,7 +3658,7 @@
    "pire_12m": -0.48942973784187227,
    "vs_marche_3m": -0.11256330746135423,
    "devise": "NOK",
-   "prix_eur": 35.870122081892575,
+   "prix_eur": 35.89480811155605,
    "fondamental": 57.5,
    "fondamental_notes": [
     "P/E attendu 9.6 (actuel 7.2)"
@@ -3694,7 +3686,7 @@
    "pire_12m": -0.6989246499749242,
    "vs_marche_3m": -0.30841001551397695,
    "devise": "USD",
-   "prix_eur": 60.384382602568486,
+   "prix_eur": 60.39100442970605,
    "fondamental": 57.5,
    "fondamental_notes": [
     "chiffre d'affaires +24.8% sur un an",
@@ -3731,7 +3723,7 @@
    "pire_12m": -0.43838750942417326,
    "vs_marche_3m": -0.1134115844684579,
    "devise": "JPY",
-   "prix_eur": 28.812340273924395,
+   "prix_eur": 28.999414856746867,
    "fondamental": 57.5,
    "fondamental_notes": [
     "chiffre d'affaires +14.9% sur un an",
@@ -3765,7 +3757,7 @@
    "pire_12m": -0.7097424101877463,
    "vs_marche_3m": -0.3279008910810792,
    "devise": "USD",
-   "prix_eur": 114.43314792941719,
+   "prix_eur": 114.44569681195497,
    "fondamental": 57.5,
    "fondamental_notes": [
     "chiffre d'affaires +105.9% sur un an",
@@ -3801,7 +3793,7 @@
    "pire_12m": -0.7310329667737057,
    "vs_marche_3m": -0.23210266500985333,
    "devise": "JPY",
-   "prix_eur": 57.14514090389998,
+   "prix_eur": 57.516176484255226,
    "fondamental": 57.0,
    "fondamental_notes": [
     "chiffre d'affaires +8.4% sur un an",
@@ -3837,7 +3829,7 @@
    "pire_12m": -0.48925824558575903,
    "vs_marche_3m": -0.10939377783989723,
    "devise": "USD",
-   "prix_eur": 7.338380240708858,
+   "prix_eur": 7.339184976690734,
    "fondamental": 58.0,
    "fondamental_notes": [
     "chiffre d'affaires +9.7% sur un an",
@@ -3873,7 +3865,7 @@
    "pire_12m": -0.6666432092169936,
    "vs_marche_3m": -0.25345055569390396,
    "devise": "JPY",
-   "prix_eur": 12.082686385924506,
+   "prix_eur": 12.161137615277342,
    "fondamental": 57.0,
    "fondamental_notes": [
     "chiffre d'affaires +26.6% sur un an",
@@ -3909,7 +3901,7 @@
    "pire_12m": -0.6326368030350977,
    "vs_marche_3m": -0.19091910428858716,
    "devise": "USD",
-   "prix_eur": 42.799621085297,
+   "prix_eur": 42.80431454542965,
    "fondamental": 54.0,
    "fondamental_notes": [
     "chiffre d'affaires -2.9% sur un an",
@@ -3944,7 +3936,7 @@
    "pire_12m": -0.7807637326469057,
    "vs_marche_3m": -0.40234301922339577,
    "devise": "USD",
-   "prix_eur": 231.54640210882962,
+   "prix_eur": 231.57179377771826,
    "fondamental": 53.5,
    "fondamental_notes": [
     "chiffre d'affaires +8.8% sur un an",
@@ -3980,7 +3972,7 @@
    "pire_12m": -0.49962487721496474,
    "vs_marche_3m": -0.40178181897200005,
    "devise": "USD",
-   "prix_eur": 111.47044790243413,
+   "prix_eur": 111.48267189157077,
    "fondamental": 53.0,
    "fondamental_notes": [
     "chiffre d'affaires +36.5% sur un an",
@@ -4016,7 +4008,7 @@
    "pire_12m": -0.36101086947665084,
    "vs_marche_3m": -0.3847767357703481,
    "devise": "USD",
-   "prix_eur": 53.647659097609655,
+   "prix_eur": 53.65354216719766,
    "fondamental": 53.0,
    "fondamental_notes": [
     "chiffre d'affaires +59.9% sur un an",
@@ -4051,7 +4043,7 @@
    "pire_12m": -0.4269363028752551,
    "vs_marche_3m": -0.2623775724072601,
    "devise": "USD",
-   "prix_eur": 113.35745964142203,
+   "prix_eur": 113.36989056263288,
    "fondamental": 51.5,
    "fondamental_notes": [
     "P/E attendu 10.5 (actuel 16.2)",
@@ -4081,7 +4073,7 @@
    "pire_12m": -0.36256166826385827,
    "vs_marche_3m": -0.07393119579406293,
    "devise": "USD",
-   "prix_eur": 304.9210778747523,
+   "prix_eur": 304.9545159026208,
    "fondamental": 54.5,
    "fondamental_notes": [
     "chiffre d'affaires +10.2% sur un an",
@@ -4116,7 +4108,7 @@
    "pire_12m": -0.686784933502026,
    "vs_marche_3m": -0.3846827152312331,
    "devise": "HKD",
-   "prix_eur": 1.9018483880919448,
+   "prix_eur": 1.9027247662160998,
    "fondamental": 53.0,
    "fondamental_notes": [
     "chiffre d'affaires +43.1% sur un an",
@@ -4188,7 +4180,7 @@
    "pire_12m": -0.5639665866585014,
    "vs_marche_3m": -0.42718700187818215,
    "devise": "JPY",
-   "prix_eur": 7.053228929747095,
+   "prix_eur": 7.099024580049684,
    "fondamental": 48.0,
    "fondamental_notes": [
     "chiffre d'affaires +17.1% sur un an",
@@ -4224,7 +4216,7 @@
    "pire_12m": -0.24636110494480246,
    "vs_marche_3m": -0.422726542085997,
    "devise": "JPY",
-   "prix_eur": 17.2691359874423,
+   "prix_eur": 17.381262124362845,
    "fondamental": 49.5,
    "fondamental_notes": [
     "chiffre d'affaires +15.6% sur un an",
@@ -4259,7 +4251,7 @@
    "pire_12m": -0.3145465024064662,
    "vs_marche_3m": -0.12791716636850514,
    "devise": "GBp",
-   "prix_eur": 8.078855491790785,
+   "prix_eur": 8.08010896240851,
    "fondamental": 50.0,
    "fondamental_notes": [],
    "score_global": 67.3,
@@ -4285,7 +4277,7 @@
    "pire_12m": -0.6142685600226012,
    "vs_marche_3m": -0.20004509413134386,
    "devise": "USD",
-   "prix_eur": 40.84879762392618,
+   "prix_eur": 40.8532771543111,
    "fondamental": 49.0,
    "fondamental_notes": [
     "chiffre d'affaires +14.5% sur un an",
@@ -4321,7 +4313,7 @@
    "pire_12m": -0.46080788344689116,
    "vs_marche_3m": -0.22073172105543482,
    "devise": "GBp",
-   "prix_eur": 12.887982173019273,
+   "prix_eur": 12.889981801183444,
    "fondamental": 47.5,
    "fondamental_notes": [
     "secteur financier : chiffre d'affaires, marge et dette non comparables (points neutres)",
@@ -4387,7 +4379,7 @@
    "pire_12m": -0.6629213295023842,
    "vs_marche_3m": -0.4012655203940836,
    "devise": "CAD",
-   "prix_eur": 5.163095163378955,
+   "prix_eur": 5.160830976004035,
    "fondamental": 45.5,
    "fondamental_notes": [
     "chiffre d'affaires +29.2% sur un an",
@@ -4422,7 +4414,7 @@
    "pire_12m": -0.6762261726197811,
    "vs_marche_3m": -0.3308038584866524,
    "devise": "AUD",
-   "prix_eur": 8.690928359672597,
+   "prix_eur": 8.695862178635553,
    "fondamental": 43.0,
    "fondamental_notes": [
     "chiffre d'affaires +24.0% sur un an",
@@ -4458,7 +4450,7 @@
    "pire_12m": -0.6429714779561273,
    "vs_marche_3m": -0.2687734613916416,
    "devise": "JPY",
-   "prix_eur": 236.05909853908733,
+   "prix_eur": 237.59179796443092,
    "fondamental": 44.5,
    "fondamental_notes": [
     "chiffre d'affaires +36.4% sur un an",
@@ -4493,7 +4485,7 @@
    "pire_12m": -0.4130844701542805,
    "vs_marche_3m": -0.13993463548369378,
    "devise": "USD",
-   "prix_eur": 22.726188485179044,
+   "prix_eur": 22.72868066751425,
    "fondamental": 43.0,
    "fondamental_notes": [
     "chiffre d'affaires +3.1% sur un an",
@@ -4528,7 +4520,7 @@
    "pire_12m": -0.8306878331907552,
    "vs_marche_3m": -0.45988979507376504,
    "devise": "CAD",
-   "prix_eur": 5.093151973309005,
+   "prix_eur": 5.090918458327853,
    "fondamental": 45.0,
    "fondamental_notes": [
     "chiffre d'affaires +19.0% sur un an",
@@ -4564,7 +4556,7 @@
    "pire_12m": -0.504672885534596,
    "vs_marche_3m": -0.4302418015538151,
    "devise": "USD",
-   "prix_eur": 24.512923666857166,
+   "prix_eur": 24.515611784813537,
    "fondamental": 40.5,
    "fondamental_notes": [
     "chiffre d'affaires +35.7% sur un an",
@@ -4599,7 +4591,7 @@
    "pire_12m": -0.5705882361190955,
    "vs_marche_3m": -0.4815874616722904,
    "devise": "CAD",
-   "prix_eur": 3.0902270365785367,
+   "prix_eur": 3.088871870186972,
    "fondamental": 38.0,
    "fondamental_notes": [
     "chiffre d'affaires +58.7% sur un an",
@@ -4635,7 +4627,7 @@
    "pire_12m": -0.5803712884018097,
    "vs_marche_3m": -0.3298412997813177,
    "devise": "JPY",
-   "prix_eur": 18.502237929024957,
+   "prix_eur": 18.622370428119,
    "fondamental": 40.0,
    "fondamental_notes": [
     "chiffre d'affaires +18.8% sur un an",
@@ -4671,7 +4663,7 @@
    "pire_12m": -0.6900111158805884,
    "vs_marche_3m": -0.449521442853573,
    "devise": "USD",
-   "prix_eur": 11.70494424570295,
+   "prix_eur": 11.706227824570686,
    "fondamental": 34.0,
    "fondamental_notes": [
     "chiffre d'affaires -8.2% sur un an",
@@ -4707,7 +4699,7 @@
    "pire_12m": -0.3872695206044299,
    "vs_marche_3m": -0.20936752537878567,
    "devise": "USD",
-   "prix_eur": 48.86175905402165,
+   "prix_eur": 48.86711729580781,
    "fondamental": 34.0,
    "fondamental_notes": [
     "chiffre d'affaires -10.4% sur un an",
@@ -4744,7 +4736,7 @@
    "pire_12m": -0.4836325491163863,
    "vs_marche_3m": -0.45100616855731945,
    "devise": "USD",
-   "prix_eur": 265.40323977069943,
+   "prix_eur": 265.4323442228734,
    "fondamental": 36.5,
    "fondamental_notes": [
     "chiffre d'affaires +27.9% sur un an",
@@ -4779,7 +4771,7 @@
    "pire_12m": -0.6733576726586223,
    "vs_marche_3m": -0.42512498057195247,
    "devise": "USD",
-   "prix_eur": 9.73588836686872,
+   "prix_eur": 9.736956016598953,
    "fondamental": 34.0,
    "fondamental_notes": [
     "chiffre d'affaires +77.4% sur un an",
@@ -4815,7 +4807,7 @@
    "pire_12m": -0.41800275124040753,
    "vs_marche_3m": -0.3359888565868525,
    "devise": "USD",
-   "prix_eur": 82.18986008693044,
+   "prix_eur": 82.19887313007999,
    "fondamental": 29.5,
    "fondamental_notes": [
     "chiffre d'affaires +44.0% sur un an",
@@ -4850,7 +4842,7 @@
    "pire_12m": -0.8262523823715031,
    "vs_marche_3m": -0.3014575147646662,
    "devise": "USD",
-   "prix_eur": 28.870372332489065,
+   "prix_eur": 28.873538293731745,
    "fondamental": 32.5,
    "fondamental_notes": [
     "chiffre d'affaires +5.6% sur un an",
@@ -4885,7 +4877,7 @@
    "pire_12m": -0.5428571498081217,
    "vs_marche_3m": -0.44194442970204073,
    "devise": "AUD",
-   "prix_eur": 0.6276781529143824,
+   "prix_eur": 0.6280344842802986,
    "fondamental": 28.0,
    "fondamental_notes": [
     "chiffre d'affaires +73.3% sur un an",
@@ -4918,7 +4910,7 @@
    "pire_12m": -0.39742650992936224,
    "vs_marche_3m": -0.3663473611778253,
    "devise": "USD",
-   "prix_eur": 131.9176433218131,
+   "prix_eur": 131.93210957604677,
    "fondamental": 30.0,
    "fondamental_notes": [
     "chiffre d'affaires +29.9% sur un an",
@@ -4955,7 +4947,7 @@
    "pire_12m": -0.7115679686374465,
    "vs_marche_3m": -0.2978814255749812,
    "devise": "USD",
-   "prix_eur": 8.651083870141841,
+   "prix_eur": 8.652032558850271,
    "fondamental": 28.0,
    "fondamental_notes": [
     "chiffre d'affaires -3.9% sur un an",
@@ -4991,7 +4983,7 @@
    "pire_12m": -0.40822222674334496,
    "vs_marche_3m": -0.05964496247317996,
    "devise": "USD",
-   "prix_eur": 4984.665345007662,
+   "prix_eur": 4985.211969661763,
    "fondamental": 30.0,
    "fondamental_notes": [
     "chiffre d'affaires -8.2% sur un an",
@@ -5027,7 +5019,7 @@
    "pire_12m": -0.7239754897888857,
    "vs_marche_3m": -0.3919235914181983,
    "devise": "JPY",
-   "prix_eur": 30.644866770443066,
+   "prix_eur": 30.843839697051155,
    "fondamental": 23.0,
    "fondamental_notes": [
     "chiffre d'affaires +27.8% sur un an",
@@ -5063,7 +5055,7 @@
    "pire_12m": -0.47249137443789146,
    "vs_marche_3m": -0.34400720486068714,
    "devise": "USD",
-   "prix_eur": 46.74684731295814,
+   "prix_eur": 46.751973630870005,
    "fondamental": 18.0,
    "fondamental_notes": [
     "chiffre d'affaires +20.9% sur un an",
@@ -5098,7 +5090,7 @@
    "pire_12m": -0.5333216114857234,
    "vs_marche_3m": -0.4220785503594098,
    "devise": "JPY",
-   "prix_eur": 14.959924249617371,
+   "prix_eur": 15.057056990708373,
    "fondamental": 17.5,
    "fondamental_notes": [
     "P/E attendu 31.2",
@@ -5163,7 +5155,7 @@
    "pire_12m": -0.5844748847262531,
    "vs_marche_3m": -0.3388618139879812,
    "devise": "CAD",
-   "prix_eur": 5.843453578037172,
+   "prix_eur": 5.840891031076742,
    "fondamental": 9.0,
    "fondamental_notes": [
     "analystes : « achat » (1.6/5, 16 avis)",
