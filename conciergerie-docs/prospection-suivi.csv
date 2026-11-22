@@ -1,10 +1,9 @@
-Groupe;Structure;Personne de contact;Ville;Téléphone;E-mail;Canal prévu;Date 1er contact;Réponse;Rendez-vous;Date relance;Personnes orientées;Clients obtenus;Notes
-A;Service d'Aide aux Familles et Seniors du Borinage;;Colfontaine;;;Téléphone puis rendez-vous;;;;;;;Demander la coordinatrice ou l'assistante sociale
-A;EpiCURA, service social (site d'Hornu, à vérifier);;Boussu;;;Téléphone puis rendez-vous;;;;;;;Secrétariat du service social
-A;Mutualité (agence locale);;Pâturages / Wasmes / Frameries;;;Passage en agence;;;;;;;Demander le service social
-B;Proximilex;Maître Guillaume (à vérifier);Mons (rue de Bertaimont 42);;;E-mail puis appel;;;;;;;Lié à un huissier selon les registres : vérifier
-B;Cabinet d'Ormont;;Mons (boulevard Kennedy);;;E-mail puis appel;;;;;;;Administration de biens ?
-B;Cabinet d'avocats (Bruynog ?, orthographe à vérifier);;Dour;;;E-mail puis appel;;;;;;;
-B;Maître Yarnaud (orthographe à vérifier);;;;;E-mail puis appel;;;;;;;
-B;Maître Saint-Ouen Éloïse (orthographe à vérifier);;Cuesmes ?;;;E-mail puis appel;;;;;;;
-C;Structure de réinsertion pour personnes handicapées;;Ghlin ou Tertre;;;E-mail puis appel;;;;;;;Nom exact à retrouver
+Priorité;Structure;Personne de contact;Ville;Téléphone;E-mail;Canal prévu;Date 1er contact;Réponse;Rendez-vous;Date relance;Personnes orientées;Clients obtenus;Notes
+1;EpiCURA, service social (site d'Hornu, à vérifier);;Boussu;;;Appel le matin, puis visite;;;;;;;Présenter le Pack « Retour d'hôpital »
+2;Service d'Aide aux Familles et Seniors du Borinage;;Colfontaine;;;Appel le matin, puis rendez-vous;;;;;;;Demander la coordinatrice ou l'assistante sociale
+3;CPAS de Colfontaine, service social;;Colfontaine (Pâturages);065 71 82 30 (à vérifier);accueil@cpascolfontaine.be (à vérifier);Appel le matin, puis rendez-vous;;;;;;;Argument : éviter les retards de paiement et les dettes
+4;Commune de Colfontaine : PCS, échevin des aînés;;Colfontaine (place de Wasmes 22);065 88 73 40 (à vérifier);;Appel, e-mail, puis rendez-vous;;;;;;;Après 5 à 10 clients satisfaits. Demander un article dans le bulletin communal
+5;Mutualités (agences locales);;Pâturages / Wasmes / Frameries;;;Passage en agence;;;;;;;Demander le service social
+6;Pharmacies, infirmiers et kinés à domicile;;Pâturages / Wasmes / Warquignies;;;Dépôt de flyers;;;;;;;
+7;EPN, bibliothèque de Pâturages;;Colfontaine (place de Pâturages 19);065 88 74 40 (à vérifier);;Passage sur place;;;;;;;Échange d'orientation
+8;Structure de réinsertion pour personnes handicapées;;Ghlin ou Tertre;;;E-mail, puis appel;;;;;;;Nom exact à retrouver
