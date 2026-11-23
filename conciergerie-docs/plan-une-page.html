@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr-BE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plan Papiers en Paix</title>
+<style>
+  @font-face { font-family: "Atk"; src: url("../site-conciergerie/fonts/atkinson-hyperlegible-latin-400-normal.woff2"); font-weight: 400; }
+  @font-face { font-family: "Atk"; src: url("../site-conciergerie/fonts/atkinson-hyperlegible-latin-700-normal.woff2"); font-weight: 700; }
+  @font-face { font-family: "Lit"; src: url("../site-conciergerie/fonts/literata-latin-600-normal.woff2"); font-weight: 600; }
+  :root { --papier: #f6f2e9; --encre: #141c2b; --doux: #3a4150; --accent: #1d3c74; --filet: #cbc0aa; --fond2: #ece5d6; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; }
+  body {
+    background: var(--papier); color: var(--encre);
+    font-family: "Atk", Verdana, sans-serif; font-size: 12.5px; line-height: 1.28;
+    padding: 12px 10px; display: flex; flex-direction: column; gap: 7px;
+    max-width: 430px; margin: 0 auto;
+  }
+  h1 { font-family: "Lit", Georgia, serif; font-weight: 600; font-size: 22px; line-height: 1.1; }
+  h1 span { color: var(--accent); }
+  .bande { background: var(--encre); color: var(--papier); padding: 6px 8px; border-radius: 3px; }
+  .bande b { color: #c4d1ea; }
+  .horaire { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 4px; }
+  .horaire div { background: var(--fond2); padding: 5px 6px; border-top: 3px solid var(--accent); }
+  .horaire b { display: block; font-size: 12px; color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+  th { text-align: left; font-size: 10px; text-transform: uppercase; letter-spacing: .04em; color: var(--doux); border-bottom: 2px solid var(--encre); padding: 3px 3px; }
+  td { vertical-align: top; padding: 5px 3px; border-bottom: 1px solid var(--filet); }
+  td:first-child { font-family: "Lit", Georgia, serif; font-weight: 600; font-size: 15px; color: var(--accent); text-align: center; }
+  td b { font-size: 12.5px; }
+  tr.top td { background: #fffdf7; }
+  .col-n { width: 22px; } .col-qui { width: 36%; } .col-comment { width: 31%; }
+  .prix { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; text-align: center; }
+  .prix div { border: 1px solid var(--filet); padding: 4px 2px; background: #fffdf7; }
+  .prix strong { display: block; font-family: "Lit", Georgia, serif; font-size: 15px; }
+  .but { border: 2px solid var(--accent); padding: 6px 8px; }
+  .but b { color: var(--accent); }
+</style>
+</head>
+<body>
+  <h1>Papiers en Paix · <span>le plan</span></h1>
+
+  <div class="bande"><b>Avant tout :</b> n° BCE · assurance RC pro · extrait de casier judiciaire · flyers et cartes · demande d'horaire à l'école</div>
+
+  <div class="horaire">
+    <div><b>Semaine 8h30–10h15</b>Prospection : les services sont ouverts. Ou 1 visite.</div>
+    <div><b>Samedi 9h–17h</b>4 visites clients. Rencontrer les familles.</div>
+    <div><b>Stop à 17h15</b>Sport 18–20 h. Dimanche : 1 h de factures.</div>
+  </div>
+
+  <table>
+    <colgroup><col class="col-n"><col class="col-qui"><col class="col-comment"><col></colgroup>
+    <thead><tr><th>#</th><th>Qui aller voir</th><th>Comment</th><th>Pour obtenir</th></tr></thead>
+    <tbody>
+      <tr class="top"><td>1</td><td><b>Hôpital EpiCURA</b>, service social (Hornu)</td><td>Appel le matin, puis RDV 15 min</td><td>Qu'ils proposent le Pack Retour d'hôpital</td></tr>
+      <tr class="top"><td>2</td><td><b>Aide aux Familles et Seniors du Borinage</b></td><td>Appel, RDV avec la coordinatrice</td><td>Les aides familiales donnent ton n°</td></tr>
+      <tr class="top"><td>3</td><td><b>CPAS de Colfontaine</b>, service social</td><td>Appel, puis RDV</td><td>Orienter les aînés à risque de dettes</td></tr>
+      <tr><td>4</td><td><b>Mutualités</b> Pâturages, Wasmes, Frameries</td><td>Passage en agence</td><td>Le contact du service social</td></tr>
+      <tr><td>5</td><td><b>Pharmacies, infirmiers, kinés</b> à domicile</td><td>Dépôt de flyers</td><td>Qu'ils parlent de toi aux patients</td></tr>
+      <tr><td>6</td><td><b>EPN</b>, bibliothèque de Pâturages</td><td>Passage sur place</td><td>Échange : ils t'envoient les papiers</td></tr>
+      <tr><td>7</td><td><b>Commune</b> : PCS, échevin des aînés</td><td>E-mail + RDV, après 5 à 10 clients</td><td>Partenariat, bulletin communal</td></tr>
+      <tr><td>8</td><td><b>Réinsertion</b> Ghlin ou Tertre</td><td>E-mail, puis appel</td><td>Piste secondaire</td></tr>
+    </tbody>
+  </table>
+
+  <div class="prix">
+    <div>Visite<strong>30 €/h</strong></div>
+    <div>Retour d'hôpital<strong>85 €</strong></div>
+    <div>Suivi 3 mois<strong>85 €</strong></div>
+    <div>Suivi 12 mois<strong>330 €</strong></div>
+  </div>
+
+  <div class="but"><b>Objectif fin janvier :</b> 2 structures qui t'envoient des seniors · 5 clients en suivi mensuel · 1 RDV à la commune. <b>Ensuite :</b> 7 visites/semaine ≈ 900 €/mois.</div>
+</body>
+</html>
