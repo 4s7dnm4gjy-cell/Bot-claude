@@ -258,7 +258,7 @@ strong { font-weight: 700; }
   color: var(--accent);
 }
 .entete__accroche { font-size: 1.35rem; margin-bottom: 2rem; }
-.insecable { white-space: nowrap; }
+.entete__accroche { text-wrap: balance; }
 .entete__rassurance {
   margin: 1rem 0 0;
   font-size: 1.1rem;
