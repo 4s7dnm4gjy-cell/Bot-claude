@@ -258,7 +258,10 @@ strong { font-weight: 700; }
   color: var(--accent);
 }
 .entete__accroche { font-size: 1.35rem; margin-bottom: 2rem; }
-.entete__accroche { text-wrap: balance; }
+.accroche__partie { display: block; text-wrap: balance; }
+@media (max-width: 719px) { .entete__accroche { font-size: 1.25rem; } }
+@media (min-width: 360px) { .insecable { white-space: nowrap; } }
+@media (min-width: 720px) { .accroche__partie { display: inline; } }
 .entete__rassurance {
   margin: 1rem 0 0;
   font-size: 1.1rem;
