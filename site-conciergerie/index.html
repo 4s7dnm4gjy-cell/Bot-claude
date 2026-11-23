@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Aide administrative à domicile pour seniors à Colfontaine | Papiers en Paix</title>
-  <meta name="description" content="Enzo vient chez vous à Colfontaine et dans les communes voisines pour trier le courrier, suivre les factures d'hôpital et les remboursements de mutuelle. 30 € de l'heure, sans engagement.">
+  <meta name="description" content="Enzo vient chez vous à Colfontaine et dans les communes voisines pour trier le courrier, suivre les factures d'hôpital et les remboursements de mutuelle. 30 € de l'heure, ou des formules de suivi sans reconduction automatique.">
   <link rel="preload" href="fonts/atkinson-hyperlegible-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/style.css">
   <meta name="theme-color" content="#f6f2e9">
@@ -25,7 +25,7 @@
       "addressCountry": "BE"
     },
     "areaServed": "Colfontaine et communes voisines",
-    "priceRange": "30 € de l'heure",
+    "priceRange": "30 € de l'heure ; formules de 85 € à 330 €",
     "openingHoursSpecification": [
       { "@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens": "13:00", "closes": "18:00" },
       { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "12:30" }
@@ -67,7 +67,7 @@
             <div class="fiche__ligne"><dt>Tarif</dt><dd>30&nbsp;€ de l'heure</dd></div>
             <div class="fiche__ligne"><dt>Quand</dt><dd>Mercredi après-midi et samedi matin</dd></div>
             <div class="fiche__ligne"><dt>Où</dt><dd>Colfontaine et communes voisines</dd></div>
-            <div class="fiche__ligne"><dt>Engagement</dt><dd>Aucun. Facture à chaque visite.</dd></div>
+            <div class="fiche__ligne"><dt>Formules</dt><dd>Visite seule, ou suivi mensuel dès 85&nbsp;€. Jamais de reconduction automatique.</dd></div>
           </dl>
         </aside>
       </div>
@@ -173,7 +173,37 @@
               <li class="compte__total"><strong>Total</strong><span class="compte__montant">45&nbsp;€</span></li>
             </ul>
           </div>
-          <p class="sans-engagement">Pas d'abonnement, pas d'engagement.</p>
+        </div>
+
+        <div class="lecture formules-bloc">
+          <h3 class="formules-titre">Les formules</h3>
+          <p>Pour aller plus loin qu'une visite, ou pour ne plus jamais laisser le courrier s'accumuler.</p>
+          <ul class="formules">
+            <li class="formule">
+              <h4>Pack «&nbsp;Retour d'hôpital&nbsp;»</h4>
+              <p class="formule__prix">85&nbsp;€ <span>au lieu de <s>90&nbsp;€</s></span></p>
+              <p>3 visites d'1&nbsp;heure en 6 semaines. On remet tout en ordre après le séjour, puis on suit les factures et les remboursements jusqu'au bout.</p>
+            </li>
+            <li class="formule formule--conseil">
+              <p class="formule__badge">La plus choisie</p>
+              <h4>Suivi 3&nbsp;mois</h4>
+              <p class="formule__prix">85&nbsp;€ <span>au lieu de <s>90&nbsp;€</s></span></p>
+              <p>1 visite d'1&nbsp;heure par mois, toujours au même moment. Le courrier du mois, les échéances, la mutuelle.</p>
+            </li>
+            <li class="formule">
+              <h4>Suivi 12&nbsp;mois</h4>
+              <p class="formule__prix">330&nbsp;€ <span>au lieu de <s>360&nbsp;€</s></span></p>
+              <p>1 visite d'1&nbsp;heure par mois pendant un an. Soit un mois offert.</p>
+            </li>
+          </ul>
+          <ul class="compte regles">
+            <li><span>Reconduction automatique</span><span class="compte__montant">jamais</span></li>
+            <li><span>Rappel avant la fin de la formule</span><span class="compte__montant">15 jours et 2 jours avant</span></li>
+            <li><span>Arrêter en cours de route</span><span class="compte__montant">1 mois de préavis</span></li>
+            <li><span>Paiement</span><span class="compte__montant">par virement</span></li>
+          </ul>
+          <p class="sans-engagement">À la fin d'une formule, c'est vous qui décidez de continuer ou non. Rien ne se renouvelle tout seul.</p>
+          <p class="cadeau">Vous habitez loin de votre parent&nbsp;? Vous pouvez lui offrir une formule de suivi&nbsp;: vous recevez la facture, il reçoit la visite.</p>
         </div>
       </div>
     </section>
@@ -273,6 +303,10 @@
           <details>
             <summary>Comment se passe le paiement&nbsp;?</summary>
             <p>Je vous remets une facture à la fin de chaque visite. Vous la payez par virement. Je n'accepte pas d'argent liquide, et je ne fais jamais le virement à votre place.</p>
+          </details>
+          <details>
+            <summary>Est-ce un abonnement&nbsp;?</summary>
+            <p>Non, rien ne se renouvelle tout seul. Les formules durent 3 ou 12 mois. Je vous préviens 15 jours puis 2 jours avant la fin, et c'est vous qui décidez de continuer ou d'arrêter. Vous pouvez aussi arrêter en cours de route, avec un mois de préavis.</p>
           </details>
           <details>
             <summary>Que se passe-t-il si vous êtes en examens&nbsp;?</summary>
@@ -410,7 +444,7 @@
     <div class="flyer__bloc flyer__colonnes">
       <div>
         <h2>Tarif</h2>
-        <p>30&nbsp;€ de l'heure, une heure minimum, puis 15&nbsp;€ par demi-heure entamée. Déplacement inclus. Facture à chaque visite. Sans abonnement ni engagement.</p>
+        <p>30&nbsp;€ de l'heure, une heure minimum, puis 15&nbsp;€ par demi-heure entamée. Déplacement inclus. Facture à chaque visite. Formules : Retour d'hôpital (3 visites en 6 semaines) 85&nbsp;€, suivi 3 mois 85&nbsp;€, suivi 12 mois 330&nbsp;€. Jamais de reconduction automatique.</p>
       </div>
       <div>
         <h2>Disponibilités</h2>

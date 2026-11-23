@@ -430,6 +430,68 @@ strong { font-weight: 700; }
 .compte__total .compte__montant { border-bottom: 4px double var(--encre); }
 .sans-engagement { margin: 1.5rem 0 0; font-weight: 700; }
 
+/* ---------- Formules ---------- */
+.formules-bloc { margin-top: 3rem; }
+.formules-titre { font-size: 1.75rem; }
+.formules {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+  display: grid;
+  gap: 1rem;
+}
+.formule {
+  background: var(--carte);
+  border: 1px solid var(--filet);
+  border-top: 4px solid var(--encre);
+  padding: 1.25rem;
+}
+.formule--conseil { border: 2px solid var(--accent); border-top-width: 6px; }
+.formule h4 {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.35rem;
+  margin: 0 0 0.25rem;
+}
+.formule p { margin: 0 0 0.5rem; }
+.formule p:last-child { margin-bottom: 0; }
+.formule__badge {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 0.15rem 0.6rem;
+  border-radius: 3px;
+}
+.formule__prix {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.1;
+}
+.formule__prix span {
+  font-family: var(--sans);
+  font-weight: 400;
+  font-size: 1.05rem;
+  color: var(--encre-douce);
+}
+.regles { margin-top: 0.5rem; }
+.regles li { flex-wrap: wrap; column-gap: 0.5rem; row-gap: 0; padding: 0.6rem 0; border-bottom: 1px solid var(--filet); }
+.regles li::after { display: none; }
+.regles .compte__montant { order: 0; }
+@media (min-width: 720px) {
+  .regles li { flex-wrap: nowrap; border-bottom: 0; padding: 0.45rem 0; }
+  .regles li::after { display: block; }
+  .regles .compte__montant { order: 3; }
+}
+.cadeau {
+  margin-top: 1rem;
+  padding-left: 0.9rem;
+  border-left: 3px solid var(--accent);
+}
+
 /* ---------- Mes engagements : le bandeau sombre ---------- */
 .section.engagements {
   background: var(--sombre);
@@ -655,6 +717,8 @@ strong { font-weight: 700; }
   .bouton--grand { width: auto; }
   .citation { font-size: 2.1rem; }
   .services { grid-template-columns: 1fr 1fr; column-gap: 2.5rem; }
+  .formules { grid-template-columns: repeat(3, 1fr); }
+  .formules-bloc { max-width: none; }
   .etapes { grid-template-columns: repeat(3, 1fr); gap: 2rem; }
   .fiche__ligne { grid-template-columns: 8.5rem 1fr; gap: 1rem; align-items: baseline; }
   .qui { grid-template-columns: 18rem 1fr; gap: 3rem; align-items: start; }
