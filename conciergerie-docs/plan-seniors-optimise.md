@@ -16,8 +16,8 @@ Cette version retire les cabinets d'avocats (une autre idée) et part de ton vra
 |---|---|---|
 | **En semaine, avant les cours** (par exemple 8 h 30 à 10 h 15 quand tu commences à 11 h) | **1 visite client** ou **2 démarches** de prospection | Les seniors sont levés et disponibles. Les services sociaux ouvrent vers 8 h 30 : c'est **le seul moment où tu peux les joindre**, car ils sont fermés le week-end. |
 | **En semaine, après les cours** (si tu finis avant 15 h 30) | **1 visite client** | Créneau court, à garder pour les clients réguliers proches de chez toi. |
-| **Samedi** 9 h à 12 h 30 et 14 h à 17 h | **4 visites** | Ton gros créneau. Les familles sont souvent présentes : c'est le moment de rencontrer les enfants, qui paient. |
-| **Dimanche** | **1 heure d'administration** (factures, fichier de suivi, rappels) et **1 visite au maximum**, seulement si la famille la demande | Garde du repos : la régularité compte plus que le volume. |
+| **Samedi après-midi** 13 h à 17 h | **2 à 3 visites** | Les familles sont souvent présentes : c'est le moment de rencontrer les enfants, qui paient. |
+| **Dimanche** 10 h à 17 h | **2 visites** et 1 heure d'administration (factures, suivi, rappels) | Les enfants rendent souvent visite à leurs parents le dimanche. |
 
 **Une visite prend en réalité 1 h 30** : 1 h chez la personne et environ 30 minutes de trajet. C'est cette durée qui fixe ton nombre de visites possibles.
 
@@ -33,9 +33,9 @@ Base de calcul : **40 € par visite en moyenne** (entre 1 h et 1 h 30), **38 se
 
 | Scénario | Visites par semaine | D'où elles viennent | Chiffre d'affaires par an | En moyenne par mois |
 |---|---|---|---|---|
-| **1. Démarrage** (mois 1 à 3) | 4 | Le samedi seulement | **≈ 6 100 €** | ≈ 500 € |
-| **2. Réaliste** (après 6 mois) | 7 | 4 le samedi et 3 en semaine | **≈ 10 600 €** | ≈ 900 € |
-| **3. Avec un partenariat communal** | 10 | 4 à 5 le samedi, 5 en semaine, avec 2 matinées libérées par l'école | **≈ 15 200 €** | ≈ 1 270 € |
+| **1. Démarrage** (mois 1 à 3) | 4 | Le week-end seulement | **≈ 6 100 €** | ≈ 500 € |
+| **2. Réaliste** (après 6 mois) | 7 | 4 le week-end et 3 en semaine | **≈ 10 600 €** | ≈ 900 € |
+| **3. Avec un partenariat communal** | 10 | 4 à 5 le week-end, 5 en semaine, avec 2 matinées libérées par l'école | **≈ 15 200 €** | ≈ 1 270 € |
 
 **Ce qu'il faut pour remplir ces créneaux :** environ **20 clients en suivi mensuel** (une visite par mois chacun, soit 5 par semaine), plus quelques visites ponctuelles. Le suivi mensuel est donc la clé (section 4).
 
@@ -72,7 +72,7 @@ Ce sont tous des **prescripteurs** : des professionnels qui voient des seniors d
 
 ### Et le week-end ?
 
-Les prescripteurs sont fermés, mais les **familles** sont là. Le samedi, tu peux :
+Les prescripteurs sont fermés, mais les **familles** sont là. Le week-end, tu peux :
 - laisser des flyers dans les **pharmacies, boulangeries et salles d'attente** de Pâturages, Wasmes et Warquignies, avec l'accord du commerçant ;
 - profiter de tes visites pour **rencontrer les enfants** des clients et leur proposer le suivi mensuel.
 
@@ -84,7 +84,7 @@ Les prescripteurs sont fermés, mais les **familles** sont là. Le samedi, tu pe
 |---|---|---|
 | **Visite ponctuelle** | 1 h minimum, puis par demi-heure | 30 € / h, puis 15 € par demi-heure entamée |
 | **Pack « Retour d'hôpital »** | 3 visites en 6 semaines : tout remettre en ordre, puis suivre les remboursements | **85 €** au lieu de 90 € |
-| **Suivi 3 mois** (la formule à pousser) | 1 visite d'1 h par mois, **toujours le même créneau** (par exemple le 1er samedi du mois à 10 h) | **85 €** |
+| **Suivi 3 mois** (la formule à pousser) | 1 visite d'1 h par mois, **toujours le même créneau** (par exemple le 1er dimanche du mois à 10 h) | **85 €** |
 | **Suivi 12 mois** | Idem, sur un an | **330 €** au lieu de 360 € |
 
 Les règles qui rassurent :
@@ -117,7 +117,7 @@ Si la commune ou le CPAS t'envoie régulièrement des personnes, ton activité g
 **Ce que tu peux proposer :**
 - **une orientation officielle** : le CPAS, le Plan de cohésion sociale et le service des aînés donnent ton numéro aux seniors qui en ont besoin ;
 - **un article dans le bulletin communal de Colfontaine**, distribué dans toutes les boîtes aux lettres. Un « jeune de Colfontaine qui aide les aînés » est un sujet qui intéresse la commune ;
-- **des permanences** à la bibliothèque ou dans un lieu communal, par exemple un samedi matin par mois, pour rencontrer des seniors sur place ;
+- **des permanences** à la bibliothèque ou dans un lieu communal, par exemple un samedi après-midi par mois, pour rencontrer des seniors sur place ;
 - **à plus long terme, un financement** : la Wallonie a déjà lancé des appels à projets « Aide aux seniors » dans son plan d'inclusion numérique. Une commune ou un CPAS peut y répondre avec un partenaire de terrain. Rien n'est garanti, mais c'est la question à poser.
 
 **Comment t'y prendre :**
@@ -205,7 +205,7 @@ Pour tes cibles, **le contact direct marche mieux que l'e-mail**. Les assistante
 
 ## 8. Le plan sur 8 semaines
 
-| Semaine | Matins en semaine (avant les cours) | Samedi | Objectif |
+| Semaine | Matins en semaine (avant les cours) | Week-end | Objectif |
 |---|---|---|---|
 | **0** | BCE, assurance, casier judiciaire, demande d'aménagement à l'école | Imprimer flyers et cartes | Tout est prêt |
 | **1** | Appels : EpiCURA, SAFSB, CPAS | Flyers dans 5 commerces | 3 rendez-vous fixés |

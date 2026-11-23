@@ -27,8 +27,9 @@
     "areaServed": "Colfontaine et communes voisines",
     "priceRange": "30 € de l'heure ; formules de 85 € à 330 €",
     "openingHoursSpecification": [
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens": "13:00", "closes": "18:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "12:30" }
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "08:30", "closes": "12:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "13:00", "closes": "17:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:00", "closes": "17:00" }
     ],
     "taxID": "[NUMÉRO BCE]"
   }
@@ -53,7 +54,7 @@
         <div>
           <p class="entete__surtitre">Aide administrative à domicile · Colfontaine</p>
           <h1>Vos papiers en ordre, <em>sans vous presser.</em></h1>
-          <p class="entete__accroche">Je m'appelle Enzo. Je viens chez vous pour trier le courrier, suivre les factures de santé et les remboursements de la mutuelle. On avance ensemble, à votre rythme.</p>
+          <p class="entete__accroche">Je m'appelle Enzo. Je viens chez vous pour trier le courrier, suivre les factures de santé et <span class="insecable">les remboursements de la mutuelle</span>. On avance ensemble, à votre rythme.</p>
           <a class="bouton bouton--grand" href="tel:+32495620910">
             Appeler Enzo
             <span class="bouton__detail">0495&nbsp;62&nbsp;09&nbsp;10</span>
@@ -65,7 +66,7 @@
           <h2 class="fiche__titre" id="t-fiche">En bref</h2>
           <dl>
             <div class="fiche__ligne"><dt>Tarif</dt><dd>30&nbsp;€ de l'heure</dd></div>
-            <div class="fiche__ligne"><dt>Quand</dt><dd>Mercredi après-midi et samedi matin</dd></div>
+            <div class="fiche__ligne"><dt>Quand</dt><dd>En semaine le matin, le samedi après-midi et le dimanche</dd></div>
             <div class="fiche__ligne"><dt>Où</dt><dd>Colfontaine et communes voisines</dd></div>
             <div class="fiche__ligne"><dt>Formules</dt><dd>Visite seule, ou suivi mensuel dès 85&nbsp;€. Jamais de reconduction automatique.</dd></div>
           </dl>
@@ -120,7 +121,6 @@
             <tr><th scope="col">Je ne fais pas</th><th scope="col">Adressez-vous plutôt à</th></tr>
           </thead>
           <tbody>
-            <tr><th scope="row">La déclaration d'impôts</th><td>un comptable, ou le SPF Finances</td></tr>
             <tr><th scope="row">Les successions</th><td>un notaire</td></tr>
             <tr><th scope="row">Les litiges</th><td>un avocat, ou un service d'aide juridique</td></tr>
             <tr><th scope="row">Les soins</th><td>votre médecin ou votre infirmier</td></tr>
@@ -283,7 +283,7 @@
             <li>Ou, avec l'accord du patient, appelez-moi vous-même pour fixer une première visite.</li>
             <li>Imprimez le flyer et laissez-le au domicile ou dans votre salle d'attente.</li>
           </ol>
-          <p class="pros__note">Je ne fais ni soins, ni démarches juridiques ou fiscales. Je ne demande aucune information médicale&nbsp;: je trie et je suis les papiers que la personne me montre, chez elle.</p>
+          <p class="pros__note">Je ne fais ni soins, ni démarches juridiques. Je ne demande aucune information médicale&nbsp;: je trie et je suis les papiers que la personne me montre, chez elle.</p>
           <div class="actions">
             <button type="button" class="bouton" id="imprimer-flyer">Imprimer le flyer (A4)</button>
             <a class="bouton bouton--contour" href="tel:+32495620910">Appeler&nbsp;: 0495&nbsp;62&nbsp;09&nbsp;10</a>
@@ -381,7 +381,7 @@
             </div>
             <div>
               <dt>Disponibilités</dt>
-              <dd>Mercredi après-midi et samedi matin.</dd>
+              <dd>En semaine le matin, le samedi après-midi et le dimanche.</dd>
             </div>
           </dl>
           <p class="avertissement lecture">N'envoyez aucun document ni information médicale par e-mail. On regarde vos papiers ensemble, chez vous.</p>
@@ -426,7 +426,7 @@
       <div>
         <h2>Ce que je ne fais pas</h2>
         <ul>
-          <li>Impôts, successions, litiges (je renvoie vers un professionnel)</li>
+          <li>Successions, litiges (je renvoie vers un professionnel)</li>
           <li>Soins</li>
           <li>Aide ménagère</li>
         </ul>
@@ -450,7 +450,7 @@
       </div>
       <div>
         <h2>Disponibilités</h2>
-        <p>Mercredi après-midi et samedi matin.<br>Colfontaine et communes voisines (15&nbsp;minutes maximum).</p>
+        <p>En semaine le matin, le samedi après-midi et le dimanche.<br>Colfontaine et communes voisines (15&nbsp;minutes maximum).</p>
       </div>
     </div>
 

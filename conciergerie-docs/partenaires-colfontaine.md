@@ -43,7 +43,7 @@ Deux règles à garder en tête :
 > - suivre les remboursements de la mutuelle ;
 > - l'aider à faire ses paiements en ligne, en la laissant toujours taper elle-même ses codes.
 >
-> Je ne m'occupe ni des impôts, ni des successions, ni des litiges : je renvoie alors vers les professionnels.
+> Je ne m'occupe ni des successions, ni des litiges : je renvoie alors vers les professionnels.
 >
 > Je m'engage par écrit à ne jamais demander de codes bancaires ni de mots de passe, à ne prendre aucune procuration, à ne pas toucher à l'argent liquide, à ne garder aucune copie des documents et à respecter la confidentialité.
 >
